@@ -122,3 +122,25 @@ Written 2026-10-12. **No live research was possible for this pack.** The shared 
 - **Persona.** Mariam Hassan, female, Egyptian, Cairo, from roster.json. Arabic name مريم حسن is added under `persona.ar` (as in the GCC packs), since EG's UI language is Arabic. The degree is "BCom in Accounting" (بكالوريوس التجارة، شعبة المحاسبة), the standard Egyptian commerce degree. The employer "Mokattam Holding Group" (named after the Mokattam district of Cairo) and its subsidiary "Mokattam Trading" are fictional.
 - **People.** Ten common Egyptian names, five women and five men, each with an Arabic spelling under `ar`.
 - **Arabic register.** "neutral" per `base.json`, closer to formal; no Egyptian dialect in UI strings. The rights options use gender-neutral first-person phrasing where possible ("أحمل الجنسية المصرية"), as in DZ. Proper names follow local usage: القاهرة، الجيزة، الإسكندرية، العاشر من رمضان، السويس، المنصورة، الغردقة، القرية الذكية، العاصمة الإدارية الجديدة. The country is "l'Égypte" / "en Égypte" in French.
+
+## Fact-check pass (2026-10-12)
+No live checks were possible in this pass either: the shared WebSearch budget was used up, WebFetch could not resolve hosts, and the egress proxy refused direct fetches by policy (en.wikipedia.org and support.apple.com returned CONNECT 403). The review below is a check against background knowledge and the sibling packs, so the **[verify]** items above stay open.
+- **Changed: the 10% cap is now "generally" / "as a general rule"** in `rights.opts[3].sub`, `rights.rule` and `nationalisation.desc`, in all three languages. The 10% limit is the general rule under the ministerial decrees on foreigners' work permits, but it is not absolute. Investment Law No. 72 of 2017 (Art. 8, as I recall) lets investment projects go up to 20% when qualified Egyptians are not available, and some project types have their own rules. The copy gives no 20% figure because it could not be checked live.
+- **Checked, no change:**
+  - VAT 14%, shown as included.
+  - Payments: Meeza is a national scheme (the engine knows the `meeza` brand), plus Fawry reference codes and mobile wallets (the engine has `fawry` and `mwallet` tiles).
+  - `autoFor: ["EG"]` only.
+  - Ministry of Labour name, after the 2024 rename from Ministry of Manpower.
+  - Labour Law No. 14 of 2025, in force from 1 September 2025.
+  - Smart Village (Giza) for Vodafone, WE, Fawry and EFG Holding; CIB in Giza; Elsewedy in New Cairo.
+  - Current names: EFG Holding, MNT-Halan, talabat.
+  - Arabic and French spellings of cities and employers.
+  - Feminine persona title (محللة مالية / Analyste financière).
+  - Neutral, formal-leaning Arabic register.
+  - 50,000 EGP gross a month is a plausible central figure for 8 years in Cairo, about USD 1,000. That is below the JO and MA packs in USD, as expected after the 2024 float.
+- **Open doubts (highest first):**
+  1. Apple Pay and Google Pay may have launched in Egypt with local banks in 2025. If so, `wallets` should include them. Kept `[]` as the conservative option.
+  2. Whether Labour Law 14/2025 and its new decrees kept the 10% cap and the 2-month notice period (`noticeDays: 60`).
+  3. Head-office city for Orange Egypt (Cairo or Smart Village), TMG (possibly Dokki, Giza) and Misr Insurance (Dokki or Cairo).
+  4. Carrefour Egypt is still under the Carrefour brand. Majid Al Futtaim replaced it with HyperMax in JO, OM, KW and BH, but I know of no such change for Egypt.
+  5. Salary level, which ages fast with inflation.

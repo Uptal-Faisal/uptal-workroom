@@ -10,7 +10,7 @@
  "workweek": "mon-fri",
  "cities": [
   {"id":"stockholm","en":"Stockholm","ar":"ستوكهولم","fr":"Stockholm",
-   "metro":{"en":"Stockholm covers the metro area, including Solna, Sundbyberg, Kista, Nacka, Södertälje and Arlanda.","ar":"تشمل ستوكهولم المنطقة الحضرية المحيطة بها، ومنها سولنا وسوندبيبري وكيستا وناكا وسودرتاليه ومنطقة مطار أرلاندا.","fr":"Stockholm couvre toute l'agglomération, dont Solna, Sundbyberg, Kista, Nacka, Södertälje et Arlanda."}},
+   "metro":{"en":"Stockholm covers the metro area, including Solna, Sundbyberg, Kista, Nacka, Södertälje and Arlanda.","ar":"تشمل ستوكهولم المنطقة الحضرية المحيطة بها، ومنها سولنا وسوندبيبري وشيستا وناكا وسودرتاليه ومنطقة مطار أرلاندا.","fr":"Stockholm couvre toute l'agglomération, dont Solna, Sundbyberg, Kista, Nacka, Södertälje et Arlanda."}},
   {"id":"gothenburg","en":"Gothenburg","ar":"يوتيبوري","fr":"Göteborg",
    "metro":{"en":"Gothenburg includes Mölndal, Partille and the port area.","ar":"تشمل يوتيبوري مولندال وبارتيله ومنطقة الميناء.","fr":"Göteborg inclut Mölndal, Partille et la zone portuaire."}},
   {"id":"malmo","en":"Malmö","ar":"مالمو","fr":"Malmö",
@@ -132,7 +132,7 @@
  "certs": [
   {"id":"cfa","en":"CFA","ar":"محلل مالي معتمد (CFA)","fr":"CFA"},
   {"id":"revisor","en":"Authorised Public Accountant (auktoriserad revisor)","ar":"مدقق حسابات معتمد (auktoriserad revisor)","fr":"Commissaire aux comptes agréé (auktoriserad revisor)"},
-  {"id":"srf","en":"Authorised Accounting Consultant (SRF)","ar":"مستشار محاسبي معتمد (SRF)","fr":"Expert-comptable agréé SRF (auktoriserad redovisningskonsult)"},
+  {"id":"srf","en":"Authorised Accounting Consultant (SRF)","ar":"مستشار محاسبي معتمد (SRF)","fr":"Consultant comptable agréé SRF (auktoriserad redovisningskonsult)"},
   {"id":"acca","en":"ACCA","ar":"ACCA","fr":"ACCA"}
  ],
  "unis": [

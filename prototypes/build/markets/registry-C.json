@@ -1,0 +1,1009 @@
+{
+ "entities": {
+  "p.first": {
+   "cat": "persona",
+   "en": "Noura",
+   "ar": "نورة",
+   "arn": "نورة",
+   "fr": "Noura",
+   "scope": "persona",
+   "archetype": "Demo user's first name: a common Saudi female first name. Greetings (msaHi, wH1, hHi, uhHi, m0gk 'Hi Noura,'), designer lens notes that name her in the 3rd person. Arabic copy around it addresses her in feminine forms ({@g:} territory, not this id).",
+   "map": "pack persona.first (Latin) and the persona's Arabic-script first name (pack persona.ar / nameAr) in ar and arn; a typical first name for the persona's nationality and gender (roster.json)",
+   "count": 50,
+   "keys": [
+    "msaHi",
+    "wH1",
+    "hHi",
+    "uhHi",
+    "lensSessionDetail",
+    "m0gk",
+    "lensDjT",
+    "lensDjE"
+   ]
+  },
+  "p.last": {
+   "cat": "persona",
+   "en": "Al-Amri",
+   "ar": "العمري",
+   "arn": "العمري",
+   "fr": "Al-Amri",
+   "scope": "persona",
+   "archetype": "Family name alone. Only in the formal employer salutation mlGreet EN 'Dear Ms. Al-Amri,' and in the HM_NAME_EN / HM_RX.nameAr privacy regexes (code). Write the salutation as 'Dear {@g:Mr.|Ms.} {@p.last},'.",
+   "map": "pack persona.last; Arabic-script family name for ar/arn (keep a leading ال when it is part of the name, e.g. السيد، البوسعيدي)",
+   "count": 3,
+   "keys": [
+    "mlGreet",
+    "HM_NAME_EN L14301",
+    "HM_RX.nameAr L14314"
+   ]
+  },
+  "p.full": {
+   "cat": "persona",
+   "en": "Noura Al-Amri",
+   "ar": "نورة العمري",
+   "arn": "نورة العمري",
+   "fr": "Noura Al-Amri",
+   "scope": "persona",
+   "archetype": "Full name: sidebar name, mail signatures (rsDraftTx, mrd1-mrd4), report header 'Prepared for' (AR لنورة العمري = ل{@p.full}), CV name on every CV paper (cvView, cvEdit, cvReview, cvtOffer, cvtStudio, cvtSent), cvtailor CV.name / CV.nameAr, coverLetter() signature.",
+   "map": "pack persona first + ' ' + last (Latin); Arabic-script full name in ar/arn",
+   "count": 37,
+   "keys": [
+    "rpDocFor",
+    "rsDraftTx",
+    "mrd1",
+    "mrd2",
+    "mrd3",
+    "mrd4",
+    "sdName",
+    "mlGreet"
+   ]
+  },
+  "p.ini": {
+   "cat": "persona",
+   "en": "NA",
+   "ar": "ن",
+   "arn": "ن",
+   "fr": "NA",
+   "scope": "persona",
+   "archetype": "Avatar initials (sdAv). Latin = 2 letters, Arabic = the first letter of the Arabic first name only.",
+   "map": "Latin: first letter of the first name + first letter of the family name after any particle (Al-, El-, de, van: Sanne de Vries -> SV, Youssef El Amrani -> YA); Arabic: first letter of the Arabic first name",
+   "count": 4,
+   "keys": [
+    "sdAv"
+   ]
+  },
+  "p.email": {
+   "cat": "persona",
+   "en": "noura.alamri@email.com",
+   "ar": "noura.alamri@email.com",
+   "arn": "noura.alamri@email.com",
+   "fr": "noura.alamri@email.com",
+   "scope": "persona",
+   "archetype": "Login / account email. Not in the dictionaries: HTML values and text (#loginEmail, #otpEmail, acEmailT row, bdN1 row, #emailNew), ACCT_EMAIL (L9491), PV.email fallback (L13192), buildCV meta line (L9370).",
+   "map": "pack persona.email: first.last@email.com in lowercase ASCII, accents and particles dropped (lucia.fernandez@email.com, sanne.devries@email.com); always the reserved demo domain email.com",
+   "count": 12,
+   "keys": [
+    "#loginEmail L4343",
+    "#otpEmail L4360",
+    "acEmailT row L6304",
+    "bdN1 row L7043",
+    "#emailNew L7363",
+    "ACCT_EMAIL L9491",
+    "PV.email L13192",
+    "buildCV L9370"
+   ]
+  },
+  "p.phone": {
+   "cat": "persona",
+   "en": "0551234567",
+   "ar": "0551234567",
+   "arn": "0551234567",
+   "fr": "0551234567",
+   "scope": "persona",
+   "archetype": "The persona's own mobile, typed into a screening answer to demo PII blocking (hmSimBlk: 'You can reach me on 0551234567.'). Written the local way: national trunk 0, no spaces, no country code. The HM_PH regexes that catch it (+966 / 00966 / 05x) are code and belong to phone.*.",
+   "map": "the pack persona.phone written as a local types it in a chat: national format, no spaces, no country code (GB 07700900123, FR 0612345678, AE 0501234567, US 2125550123); must still match the residence/target phone-detection regexes",
+   "count": 2,
+   "keys": [
+    "hmSimBlk",
+    "HM_PH L14319-14325"
+   ]
+  },
+  "p.file": {
+   "cat": "persona",
+   "en": "Noura_AlAmri",
+   "ar": "Noura_AlAmri",
+   "arn": "Noura_AlAmri",
+   "fr": "Noura_AlAmri",
+   "scope": "persona",
+   "archetype": "CV file-name stem: 'Noura_AlAmri.pdf' (chAttCvF, sdSh1 row, chAttCv row, sessionDetail) and 'Noura_AlAmri_CV_2026.pdf · 412 KB' (#cvPicked). Tokenize as {@p.file}.pdf and {@p.file}_CV_2026.pdf.",
+   "map": "First_Last in ASCII, particles glued without hyphen or space (Sophie_Carter, Sanne_deVries, Youssef_ElAmrani, Ciaran_Byrne); same in every UI language",
+   "count": 5,
+   "keys": [
+    "chAttCvF",
+    "#cvPicked L6190",
+    "sdSh1 row L7098",
+    "chAttCv row L7305"
+   ]
+  },
+  "p.ref": {
+   "cat": "persona",
+   "en": "uptal.com/r/noura",
+   "ar": "uptal.com/r/noura",
+   "arn": "uptal.com/r/noura",
+   "fr": "uptal.com/r/noura",
+   "scope": "persona",
+   "archetype": "Personal referral link on the refer card (L6274) and in the copy-to-clipboard handler (L8140).",
+   "map": "uptal.com/r/ + the persona's first name in lowercase ASCII (uptal.com/r/sophie, uptal.com/r/ciaran)",
+   "count": 3,
+   "keys": [
+    "refer card L6274",
+    "copyBtn L8140"
+   ]
+  },
+  "p.li": {
+   "cat": "persona",
+   "en": "linkedin.com/in/noura-alamri",
+   "ar": "linkedin.com/in/noura-alamri",
+   "arn": "linkedin.com/in/noura-alamri",
+   "fr": "linkedin.com/in/noura-alamri",
+   "scope": "persona",
+   "archetype": "LinkedIn profile slug on the downloadable CV contact line (buildCV L9370).",
+   "map": "linkedin.com/in/first-last in lowercase ASCII (linkedin.com/in/sanne-devries)",
+   "count": 2,
+   "keys": [
+    "buildCV L9370"
+   ]
+  },
+  "p.city": {
+   "cat": "persona",
+   "en": "Riyadh",
+   "ar": "الرياض",
+   "arn": "الرياض",
+   "fr": "Riyad",
+   "scope": "persona",
+   "archetype": "Where the persona lives and has worked: the CV headline ('Financial Analyst · Riyadh'), experience lines ('8 years in Riyadh', 'across Riyadh business units', 'You led this on SAP in Riyadh'), drafted answers (qaD2c, hmDA1, hmAB1), Musaed memory (msaKnowList, first Riyadh of msaMemItems), the local price anchor 'A human coach in Riyadh' (py1, jpAnchor) and 'job seekers in Riyadh' (hrHiP). NOT the target-market city.riyadh used for jobs, offices, market bands ('Finance roles in Riyadh are up', cvrRaiseS, nt5s, MSAQ 'your Riyadh band') and NOT the seller city inside legal.seller. AR takes prefixes: في {@p.city}, ب{@p.city} (بالرياض).",
+   "map": "the persona's home city name from roster.json city / pack persona.city resolved through the pack cities[] names (Dubai, London, Cairo); for X-* personas the city they live in (Cairo, Bengaluru, Casablanca), not the target's primary city",
+   "count": 95,
+   "keys": [
+    "wr1s",
+    "msaKnowList",
+    "msaMemItems",
+    "swc3W1s",
+    "swc4W1s",
+    "swc7W1s",
+    "swc10W1s",
+    "hmDA1"
+   ]
+  },
+  "p.loc": {
+   "cat": "persona",
+   "en": "Riyadh, Saudi Arabia",
+   "ar": "الرياض، السعودية",
+   "arn": "الرياض، المملكة العربية السعودية",
+   "fr": "Riyad, Arabie saoudite",
+   "scope": "persona",
+   "archetype": "CV contact line location in the downloadable CV (buildCV L9370, EN only in v5; ar/arn/fr here are new).",
+   "map": "'<p.city>, <residence country name>' as written on a CV contact line (Dubai, United Arab Emirates; Cairo, Egypt)",
+   "count": 2,
+   "keys": [
+    "buildCV L9370"
+   ]
+  },
+  "p.tz": {
+   "cat": "persona",
+   "en": "Riyadh time",
+   "ar": "توقيت الرياض",
+   "arn": "توقيت الرياض",
+   "fr": "heure de Riyad",
+   "scope": "persona",
+   "archetype": "Time-zone label under advisor booking and session times: bsSubPre 'Riyadh time. Sessions with', sdRiyadh ', Riyadh time.', bookSlot / sessionDetail HTML, the ICS export (bkIcs L10492). AR is written بتوقيت الرياض: tokenize ب{@p.tz}.",
+   "map": "the persona's local time zone named the way locals say it: '<home city> time' in single-zone countries (Dubai time, Cairo time, UK time for London), the zone name in multi-zone ones (Eastern Time for New York and Toronto, Sydney time); AR توقيت <city> (توقيت غرينتش is wrong for London: use توقيت لندن); FR heure de <ville> / heure de l'Est",
+   "count": 10,
+   "keys": [
+    "bsSubPre",
+    "sdRiyadh",
+    "bookSlot L6983",
+    "sessionDetail L7093",
+    "bkIcs L10492"
+   ]
+  },
+  "p.title": {
+   "cat": "persona",
+   "en": "Financial Analyst",
+   "ar": "محللة مالية",
+   "arn": "محللة مالية",
+   "fr": "Analyste financière",
+   "scope": "persona",
+   "archetype": "The persona's current job title, gendered in AR/FR: CV headline 'Financial Analyst · Riyadh' (cvView, cvEdit, cvtOffer, cvtSent), msaKnowList / msaMemItems (محللة مالية), wr1s (v5 writes the neutral masculine محلل مالي there: {@p.title|محلل مالي}), MSAQ car1 'the next step up from Financial Analyst'. Target titles (Senior Financial Analyst, FP&A Manager, Head of Finance) are role words, not this id.",
+   "map": "pack persona.title in the persona's gender (AR محلل مالي / محللة مالية, FR Analyste financier / financière)",
+   "count": 20,
+   "keys": [
+    "msaKnowList",
+    "msaMemItems",
+    "wr1s",
+    "cvView .cvpaper",
+    "cvtOffer .cvt-hd",
+    "CV.head L13604",
+    "MSAQ car1"
+   ]
+  },
+  "p.employer": {
+   "cat": "persona",
+   "en": "Acme Financial",
+   "ar": "Acme Financial",
+   "arn": "Acme Financial",
+   "fr": "Acme Financial",
+   "scope": "persona",
+   "archetype": "The persona's current (fictional) employer: blocklist 'Your current employer' rows (L4627, L6123), cvrD1s 'Acme Financial, January 2026' (AR أكمي فاينانشال: {@p.employer|أكمي فاينانشال}), hmSimBlkAns, the blocklist-demo comment in the hiring-messages module.",
+   "map": "pack persona.employer: a fictional but plausible local company name (never a real employer); keep Latin script in Arabic copy unless the pack gives an Arabic form",
+   "count": 14,
+   "keys": [
+    "cvrD1s",
+    "hmSimBlkAns",
+    "blocklist L4627",
+    "blockEdit L6123"
+   ]
+  },
+  "p.employer2": {
+   "cat": "persona",
+   "en": "Acme Capital",
+   "ar": "Acme Capital",
+   "arn": "Acme Capital",
+   "fr": "Acme Capital",
+   "scope": "persona",
+   "archetype": "Subsidiary of the persona's employer that the app auto-blocks: blocklist rows 'A subsidiary we detected', ag4 'Skipped 1 role at Acme Capital', MSAQ do1 (block action labels and answers) and act3 'Blocklist: 2 employers including Acme Capital'.",
+   "map": "pack persona.employer2: a fictional subsidiary of p.employer",
+   "count": 28,
+   "keys": [
+    "ag4",
+    "blocklist L4628",
+    "MSAQ do1",
+    "MSAQ act3"
+   ]
+  },
+  "p.degree": {
+   "cat": "persona",
+   "en": "BSc Accounting",
+   "ar": "بكالوريوس محاسبة",
+   "arn": "بكالوريوس في المحاسبة",
+   "fr": "Licence en comptabilité",
+   "scope": "persona",
+   "archetype": "The persona's degree on the CV education line 'BSc Accounting, King Saud University · SOCPA' (cvtOffer / cvtStudio / cvtSent papers, CV.edu L13609, CV_AR.edu L13611). The downloadable CV (buildCV L9383) says 'BSc Finance': a v5 inconsistency, either fix it to {@p.degree} or keep {@p.degree|BSc Finance}.",
+   "map": "pack persona.degree (local degree naming: BSc Accounting and Finance, Bachelor of Commerce, Licence/Master CCA)",
+   "count": 10,
+   "keys": [
+    "CV.edu L13609",
+    "CV_AR.edu L13611",
+    "buildCV L9383",
+    "cvtOffer .cvt-ln",
+    "cvtSent .cvt-ln"
+   ]
+  },
+  "p.uni": {
+   "cat": "persona",
+   "en": "King Saud University",
+   "ar": "جامعة الملك سعود",
+   "arn": "جامعة الملك سعود",
+   "fr": "Université du Roi-Saoud",
+   "scope": "persona",
+   "archetype": "The persona's alma mater on the CV education line (same places as p.degree). Persona fact, not a target-market reference: an Egyptian living in Cairo who targets Riyadh still studied in Egypt.",
+   "map": "pack unis[] entry whose id is persona.uni (a well-known local university with a strong accounting/finance school); for X-* personas a university of their nationality",
+   "count": 10,
+   "keys": [
+    "CV.edu L13609",
+    "CV_AR.edu L13611",
+    "buildCV L9383",
+    "cvtOffer .cvt-ln",
+    "cvtSent .cvt-ln"
+   ]
+  },
+  "p.cert": {
+   "cat": "persona",
+   "en": "SOCPA",
+   "ar": "SOCPA",
+   "arn": "SOCPA",
+   "fr": "SOCPA",
+   "scope": "persona",
+   "archetype": "The persona's own professional credential at the end of the CV education line ('· SOCPA'). Only that line: SOCPA as an employer requirement or requested document (swc*Q*, mlDoc1, m4b2, mrd4, qaQ1b, mq1b2) is target-market cert.*.",
+   "map": "pack certs[] entry whose id is persona.cert (ACCA, CPA, CMA, DSCG, RC...)",
+   "count": 8,
+   "keys": [
+    "CV.edu L13609",
+    "CV_AR.edu L13611",
+    "cvtOffer .cvt-ln",
+    "cvtStudio .cvt-ln",
+    "cvtSent .cvt-ln"
+   ]
+  },
+  "p.bio": {
+   "cat": "persona",
+   "en": "Financial Analyst with 8 years in Riyadh. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in Riyadh, Jeddah, or remote.",
+   "ar": "محللة مالية بخبرة 8 سنوات في الرياض. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات التي قلّصت وقت التقارير بالثلث. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في الرياض أو جدة أو عن بُعد.",
+   "arn": "محللة مالية بخبرة 8 سنوات في الرياض. أقود إعداد تقارير IFRS والموازنة على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي في الرياض أو جدة أو عن بُعد.",
+   "fr": "Analyste financière avec 8 ans d'expérience à Riyad. Je pilote le reporting IFRS et le budget sur SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre délai de reporting. Je recherche un poste d'analyste financière senior ou en FP&A à Riyad, à Djeddah ou en télétravail.",
+   "scope": "persona",
+   "archetype": "Whole profile bio (pfBioText; profile and aboutYou .bioedit HTML). v5 EN and AR equal pack SA persona.bio exactly, so the whole key becomes {@p.bio}.",
+   "map": "pack persona.bio (2-4 sentences in the persona's voice: title, 8 years, home city, IFRS or US GAAP, ERP, 40-person close, target cities)",
+   "count": 6,
+   "keys": [
+    "pfBioText",
+    "profile .bioedit",
+    "aboutYou .bioedit"
+   ]
+  },
+  "p.notice": {
+   "cat": "persona",
+   "en": "60 days",
+   "ar": "60 يوماً",
+   "arn": "60 يوماً",
+   "fr": "60 jours",
+   "scope": "persona",
+   "archetype": "The persona's notice period as she states it: hmMB1 'My notice period is 60 days' (both hiring-message variants L14175, L14261), MSAQ law2 '60 days, in writing' and the Tabby start-date clash, seedBank b1 (60 days selected). The option list (qaBO1b-d 30/60/90 days, pfNManPh '45') is a form, not this id.",
+   "map": "the persona's notice period as a phrase, from pack noticeDays and local norms: '1 month' GB, '3 months' DE/NL, '2 weeks' US, '30 days' AE; AR with the right counted-noun form (شهر واحد، شهران، 3 أشهر، أسبوعان)",
+   "count": 6,
+   "keys": [
+    "hmMB1",
+    "MSAQ law2",
+    "seedBank b1 L12501"
+   ]
+  },
+  "pay.mada": {
+   "cat": "payment",
+   "en": "mada",
+   "ar": "مدى",
+   "arn": "مدى",
+   "fr": "mada",
+   "scope": "residence",
+   "archetype": "Domestic debit-card scheme, the default saved card: 'mada ending 4421' (plnPayV, bpPm1, sdRcS, rcMeta, rcMetaSara, plan/topup/cards HTML), refunds 'to your mada card' (bdToMada, sdCxPolicy, sdCxDone, tSdCx), 'One tap with the mada or Apple Pay' (pyPay), the brand tile and the unknown-BIN fallback in code (PM L8569, caBrand L8628). AR takes ب (بمدى). Inside the card lists use pay.cards / pay.cards.or, not this id.",
+   "map": "pack pay.localCardBrand display name (KNET, BENEFIT, OmanNet, CB, Bancontact, CIB, e-Dinar); if null, 'Visa' (then pay.visa becomes Mastercard)",
+   "count": 83,
+   "keys": [
+    "plnPayV",
+    "pyPay",
+    "bpPm1",
+    "bdToMada",
+    "sdRcS",
+    "sdCxPolicy",
+    "sdCxDone",
+    "tSdCx"
+   ]
+  },
+  "pay.visa": {
+   "cat": "payment",
+   "en": "Visa",
+   "ar": "Visa",
+   "arn": "Visa",
+   "fr": "Visa",
+   "scope": "residence",
+   "archetype": "International scheme of the second saved card: 'Visa ending 8832' (bpPmVisa, bdToVisa, AR Latin 'Visa تنتهي بـ8832'), 'Visa ending 4242' (cards HTML). Not the brand lists (pay.cards).",
+   "map": "an international network different from the pay.mada value: Visa, or Mastercard where pay.mada resolved to Visa",
+   "count": 10,
+   "keys": [
+    "bpPmVisa",
+    "bdToVisa",
+    "cards .tx b (Visa ending 4242)"
+   ]
+  },
+  "pay.cards": {
+   "cat": "payment",
+   "en": "mada, Visa, Mastercard",
+   "ar": "مدى، فيزا، ماستركارد",
+   "arn": "مدى، فيزا، ماستركارد",
+   "fr": "mada, Visa, Mastercard",
+   "scope": "residence",
+   "archetype": "Accepted card brands as a comma list under the Card method at checkout (ckMCardS). Equals pack SA pay.methods[card].sub.",
+   "map": "pack pay.methods[id=card].sub (en/ar/fr)",
+   "count": 4,
+   "keys": [
+    "ckMCardS"
+   ]
+  },
+  "pay.cards.or": {
+   "cat": "payment",
+   "en": "mada, Visa or Mastercard",
+   "ar": "مدى أو Visa أو Mastercard",
+   "arn": "مدى أو Visa أو Mastercard",
+   "fr": "mada, Visa ou Mastercard",
+   "scope": "residence",
+   "archetype": "The same brands as alternatives in a sentence: card sheets caSub 'mada, Visa or Mastercard.' and bpCsSub. AR keeps Latin Visa/Mastercard here (unlike pay.cards).",
+   "map": "the pay.cards brands joined as '<a>, <b> or <c>' (AR 'أو' between every brand, brand names in Latin as v5 does; FR 'ou')",
+   "count": 10,
+   "keys": [
+    "caSub",
+    "bpCsSub"
+   ]
+  },
+  "pay.applepay": {
+   "cat": "payment",
+   "en": "Apple Pay",
+   "ar": "Apple Pay",
+   "arn": "Apple Pay",
+   "fr": "Apple Pay",
+   "scope": "residence",
+   "archetype": "Device wallet: the only non-card method for top-ups, sessions and add-ons (pmNote, pyPay, cvtPrS 'card or Apple Pay', cvtPayApple, bpPm2, bdToApple 'via Apple Pay.', pmApple, tCkApple 'Apple Pay would open here'). ckApple 'Pay' (button label) stays literal.",
+   "map": "pack pay.wallets[0] display name (Apple Pay; Google Pay where Apple Pay is not offered); where wallets is empty (DZ, IQ, JO, LB, LY, TN) the leading non-card local method from pay.methods (BenefitPay, ZainCash, eFAWATEERcom, Flouci) and the code drops the one-tap wallet button",
+   "count": 30,
+   "keys": [
+    "pmApple",
+    "pmNote",
+    "tCkApple",
+    "pyPay",
+    "bpPm2",
+    "bdToApple",
+    "cvtPrS",
+    "cvtPayApple"
+   ]
+  },
+  "pay.tabby": {
+   "cat": "payment",
+   "en": "Tabby",
+   "ar": "تابي",
+   "arn": "تابي",
+   "fr": "Tabby",
+   "scope": "residence",
+   "archetype": "BNPL provider #1 for plan payments (pay in 4): checkout tile and 'Pay in 4 with Tabby', 'Continue with Tabby', 'You finish in the Tabby app...' (checkout HTML), BNPL_NAME map (L11147, L13363), lensCheckout 'nobody wonders where Tabby went'. Separate slot from co.tabby (the employer, registry-A). In sentences that name both BNPLs use pay.bnpls / pay.bnpls.and.",
+   "map": "pack pay.bnpl[0].name (Tabby, Tamara, Afterpay, Klarna); when bnpl is empty the code hides every BNPL tile and string",
+   "count": 24,
+   "keys": [
+    "lensCheckout",
+    "checkout tile L5138",
+    "checkout .bnote",
+    "BNPL_NAME L11147",
+    "BNPL_NAME L13363",
+    "cards .tx b"
+   ]
+  },
+  "pay.tamara": {
+   "cat": "payment",
+   "en": "Tamara",
+   "ar": "تمارا",
+   "arn": "تمارا",
+   "fr": "Tamara",
+   "scope": "residence",
+   "archetype": "BNPL provider #2: its own checkout tile (L5139), cards-screen wallet row (L5332), BNPL_NAME map. In sentences only as part of pay.bnpls / pay.bnpls.and.",
+   "map": "pack pay.bnpl[1].name; when the market has one BNPL or none, the code hides this tile",
+   "count": 8,
+   "keys": [
+    "checkout tile L5139",
+    "cards wallet L5332",
+    "BNPL_NAME L11147"
+   ]
+  },
+  "pay.bnpls": {
+   "cat": "payment",
+   "en": "Tabby or Tamara",
+   "ar": "تابي أو تمارا",
+   "arn": "تابي أو تمارا",
+   "fr": "Tabby ou Tamara",
+   "scope": "residence",
+   "archetype": "Both BNPL brands as alternatives: wlSplit4, wlSplit12 'Or pay in 4 with Tabby or Tamara at checkout', ckHint1, tCkBnplOff, checkout HTML ('Split it into 4 payments ... with Tabby or Tamara').",
+   "map": "pack pay.bnpl names joined with 'or' (AR أو, FR ou); a single name when the market has one BNPL",
+   "count": 18,
+   "keys": [
+    "wlSplit4",
+    "wlSplit12",
+    "ckHint1",
+    "tCkBnplOff"
+   ]
+  },
+  "pay.bnpls.and": {
+   "cat": "payment",
+   "en": "Tabby and Tamara",
+   "ar": "تابي وتمارا",
+   "arn": "تابي وتمارا",
+   "fr": "Tabby et Tamara",
+   "scope": "residence",
+   "archetype": "Both BNPL brands as a subject: pmNote 'Tabby and Tamara pay in 4 cover plan payments only' (AR مع تابي وتمارا), cvtPayNote 'Tabby and Tamara do not cover add-ons' (AR Latin 'Tabby وTamara لا تغطيان': {@pay.bnpls.and|Tabby وTamara}).",
+   "map": "pack pay.bnpl names joined with 'and' (AR و attached, FR et); a single name when there is one BNPL. cvtPayNote AR verb is dual (تغطيان), EN plural (do not): a one-BNPL market needs a v6 variant of cvtPayNote",
+   "count": 4,
+   "keys": [
+    "pmNote",
+    "cvtPayNote"
+   ]
+  },
+  "pay.inst": {
+   "cat": "payment",
+   "en": "4",
+   "ar": "4",
+   "arn": "4",
+   "fr": "4",
+   "scope": "residence",
+   "archetype": "Number of BNPL instalments, as a bare number: 'Pay in 4' (ckMSplit, pmBnplH, ckBnplT, ckHint1, tCkBnplOff, wlSplit4/12, pmNote, checkout HTML), 'a new 4-payment plan' ({@pay.inst}-payment in ck2NextB, plnAutoBnpl), 'Your plan is paid in 4' (cvtPayNoCard), AR قسّمها على 4. NEVER the plan term in '4-month plan', 'every 4 months', 'باقة الـ4 أشهر'.",
+   "map": "pack pay.bnpl[0].installments (4 Tabby/Tamara/Afterpay, 3 Klarna Pay in 3); DE Klarna '1' is pay-later, not instalments: hide the pay-in-N strings there",
+   "count": 30,
+   "keys": [
+    "ckMSplit",
+    "pmBnplH",
+    "ckBnplT",
+    "ckHint1",
+    "tCkBnplOff",
+    "ck2NextB",
+    "plnAutoBnpl",
+    "cvtPayNoCard"
+   ]
+  },
+  "pay.inst.n": {
+   "cat": "payment",
+   "en": "4 payments",
+   "ar": "4 دفعات",
+   "arn": "4 دفعات",
+   "fr": "4 versements",
+   "scope": "residence",
+   "archetype": "Instalment count with its counted noun: wlSplit4/12 '4 payments of 339 ¤' (AR على 4 دفعات), pmBnplS 'into 4 payments', ckHint1 AR 'التقسيط على 4 دفعات', ck2NextB / plnAutoBnpl AR 'خطة 4 دفعات', cvtPayNoCard AR 'مدفوعة على 4 دفعات'.",
+   "map": "'<pay.inst> payments' with a correct plural (AR 3 دفعات / 4 دفعات; FR 3 versements)",
+   "count": 16,
+   "keys": [
+    "wlSplit4",
+    "wlSplit12",
+    "pmBnplS",
+    "ckHint1",
+    "ck2NextB",
+    "plnAutoBnpl",
+    "cvtPayNoCard",
+    "lensCvtPay"
+   ]
+  },
+  "pay.inst.rest": {
+   "cat": "payment",
+   "en": "3 payments",
+   "ar": "3 دفعات",
+   "arn": "3 دفعات",
+   "fr": "3 versements",
+   "scope": "residence",
+   "archetype": "The payments after the first one: ck2Bnpl 'Then 3 payments of {inst} ¤, one a month, 0% interest' (AR وبعدها 3 دفعات).",
+   "map": "pay.inst minus 1 with its counted noun: '2 payments' for pay in 3 (AR دفعتين, dual), '3 payments' for pay in 4",
+   "count": 4,
+   "keys": [
+    "ck2Bnpl",
+    "ck2Bnpl inline L13316"
+   ]
+  },
+  "pay.inst.freq": {
+   "cat": "payment",
+   "en": "one a month",
+   "ar": "واحدة كل شهر",
+   "arn": "واحدة كل شهر",
+   "fr": "une par mois",
+   "scope": "residence",
+   "archetype": "BNPL instalment schedule in ck2Bnpl ('..., one a month, 0% interest').",
+   "map": "the residence BNPL schedule: 'one a month' (Tabby, Tamara, Klarna Pay in 3), 'one every 2 weeks' (Afterpay, AU; AR واحدة كل أسبوعين)",
+   "count": 4,
+   "keys": [
+    "ck2Bnpl"
+   ]
+  },
+  "pay.bnplkyc": {
+   "cat": "payment",
+   "en": "with your mobile number and ID",
+   "ar": "برقم جوالك وهويتك",
+   "arn": "برقم هاتفك المحمول وهويتك",
+   "fr": "avec votre numéro de mobile et votre pièce d'identité",
+   "scope": "residence",
+   "archetype": "What the BNPL app asks to finish: ckBnplNote 'You finish in the {b} app with your mobile number and ID.' and the same checkout HTML note.",
+   "map": "the residence BNPL's sign-up step as a short phrase: Tabby/Tamara 'with your mobile number and ID' (national ID or Iqama / Emirates ID); Klarna / Afterpay 'with your email and mobile number'",
+   "count": 3,
+   "keys": [
+    "ckBnplNote"
+   ]
+  },
+  "tax.incl": {
+   "cat": "tax",
+   "en": "VAT included",
+   "ar": "شامل ضريبة القيمة المضافة",
+   "arn": "شامل ضريبة القيمة المضافة",
+   "fr": "TVA incluse",
+   "scope": "residence",
+   "archetype": "Short tax-display label at checkout: ckVat 'VAT included · Cancel anytime, no commitment', ckVat2 'VAT included · Cancel anytime before your next renewal'. KSA prices are VAT-inclusive (15%).",
+   "map": "pack tax.label ('GST included' AU, 'Sales tax included' JO, 'Plus applicable sales tax' US, 'Plus applicable taxes' CA, 'No VAT' KW, 'All taxes included' IQ/LY)",
+   "count": 8,
+   "keys": [
+    "ckVat",
+    "ckVat2"
+   ]
+  },
+  "tax.prices": {
+   "cat": "tax",
+   "en": "Prices include 15% VAT",
+   "ar": "الأسعار تشمل ضريبة القيمة المضافة 15٪",
+   "arn": "الأسعار تشمل ضريبة القيمة المضافة بنسبة 15٪",
+   "fr": "Les prix incluent la TVA de 15 %",
+   "scope": "residence",
+   "archetype": "One-sentence tax disclosure (the final period stays outside the token): bpVat, rcVat, pyS1b. AR has two spellings: rcVat/pyS1b 'الأسعار تشمل ... 15٪' (registered) and bpVat 'الأسعار شاملة ضريبة القيمة المضافة 15%' ({@tax.prices|الأسعار شاملة ضريبة القيمة المضافة 15%}).",
+   "map": "built from pack tax: incl + rate > 0 -> 'Prices include 20% VAT' / 'Prices include 10% GST'; incl = false -> 'Prices exclude sales tax, added at checkout' (US, CA); rate 0 -> 'No VAT applies' (KW, QA) or 'All taxes included' (IQ, LY)",
+   "count": 12,
+   "keys": [
+    "bpVat",
+    "rcVat",
+    "pyS1b"
+   ]
+  },
+  "tax.row": {
+   "cat": "tax",
+   "en": "VAT 15%",
+   "ar": "ضريبة القيمة المضافة 15%",
+   "arn": "ضريبة القيمة المضافة 15%",
+   "fr": "TVA 15 %",
+   "scope": "residence",
+   "archetype": "Tax row label in the checkout summary (ck2Vat, with ck2Incl 'Included' as its value; #ckSum VAT row HTML L13341).",
+   "map": "tax name + rate from pack tax ('VAT 20%', 'GST 10%', 'VAT 5%'); US/CA 'Estimated tax' (depends on address); the code hides the row where rate = 0",
+   "count": 4,
+   "keys": [
+    "ck2Vat",
+    "#ckSum row L13341"
+   ]
+  },
+  "cur.word": {
+   "cat": "currency",
+   "en": "riyal",
+   "ar": "ريال",
+   "arn": "ريال",
+   "fr": "riyal",
+   "scope": "residence",
+   "archetype": "Everyday singular name of the residence currency in a customer testimonial: apKhR1 'Worth every riyal.' (AR يستاهل كل ريال). The ISO code and the glyph are built-ins ({@$code}, {@$c}); salary-label currency is misc.salcur (target).",
+   "map": "the residence currency's everyday singular word: dirham, dinar, pound (GBP and EGP), euro, dollar, franc, zloty, krona; AR درهم، دينار، جنيه، يورو، دولار",
+   "count": 2,
+   "keys": [
+    "apKhR1"
+   ]
+  },
+  "legal.pdpl": {
+   "cat": "legal_regulatory",
+   "en": "PDPL",
+   "ar": "نظام حماية البيانات",
+   "arn": "نظام حماية البيانات الشخصية",
+   "fr": "PDPL",
+   "scope": "residence",
+   "archetype": "Short name of the data-protection law the user's data is handled under: acDownloadS 'A copy of everything, under PDPL' (AR حسب نظام حماية البيانات). KSA PDPL (Royal Decree M/19), enforced by SDAIA.",
+   "map": "short name of the residence market's personal-data law (pack legal.law): 'UK GDPR', 'GDPR', 'the Privacy Act' (AU), 'PIPEDA' (CA), 'CCPA' (US), 'Law 09-08' (MA), 'the PDPL' (AE, BH, OM, JO), 'the PDPPL' (QA); AR قانون حماية البيانات الشخصية / اللائحة العامة لحماية البيانات; where there is no data law (IQ, LY) use 'our Privacy Policy' / سياسة الخصوصية",
+   "count": 4,
+   "keys": [
+    "acDownloadS"
+   ]
+  },
+  "legal.seller": {
+   "cat": "legal_regulatory",
+   "en": "Uptal Information Technology Co, Riyadh. VAT 300012345600003",
+   "ar": "شركة أبتال لتقنية المعلومات، الرياض. الرقم الضريبي 300012345600003",
+   "arn": "شركة أبتال لتقنية المعلومات، الرياض. الرقم الضريبي 300012345600003",
+   "fr": "Uptal Information Technology Co, Riyad. TVA 300012345600003",
+   "scope": "residence",
+   "archetype": "Merchant-of-record line on session receipts, legal name + registered city + 15-digit VAT number: rcSeller, rcSellerSara, receipt HTML #rcSellerL. The 'Riyadh' here is the seller's seat, not p.city or city.riyadh.",
+   "map": "per legal/LEGAL-SPEC.md the KSA entity is merchant of record in every market, so the name and seat stay; only the tax part changes to Uptal's own registration for that residence market if one exists (UK VAT no., EU non-Union OSS no., AU GST, CA GST/HST, UAE TRN), otherwise drop the '. VAT ...' part. Never invent a registration number",
+   "count": 9,
+   "keys": [
+    "rcSeller",
+    "rcSellerSara",
+    "#rcSellerL L7163"
+   ]
+  },
+  "legal.norem": {
+   "cat": "legal_regulatory",
+   "en": "no reminder",
+   "ar": "بدون تذكير",
+   "arn": "دون تذكير",
+   "fr": "sans rappel",
+   "scope": "residence",
+   "archetype": "Auto-renewal disclosure clause: plnAutoS 'Charged automatically at each renewal, no reminder.' and djPr2b 'Charged automatically each month, no reminder.' Implements founder rule R10 (no renewal notices) where the law allows it.",
+   "map": "R10 wording wherever residence law does not require a renewal reminder; where it does (check pack legal.renewal and the market's LEGAL-SPEC research: e.g. US state auto-renewal laws, EU/UK subscription and tacit-renewal rules), the minimum lawful promise, e.g. 'with a reminder before each renewal'",
+   "count": 10,
+   "keys": [
+    "plnAutoS",
+    "djPr2b"
+   ]
+  },
+  "cal.wk1": {
+   "cat": "calendar_culture",
+   "en": "Sunday",
+   "ar": "الأحد",
+   "arn": "الأحد",
+   "fr": "dimanche",
+   "scope": "target",
+   "archetype": "First working day after the weekend (KSA week runs Sunday to Thursday): interview slot 'Sunday 11:00' (mlS3, m1b2), document deadlines 'before Sunday' (mlDue4, m4b2, mrd4, MSAQ act4), MSAQ car2 'the dashboard the CEO opens on Sunday morning'. 'Thursday' interviews and 'Wednesday evening' prep stay literal: those days are working days in every market. Day-name labels (alDay*, bsD*, bsDF*, rsD*, wd0-6, exDay*F) are not this id.",
+   "map": "the first working day of the target market's week: Sunday where pack workweek = sun-thu (SA, KW, QA, BH, OM, EG, JO, IQ, LY, DZ), Monday where mon-fri (AE, MA, TN, LB and all Western markets)",
+   "count": 14,
+   "keys": [
+    "mlS3",
+    "m1b2",
+    "mlDue4",
+    "m4b2",
+    "mrd4",
+    "MSAQ act4",
+    "MSAQ car2"
+   ]
+  },
+  "lang.l2": {
+   "cat": "language_norm",
+   "en": "Arabic",
+   "ar": "العربية",
+   "arn": "العربية",
+   "fr": "arabe",
+   "scope": "target",
+   "archetype": "The market's working language besides English, as a language name: CV language option cvtLangAr, working-language option qaBO2a, bilingual CV 'English and Arabic versions' (cvtF5, cvtLangBothS, cvtLangBothV = 'English and {@lang.l2}'). AR takes ب (بالعربية).",
+   "map": "pack lang2 (Arabic, French, German, Dutch...); English-only markets (lang2 null: US, GB, IE, AU) -> 'English', and the code hides the bilingual-CV and second-language options there",
+   "count": 16,
+   "keys": [
+    "cvtLangAr",
+    "qaBO2a",
+    "cvtF5",
+    "cvtLangBothS",
+    "cvtLangBothV"
+   ]
+  },
+  "lang.l2.adjf": {
+   "cat": "language_norm",
+   "en": "Arabic",
+   "ar": "عربية",
+   "arn": "عربية",
+   "fr": "arabe",
+   "scope": "target",
+   "archetype": "Feminine indefinite adjective form of lang.l2, only in cvtLangArV 'Arabic version' / AR 'نسخة عربية'.",
+   "map": "AR feminine adjective of the pack lang2 (فرنسية، ألمانية، إنجليزية); EN/FR the language adjective",
+   "count": 2,
+   "keys": [
+    "cvtLangArV"
+   ]
+  },
+  "lang.both": {
+   "cat": "language_norm",
+   "en": "Arabic and English",
+   "ar": "العربية والإنجليزية",
+   "arn": "العربية والإنجليزية",
+   "fr": "arabe et anglais",
+   "scope": "target",
+   "archetype": "The working-language pair employers ask for and advisors offer: qaBO2c, job requirements swc1Q4 / swc4Q4 / swc10Q4 'Strong Arabic and English communication' (AR بالعربية والإنجليزية = ب{@lang.both}), hubResp 'Arabic and English' (AR colloquial 'عربي وإنجليزي': {@lang.both|عربي وإنجليزي}), CV skills line (buildCV L9382), advisor languages (ADV.langs).",
+   "map": "'<lang2> and English' (CA 'English and French'); English-only markets 'English'",
+   "count": 20,
+   "keys": [
+    "swc4Q4",
+    "swc10Q4",
+    "swc1Q4",
+    "hubResp",
+    "qaBO2c",
+    "buildCV L9382",
+    "ADV.langs L10285"
+   ]
+  },
+  "lang.ivw": {
+   "cat": "language_norm",
+   "en": "English or العربية",
+   "ar": "العربي أو الإنجليزي",
+   "arn": "العربية أو الإنجليزية",
+   "fr": "anglais ou arabe",
+   "scope": "target",
+   "archetype": "Practice-interview answer languages: stShape '5 questions, about 15 minutes. Answer in English or العربية.' (EN shows the Arabic autonym); AR 'جاوب بالعربي أو الإنجليزي.' = ب{@lang.ivw}.",
+   "map": "EN 'English or <lang2 autonym>' (Deutsch, français, Nederlands, العربية); AR '<lang2 colloquial> أو الإنجليزي' (الفرنسي أو الإنجليزي); FR 'anglais ou <langue>'; English-only markets 'English' / الإنجليزي / anglais",
+   "count": 4,
+   "keys": [
+    "stShape"
+   ]
+  },
+  "lang.forms": {
+   "cat": "language_norm",
+   "en": "English",
+   "ar": "الإنجليزي",
+   "arn": "الإنجليزية",
+   "fr": "anglais",
+   "scope": "target",
+   "archetype": "Language most employer application forms are in: qaFormEn 'Employer forms are in English.' (AR بالإنجليزي = ب{@lang.forms}), qaTxtPh AR 'جملتين أو ثلاث بالإنجليزي'. The motivation draft qaD2c is English in both dictionaries for this reason (expand it in this language).",
+   "map": "the language most application forms use in the target market: English (GCC, GB, IE, US, AU, NL, SE), French (FR, BE, MA, TN, DZ), German (DE, CH), Spanish (ES), Italian (IT), Polish or English (PL), Arabic or English (EG, JO, IQ, LY)",
+   "count": 4,
+   "keys": [
+    "qaFormEn",
+    "qaTxtPh"
+   ]
+  },
+  "lang.hello": {
+   "cat": "language_norm",
+   "en": "Marhaba",
+   "ar": "مرحباً",
+   "arn": "مرحباً",
+   "fr": "Marhaba",
+   "scope": "target",
+   "archetype": "Local-language hello an advisor opens with: chHiOther 'Marhaba. Ask me anything before you book.' (AR مرحباً.). Advisors are target-market people.",
+   "map": "the warm hello in the target market's language: Marhaba (Arab markets, AR مرحباً), Bonjour (FR, BE, MA, TN, DZ), Hallo (DE, NL), Hola (ES), Ciao (IT), Hej (SE), Cześć (PL), Grüezi (CH), Hi (US, GB, IE, AU, CA)",
+   "count": 3,
+   "keys": [
+    "chHiOther"
+   ]
+  },
+  "misc.lablaw": {
+   "cat": "legal_regulatory",
+   "en": "Saudi labour law",
+   "ar": "نظام العمل السعودي",
+   "arn": "نظام العمل السعودي",
+   "fr": "le droit du travail saoudien",
+   "scope": "target",
+   "archetype": "The national labour code Musaed answers questions on: msaIntro 'Ask me about your search, salaries, Saudi labour law, ...'. Kept in misc.* (TARGET scope) on purpose: the labour law that matters is where the job is, not where the user pays; legal.* resolves to residence.",
+   "map": "'<target demonym> labour law' in local wording: 'UAE labour law' (AR قانون العمل الإماراتي), 'UK employment law', 'US employment law', 'German labour law', 'French labour law' (FR le Code du travail); AR uses قانون everywhere except KSA (نظام)",
+   "count": 2,
+   "keys": [
+    "msaIntro"
+   ]
+  },
+  "misc.lablaw.s": {
+   "cat": "legal_regulatory",
+   "en": "the labour system",
+   "ar": "نظام العمل",
+   "arn": "قانون العمل",
+   "fr": "le droit du travail",
+   "scope": "target",
+   "archetype": "Short generic form in the MSAQ law answers: note 'General guidance on the labour system, not legal advice' (AR إرشادات عامة عن نظام العمل). law3 says 'the Saudi system' / 'النظام السعودي': {@misc.lablaw.s|the Saudi system}.",
+   "map": "short generic name of the target market's labour law: 'employment law', 'labour law'; AR قانون العمل; FR le droit du travail",
+   "count": 6,
+   "keys": [
+    "MSAQ law2 note",
+    "MSAQ law3"
+   ]
+  },
+  "misc.salcur": {
+   "cat": "currency",
+   "en": "SAR",
+   "ar": "ريال",
+   "arn": "ريال",
+   "fr": "SAR",
+   "scope": "target",
+   "archetype": "TARGET-market currency in salary labels with no amount: pfSalary 'Salary, SAR a month' and pfSalaryU 'Expected salary, SAR a month' (AR الراتب، ريال بالشهر). Not {@$code}: that is the residence (price) currency.",
+   "map": "target market currency: ISO code in EN/FR (AED, GBP, EUR, USD, EGP), the currency word in AR (درهم، جنيه إسترليني، يورو، دولار، جنيه)",
+   "count": 6,
+   "keys": [
+    "pfSalaryU",
+    "pfSalary"
+   ]
+  },
+  "misc.salper": {
+   "cat": "salary_period",
+   "en": "monthly",
+   "ar": "شهري",
+   "arn": "شهري",
+   "fr": "mensuel",
+   "scope": "target",
+   "archetype": "Adjective for the target salary period where {@per} cannot be used: qaQ2a 'What is your expected monthly salary?' (AR ما الراتب الشهري المتوقع؟ = الراتب ال{@misc.salper}), MSAQ sal2/sal3 'the full monthly package'.",
+   "map": "follows pack sal.per like {@per}: 'monthly' / 'annual'; AR شهري / سنوي (base form, the tokenizer adds ال); FR mensuel / annuel",
+   "count": 6,
+   "keys": [
+    "qaQ2a",
+    "MSAQ sal2",
+    "MSAQ sal3"
+   ]
+  },
+  "misc.salper.c": {
+   "cat": "salary_period",
+   "en": "Monthly",
+   "ar": "الراتب الشهري",
+   "arn": "الراتب الشهري",
+   "fr": "Salaire mensuel",
+   "scope": "target",
+   "archetype": "Pay-row label on the offer card: mlOfferPay EN 'Monthly' / AR 'الراتب الشهري'.",
+   "map": "'Monthly' / 'Annual'; AR الراتب الشهري / الراتب السنوي; FR Salaire mensuel / Salaire annuel (pack sal.per)",
+   "count": 2,
+   "keys": [
+    "mlOfferPay"
+   ]
+  },
+  "misc.gaap": {
+   "cat": "legal_regulatory",
+   "en": "IFRS",
+   "ar": "IFRS",
+   "arn": "IFRS",
+   "fr": "IFRS",
+   "scope": "target",
+   "archetype": "The financial-reporting framework named in the persona's CV and answers ('IFRS reporting and budgeting on SAP') and in job requirements ('under IFRS', 'IFRS knowledge'). Tokenize the bare word only: 'IFRS 9', 'IFRS 17', 'IFRS 17 Essentials' (course) stay literal. One target-scoped id covers persona and job lines because no roster persona lives in the US and targets elsewhere, or the reverse.",
+   "map": "'US GAAP' when the target market is the US; 'IFRS' everywhere else",
+   "count": 175,
+   "keys": [
+    "pfBioText",
+    "pfEngS",
+    "msaKnowList",
+    "msaMemItems",
+    "swc5W1s",
+    "swc6Sum",
+    "swc6W1",
+    "swc6W1s"
+   ]
+  },
+  "misc.iddoc": {
+   "cat": "legal_regulatory",
+   "en": "National ID or Iqama",
+   "ar": "الهوية الوطنية أو الإقامة",
+   "arn": "بطاقة الهوية الوطنية أو الإقامة",
+   "fr": "carte d'identité nationale ou iqama",
+   "scope": "target",
+   "archetype": "Identity documents an employer's compliance team asks a new hire for: mlDoc2 attachment chip, m4b2 'a copy of your National ID or Iqama' (AR صورة من الهوية الوطنية أو الإقامة).",
+   "map": "citizen ID card or the expat residence permit as named in the target market: 'Emirates ID' (AE), 'QID' (QA), 'Civil ID' (KW), 'CPR card' (BH), 'resident card' (OM), 'passport or share code' (GB), 'passport or driver's licence' (US), 'ID card or residence permit' (EU), 'national ID or residence permit' (EG, JO, MA, TN, DZ)",
+   "count": 4,
+   "keys": [
+    "mlDoc2",
+    "m4b2"
+   ]
+  },
+  "misc.natid": {
+   "cat": "legal_regulatory",
+   "en": "National ID",
+   "ar": "الهوية الوطنية",
+   "arn": "بطاقة الهوية الوطنية",
+   "fr": "carte d'identité nationale",
+   "scope": "target",
+   "archetype": "The ID the persona sends: mrd4 'my SOCPA certificate and a copy of my National ID' (AR صورة من الهوية الوطنية), MSAQ act4 / do5 'upload your SOCPA certificate and National ID'.",
+   "map": "the ID card a citizen of the target market sends: Emirates ID, QID, Civil ID, CPR card, passport (GB, US, AU, IE), Personalausweis (DE), carte nationale d'identité (FR, MA, TN, DZ, BE), البطاقة الشخصية (EG)",
+   "count": 8,
+   "keys": [
+    "mrd4",
+    "MSAQ act4",
+    "MSAQ do5"
+   ]
+  },
+  "misc.photohint": {
+   "cat": "calendar_culture",
+   "en": "Some employers in Saudi ask for one.",
+   "ar": "بعض جهات العمل في السعودية تطلبها.",
+   "arn": "بعض جهات العمل في السعودية تطلبها.",
+   "fr": "Certains employeurs en Arabie saoudite en demandent une.",
+   "scope": "target",
+   "archetype": "CV-photo norm sentence on the photo step: phHint2 'Some employers in Saudi ask for one. You can add it any time.' (also photoPaint L9293). The claim itself changes by market, so the whole sentence is the slot.",
+   "map": "from pack sensitive.photo: 'optional' -> 'Some employers in <country> ask for one.'; 'common' -> 'Most employers in <country> expect one.'; 'avoid' -> the photo step is hidden by code (photos are not used on applications there) and this id is unused",
+   "count": 8,
+   "keys": [
+    "phHint2"
+   ]
+  },
+  "misc.cvtpl": {
+   "cat": "calendar_culture",
+   "en": "Gulf",
+   "ar": "خليجي",
+   "arn": "خليجي",
+   "fr": "Golfe",
+   "scope": "target",
+   "archetype": "Name of the regional CV-convention template in the CV Tailoring template picker (cvtTplGulf); the template itself (photo + Arabic name row, L13631-13645) is code.",
+   "map": "the target market's own CV convention: 'Gulf' (GCC), 'Europass' (EU), 'US resume' (US, CA), 'UK CV' (GB, IE), 'Lebenslauf' (DE, CH), 'Bilingual' (EG, Levant, Maghreb: FR or EN + AR)",
+   "count": 4,
+   "keys": [
+    "cvtTplGulf",
+    "CVT tpl tiles L13643"
+   ]
+  },
+  "misc.cvtpl.s": {
+   "cat": "calendar_culture",
+   "en": "Photo, bilingual",
+   "ar": "بصورة، وبلغتين",
+   "arn": "بصورة، وبلغتين",
+   "fr": "Photo, bilingue",
+   "scope": "target",
+   "archetype": "One-line description of misc.cvtpl (cvtTplGulfS).",
+   "map": "what defines the local convention: 'Photo, bilingual' (GCC), 'No photo, one page' (US, CA), 'Standard EU format' (Europass), 'Photo, tabular' (DE, CH), 'No photo, two pages' (GB, IE), 'French or English plus Arabic' (Maghreb)",
+   "count": 4,
+   "keys": [
+    "cvtTplGulfS"
+   ]
+  },
+  "misc.taxfile": {
+   "cat": "legal_regulatory",
+   "en": "ZATCA zakat and VAT filings",
+   "ar": "إقرارات الزكاة وضريبة القيمة المضافة لدى هيئة الزكاة والضريبة والجمارك",
+   "arn": "إقرارات الزكاة وضريبة القيمة المضافة لدى هيئة الزكاة والضريبة والجمارك",
+   "fr": "les déclarations de zakat et de TVA auprès de la ZATCA",
+   "scope": "target",
+   "archetype": "Corporate tax filings a group finance lead owns, inside the job duty swh3R3 'Manage the external audit, internal controls, and ZATCA zakat and VAT filings' (also in JOBS[] inline). TARGET scope: it describes the job's market, unlike tax.* (residence).",
+   "map": "the corporate tax filings of the target market with the tax authority's short name: 'FTA corporate tax and VAT returns' (AE), 'HMRC corporation tax and VAT returns' (GB), 'IRS and state tax filings' (US), 'Finanzamt corporate tax and VAT returns' (DE), 'ETA corporate tax and VAT returns' (EG); zakat only in SA",
+   "count": 2,
+   "keys": [
+    "swh3R3"
+   ]
+  }
+ },
+ "notes": [
+  "COUNT METHOD (same as registry-A): count = dictionary EN + AR hits + stray HTML hits + 2 x the estimated inline-JS hits (MSAQ answers, MAIL[], JOBS[], cvtailor CV / CV_AR, buildCV, BNPL_NAME, PM tiles, ADV, HM_* regexes). Ids whose literal is shared with other ids (p.city 'Riyadh', p.title 'Financial Analyst', pay.tabby 'Tabby', pay.visa 'Visa', cal.wk1 'Sunday', pay.inst '4') carry hand counts over the listed keys only. keys[] mixes dictionary keys with HTML/JS locations written as 'name Lnnnn' (line in src/v5.html) where the literal is not in the dictionaries.",
+  "SCOPE DECISIONS. (1) Persona facts are p.* even when the KSA value equals a target entity: p.city vs city.riyadh, p.uni vs uni.ksu, p.cert vs cert.socpa, p.tz (the persona's local time). They diverge for X-* personas (X-EG-GCC lives in Cairo, studied in Egypt, targets Riyadh). If partition B registered uni.ksu only for the CV line, drop it in favour of p.uni. (2) Things about the JOB's market are TARGET even when they sound legal or fiscal, so they live in misc.* and not in legal.* / tax.* / cur.* (which resolve to residence): misc.lablaw, misc.lablaw.s, misc.iddoc, misc.natid, misc.taxfile, misc.gaap, misc.salcur. (3) Things about the purchase are RESIDENCE: pay.*, tax.*, cur.word, legal.pdpl, legal.seller, legal.norem.",
+  "SALARY PERIOD. Use the built-ins, not ids: '{@sal:33000} {@per}' (m2b1, mrd2, MSAQ act2/sal1/sal2/sal3 'a month'), qaNumUnit AR '¤ شهرياً' -> {@per}, AR 'بالشهر' after a salary -> {@per|بالشهر} (pfSalary, pfSalaryU, djUnit). Registered only what {@per}/{@perw}/{@pers} cannot say: misc.salper (adjective 'monthly' / AR شهري, qaQ2a, MSAQ 'full monthly package') and misc.salper.c (offer-card label mlOfferPay 'Monthly' / 'الراتب الشهري'). DO NOT tokenize Uptal's billing periods with {@per}: '399 ¤ a month', 'per month' (gwMo), '¤ / mo' (plnMo*), 'billed monthly', 'every 4 months', 'renews monthly', AR 'بالشهر' / 'شهرياً' after a plan, course or add-on price (ckBill*, plnSub*, mgNote*, cvtMo, cvtOfCta, djPlnSub, hFreeQCta, wlLine*) are product terms, identical in every market.",
+  "MISSING BUILT-IN (engine): salary units with no amount need the TARGET currency, but {@$c} / {@$code} are residence. djUnit and qaNumUnit '¤ a month' and the AR 'ريال' in pfSalary/pfSalaryU are target. Recommend adding {@salc} (target symbol, KSA ¤) and {@salcode} (target ISO code, AR currency word) to js/engine.js next to {@per}; until then misc.salcur carries the code/word form. Code-filled salary placeholders (qaSalTo '{a} to {b} ¤', acsSetFloor 'From {floor} ¤', djHomeLine, acsR1S, jsSal) must be filled with MKT.salary(), not sarHTML (which converts at the residence PRICE rate).",
+  "AMOUNTS THAT ARE NEITHER A PRODUCT PRICE NOR A MONTHLY SALARY, with treatment: (a) annualised salary gaps in MSAQ act2 '84,000 ¤ more a year' (7,000 x 12) and sal2 / sal2 upsell_reason '36,000 ¤ a year' (3,000 x 12): add a built-in {@saly:84000} (SAR per year, converted at target level and always shown per year) or drop the clause where the target already quotes per year, since {@sal:7000} then reads as an annual figure; (b) MSAQ law1 end-of-service amounts 143,000 ¤ / 95,333 ¤ / 47,667 ¤ and law2 'about 867 ¤ a day' are outputs of the Saudi Labour Law formula on a 26,000 salary: not convertible, see the LAW CONTENT note; (c) MSAQ sal3 '30,000 ¤ basic with 25% housing and 10% transport lands around 40,500 ¤ a month' and 'housing commonly 25% of basic': monthly amounts can be {@sal:}, but the 25% / 10% allowance structure is Saudi-specific, rewrite per market or gate to SA; (d) py1 / jpAnchor 'A human coach in Riyadh runs about 400 ¤' is a local market price anchor, not an Uptal price: {@$:400} converts at the residence product rate, an acceptable proxy, or give packs a misc value; (e) 'thousands of riyals a year' (MSAQ sal3) is a non-numeric annual reference: part of the sal3 rewrite; (f) VAT 15% lives inside tax.prices / tax.row, never as a number token; (g) plnAnchor4 'about 1.13 ¤ per tailored application' is a derived unit price with decimals: {@$:1.13} would charm-round it, compute it in code; (h) notice periods (60 days) are p.notice, probation 90/180 days and non-compete 2 years are law content.",
+  "NOT REGISTERED ON PURPOSE (persona constants): every roster persona has 8 years (all packs persona.years = 8), so '8 years', 'eight years', 'ثماني سنوات', 'بخبرة 8 سنوات' stay literal; same for the 40-person function, 'six business units', close cut from 9 to 5 days, 'team of 3 analysts', promotion to 'Senior Financial Analyst'. Add p.years (digits) and p.years.w (words) only if a persona ever differs. ERP 'SAP' is not tokenized (it is also a job requirement everywhere); the IQ pack persona.tools 'Oracle, ...' should add SAP to stay coherent with the copy. Target-cities phrase ('Riyadh, Jeddah, or remote', 'Riyadh, Jeddah and Remote', pr2s, swSg1s) has no id: compose it with {@city.riyadh} / {@city.jeddah} (target #1 and #2 cities), which is what the persona selected. Honorific: no id, write 'Dear {@g:Mr.|Ms.} {@p.last},' and AR '{@g:الأستاذ|الأستاذة} {@p.full} {@g:المحترم|المحترمة}،' (mlGreet). Persona nationality has no copy surface: pfNatSA / pfVisaSaudi / qaBO3a are option lists rebuilt from pack.rights and roster nat in code.",
+  "ESCAPE-HATCH LIST for KSA-only variants in this partition: wr1s AR {@p.title|محلل مالي}; cvrD1s AR {@p.employer|أكمي فاينانشال}; buildCV L9383 'BSc Finance' {@p.degree|BSc Finance} (or fix v5 to BSc Accounting, which CV.edu uses); cvtPayNote AR {@pay.bnpls.and|Tabby وTamara}; bpVat AR {@tax.prices|الأسعار شاملة ضريبة القيمة المضافة 15%}; hubResp AR {@lang.both|عربي وإنجليزي}; MSAQ law3 {@misc.lablaw.s|the Saudi system} / {@misc.lablaw.s|النظام السعودي}. Arabic prefixes that are plain concatenation: ب{@p.tz}, ب{@p.city}, ل{@p.full}, ب{@pay.mada}, ب{@lang.both}, ب{@lang.forms}, ب{@lang.ivw}, ال{@misc.salper}.",
+  "BNPL STRUCTURE (residence). Packs differ in count and schedule: SA/AE/KW Tabby+Tamara pay in 4 monthly, AU Afterpay 4 fortnightly, GB/IE/ES/FR/IT/NL Klarna pay in 3, DE Klarna '1' (pay later, not instalments), many markets none. Ids pay.inst / pay.inst.n / pay.inst.rest / pay.inst.freq handle 3 vs 4 and the schedule. Still code: wlSplit4 '4 payments of 339 ¤' and wlSplit12 '837 ¤' hard-code t4/4 and t12/4; in pay-in-3 markets they must be t/3, so turn them into {inst} placeholders filled by code like ck2Bnpl. Markets with bnpl = [] must hide pmBnplH/S, ckMSplit, ckBnpl*, ck2DueB, ck2Bnpl, ck2NextB, plnAutoBnpl, sdPaidBnplS, cvtPayNoCard, cvtPayNote, ckHint1, tCkBnplOff, wlSplit4/12, the BNPL half of pmNote and the checkout tiles. Never tokenize the plan TERM ('4-month plan', 'every 4 months', 'باقة الـ4 أشهر') with pay.inst.",
+  "LEGAL FLAGS for the multi-market legal work (LEGAL-SPEC.md). (1) legal.seller: v5 receipts say 'Uptal Information Technology Co / شركة أبتال لتقنية المعلومات' with VAT 300012345600003, while LEGAL-SPEC names the merchant of record 'Uptal (شركة الخبرات الصاعدة لتقنية المعلومات)' and requires the merchant identity string to stay intact; the receipt string and the number look like placeholders, so confirm the exact legal name and the real ZATCA VAT number before any market ships. (2) legal.norem carries founder rule R10 ('no reminder'); packs whose legal research finds a mandatory renewal reminder must give the minimum lawful wording instead, and the product must then send the reminder. (3) legal.pdpl: IQ and LY have no general data-protection law, so acDownloadS should read 'under our Privacy Policy' there rather than naming a law that does not exist. (4) SDAIA, the e-commerce law and consumer-protection law do not appear in v5 app copy: no ids; they belong in the Terms / Privacy / Refund documents and country addenda, not the registry. (5) The app's advisor-session copy promises 'Full refund to your original payment method within 5 business days' and free cancellation up to 24 hours (pyS2as, pyS3as, bpPolicy, sdCxPolicy): keep it in line with the Refund Policy core (R2 no refund in any form applies to subscriptions; check that session refunds are carved out explicitly) and with each addendum.",
+  "LAW CONTENT (MSAQ law1, law2, law3 and the sal3 benefits list) is Saudi Labour Law advice: end-of-service formula and amounts, 60-day notice and pay in lieu, experience certificate, probation 90 extendable to 180 days with Eid holidays excluded, non-compete limits, housing 25% of basic, GOSI base, school fees. Tokens cannot localise it (only misc.lablaw.s, p.notice, {@sal:} and p.city appear inside). To protect Uptal, show law1-law3 only when the primary target is SA until per-market answers reviewed by counsel exist (target pack slot), and keep the 'General guidance ..., not legal advice' note on every law answer. No cal.eid id: 'Eid holidays' / 'إجازتا العيدين' occurs only inside law3. No Ramadan, Hijri, National Day or Founding Day appears anywhere in v5.",
+  "CALENDAR. Only cal.wk1 (first working day) is a token. Thursday interviews, 'Wednesday evening', 'lift the pause on Friday, the day after Rewaa' stay literal because those days are working days in every market. Code, not tokens: Sunday-first week strips and initials (wd0-wd6, ح ن ث ر خ ج س), booking strips with FRI/SAT disabled (bsD*, rsFri, rsSat), advisor slot lists with day names (apSlot1-3, ADV.slots L10287-10296, exDay*F, BKSL), all driven by pack workweek. The 27th billing/renewal date is the demo subscription anniversary, not a payday: no token. Date order (US month-day), 12-hour clock for US/CA/AU, Arabic month names (Levant أيلول / كانون, Morocco شتنبر / دجنبر, Algeria/Tunisia جويلية / أوت) are formatting work in the date helpers and the neutral-Arabic dictionary, not registry ids.",
+  "LANGUAGE. lang.* are TARGET scope (the job market's language). For English-only targets (lang2 null) the code must hide the bilingual-CV options (cvtF5, cvtLangAr, cvtLangArV, cvtLangBoth*), the Gulf/bilingual template and the 'Arabic' working-language chip, and lang.both / lang.ivw resolve to 'English'. pfEng 'English level' and the qaBQ2 option set (qaBO2a-c) are built in code from the persona's native language and pack lang2 (50-onboarding.js already does this). Speech locales are hard-coded to 'ar-SA' / 'en-US' (startRecog L14621, synth L14673): derive them from the UI variant and residence (ar-AE, ar-EG, ar-MA, fr-FR, en-GB). Not tokens: filler words (um / يعني / وايش) follow the UI language; Gulf words like جوال are a register task for the neutral-Arabic translators; 'السلام عليكم،' in the persona's AR mails reads fine across Arab markets; WhatsApp and LinkedIn are Uptal channels, kept as they are (LinkedIn AR spelling is inconsistent: لينكدإن vs لنكدان, pick one).",
+  "INLINE CODE TO REBUILD FROM p.* / pay.* (tokens cannot reach it): HM_NAME_EN regex (L14301) and HM_RX.nameAr (L14314) from p.first / p.last; HM_PH phone regexes (L14319-14325, +966 / 05x) from the residence and target phone formats; ACCT_EMAIL (L9491) and the PV.email fallback (L13192) = p.email; the cvtailor CV / CV_AR objects (L13604-13611: name, nameAr, head, lines, skills, edu) and buildCV (L9366-9383) from p.full, p.title, p.city, p.loc, p.email, p.li, p.degree, p.uni, p.cert and misc.gaap; coverLetter() signature; copyBtn link (L8140) = p.ref; BNPL_NAME (L11147, L13363) and the checkout tiles (L5138-5139) from pack pay.bnpl; PM brand tiles and the caBrand unknown-BIN fallback (L8569-8628) from pay.mada / pack brands; the checkout '.cur' span 'SAR' (L5131) = {@$code}; the '.brand mada' CSS class follows the local scheme.",
+  "OVERLAPS FOR THE MERGER: co.tabby (registry-A, employer) vs pay.tabby (this file, BNPL) are different slots, keys listed in both files; misc.taxfile embeds ZATCA (drop gov.zatca if it only covered swh3R3, or keep both and write the phrase without the authority); misc.photohint and misc.lablaw embed the country word (ctry.s / ctry.dem), kept as whole slots because the claim itself changes by market; misc.gaap ('IFRS') should be the only IFRS id; cert.socpa (target) vs p.cert (persona); 'Riyadh' inside legal.seller and inside bank names (co.riyadbank) is never p.city or city.riyadh."
+ ]
+}

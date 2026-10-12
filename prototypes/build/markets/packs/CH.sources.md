@@ -4,6 +4,13 @@ Written 2026-10-12. Persona: Laura Meier (f, Swiss, Zurich), taken from `roster.
 
 **I could not do live research for this run.** The shared web-search budget was used up before my first query. WebFetch could not resolve any host I tried (estv.admin.ch, ch.ch, fedlex.admin.ch, twint.ch, docs.stripe.com), and the egress proxy refused sem.admin.ch and wikipedia.org. Every fact below comes from prior knowledge (to mid-2026). Each one has a confidence level, and the ones to re-check are tagged **VERIFY**. Where I was unsure, I chose the conservative option. The "Re-check" list at the end gives the official pages to confirm against.
 
+**Fact-check pass (2026-10-12).** This pass could not go online either. WebSearch hit the shared budget, and WebFetch / curl could not resolve estv.admin.ch, fedlex.admin.ch, docs.stripe.com, sem.admin.ch, twint.ch, swissinfo.ch or wikipedia.org. The checks were made against prior knowledge and the engine code. Three things changed:
+- The gender note now matches what the engine really renders, and the false "follows DE" claim is gone.
+- The Lausanne / Geneva metro wording no longer clashes.
+- Two copy fixes: "EU" became "EU/EFTA" in the graduate option, and the French wording of the B-permit line is more natural.
+
+Every **VERIFY** item below is still open.
+
 ## Payments
 - **Order: card, TWINT, PayPal.** (Medium confidence.)
   - Swiss online checkout runs mainly on credit and debit cards, TWINT, invoice (Rechnung / facture) and PayPal.
@@ -82,11 +89,13 @@ Written 2026-10-12. Persona: Laura Meier (f, Swiss, Zurich), taken from `roster.
   - Swiss CV guidance (ch.ch, jobs.ch, the career services of the cantonal employment offices) has long said a professional photo is customary on Swiss CVs.
   - International firms in Zurich and Geneva and some public employers increasingly go without one.
   - We suggest a photo, never require it, and never send it to forms that don't ask for it.
-- **Gender: ask, as salutation only.** Swiss application forms (jobs.ch, SuccessFactors / Workday instances at Swiss employers) usually make "Frau / Herr" or "Madame / Monsieur" mandatory. This follows the DE approach.
+- **Gender: ask.** Swiss application forms (jobs.ch, SuccessFactors / Workday instances at Swiss employers) usually make "Frau / Herr" or "Madame / Monsieur" mandatory.
+  - **Fact-check correction (2026-10-12).** The earlier text said this "follows the DE approach" and that it is asked "as salutation only, with a 'no salutation' option". Both were wrong. The DE pack was switched to `gender: "none"`. The engine renders `"ask"` as a binary Female / Male "Gender" chip pair (`js/50-onboarding.js`, paintProfile), with no salutation wording and no "no salutation" option. The notes in the JSON now describe this.
+  - **Why `ask` stays for CH.** DE moved to `none` because of the German "divers" norm (BVerfG 2017, PStG 2018) and an AGG ruling on binary-only salutations. Switzerland has neither: civil status is binary (the Federal Council declined a third gender entry in 2022), there is no AGG equivalent, and sex is not "sensitive personal data" under Art. 5(c) FADP. A required Frau / Herr is the Swiss form norm. Confidence: medium. If product prefers privacy-first, switch to `none` (the EU fallback) and leave a required salutation for the user to fill on the form.
 - **Date of birth and nationality: ask.**
   - Both are standard in the personal-details block of Swiss CVs, together with the permit type for foreign nationals.
   - Nationality is also the practical key for EU/EFTA vs. third-country permit rules.
-  - Switzerland has no general private-sector anti-discrimination act like Germany's AGG; the Gender Equality Act covers sex only. Art. 328b of the Code of Obligations (CO) limits employer data processing to what is relevant to the job, and age and nationality are treated as relevant by Swiss practice.
+  - Switzerland has no general private-sector anti-discrimination act like Germany's AGG; the Gender Equality Act covers sex only. Art. 328b of the Code of Obligations (CO) limits employer data processing to what is relevant to the job. Nationality is relevant because it decides the permit route. Date of birth is not strictly job-relevant, but giving it on the CV is customary and no Swiss rule bars it. (Fact-check wording fix: the earlier text said both are "treated as relevant", which overstated it for age.)
 - **Marital status: none.** It is traditional (Zivilstand) but fading, not needed and a bias risk, so the conservative choice is not to ask. This matches the other packs.
 - **Never collected.** The AHV / AVS number.
 - **Confidence.** Medium overall. **VERIFY** current ch.ch CV guidance.
@@ -130,6 +139,7 @@ Written 2026-10-12. Persona: Laura Meier (f, Swiss, Zurich), taken from `roster.
 - **Recently changed (re-check). VERIFY.** Sunrise was spun off from Liberty Global and listed on SIX in Nov 2024. UBS completed the Credit Suisse integration in 2024-26.
 
 ## Cities and spellings
+- **Lausanne metro wording (fact-check fix).** It used to say "covers the Vaud shore of Lake Geneva". That clashed with the Geneva entry, which claims Nyon and Gland (also on the Vaud shore), so it now just lists Renens, Écublens, Morges, Vevey and Montreux.
 - **Order by finance / FP&A job density:** Zurich, Geneva, Basel, Zug, Lausanne, Bern, Lugano, St. Gallen. St. Gallen is in for Raiffeisen and HSG. Lucerne and Winterthur are folded out: Winterthur sits in the Zurich metro.
 - **French forms.** Genève, Bâle, Zoug, Berne, Saint-Gall, Winterthour.
 - **Arabic spellings.**

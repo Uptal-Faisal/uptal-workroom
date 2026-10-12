@@ -76,7 +76,7 @@ Written 2026-10-12. **I could not do live research for this run.** The shared we
   - Recruiter guides (Hays, Michael Page, Robert Walters, Poolia) put senior financial / FP&A analysts at about SEK 52-62k and FP&A managers at about SEK 65-85k.
   - Cross-check: SEK 56k is about EUR 5.0-5.1k, a little below the NL pack (EUR 5.6k) and level with BE (EUR 5.0k). This fits Sweden's flatter pay structure.
 - Chosen: **SEK 56,000 a month**. 26,000 × 2.154 = SEK 56,000. Noura's 34,000 SAR expectation maps to about SEK 73,200, the FP&A-manager band.
-- Confidence: medium-low. **VERIFY** against the Akavia salary tool or the SCB *Lönestatistik* for SSYK 2411/2413, and a 2026 recruiter guide.
+- Confidence: medium-low. **VERIFY** against the Akavia salary tool or the SCB *Lönestatistik* for the SSYK 2012 codes for controllers and financial analysts (in group 241; 2411 is auditors, so do not use it), and a 2026 recruiter guide.
 
 ## Notice (noticeDays = 90)
 - LAS (1982:80) s. 11 gives the employee at least 1 month's notice. The employer's notice is 1-6 months, depending on tenure. (High confidence.)
@@ -88,7 +88,7 @@ Written 2026-10-12. **I could not do live research for this run.** The shared we
   - Greater Stockholm comes first by a wide margin, then Gothenburg, then Malmö with Lund.
   - Uppsala, Västerås (ABB, Mälarenergi), Linköping–Norrköping and Örebro follow.
   - Solna, Sundbyberg, Kista and Södertälje are folded into the Stockholm metro note, and Lund into Malmö.
-  - **Arabic city names:** these follow the forms used by Arabic speakers in Sweden and Swedish Arabic-language media, which go by the Swedish pronunciation: يوتيبوري، فيستروس، لينشوبينغ، أوربرو، سودرتاليه. Pan-Arab media write Gothenburg as غوتنبرغ. I chose the local form, as the spec asks.
+  - **Arabic city names:** these follow the forms used by Arabic speakers in Sweden and Swedish Arabic-language media, which go by the Swedish pronunciation: يوتيبوري، فيستروس، لينشوبينغ، أوربرو، سودرتاليه، شيستا (Kista is said "Shista", so شيستا, not كيستا). Pan-Arab media write Gothenburg as غوتنبرغ. I chose the local form, as the spec asks.
   - **French names:** standard French forms (Göteborg, and Øresund for the strait).
 - **Employers:** the full checklist mapping is in `sectorsCovered`. Notes:
   - Most HQs sit in Greater Stockholm: Vattenfall, Telia and SAS in Solna; Swedbank in Sundbyberg; Ericsson and Tele2 in Kista.
@@ -108,7 +108,7 @@ Written 2026-10-12. **I could not do live research for this run.** The shared we
 - **Certs:**
   - CFA: used in banking and asset management, and in FP&A at listed companies.
   - Auktoriserad revisor: authorised by Revisorsinspektionen. It is the chartered-auditor title, and many controllers come from Big 4 audit.
-  - Auktoriserad redovisningskonsult: the accounting credential from SRF konsulterna.
+  - Auktoriserad redovisningskonsult: the accounting credential from SRF konsulterna. French label is "Consultant comptable agréé", not "expert-comptable", which is a different regulated French title.
   - ACCA: common among international hires.
   - Swedish ads mostly ask for a *civilekonom* degree rather than a certificate.
 - **Unis:** Stockholm School of Economics (Handelshögskolan i Stockholm), the School of Business, Economics and Law at the University of Gothenburg, and Lund University School of Economics and Management (LUSEM).
@@ -129,3 +129,9 @@ Written 2026-10-12. **I could not do live research for this run.** The shared we
 - IMY: https://www.imy.se/
 - PTS fictional numbers: https://www.pts.se/
 - Akavia salary statistics: https://akavia.se/ ; SCB Lönestatistik: https://www.scb.se/
+
+## Fact-check pass (2026-10-12)
+- No live verification was possible in this pass either: the shared WebSearch budget was used up, and WebFetch and curl to migrationsverket.se, klarna.com, getswish.se and wikipedia.org were refused by the egress proxy. The review was a consistency check against prior knowledge and the sibling packs.
+- Changed: Arabic Kista كيستا → شيستا, to match the local-pronunciation policy used for the other names; French SRF cert label "Expert-comptable agréé" → "Consultant comptable agréé"; the SSYK reference above.
+- Checked and kept: wallets; method order (the engine pre-selects the first non-BNPL tile, so card is the default and Klarna is never pre-selected); `bnpl: []`; null local card brand; 25% VAT shown inclusive; the six work-rights options and the 31 autoFor codes (EU27 + IS, LI, NO, CH); nationalisation null; sensitive fields; GDPR, Dataskyddslagen and IMY; the 14-day withdrawal right; 24 employers (all real, current names, HQ cities right); PTS fictional number range; persona gender agreement in ar/fr; SEK 56k a month salary (inside the recalled 50-65k band).
+- Still open: Swish recurring support; whether Klarna "Pay in 3" is offered in Sweden; whether the credit-not-first checkout rule is permanent; the 2026 work-permit salary floor and whether it rose above 80% of the median; Arabic Gothenburg يوتيبوري (local) vs غوتنبرغ (pan-Arab); city order after Malmö; whether AP2 survives the AP-fund reform under its current name.
