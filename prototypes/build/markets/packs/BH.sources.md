@@ -65,10 +65,10 @@ works in her favour.
   by Bahraini banks and licensed by the CBB) runs the national ATM and debit network, the BENEFIT Payment
   Gateway for online debit payments, Fawri/Fawri+ transfers, and the **BenefitPay** wallet. Most Bahraini
   debit cards run on BENEFIT, and BenefitPay is the everyday way Bahrainis pay each other, in shops (QR) and
-  online. That is why I put BenefitPay **first**, as its own method (`id: "benefitpay"`), as the KW pack does
+  online. That is why I put BenefitPay **first**, as its own method (`id: "benefit"`, label "BenefitPay"; id changed from `benefitpay` in the fact-check, see below), as the KW pack does
   for KNET ("cards first unless a local method dominates"). One method covers both the BenefitPay app and the
   BENEFIT debit-card gateway, so the checkout stays short. If the payment provider shows them separately, split
-  it into `benefitpay` and `benefit`. Confidence that BenefitPay dominates everyday payments: medium-high.
+  it into `benefit` (gateway) and `benefitpay` (app). Confidence that BenefitPay dominates everyday payments: medium-high.
 - **`recurring: false` on BenefitPay** (extra key, as in KW), confidence: medium. BENEFIT debit and BenefitPay
   payments are customer-authenticated (PIN/OTP or in-app approval). As far as I know, they do not support
   stored-card charges started by the merchant, so a BenefitPay payer cannot be auto-renewed. The renewal line
@@ -118,7 +118,7 @@ works in her favour.
 - LMRA sets minimum Bahraini staff ratios by sector and company size. Firms below the ratio face limits on new
   expat work permits. Over the years Bahrain has also had "parallel Bahrainization", where a firm below its
   ratio could pay a higher fee per extra expat permit. There has been political pressure in 2024-25 to tighten
-  or end that option, so **the copy does not mention fees** and only says that LMRA sets the ratio.
+  or end that option, so **the copy does not mention fees** and only says that the targets are set by sector and company size and that LMRA applies them (fact-check wording).
 - Ministry of Labour / National Employment Programme (2019 onwards): Bahraini job seekers get priority, and
   employers have been required to post vacancies in the ministry's system for a period before LMRA issues new
   expat permits (medium-low on the current details). The copy does not quote this rule, and the Ministry is in
@@ -188,8 +188,9 @@ Area assignments are from knowledge (medium). Two places are **low** confidence:
 and that Bapco Energies' head office is in Awali rather than in Manama/Seef. **Verify both.**
 
 ## Employers (24, all real), confidence: medium
-- Energy: **Bapco Energies**, the national integrated energy company, formed in 2021 when nogaholding and the
-  Bapco group were brought together under one brand. Industrial: **Alba**, one of the world's largest single-site
+- Energy: **Bapco Energies**, the national integrated energy company, the renamed nogaholding group (the Bapco Energies
+  brand dates from about 2023, with subsidiaries renamed Bapco Refining, Bapco Upstream, Bapco Gas and so on;
+  fact-check correction of "formed in 2021", medium confidence on the exact year). Arabic: بابكو إنرجيز. Industrial: **Alba**, one of the world's largest single-site
   aluminium smelters.
 - Banks: **NBB** (it took a majority stake in Bahrain Islamic Bank in 2020), **BBK** (it owns CrediMax), and
   **Bank ABC** (Arab Banking Corporation, group HQ at Bahrain Bay). Islamic: **Bahrain Islamic Bank** and
@@ -216,13 +217,14 @@ and that Bapco Energies' head office is in Awali rather than in Manama/Seef. **V
 - Fintech: **BENEFIT**, the national e-payments company behind BenefitPay. Delivery: **talabat** (large
   Bahrain operation).
 - Real estate: **Diyar Al Muharraq** (master developer of the Diyar Al Muharraq islands). Exchange: **Bahrain
-  Bourse** (formerly Bahrain Stock Exchange; its index ticker is BHB). Government: **Central Bank of Bahrain**
+  Bourse** (formerly Bahrain Stock Exchange; BHB is the bourse's own abbreviation, and its main index is the Bahrain All
+  Share Index). Government: **Central Bank of Bahrain**
   and the **Economic Development Board**.
 - I did not put Tamkeen in `employers`, because it appears in `govPlatforms`.
 - Logo colours and monograms are approximate brand colours, not taken from brand guidelines.
 
 ## People
-Ten names: eight common Bahraini family names (Al-Mahmood, Al-Aradi, Al-Jishi, Al-Dosari, Janahi, Bucheeri,
+Ten names: eight common Bahraini family names (Al-Mahmood, Al-Aradi (first name Yousif; see fact-check), Al-Jishi, Al-Dosari, Janahi, Bucheeri,
 Al-Qassab, Al-Alawi), plus one Indian (Menon) and one British (Reid), because Bahrain's finance recruiters are a
 mix of Bahrainis and expats. Five are women and five are men. I avoided the ruling-family name Al-Khalifa and the
 big merchant families (Kanoo, Almoayyed, Fakhro, Zayani).
@@ -242,3 +244,48 @@ big merchant families (Kanoo, Almoayyed, Fakhro, Zayani).
 current Bahrainization rules (parallel Bahrainization, vacancy posting) (Nationalisation). 4. A 2026 Bahrain
 salary guide for f. 5. The PDP Authority's current set-up (Legal). 6. AUB / KFH Bahrain's current name, Calo's
 HQ, and the Alba (Askar) and Bapco Energies (Awali) locations (Employers, Cities).
+
+## Fact-check pass (2026-10-12)
+This pass had no live sources either. The shared WebSearch budget was used up, and WebFetch could not resolve
+tabby.ai, wikipedia.org, lmra.gov.bh or nbr.gov.bh (ENOTFOUND). Each claim was checked against prior knowledge,
+against the sibling GCC packs, and against how the engine (`js/50-onboarding.js`) renders the pack.
+
+**Changed in the JSON:**
+1. **`pay.methods[0].id`: `benefitpay` → `benefit`** (confirmed engine defect). `cardBrands()` adds
+   `localCardBrand` to the card tile unless a method tile has the same id (`bid("BENEFIT")` = `benefit`). With the
+   id `benefitpay`, the card tile and the card-number field showed "BENEFIT, Visa, Mastercard" and dropped Amex
+   (the engine shows 3 brands), which suggested the card form takes BENEFIT debit cards. Those cards go through
+   the BENEFIT gateway, which the BenefitPay tile already covers. KW (`knet`/KNET), OM (`omannet`/OmanNet) and BE
+   (`bancontact`) already match id and brand. The label stays "BenefitPay", the tile mark is now the engine's red
+   "BENEFIT" tile, and the card tile now reads Visa, Mastercard, Amex. `localCardBrand` stays "BENEFIT" per spec.
+2. **Bapco Energies Arabic name: بابكو للطاقة → بابكو إنرجيز.** The company and the Bahraini Arabic press (BNA,
+   Akhbar Al Khaleej, Al Ayam) transliterate the brand; "بابكو للطاقة" is a translation it does not use (high
+   confidence from knowledge).
+3. **People: "Ali Al-Aradi" → "Yousif Al-Aradi" (يوسف العرادي).** Ali Al-Aradi (علي العرادي) is a well-known
+   Bahraini politician (former First Deputy Speaker of the Council of Representatives), so a fictional recruiter
+   should not carry that exact name. The family name stays; it is a common Bahraini name.
+4. **Bahrainization copy reworded (precision, not a confirmed error).** "Must keep a share of Bahraini staff that
+   LMRA sets" became "have Bahrainization targets ... set by sector and company size, and LMRA applies them when it
+   issues work permits" (en/ar/fr). Under parallel Bahrainization a firm below its ratio could still get permits
+   by paying a higher fee, so "must keep" overstated it, and the ratios come from government decisions that LMRA
+   applies rather than from LMRA alone. The new wording is true whether or not parallel Bahrainization survives.
+
+**Checked and kept (from knowledge):** VAT 10% since 1 Jan 2022, prices shown VAT-inclusive (high); GCC
+`autoFor` (high); LMRA work permits, the one-year mobility rule worded as "can need" (medium); Golden Residency,
+Feb 2022, 10-year renewable (medium-high); PDPL Law 30/2018 in force 1 Aug 2019 (high); Labour Law 36/2012 art. 39
+wage non-discrimination, 30-day minimum notice, Ramadan 6 h/36 h (medium-high); Fri-Sat weekend since Sept 2006
+(high); NBB majority owner of BisB, BBK owns CrediMax, CrediMax issues Amex, Beyon/Batelco, stc Bahrain ex-VIVA,
+KPMG Fakhro, BMMI/Alosra, Gulf Air in Muharraq, GPIC and the refinery in Sitra (high); persona title
+محللة مالية / Analyste financière (correct feminine); "أبحث عن وظيفة محلل مالي أول" keeps the generic job title,
+the same as the v5 SA bio and every other GCC pack. Sensitive fields match AE, KW, QA and OM.
+
+**Still open (could not verify):**
+- BNPL: whether Tabby or Tamara serve Bahrain consumers in 2026 (kept `[]`). Google Pay for web checkout in
+  Bahrain (kept Apple Pay only). Whether BenefitPay supports merchant-initiated recurring payments through our
+  gateway (kept `recurring: false`; the engine does not read this flag today, it is informational).
+- Salary f = 0.05 (BHD 1,300 now, BHD 1,700-2,050 target) is plausible, but 0.055-0.06 is also defensible. OM uses
+  0.06, which puts Muscat about 17% above Manama in SAR terms for the same role. Check a 2026 Bahrain salary guide.
+- Whether any VAT or other fiscal change was announced for Bahrain in late 2025-2026.
+- Bapco Energies head-office location (Awali vs Manama), Alba at Askar, Calo's 2026 head office, BMMI and Jawad
+  head-office areas, Batelco in Hamala (set to `manama`), and AUB's current name under KFH (not listed).
+- Whether "المحمود" or "آل محمود" is the more usual Bahraini spelling for Al-Mahmood (both exist; kept).

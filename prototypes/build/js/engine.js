@@ -271,6 +271,11 @@ var MKT = (function(){
   sarHTML = function(s){ var c = MKT.convertRaw(String(s)); return c == null ? _sar(s) : c; };
 })();
 
+/* v5 label maps that only know en/ar get a French alias (English) so FR never throws; sweep modules replace them */
+(function(){
+  try{ if (typeof EDT !== 'undefined' && EDT && !EDT.fr) EDT.fr = EDT.en; }catch(_){}
+})();
+
 /* boot: ?persona=AE etc. Default is the v5 persona (KSA). */
 (function(){
   var pid = 'SA', ql = null;
