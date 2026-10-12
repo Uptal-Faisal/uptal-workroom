@@ -117,8 +117,12 @@ def main():
     js = ''.join('<script>\n' + open(p, encoding='utf-8').read() + '\n</script>\n' for p in jsfiles)
     css = ''.join(open(p, encoding='utf-8').read() + '\n' for p in sorted(glob.glob(os.path.join(HERE, 'css', '*.css'))))
     if css:
-        i = html.index('</head>')
-        html = html[:i] + '<style>/* ==== v6 ==== */\n' + css + '</style>\n' + html[i:]
+        # v5 has no real </head> (the only ones live inside JS strings): insert after the last <style> block before the first <script>
+        first_script = html.find('<script')
+        i = html.find('</head>')
+        if i < 0 or (first_script >= 0 and i > first_script):
+            i = html.rfind('</style>', 0, first_script if first_script >= 0 else len(html)) + len('</style>')
+        html = html[:i] + '\n<style>/* ==== v6 ==== */\n' + css + '</style>\n' + html[i:]
     # v5 has no closing </body>; inject after the final </script> of the document
     i = html.rindex('</script>') + len('</script>')
     html = html[:i] + '\n' + data + js + html[i:]

@@ -90,7 +90,7 @@ Algerian persona.
 - Pay is quoted monthly, so `per: "month"`.
 
 ## Notice period (`noticeDays` = 30)
-Law 90-11 art. 68 makes a resigning worker give the notice set by the collective agreement or the contract. In practice that is about 1 month, and 2-3 months for senior cadres in some
+Law 90-11 art. 68 makes a resigning worker give the notice set by the collective (or group) agreements; contracts often restate it. In practice that is about 1 month, and 2-3 months for senior cadres in some
 agreements. I chose 30 days, the common case. ⚠ I could not verify specific collective-agreement figures.
 
 ## Employers (24, all real)
@@ -126,3 +126,15 @@ Logo colours are approximate brand colours and monograms are invented.
   common in Algerian finance teams.
 - Phone: +213, mobiles as 5XX / 6XX / 7XX XX XX XX (Ooredoo / Mobilis / Djezzy prefixes); the example uses 555.
 - People: 10 common Algerian names, mixed gender, including one Kabyle surname (Aït Ouali).
+
+## Fact-check pass (2026-10-12)
+No web access in this pass either: the shared search budget was used up and direct fetches failed (DNS / proxy policy). So nothing was re-verified online.
+Every claim was re-checked against prior knowledge, and only clear errors were fixed:
+- `legal.law` and the French privacy line now use Law 18-07's official title ("protection des personnes physiques dans le traitement des données à caractère personnel"), to match the Arabic line.
+- `culture.notes`: art. 68 of Law 90-11 refers resignation notice to the collective agreements, not to the contract.
+- French city spelling: "Es Sénia" (Oran).
+Checked and kept: 19 % TVA shown TTC, the Arabic term الرسم على القيمة المضافة, no Apple Pay / Google Pay, Law 81-10 (technician-level test, permit tied to employer and post),
+Ordinance 06-03 art. 75 (civil service needs Algerian nationality), Law 90-11 art. 17 grounds, the Sunday-Thursday week since August 2009, and the gross-to-net arithmetic
+(200,000 gross is about 135,000 net with 9 % CNAS and the 2022 IRG scale). The ⚠ items above are still open.
+Engine notes (not fact errors): `js/50-onboarding.js` has marks for `cib` and `dahabia` but none for `edahabia`, so that brand shows as a plain grey "edahabia" chip. The second method
+(`intlcard`) is not `card`, so the checkout renders it as a redirect tile rather than a card form.

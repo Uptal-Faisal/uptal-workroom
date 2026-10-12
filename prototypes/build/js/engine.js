@@ -273,9 +273,11 @@ var MKT = (function(){
 
 /* boot: ?persona=AE etc. Default is the v5 persona (KSA). */
 (function(){
-  var pid = 'SA';
-  try{ var q = new URLSearchParams(location.search).get('persona'); if (q) pid = q; }catch(_){}
+  var pid = 'SA', ql = null;
+  try{ var sp = new URLSearchParams(location.search); var q = sp.get('persona'); if (q) pid = q; ql = sp.get('lang'); }catch(_){}
   MKT.set(pid, {silent: pid === 'SA'});
   var p = MKT.persona();
-  if (p && pid !== 'SA'){ var want = (MKT.base.markets[p.res] || {}).lang; if (want && want !== lang){ var b = document.querySelector('#lang button[data-l="' + want + '"]'); if (b) b.click(); } }
+  /* ?lang=en|ar|fr wins (landing pages pass it); otherwise a non-KSA persona opens in its market's default language */
+  var want = (ql && /^(en|ar|fr)$/.test(ql)) ? ql : (p && pid !== 'SA' ? (MKT.base.markets[p.res] || {}).lang : null);
+  if (want && want !== lang){ var b = document.querySelector('#lang button[data-l="' + want + '"]'); if (b) b.click(); }
 })();

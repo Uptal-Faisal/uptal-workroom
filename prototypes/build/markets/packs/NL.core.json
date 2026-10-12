@@ -51,7 +51,7 @@
    "logo":{"bg":"#00539F","fg":"#FFFFFF","mono":"AD"}},
   {"id":"klm","en":"KLM","ar":"الخطوط الملكية الهولندية (KLM)","fr":"KLM","sector":"airline","archetype":"national airline HQ","city":"amsterdam",
    "logo":{"bg":"#00A1DE","fg":"#FFFFFF","mono":"KLM"}},
-  {"id":"erasmusmc","en":"Erasmus MC","ar":"مركز إيراسموس الطبي","fr":"Erasmus MC","sector":"hospital","archetype":"largest university medical centre","city":"rotterdam",
+  {"id":"erasmusmc","en":"Erasmus MC","ar":"مركز إيراسموس الطبي","fr":"Erasmus MC","sector":"hospital","archetype":"one of the largest university medical centres","city":"rotterdam",
    "logo":{"bg":"#0C2074","fg":"#FFFFFF","mono":"EMC"}},
   {"id":"nn","en":"NN Group","ar":"إن إن غروب","fr":"NN Group","sector":"insurance","archetype":"insurer and pension provider HQ","city":"the-hague",
    "logo":{"bg":"#EE7F00","fg":"#FFFFFF","mono":"NN"}},
@@ -102,7 +102,7 @@
    {"en":"Orientation year (zoekjaar) permit","ar":"تصريح سنة التوجيه للخريجين (zoekjaar)","fr":"Permis « année d'orientation » (zoekjaar)",
     "sub":{"en":"Free to work; lower salary threshold if you switch to highly skilled migrant","ar":"يسمح بالعمل بحرية، مع حد أدنى أقل للراتب عند التحويل إلى تصريح المهاجر ذي المهارات العالية","fr":"Travail libre ; seuil de salaire réduit pour passer au statut de migrant hautement qualifié"}},
    {"en":"Highly skilled migrant or EU Blue Card","ar":"مهاجر ذو مهارات عالية (kennismigrant) أو البطاقة الزرقاء الأوروبية","fr":"Migrant hautement qualifié (kennismigrant) ou carte bleue européenne",
-    "sub":{"en":"To switch jobs, the new employer must be an IND recognised sponsor","ar":"عند تغيير العمل يجب أن يكون صاحب العمل الجديد كفيلًا معترفًا به لدى IND","fr":"Pour changer d'emploi, le nouvel employeur doit être un sponsor reconnu par l'IND"}},
+    "sub":{"en":"To switch jobs, the new employer must be an IND recognised sponsor (not required for the EU Blue Card)","ar":"عند تغيير العمل يجب أن يكون صاحب العمل الجديد كفيلًا معترفًا به لدى IND (لا يُشترط ذلك للبطاقة الزرقاء الأوروبية)","fr":"Pour changer d'emploi, le nouvel employeur doit être un sponsor reconnu par l'IND (sauf pour la carte bleue européenne)"}},
    {"en":"I need visa sponsorship","ar":"أحتاج إلى كفالة للتأشيرة","fr":"J'ai besoin d'un parrainage de visa",
     "sub":{"en":"The employer applies to the IND as a recognised sponsor (highly skilled migrant)","ar":"يتقدّم صاحب العمل بالطلب إلى IND بصفته كفيلًا معترفًا به (مهاجر ذو مهارات عالية)","fr":"L'employeur dépose la demande auprès de l'IND en tant que sponsor reconnu (migrant hautement qualifié)"}}
   ],

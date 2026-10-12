@@ -17,7 +17,8 @@
 .setcard .chip.ob6cchip{gap:7px}
 .ob6here{font-size:9.5px;font-weight:800;color:var(--green-d);background:var(--green-t);padding:2px 7px;border-radius:999px;letter-spacing:.02em}
 .ob6cc .setcard-ht{flex:1 1 auto}
-.ob6cc .allchip .sw-lab{white-space:normal;text-align:end;max-width:170px;line-height:1.25}
+.setcard .chip.allchip.ob6anyrow{display:flex;width:100%;justify-content:space-between;margin:11px 0 0;padding:2px 0}
+.setcard .ob6anyrow .sw-lab{white-space:normal;text-align:start;line-height:1.3;font-size:12px}
 .ob6remote{display:flex;align-items:center;gap:12px}
 .ob6remote .ob6rtx{flex:1;min-width:0}
 .ob6remote b{font-size:14px}
@@ -62,8 +63,9 @@
 /* profile */
 .ob6ro{pointer-events:none}
 .ob6lvrow .ob6lvl{font-size:12px;font-weight:700;margin:14px 0 7px}
-.ob6salin input{padding-inline-end:104px}
-.ob6salin .noticeunit{font-size:12px;max-width:96px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ob6sallab{display:flex;align-items:baseline;justify-content:space-between;gap:6px;font-size:12px;font-weight:700;margin-bottom:6px}
+.ob6sallab .ob6unit{font-size:10.5px;font-weight:800;color:var(--muted);white-space:nowrap}
+.ob6sallab .ob6unit .sar{display:inline-block}
 
 /* tune: focus order */
 .ob6fosub{font-size:12px;line-height:1.5;margin-top:11px}

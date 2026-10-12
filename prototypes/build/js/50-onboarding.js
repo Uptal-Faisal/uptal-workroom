@@ -279,8 +279,8 @@ function paintWhere(){
   /* per country: cities + anywhere */
   tgts().forEach(function(c){
     var cs = I(c).cities, any = !!OB6.any[c], sel = OB6.cities[c] || [], nsel = any ? cs.length : sel.length;
-    h += '<div class="setcard ob6cc" data-ob6cc="' + c + '"><div class="setcard-h"><span class="setcard-ic ob6flagic">' + I(c).flag + '</span><div class="setcard-ht"><span class="setcard-t">' + E(cname(c)) + '</span><span class="setcard-n"><b class="selcount">' + nsel + ' / ' + cs.length + '</b></span></div>'
-       + '<button class="chip allchip' + (any ? ' on' : '') + '" data-ob6any="' + c + '"><span class="sw-lab">' + E(fill('ob6AnyIn', {'in':cin(c)})) + '</span><span class="sw-track"><i class="ti ti-check allcheck"></i></span></button></div><hr class="setcard-div"><div class="chipgrid">';
+    h += '<div class="setcard ob6cc" data-ob6cc="' + c + '"><div class="setcard-h"><span class="setcard-ic ob6flagic">' + I(c).flag + '</span><div class="setcard-ht"><span class="setcard-t">' + E(cname(c)) + '</span><span class="setcard-n"><b class="selcount">' + nsel + ' / ' + cs.length + '</b></span></div></div><hr class="setcard-div">'
+       + '<button class="chip allchip ob6anyrow' + (any ? ' on' : '') + '" data-ob6any="' + c + '" role="switch" aria-checked="' + any + '"><span class="sw-lab">' + E(fill('ob6AnyIn', {'in':cin(c)})) + '</span><span class="sw-track"><i class="ti ti-check allcheck"></i></span></button><div class="chipgrid">';
     cs.forEach(function(x){ h += chipHTML('data-ob6city="' + c + '|' + E(x.id) + '"', !any && sel.indexOf(x.id) >= 0, lg(x), '', any); });
     h += '</div>';
     var metro = ''; if (any) metro = fill('ob6AnyHint', {'in':cin(c)}); else { var m = sel.map(function(id){ var cc = cityOf(c, id); return cc && cc.metro ? lg(cc.metro) : ''; }).filter(Boolean)[0]; if (m) metro = m; }
@@ -620,7 +620,7 @@ function paintProfile(){
   if (typeof pfSync === 'function') pfSync();
 }
 function salUnit(code, m){ var s = salOf(code); return curSym(m) + ' / ' + d(s.per === 'year' ? 'ob6PerYear' : 'ob6PerMonth'); }
-function salInput(key, val, unit, label, id){ return '<div' + (id ? ' id="' + id + '"' : '') + '><div class="mut" style="font-size:12px;font-weight:700;margin-bottom:6px">' + E(label) + '</div><div class="noticeman ob6salin"><input class="inp filled" data-ob6sal="' + key + '" value="' + E(val) + '" inputmode="numeric" dir="ltr"><span class="noticeunit">' + H(unit) + '</span></div></div>'; }
+function salInput(key, val, unit, label, id){ return '<div' + (id ? ' id="' + id + '"' : '') + '><div class="mut ob6sallab"><span>' + E(label) + '</span><span class="ob6unit">' + H(unit) + '</span></div><input class="inp filled" data-ob6sal="' + key + '" value="' + E(val) + '" inputmode="numeric" dir="ltr"></div>'; }
 function paintSalary(sa){
   var g = $('pfSalGrid'), tt = qs('#ob6PfSal .setcard-t'); if (!g) return;
   var emp = typeof pfEmployed === 'function' ? pfEmployed() : true;
@@ -705,7 +705,9 @@ if (typeof planSetTerm === 'function'){ var _pst = planSetTerm; planSetTerm = fu
 (function(){ var h = HOOKS['profile']; HOOKS['profile'] = function(){ if (h) h(); paintProfile(); if (typeof pfApplyMode === 'function') pfApplyMode(); }; })();
 (function(){ var h = HOOKS['aboutYou']; HOOKS['aboutYou'] = function(){ if (h) h(); paintSteps(); paintPhotoHints(); }; })();
 (function(){ var h = HOOKS['autopilot']; HOOKS['autopilot'] = function(){ if (h) h(); paintSteps(); }; })();
-(function(){ var _r = render; render = function(){ ensureFr(); _r(); paintAll(); }; })();
+/* v5's edit-mode chrome has no French labels and throws inside render(); alias it so the render chain completes in FR */
+try { if (typeof EDT !== 'undefined' && EDT.en && !EDT.fr) EDT.fr = EDT.en; } catch(_){}
+(function(){ var _r = render; render = function(){ ensureFr(); try { _r(); } finally { paintAll(); } }; })();
 MKT.onChange(function(S){
   var p = S.p; if (!p) return;
   if (OB6.pid && OB6.pid !== p.id){ var old = personaById(OB6.pid); if (old) restoreOrig(old); }

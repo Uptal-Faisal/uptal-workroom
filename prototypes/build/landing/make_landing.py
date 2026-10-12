@@ -16,8 +16,12 @@ The generator:
     (KSA logo <img>s become typeset wordmarks), the tailoring-card tiles
     (logo <img>s become monogram tiles), sector tags, targeting chips and
     the FAQ list;
-  * swaps the flag, page title, meta description and the "Start applying"
-    hand-off link into the app prototype;
+  * swaps the flag, page title, meta description, footer legal links (pack
+    `links`, KSA pages otherwise) and the "Start applying" hand-off link into
+    the app prototype;
+  * lets the hero card say "Live Data" only when its figures are real stats;
+    while any is a placeholder it shows the pack's sample label, amber;
+  * applies country-neutral spelling fixes to inherited Arabic copy;
   * keeps the embedded fonts byte-for-byte and adds no network resources;
   * verifies the result: no image data left, fonts intact, no unresolved
     {{tokens}}, and no leftover KSA place names in the visible text of either

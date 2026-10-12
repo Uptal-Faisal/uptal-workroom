@@ -67,3 +67,9 @@ Researched 2026-10-12. Several Tunisian sites (tanitjobs.com, paylab.com, africa
 - **Language.** French is the business language, so `lang2` is French. Arabic is "neutral" per `base.json`.
 - **Phone.** +216 with 8-digit numbers. 20 xxx xxx is an Ooredoo-style mobile prefix.
 - **Persona.** The employer (Medjerda Group / Medjerda Distribution) is fictional, named after the Medjerda river. The bio mentions IFRS group reporting plus statutory accounts under Tunisian standards (NCT), which matches Tunisia's phased IFRS adoption for listed companies, banks and insurers.
+
+## Fact-check pass (2026-10-12)
+- No live web access in this pass (search budget used up, egress blocked), so nothing above was re-verified online. Only wording and consistency fixes were made.
+- Capital city Arabic is now "تونس العاصمة" (local usage), so it is not confused with the country "تونس". This matches DZ ("الجزائر العاصمة") and KW ("مدينة الكويت").
+- The Investment Law quota text now says it applies to managerial staff ("cadres"), covers the first 3 years, and allows 4 foreign executives in any case. The earlier "at least 4" could be read as a hiring obligation.
+- The last work-rights option now says "an employer", as other packs do, because the user is looking for a job.
