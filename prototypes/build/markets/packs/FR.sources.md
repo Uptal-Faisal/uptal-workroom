@@ -58,3 +58,10 @@ Persona: Julien Moreau (m, French, Paris), taken from `roster.json` id `FR`. Cur
 - **lang2: French.** A French level matters on applications from non-native speakers, which matches how the DE, ES, IT and NL packs handle their local language.
 - **govPlatforms: `[]`.** France Travail and APEC appear as job boards. ANEF (work authorisations) is handled by employers and is not a step in the job search itself.
 - **Certifications.** DSCG and DEC are the French accounting qualifications, CFA is used in corporate finance and banking, and ACCA appears in multinational FP&A teams.
+
+## Fact-check pass (2026-10-12)
+Live checks were again impossible: the shared WebSearch budget was used up, and WebFetch could not resolve service-public.fr, klarna.com or fr.wikipedia.org. The review was done from prior knowledge against the claims above.
+- **Changed:** the employee-permit option now names "travailleur temporaire" in EN and AR as well, so all three languages describe the same status (the FR label already did).
+- **Changed (Arabic register):** "contrôle de gestion" in the persona degree is now "الرقابة الإدارية" instead of the Maghreb term "مراقبة التسيير". DSCG is now rendered "الدبلوم العالي في المحاسبة والإدارة" (Diplôme supérieur de comptabilité et de gestion) instead of "دبلوم الدراسات العليا…", which is the name of a different diploma.
+- **Added:** a sensitive-fields note that some French career sites require "Civilité" (Madame / Monsieur). Gender stays `none`. DE and CH use `ask` for the same kind of salutation field, so the product team should decide whether FR should match them.
+- **Open doubts:** whether SFR is still independent (Bouygues, Iliad and Orange made a joint bid in 2025); when the "talent" card name took effect; whether Klarna's French offer is pay-in-3 or pay-in-4 on the chosen PSP; and the EUR 60k base, which sits at the low-to-mid end of the 55-70k band for 8 years in Paris (62-65k is also defensible).

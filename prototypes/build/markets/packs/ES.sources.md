@@ -2,6 +2,14 @@
 
 Researched 2026-10-12. **Research limits:** I ran 7 web searches, and then the shared search budget for this run (200 calls across all agents) ran out. WebFetch could not resolve any host (caixabank.com, cross-border-magazine.com, boe.es), and direct HTTPS was refused by the proxy (403). So only the payment facts below rest on live 2025-2026 search results. Everything else comes from prior knowledge (training data up to mid-2026) and is labelled with a confidence level. **Before launch, re-check the items marked "verify".**
 
+**Fact-check pass (2026-10-12):** this pass had no live sources either. The shared WebSearch budget was used up, and WebFetch could not resolve boe.es or wikipedia.org. So each claim was checked against prior knowledge and against the builder's own cited data. That pass made four changes, each marked "fact-check" below:
+- moved PayPal ahead of Bizum
+- renamed the option "Student stay permit" to "Student permit"
+- changed the French label for that option
+- corrected the Arabic spelling of Iberia
+
+Nothing else was refuted.
+
 ## Payments (searched)
 - **Cards first.** Cards are still the largest online method in Spain:
   - Stripe: 48% of online-store purchases in Spain are paid by card.
@@ -15,8 +23,13 @@ Researched 2026-10-12. **Research limits:** I ran 7 web searches, and then the s
   - MONEI's Black Friday/Cyber Monday 2025 sample: 22% of shoppers used Bizum, Apple Pay had 12% of checkouts and Google Pay 4%. This is a single-PSP, single-event sample.
 
   Bizum does not outweigh cards, so card stays first (per spec).
+- **Order card → PayPal → Bizum (changed in fact-check).** The builder had Bizum second. The fact-check moved PayPal ahead of it for two reasons:
+  - The builder's own sources put wallets, mostly PayPal, ahead of Bizum: PPRO has wallets at 31% and Bizum at 10.3% of shoppers. The 22% Bizum figure comes from a single PSP's Black Friday sample.
+  - This is a subscription checkout, and PayPal billing agreements renew reliably. Bizum recurring is only confirmed at some banks and is a private preview on Stripe.
+
+  Bizum stays in the list, third. Move it back to second only if our PSP confirms Bizum recurring.
 - **Bizum renewals: caveat.** Bizum's conditions allow a mandate for periodic payments to the same merchant (Xataka on Bizum T&Cs). CaixaBank's press release of 4 Sep 2026 (9.52M Bizum users, 17.67M online payments in H1 2026) mentions recurring subscription payments, citing Amazon among the first services. BBVA announced subscription payments with Bizum in 2024. Stripe lists Bizum only as a **private preview**, and I found no confirmed recurring support there. Product impact: offer Bizum at checkout only if our PSP supports Bizum recurring. Otherwise, take the first payment by Bizum and ask for a card (or send a renewal pay-link) before the plan renews. Verify with the PSP.
-- **PayPal kept.** MONEI's Black Friday data shows PayPal at about 1% for that PSP, but PPRO groups wallets at 31% and PayPal remains a familiar fallback for Spanish shoppers. It stays third. Confidence: medium.
+- **PayPal kept, now second.** MONEI's Black Friday data shows PayPal at about 1%, but that is one Bizum-heavy PSP. PPRO groups wallets at 31%, and PayPal is the long-established online wallet in Spain. Confidence: medium.
 - **Wallets: Apple Pay and Google Pay.** Both are widely supported by Spanish banks and visible in checkout data (MONEI). Samsung Wallet payments do exist in Spain: historically Santander, CaixaBank, Sabadell, Openbank, Abanca and others, and recently N26. But they are an in-store NFC wallet and rarely appear as a web-checkout button, so samsung is left out (conservative).
 - **BNPL: Klarna Pay in 3.** Klarna launched "Paga en 3 plazos" in Spain with no interest or fees: first instalment at checkout, then at 30 and 60 days, for residents aged 18+ (Klarna ES co-marketing PDF, FNAC, Sephora.es, HelpMyCash). seQura (Spanish) and Aplazame are also common, but they usually charge a per-instalment fee, so they are left out. Caveat: EU CCD2 brings BNPL under consumer-credit rules from 20 Nov 2026, so check Klarna eligibility and disclosures after that date.
 - **localCardBrand: null.** Spain has no domestic card brand at checkout. The old networks (ServiRed, Sistema 4B, Euro 6000) are processing/ATM networks; the cards are Visa or Mastercard, processed largely by Redsys. Bizum is an account-to-account method, so it goes in `methods`, not here.
@@ -35,7 +48,8 @@ Researched 2026-10-12. **Research limits:** I ran 7 web searches, and then the s
   - Withdrawal Agreement TIEs held by UK nationals resident before 2021
 
   I grouped them because the TIE card itself states whether it authorises work.
-- **Student stay permit, up to 30 h/week:** RD 1155/2024 (Reglamento de Extranjería, in force 20 May 2025) lets holders of a study stay work up to 30 hours a week if compatible with their studies (previously 20 h). Confidence: medium-high. Verify.
+- **Student permit, up to 30 h/week:** RD 1155/2024 (Reglamento de Extranjería, in force 20 May 2025) lets students work up to 30 hours a week if compatible with their studies (previously 20 h). Confidence: medium-high. Verify.
+  - The fact-check renamed the option from "Student stay permit" to "Student permit" (fr: "Titre de séjour étudiant"). My recollection is that the new regulation turned the old *estancia por estudios* into a residence authorisation for studies. If so, "stay permit" is the wrong term. The generic label is correct either way.
 - **Highly qualified professional (HQP) / EU Blue Card:** Ley 14/2013 (Ley de Emprendedores), as amended by Ley 11/2023 to transpose the recast Blue Card Directive 2021/1883. Applications go to the UGE-CE (Unidad de Tramitación de Grandes Empresas y Colectivos Estratégicos). The authorisation is linked to the employer, so a new employer normally files a new application. Under the Directive, Blue Card holders can change employer with notification only after 12 months. That is why the sub-label says "usually". I deliberately left salary thresholds out of the copy because I could not verify the 2026 figures. Verify.
 - **Needs sponsorship (last):** for non-EU finance hires the realistic route is the HQP/UGE-CE route, which has no labour-market test. The general *cuenta ajena* work permit requires the *situación nacional de empleo* test unless the job is on the *Catálogo de Ocupaciones de Difícil Cobertura*, and finance roles normally are not.
 - **Matching rule:** Spain has no public register of licensed sponsors (unlike the UK or NL). Spanish ads often say "imprescindible permiso de trabajo" / "permiso de trabajo en vigor", so the rule skips those when the user needs sponsorship and favours larger, internationally hiring employers, which are the ones able to use the UGE-CE route.
@@ -102,6 +116,8 @@ Researched 2026-10-12. **Research limits:** I ran 7 web searches, and then the s
   - exchange: BME, owned by SIX since 2020
   - industrial: Acerinox
   - real estate: Merlin Properties
+
+  Arabic spelling: Iberia is إيبيريا (as in شبه الجزيرة الإيبيرية), corrected in fact-check from أيبيريا.
 
   Cities are where the finance jobs mostly sit. BBVA and Santander have registered seats in Bilbao and Santander but corporate HQs in the Madrid region. CaixaBank is registered in Valencia but its main corporate offices are in Barcelona. Logo colours are approximate brand colours.
 - **Boards:** LinkedIn, then InfoJobs (Spain's largest domestic job board), Indeed and InfoEmpleo, plus eFinancialCareers for banking and finance. Order is by prior knowledge; I did not verify traffic shares.

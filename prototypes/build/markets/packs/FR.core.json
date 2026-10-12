@@ -92,7 +92,7 @@
     "sub": {"en": "For example 10-year resident card, EU long-term resident, family-life permit or refugee", "ar": "مثل بطاقة المقيم لمدة 10 سنوات أو الإقامة الطويلة الأمد في الاتحاد الأوروبي أو الإقامة العائلية أو صفة اللاجئ", "fr": "Par exemple carte de résident de 10 ans, résident longue durée-UE, « vie privée et familiale » ou réfugié"}},
    {"en": "Talent permit (passeport talent) or EU Blue Card", "ar": "تصريح «المواهب» (passeport talent) أو البطاقة الزرقاء الأوروبية", "fr": "Titre « talent » (passeport talent) ou carte bleue européenne",
     "sub": {"en": "Skilled roles; the Blue Card has a minimum salary", "ar": "للوظائف عالية التأهيل، وتشترط البطاقة الزرقاء حداً أدنى للراتب", "fr": "Postes qualifiés ; la carte bleue exige un salaire minimum"}},
-   {"en": "Employee residence permit (salarié)", "ar": "تصريح إقامة «موظف» (salarié)", "fr": "Carte de séjour « salarié » ou « travailleur temporaire »",
+   {"en": "Employee or temporary-worker permit (salarié / travailleur temporaire)", "ar": "تصريح إقامة «موظف» أو «عامل مؤقت» (salarié / travailleur temporaire)", "fr": "Carte de séjour « salarié » ou « travailleur temporaire »",
     "sub": {"en": "Tied to your job; changing employer may need a new work authorisation", "ar": "مرتبط بوظيفتك، وقد يتطلب تغيير جهة العمل تصريح عمل جديداً", "fr": "Liée à votre emploi ; changer d'employeur peut exiger une nouvelle autorisation de travail"}},
    {"en": "Job-search permit after graduating in France (RECE)", "ar": "تصريح «البحث عن عمل أو إنشاء مشروع» (RECE) بعد التخرج في فرنسا", "fr": "Carte « recherche d'emploi ou création d'entreprise » (RECE)",
     "sub": {"en": "12 months after a master's-level degree to find a job", "ar": "12 شهراً بعد شهادة بمستوى الماجستير للعثور على عمل", "fr": "12 mois après un diplôme de niveau master pour trouver un emploi"}},
@@ -110,7 +110,7 @@
   "dob": "none",
   "nationality": "none",
   "marital": "none",
-  "notes": "French anti-discrimination law (Code du travail L1132-1; Code pénal 225-1 and 225-2) bars selection on more than 25 criteria, including age, sex, family situation, nationality, origin, physical appearance and place of residence, and Code du travail L1221-6 limits what a recruiter may ask to information directly linked to the job. Photos were long standard on French CVs and still appear on many, so the photo is optional and never required (the 2006 anonymous-CV obligation was made optional in 2015). Application forms do not normally ask for gender, date of birth, nationality or marital status; the right-to-work card covers work authorisation."
+  "notes": "French anti-discrimination law (Code du travail L1132-1; Code pénal 225-1 and 225-2) bars selection on more than 25 criteria, including age, sex, family situation, nationality, origin, physical appearance and place of residence, and Code du travail L1221-6 limits what a recruiter may ask to information directly linked to the job. Photos were long standard on French CVs and still appear on many, so the photo is optional and never required (the 2006 anonymous-CV obligation was made optional in 2015). Application forms do not normally ask for gender, date of birth, nationality or marital status; the right-to-work card covers work authorisation. Some French career sites do make a salutation (Civilité: Madame / Monsieur) mandatory; it is a form of address, not a selection criterion, so we do not ask it as gender and fill it only where a form requires it."
  },
  "legal": {
   "law": "GDPR (RGPD) + Loi Informatique et Libertés (loi n° 78-17 du 6 janvier 1978)",
@@ -124,7 +124,7 @@
  "boards": ["LinkedIn", "Indeed", "Welcome to the Jungle", "APEC", "HelloWork", "Cadremploi", "France Travail", "eFinancialCareers"],
  "lang2": {"en": "French", "ar": "الفرنسية", "fr": "français"},
  "certs": [
-  {"id": "dscg", "en": "DSCG (French advanced accounting diploma)", "ar": "دبلوم الدراسات العليا في المحاسبة والتسيير (DSCG)", "fr": "DSCG"},
+  {"id": "dscg", "en": "DSCG (French advanced accounting diploma)", "ar": "الدبلوم العالي في المحاسبة والإدارة (DSCG)", "fr": "DSCG"},
   {"id": "dec", "en": "French Chartered Accountant (DEC)", "ar": "دبلوم الخبرة المحاسبية الفرنسي (DEC)", "fr": "Diplôme d'expertise comptable (DEC)"},
   {"id": "cfa", "en": "CFA", "ar": "CFA (محلل مالي معتمد)", "fr": "CFA"},
   {"id": "acca", "en": "ACCA", "ar": "ACCA", "fr": "ACCA"}
@@ -142,7 +142,7 @@
   "years": 8,
   "employer": {"en": "Acme France", "ar": "أكمي فرنسا", "fr": "Acme France"},
   "employer2": {"en": "Acme Capital France", "ar": "أكمي كابيتال فرنسا", "fr": "Acme Capital France"},
-  "degree": {"en": "Master's in Corporate Finance and Management Control", "ar": "ماجستير في مالية الشركات ومراقبة التسيير", "fr": "Master Finance d'entreprise et contrôle de gestion"},
+  "degree": {"en": "Master's in Corporate Finance and Management Control", "ar": "ماجستير في مالية الشركات والرقابة الإدارية", "fr": "Master Finance d'entreprise et contrôle de gestion"},
   "uni": "dauphine", "cert": "dscg",
   "tools": "SAP S/4HANA, Excel, Power BI",
   "bio": {"en": "Financial Analyst with 8 years in Paris. I lead IFRS and French GAAP reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in Paris, La Défense or hybrid.",

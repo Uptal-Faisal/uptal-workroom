@@ -644,7 +644,7 @@
   "desc": {
    "en": "Qatari nationals, then children of Qatari mothers, get priority in hiring, and a 2024 law lets the Ministry of Labour set Qatari targets for private-sector jobs. We only apply to roles marked Qatari nationals only if you are Qatari.",
    "ar": "الأولوية في التوظيف للقطريين ثم أبناء القطريات، وقانون توطين الوظائف في القطاع الخاص (2024) يخلّي وزارة العمل تحدد نسب القطريين في الوظائف. وما نقدّم على الوظائف المخصصة للقطريين إلا إذا كانت جنسيتك قطرية.",
-   "fr": "Les ressortissants qatariens, puis les enfants de mère qatarienne, sont prioritaires à l'embauche, et une loi de 2024 permet au ministère du Travail de fixer des objectifs de Qatariens dans les emplois du secteur privé. Nous ne postulons aux offres réservées aux ressortissants qatariens que si vous avez la nationalité qatarienne."
+   "fr": "Les ressortissants qatariens, puis les enfants de mère qatarienne, sont prioritaires à l'embauche, et une loi de 2024 permet au ministère du Travail de fixer des objectifs d'emploi de Qatariens dans le secteur privé. Nous ne postulons aux offres réservées aux ressortissants qatariens que si vous avez la nationalité qatarienne."
   }
  },
  "sensitive": {
@@ -653,13 +653,13 @@
   "dob": "ask",
   "nationality": "ask",
   "marital": "none",
-  "notes": "Photo: common on Qatari CVs and on regional boards (Bayt, GulfTalent), but not needed for ATS uploads; we offer it and never require it. Gender, date of birth and nationality are standard fields on Qatari application forms (state companies, the national airline, HMC, banks) and on Bayt/GulfTalent profiles; nationality also drives Qatarization and visa handling, and recruiters expect QID or visa status on the CV. Marital status often appears on Gulf CVs (and family sponsorship matters for some expat applicants) but it is not needed for matching, so we do not ask (conservative, PDPPL data minimisation). Qatar's Constitution (Art. 35) bars discrimination on sex, origin, language or religion and the Labour Law requires equal pay for women, but there is no detailed private-hiring anti-discrimination code, so we set our own rule: never filter on gender or age, only on work rights and Qatari-only postings."
+  "notes": "Photo: common on Qatari CVs and on regional boards (Bayt, GulfTalent), but not needed for ATS uploads; we offer it and never require it. Gender, date of birth and nationality are standard fields on Qatari application forms (state companies, the national airline, HMC, banks) and on Bayt/GulfTalent profiles; nationality also drives Qatarization and visa handling, and recruiters expect QID or visa status on the CV. Marital status often appears on Gulf CVs (and family sponsorship matters for some expat applicants) but it is not needed for matching, so we do not ask (conservative, PDPPL data minimisation). Qatar's Constitution (Art. 35) bars discrimination on sex, origin (\"race\" in the official English text), language or religion and the Labour Law requires equal pay for women, but there is no detailed private-hiring anti-discrimination code, so we set our own rule: never filter on gender or age, only on work rights and Qatari-only postings."
  },
  "legal": {
   "law": "Qatar PDPPL (Law No. 13 of 2016 on Personal Data Privacy Protection); the QFC Data Protection Regulations 2021 apply in the Qatar Financial Centre",
   "privacy": {
    "en": "Your data is protected under Qatar's Personal Data Privacy Protection Law (Law No. 13 of 2016). We never share it without your consent.",
-   "ar": "بياناتك محمية بموجب قانون حماية خصوصية البيانات الشخصية في قطر، وما نشاركها بدون موافقتك.",
+   "ar": "بياناتك محمية بموجب قانون حماية خصوصية البيانات الشخصية في قطر (القانون رقم 13 لسنة 2016)، وما نشاركها بدون موافقتك.",
    "fr": "Vos données sont protégées par la loi qatarienne sur la protection de la vie privée et des données personnelles (loi n° 13 de 2016). Nous ne les partageons jamais sans votre accord."
   },
   "renewal": {
@@ -733,9 +733,9 @@
    "ar": "وزارة العمل",
    "fr": "ministère du Travail",
    "use": {
-    "en": "Work permits, contracts and job changes",
-    "ar": "تصاريح العمل والعقود وتغيير جهة العمل",
-    "fr": "Permis de travail, contrats et changements d'employeur"
+    "en": "Work permits, contracts, job changes and Qatarization in the private sector",
+    "ar": "تصاريح العمل والعقود وتغيير جهة العمل، والتقطير في القطاع الخاص",
+    "fr": "Permis de travail, contrats, changements d'employeur et qatarisation dans le secteur privé"
    }
   },
   {
@@ -747,17 +747,6 @@
     "en": "Your residence permit (QID) and visa services",
     "ar": "خدمات الإقامة والبطاقة الشخصية والتأشيرات",
     "fr": "Votre permis de séjour (QID) et vos démarches de visa"
-   }
-  },
-  {
-   "id": "kawader",
-   "en": "Kawader",
-   "ar": "كوادر",
-   "fr": "Kawader",
-   "use": {
-    "en": "National job platform for Qataris in the private sector",
-    "ar": "المنصة الوطنية لتوظيف القطريين في القطاع الخاص",
-    "fr": "Plateforme nationale d'emploi des Qatariens dans le secteur privé"
    }
   }
  ],

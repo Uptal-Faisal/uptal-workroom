@@ -132,7 +132,9 @@ from Kuwaitization.
 - Marital status appears on some CVs and on government forms (allowances depend on it). It is not needed for
   matching, so we do not ask (conservative, data minimisation). We never ask for the Civil ID number; employers
   collect it at offer stage.
-- Labour Law 6/2010 bans pay discrimination on grounds such as sex, origin, language and religion. We never
+- Labour Law 6/2010 bans pay discrimination, including between men and women doing the same work. The list
+  "race, origin, language or religion" is from the Constitution (Art. 29), not the Labour Law; an earlier draft
+  mixed the two up. The Labour Law's exact list of grounds and its article number were not checked. We never
   filter on gender or age.
 
 ## Legal, confidence: medium
@@ -210,3 +212,24 @@ the ruling-family name Al-Sabah and the names of big merchant groups.
 article numbers under the 2024 law, and the PAM transfer rules (Work rights). 4. Kuwaitization sector
 percentages and MGRP status. 5. A 2026 Kuwait salary guide for f. 6. Data-protection law status. 7. HQ cities
 for Mezzan and Alshaya, and whether Boutiqaat is still a large employer.
+
+## Fact-check pass (2026-10-12)
+A second agent tried to refute the main claims, but it **could not reach the web**: WebSearch was out of budget,
+WebFetch failed on DNS, and the egress proxy blocked tamara.co, tabby.ai, knet.com.kw, pam.gov.kw, mof.gov.kw,
+wikipedia.org and taxsummaries.pwc.com (HTTP 403). All checks below come from general knowledge, so the
+re-run checklist above still applies in full.
+- Changed: `culture.notes` no longer says many Kuwaitis "prefer private-sector offers". Most employed Kuwaitis
+  work in government, and the labour support allowance is meant to make private-sector jobs competitive.
+- Changed: `sensitive.notes` no longer gives the Constitution's equality grounds (Art. 29) as the Labour Law's.
+- Checked against general knowledge, no change: no VAT (`rate 0`); the DMTT Decree-Law 157/2024; KNET as the
+  dominant local method, with no merchant-initiated recurring charges; Art. 18 / 17 / 22 residence categories;
+  GCC `autoFor`; Labour Law Art. 44 (3 months' notice for monthly-paid staff); 36-hour Ramadan week; Sun-Thu
+  week; area-to-governorate mapping (Al Rai is in Farwaniya, Sulaibiya in Jahra, Messila in Mubarak Al-Kabeer);
+  the 24 employers are real and use current names (stc, formerly VIVA; KFH after AUB); Arabic and French
+  spellings; Gulf register; masculine persona title (محلل مالي / Analyste financier); f = 0.06 (about 73% of
+  FX parity, between AE at 82% and OM/BH at 50-58%).
+- Still open: Tabby and Tamara in Kuwait in 2026; Google Pay in Kuwait (may have launched in 2024-25 with
+  local banks; still left out as the conservative choice); whether Apple Pay with a **KNET debit card** can be
+  charged again for renewal (if not, the renewal line's "Apple Pay renews automatically" needs the same KNET
+  caveat); residence article numbering under the 2025 executive regulations; "highest in banking" for the
+  Kuwaitization quota table; Mezzan and Alshaya HQ governorates; whether a real "Sadu Holding" exists.

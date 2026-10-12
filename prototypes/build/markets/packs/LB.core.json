@@ -39,7 +39,7 @@
              "fr": "Tyr couvre la ville de Tyr (Sour) et ses environs."}}
  ],
  "employers": [
-  {"id": "bankaudi", "en": "Bank Audi", "ar": "بنك عودة", "fr": "Bank Audi", "sector": "bank", "archetype": "leading commercial bank", "city": "beirut",
+  {"id": "bankaudi", "en": "Bank Audi", "ar": "بنك عوده", "fr": "Bank Audi", "sector": "bank", "archetype": "leading commercial bank", "city": "beirut",
    "logo": {"bg": "#00205B", "fg": "#FFFFFF", "mono": "BA"}},
   {"id": "blom", "en": "BLOM Bank", "ar": "بنك لبنان والمهجر", "fr": "BLOM Bank", "sector": "bank", "archetype": "leading commercial bank", "city": "beirut",
    "logo": {"bg": "#0060A9", "fg": "#FFFFFF", "mono": "BLOM"}},
@@ -97,9 +97,7 @@
   "methods": [
    {"id": "card", "label": {"en": "Card", "ar": "بطاقة مصرفية", "fr": "Carte bancaire"},
     "sub": {"en": "Visa or Mastercard, incl. fresh-dollar and prepaid cards", "ar": "Visa أو Mastercard، بما فيها بطاقات «الفريش دولار» والبطاقات المدفوعة مسبقاً", "fr": "Visa ou Mastercard, y compris les cartes en « fresh dollars » et les cartes prépayées"},
-    "brands": ["visa", "mc"]},
-   {"id": "paypal", "label": {"en": "PayPal", "ar": "PayPal", "fr": "PayPal"},
-    "sub": {"en": "Pay with your PayPal account", "ar": "ادفع بحساب PayPal", "fr": "Payez avec votre compte PayPal"}}
+    "brands": ["visa", "mc"]}
   ],
   "bnpl": [],
   "localCardBrand": null
@@ -116,7 +114,7 @@
     "sub": {"en": "Courtesy residence through a Lebanese spouse or mother. An employer still applies for your work permit", "ar": "إقامة مجاملة عن طريق الزوج أو الزوجة أو الأم اللبنانية، ويبقى على صاحب العمل طلب إجازة العمل", "fr": "Résidence de courtoisie via un conjoint libanais ou une mère libanaise. L'employeur demande tout de même votre permis de travail"}},
    {"en": "Palestinian refugee registered in Lebanon", "ar": "لاجئ فلسطيني مسجّل في لبنان", "fr": "Réfugié palestinien enregistré au Liban",
     "sub": {"en": "A work permit is still required, but it has been fee-free since 2010. Some professions remain closed", "ar": "تبقى إجازة العمل مطلوبة، لكنها معفاة من الرسوم منذ عام 2010، وتبقى بعض المهن مغلقة", "fr": "Le permis de travail reste obligatoire, mais il est gratuit depuis 2010. Certaines professions restent fermées"}},
-   {"en": "I'd need my employer to get me a work permit", "ar": "أحتاج أن يستخرج لي صاحب العمل إجازة عمل", "fr": "L'employeur devra obtenir mon permis de travail",
+   {"en": "I'd need an employer to get me a work permit", "ar": "أحتاج إلى صاحب عمل يستخرج لي إجازة عمل", "fr": "J'aurais besoin qu'un employeur m'obtienne un permis de travail",
     "sub": {"en": "The employer seeks Ministry of Labour pre-approval and must justify hiring a foreigner; many finance roles are reserved for Lebanese", "ar": "يطلب صاحب العمل موافقة مسبقة من وزارة العمل ويجب أن يبرّر توظيف أجنبي، علماً أن كثيراً من الوظائف المالية محصورة باللبنانيين", "fr": "L'employeur demande un accord préalable au ministère du Travail et doit justifier le recrutement d'un étranger ; de nombreux postes en finance sont réservés aux Libanais"}}
   ],
   "autoFor": ["LB"],
@@ -154,7 +152,7 @@
  "lang2": {"en": "French", "ar": "الفرنسية", "fr": "français"},
  "certs": [
   {"id": "lacpa", "en": "Lebanese CPA (LACPA)", "ar": "خبير محاسبة مجاز (نقابة خبراء المحاسبة المجازين في لبنان)", "fr": "Expert-comptable (LACPA)"},
-  {"id": "cma", "en": "CMA (US)", "ar": "CMA الأمريكية", "fr": "CMA (US)"},
+  {"id": "cma", "en": "CMA (US)", "ar": "CMA الأميركية", "fr": "CMA (US)"},
   {"id": "cfa", "en": "CFA", "ar": "CFA", "fr": "CFA"},
   {"id": "acca", "en": "ACCA", "ar": "ACCA", "fr": "ACCA"}
  ],

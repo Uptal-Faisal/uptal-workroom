@@ -45,7 +45,7 @@
    "id": "nizwa", "en": "Nizwa", "ar": "نزوى", "fr": "Nizwa",
    "metro": {
     "en": "Nizwa covers Nizwa city and nearby Bahla, Izki and Manah in Ad Dakhiliyah.",
-    "ar": "نزوى تشمل مدينة نزوى وبهلا وإزكي ومنح في محافظة الداخلية.",
+    "ar": "نزوى تشمل مدينة نزوى وبهلاء وإزكي ومنح في محافظة الداخلية.",
     "fr": "Nizwa couvre la ville de Nizwa et, à proximité, Bahla, Izki et Manah, dans le gouvernorat d'Ad-Dakhiliya."
    }
   },
@@ -161,7 +161,7 @@
    },
    {
     "en": "I need an employer to sponsor my work visa", "ar": "أحتاج جهة عمل تكفل تأشيرة عملي", "fr": "J'ai besoin qu'un employeur parraine mon visa de travail",
-    "sub": {"en": "You are outside Oman or on a visit visa.", "ar": "أنت برّا عُمان أو على تأشيرة زيارة.", "fr": "Vous êtes hors d'Oman ou avec un visa de visite."}
+    "sub": {"en": "You are outside Oman or on a visit visa.", "ar": "أنت برّا عُمان أو على تأشيرة زيارة.", "fr": "Vous êtes hors d'Oman ou titulaire d'un visa de visite."}
    }
   ],
   "autoFor": ["OM", "SA", "AE", "QA", "KW", "BH"],

@@ -121,6 +121,7 @@ function cname(c){ return lg(I(c).name); }
 function cshort(c){ return lg(I(c).short); }
 function cin(c){ var i = I(c); if (i.inn) return lg(i.inn); var l = L(); return (l === 'ar' ? 'في ' : l === 'fr' ? 'en ' : 'in ') + lg(i.short); }
 function dem(c, g){ var x = I(c).dem; if (!x) return cname(c); var l = L(); if (l === 'ar') return (g === 'f' && x.arf) ? x.arf : (x.ar || x.en); if (l === 'fr') return (g === 'f' && x.frf) ? x.frf : (x.fr || x.en); return x.en; }
+function cap(s){ s = String(s || ''); return s.charAt(0).toUpperCase() + s.slice(1); }
 function nationals(c){ var i = I(c); return i.nationals ? lg(i.nationals) : dem(c, 'm'); }
 function cityOf(code, id){ var c = I(code).cities.filter(function(x){ return x.id === id; })[0]; return c || null; }
 function cityLabel(code, id){ var c = cityOf(code, id); return c ? lg(c) : String(id || ''); }
@@ -162,7 +163,9 @@ function places(){ syncOrder(); return OB6.order.slice(); }
 function primary(){ return tgts()[0] || (MKT.tgt() || {}).code || 'SA'; }
 function syncOrder(){
   var want = OB6.targets.slice(); if (OB6.remote) want.push('REMOTE');
-  OB6.order = OB6.order.filter(function(k){ return want.indexOf(k) >= 0; }).concat(want.filter(function(k){ return OB6.order.indexOf(k) < 0; }));
+  var o = OB6.order.filter(function(k){ return want.indexOf(k) >= 0; });
+  want.forEach(function(k){ if (o.indexOf(k) >= 0) return; var r = o.indexOf('REMOTE'); if (k !== 'REMOTE' && r >= 0) o.splice(r, 0, k); else o.push(k); });
+  OB6.order = o;
 }
 function keepScroll(fn){ var b = qs('.scr.on > .body'), y = b ? b.scrollTop : 0; fn(); var b2 = qs('.scr.on > .body'); if (b2) b2.scrollTop = y; }
 /* the engine reads residence + primary target from the persona: write them back and re-run it when they change */
@@ -347,7 +350,7 @@ function paintWall(){
 function render0(root){ var dd = T[lang]; qa('[data-t]', root).forEach(function(el){ var v = dd[el.getAttribute('data-t')]; if (v == null) return; if (v.indexOf('¤') >= 0) el.innerHTML = sarHTML(esc(v)); else el.textContent = v; }); }
 
 /* ---------------------------------------------------------------- payment brands */
-var BRN = {visa:'Visa', mc:'Mastercard', amex:'Amex', discover:'Discover', mada:'mada', bancontact:'Bancontact', cb:'CB', knet:'KNET', benefit:'BENEFIT', meeza:'Meeza', edinar:'e-Dinar', interac:'Interac', eftpos:'eftpos', maestro:'Maestro', jcb:'JCB', unionpay:'UnionPay', girocard:'girocard', dankort:'Dankort', postepay:'Postepay', naps:'NAPS', cmi:'CMI', cib:'CIB'};
+var BRN = {visa:'Visa', mc:'Mastercard', amex:'Amex', discover:'Discover', mada:'mada', bancontact:'Bancontact', cb:'CB', knet:'KNET', benefit:'BENEFIT', meeza:'Meeza', edinar:'e-Dinar', interac:'Interac', eftpos:'eftpos', maestro:'Maestro', jcb:'JCB', unionpay:'UnionPay', girocard:'girocard', dankort:'Dankort', postepay:'Postepay', naps:'NAPS', cmi:'CMI', cib:'CIB', edahabia:'Edahabia', omannet:'OmanNet'};
 var MKS = { /* brand-ish tiles for marks we do not have artwork for: [text, background, foreground] */
   amex:['AMEX', '#1F72CD', '#fff'], discover:['DISCOVER', '#fff', '#E55C20'], bancontact:['Bancontact', '#fff', '#005498'], cb:['CB', '#1B4B8F', '#fff'], knet:['KNET', '#0B4EA2', '#fff'],
   benefit:['BENEFIT', '#D71920', '#fff'], meeza:['meeza', '#0A3D62', '#fff'], edinar:['e-Dinar', '#C8102E', '#fff'], interac:['Interac', '#FFB81C', '#111'], eftpos:['eftpos', '#111', '#fff'],
@@ -360,6 +363,7 @@ var MKS = { /* brand-ish tiles for marks we do not have artwork for: [text, back
   googlepay:['G', '#fff', '#4285F4'], samsungpay:['S', '#1428A0', '#fff'], sofort:['S', '#EF809F', '#fff'], giropay:['g', '#000268', '#fff'], eps:['eps', '#C8036F', '#fff'], przelewy24:['P24', '#D13239', '#fff'],
   mobilepay:['MP', '#5A78FF', '#fff'], vipps:['V', '#FF5B24', '#fff'], payconiq:['P', '#FF4785', '#fff'], cashplus:['C+', '#E30613', '#fff'], zain:['Z', '#00A3E0', '#fff'], zaincash:['ZC', '#00A3E0', '#fff'], fastpay:['FP', '#E4002B', '#fff'],
   cliq:['CliQ', '#00A651', '#fff'], efawateercom:['eF', '#0D6EB6', '#fff'], whish:['W', '#E30613', '#fff'], omt:['OMT', '#FFCC00', '#111'], baridimob:['BM', '#FFD200', '#004B8D'], dahabia:['D', '#FFD200', '#004B8D'],
+  edahabia:['EDH', '#FFD200', '#004B8D'], omannet:['ON', '#C8102E', '#fff'], p24:['P24', '#D13239', '#fff'], intlcard:['INT', '#1F2A44', '#fff'], mwallet:['W', '#6D28D9', '#fff'], qicard:['Qi', '#F7A600', '#111'],
   postpay:['P', '#111', '#fff'], spotii:['S', '#111', '#fff'], cashew:['C', '#3E4CF5', '#fff'], interacetransfer:['e', '#FFB81C', '#111'], paypay:['PP', '#003087', '#fff']
 };
 function bid(x){ return slug(x).replace(/^cartesbancaires$/, 'cb').replace(/^carte?bancaire$/, 'cb'); }
@@ -374,7 +378,8 @@ function brandMark(id){ var k = bid(id);
   return '<span class="brand ob6br" style="background:' + m[1] + ';color:' + m[2] + ';border-color:' + (m[1] === '#fff' ? 'var(--line)' : m[1]) + '">' + E(m[0] || brandName(id)) + '</span>'; }
 function tileMark(id, label, cls){ var k = bid(id);
   if (k === 'tabby' || k === 'tamara') return '<span class="paytile ' + k + (cls ? ' ' + cls : '') + '"></span>';
-  var m = MKS[k] || [String(label || id).replace(/[^A-Za-z0-9]/g, '').slice(0, 2).toUpperCase(), '#EEF0FF', '#353CD8'];
+  var ini = String(label || '').replace(/[^A-Za-z0-9]/g, '').slice(0, 2) || String(id).replace(/[^A-Za-z0-9]/g, '').slice(0, 2);
+  var m = MKS[k] || [ini.toUpperCase(), '#EEF0FF', '#353CD8'];
   return '<span class="paytile ob6pt' + (cls ? ' ' + cls : '') + '" style="background:' + m[1] + ';color:' + m[2] + '">' + E(m[0]) + '</span>'; }
 
 /* ---------------------------------------------------------------- checkout (residence pack) */
@@ -386,7 +391,8 @@ function taxOf(){ var r = resM() || {}; return r.tax || {incl:true, rate:null, l
 function ckTiles(){
   var pay = payOf(), out = [], seen = {};
   (pay.methods || []).forEach(function(m){ var id = bid(m.id) || m.id; if (seen[id]) return; seen[id] = 1; out.push({id:id, kind:id === 'card' ? 'card' : 'redir', m:m}); });
-  (pay.bnpl || []).forEach(function(b){ var id = bid(b.id) || b.id; if (seen[id]) return; seen[id] = 1; out.push({id:id, kind:'bnpl', b:b, n:b.installments || 4}); });
+  (pay.bnpl || []).forEach(function(b){ var id = bid(b.id) || b.id; if (seen[id]) return; seen[id] = 1; var n = b.installments || 4;
+    if (n > 1) out.push({id:id, kind:'bnpl', b:b, n:n}); else out.push({id:id, kind:'redir', m:{id:id, label:b.name, sub:b.sub}}); });
   if (!seen.card) out.unshift({id:'card', kind:'card', m:{id:'card', brands:['visa', 'mc']}});
   return out;
 }
@@ -460,7 +466,7 @@ function paintCheckout(){
   var vis = tiles.filter(function(x){ return ok || x.kind !== 'bnpl'; });
   if (e.pm){ e.pm.classList.add('ob6pm'); e.pm.classList.toggle('ob6pm4', vis.length > 3);
     e.pm.innerHTML = vis.map(function(x){ var mk, sub;
-      if (x.kind === 'card'){ var bs = cardBrands(); mk = bs.slice(0, 3).map(brandMark).join(''); sub = bs.slice(0, 3).map(brandName).join(', '); }
+      if (x.kind === 'card'){ var bs = cardBrands(); mk = bs.slice(0, 3).map(brandMark).join(''); sub = bs.slice(0, 3).map(brandName).join(L() === 'ar' ? '، ' : ', '); }
       else if (x.kind === 'bnpl'){ mk = tileMark(x.id, tName(x)); sub = fill('ob6PayInN', {n:x.n}); }
       else { mk = tileMark(x.id, tName(x)); sub = ''; }
       var on = x.id === meth;
@@ -500,7 +506,7 @@ function paintCheckout(){
     if (row){ row.style.display = ''; var lab = tx.label ? lg(tx.label) : d('ob6TaxIntl');
       qs('[data-ob6taxl]', row).textContent = lab + (tx.incl && tx.rate ? ' · ' + String(tx.rate).replace('.', L() === 'fr' ? ',' : '.') + '%' : '');
       var tv = qs('[data-ob6taxv]', row); tv.className = tx.incl && tx.rate ? '' : 'mut2';
-      tv.innerHTML = tx.incl ? (tx.rate ? H(money(tot * tx.rate / (100 + tx.rate))) : E(d('ck2Incl'))) : E(d('ob6CkTaxCalc')); }
+      tv.innerHTML = tx.incl ? (tx.rate ? H(money(tot * tx.rate / (100 + tx.rate))) : tx.rate === 0 ? H(money(0)) : E(d('ck2Incl'))) : E(d('ob6CkTaxCalc')); }
     var due = qs('[data-cks="due"]', e.sum); if (due){ due.innerHTML = '<span dir="ltr">' + H(money(kind === 'bnpl' ? tot / n : tot)) + '</span>' + (tx.incl ? '' : '<small class="ob6plustax">' + E(d('ob6CkPlusTax')) + '</small>'); }
     var dl = qs('[data-cks="duel"]', e.sum); if (dl && (kind === 'bnpl' || kind === 'redir')) dl.innerHTML = fh('ck2DueB', {b:bn});
     var bnl = qs('[data-cks="bnpl"]', e.sum); if (bnl){ bnl.style.display = kind === 'bnpl' ? '' : 'none'; if (kind === 'bnpl') bnl.innerHTML = '<i class="ti ti-calendar-repeat"></i><span>' + fh('ob6CkThen', {k:n - 1, amt:money(tot / n)}) + '</span>'; }
@@ -531,7 +537,8 @@ function autoFor(c){
   var nat = natOf(), pk2 = P(c) || {}, r = pk2.rights || {}, af = r.autoFor || [];
   if (af.indexOf(nat) >= 0 || nat === c){
     var txt = r.autoText ? lg(r.autoText) : fill('ob6RtAutoCit', {dem:dem(nat, gender()), 'in':cin(c)});
-    var tag = nat === c ? 'ob6RtTagCit' : (GCC.indexOf(c) >= 0 && GCC.indexOf(nat) >= 0) ? 'ob6RtTagGcc' : (EU_MK.indexOf(c) >= 0 && EEA.indexOf(nat) >= 0) ? 'ob6RtTagEu' : 'ob6RtTagCit';
+    var tag = nat === c ? 'ob6RtTagCit' : (GCC.indexOf(c) >= 0 && GCC.indexOf(nat) >= 0) ? 'ob6RtTagGcc' : (EU_MK.indexOf(c) >= 0 && EEA.indexOf(nat) >= 0) ? 'ob6RtTagEu'
+            : ((c === 'GB' && nat === 'IE') || (c === 'IE' && nat === 'GB')) ? 'ob6RtTagCta' : 'ob6RtTagAuto';
     return {tag:tag, text:txt}; }
   if (GCC.indexOf(c) >= 0 && GCC.indexOf(nat) >= 0) return {tag:'ob6RtTagGcc', text:fill('ob6RtAutoGcc', {'in':cin(c)})};
   if (EU_MK.indexOf(c) >= 0 && EEA.indexOf(nat) >= 0) return {tag:'ob6RtTagEu', text:fill('ob6RtAutoEu', {'in':cin(c)})};
@@ -596,8 +603,8 @@ function paintProfile(){
   var bi = $('ob6PfBasicsIn');
   if (bi){ var h = '<div class="mut" style="font-size:12px;font-weight:700;margin-bottom:6px" data-t="pfNat">' + E(d('pfNat')) + '</div>';
     if (sa) h += '<select class="inp" data-pfsel="nat" data-ob6nat>' + ['pfNatSA', 'pfNatEG', 'pfNatJO', 'pfNatSY', 'pfNatYE', 'pfNatSD', 'pfNatPK', 'pfNatIN', 'pfNatPH', 'pfNatOther'].map(function(k, i){ var cc = ['SA', 'EG', 'JO', 'SY', 'YE', 'SD', 'PK', 'IN', 'PH', 'OTHER'][i]; return '<option value="' + cc + '"' + (cc === nat ? ' selected' : '') + (i === 0 ? ' data-sa="1"' : '') + ' data-t="' + k + '">' + E(d(k)) + '</option>'; }).join('') + '</select>';
-    else if (s.nationality === 'ask') h += '<select class="inp" data-pfsel="nat" data-ob6nat>' + natChoices().map(function(c){ return '<option value="' + c + '"' + (c === nat ? ' selected' : '') + (c === 'SA' ? ' data-sa="1"' : '') + '>' + E(I(c).flag + ' ' + dem(c, g)) + '</option>'; }).join('') + '<option value="OTHER"' + (nat === 'OTHER' ? ' selected' : '') + '>' + E(d('pfNatOther')) + '</option></select>';
-    else h += '<div class="chipgrid" style="margin-top:0"><span class="chip on ob6ro">' + E((I(nat).flag || '') + ' ' + dem(nat, g)) + ' <span class="fromcv sm">' + E(d('fromcvS')) + '</span></span></div><div class="allhint">' + E(d('ob6PfNatRo')) + '</div>';
+    else if (s.nationality === 'ask') h += '<select class="inp" data-pfsel="nat" data-ob6nat>' + natChoices().map(function(c){ return '<option value="' + c + '"' + (c === nat ? ' selected' : '') + (c === 'SA' ? ' data-sa="1"' : '') + '>' + E(I(c).flag + ' ' + cap(dem(c, g))) + '</option>'; }).join('') + '<option value="OTHER"' + (nat === 'OTHER' ? ' selected' : '') + '>' + E(d('pfNatOther')) + '</option></select>';
+    else h += '<div class="chipgrid" style="margin-top:0"><span class="chip on ob6ro">' + E((I(nat).flag || '') + ' ' + cap(dem(nat, g))) + ' <span class="fromcv sm">' + E(d('fromcvS')) + '</span></span></div><div class="allhint">' + E(d('ob6PfNatRo')) + '</div>';
     if (s.gender === 'ask'){ var fOn = g !== 'm'; h += '<div class="mut mt14" style="font-size:12px;font-weight:700" data-t="pfGender">' + E(d('pfGender')) + '</div><div class="chips mt6"><button class="chip' + (fOn ? ' on' : '') + '" data-ob6g="f"><span data-t="pfFemale">' + E(d('pfFemale')) + '</span></button><button class="chip' + (fOn ? '' : ' on') + '" data-ob6g="m"><span data-t="pfMale">' + E(d('pfMale')) + '</span></button></div>'; }
     bi.innerHTML = h; }
   /* US-style voluntary self-identification */
@@ -608,6 +615,9 @@ function paintProfile(){
   /* languages: English (v5) + the target market's second language where the persona is not a native speaker */
   var l2 = langs2().filter(function(x){ return !nativeOf(nat, x.code); }), lbox = $('ob6PfLang2'), et = $('ob6PfEngT');
   if (et){ var k = l2.length ? 'ob6Langs' : 'pfEng'; et.setAttribute('data-t', k); et.textContent = d(k); }
+  var eg = qs('[data-pfreq="eng"]', scr), el = $('ob6PfEngL');
+  if (eg && !el){ eg.insertAdjacentHTML('beforebegin', '<div class="mut ob6lvl" id="ob6PfEngL" style="flex:1 0 100%;margin:0 0 2px"></div>'); el = $('ob6PfEngL'); }
+  if (el){ el.style.display = l2.length ? '' : 'none'; el.textContent = fill('ob6LangLvl', {l:d('ob6LangEn')}); }
   if (!OB6.engSet){ OB6.engSet = true; if (nativeOf(nat, 'en')){ var ec = qa('[data-pfreq="eng"] .chip', scr); ec.forEach(function(x, i){ x.classList.toggle('on', i === ec.length - 1); }); } }
   if (lbox){ lbox.innerHTML = l2.map(function(x){ var cur = OB6.lv[x.code]; if (cur == null){ cur = OB6.lv[x.code] = nativeOf(nat, x.code) ? 5 : (x.code === 'fr' && ['MA', 'TN', 'DZ', 'LB'].indexOf(nat) >= 0 ? 4 : 0); }
       return '<div class="ob6lvrow"><div class="mut ob6lvl">' + E(fill('ob6LangLvl', {l:lg(x.name)})) + '</div><div class="chipgrid" style="margin-top:0">' + LEVELS.slice(0, 5).map(function(k2, i){ return '<button class="chip' + (cur === i ? ' on' : '') + '" data-ob6lv="' + x.code + '|' + i + '"><span>' + E(d(k2)) + '</span></button>'; }).join('') + '</div></div>'; }).join(''); }
@@ -619,8 +629,10 @@ function paintProfile(){
   var ph = $('pfCardPhoto'); if (ph) ph.style.display = s.photo === 'avoid' ? 'none' : '';
   if (typeof pfSync === 'function') pfSync();
 }
-function salUnit(code, m){ var s = salOf(code); return curSym(m) + ' / ' + d(s.per === 'year' ? 'ob6PerYear' : 'ob6PerMonth'); }
-function salInput(key, val, unit, label, id){ return '<div' + (id ? ' id="' + id + '"' : '') + '><div class="mut ob6sallab"><span>' + E(label) + '</span><span class="ob6unit">' + H(unit) + '</span></div><input class="inp filled" data-ob6sal="' + key + '" value="' + E(val) + '" inputmode="numeric" dir="ltr"></div>'; }
+/* unit label as HTML: the SAR glyph is drawn directly (sarHTML would re-price a raw ¤ into the residence currency) */
+function salUnit(code, m){ var s = salOf(code), per = E(d(s.per === 'year' ? 'ob6PerYear' : 'ob6PerMonth'));
+  return (curOf(m).glyph ? '<span class="sar" aria-label="SAR"></span>' : E(curSym(m))) + ' / ' + per; }
+function salInput(key, val, unit, label, id){ return '<div' + (id ? ' id="' + id + '"' : '') + '><div class="mut ob6sallab"><span>' + E(label) + '</span><span class="ob6unit">' + unit + '</span></div><input class="inp filled" data-ob6sal="' + key + '" value="' + E(val) + '" inputmode="numeric" dir="ltr"></div>'; }
 function paintSalary(sa){
   var g = $('pfSalGrid'), tt = qs('#ob6PfSal .setcard-t'); if (!g) return;
   var emp = typeof pfEmployed === 'function' ? pfEmployed() : true;

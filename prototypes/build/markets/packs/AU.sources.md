@@ -110,3 +110,28 @@ Each item says how confident we are. Where we were unsure, we took the conservat
   - His employer, "Southerly Reach Group" with its subsidiary "Southerly Reach Logistics", is meant to be fictional. We could not run a web search to check for a real company with that name (**VERIFY**).
   - His bio mentions AASB, the Australian standards that match IFRS, and the July-June financial year, which shapes FP&A work in Australia.
 - **People.** Ten common Australian names with Anglo, Irish, Greek, Italian, Chinese, Vietnamese and Indian backgrounds, reflecting Sydney and Melbourne.
+
+## Fact-check pass (2026-10-12)
+- No live checking was possible in this pass either. The shared WebSearch budget was already used up, and the proxy refused WebFetch and curl to docs.stripe.com. Every claim was re-read against working knowledge to mid-2026 and against the other packs.
+- **Nothing material was refuted.** These points agree with what we know:
+  - GST is 10% and prices are shown GST-inclusive (ACL single-price rule).
+  - Visa subclasses: 444 Special Category, 189/190/186/100/801, 485, 820/309, Student 500 at 48 h a fortnight, 417/462 at 6 months per employer, and 482 Skills in Demand, which replaced the TSS on 7 Dec 2024.
+  - The 1 Jul 2025 thresholds: CSIT about A$76,515 and SIT about A$141,210.
+  - Super guarantee is 12%.
+  - APS citizenship rule (Public Service Act s22(8)).
+  - Privacy amendments: statutory tort from 10 Jun 2025; automated-decision transparency duties from 10 Dec 2026.
+  - Unfair contract terms penalties since 9 Nov 2023.
+  - 0491 570 156 is in ACMA's fiction range.
+  - The 24 employers are real, use current names (Fortescue, Woodside Energy) and have the headquarters stated.
+  - The Menulog closure (late Nov 2025) also matches our knowledge.
+  - f = 130,000 / 12 / 26,000 = 0.4167 is arithmetically right.
+- **Changed in the JSON:**
+  - The Arabic card sub-line said "(ائتمان أو خصم مباشر)". "خصم مباشر" means direct debit (BECS), not a debit card, so it now reads "(ائتمان أو خصم)", as in the CH and DE packs.
+  - Joondalup in Arabic is now "جوندالوب" (was "جوندالب").
+  - In the English sub-line under "Australian or New Zealand citizen", the two clauses are now joined with a semicolon, as in the French.
+- **Still open:**
+  - Whether Afterpay can be used at all for a digital subscription merchant through the PSP. If it cannot, set `bnpl: []`, which is the spec's default for "no subscription-capable BNPL". An Afterpay payer also has no card on file, so the checkout must collect a card or PayPal before the "renews automatically" promise holds.
+  - eftpos card-not-present support at our PSP, and whether a non-Australian merchant entity can get it.
+  - The RBA surcharging decision.
+  - The status of the unfair-trading-practices (subscription-trap) law.
+  - New Zealand citizens are auto-answered, but they are also not eligible for most APS roles. The engine should apply the citizen-only skip to NZ users too, not only to people who see the rights card.

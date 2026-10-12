@@ -66,7 +66,8 @@ her favour.
   - Samsung Pay / Wallet is left out. It may work with some banks, but it is rare at online subscription
     checkouts. This is the conservative choice and matches AE.
 - `bnpl: []`. Tabby and Tamara, the BNPL options in the SA and AE packs, do not operate in Qatar as far as I
-  know. Earlier entrants such as Spotii left. The Qatar Central Bank (QCB) has been building a BNPL and
+  know. (Fact-check: an earlier line here said Spotii had left Qatar. As far as I know Spotii only operated in the
+  UAE and Saudi Arabia, so that claim was removed.) The Qatar Central Bank (QCB) has been building a BNPL and
   fintech licensing framework, but I know of no subscription-capable BNPL in common use in Qatar. Bank
   credit-card instalment plans exist, but they are not a checkout method. Confidence: medium. **VERIFY**
   (QCB's list of licensed payment and BNPL providers).
@@ -139,7 +140,7 @@ her favour.
 - Marital status: it often appears on Gulf CVs, but it is not needed for matching, so we do not ask. This is
   the conservative choice, consistent with AE and SA and with PDPPL data minimisation.
 - Anti-discrimination: the Constitution (Art. 35) says all persons are equal and bans discrimination on sex,
-  origin, language or religion. The Labour Law requires equal pay for women doing the same work. There is no
+  origin ("race" in the official English text, الأصل in Arabic), language or religion. The Labour Law requires equal pay for women doing the same work. There is no
   detailed private-hiring anti-discrimination code, so we never filter on gender or age.
 
 ## Legal
@@ -167,12 +168,17 @@ her favour.
 - `lang2` is Arabic. English is the business language, but Arabic is valued and often required for
   Qatari-only and government-facing roles.
 - Government platforms:
-  - Ministry of Labour: work permits, contracts and job changes. It was renamed from ADLSA in 2021.
+  - Ministry of Labour: work permits, contracts, job changes and Qatarization in the private sector (it
+    administers Labour Law Art. 18 priority and the 2024 localisation law). It was created from ADLSA in 2021.
   - Metrash: the Ministry of Interior app for QID and residence services. It was formerly "Metrash2" and,
     as I recall, was renamed in 2024. **VERIFY** which name users see now.
   - Kawader: the Ministry of Labour's national platform for employing Qataris (and children of Qatari mothers)
     in the private sector. Confidence: medium. **VERIFY the name and status.** If it cannot be confirmed,
     remove it rather than guess.
+    - **Removed from `govPlatforms` in the fact-check pass (2026-10-12).** Neither the name nor the owner
+      (Ministry of Labour or the Civil Service and Government Development Bureau) could be confirmed, so the
+      rule above was applied. Its Qatarization role is now part of the Ministry of Labour entry. Re-add it as
+      `{"id":"kawader","en":"Kawader","ar":"كوادر","fr":"Kawader"}` once a mol.gov.qa page confirms it.
 
 ## Employers (24, all real)
 - Energy:
@@ -233,3 +239,28 @@ Baladna).
   رأس)، مسيعيد، الخور.
 - French uses vouvoiement. The demonym is qatarien / qatarienne. Place names stay in their usual French press
   form (Doha, Lusail, Ras Laffan, Mesaieed). Company names stay in their original form.
+
+## Fact-check pass (2026-10-12)
+Web search and page fetches were unavailable for this pass too (the shared search budget was used up, WebFetch
+failed DNS lookups and the proxy refused direct fetches). Claims were checked against prior knowledge (to
+mid-2026) only, so nothing here is newly cited. Changes:
+- `govPlatforms`: Kawader removed under the rule above (name and owner unconfirmed). The Ministry of Labour
+  `use` line now also says "Qatarization in the private sector".
+- `legal.privacy.ar` now names the law number (القانون رقم 13 لسنة 2016), as en and fr already did.
+- `nationalisation.desc.fr` reworded to "fixer des objectifs d'emploi de Qatariens dans le secteur privé"
+  (was "des objectifs de Qatariens dans les emplois", which is awkward French).
+- `sensitive.notes`: Art. 35 wording now says "origin" is "race" in the official English text.
+- Sources only: removed the unsupported "Spotii left Qatar" line.
+Confirmed from prior knowledge, no change: no VAT in Qatar as of mid-2026 (excise since 2019, 10% CIT, Pillar
+Two from 2025), so rate 0; GCC nationals work without sponsorship; Law 18/2020 and Decree-Law 19/2020 removed
+the NOC, with 1 or 2 months' notice either side, so `noticeDays: 60` for 8 years' service; family-sponsored
+residents need an MoL work permit; Law 10/2018 permanent residency; Labour Law Art. 18 order (Qataris, then
+children of Qatari mothers); Art. 73 Ramadan 36 h; WPS; MoL created from ADLSA in 2021; employer names are
+current (QatarEnergy, QatarEnergy LNG, Masraf Al Rayan after the Al Khaliji merger, Vodafone Qatar, QIC,
+talabat); Arabic place-name spellings (راس لفان، مسيعيد، الوكرة); التقطير; female persona title (محللة مالية /
+Analyste financière). The bio's "محلل مالي أول" is the role name and matches the SA and BH female personas.
+Still unverified (post-cutoff or not checkable here): Google Pay availability, BNPL absence, the details of
+Law 12/2024, the Metrash vs Metrash2 name, the salary bands behind f = 0.9, and Baladna's hiring city.
+`localCardBrand` stays null, but note that KW (KNET), BH (BENEFIT) and OM (OmanNet) do show their local
+scheme, with `recurring: false`. If the product decides on local acquiring in the GCC, QA should get
+`"NAPS"` the same way.

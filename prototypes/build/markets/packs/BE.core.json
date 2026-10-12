@@ -82,7 +82,7 @@
    "fr": "Louvain-la-Neuve",
    "metro": {
     "en": "Louvain-la-Neuve covers Walloon Brabant, including Wavre, Ottignies, La Hulpe and Braine-l'Alleud.",
-    "ar": "تشمل لوفان لا نوف بقية مقاطعة برابانت الوالونية جنوب بروكسل.",
+    "ar": "تشمل لوفان لا نوف مدن مقاطعة برابانت الوالونية وبلداتها جنوب بروكسل.",
     "fr": "Louvain-la-Neuve couvre le Brabant wallon, dont Wavre, Ottignies, La Hulpe et Braine-l'Alleud."
    }
   },
@@ -478,7 +478,7 @@
     "sub": {
      "en": "Bancontact card or app. Renewals by SEPA direct debit.",
      "ar": "بطاقة Bancontact أو تطبيقه، ويتم التجديد عبر الخصم المباشر SEPA.",
-     "fr": "Carte ou appli Bancontact. Renouvellements par domiciliation SEPA."
+     "fr": "Carte ou appli Bancontact. Renouvellements par prélèvement SEPA (domiciliation)."
     },
     "brands": [
      "bancontact"

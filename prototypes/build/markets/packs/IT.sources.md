@@ -150,3 +150,22 @@ Persona: Marco Bianchi (m, Italian, Milan), from `roster.json` id `IT`. Currency
 - **Accounting standards.** "Italian GAAP (OIC)" refers to the Organismo Italiano di Contabilità standards.
 - **Phone.** +39 347 123 4567 follows the 3xx mobile format. I know of no Italian number range reserved for fiction.
 - **People.** The 10 names are common Italian first-name and surname pairs, mixing North and South. Andrea is a man's name in Italy.
+
+## Fact-check pass (2026-10-12)
+- **Still no live web access.** The shared WebSearch budget was used up, and WebFetch and curl to primary sites (EU immigration portal, Wikipedia, fastweb.it) were refused by the egress proxy. This pass is a second check from memory only, so every **[verify]** above still stands.
+- **Changed in IT.core.json:**
+  - **Venice in Arabic.** The Padua metro line now says البندقية-ميستري. البندقية is the standard Arabic name for Venice in pan-Arab media; فينيسيا is a less common transliteration.
+  - **Banco BPM archetype.** "third-largest bank HQ" is now "major national bank HQ". After the 2025 consolidation (MPS took over Mediobanca, BPER took over Banca Popolare di Sondrio), the "third-largest" ranking could not be confirmed. **[verify]** that no Banco BPM merger (e.g. with Crédit Agricole Italia) has closed.
+  - **Job-search permit (art. 39-bis.1 TUI).** The sub-line now reads "Up to 12 months to find a job; it can be converted into a work permit", in place of "any employer". The statute grants a 9-12 month permit to look for work and allows conversion into a work permit. I could not confirm that it lets the holder work for any employer while it lasts, so the conservative wording follows the FR pack's RECE line.
+  - **Long-term resident sub-line (ar).** It now starts with Arabic, so the Italian term in brackets no longer opens an RTL line.
+- **Checked and kept:**
+  - IVA 22%, prices shown with VAT.
+  - GDPR plus D.Lgs. 196/2003 as amended by 101/2018; Consumer Code 14-day withdrawal.
+  - The 31 EU/EEA/CH autoFor codes.
+  - The permit names: art. 9 long-term permit, art. 30 family permit, art. 27-quater Blue Card (outside quotas), nulla osta at the Sportello Unico, and the Decreto Flussi quotas.
+  - Nationalisation null.
+  - Workers' Statute art. 8 and D.Lgs. 276/2003 art. 10.
+  - f = 4,500 / 26,000 = 0.173. The arithmetic is consistent, and the level sits between ES (0.16) and FR (0.192).
+  - All 24 employers exist under their current names. Unipol Gruppo became Unipol Assicurazioni at the end of 2024, but the brand is still "Unipol". "Fastweb + Vodafone" is the combined company's public name.
+  - City order.
+  - The persona's ar/fr title agrees in the masculine.

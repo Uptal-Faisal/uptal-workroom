@@ -2,6 +2,14 @@
 
 Written 2026-10-12. **No live research was possible for this pack.** The shared WebSearch budget for this run was already used up. WebFetch could not resolve hosts, and the egress proxy refused direct fetches (support.apple.com, taxsummaries.pwc.com, dlapiperdataprotection.com and support.google.com all returned CONNECT 403 or ENOTFOUND). Everything below comes from background knowledge up to mid-2026. It is **not verified against a live source**. Each fact has a confidence level. Where I was unsure I took the conservative option. Please verify the items marked **[verify]** before launch. Currency and price tier come from `base.json` (JOD, p1 29) and are unchanged.
 
+## Fact-check pass (2026-10-12)
+A second reviewer re-checked this pack. Live research was again impossible: the shared WebSearch budget was used up, WebFetch failed DNS (support.apple.com, taxsummaries.pwc.com), and the proxy answered 403 to CONNECT. Checks were made against background knowledge and the sibling LB, IQ, EG, TN, LY and AE packs. Changes:
+- Retailer: "Carrefour Jordan (Majid Al Futtaim)" became "HyperMax (Majid Al Futtaim)" (id `hypermax`), because Carrefour left Jordan in November 2024. See Employers.
+- Arabic metro text for Amman: مجمّع الملك حسين للأعمال became مجمّع الملك الحسين للأعمال, the park's official Arabic name.
+- Arabic closed-professions text: المهن المكتبية became المهن الكتابية, the wording the Ministry of Labour's list uses ("المهن الكتابية بما فيها الطباعة والسكرتاريا").
+- Confirmed as built, from knowledge: GST 16% shown included; PDPL No. 24 of 2023; Labour Law 8/1996 Art. 12 (permit) and Art. 23 (one month's notice); Fri-Sat weekend; +962 7x mobile format; no local card brand; no subscription BNPL; administrative and accounting jobs on the closed list; Jordanian city spellings; Arabic and French persona titles agree with a male persona.
+- Still open: Apple Pay and Google Pay availability; GST on non-resident B2C digital services; the exact work-permit treatment of children of Jordanian mothers after the 2019 Labour Law amendment; whether eFAWATEERcom is now owned by JoPACC, with MadfoatCom as technical operator, which affects only the MadfoatCom archetype wording; the salary level.
+
 ## Payments
 - **Cards first (high confidence).** Jordanian banks issue Visa and Mastercard debit, credit and prepaid cards, and these work for online payments. Amex is not a mainstream Jordanian card, so it is left out. Brands are `["visa","mc"]`.
 - **eFAWATEERcom tile (high confidence it is ubiquitous; medium confidence on fit).** eFAWATEERcom (إي فواتيركم) is the Central Bank of Jordan's national electronic bill presentment and payment system. MadfoatCom has operated it since about 2015. Almost every bank app and licensed e-wallet can pay an eFAWATEERcom bill, and telecoms, universities, utilities and many online merchants use it. It suits users without an online-enabled card. It is not a card-on-file method, so each renewal becomes a new bill (this is stated in `legal.renewal`). **[verify that Uptal's gateway or a biller aggregator can register Uptal as a biller]**
@@ -62,7 +70,7 @@ Written 2026-10-12. **No live research was possible for this pack.** The shared 
   - EY Jordan.
   - Hikma Pharmaceuticals: group HQ London, founded in Amman with large Amman operations.
   - Siniora Food Industries: listed on the ASE.
-  - Carrefour Jordan, operated by Majid Al Futtaim.
+  - HyperMax (Majid Al Futtaim). This was Carrefour Jordan until early November 2024. MAF then ended the Carrefour franchise in Jordan (widely reported at the time, amid boycott pressure) and reopened the stores under its own HyperMax brand. It later did the same in Oman, Kuwait and Bahrain. Changed in the fact-check pass. **[verify the Arabic spelling (هايبرماكس vs هايبر ماكس) and the logo colour; #D71920 is a placeholder]**
   - Royal Jordanian.
   - King Hussein Cancer Center.
   - OpenSooq: founded in Amman.

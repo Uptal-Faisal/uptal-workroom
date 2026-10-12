@@ -35,7 +35,7 @@
    "logo": {"bg": "#003DA5", "fg": "#FFFFFF", "mono": "ESB"}},
   {"id": "eir", "en": "eir", "ar": "إير", "fr": "eir", "sector": "telecom", "archetype": "telecoms #1, incumbent fixed and mobile operator", "city": "dublin",
    "logo": {"bg": "#520A6E", "fg": "#FFFFFF", "mono": "eir"}},
-  {"id": "vodafone", "en": "Vodafone Ireland", "ar": "فودافون أيرلندا", "fr": "Vodafone Irlande", "sector": "telecom", "archetype": "telecoms #2, largest mobile operator", "city": "dublin",
+  {"id": "vodafone", "en": "Vodafone Ireland", "ar": "فودافون أيرلندا", "fr": "Vodafone Irlande", "sector": "telecom", "archetype": "telecoms #2, leading mobile operator", "city": "dublin",
    "logo": {"bg": "#E60000", "fg": "#FFFFFF", "mono": "V"}},
   {"id": "ntma", "en": "NTMA", "ar": "الوكالة الوطنية لإدارة الخزانة (NTMA)", "fr": "NTMA", "sector": "public-investment", "archetype": "state treasury agency, runs the Ireland Strategic Investment Fund (ISIF)", "city": "dublin",
    "logo": {"bg": "#004B5A", "fg": "#FFFFFF", "mono": "NTMA"}},
@@ -53,9 +53,9 @@
    "logo": {"bg": "#00A3AD", "fg": "#FFFFFF", "mono": "IL"}},
   {"id": "workhuman", "en": "Workhuman", "ar": "ووركهيومن", "fr": "Workhuman", "sector": "tech", "archetype": "HR-tech scale-up, Dublin HQ", "city": "dublin",
    "logo": {"bg": "#E8532B", "fg": "#FFFFFF", "mono": "WH"}},
-  {"id": "stripe", "en": "Stripe", "ar": "سترايب", "fr": "Stripe", "sector": "fintech", "archetype": "Irish-founded payments fintech, Dublin co-HQ", "city": "dublin",
+  {"id": "stripe", "en": "Stripe", "ar": "سترايب", "fr": "Stripe", "sector": "fintech", "archetype": "payments fintech founded by Irish brothers (Collison), San Francisco and Dublin co-HQ", "city": "dublin",
    "logo": {"bg": "#635BFF", "fg": "#FFFFFF", "mono": "S"}},
-  {"id": "flipdish", "en": "Flipdish", "ar": "فليب ديش", "fr": "Flipdish", "sector": "delivery", "archetype": "online food-ordering and delivery platform, Dublin HQ", "city": "dublin",
+  {"id": "flipdish", "en": "Flipdish", "ar": "فليب ديش", "fr": "Flipdish", "sector": "delivery", "archetype": "online ordering and delivery platform for restaurants, Dublin HQ", "city": "dublin",
    "logo": {"bg": "#0B1F3A", "fg": "#FFFFFF", "mono": "FD"}},
   {"id": "cairn", "en": "Cairn Homes", "ar": "كيرن هومز", "fr": "Cairn Homes", "sector": "real-estate", "archetype": "major listed homebuilder", "city": "dublin",
    "logo": {"bg": "#00205B", "fg": "#FFFFFF", "mono": "CH"}},
@@ -112,9 +112,9 @@
  "nationalisation": {
   "name": {"en": "EEA hiring priority", "ar": "أولوية توظيف مواطني المنطقة الاقتصادية الأوروبية", "fr": "Priorité à l'embauche des ressortissants de l'EEE"},
   "desc": {
-   "en": "An employer can hire someone on an employment permit only if at least half of its staff are EEA nationals, and General Employment Permit roles must first be advertised to EEA jobseekers for 28 days. Critical Skills roles skip the advertising step. None of this applies if you don't need a permit.",
-   "ar": "لا يمكن لجهة العمل توظيف شخص بتصريح عمل إلا إذا كان نصف موظفيها على الأقل من مواطني المنطقة الاقتصادية الأوروبية، ويجب أولاً الإعلان عن وظائف تصريح العمل العام للباحثين عن عمل من المنطقة الاقتصادية الأوروبية لمدة 28 يوماً. أما وظائف المهارات الحرجة فلا تحتاج إلى هذا الإعلان. ولا ينطبق أي من ذلك إذا لم تكن بحاجة إلى تصريح.",
-   "fr": "Un employeur ne peut recruter une personne avec un permis de travail que si au moins la moitié de ses salariés sont ressortissants de l'EEE, et les postes relevant du General Employment Permit doivent d'abord être proposés aux candidats de l'EEE pendant 28 jours. Les postes Critical Skills sont dispensés de cette publication. Rien de cela ne s'applique si vous n'avez pas besoin de permis."
+   "en": "Most employers can hire someone on an employment permit only if at least half of their staff are EEA nationals, and General Employment Permit roles usually must first be advertised to EEA jobseekers for 28 days. Critical Skills roles skip the advertising step. None of this applies if you don't need a permit.",
+   "ar": "لا يمكن لمعظم جهات العمل توظيف شخص بتصريح عمل إلا إذا كان نصف موظفيها على الأقل من مواطني المنطقة الاقتصادية الأوروبية، وعادةً ما يجب أولاً الإعلان عن وظائف تصريح العمل العام للباحثين عن عمل من المنطقة الاقتصادية الأوروبية لمدة 28 يوماً. أما وظائف المهارات الحرجة فلا تحتاج إلى هذا الإعلان. ولا ينطبق أي من ذلك إذا لم تكن بحاجة إلى تصريح.",
+   "fr": "La plupart des employeurs ne peuvent recruter une personne avec un permis de travail que si au moins la moitié de leurs salariés sont ressortissants de l'EEE, et les postes relevant du General Employment Permit doivent en général d'abord être proposés aux candidats de l'EEE pendant 28 jours. Les postes Critical Skills sont dispensés de cette publication. Rien de cela ne s'applique si vous n'avez pas besoin de permis."
   }
  },
  "sensitive": {
@@ -128,7 +128,7 @@
  "legal": {
   "law": "GDPR + Data Protection Act 2018 (Ireland)",
   "privacy": {"en": "Your data is protected under the GDPR and Ireland's Data Protection Act 2018, overseen by the Data Protection Commission, and you can download or delete it any time.", "ar": "بياناتك محمية بموجب اللائحة العامة لحماية البيانات (GDPR) وقانون حماية البيانات الأيرلندي لعام 2018، تحت إشراف لجنة حماية البيانات، ويمكنك تنزيلها أو حذفها في أي وقت.", "fr": "Vos données sont protégées par le RGPD et la loi irlandaise de 2018 sur la protection des données (Data Protection Act 2018), sous le contrôle de la Data Protection Commission, et vous pouvez les télécharger ou les supprimer à tout moment."},
-  "renewal": {"en": "Renews automatically at the end of each plan until you cancel, which you can do any time in Settings. Under EU and Irish consumer law you can withdraw within 14 days of buying for a refund, minus any service already provided.", "ar": "يتجدد اشتراكك تلقائياً عند نهاية كل خطة حتى تلغيه، ويمكنك الإلغاء في أي وقت من الإعدادات. وبموجب قانون حماية المستهلك الأوروبي والأيرلندي، يحق لك الانسحاب خلال 14 يوماً من الشراء واسترداد المبلغ بعد خصم قيمة ما قُدِّم من الخدمة.", "fr": "Renouvellement automatique à la fin de chaque formule jusqu'à résiliation, possible à tout moment depuis les Réglages. Selon le droit européen et irlandais de la consommation, vous pouvez vous rétracter sous 14 jours après l'achat et être remboursé, déduction faite du service déjà fourni."}
+  "renewal": {"en": "Renews automatically at the end of each plan until you cancel, which you can do any time in Settings. Under EU and Irish consumer law you can withdraw within 14 days of buying for a refund, minus any service already provided.", "ar": "يتجدد اشتراكك تلقائياً عند نهاية كل خطة حتى تلغيه، ويمكنك الإلغاء في أي وقت من الإعدادات. وبموجب قانون حماية المستهلك الأوروبي والأيرلندي، يحق لك الانسحاب خلال 14 يوماً من الشراء واسترداد المبلغ بعد خصم قيمة ما قُدِّم من الخدمة.", "fr": "Renouvellement automatique à la fin de chaque formule jusqu'à résiliation, possible à tout moment depuis les Paramètres. Selon le droit européen et irlandais de la consommation, vous pouvez vous rétracter sous 14 jours après l'achat et être remboursé, déduction faite du service déjà fourni."}
  },
  "boards": ["LinkedIn", "IrishJobs.ie", "Indeed", "Jobs.ie", "eFinancialCareers", "publicjobs.ie"],
  "lang2": null,

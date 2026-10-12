@@ -53,7 +53,7 @@
    "logo":{"bg":"#000000","fg":"#FFFFFF","mono":"ITX"}},
   {"id":"mercadona","en":"Mercadona","ar":"ميركادونا","fr":"Mercadona","sector":"retail","archetype":"largest supermarket chain HQ","city":"valencia",
    "logo":{"bg":"#00873E","fg":"#FFFFFF","mono":"M"}},
-  {"id":"iberia","en":"Iberia","ar":"أيبيريا","fr":"Iberia","sector":"airline","archetype":"flag carrier (IAG group)","city":"madrid",
+  {"id":"iberia","en":"Iberia","ar":"إيبيريا","fr":"Iberia","sector":"airline","archetype":"flag carrier (IAG group)","city":"madrid",
    "logo":{"bg":"#D7192D","fg":"#FFFFFF","mono":"IB"}},
   {"id":"quironsalud","en":"Quirónsalud","ar":"كيرون سالود","fr":"Quirónsalud","sector":"hospital","archetype":"largest private hospital group","city":"madrid",
    "logo":{"bg":"#0077C8","fg":"#FFFFFF","mono":"QS"}},
@@ -83,10 +83,10 @@
   "methods": [
    {"id":"card","label":{"en":"Card","ar":"بطاقة","fr":"Carte"},
     "sub":{"en":"Visa, Mastercard, Amex (debit or credit)","ar":"فيزا، ماستركارد، أمريكان إكسبريس (خصم أو ائتمان)","fr":"Visa, Mastercard, Amex (débit ou crédit)"},"brands":["visa","mc","amex"]},
-   {"id":"bizum","label":{"en":"Bizum","ar":"Bizum","fr":"Bizum"},
-    "sub":{"en":"Pay in your banking app with your mobile number","ar":"ادفع من تطبيق البنك برقم هاتفك المحمول","fr":"Payez depuis votre appli bancaire avec votre numéro de mobile"}},
    {"id":"paypal","label":{"en":"PayPal","ar":"PayPal","fr":"PayPal"},
-    "sub":{"en":"Pay with your PayPal account","ar":"ادفع بحساب PayPal","fr":"Payez avec votre compte PayPal"}}
+    "sub":{"en":"Pay with your PayPal account","ar":"ادفع بحساب PayPal","fr":"Payez avec votre compte PayPal"}},
+   {"id":"bizum","label":{"en":"Bizum","ar":"Bizum","fr":"Bizum"},
+    "sub":{"en":"Pay in your banking app with your mobile number","ar":"ادفع من تطبيق البنك برقم هاتفك المحمول","fr":"Payez depuis votre appli bancaire avec votre numéro de mobile"}}
   ],
   "bnpl": [ {"id":"klarna","name":"Klarna","installments":3,"sub":{"en":"Pay in 3, interest-free","ar":"ادفع على 3 أقساط بدون فوائد","fr":"Payez en 3 fois sans intérêts"}} ],
   "localCardBrand": null
@@ -101,7 +101,7 @@
     "sub":{"en":"No work permit needed, just your NIE and EU registration certificate","ar":"لا تحتاج إلى تصريح عمل، يكفي رقم الأجنبي (NIE) وشهادة تسجيل مواطني الاتحاد الأوروبي","fr":"Aucun permis de travail requis : il suffit du NIE et du certificat d'enregistrement de citoyen de l'UE"}},
    {"en":"Residence card (TIE) that lets me work","ar":"بطاقة إقامة (TIE) تسمح لي بالعمل","fr":"Carte de séjour (TIE) qui m'autorise à travailler",
     "sub":{"en":"e.g. long-term residence, family of an EU or Spanish citizen, arraigo, or a Withdrawal Agreement card","ar":"مثل الإقامة طويلة الأمد، أو إقامة أفراد عائلة مواطن أوروبي أو إسباني، أو إقامة التجذّر (arraigo)، أو بطاقة اتفاقية الانسحاب البريطانية","fr":"Par ex. résidence de longue durée, membre de la famille d'un citoyen de l'UE ou espagnol, arraigo ou carte de l'accord de retrait"}},
-   {"en":"Student stay permit","ar":"تصريح إقامة للدراسة","fr":"Autorisation de séjour pour études",
+   {"en":"Student permit","ar":"تصريح إقامة للدراسة","fr":"Titre de séjour étudiant",
     "sub":{"en":"You can work up to 30 hours a week alongside your studies","ar":"يمكنك العمل حتى 30 ساعة أسبوعيًا إلى جانب دراستك","fr":"Vous pouvez travailler jusqu'à 30 heures par semaine en parallèle de vos études"}},
    {"en":"Highly qualified professional or EU Blue Card","ar":"تصريح المهني ذي الكفاءة العالية أو البطاقة الزرقاء الأوروبية","fr":"Professionnel hautement qualifié ou carte bleue européenne",
     "sub":{"en":"To change jobs, the new employer usually files with the UGE-CE (large companies unit)","ar":"عند تغيير العمل، يتقدّم صاحب العمل الجديد عادةً بطلب إلى وحدة الشركات الكبرى (UGE-CE)","fr":"Pour changer d'emploi, le nouvel employeur dépose en général un dossier auprès de l'UGE-CE (unité grandes entreprises)"}},

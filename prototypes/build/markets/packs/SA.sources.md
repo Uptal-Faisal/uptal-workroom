@@ -197,3 +197,23 @@ Research date: 12 October 2026.
   - `people[].ar`
   - `pay.bnpl[].label` and `pay.bnpl[].terms`
   - `govPlatforms[]` as `{id,en,ar,fr,use}` objects
+
+## Fact-check pass (12 October 2026)
+No live web access was available for this pass (search budget spent, fetches failed on DNS), so the checks below
+use prior knowledge, v5 (`prototypes/src/v5.html`) and the other GCC packs.
+- **Nationalisation copy:** "by 2028" was removed. Reports disagree on how many phases the accounting quota has
+  (four yearly steps of 40/50/60/70% vs "five phases"), so the copy now says "rising in yearly steps to 70%".
+  The French "part fixe" was changed to "part minimale", since Nitaqat sets minimum bands. To verify: the 70% year,
+  and whether GCC nationals count toward the accounting quota (this is sourced for Nitaqat in general, but not for
+  the 44-profession decision itself).
+- **Premium residency sub:** changed to "any private-sector employer". The Premium Residency Law grants work in, and
+  movement between, private-sector establishments, subject to professions reserved for Saudis. It does not cover
+  "any employer".
+- **`nationals.ar`:** changed to the nominative "المواطنون السعوديون" (standalone label), matching the other GCC
+  packs and SA's own autoText.
+- **Al Rajhi archetype:** now "largest Islamic bank". SNB is the largest bank by assets, so the old wording
+  contradicted SNB's entry.
+- **Checked against v5 and left unchanged:**
+  - The MSA renewal ending ("ولن يُخصم منك شيء مرة أخرى") and the bio's "التي" both match v5's final Arabic override
+    dictionary.
+  - Rewaa رِوّاء, and the Salla (Makkah) and Rewaa (Riyadh) cities, match v5.

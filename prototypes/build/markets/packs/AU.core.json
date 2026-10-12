@@ -16,7 +16,7 @@
   {"id": "brisbane", "en": "Brisbane", "ar": "بريسبان", "fr": "Brisbane",
    "metro": {"en": "Brisbane covers Greater Brisbane, including Ipswich, Logan and the Moreton Bay area.", "ar": "تشمل بريسبان منطقة بريسبان الكبرى، بما فيها إبسويتش ولوغان ومنطقة خليج موريتون.", "fr": "Brisbane comprend le Grand Brisbane, dont Ipswich, Logan et la région de Moreton Bay."}},
   {"id": "perth", "en": "Perth", "ar": "بيرث", "fr": "Perth",
-   "metro": {"en": "Perth covers the Perth metropolitan area, including West Perth, Fremantle and Joondalup.", "ar": "تشمل بيرث منطقة بيرث الحضرية، بما فيها ويست بيرث وفريمانتل وجوندالب.", "fr": "Perth comprend l'agglomération de Perth, dont West Perth, Fremantle et Joondalup."}},
+   "metro": {"en": "Perth covers the Perth metropolitan area, including West Perth, Fremantle and Joondalup.", "ar": "تشمل بيرث منطقة بيرث الحضرية، بما فيها ويست بيرث وفريمانتل وجوندالوب.", "fr": "Perth comprend l'agglomération de Perth, dont West Perth, Fremantle et Joondalup."}},
   {"id": "adelaide", "en": "Adelaide", "ar": "أديلايد", "fr": "Adélaïde",
    "metro": {"en": "Adelaide covers Greater Adelaide, including Port Adelaide and the Adelaide Hills.", "ar": "تشمل أديلايد منطقة أديلايد الكبرى، بما فيها بورت أديلايد وتلال أديلايد.", "fr": "Adélaïde comprend le Grand Adélaïde, dont Port Adelaide et les Adelaide Hills."}},
   {"id": "canberra", "en": "Canberra", "ar": "كانبرا", "fr": "Canberra",
@@ -82,7 +82,7 @@
  "pay": {
   "wallets": ["apple", "google"],
   "methods": [
-   {"id": "card", "label": {"en": "Card", "ar": "بطاقة", "fr": "Carte"}, "sub": {"en": "Visa, Mastercard, Amex (credit or debit)", "ar": "فيزا، ماستركارد، أمريكان إكسبريس (ائتمان أو خصم مباشر)", "fr": "Visa, Mastercard, Amex (crédit ou débit)"}, "brands": ["visa", "mc", "amex"]},
+   {"id": "card", "label": {"en": "Card", "ar": "بطاقة", "fr": "Carte"}, "sub": {"en": "Visa, Mastercard, Amex (credit or debit)", "ar": "فيزا، ماستركارد، أمريكان إكسبريس (ائتمان أو خصم)", "fr": "Visa, Mastercard, Amex (crédit ou débit)"}, "brands": ["visa", "mc", "amex"]},
    {"id": "paypal", "label": {"en": "PayPal", "ar": "PayPal", "fr": "PayPal"}, "sub": {"en": "Pay with your PayPal account", "ar": "ادفع من حسابك في PayPal", "fr": "Payez avec votre compte PayPal"}}
   ],
   "bnpl": [
@@ -95,7 +95,7 @@
   "q": {"en": "Your right to work in Australia", "ar": "حقك في العمل في أستراليا", "fr": "Votre droit de travailler en Australie"},
   "opts": [
    {"en": "Australian or New Zealand citizen", "ar": "الجنسية الأسترالية أو النيوزيلندية", "fr": "Citoyenneté australienne ou néo-zélandaise",
-    "sub": {"en": "No sponsorship needed. New Zealanders get a Special Category visa on arrival", "ar": "لا حاجة إلى رعاية تأشيرة، ويحصل النيوزيلنديون على تأشيرة الفئة الخاصة (Special Category) عند الوصول", "fr": "Aucun parrainage nécessaire ; les Néo-Zélandais reçoivent un visa Special Category à l'arrivée"}},
+    "sub": {"en": "No sponsorship needed; New Zealanders get a Special Category visa on arrival", "ar": "لا حاجة إلى رعاية تأشيرة، ويحصل النيوزيلنديون على تأشيرة الفئة الخاصة (Special Category) عند الوصول", "fr": "Aucun parrainage nécessaire ; les Néo-Zélandais reçoivent un visa Special Category à l'arrivée"}},
    {"en": "Permanent resident", "ar": "الإقامة الدائمة", "fr": "Résidence permanente",
     "sub": {"en": "Any permanent visa, e.g. skilled (189, 190, 186) or partner (100, 801)", "ar": "أي تأشيرة دائمة، مثل تأشيرات المهارات (189 أو 190 أو 186) أو تأشيرة الشريك (100 أو 801)", "fr": "Tout visa permanent, par ex. visa qualifié (189, 190, 186) ou visa de partenaire (100, 801)"}},
    {"en": "A temporary visa with full work rights", "ar": "تأشيرة مؤقتة بحقوق عمل كاملة", "fr": "Un visa temporaire avec un droit de travail complet",

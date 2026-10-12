@@ -11,7 +11,7 @@
  "cities": [
   {"id": "amman", "en": "Amman", "ar": "عمّان", "fr": "Amman",
    "metro": {"en": "Amman covers Abdali, Shmeisani, Jabal Amman, Abdoun, Sweifieh, Khalda and the King Hussein Business Park.",
-             "ar": "عمّان تشمل العبدلي والشميساني وجبل عمّان وعبدون والصويفية وخلدا ومجمّع الملك حسين للأعمال.",
+             "ar": "عمّان تشمل العبدلي والشميساني وجبل عمّان وعبدون والصويفية وخلدا ومجمّع الملك الحسين للأعمال.",
              "fr": "Amman couvre Abdali, Shmeisani, Jabal Amman, Abdoun, Sweifieh, Khalda et le King Hussein Business Park."}},
   {"id": "irbid", "en": "Irbid", "ar": "إربد", "fr": "Irbid",
    "metro": {"en": "Irbid covers the city, the university district and Al-Hassan Industrial Estate.",
@@ -51,7 +51,7 @@
   {"id": "ey", "en": "EY", "ar": "EY", "fr": "EY", "sector": "big4", "archetype": "Big 4 audit and advisory", "city": "amman", "logo": {"bg": "#2E2E38", "fg": "#FFE600", "mono": "EY"}},
   {"id": "hikma", "en": "Hikma Pharmaceuticals", "ar": "أدوية الحكمة", "fr": "Hikma Pharmaceuticals", "sector": "pharma", "archetype": "Jordan-founded pharma multinational", "city": "amman", "logo": {"bg": "#A6192E", "fg": "#FFFFFF", "mono": "H"}},
   {"id": "siniora", "en": "Siniora Food Industries", "ar": "سنيورة للصناعات الغذائية", "fr": "Siniora Food Industries", "sector": "fmcg", "archetype": "listed food manufacturer", "city": "amman", "logo": {"bg": "#E31E24", "fg": "#FFFFFF", "mono": "S"}},
-  {"id": "carrefour", "en": "Carrefour Jordan (Majid Al Futtaim)", "ar": "كارفور الأردن (ماجد الفطيم)", "fr": "Carrefour Jordanie (Majid Al Futtaim)", "sector": "retail", "archetype": "hypermarket and supermarket chain", "city": "amman", "logo": {"bg": "#004E9F", "fg": "#FFFFFF", "mono": "C"}},
+  {"id": "hypermax", "en": "HyperMax (Majid Al Futtaim)", "ar": "هايبرماكس (ماجد الفطيم)", "fr": "HyperMax (Majid Al Futtaim)", "sector": "retail", "archetype": "hypermarket and supermarket chain (ex-Carrefour Jordan)", "city": "amman", "logo": {"bg": "#D71920", "fg": "#FFFFFF", "mono": "HM"}},
   {"id": "rj", "en": "Royal Jordanian", "ar": "الملكية الأردنية", "fr": "Royal Jordanian", "sector": "airline", "archetype": "national airline", "city": "amman", "logo": {"bg": "#1C1C1C", "fg": "#C5A15A", "mono": "RJ"}},
   {"id": "khcc", "en": "King Hussein Cancer Center", "ar": "مركز الحسين للسرطان", "fr": "King Hussein Cancer Center", "sector": "hospital", "archetype": "leading specialist hospital (non-profit)", "city": "amman", "logo": {"bg": "#00807F", "fg": "#FFFFFF", "mono": "KHCC"}},
   {"id": "gig", "en": "GIG Jordan", "ar": "جي آي جي - الأردن", "fr": "GIG Jordanie", "sector": "insurance", "archetype": "largest insurer", "city": "amman", "logo": {"bg": "#00205B", "fg": "#FFFFFF", "mono": "GIG"}},
@@ -70,7 +70,7 @@
   "sovereign": ["ssif"],
   "big4": ["ey"],
   "fmcg": ["siniora"],
-  "retailer": ["carrefour"],
+  "retailer": ["hypermax"],
   "airline": ["rj"],
   "hospitalGroup": ["khcc"],
   "insurer": ["gig"],
@@ -113,7 +113,7 @@
  },
  "nationalisation": {
   "name": {"en": "Jordan's closed professions", "ar": "المهن المغلقة أمام غير الأردنيين", "fr": "Professions fermées aux non-Jordaniens"},
-  "desc": {"en": "The Ministry of Labour keeps a list of professions closed to non-Jordanians, including administrative, accounting and clerical jobs, so finance roles go to Jordanians unless the ministry approves a foreign specialist.", "ar": "تحدّد وزارة العمل قائمة بالمهن المغلقة أمام غير الأردنيين، ومنها المهن الإدارية والمحاسبية والمكتبية، لذلك تُشغَل الوظائف المالية بأردنيين ما لم توافق الوزارة على استقدام خبير أجنبي.", "fr": "Le ministère du Travail tient une liste de professions fermées aux non-Jordaniens, dont les métiers administratifs, comptables et de bureau : les postes en finance reviennent donc aux Jordaniens, sauf si le ministère autorise le recrutement d'un spécialiste étranger."}
+  "desc": {"en": "The Ministry of Labour keeps a list of professions closed to non-Jordanians, including administrative, accounting and clerical jobs, so finance roles go to Jordanians unless the ministry approves a foreign specialist.", "ar": "تحدّد وزارة العمل قائمة بالمهن المغلقة أمام غير الأردنيين، ومنها المهن الإدارية والمحاسبية والكتابية، لذلك تُشغَل الوظائف المالية بأردنيين ما لم توافق الوزارة على استقدام خبير أجنبي.", "fr": "Le ministère du Travail tient une liste de professions fermées aux non-Jordaniens, dont les métiers administratifs, comptables et de bureau : les postes en finance reviennent donc aux Jordaniens, sauf si le ministère autorise le recrutement d'un spécialiste étranger."}
  },
  "sensitive": {
   "photo": "common",

@@ -25,7 +25,7 @@
  },
  "nationals": {
   "en": "Saudi nationals",
-  "ar": "المواطنين السعوديين",
+  "ar": "المواطنون السعوديون",
   "fr": "ressortissants saoudiens"
  },
  "region": "gcc",
@@ -172,7 +172,7 @@
    "ar": "مصرف الراجحي",
    "fr": "Al Rajhi Bank",
    "sector": "bank",
-   "archetype": "Islamic bank, largest by assets",
+   "archetype": "largest Islamic bank",
    "city": "riyadh",
    "logo": {
     "bg": "#0035AD",
@@ -563,9 +563,9 @@
     "ar": "إقامة مميزة",
     "fr": "Résidence premium",
     "sub": {
-     "en": "Work for any employer, no sponsor needed",
-     "ar": "تشتغل عند أي جهة بدون كفيل",
-     "fr": "Vous travaillez pour tout employeur, sans parrainage"
+     "en": "Work for any private-sector employer, no sponsor needed",
+     "ar": "تشتغل عند أي جهة في القطاع الخاص بدون كفيل",
+     "fr": "Vous pouvez travailler pour tout employeur du secteur privé, sans parrainage"
     }
    },
    {
@@ -615,9 +615,9 @@
    "fr": "Saoudisation (Nitaqat)"
   },
   "desc": {
-   "en": "Under Nitaqat, private employers must keep a set share of Saudi staff. Accounting roles have their own quota at firms with five or more accountants: 40% Saudi from October 2025, rising each year to 70% by 2028. Saudi and GCC nationals count toward it.",
-   "ar": "بموجب نطاقات، لازم تحافظ منشآت القطاع الخاص على نسبة محددة من الموظفين السعوديين. ومهن المحاسبة لها نسبة خاصة في المنشآت اللي فيها 5 محاسبين أو أكثر: 40% سعوديين من أكتوبر 2025، وترتفع كل سنة إلى 70% بحلول 2028. والمواطن السعودي والخليجي يُحسب ضمنها.",
-   "fr": "Avec Nitaqat, les employeurs privés doivent maintenir une part fixe de salariés saoudiens. Les métiers de la comptabilité ont leur propre quota dans les entreprises comptant au moins cinq comptables : 40 % de Saoudiens depuis octobre 2025, puis une hausse chaque année jusqu'à 70 % en 2028. Les ressortissants saoudiens et du CCG sont pris en compte."
+   "en": "Under Nitaqat, private employers must keep a set share of Saudi staff. Accounting roles have their own quota at firms with five or more accountants: 40% Saudi from October 2025, rising in yearly steps to 70%. Saudi and GCC nationals count toward it.",
+   "ar": "بموجب نطاقات، لازم تحافظ منشآت القطاع الخاص على نسبة محددة من الموظفين السعوديين. ومهن المحاسبة لها نسبة خاصة في المنشآت اللي فيها 5 محاسبين أو أكثر: 40% سعوديين من أكتوبر 2025، وترتفع على مراحل سنوية حتى توصل 70%. والمواطن السعودي والخليجي يُحسب ضمنها.",
+   "fr": "Avec Nitaqat, les employeurs privés doivent maintenir une part minimale de salariés saoudiens. Les métiers de la comptabilité ont leur propre quota dans les entreprises comptant au moins cinq comptables : 40 % de Saoudiens depuis octobre 2025, puis une hausse par paliers annuels jusqu'à 70 %. Les ressortissants saoudiens et du CCG sont pris en compte."
   }
  },
  "sensitive": {

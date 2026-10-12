@@ -141,3 +141,25 @@ Persona: Thomas Peeters (m, Belgian, Brussels), taken from `roster.json` id `BE`
 - **Degree.** Master in Business Economics (Finance) from KU Leuven, the usual Flemish TEW-type master. Belgian finance hires usually hold a 5-year master's.
 - **Certification.** CFA, from a shortlist of CFA, ITAA (certified accountant), IBR-IRE (registered auditor) and ACCA.
 - **Phone.** +32 470 12 34 56 follows the mobile 04xx format. I know of no official Belgian range reserved for fiction.
+
+## Fact-check pass (2026-10-12)
+- **No live re-check was possible.** The web-search budget was used up and the proxy blocked every research host tried (Wikipedia, DOFI, Bancontact, Mollie, Stripe, employment.belgium.be). This pass relied on prior knowledge, so the search-extract figures above (Robert Half percentiles, the 2026 Bancontact Pay rename, Wallonia's Blue Card threshold, the 2026 Belgian consumer-law acts) are still unverified.
+- **Checked against prior knowledge, no change needed:**
+  - 21% VAT with prices shown including VAT.
+  - Bancontact can't carry recurring charges itself, so renewals move to a SEPA Direct Debit mandate.
+  - Apple Pay supports Bancontact cards.
+  - Wording on residence cards: "marché du travail : illimité" / "arbeidsmarkt: onbeperkt".
+  - Search year: 12 months, with unrestricted labour-market access.
+  - EU Blue Card salary thresholds are set by each region.
+  - autoFor lists EU27 + IS, LI, NO + CH, using GR as the other packs do.
+  - No nationality quota.
+  - Anti-discrimination acts of 2007 and 1981, and the data protection act of 30 July 2018.
+  - Resignation notice scale (13 weeks max), 13.92 monthly salaries a year, and gender agreement for a male persona.
+- **Changed:**
+  - French Bancontact sub-line: "prélèvement SEPA (domiciliation)", so French readers get the France term and Belgian users still see the local one.
+  - Arabic Louvain-la-Neuve metro line: no longer says "the rest of" the province, to match the English.
+- **Still open:**
+  - ميخلن (Mechelen) is not a confirmed Arabic spelling.
+  - AG Insurance may now brand itself just "AG"; the legal name AG Insurance is still correct.
+  - Google Pay take-up among Belgian banks is lower than Apple Pay. It is kept because it works with Visa and Mastercard cards.
+  - Coolblue's finance roles are mostly in Rotterdam.

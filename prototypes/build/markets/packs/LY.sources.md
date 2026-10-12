@@ -52,7 +52,7 @@ Written 2026-10-12. **No live research was possible for this pack.** The shared 
   - Libyan Spider: hosting and cloud, Tripoli.
   - Moamalat: Libyan card and e-payment processing company. **[verify current status]**
 - **Gaps (stated in `sectorsCovered`).**
-  - Retailer: no modern retail chain of national scale was verified, so Brega's filling-station network is the closest consumer-retail employer.
+  - Retailer: no modern retail chain of national scale was verified, so none is listed. Brega is a fuel marketer that supplies depots and filling stations; the forecourts are run by separate distribution companies (Al-Rahila, Al-Sharara, LibyaOil and others), so Brega is not itself a retailer (fact-check correction, from background knowledge).
   - Food delivery and e-commerce: no employer of scale. Talabat, Glovo and Jumia do not operate in Libya.
   - Private hospital group: none verified, so the public Tripoli Medical Center is used.
 - **East/west split.** Since 2014 Libya has had rival administrations: Tripoli (GNU) and the east (Benghazi/Sirte-based government). National institutions such as NOC and CBL are formally unified, but some state entities run parallel offices. Employer HQs follow the commonly listed head office.
@@ -84,3 +84,10 @@ Written 2026-10-12. **No live research was possible for this pack.** The shared 
   - The bio also mentions FX exposure, which is a real pain point for Libyan finance teams.
   - Tools: SAP, Excel and Power BI. Some NOC companies use Oracle instead.
 - **People names.** Common Libyan given names and family/tribal names. I avoided surnames that point at leading political or military figures.
+
+## Fact-check pass (2026-10-12)
+Live checks were again impossible (WebSearch budget exhausted; WebFetch DNS/CONNECT blocked), so this pass reviewed the pack against background knowledge only.
+- Fixed: Brega archetype and the retail note in `sectorsCovered` (Brega supplies filling stations; it does not run a national forecourt network).
+- Fixed: the work-permit status now says "work permit and residence" in en/fr, matching the ar label (and the IQ pack pattern).
+- Fixed: `sensitive.notes` no longer says Libya has no anti-discrimination law at all; the 2011 Constitutional Declaration has a general equality clause, but there is no dedicated hiring statute.
+- Unchanged but still unverified: salary factor (low confidence), mobile wallets / local card scheme, recurring billing on domestic cards, Law 12/2010 article numbers and notice period, law numbers 5/2022 and 6/2022, EY Libya staffing, Al Naseem legal name.
