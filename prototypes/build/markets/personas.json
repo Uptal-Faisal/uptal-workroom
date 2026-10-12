@@ -284,7 +284,7 @@
    },
    "bio": {
     "en": "Financial Analyst with 8 years in New York. I lead US GAAP reporting and budgeting on SAP across business units, own the monthly close for a 40-person function, and built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in New York, Boston, or remote.",
-    "ar": "محللة مالية بخبرة 8 سنوات في نيويورك. أقود إعداد التقارير وفق US GAAP والموازنة على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً، وبنيت التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي في نيويورك أو بوسطن أو عن بُعد.",
+    "ar": "محللة مالية بخبرة 8 سنوات في نيويورك. أقود إعداد التقارير وفق US GAAP والموازنة على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً، وبنيت التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أبحث عن وظيفة محللة مالية أولى أو في التخطيط والتحليل المالي في نيويورك أو بوسطن أو عن بُعد.",
     "fr": "Analyste financière avec 8 ans d'expérience à New York. Je pilote le reporting US GAAP et le budget sur SAP pour plusieurs business units, je suis responsable de la clôture mensuelle d'une équipe de 40 personnes, et j'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting. Je recherche un poste d'analyste financière senior ou en FP&A à New York, à Boston ou en télétravail."
    }
   }
@@ -509,7 +509,7 @@
    },
    "degree": {
     "en": "Master's in Corporate Finance and Management Control",
-    "ar": "ماجستير في مالية الشركات ومراقبة التسيير",
+    "ar": "ماجستير في مالية الشركات والرقابة الإدارية",
     "fr": "Master Finance d'entreprise et contrôle de gestion"
    },
    "bio": {
@@ -806,12 +806,39 @@
   "group": "eu",
   "city": "Zurich",
   "arv": "neutral",
-  "label": " Laura Meier · Zurich",
+  "label": "🇨🇭 Laura Meier · Zurich",
   "f": {
    "first": "Laura",
    "last": "Meier",
    "full": "Laura Meier",
-   "initials": "LM"
+   "initials": "LM",
+   "email": "laura.meier@email.com",
+   "phone": "+41 79 123 45 67",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Acme Schweiz AG",
+    "ar": "أكمي سويسرا",
+    "fr": "Acme Suisse SA"
+   },
+   "employer2": {
+    "en": "Acme Capital AG",
+    "ar": "أكمي كابيتال",
+    "fr": "Acme Capital SA"
+   },
+   "degree": {
+    "en": "MA in Banking and Finance",
+    "ar": "ماجستير في الخدمات المصرفية والمالية",
+    "fr": "Master en banque et finance"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Zurich. I lead Swiss GAAP FER and IFRS reporting, budgeting and rolling forecasts on SAP S/4HANA across business units, and own the monthly close for a 40-person finance team. My Power BI dashboards feed every quarterly business review, and I work in German and English, with good French.",
+    "ar": "محللة مالية بخبرة 8 سنوات في زيورخ. أقود إعداد التقارير وفق المعايير المحاسبية السويسرية (Swiss GAAP FER) والمعايير الدولية (IFRS)، والموازنات والتوقعات المتجددة على SAP S/4HANA عبر وحدات الأعمال، وأتولى الإقفال الشهري لفريق مالي من 40 شخصاً. تُعتمد لوحات Power BI التي أعدّها في كل مراجعة ربع سنوية للأعمال، وأعمل بالألمانية والإنجليزية مع إلمام جيد بالفرنسية.",
+    "fr": "Analyste financière forte de 8 ans d'expérience à Zurich. Je pilote le reporting Swiss GAAP RPC et IFRS, le budget et les prévisions glissantes sous SAP S/4HANA pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une équipe finance de 40 personnes. Mes tableaux de bord Power BI alimentent chaque revue trimestrielle, et je travaille en allemand et en anglais, avec un bon niveau de français."
+   }
   }
  },
  {
@@ -871,12 +898,39 @@
   "group": "naf",
   "city": "Cairo",
   "arv": "neutral",
-  "label": " Mariam Hassan · Cairo",
+  "label": "🇪🇬 Mariam Hassan · Cairo",
   "f": {
    "first": "Mariam",
    "last": "Hassan",
    "full": "Mariam Hassan",
-   "initials": "MH"
+   "initials": "MH",
+   "email": "mariam.hassan@email.com",
+   "phone": "+20 100 123 4567",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Mokattam Holding Group",
+    "ar": "مجموعة المقطم القابضة",
+    "fr": "Groupe Mokattam Holding"
+   },
+   "employer2": {
+    "en": "Mokattam Trading",
+    "ar": "المقطم للتجارة",
+    "fr": "Mokattam Trading"
+   },
+   "degree": {
+    "en": "BCom in Accounting",
+    "ar": "بكالوريوس التجارة، شعبة المحاسبة",
+    "fr": "Licence en commerce, spécialité comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Cairo. I lead EAS and IFRS reporting and budgeting on SAP across business units and own the monthly close for a 30-person finance function. I built the EGP/USD scenario forecasts and Power BI dashboards that helped management protect margins through the currency moves.",
+    "ar": "محللة مالية بخبرة 8 سنوات في القاهرة. أقود إعداد التقارير المالية وفق معايير المحاسبة المصرية والمعايير الدولية IFRS وإعداد الموازنات على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة مالية تضم 30 شخصاً. أعددتُ توقعات بسيناريوهات مختلفة لسعر صرف الجنيه مقابل الدولار ولوحات Power BI ساعدت الإدارة على حماية هوامش الربح خلال تقلبات العملة.",
+    "fr": "Analyste financière avec 8 ans d'expérience au Caire. Je pilote le reporting selon les normes comptables égyptiennes (EAS) et IFRS ainsi que le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction finance de 30 personnes. J'ai conçu les prévisions par scénarios EGP/USD et les tableaux de bord Power BI qui ont aidé la direction à préserver les marges face aux variations du change."
+   }
   }
  },
  {
@@ -1213,7 +1267,7 @@
   "group": "x",
   "city": "Cairo",
   "arv": "neutral",
-  "label": "🌐→🇸🇦🇦🇪 Hassan Mahmoud · Cairo",
+  "label": "🇪🇬→🇸🇦🇦🇪 Hassan Mahmoud · Cairo",
   "f": {
    "first": "Hassan",
    "last": "Mahmoud",

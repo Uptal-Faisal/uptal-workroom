@@ -113,7 +113,7 @@
   {
    "id": "bapco",
    "en": "Bapco Energies",
-   "ar": "بابكو للطاقة",
+   "ar": "بابكو إنرجيز",
    "fr": "Bapco Energies",
    "sector": "energy",
    "archetype": "national energy champion (oil, gas and refining)",
@@ -533,7 +533,7 @@
   ],
   "methods": [
    {
-    "id": "benefitpay",
+    "id": "benefit",
     "label": {
      "en": "BenefitPay",
      "ar": "بنفت باي",
@@ -842,11 +842,11 @@
    }
   },
   {
-   "first": "Ali",
+   "first": "Yousif",
    "last": "Al-Aradi",
    "gender": "m",
    "ar": {
-    "first": "علي",
+    "first": "يوسف",
     "last": "العرادي"
    }
   },
