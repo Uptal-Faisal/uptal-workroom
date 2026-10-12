@@ -18,7 +18,11 @@ def load(p, d=None):
 
 roster = load(os.path.join(M, 'roster.json'))['personas']
 reg = load(os.path.join(M, 'registry.json'), {})
-ents = reg.get('entities', reg) if isinstance(reg, dict) else {}
+ents = dict(reg.get('entities', reg) if isinstance(reg, dict) else {})
+for fp in sorted(glob.glob(os.path.join(M, 'registry-proposals', '*.json'))):
+    d = load(fp, {}) or {}
+    for k, v in (d.get('entities', d)).items():
+        ents.setdefault(k, v)
 base = load(os.path.join(M, 'base.json'))
 FLAG = {}
 for fp in glob.glob(os.path.join(M, 'packs', '*.core.json')):

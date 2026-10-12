@@ -36,6 +36,8 @@ Australia: AU · North Africa: EG MA TN DZ LY · Levant & Iraq: JO LB IQ.
 `{@id|literal}` escape hatch: when the token's scope is KSA the literal (exact v5 wording) is used, otherwise
 the token resolves normally. Use it when v5 phrases a market thing irregularly (e.g. `{@per|بالشهر}`).
 
+Arabic: a standalone prefix ل written right before a token whose value starts with ال contracts automatically (ل{@city.riyadh} → للرياض); ب/و/ك + ال need nothing.
+
 Rules: tokens never nest. Keep all non-market wording identical. The KSA expansion of a tokenized string must
 equal the v5 string exactly (`tools/verify.js` enforces it; `{@g:..}` may match either side).
 

@@ -120,7 +120,12 @@ var MKT = (function(){
   function expand(s, l){
     if (typeof s !== 'string' || s.indexOf('{@') < 0) return s;
     var out = s, guard = 0;
-    while (out.indexOf('{@') >= 0 && guard++ < 3) out = out.replace(RX, function(_, b){ return resolve(b, l); });
+    while (out.indexOf('{@') >= 0 && guard++ < 3) out = out.replace(RX, function(_, b, off, str){
+      var v = resolve(b, l);
+      /* Arabic: the prefix ل before a value starting with ال contracts (ل + الرياض = للرياض) */
+      if (l === 'ar' && off > 0 && str.charAt(off - 1) === 'ل' && (off === 1 || /[\s(«"'\u200f\u060c]/.test(str.charAt(off - 2))) && v.indexOf('ال') === 0) v = v.slice(1);
+      return v;
+    });
     return out;
   }
   function keyLang(k, l){

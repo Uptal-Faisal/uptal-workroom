@@ -19,6 +19,7 @@ cp "$ROOT"/build/markets/base.json "$ROOT"/build/markets/roster.json "$PKG/03 Ma
 [ -d "$ROOT/build/legal" ] && cp -r "$ROOT/build/legal" "$PKG/04 Legal/working files" || true
 mkdir -p "$PKG/05 Source and build"; (cd "$ROOT" && tar --exclude="shots" --exclude="__pycache__" -cf - build src) | (cd "$PKG/05 Source and build" && tar -xf -)
 
+cp "$ROOT/HANDOVER.md" "$PKG/HANDOVER.md" 2>/dev/null || true
 cat > "$PKG/README.md" <<'EOF'
 # Uptal global expansion plan
 
@@ -29,6 +30,7 @@ cat > "$PKG/README.md" <<'EOF'
   CV norms, salaries, employers, cities) with sources and open doubts.
 - 04 Legal: multi-market Terms / Privacy / Refund drafts (global core + country addenda) once produced. Drafts for
   review by licensed counsel in each country before publication.
+- HANDOVER.md: full state, decisions and next steps, for a new session (or a person) to take over.
 - 05 Source and build: everything needed to rebuild (python3 build/build.py) plus the original v5 / landing / legal sources.
 
 Git: https://github.com/Uptal-Faisal/uptal-workroom/tree/claude/inspiring-brown-5rl4en/prototypes

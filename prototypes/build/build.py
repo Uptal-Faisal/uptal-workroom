@@ -24,11 +24,20 @@ SRC = os.path.join(HERE, '..', 'src', 'v5.html')
 OUT = os.path.join(HERE, '..', 'Uptal_AutoApply_v6_MultiMarket.html')
 
 
+LENIENT = '--lenient' in sys.argv   # QA builds while other agents are mid-write: skip broken parts/patches, warn
+
+
 def load(p, default=None):
     if not os.path.exists(p):
         return default
-    with open(p, encoding='utf-8') as f:
-        return json.load(f)
+    try:
+        with open(p, encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        if LENIENT:
+            print(f'WARN skipped unreadable {os.path.relpath(p, HERE)}: {e}', file=sys.stderr)
+            return default
+        raise
 
 
 def js_json(obj):
@@ -40,15 +49,17 @@ def apply_patches(html):
     files = sorted(glob.glob(os.path.join(HERE, 'patches', '*.json')))
     n = 0
     for fp in files:
-        for i, p in enumerate(load(fp, [])):
+        for i, p in enumerate(load(fp, []) or []):
             old, new = p['old'], p['new']
             want = p.get('count', 1)
             got = html.count(old)
-            if want is None:
-                if got == 0:
-                    sys.exit(f'PATCH FAIL {os.path.basename(fp)}#{i}: not found: {old[:120]!r}')
-            elif got != want:
-                sys.exit(f'PATCH FAIL {os.path.basename(fp)}#{i}: expected {want} got {got}: {old[:120]!r}')
+            bad = (got == 0) if want is None else (got != want)
+            if bad:
+                msg = f'PATCH FAIL {os.path.basename(fp)}#{i}: expected {want} got {got}: {old[:120]!r}'
+                if LENIENT:
+                    print('WARN ' + msg, file=sys.stderr)
+                    continue
+                sys.exit(msg)
             html = html.replace(old, new)
             n += 1
     return html, n, len(files)
@@ -82,6 +93,15 @@ def main():
         pk['cur'] = b.get('cur', pk.get('cur'))
         pk['price'] = b.get('price', pk.get('price'))
         packs[code] = pk
+    # KSA = the registry itself (exact v5 surface forms), plus ids proposed by tokenizers/sweepers
+    reg = dict((load(os.path.join(HERE, 'markets', 'registry.json'), {}) or {}).get('entities', {}))
+    for fp in sorted(glob.glob(os.path.join(HERE, 'markets', 'registry-proposals', '*.json'))):
+        d = load(fp, {}) or {}
+        for k, v in (d.get('entities', d)).items():
+            reg.setdefault(k, v)
+    sa_ent = {k: {x: v[x] for x in ('en', 'ar', 'arn', 'fr') if isinstance(v, dict) and v.get(x) is not None}
+              for k, v in reg.items() if not k.startswith('p.')}
+    packs.setdefault('SA', {'code': 'SA'})['ent'] = sa_ent
     personas = load(os.path.join(HERE, 'markets', 'personas.json'), [])
     LANGS = ('en', 'gulf', 'neutral', 'fr')
     I18N = os.path.join(HERE, 'i18n')
@@ -96,6 +116,9 @@ def main():
     tokobj = load(os.path.join(I18N, 'tokobj.json'), {})
     for fp in sorted(glob.glob(os.path.join(I18N, 'tokobj-parts', '*.json'))):
         tokobj.update(load(fp, {}))
+    # MSAQ is swept in two halves (MSAQ_A = items 0-11, MSAQ_B = items 12-23)
+    if 'MSAQ_A' in tokobj or 'MSAQ_B' in tokobj:
+        tokobj['MSAQ'] = (tokobj.pop('MSAQ_A', None) or []) + (tokobj.pop('MSAQ_B', None) or [])
     # v6-only keys: newkeys-L.json + newkeys-parts/*.json ({key: {en, gulf, neutral, fr}})
     newkeys = {L: load(os.path.join(I18N, f'newkeys-{L}.json'), {}) for L in LANGS}
     for fp in sorted(glob.glob(os.path.join(I18N, 'newkeys-parts', '*.json'))):

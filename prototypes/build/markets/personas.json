@@ -11,7 +11,122 @@
   "city": "Riyadh",
   "arv": "gulf",
   "label": "🇸🇦 Noura Al-Amri · Riyadh",
-  "f": {}
+  "f": {
+   "bio": {
+    "en": "Financial Analyst with 8 years in Riyadh. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in Riyadh, Jeddah, or remote.",
+    "ar": "محللة مالية بخبرة 8 سنوات في الرياض. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات التي قلّصت وقت التقارير بالثلث. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في الرياض أو جدة أو عن بُعد.",
+    "arn": "محللة مالية بخبرة 8 سنوات في الرياض. أقود إعداد تقارير IFRS والموازنة على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي في الرياض أو جدة أو عن بُعد.",
+    "fr": "Analyste financière avec 8 ans d'expérience à Riyad. Je pilote le reporting IFRS et le budget sur SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre délai de reporting. Je recherche un poste d'analyste financière senior ou en FP&A à Riyad, à Djeddah ou en télétravail."
+   },
+   "cert": {
+    "en": "SOCPA",
+    "ar": "SOCPA",
+    "arn": "SOCPA",
+    "fr": "SOCPA"
+   },
+   "city": {
+    "en": "Riyadh",
+    "ar": "الرياض",
+    "arn": "الرياض",
+    "fr": "Riyad"
+   },
+   "degree": {
+    "en": "BSc Accounting",
+    "ar": "بكالوريوس محاسبة",
+    "arn": "بكالوريوس في المحاسبة",
+    "fr": "Licence en comptabilité"
+   },
+   "email": {
+    "en": "noura.alamri@email.com",
+    "ar": "noura.alamri@email.com",
+    "arn": "noura.alamri@email.com",
+    "fr": "noura.alamri@email.com"
+   },
+   "employer": {
+    "en": "Acme Financial",
+    "ar": "Acme Financial",
+    "arn": "Acme Financial",
+    "fr": "Acme Financial"
+   },
+   "employer2": {
+    "en": "Acme Capital",
+    "ar": "Acme Capital",
+    "arn": "Acme Capital",
+    "fr": "Acme Capital"
+   },
+   "file": {
+    "en": "Noura_AlAmri",
+    "ar": "Noura_AlAmri",
+    "arn": "Noura_AlAmri",
+    "fr": "Noura_AlAmri"
+   },
+   "first": {
+    "en": "Noura",
+    "ar": "نورة",
+    "arn": "نورة",
+    "fr": "Noura"
+   },
+   "full": {
+    "en": "Noura Al-Amri",
+    "ar": "نورة العمري",
+    "arn": "نورة العمري",
+    "fr": "Noura Al-Amri"
+   },
+   "initials": {
+    "en": "NA",
+    "ar": "ن",
+    "arn": "ن",
+    "fr": "NA"
+   },
+   "last": {
+    "en": "Al-Amri",
+    "ar": "العمري",
+    "arn": "العمري",
+    "fr": "Al-Amri"
+   },
+   "li": {
+    "en": "linkedin.com/in/noura-alamri",
+    "ar": "linkedin.com/in/noura-alamri",
+    "arn": "linkedin.com/in/noura-alamri",
+    "fr": "linkedin.com/in/noura-alamri"
+   },
+   "loc": {
+    "en": "Riyadh, Saudi Arabia",
+    "ar": "Riyadh, Saudi Arabia",
+    "arn": "الرياض، المملكة العربية السعودية",
+    "fr": "Riyad, Arabie saoudite"
+   },
+   "notice": {
+    "en": "60 days",
+    "ar": "60 يوماً",
+    "arn": "60 يوماً",
+    "fr": "60 jours"
+   },
+   "phone": {
+    "en": "0551234567",
+    "ar": "0551234567",
+    "arn": "0551234567",
+    "fr": "0551234567"
+   },
+   "ref": {
+    "en": "uptal.com/r/noura",
+    "ar": "uptal.com/r/noura",
+    "arn": "uptal.com/r/noura",
+    "fr": "uptal.com/r/noura"
+   },
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "arn": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "uni": {
+    "en": "King Saud University",
+    "ar": "جامعة الملك سعود",
+    "arn": "جامعة الملك سعود",
+    "fr": "Université du Roi-Saoud"
+   }
+  }
  },
  {
   "id": "AE",

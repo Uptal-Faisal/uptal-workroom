@@ -1,0 +1,18 @@
+export const meta = {
+  name: 'legal-recon',
+  description: 'Per-market legal research briefs for Uptal Auto-Apply, each adversarially verified by a local-law skeptic',
+  phases: [{ title: 'Research' }, { title: 'Attack' }],
+}
+const B = '/home/user/uptal-workroom/prototypes/build'
+const KSA = '/home/user/uptal-workroom/prototypes/src/legal-ksa/unzipped/8 - Legal - Refund Policy'
+const VERDICT = { type: 'object', properties: { corrections: { type: 'array', items: { type: 'string' } }, missing: { type: 'array', items: { type: 'string' } }, confidence: { type: 'string', enum: ['high', 'medium', 'low'] } }, required: ['corrections', 'missing', 'confidence'] }
+const results = await pipeline(args.markets,
+  (m) => agent(`You are a senior consumer-protection, e-commerce and data-protection lawyer for ${m.name}. Uptal, a Saudi company (Uptal, شركة الخبرات الصاعدة لتقنية المعلومات) that contracts under KSA law, is launching its Auto-Apply subscription (AI tailors the user's CV per job and submits job applications on their behalf; monthly / 4-month / 12-month auto-renewing plans paid online; hard paywall; no free trial) to consumers in ${m.name}.
+Read ${B}/legal/LEGAL-SPEC.md (decisions + the 13-point checklist) and skim the KSA baseline so you know what Uptal's current documents say: ${KSA}/2026-09-07 Update/source/final_en.md (Refund Policy; read the section headings and sections 1, 3, 4, 5, 11, 12, 15, 16), ${KSA}/Uptal_Terms_EN.html and ${KSA}/Uptal_Privacy_EN.html (strip tags with python if needed).
+${m.scope}
+Research the CURRENT law (it is October 2026; check for 2025-2026 changes and commencement dates) with WebSearch/WebFetch (load via ToolSearch "select:WebSearch,WebFetch"); prefer primary sources (statutes, regulators) and cite them. Then write ${B}/legal/research/${m.code}.md with: (A) headline findings; (B) the 13-point checklist, each with rule + citation + "maximum lawful position for Uptal" + "cannot do" + "product requirement" + risk 1-5; (C) which KSA core clauses / founder rules (R1-R10) are void, unenforceable or risky here and the minimum lawful deviation; (D) draft addendum clause language (English) for each required deviation, as protective of Uptal as the law allows; (E) product requirements list for checkout / account / emails; (F) open questions for local counsel. No em dashes or en dashes. Return a 10-line summary.`,
+    { label: `recon:${m.code}`, phase: 'Research' }),
+  (summary, m) => agent(`You are an aggressive ${m.name} consumer-rights litigator and a regulator in one. Read ${B}/legal/research/${m.code}.md (a brief prepared for Uptal's launch of an auto-renewing job-application subscription in ${m.name}; spec ${B}/legal/LEGAL-SPEC.md). Summary from its author:\n${summary}\n\nTry to break it: find wrong or outdated law, missed mandatory rules (subscription/auto-renewal, withdrawal rights and waiver formalities, unfair-terms blacklists, price display, language, provider information, data-protection representative/registration, AI/automated decision rules, tax registration of foreign digital sellers), proposed clauses that would still be void or would trigger a regulator, and places where the brief concedes MORE than the law requires (Uptal wants maximum lawful protection). Verify with WebSearch/WebFetch (load via ToolSearch). Edit ${B}/legal/research/${m.code}.md in place: fix errors, add what is missing, mark each change with "[attack-fix]". Return your corrections.`,
+    { label: `attack:${m.code}`, phase: 'Attack', schema: VERDICT }).then(v => ({ code: m.code, summary, attack: v })),
+)
+return results.filter(Boolean)

@@ -73,7 +73,14 @@ def matcher(tok, lang):
 
 
 def expand(s, lang):
-    return TOKRX.sub(lambda m: ksa(m.group(1), lang), s)
+    def rep(m):
+        v = ksa(m.group(1), lang)
+        o = m.start()
+        # Arabic: the prefix ل before a value starting with ال contracts (ل + الرياض = للرياض), same rule as engine.js
+        if lang == 'ar' and o > 0 and s[o - 1] == 'ل' and (o == 1 or re.match(r'[\s(«"\'\u200f\u060c]', s[o - 2])) and v.startswith('ال'):
+            v = v[1:]
+        return v
+    return TOKRX.sub(rep, s)
 
 
 def ids(s):
