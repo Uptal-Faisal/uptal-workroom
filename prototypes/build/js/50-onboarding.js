@@ -296,7 +296,7 @@ function paintWhere(){
   /* footer meta + CTA */
   var n = t.length, k = n === 0 ? (OB6.remote ? 'ob6Meta0R' : 'ob6Meta0') : n === 1 ? (OB6.remote ? 'ob6Meta1R' : 'ob6Meta1') : (OB6.remote ? 'ob6MetaNR' : 'ob6MetaN');
   var meta = $('ob6WhMeta'); if (meta) meta.textContent = fill(k, {n:n});
-  var cta = $('ob6WhCta'); if (cta) cta.classList.toggle('dis', !n);
+  var cta = $('ob6WhCta'); if (cta) cta.classList.toggle('dis', !n && !OB6.remote);
   paintSheets();
 }
 function paintSheets(){
@@ -618,11 +618,11 @@ function paintProfile(){
   var eg = qs('[data-pfreq="eng"]', scr), el = $('ob6PfEngL');
   if (eg && !el){ eg.insertAdjacentHTML('beforebegin', '<div class="mut ob6lvl" id="ob6PfEngL" style="flex:1 0 100%;margin:0 0 2px"></div>'); el = $('ob6PfEngL'); }
   if (el){ el.style.display = l2.length ? '' : 'none'; el.textContent = fill('ob6LangLvl', {l:d('ob6LangEn')}); }
-  if (!OB6.engSet){ OB6.engSet = true; if (nativeOf(nat, 'en')){ var ec = qa('[data-pfreq="eng"] .chip', scr); ec.forEach(function(x, i){ x.classList.toggle('on', i === ec.length - 1); }); } }
+  if (!OB6.engSet){ OB6.engSet = true; var ec = qa('[data-pfreq="eng"] .chip', scr), on = nativeOf(nat, 'en') ? ec.length - 1 : 2; ec.forEach(function(x, i){ x.classList.toggle('on', i === on); }); }
   if (lbox){ lbox.innerHTML = l2.map(function(x){ var cur = OB6.lv[x.code]; if (cur == null){ cur = OB6.lv[x.code] = nativeOf(nat, x.code) ? 5 : (x.code === 'fr' && ['MA', 'TN', 'DZ', 'LB'].indexOf(nat) >= 0 ? 4 : 0); }
       return '<div class="ob6lvrow"><div class="mut ob6lvl">' + E(fill('ob6LangLvl', {l:lg(x.name)})) + '</div><div class="chipgrid" style="margin-top:0">' + LEVELS.slice(0, 5).map(function(k2, i){ return '<button class="chip' + (cur === i ? ' on' : '') + '" data-ob6lv="' + x.code + '|' + i + '"><span>' + E(d(k2)) + '</span></button>'; }).join('') + '</div></div>'; }).join(''); }
   /* notice period default from the primary target market */
-  var ni = $('pfNoticeNum'); if (ni && !OB6.noticeSet){ OB6.noticeSet = true; var nd = (P(primary()) || {}).noticeDays; if (nd && !ni.value) ni.value = String(nd); }
+  var ni = $('pfNoticeNum'); if (ni && !OB6.noticeSet){ OB6.noticeSet = true; var nd = (P(primary()) || {}).noticeDays; ni.value = nd ? String(nd) : ''; }
   /* salary: current in the residence currency and period, expected per target market in its own */
   paintSalary(sa);
   /* photo only where applications expect one */

@@ -94,8 +94,10 @@ Omanisation.
 
 ## Work rights
 - `autoFor`: OM plus the 5 other GCC states (high). GCC nationals work in Oman on GCC common-market terms with
-  no work visa or sponsor. They do **not** count toward Omanisation, so the matching rule still skips
-  Omani-only roles for them (they never see the card, but the rule applies in matching). The auto text says
+  no work visa or sponsor. Whether GCC nationals count toward Omanisation quotas or can hold titles closed to
+  expatriates is **not confirmed** (GCC equal-treatment rules may treat them as nationals); conservatively, the
+  matching rule still skips "Omanis only" roles for them (they never see the card, but the rule applies in
+  matching). The auto text says
   "without visa sponsorship", not "without any paperwork".
 - Statuses on the card (4, within the spec's 3-7):
   - **Work visa through my employer** (high for the category). Expats work on an employer-sponsored employment
@@ -216,3 +218,19 @@ Omanisation.
   name is written **عُمان** with a damma to avoid confusion with Amman (عمّان); the demonym is عُماني / عُمانية.
 - French: "à Oman" (the usual form, as in "ambassade de France à Oman"), "omanais / omanaise", Mascate, Sour,
   vouvoiement throughout.
+
+## Fact-check pass (2026-10-12)
+A second reviewer tried to refute the claims above. Live checks were again impossible: the shared WebSearch
+budget was used up and WebFetch failed on DNS (en.wikipedia.org, support.apple.com, support.google.com). The
+review was done from general knowledge and by comparing with the SA/AE/QA/KW/BH packs.
+- Nothing in the core claims was refuted: 5% VAT from 16 April 2021 (RD 121/2020), shown VAT-inclusive; PIT
+  RD 56/2025 (5% above OMR 42,000 a year, from 1 January 2028); NOC rule dropped from January 2021; Labour Law
+  RD 53/2023 with 30 days' notice; PDPL RD 6/2022 with Executive Regulations MD 34/2024; Sohar International
+  merged with HSBC Oman (2023); OQ8 (Duqm refinery); Muscat Stock Exchange; OIA. f = 0.06 is consistent with
+  KW (0.06 KWD) and BH (0.05 BHD) once the currencies are converted (OM sits between them in USD terms).
+- Fixed: Arabic spelling of Bahla in the Nizwa metro text (بهلا -> بهلاء, the official wilayat spelling);
+  French "ou avec un visa de visite" -> "ou titulaire d'un visa de visite".
+- Softened above: the claim that GCC nationals do not count toward Omanisation is unconfirmed.
+- Still open: Apple Pay live in Oman for web payments; Google Pay availability; no Tabby/Tamara in Oman;
+  OmanNet recurring support and its official Arabic brand name; whether finance titles are on the current
+  Omani-only list; whether Bank Nizwa is still a standalone bank (watch for a merger); salary band vs a 2026 guide.

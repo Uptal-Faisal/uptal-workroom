@@ -72,7 +72,7 @@ Written 2026-10-12. **No live research was possible for this pack.** The shared 
   - FMCG: Baghdad Soft Drinks Company, the Pepsi bottler and one of the largest ISX-listed companies (high confidence).
   - Retailer: Carrefour, operated by Majid Al Futtaim, with stores in Erbil and Baghdad (medium-high confidence; the city is set to Erbil).
   - Airline: Iraqi Airways.
-  - Hospital: Al-Kafeel Specialist Hospital, Karbala, a large private hospital linked to the Imam Hussein Shrine (medium confidence that it counts as the leading "group").
+  - Hospital: Al-Kafeel Specialist Hospital, Karbala, a large private hospital run by the Al-Abbas Holy Shrine (al-Kafeel is a title of al-Abbas; fact-check correction, the earlier draft said the Imam Hussein Shrine) (medium confidence that it counts as the leading "group").
   - Insurer: National Insurance Company, state-owned (high confidence).
   - Tech scale-up: Lezzoo, an Erbil-founded delivery and commerce super-app (medium confidence on its current scale).
   - Fintech: Qi Card (high confidence).
@@ -110,3 +110,8 @@ Written 2026-10-12. **No live research was possible for this pack.** The shared 
 - **People.** Mostly Arab Iraqi names: Karrar and Rusul are distinctly Iraqi, and the surnames are common tribal and family names. Two Kurdish names (Shilan Barzinji, Karwan Hamid) reflect the Erbil and Sulaymaniyah job market.
 - **Arabic register.** "neutral" per `base.json`. Proper names follow local usage: بغداد، أربيل، البصرة، السليمانية، النجف، كربلاء، الموصل، كركوك، دهوك. Banks use "مصرف", as is usual in Iraq. "Work permit" is إجازة عمل, the Iraqi legal term.
 - **French forms.** Bagdad, Erbil, Bassora, Souleimaniye, Nadjaf, Kerbala, Mossoul, Kirkouk, Dohouk, Oum Qasr, Koufa, Ninive. The country is "l'Irak" / "en Irak".
+
+## Fact-check pass (2026-10-12)
+- Live checking was not possible here either: the shared WebSearch budget was used up, and WebFetch could not resolve support.apple.com, taxsummaries.pwc.com, en.wikipedia.org, google.com or cbi.iq. Claims were rechecked against background knowledge and the peer packs (JO, LY, KW, EG) only.
+- Fixed: Al-Kafeel Specialist Hospital belongs to the Al-Abbas Holy Shrine, not the Imam Hussein Shrine (sources.md only). Fixed the French agreement "Valables" on the Kurdistan Region option, which covers two nouns (titre de séjour et permis).
+- All the [verify] items above are still open. Most important: Apple Pay and Google Pay for Iraqi cards, whether Qi-issued cards work for recurring card-not-present charges, the salary level, any 2025-2026 data protection law, and the restructuring of Rafidain Bank (check that the name is current).
