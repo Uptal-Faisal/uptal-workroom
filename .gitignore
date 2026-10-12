@@ -1,0 +1,4 @@
+# review screenshots and scratch output written by build/QA agents
+prototypes/build/**/shots/
+prototypes/build/**/scratch/
+*.tmp.html
