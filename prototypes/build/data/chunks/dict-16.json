@@ -1,0 +1,602 @@
+{
+"swh7Post": {
+"en": "3 days ago",
+"ar": "قبل 3 أيام"
+},
+"swh7About": {
+"en": "Dr. Sulaiman Al Habib is the largest private healthcare group in Saudi Arabia, listed on Tadawul and operating hospitals and medical centers across the Kingdom and the Gulf.",
+"ar": "د. سليمان الحبيب أكبر مجموعة رعاية صحية خاصة في السعودية، مدرجة في تداول وتدير مستشفيات ومراكز طبية في أنحاء المملكة والخليج."
+},
+"swh7Role": {
+"en": "You will build and monitor the operating and capital budgets for a group of hospitals, reporting monthly budget versus actual to hospital directors and group finance.",
+"ar": "ستعدّ وتتابع الموازنات التشغيلية والرأسمالية لمجموعة من المستشفيات، وترفع شهرياً تقارير مقارنة الفعلي بالموازنة إلى مديري المستشفيات والإدارة المالية للمجموعة."
+},
+"swh7R1": {
+"en": "Build annual operating budgets for assigned hospitals with department heads and medical directors",
+"ar": "إعداد الموازنات التشغيلية السنوية للمستشفيات المسندة إليك مع رؤساء الأقسام والمديرين الطبيين"
+},
+"swh7R2": {
+"en": "Prepare monthly budget versus actual reports with variance commentary for hospital management",
+"ar": "إعداد التقارير الشهرية لمقارنة الفعلي بالموازنة مع التعليق على الانحرافات لإدارة المستشفيات"
+},
+"swh7R3": {
+"en": "Track capex projects against approved budgets, from new equipment to facility expansions",
+"ar": "متابعة مشاريع الإنفاق الرأسمالي مقابل الموازنات المعتمدة، من الأجهزة الجديدة إلى توسعة المرافق"
+},
+"swh7R4": {
+"en": "Maintain budget templates and cost center structures in SAP with group finance",
+"ar": "تحديث قوالب الموازنة وهياكل مراكز التكلفة في SAP بالتنسيق مع الإدارة المالية للمجموعة"
+},
+"swh7Q1": {
+"en": "5 to 8 years in budgeting or FP and A; hospital or healthcare experience preferred",
+"ar": "من 5 إلى 8 سنوات في إعداد الموازنات أو التخطيط والتحليل المالي، ويفضّل خبرة في المستشفيات أو قطاع الرعاية الصحية"
+},
+"swh7Q2": {
+"en": "Advanced Excel budgeting models; SAP cost center experience preferred",
+"ar": "نمذجة موازنات متقدّمة على Excel، ويفضّل خبرة بمراكز التكلفة في SAP"
+},
+"swh7Q3": {
+"en": "Bachelor in Finance, Accounting, or Health Administration; SOCPA or CMA a plus",
+"ar": "بكالوريوس مالية أو محاسبة أو إدارة صحية، ويفضّل SOCPA أو CMA"
+},
+"swh7Q4": {
+"en": "Works well with clinical and operations teams on cost drivers",
+"ar": "تعامل سلس مع الفرق الطبية والتشغيلية بشأن محرّكات التكلفة"
+},
+"swh7O1": {
+"en": "Annual bonus tied to hospital performance targets",
+"ar": "مكافأة سنوية مرتبطة بمستهدفات أداء المستشفيات"
+},
+"swh7O2": {
+"en": "Medical cover for you and your family at group hospitals",
+"ar": "تأمين طبي لك ولأسرتك في مستشفيات المجموعة"
+},
+"swh7O3": {
+"en": "Structured training and career paths within group finance",
+"ar": "تدريب منظّم ومسارات وظيفية داخل الإدارة المالية للمجموعة"
+},
+"segT1": {
+"en": "1 mo",
+"ar": "شهر"
+},
+"segT4": {
+"en": "4 mo",
+"ar": "4 أشهر"
+},
+"segT12": {
+"en": "12 mo",
+"ar": "12 شهر"
+},
+"wlPick": {
+"en": "Choose your plan",
+"ar": "اختر باقتك"
+},
+"wlPickS": {
+"en": "Same plan, up to 300 applications a month on every term. Only the billing changes.",
+"ar": "نفس الباقة، وحتى 300 طلب شهرياً على كل المدد. لا تتغيّر إلا طريقة الفوترة."
+},
+"tm1": {
+"en": "1 month",
+"ar": "شهر واحد"
+},
+"tm4": {
+"en": "4 months",
+"ar": "4 أشهر"
+},
+"tm12": {
+"en": "12 months",
+"ar": "12 شهر"
+},
+"tm1s": {
+"en": "399 ¤ every month",
+"ar": "399 ¤ كل شهر"
+},
+"tm4s": {
+"en": "1,356 ¤ every 4 months",
+"ar": "1,356 ¤ كل 4 أشهر"
+},
+"tm12s": {
+"en": "3,348 ¤ every 12 months",
+"ar": "3,348 ¤ كل 12 شهر"
+},
+"tm4b": {
+"en": "Recommended · Save 15%",
+"ar": "ننصح به · وفّر 15%"
+},
+"tm12b": {
+"en": "Save 30%",
+"ar": "وفّر 30%"
+},
+"wlLine1": {
+"en": "You pay 399 ¤ today, then 399 ¤ every month. Renews automatically, cancel anytime.",
+"ar": "تدفع 399 ¤ اليوم، وبعدها 399 ¤ كل شهر. يتجدّد تلقائياً. ألغِ في أي وقت."
+},
+"wlLine4": {
+"en": "You pay 1,356 ¤ today, then 1,356 ¤ every 4 months. That is 339 ¤ a month, 15% off. Renews automatically, cancel anytime.",
+"ar": "تدفع 1,356 ¤ اليوم، وبعدها 1,356 ¤ كل 4 أشهر. أي 339 ¤ شهرياً، بخصم 15%. يتجدّد تلقائياً. ألغِ في أي وقت."
+},
+"wlLine12": {
+"en": "You pay 3,348 ¤ today, then 3,348 ¤ every 12 months. That is 279 ¤ a month, 30% off. Renews automatically, cancel anytime.",
+"ar": "تدفع 3,348 ¤ اليوم، وبعدها 3,348 ¤ كل 12 شهر. أي 279 ¤ شهرياً، بخصم 30%. يتجدّد تلقائياً. ألغِ في أي وقت."
+},
+"wlSplit4": {
+"en": "Or pay in 4 with Tabby or Tamara at checkout, 4 payments of 339 ¤, no interest.",
+"ar": "أو قسّمها على 4 دفعات بـ 339 ¤ مع تابي أو تمارا عند الدفع، بدون فوائد."
+},
+"wlSplit12": {
+"en": "Or pay in 4 with Tabby or Tamara at checkout, 4 payments of 837 ¤, no interest.",
+"ar": "أو قسّمها على 4 دفعات بـ 837 ¤ مع تابي أو تمارا عند الدفع، بدون فوائد."
+},
+"wlCta1": {
+"en": "Start my monthly plan",
+"ar": "ابدأ باقتي الشهرية"
+},
+"wlCta4": {
+"en": "Start my 4-month plan",
+"ar": "ابدأ باقة الـ4 أشهر"
+},
+"wlCta12": {
+"en": "Start my 12-month plan",
+"ar": "ابدأ باقة الـ12 شهر"
+},
+"tsH": {
+"en": "Change your plan",
+"ar": "غيّر باقتك"
+},
+"tsSub": {
+"en": "Same plan, up to 300 applications a month on every term. Only the billing changes.",
+"ar": "نفس الباقة، وحتى 300 طلب شهرياً على كل المدد. لا تتغيّر إلا طريقة الفوترة."
+},
+"tsCta": {
+"en": "Use this plan",
+"ar": "اعتمد هذه الباقة"
+},
+"lensTermSheet": {
+"en": "The same picker as the wall, the same numbers in the same order, so the member never meets a second pricing surface. Changing the term here repaints the checkout in place.",
+"ar": "أداة الاختيار نفسها التي في الجدار، والأرقام نفسها بالترتيب نفسه، حتى لا يقابل العضو واجهة تسعير ثانية. تغيير المدة هنا يعيد رسم صفحة الدفع في مكانها."
+},
+"ckPlan1": {
+"en": "Auto-Apply · 1 month",
+"ar": "التقديم التلقائي · شهر واحد"
+},
+"ckPlan4": {
+"en": "Auto-Apply · 4 months",
+"ar": "التقديم التلقائي · 4 أشهر"
+},
+"ckPlan12": {
+"en": "Auto-Apply · 12 months",
+"ar": "التقديم التلقائي · 12 شهر"
+},
+"ckBill1": {
+"en": "399 ¤ a month, billed monthly",
+"ar": "399 ¤ بالشهر، فوترة شهرية"
+},
+"ckBill4": {
+"en": "339 ¤ a month, billed every 4 months",
+"ar": "339 ¤ بالشهر، الفوترة كل 4 أشهر"
+},
+"ckBill12": {
+"en": "279 ¤ a month, billed every 12 months",
+"ar": "279 ¤ بالشهر، الفوترة كل 12 شهر"
+},
+"ckSave1": {
+"en": "",
+"ar": ""
+},
+"ckSave4": {
+"en": "Save 15%",
+"ar": "وفّر 15%"
+},
+"ckSave12": {
+"en": "Save 30%",
+"ar": "وفّر 30%"
+},
+"ckChange": {
+"en": "Change plan",
+"ar": "غيّر الباقة"
+},
+"ckPer1": {
+"en": "every month",
+"ar": "كل شهر"
+},
+"ckPer4": {
+"en": "every 4 months",
+"ar": "كل 4 أشهر"
+},
+"ckPer12": {
+"en": "every 12 months",
+"ar": "كل 12 شهر"
+},
+"ckVat2": {
+"en": "VAT included · Cancel anytime before your next renewal",
+"ar": "شامل ضريبة القيمة المضافة · ألغِ في أي وقت قبل التجديد القادم"
+},
+"ckOrHow": {
+"en": "or choose how to pay",
+"ar": "أو اختر طريقة الدفع"
+},
+"ckMCard": {
+"en": "Card",
+"ar": "بطاقة"
+},
+"ckMCardS": {
+"en": "mada, Visa, Mastercard",
+"ar": "مدى، فيزا، ماستركارد"
+},
+"ckMSplit": {
+"en": "Pay in 4",
+"ar": "قسّمها على 4"
+},
+"ckHint1": {
+"en": "Pay in 4 with Tabby or Tamara is available on the 4-month and 12-month plans.",
+"ar": "التقسيط على 4 دفعات مع تابي أو تمارا متاح على باقة الـ4 أشهر وباقة الـ12 شهر."
+},
+"ckHintA": {
+"en": "Change plan",
+"ar": "غيّر الباقة"
+},
+"ckBnplT": {
+"en": "Pay in 4 with {b}",
+"ar": "قسّمها على 4 مع {b}"
+},
+"ckBnplS": {
+"en": "No interest, no fees. Total {tot} ¤, the same as paying in full.",
+"ar": "بدون فوائد ولا رسوم. الإجمالي {tot} ¤، نفس المبلغ لو دفعت كامل."
+},
+"ckBnpl0": {
+"en": "0% interest",
+"ar": "فوائد 0%"
+},
+"ckBnplNote": {
+"en": "You finish in the {b} app with your mobile number and ID. Your plan starts the moment {b} confirms.",
+"ar": "تكمّل في تطبيق {b} برقم جوالك وهويتك. باقتك تبدأ لحظة ما يأكّد {b} الدفع."
+},
+"ckCtaBnpl": {
+"en": "Continue with {b}",
+"ar": "أكمل مع {b}"
+},
+"ckCtaBnplV": {
+"en": "{n} ¤ today",
+"ar": "{n} ¤ اليوم"
+},
+"tCkBnpl": {
+"en": "The {b} pay-in-4 sheet would open here",
+"ar": "هنا تفتح شاشة التقسيط على 4 من {b}"
+},
+"ckRenew1": {
+"en": "Renews every month at 399 ¤, charged automatically to the same method. Cancel anytime before then and you are not charged again.",
+"ar": "يتجدّد كل شهر بـ 399 ¤ ويُخصم تلقائياً من نفس طريقة الدفع. ألغِ في أي وقت قبلها ولن يُخصم منك شيء مرة أخرى."
+},
+"ckRenew4": {
+"en": "Renews every 4 months at 1,356 ¤, charged automatically to the same method. Cancel anytime before then and you are not charged again.",
+"ar": "يتجدّد كل 4 أشهر بـ 1,356 ¤ ويُخصم تلقائياً من نفس طريقة الدفع. ألغِ في أي وقت قبلها ولن يُخصم منك شيء مرة أخرى."
+},
+"ckRenew12": {
+"en": "Renews every 12 months at 3,348 ¤, charged automatically to the same method. Cancel anytime before then and you are not charged again.",
+"ar": "يتجدّد كل 12 شهراً بـ 3,348 ¤ ويُخصم تلقائياً من نفس طريقة الدفع. ألغِ في أي وقت قبلها ولن يُخصم منك شيء مرة أخرى."
+},
+"ckRenewBnpl4": {
+"en": "Renews every 4 months at 1,356 ¤. Before each renewal {b} asks you to approve a new 4-payment plan; nothing is charged until you do, and if you skip it your plan ends on the renewal date.",
+"ar": "يتجدّد كل 4 أشهر بـ 1,356 ¤. قبل كل تجديد يطلب منك {b} الموافقة على خطة 4 دفعات جديدة، ولا يُخصم شيء إلا بعد موافقتك، وإن تجاهلتها تنتهي باقتك بتاريخ التجديد."
+},
+"ckRenewBnpl12": {
+"en": "Renews every 12 months at 3,348 ¤. Before each renewal {b} asks you to approve a new 4-payment plan; nothing is charged until you do, and if you skip it your plan ends on the renewal date.",
+"ar": "يتجدّد كل 12 شهراً بـ 3,348 ¤. قبل كل تجديد يطلب منك {b} الموافقة على خطة 4 دفعات جديدة، ولا يُخصم شيء إلا بعد موافقتك، وإن تجاهلتها تنتهي باقتك بتاريخ التجديد."
+},
+"tCkBnplOff": {
+"en": "Pick the 4-month or 12-month plan to pay in 4 with Tabby or Tamara.",
+"ar": "اختر باقة الـ4 أشهر أو الـ12 شهر لتقسيمها على 4 مع تابي أو تمارا."
+},
+"sdSub1": {
+"en": "Your monthly plan is active. Every swipe now applies with your CV.",
+"ar": "باقتك الشهرية مفعّلة. كل سحبة الآن تقدّم بسيرتك الذاتية."
+},
+"sdSub4": {
+"en": "Your 4-month plan is active. Every swipe now applies with your CV.",
+"ar": "باقة الـ4 أشهر مفعّلة. كل سحبة الآن تقدّم بسيرتك الذاتية."
+},
+"sdSub12": {
+"en": "Your 12-month plan is active. Every swipe now applies with your CV.",
+"ar": "باقة الـ12 شهر مفعّلة. كل سحبة الآن تقدّم بسيرتك الذاتية."
+},
+"sdPaidCard": {
+"en": "{tot} ¤ paid · renews {r}",
+"ar": "دفعت {tot} ¤ · يتجدّد {r}"
+},
+"sdPaidCardS": {
+"en": "Receipt is in your Uptal mail. Cancel anytime before renewal.",
+"ar": "الإيصال في بريدك في Uptal. ألغِ في أي وقت قبل التجديد."
+},
+"sdPaidBnpl": {
+"en": "{n} ¤ paid, 1 of 4 with {b} · 3 payments left",
+"ar": "دفعت {n} ¤، الأولى من 4 مع {b} · باقي 3 دفعات"
+},
+"sdPaidBnplS": {
+"en": "Next {n} ¤ on {d}. Renewal on {r} needs your approval in {b}.",
+"ar": "الدفعة القادمة {n} ¤ في {d}. التجديد في {r} يحتاج موافقتك في {b}."
+},
+"plnSub1": {
+"en": "You are on the monthly plan at 399 ¤ a month. Your price is locked in for as long as you stay.",
+"ar": "أنت على الباقة الشهرية بـ 399 ¤ بالشهر. سعرك محفوظ ما دمت مشترك."
+},
+"plnSub4": {
+"en": "You are on the 4-month plan at 339 ¤ a month, 15% below monthly. Your price is locked in for as long as you stay.",
+"ar": "أنت على باقة الـ4 أشهر بـ 339 ¤ بالشهر، أقل من الشهرية بـ 15%. سعرك محفوظ ما دمت مشترك."
+},
+"plnSub12": {
+"en": "You are on the 12-month plan at 279 ¤ a month, 30% below monthly. Your price is locked in for as long as you stay.",
+"ar": "أنت على باقة الـ12 شهر بـ 279 ¤ بالشهر، أقل من الشهرية بـ 30%. سعرك محفوظ ما دمت مشترك."
+},
+"plnCur1": {
+"en": "Monthly",
+"ar": "شهري"
+},
+"plnCur4": {
+"en": "4 months",
+"ar": "4 أشهر"
+},
+"plnCur12": {
+"en": "12 months",
+"ar": "12 شهر"
+},
+"plnCurS1": {
+"en": "Renews 27 September 2026 · 399 ¤",
+"ar": "يتجدّد 27 سبتمبر 2026 · 399 ¤"
+},
+"plnCurS4": {
+"en": "Renews 27 December 2026 · 1,356 ¤",
+"ar": "يتجدّد 27 ديسمبر 2026 · 1,356 ¤"
+},
+"plnCurS12": {
+"en": "Renews 27 August 2027 · 3,348 ¤",
+"ar": "يتجدّد 27 أغسطس 2027 · 3,348 ¤"
+},
+"plnAnchor1": {
+"en": "",
+"ar": ""
+},
+"plnAnchor4": {
+"en": "",
+"ar": ""
+},
+"plnAnchor12": {
+"en": "",
+"ar": ""
+},
+"plnUp12T": {
+"en": "Move to 12 months, save 30%",
+"ar": "انتقل لـ12 شهر ووفّر 30%"
+},
+"plnUp12S": {
+"en": "279 ¤ a month from your next renewal. Nothing changes before then.",
+"ar": "279 ¤ بالشهر من تجديدك القادم. لا يتغيّر شيء قبلها."
+},
+"plnUp1T": {
+"en": "Pay less a month with a longer plan",
+"ar": "ادفع أقل بالشهر مع باقة أطول"
+},
+"plnUp1S": {
+"en": "4 months at 339 ¤ or 12 months at 279 ¤ a month, from your next renewal.",
+"ar": "4 أشهر بـ 339 أو 12 شهر بـ 279 ¤ بالشهر، من تجديدك القادم."
+},
+"plnSched": {
+"en": "Moving to {n} months on {d}, billed {tot} ¤ from then on.",
+"ar": "تنتقل لباقة الـ{n} شهر في {d}، وبعدها تدفع {tot} ¤ كل تجديد."
+},
+"plnSchedUndo": {
+"en": "Undo",
+"ar": "تراجع"
+},
+"upH12": {
+"en": "Switch to 12 months?",
+"ar": "تنتقل لـ12 شهر؟"
+},
+"upH1": {
+"en": "Choose a longer plan",
+"ar": "اختر باقة أطول"
+},
+"upS": {
+"en": "Nothing changes today. On {d} you are billed {tot} ¤ for the next {n} months instead of {cur} ¤, and that is {mo} ¤ a month. Cancel anytime before a renewal.",
+"ar": "لا يتغيّر شيء اليوم. في {d} تدفع {tot} ¤ للـ{n} شهر القادمة بدل {cur} ¤، أي {mo} ¤ شهرياً. ألغِ في أي وقت قبل أي تجديد."
+},
+"upYes": {
+"en": "Switch at renewal",
+"ar": "انتقل عند التجديد"
+},
+"upNo": {
+"en": "Keep my current plan",
+"ar": "خلّني على باقتي الحالية"
+},
+"tUpSched": {
+"en": "Done. Your plan moves to {n} months on {d}.",
+"ar": "تم. باقتك تنتقل لـ{n} شهر في {d}."
+},
+"tUpUndo": {
+"en": "Switch cancelled. You stay on your current plan.",
+"ar": "انلغى الانتقال. تبقى على باقتك الحالية."
+},
+"plnNextS": {
+"en": "{d} · {tot} ¤",
+"ar": "{d} · {tot} ¤"
+},
+"plnNextSw": {
+"en": "{d} · {tot} ¤ for the {n}-month plan you chose",
+"ar": "{d} · {tot} ¤ لباقة الـ{n} شهر التي اخترتها"
+},
+"plnTerm": {
+"en": "Plan term",
+"ar": "مدة الباقة"
+},
+"plnTermS1": {
+"en": "Monthly, started 27 August 2026",
+"ar": "شهرية، بدأت 27 أغسطس 2026"
+},
+"plnTermS4": {
+"en": "4 months, started 27 August 2026",
+"ar": "4 أشهر، بدأت 27 أغسطس 2026"
+},
+"plnTermS12": {
+"en": "12 months, started 27 August 2026",
+"ar": "12 شهر، بدأت 27 أغسطس 2026"
+},
+"plnAuto": {
+"en": "Renews automatically",
+"ar": "يتجدّد تلقائياً"
+},
+"plnAutoS": {
+"en": "Charged automatically at each renewal, no reminder. Cancel anytime from Manage subscription.",
+"ar": "يُخصم تلقائياً عند كل تجديد بدون تذكير. ألغِ في أي وقت من إدارة الاشتراك."
+},
+"plnAutoBnpl": {
+"en": "{b} asks you to approve a new 4-payment plan before each renewal. Nothing is charged until you do.",
+"ar": "{b} يطلب موافقتك على خطة 4 دفعات جديدة قبل كل تجديد. ولا يُخصم شيء إلا بعد موافقتك."
+},
+"plnAutoBnplT": {
+"en": "Renews with your approval",
+"ar": "يتجدّد بموافقتك"
+},
+"plnFreeCardS": {
+"en": "Also monthly or 12 months. Cancel anytime.",
+"ar": "يتوفر أيضاً شهري أو 12 شهراً. ألغِ في أي وقت."
+},
+"prPlanS1": {
+"en": "Monthly",
+"ar": "شهري"
+},
+"prPlanS4": {
+"en": "4 months",
+"ar": "4 أشهر"
+},
+"prPlanS12": {
+"en": "12 months",
+"ar": "12 شهر"
+},
+"pmBnplLbl": {
+"en": "4 payments of {n} ¤",
+"ar": "4 دفعات بـ {n} ¤"
+},
+"mgNote1": {
+"en": "Your price of 399 ¤ a month is locked in for as long as you stay. Cancel and you give it up, so coming back later could cost more.",
+"ar": "سعرك 399 ¤ بالشهر محفوظ ما دمت مشترك. لو ألغيت تخسره، ويمكن يزيد السعر لما ترجع."
+},
+"mgNote4": {
+"en": "Your price of 339 ¤ a month is locked in for as long as you stay. Move to a shorter plan or cancel and you give it up, so coming back later could cost more.",
+"ar": "سعرك 339 ¤ بالشهر محفوظ ما دمت مشترك. لو نزّلت لباقة أقصر أو ألغيت تخسره، ويمكن يزيد السعر لما ترجع."
+},
+"mgNote12": {
+"en": "Your price of 279 ¤ a month is locked in for as long as you stay. Move to a shorter plan or cancel and you give it up, so coming back later could cost more.",
+"ar": "سعرك 279 ¤ بالشهر محفوظ ما دمت مشترك. لو نزّلت لباقة أقصر أو ألغيت تخسره، ويمكن يزيد السعر لما ترجع."
+},
+"c4Sub1": {
+"en": "You keep full access until 27 September 2026, the end of your paid month. After that date:",
+"ar": "تحتفظ بكامل الوصول حتى 27 سبتمبر 2026، نهاية شهرك المدفوع. بعد هذا التاريخ:"
+},
+"c4Sub4": {
+"en": "You keep full access until 27 December 2026, the end of your paid 4-month term. After that date:",
+"ar": "تحتفظ بكامل الوصول حتى 27 ديسمبر 2026، نهاية مدة الـ4 أشهر المدفوعة. بعد هذا التاريخ:"
+},
+"c4Sub12": {
+"en": "You keep full access until 27 August 2027, the end of your paid year. After that date:",
+"ar": "تحتفظ بكامل الوصول حتى 27 أغسطس 2027، نهاية سنتك المدفوعة. بعد هذا التاريخ:"
+},
+"cdSub1": {
+"en": "You keep full access until 27 September 2026. We will remind you a week before it ends. Nothing is deleted for 90 days.",
+"ar": "تحتفظ بكامل الوصول حتى 27 سبتمبر 2026. سنذكّرك قبل انتهائها بأسبوع. لا يُحذف شيء لمدة 90 يوماً."
+},
+"cdSub4": {
+"en": "You keep full access until 27 December 2026. We will remind you a week before it ends. Nothing is deleted for 90 days.",
+"ar": "تحتفظ بكامل الوصول حتى 27 ديسمبر 2026. سنذكّرك قبل انتهائها بأسبوع. لا يُحذف شيء لمدة 90 يوماً."
+},
+"cdSub12": {
+"en": "You keep full access until 27 August 2027. We will remind you a week before it ends. Nothing is deleted for 90 days.",
+"ar": "تحتفظ بكامل الوصول حتى 27 أغسطس 2027. سنذكّرك قبل انتهائها بأسبوع. لا يُحذف شيء لمدة 90 يوماً."
+},
+"cd11": {
+"en": "Full access until 27 September 2026",
+"ar": "وصول كامل حتى 27 سبتمبر 2026"
+},
+"cd14": {
+"en": "Full access until 27 December 2026",
+"ar": "وصول كامل حتى 27 ديسمبر 2026"
+},
+"cd112": {
+"en": "Full access until 27 August 2027",
+"ar": "وصول كامل حتى 27 أغسطس 2027"
+},
+"pmBnplH": {
+"en": "Pay in 4",
+"ar": "قسّمها على 4"
+},
+"pmBnplS": {
+"en": "Split your 4-month or 12-month plan into 4 payments, no interest",
+"ar": "قسّم باقة الـ4 أشهر أو الـ12 شهر على 4 دفعات، بدون فوائد"
+},
+"pmBnplUsedS": {
+"en": "Paying your plan · 4 payments of {n} ¤",
+"ar": "تسدّد باقتك · 4 دفعات بـ {n} ¤"
+},
+"pmBnplAvail": {
+"en": "At checkout",
+"ar": "عند الدفع"
+},
+"pmBnplUsed": {
+"en": "Used for your plan",
+"ar": "مستخدمة لباقتك"
+},
+"mlReplyOk": {
+"en": "Accepts replies",
+"ar": "يقبل الردود"
+},
+"mlNoReply": {
+"en": "No-reply inbox",
+"ar": "بريد لا يستقبل ردود"
+},
+"mlReply": {
+"en": "Reply",
+"ar": "رد"
+},
+"mlForward": {
+"en": "Forward",
+"ar": "إعادة توجيه"
+},
+"mlDirect": {
+"en": "Or write to {co} directly",
+"ar": "أو راسل {co} مباشرة"
+},
+"mlYouReplied": {
+"en": "You replied",
+"ar": "رديت"
+},
+"rsTo": {
+"en": "To",
+"ar": "إلى"
+},
+"rsToL": {
+"en": "To",
+"ar": "إلى"
+},
+"rsToNote": {
+"en": "Your reply goes back on the same thread. The recipient cannot be changed when replying.",
+"ar": "ردك يعود على نفس المحادثة. لا يمكنك تغيير المستلم عند الرد."
+},
+"rsMsg": {
+"en": "Message",
+"ar": "الرسالة"
+},
+"rsPh": {
+"en": "Write your message",
+"ar": "اكتب رسالتك"
+},
+"rsDraft": {
+"en": "Draft it for me",
+"ar": "اكتبها لي"
+},
+"rsCancel": {
+"en": "Cancel",
+"ar": "إلغاء"
+},
+"rsSend": {
+"en": "Send",
+"ar": "إرسال"
+}
+}

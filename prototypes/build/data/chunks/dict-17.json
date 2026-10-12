@@ -1,0 +1,602 @@
+{
+"tRsSent": {
+"en": "Sent to {a}",
+"ar": "أُرسلت إلى {a}"
+},
+"rsDraftTx": {
+"en": "Hello,\n\nThank you for your message about the {role} role at {co}. I am glad to help with anything you need from my side and can be reached here or on my mobile.\n\nKind regards,\nNoura Al-Amri",
+"ar": "مرحباً،\n\nشكراً على رسالتكم بخصوص وظيفة {role} في {co}. يسعدني تزويدكم بأي شيء تحتاجونه من جهتي، ويمكنكم التواصل معي هنا أو على جوالي.\n\nمع خالص التقدير،\nنورة العمري"
+},
+"nrH": {
+"en": "This was a no-reply inbox",
+"ar": "هذا البريد لا يستقبل ردود"
+},
+"nrS": {
+"en": "{co} sent this from an address that is not monitored, so a reply would not be delivered. They will contact you directly.",
+"ar": "{co} أرسلت هذه الرسالة من عنوان لا يقبل استقبال الرسائل، وسيتواصلون معك في حال ملاءمتك للوظيفة."
+},
+"nrOk": {
+"en": "OK",
+"ar": "تمام"
+},
+"fwH": {
+"en": "Forward",
+"ar": "إعادة توجيه"
+},
+"fwTo": {
+"en": "Forward to",
+"ar": "إعادة توجيه إلى"
+},
+"fwPh": {
+"en": "name@example.com",
+"ar": "name@example.com"
+},
+"fwOrig": {
+"en": "Original email",
+"ar": "الرسالة الأصلية"
+},
+"fwFrom": {
+"en": "From",
+"ar": "من"
+},
+"fwDate": {
+"en": "Received",
+"ar": "وصلت"
+},
+"fwCta": {
+"en": "Forward",
+"ar": "إعادة توجيه"
+},
+"tFwSent": {
+"en": "Forwarded to {a}",
+"ar": "أُعيد توجيهها إلى {a}"
+},
+"lensReply": {
+"en": "A reply goes back on the same thread to the employer's real mailbox. The recipient is fixed to stop a stray send, and an AI draft removes the blank-box freeze.",
+"ar": "الرد يعود على نفس المحادثة إلى بريد صاحب العمل الحقيقي. المستلم ثابت حتى لا تُرسل رسالة بالخطأ، ومسودة الذكاء الاصطناعي تزيل رهبة الصندوق الفارغ."
+},
+"aprCoNana": {
+"en": "Nana",
+"ar": "نعناع"
+},
+"aprCoSnb": {
+"en": "SNB",
+"ar": "البنك الأهلي"
+},
+"aprCoMaaden": {
+"en": "Maaden",
+"ar": "معادن"
+},
+"aprCoNoon": {
+"en": "noon",
+"ar": "نون"
+},
+"aprRemote": {
+"en": "Remote",
+"ar": "عن بُعد"
+},
+"aprTreasury": {
+"en": "Treasury Analyst",
+"ar": "محلّل خزينة"
+},
+"aprCostCtl": {
+"en": "Cost Controller",
+"ar": "مراقب تكاليف"
+},
+"aprFBP": {
+"en": "Finance Business Partner",
+"ar": "شريك أعمال مالي"
+},
+"aprT1": {
+"en": "Thu 10:00",
+"ar": "الخميس 10:00"
+},
+"aprT2": {
+"en": "2 days ago",
+"ar": "قبل يومين"
+},
+"aprT3": {
+"en": "3 days ago",
+"ar": "قبل 3 أيام"
+},
+"aprT4": {
+"en": "5 hours ago",
+"ar": "قبل 5 ساعات"
+},
+"aprT5": {
+"en": "1 day ago",
+"ar": "قبل يوم"
+},
+"aprT6": {
+"en": "today 03:12",
+"ar": "اليوم 03:12"
+},
+"aprT7": {
+"en": "today 02:41",
+"ar": "اليوم 02:41"
+},
+"aprT8": {
+"en": "today 02:14",
+"ar": "اليوم 02:14"
+},
+"aprT9": {
+"en": "yesterday",
+"ar": "أمس"
+},
+"swhH": {
+"en": "Your swipes",
+"ar": "الوظائف المقدم عليها يدويا"
+},
+"swhCount": {
+"en": "decided by hand",
+"ar": "قررت فيها يدويا"
+},
+"swhIcon": {
+"en": "Your swipes",
+"ar": "الوظائف المقدم عليها يدويا"
+},
+"swhSub": {
+"en": "Only the roles you decided on yourself. A pass is never final: apply from here while the posting is open.",
+"ar": "فقط الوظائف التي قررت فيها بنفسك. الرفض ليس نهائياً، ويمكنك التقديم عليها من هنا ما دام الإعلان مفتوحاً."
+},
+"swhAll": {
+"en": "All",
+"ar": "الكل"
+},
+"swhPassed": {
+"en": "Passed",
+"ar": "مرفوضة"
+},
+"swhApplied": {
+"en": "Applied",
+"ar": "قدمت عليها"
+},
+"swhToday": {
+"en": "Today",
+"ar": "اليوم"
+},
+"swhYesterday": {
+"en": "Yesterday",
+"ar": "أمس"
+},
+"swhEarlier": {
+"en": "Earlier",
+"ar": "أقدم"
+},
+"swhPassPill": {
+"en": "Passed",
+"ar": "رفضت"
+},
+"swhApplyPill": {
+"en": "Applied",
+"ar": "قدّمت"
+},
+"swhClosedPill": {
+"en": "Closed",
+"ar": "أغلقت الوظيفة"
+},
+"swhApplyBtn": {
+"en": "Apply",
+"ar": "قدّم"
+},
+"swhUndo": {
+"en": "Undo",
+"ar": "تراجع"
+},
+"swhJustNow": {
+"en": "just now",
+"ar": "الآن"
+},
+"swhAgo3": {
+"en": "3 days ago",
+"ar": "قبل 3 أيام"
+},
+"swhAgo6": {
+"en": "6 days ago",
+"ar": "قبل 6 أيام"
+},
+"swhAgo14": {
+"en": "2 weeks ago",
+"ar": "قبل أسبوعين"
+},
+"swhClosedAgo2": {
+"en": "2 days ago",
+"ar": "قبل يومين"
+},
+"swhFoot": {
+"en": "Closed postings drop off after 30 days. Auto-Apply keeps its own log under Auto-Apply activity.",
+"ar": "الوظائف المغلقة تختفي بعد 30 يوماً. وللتقديم التلقائي سجله الخاص في «نشاط التقديم التلقائي»."
+},
+"swhEmptyPassT": {
+"en": "Nothing passed yet.",
+"ar": "لم ترفض أي وظيفة بعد."
+},
+"swhEmptyPassS": {
+"en": "Roles you swipe left on land here, ready if you change your mind.",
+"ar": "الوظائف التي تسحبها يساراً تظهر هنا، جاهزة إن غيّرت رأيك."
+},
+"swhEmptyAppT": {
+"en": "Nothing applied by hand yet.",
+"ar": "لم تقدّم بنفسك على أي وظيفة بعد."
+},
+"swhEmptyAppS": {
+"en": "Roles you swipe right on land here with their status.",
+"ar": "الوظائف التي تسحبها يميناً تظهر هنا مع حالتها."
+},
+"swhEmptyCta": {
+"en": "Swipe today's matches",
+"ar": "اسحب وظائف اليوم"
+},
+"tSwhUndo": {
+"en": "Undone. Nothing was sent, the role is back in Passed.",
+"ar": "تم التراجع. ما انرسل شي، والوظيفة رجعت للمرفوضة."
+},
+"swDoneHist1": {
+"en": "You passed on 1 role today",
+"ar": "رفضت وظيفة واحدة اليوم"
+},
+"swDoneHistN": {
+"en": "You passed on {n} roles today",
+"ar": "رفضت {n} وظائف اليوم"
+},
+"swDoneHistS": {
+"en": "Changed your mind? Apply from Your swipes.",
+"ar": "غيّرت رأيك؟ يمكنك التقديم عليها من هنا."
+},
+"hSwipes": {
+"en": "Your swipes",
+"ar": "الوظائف المقدم عليها يدويا"
+},
+"hSwipesS": {
+"en": "{p} passed and still open · {a} applied by hand",
+"ar": "{p} مرفوضة ولا تزال متاحة للتقديم. {a} قدمت عليها"
+},
+"plPassed": {
+"en": "Roles you passed on by hand ({n})",
+"ar": "وظائف رفضتها يدوياً ({n})"
+},
+"jsClosed": {
+"en": "This posting closed {d}. You can no longer apply to it.",
+"ar": "أغلقت الوظيفة {d}. لم يعد التقديم عليها متاحاً."
+},
+"jsAppliedHand": {
+"en": "You applied to this role by hand. Track it in Pipeline.",
+"ar": "قدّمت على هذه الوظيفة بنفسك. تابعها في المسار."
+},
+"lensSwh": {
+"en": "A left swipe is a two-second decision. Keeping it, dated and grouped, turns a lost role into a second chance, and one Apply with a short undo makes acting on it cheaper than regretting it. Only the member's own swipes live here; what Auto-Apply declined stays in its own log, so nothing it rejected is ever offered back.",
+"ar": "السحبة إلى اليسار قرار بثانيتين. حفظها بتاريخها ومجموعتها يحوّل الوظيفة الضائعة إلى فرصة ثانية، وزر تقديم واحد مع تراجع قصير يجعل التصرّف أرخص من الندم. هنا سحبات العضو نفسه فقط، أما ما رفضه التقديم التلقائي فيبقى في سجله، فلا يعود إليه أبداً شيء رفضه."
+},
+"m1b3": {
+"en": "Please reply to this email with the time that suits you and we will hold it for you. If none of the three work, tell us and we will look at the following week.",
+"ar": "نرجو الردّ على هذه الرسالة بالموعد المناسب لك، وسنحتفظ به لك. وإن لم يناسبك أي من المواعيد الثلاثة، نرجو إبلاغنا لننظر في مواعيد الأسبوع التالي."
+},
+"m2b3": {
+"en": "If there is anything you want to discuss first, such as the package, the start date or the remote setup, we are happy to talk it through. We would appreciate your answer within the coming week.",
+"ar": "وإذا كان لديك أي نقطة تحتاج إلى نقاش قبل ذلك، مثل العرض المالي أو تاريخ المباشرة أو طبيعة العمل عن بُعد، فنحن سعداء بمناقشتها. ونأمل أن يصلنا ردّك خلال الأسبوع القادم."
+},
+"m3b2": {
+"en": "Here is the question, in the words of the hiring manager: \"You own the monthly close for a 40-person function today. What would you want to change in your first 90 days here?\"",
+"ar": "والسؤال كما طرحه مدير التوظيف: \"الإقفال الشهري لإدارة من 40 شخصاً مسؤوليتك اليوم. ما الذي يستحق التغيير في أول 90 يوم معنا؟\""
+},
+"m3b3": {
+"en": "Please reply to this email with your answer in a few short paragraphs. Once we have it, we will move to scheduling the interview.",
+"ar": "نرجو الرد على هذه الرسالة بإجابتك في فقرات قصيرة. وبمجرد وصولها ننتقل إلى تحديد موعد المقابلة."
+},
+"m4b2": {
+"en": "The first is your SOCPA certificate. The second is a copy of your National ID or Iqama. We need both before Sunday so the panel stage is not delayed.",
+"ar": "الأول شهادة SOCPA، والثاني صورة من الهوية الوطنية أو الإقامة. ونحتاجهما قبل الأحد حتى لا تتأخر مرحلة اللجنة."
+},
+"m4b3": {
+"en": "Please reply to this email with the two files attached. If anything is missing we will write back the same day.",
+"ar": "نرجو الرد على هذه الرسالة مع إرفاق الملفين. وإذا نقص شيء سنرد عليك في اليوم نفسه."
+},
+"m5b3": {
+"en": "You can take it once, on any device. Your result is shared only with the hiring panel.",
+"ar": "يمكنك أداء الاختبار مرة واحدة، ومن أي جهاز. ونتيجتك لا تُشارك إلا مع لجنة التوظيف."
+},
+"m5b4": {
+"en": "This mailbox is not monitored, so replies to this message will not reach anyone. For any question about the assessment, please use the careers portal.",
+"ar": "هذا البريد غير مراقب، والردود على هذه الرسالة لن تصل إلى أحد. ولأي استفسار عن الاختبار، نرجو استخدام بوابة التوظيف."
+},
+"m6b2": {
+"en": "This note is automatic and the application is already saved in our recruitment system, so there is no need to send it again. Anything you want to ask in the meantime is best asked through the careers page on the Jahez website.",
+"ar": "هذه رسالة آلية، وطلبك محفوظ في نظام التوظيف لدينا، فلا حاجة لإعادة إرساله. ولأي سؤال خلال هذه الفترة، الأفضل استخدام صفحة الوظائف في موقع جاهز."
+},
+"m7b2": {
+"en": "Your application has been logged under your candidate profile. This message was sent automatically, so for any questions please use the contact form on the Qiddiya careers portal.",
+"ar": "تم تسجيل طلبك في ملف المرشح الخاص بك. وهذه الرسالة مرسلة تلقائياً، ولأي استفسار يرجى استخدام نموذج التواصل في بوابة الوظائف لدى القدية."
+},
+"m8b2": {
+"en": "We expect to send the next update within 5 working days. If you have any questions in the meantime, you are welcome to reply to this message.",
+"ar": "ونتوقع إرسال التحديث التالي خلال 5 أيام عمل. وإذا كان لديك أي استفسارات خلال هذه الفترة، يسعدنا تلقيها عبر الرد على هذه الرسالة."
+},
+"m9b2": {
+"en": "Your profile stays on file with our talent team, and we will consider it for future openings in Sector Finance. We would also welcome a new application from you as other roles open.",
+"ar": "وسيبقى ملفك محفوظاً لدى فريق الاستقطاب لدينا، وسنأخذه بعين الاعتبار عند طرح وظائف مستقبلية في التمويل القطاعي. كما يسعدنا استقبال طلب جديد منك مع طرح وظائف أخرى."
+},
+"m10b2": {
+"en": "Your application is now logged in the Mobily recruitment system and you can follow its status from your account on the careers portal. This confirmation was sent automatically.",
+"ar": "تم تسجيل طلبك في نظام التوظيف لدى موبايلي، ويمكنك متابعة حالته من حسابك في بوابة الوظائف. وهذه رسالة تأكيد مرسلة تلقائياً."
+},
+"m11b2": {
+"en": "A calendar invitation with the full address will reach you shortly. Nothing is needed from you now, and we look forward to meeting you.",
+"ar": "ستصلك قريباً دعوة تقويم تتضمن العنوان بالكامل. ولا يُطلب منك أي إجراء الآن، ونتطلّع للقائك."
+},
+"m0b3": {
+"en": "You can reply to an employer straight from here, or forward a message on to someone else. Some employers write from addresses that do not take replies, and those teams will contact you directly.",
+"ar": "ومن هنا يمكنك الرد على جهة العمل مباشرة، أو تحويل الرسالة إلى شخص آخر. وهناك جهات ترسل من عناوين لا تستقبل الردود، وهذه الجهات ستتواصل معك مباشرة."
+},
+"mrd1": {
+"en": "Hello,\n\nThank you for the invitation. Thursday 10:00 works for me, and I will be at your Riyadh office ahead of the time.\n\nI am looking forward to meeting the CFO and the Head of People, and I am happy to walk through the monthly closing cycle I led and how I handled IFRS reporting on SAP.\n\nIf you need anything from me before the meeting, I am ready to send it.\n\nBest regards,\nNoura Al-Amri",
+"ar": "السلام عليكم،\n\nشكراً على الدعوة. موعد الخميس 10:00 مناسب لي، وسأكون في مكتبكم بالرياض قبل الموعد.\n\nيسعدني لقاء المدير المالي ورئيس الموارد البشرية، وسأستعرض معكم دورة الإقفال الشهري التي قدتها وطريقة إعداد التقارير وفق IFRS على SAP.\n\nوإذا احتجتم أي شيء مني قبل المقابلة، فأنا جاهزة.\n\nتحياتي،\nنورة العمري"
+},
+"mrd2": {
+"en": "Hello,\n\nThank you for the offer. I am pleased to accept the Finance Manager role at 33,000 ¤ a month, fully remote, and I confirm that I can start on 1 October.\n\nPlease send the formal contract whenever it is ready and I will review and sign it. If you need any documents from me for the file, tell me what you need and I will send them this week.\n\nI am looking forward to joining the finance team.\n\nBest regards,\nNoura Al-Amri",
+"ar": "السلام عليكم،\n\nشكراً لكم على العرض. يسعدني قبول وظيفة مدير مالي براتب 33,000 ¤ شهرياً وعمل عن بُعد بالكامل، وأؤكد جاهزيتي للمباشرة في 1 أكتوبر.\n\nأرجو إرسال العقد الرسمي متى ما كان جاهزاً لمراجعته وتوقيعه. وإذا تحتاجون أي مستندات مني للملف، أخبروني وراح أرسلها خلال هذا الأسبوع.\n\nأتطلع للانضمام إلى الفريق المالي.\n\nتحياتي،\nنورة العمري"
+},
+"mrd3": {
+"en": "Hello,\n\nThank you for getting in touch. Here is my answer to the question from the hiring manager.\n\nIn the first 90 days I would map the close calendar end to end before changing anything, because the bottleneck is rarely where it appears. In my current role that mapping is what let us cut reporting time by a third, mostly by moving variance commentary earlier and automating the reconciliations that were blocking day three. I would expect to spend the first month listening, the second month fixing the two slowest steps, and the third proving the shorter cycle holds.\n\nHappy to go deeper on any part of this.\n\nBest regards,\nNoura Al-Amri",
+"ar": "السلام عليكم،\n\nشكراً لتواصلكم. هذه إجابتي على سؤال مدير التوظيف.\n\nفي أول 90 يوماً سأرسم دورة الإقفال من أولها إلى آخرها قبل أن أغيّر أي شيء، لأن نقطة الاختناق نادراً ما تكون في المكان الذي تظهر فيه. في وظيفتي الحالية، هذه الخريطة بالذات هي التي مكّنتنا من تقليص وقت التقارير بالثلث، وأغلبه جاء من تبكير تعليقات الانحراف وأتمتة التسويات التي كانت تعطّل اليوم الثالث. أتوقّع أن يكون الشهر الأول استماعاً، والثاني إصلاحاً لأبطأ خطوتين، والثالث إثباتاً أن الدورة الأقصر ثابتة.\n\nوسعيدة بالتوسّع في أي نقطة تحتاجونها.\n\nتحياتي،\nنورة العمري"
+},
+"mrd4": {
+"en": "Hello,\n\nThank you for the update. Both documents are attached to this email, my SOCPA certificate and a copy of my National ID.\n\nIf the compliance team needs anything else before Sunday, please let me know and I will send it the same day.\n\nBest regards,\nNoura Al-Amri",
+"ar": "السلام عليكم،\n\nشكراً لإفادتكم. المستندان مرفقان مع هذه الرسالة، شهادة SOCPA وصورة من الهوية الوطنية.\n\nوإذا احتاج فريق الالتزام أي شيء آخر قبل الأحد، أفيدوني وأرسله في نفس اليوم.\n\nتحياتي،\nنورة العمري"
+},
+"mlSending": {
+"en": "Sending",
+"ar": "جاري الإرسال"
+},
+"tRsUndone": {
+"en": "Reply withdrawn, nothing was sent",
+"ar": "تم سحب الرد، ولم يُرسل شيء"
+},
+"mlGreet": {
+"en": "Dear Ms. Al-Amri,",
+"ar": "الأستاذة نورة العمري المحترمة،"
+},
+"mlRegards": {
+"en": "Best regards,",
+"ar": "مع خالص التقدير،"
+},
+"m0sn": {
+"en": "The Uptal Team",
+"ar": "فريق Uptal"
+},
+"m0rgk": {
+"en": "Thanks,",
+"ar": "تحياتنا،"
+},
+"m0gk": {
+"en": "Hi Noura,",
+"ar": "هلا نورة،"
+},
+"m1sn": {
+"en": "Danah Al-Sulaiman",
+"ar": "دانة السليمان"
+},
+"m1sr": {
+"en": "Talent Acquisition, Rewaa",
+"ar": "أخصائية الاستقطاب، رِوّاء"
+},
+"m2sn": {
+"en": "Yazeed Al-Bassam",
+"ar": "يزيد البسام"
+},
+"m2sr": {
+"en": "Head of People, Tabby",
+"ar": "رئيس الموارد البشرية، تابي"
+},
+"m3sn": {
+"en": "Ghadah Al-Faraj",
+"ar": "غادة الفرج"
+},
+"m3sr": {
+"en": "Talent Acquisition, stc",
+"ar": "أخصائية الاستقطاب، stc"
+},
+"m4sn": {
+"en": "Meshal Al-Mutlaq",
+"ar": "مشعل المطلق"
+},
+"m4sr": {
+"en": "Recruitment, Almarai",
+"ar": "أخصائي التوظيف، المراعي"
+},
+"m5sn": {
+"en": "Aramco Talent Acquisition Team",
+"ar": "فريق الاستقطاب في أرامكو"
+},
+"m6sn": {
+"en": "Jahez Talent Team",
+"ar": "فريق المواهب في جاهز"
+},
+"m7sn": {
+"en": "Qiddiya Talent Acquisition Team",
+"ar": "فريق الاستقطاب في القدية"
+},
+"m8sn": {
+"en": "Saad Al-Hamdan",
+"ar": "سعد الحمدان"
+},
+"m8sr": {
+"en": "Recruitment, Al Rajhi Bank",
+"ar": "أخصائي التوظيف، مصرف الراجحي"
+},
+"m9sn": {
+"en": "Rawan Al-Juhani",
+"ar": "روان الجهني"
+},
+"m9sr": {
+"en": "Talent Acquisition, NEOM",
+"ar": "أخصائية الاستقطاب، نيوم"
+},
+"m10sn": {
+"en": "Mobily Careers Team",
+"ar": "فريق التوظيف في موبايلي"
+},
+"m11sn": {
+"en": "Asma Kurdi",
+"ar": "أسماء كردي"
+},
+"m11sr": {
+"en": "Recruitment, Bupa Arabia",
+"ar": "أخصائية التوظيف، بوبا العربية"
+},
+"mlAgo": {
+"en": "{t} ago",
+"ar": "منذ {t}"
+},
+"meH": {
+"en": "What lands in Mail",
+"ar": "ما يصل إلى بريدك"
+},
+"meS": {
+"en": "Mail holds the applications a company has acknowledged. Not every company answers an application, so the number here is usually lower than the number of applications we sent for you.",
+"ar": "البريد يجمع الطلبات التي أكّدت الشركة استلامها. وليست كل الشركات ترد على الطلبات، ولهذا الرقم هنا عادة أقل من عدد الطلبات التي قدّمناها لك."
+},
+"meChkT": {
+"en": "Do not show this again",
+"ar": "لا تعرض هذه الرسالة مرة أخرى"
+},
+"meOk": {
+"en": "Got it",
+"ar": "تمام"
+},
+"sdAv": {
+"en": "NA",
+"ar": "ن"
+},
+"sdName": {
+"en": "Noura Al-Amri",
+"ar": "نورة العمري"
+},
+"sdPlan1": {
+"en": "Monthly plan",
+"ar": "باقة شهرية"
+},
+"sdPlan4": {
+"en": "4-month plan",
+"ar": "باقة الـ4 أشهر"
+},
+"sdPlan12": {
+"en": "12-month plan",
+"ar": "باقة الـ12 شهر"
+},
+"sdPlanFree": {
+"en": "Free preview",
+"ar": "معاينة مجانية"
+},
+"devDesk": {
+"en": "Desktop",
+"ar": "كمبيوتر"
+},
+"devTab": {
+"en": "Tablet",
+"ar": "تابلت"
+},
+"devPhone": {
+"en": "Phone",
+"ar": "جوال"
+},
+"dkBrandH": {
+"en": "Set up once. We apply every day.",
+"ar": "جهّز حسابك مرة واحدة، ونحن نقدّم لك كل يوم."
+},
+"dkBrandS": {
+"en": "Your CV, your target roles, your rules. Auto-Apply reads every new posting in your cities and applies with your CV.",
+"ar": "سيرتك الذاتية، ووظائفك المستهدفة، وشروطك. التقديم التلقائي يقرأ كل إعلان جديد في مدنك ويقدّم لك بسيرتك الذاتية."
+},
+"acsH": {
+"en": "Turn on Auto-Apply?",
+"ar": "تبي تفعّل التقديم التلقائي؟"
+},
+"acsSub": {
+"en": "Here is exactly what happens next.",
+"ar": "هذا بالضبط ما يحدث بعد التفعيل."
+},
+"acsR1T": {
+"en": "Every day it applies to roles within your targets",
+"ar": "كل يوم يقدّم على وظائف داخل أهدافك"
+},
+"acsR1S": {
+"en": "{role} in {cities}, from {floor} ¤ up, never at your {blocked} blocked employers.",
+"ar": "{role} في {cities}، من {floor} ¤ وفوق، وأبداً ما يقدّم عند {blocked} جهة عمل حظرتها."
+},
+"acsR2T": {
+"en": "Every application goes out with your uploaded CV",
+"ar": "كل طلب يُرسل بسيرتك الذاتية كما رفعتها"
+},
+"acsR2S": {
+"en": "Once it is sent, it cannot be withdrawn.",
+"ar": "وبعد ما ينرسل، ما ينسحب."
+},
+"acsR3T": {
+"en": "Each one counts toward your {cap} this month. You have used {used}.",
+"ar": "كل طلب يُحسب من {cap} هذا الشهر. استخدمت {used}."
+},
+"acsR3S": {
+"en": "Every decision is logged under Auto-Apply activity with its reason, and you can tighten your settings from there.",
+"ar": "كل قرار مسجّل في «نشاط التقديم التلقائي» مع سببه، ويمكنك ضبط إعداداتك من هناك."
+},
+"acsAiT": {
+"en": "Jobs are picked by AI, and it is not always right",
+"ar": "الوظائف يختارها الذكاء الاصطناعي، وما هو دايم صح"
+},
+"acsAiS": {
+"en": "It sometimes picks roles outside your field or below your level, and a sent application cannot be withdrawn.",
+"ar": "أحياناً يختار وظائف برى مجالك أو أقل من مستواك، والطلب بعد ما ينرسل ما ينسحب."
+},
+"acsAiTag": {
+"en": "Please read",
+"ar": "اقرأها"
+},
+"acsSetH": {
+"en": "Your settings",
+"ar": "إعداداتك"
+},
+"acsSetEdit": {
+"en": "Edit",
+"ar": "تعديل"
+},
+"acsSetRole": {
+"en": "{rolec}",
+"ar": "{rolec}"
+},
+"acsSetCities": {
+"en": "{cities}",
+"ar": "{cities}"
+},
+"acsRoleMore": {
+"en": "{first} +{n}",
+"ar": "{first} +{n}"
+},
+"acsRoleAnd": {
+"en": "{first} and {n} more",
+"ar": "{first} و{n} غيرها"
+},
+"acsSetFloor": {
+"en": "From {floor} ¤",
+"ar": "من {floor} ¤ وفوق"
+},
+"acsSetPace": {
+"en": "Up to {n} a day",
+"ar": "حتى {n} في اليوم"
+},
+"acsSetBlock": {
+"en": "{n} blocked employers",
+"ar": "{n} جهة عمل محظورة"
+},
+"acsChk": {
+"en": "I understand that AI picks the jobs, that it can get a role wrong, and that a sent application cannot be withdrawn.",
+"ar": "أفهم أن الذكاء الاصطناعي هو الذي يختار الوظائف، وأنه قد يخطئ في وظيفة، وأن الطلب بعد إرساله لا يمكن سحبه."
+},
+"acsOk": {
+"en": "Turn on Auto-Apply",
+"ar": "فعّل التقديم التلقائي"
+},
+"acsHint": {
+"en": "Tick the box above to turn it on.",
+"ar": "علّم المربع بالأعلى لتفعيله."
+}
+}

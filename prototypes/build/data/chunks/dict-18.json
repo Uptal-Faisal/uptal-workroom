@@ -1,0 +1,602 @@
+{
+"acsNo": {
+"en": "Not now",
+"ar": "ليس الآن"
+},
+"acsTOff": {
+"en": "Auto-Apply is off. Nothing goes out until you turn it back on.",
+"ar": "التقديم التلقائي متوقف. لا يُرسل شيء حتى تعيد تفعيله."
+},
+"acsTOn": {
+"en": "Auto-Apply is on. The next run is today.",
+"ar": "التقديم التلقائي مفعّل. الجولة القادمة اليوم."
+},
+"acsPillOff": {
+"en": "Not applying",
+"ar": "ما يقدّم"
+},
+"acsPrefOff": {
+"en": "Off. Nothing goes out until you turn it back on.",
+"ar": "متوقف. لا يُرسل شيء حتى تعيد تفعيله."
+},
+"acsHomeOff": {
+"en": "Auto-Apply is off. Turn it on in Preferences.",
+"ar": "التقديم التلقائي غير مفعل، تستطيع تفعيله من الإعدادات"
+},
+"acsPickOff": {
+"en": "Auto-Apply is off. Today's top matches are still here. Swipe through and apply by hand.",
+"ar": "التقديم التلقائي متوقف. أفضل وظائف اليوم ما زالت موجودة، اسحب وقدّم بنفسك."
+},
+"acsDeltaOff": {
+"en": "Nothing new since your last visit. Auto-Apply is off, so nothing goes out in the next run.",
+"ar": "لا جديد منذ آخر زيارة. التقديم التلقائي متوقف، فلا يُرسل شيء في الجولة القادمة."
+},
+"lensAcs": {
+"en": "The sheet shows the real settings the decision applies to, so the acknowledgement is about something concrete.",
+"ar": "الورقة تعرض الإعدادات الحقيقية التي ينطبق عليها القرار، ليكون الإقرار عن شيء ملموس."
+},
+"djT1Lab": {
+"en": "Step 1 of 3",
+"ar": "الخطوة 1 من 3"
+},
+"djT1H": {
+"en": "Which roles are the dream?",
+"ar": "ما الوظائف التي تحلم بها؟"
+},
+"djT1S": {
+"en": "Pick the titles you would leave a good job for. We watch every new posting under these names.",
+"ar": "اختر المسميات التي تترك لأجلها وظيفة جيدة. نراقب كل إعلان جديد تحت هذه المسميات."
+},
+"djSelT": {
+"en": "Your dream titles",
+"ar": "مسميات أحلامك"
+},
+"djSugT": {
+"en": "Common next steps on the Saudi finance ladder",
+"ar": "الخطوات القادمة المعتادة في مسار المالية بالسعودية"
+},
+"djT1Ph": {
+"en": "Add another title",
+"ar": "أضف مسمى ثاني"
+},
+"djT1Empty": {
+"en": "Pick at least one title to continue.",
+"ar": "اختر مسمى واحداً على الأقل للمتابعة."
+},
+"djAdd": {
+"en": "Add",
+"ar": "أضف"
+},
+"djCont": {
+"en": "Continue",
+"ar": "كمّل"
+},
+"djSave": {
+"en": "Save",
+"ar": "احفظ"
+},
+"djTDup": {
+"en": "Already on your list",
+"ar": "موجود في قائمتك أصلاً"
+},
+"lensDjT": {
+"en": "The three titles come pre-picked from the pitch card, so the first question is a confirmation, not a blank page. Suggestions stay on the finance ladder Noura is already climbing.",
+"ar": "المسميات الثلاثة جاهزة من بطاقة العرض، فالسؤال الأول تأكيد لا صفحة فارغة. الاقتراحات تبقى في مسار المالية الذي تمشي فيه نورة أصلاً."
+},
+"djT2Lab": {
+"en": "Step 2 of 3",
+"ar": "الخطوة 2 من 3"
+},
+"djT2H": {
+"en": "Where would you love to work?",
+"ar": "وين تحب تشتغل؟"
+},
+"djT2S": {
+"en": "We watch these employers day and night. When one posts a matching role, we apply within minutes.",
+"ar": "نراقب هذه الجهات ليل نهار. أول ما تنشر وظيفة تناسبك، نقدّم خلال دقائق."
+},
+"djSelE": {
+"en": "Your dream employers",
+"ar": "جهات أحلامك"
+},
+"djSugE": {
+"en": "Also hiring senior finance in Saudi",
+"ar": "جهات ثانية توظّف قياديين ماليين في السعودية"
+},
+"djT2Ph": {
+"en": "Add an employer",
+"ar": "أضف جهة"
+},
+"djT2Empty": {
+"en": "Pick at least one employer to continue.",
+"ar": "اختر جهة واحدة على الأقل للمتابعة."
+},
+"djBlockNote": {
+"en": "Your do-not-apply list still applies. Dream Job never applies to an employer you blocked.",
+"ar": "قائمة عدم التقديم لديك لا تزال سارية. وظيفة الأحلام لا تقدّم أبداً على جهة حظرتها."
+},
+"lensDjE": {
+"en": "Logos of employers Noura already knows make adding one a glance, not a search. The blocklist line keeps the promise made in setup: a blocked employer stays blocked in every mode.",
+"ar": "شعارات الجهات التي تعرفها نورة أصلاً تجعل الإضافة نظرة لا بحثاً. سطر قائمة الحظر يحفظ الوعد الذي قيل في الإعداد: الجهة المحظورة تظل محظورة في كل وضع."
+},
+"djT3Lab": {
+"en": "Step 3 of 3",
+"ar": "الخطوة 3 من 3"
+},
+"djT3H": {
+"en": "What is the number that moves you?",
+"ar": "ما الرقم الذي يدفعك للانتقال؟"
+},
+"djT3S": {
+"en": "Dream Job applies only when the posted salary meets this floor. Set it high, this is the dream.",
+"ar": "وظيفة الأحلام تقدّم فقط إذا كان الراتب المعلن يصل إلى هذا الحد. ارفعه، فهذه وظيفة الأحلام."
+},
+"djUnit": {
+"en": "¤ a month",
+"ar": "¤ بالشهر"
+},
+"djCtx": {
+"en": "Your Auto-Apply floor is 26,000 ¤. Dream Job only chases roles that clear the floor you set here.",
+"ar": "حدك في التقديم التلقائي 26,000 ¤. وظيفة الأحلام تلاحق فقط الوظائف التي تتجاوز الحد الذي تحدده هنا."
+},
+"djMinHint": {
+"en": "This is your Auto-Apply floor. Dream Job cannot go below it.",
+"ar": "هذا حدك في التقديم التلقائي. وظيفة الأحلام ما تنزل تحته."
+},
+"djMaxHint": {
+"en": "That is as high as the floor goes.",
+"ar": "هذا أعلى حد يمكن الوصول إليه."
+},
+"djStepHint": {
+"en": "Moves in steps of 1,000 ¤. You can also type a number.",
+"ar": "يتحرك بخطوات 1,000 ¤. ويمكنك كتابة الرقم مباشرة."
+},
+"lensDjF": {
+"en": "The quick chips anchor the floor well above the 26,000 ¤ Auto-Apply floor so the dream stays a dream, and the stepper moves in 1,000s so every tap is a meaningful change.",
+"ar": "الشرائح السريعة تثبّت الحد فوق حد التقديم التلقائي 26,000 ¤ بمسافة كافية ليبقى الحلم حلماً، والعدّاد يتحرك بالألف لتكون كل ضغطة فارقة."
+},
+"djEy": {
+"en": "Dream Job mode",
+"ar": "وضع وظيفة الأحلام"
+},
+"djRvH": {
+"en": "Here is what we will watch",
+"ar": "هذا ما سنراقبه لك"
+},
+"djRvS": {
+"en": "Check the three answers. Change anything before you turn it on.",
+"ar": "راجع الإجابات الثلاث. غيّر أي شيء قبل التفعيل."
+},
+"djEdit": {
+"en": "Edit",
+"ar": "عدّل"
+},
+"djPrT": {
+"en": "Dream Job",
+"ar": "وظيفة الأحلام"
+},
+"djPrS": {
+"en": "Starts today",
+"ar": "يبدأ اليوم"
+},
+"djPr2": {
+"en": "Charged to your default card, renews monthly",
+"ar": "يُخصم من بطاقتك الأساسية، ويتجدّد شهرياً"
+},
+"djPr2c": {
+"en": "Charged to {c}, renews monthly",
+"ar": "يُخصم من {c}، ويتجدّد شهرياً"
+},
+"djPr2b": {
+"en": "Charged automatically each month, no reminder. Switch back anytime.",
+"ar": "يُخصم تلقائياً كل شهر بدون تذكير. ارجع في أي وقت."
+},
+"djPr3": {
+"en": "Your 4-month price stays locked",
+"ar": "سعر باقة الـ4 أشهر يظل محفوظ"
+},
+"djPr3b": {
+"en": "Switch back and Auto-Apply continues at 339 ¤ a month, the price you have today.",
+"ar": "ارجع والتقديم التلقائي يكمل بـ 339 ¤ بالشهر، نفس سعرك الحالي."
+},
+"djRvCta": {
+"en": "Turn on Dream Job, 99 ¤",
+"ar": "فعّل وضع وظيفة الأحلام، 99 ¤"
+},
+"djNotNow": {
+"en": "Not now",
+"ar": "ليس الآن"
+},
+"lensDjR": {
+"en": "Everything Noura said is played back in her own words before money moves, with Edit one tap away. The price block says what is charged, when, and what she keeps.",
+"ar": "كل ما قالته نورة يُعرض لها بكلماتها قبل خصم أي مبلغ، والتعديل على بعد ضغطة. صندوق السعر يقول ما الذي يُخصم ومتى وما الذي يبقى لها."
+},
+"djDnH": {
+"en": "Dream Job is on.",
+"ar": "وظيفة الأحلام مفعّلة."
+},
+"djDnS": {
+"en": "We are watching {e} for {t} from {f} ¤. The minute one appears, we apply and ping you.",
+"ar": "نراقب {e} على {t} من {f} ¤ وفوق. لحظة ما تظهر وحدة، نقدّم وننبّهك."
+},
+"djDnF1": {
+"en": "Titles",
+"ar": "المسميات"
+},
+"djDnF2": {
+"en": "Employers",
+"ar": "الجهات"
+},
+"djDnF3": {
+"en": "Salary floor",
+"ar": "الحد الأدنى للراتب"
+},
+"djVow": {
+"en": "We do not stop until you are hired.",
+"ar": "ما نوقّف إلى ما تتوظّف."
+},
+"djDnCta": {
+"en": "Go to Home",
+"ar": "روح للرئيسية"
+},
+"djDnAlt": {
+"en": "Adjust my dream settings",
+"ar": "عدّل إعدادات وظيفة الأحلام"
+},
+"lensDjD": {
+"en": "The switch ends on a promise stated in her own numbers, not a receipt. The one secondary action is adjusting the dream, never undoing it.",
+"ar": "التفعيل ينتهي بوعد مكتوب بأرقامها هي، لا بإيصال. الإجراء الثانوي الوحيد هو تعديل الحلم، لا التراجع عنه."
+},
+"djHubEy": {
+"en": "Dream Job mode · on",
+"ar": "وضع وظيفة الأحلام · مفعّل"
+},
+"djHubH": {
+"en": "Dream Job is watching.",
+"ar": "وظيفة الأحلام تراقب."
+},
+"djHubS": {
+"en": "Tap a row to change what we watch. You pay 99 ¤ a month and your 4-month price stays locked for when you switch back.",
+"ar": "اضغط أي صف لتغيير ما نراقبه. تدفع 99 ¤ شهرياً، وسعر باقة الـ4 أشهر محفوظ حتى تعود."
+},
+"djBackCta": {
+"en": "Switch back to Auto-Apply",
+"ar": "ارجع للتقديم التلقائي"
+},
+"djDlgH": {
+"en": "Switch back to Auto-Apply?",
+"ar": "ترجع للتقديم التلقائي؟"
+},
+"djDlgS": {
+"en": "Dream Job stops watching and your 4-month plan continues at its locked price.",
+"ar": "وظيفة الأحلام توقف المراقبة وباقة الـ4 أشهر تكمل بسعرها المحفوظ."
+},
+"djDlgKeep": {
+"en": "Keep watching",
+"ar": "خلها تراقب"
+},
+"djDlgBack": {
+"en": "Switch back",
+"ar": "ارجع"
+},
+"djTBack": {
+"en": "Switched back to Auto-Apply",
+"ar": "رجعت للتقديم التلقائي"
+},
+"djUndo": {
+"en": "Undo",
+"ar": "تراجع"
+},
+"djTOn": {
+"en": "Dream Job is watching again",
+"ar": "وظيفة الأحلام رجعت تراقب"
+},
+"djTSaved": {
+"en": "Saved",
+"ar": "انحفظ"
+},
+"djPushP": {
+"en": "{t} at {e} posted 09:02. We applied at 09:08, you were applicant number 4.",
+"ar": "وظيفة {t} في {e} نُشرت 09:02. قدّمنا 09:08، كنت المتقدّم رقم 4."
+},
+"djWatchT": {
+"en": "Nothing caught yet",
+"ar": "لم نلتقط شيئاً بعد"
+},
+"djWatchP": {
+"en": "We check every new posting at your {e} for your {t}. The minute one matches, we apply and ping you.",
+"ar": "نفحص كل إعلان جديد عند {e} على {t}. لحظة ما يطابق واحد، نقدّم وننبّهك."
+},
+"djWatchTm": {
+"en": "since today",
+"ar": "من اليوم"
+},
+"djAriaMinus": {
+"en": "Minus 1,000",
+"ar": "ناقص 1,000"
+},
+"djAriaPlus": {
+"en": "Plus 1,000",
+"ar": "زائد 1,000"
+},
+"djAriaFloor": {
+"en": "Salary floor",
+"ar": "الحد الأدنى للراتب"
+},
+"djAriaRm": {
+"en": "Remove {v}",
+"ar": "احذف {v}"
+},
+"djPill": {
+"en": "Dream Job · watching",
+"ar": "وظيفة الأحلام · تراقب"
+},
+"djSdPlan": {
+"en": "Dream Job",
+"ar": "وظيفة الأحلام"
+},
+"djPlnSub": {
+"en": "You are on Dream Job at 99 ¤ a month. Your 4-month price stays locked if you switch back.",
+"ar": "أنت على وظيفة الأحلام بـ 99 ¤ بالشهر. سعر باقة الـ4 أشهر يظل محفوظ لو رجعت."
+},
+"djPlnCur": {
+"en": "Dream Job",
+"ar": "وظيفة الأحلام"
+},
+"djPlnCurS": {
+"en": "Renews monthly · 99 ¤",
+"ar": "يتجدّد شهرياً · 99 ¤"
+},
+"djPlnGives": {
+"en": "What Dream Job gives you",
+"ar": "ما تقدمه لك وظيفة الأحلام"
+},
+"djPlnG1": {
+"en": "We watch every new posting at your {e}",
+"ar": "نراقب كل إعلان جديد عند {e}"
+},
+"djPlnG2": {
+"en": "We apply within minutes with a CV written for that role",
+"ar": "نقدّم خلال دقائق بسيرة ذاتية مكتوبة لهذي الوظيفة"
+},
+"djPlnG3": {
+"en": "A ping the moment we apply",
+"ar": "تنبيه فور التقديم"
+},
+"djPlnG4": {
+"en": "Your 4-month price stays locked for when you switch back",
+"ar": "سعر باقة الـ4 أشهر محفوظ لين ترجع"
+},
+"djPlnG4s": {
+"en": "Auto-Apply resumes at 339 ¤ a month, nothing to renegotiate",
+"ar": "التقديم التلقائي يرجع بـ 339 ¤ بالشهر، بدون أي تفاوض"
+},
+"djPlnNextS": {
+"en": "One month from today · 99 ¤",
+"ar": "بعد شهر من اليوم · 99 ¤"
+},
+"djPlnTermS": {
+"en": "Dream Job, monthly, started today",
+"ar": "وظيفة الأحلام، شهرية، بدأت اليوم"
+},
+"djPlnRow": {
+"en": "Dream Job settings",
+"ar": "إعدادات وظيفة الأحلام"
+},
+"djPlnRowS": {
+"en": "Titles, employers and salary floor, or switch back to Auto-Apply",
+"ar": "المسميات والجهات والحد الأدنى للراتب، أو ارجع للتقديم التلقائي"
+},
+"djN1e": {
+"en": "1 employer",
+"ar": "جهة واحدة"
+},
+"djN2e": {
+"en": "2 employers",
+"ar": "جهتين"
+},
+"djNe": {
+"en": "{n} employers",
+"ar": "{n} جهات"
+},
+"djN11e": {
+"en": "{n} employers",
+"ar": "{n} جهة"
+},
+"djN1t": {
+"en": "1 role",
+"ar": "مسمى واحد"
+},
+"djN2t": {
+"en": "2 roles",
+"ar": "مسميين"
+},
+"djNt": {
+"en": "{n} roles",
+"ar": "{n} مسميات"
+},
+"djN11t": {
+"en": "{n} roles",
+"ar": "{n} مسمى"
+},
+"djSug": {
+"en": "Suggestions",
+"ar": "اقتراحات"
+},
+"djHomeLine": {
+"en": "Dream Job is watching {e} for {t} from {f} ¤.",
+"ar": "وظيفة الأحلام تراقب {e} على {t} من {f} ¤ وفوق."
+},
+"djHomeK": {
+"en": "Dream Job",
+"ar": "وظيفة الأحلام"
+},
+"djHomeSt1": {
+"en": "employers watched",
+"ar": "جهات نراقبها"
+},
+"djHomeSt2": {
+"en": "dream roles",
+"ar": "مسميات أحلامك"
+},
+"djHomeSt3": {
+"en": "salary floor",
+"ar": "الحد الأدنى للراتب"
+},
+"djDelta": {
+"en": "Nothing new since your last visit. Dream Job is still watching.",
+"ar": "لا جديد منذ آخر زيارة. وظيفة الأحلام لا تزال تراقب."
+},
+"djPickS": {
+"en": "Dream Job keeps watching. Swipe through today's top matches and add the ones you love.",
+"ar": "وظيفة الأحلام تراقب. تصفّح أفضل وظائف اليوم وأضِف ما يعجبك."
+},
+"djPlnKeep": {
+"en": "Your record stays with you. Auto-Apply resumes at your locked price when you switch back.",
+"ar": "سجلك يظل لك. التقديم التلقائي يرجع بسعرك المحفوظ لما ترجع."
+},
+"qaLensList": {
+"en": "A paused application must never die quietly. One list, one action per card, and the cost of each answer stated in time, so the member always knows what is waiting and how small it is.",
+"ar": "الطلب المتوقف لا يجوز أن يموت بصمت. قائمة واحدة، وفعل واحد لكل بطاقة، وتكلفة كل إجابة مكتوبة بالوقت، حتى يعرف العضو دائماً ما ينتظره وكم هو صغير."
+},
+"qaLensIntro": {
+"en": "The preview removes fear before the first tap. Noura sees the three questions, what we already did for her, and how long it takes, so starting feels safe and finishing feels close.",
+"ar": "المعاينة تزيل الخوف قبل أول ضغطة. نورة ترى الأسئلة الثلاثة، وما قمنا به لها، وكم يستغرق الوقت، فالبداية تبدو آمنة والنهاية قريبة."
+},
+"qaLensStep": {
+"en": "One question per screen keeps the form light. Big tappable answers, a reason for the question, and a Remember switch that turns a one-off effort into a permanent asset.",
+"ar": "سؤال واحد في كل شاشة يجعل النموذج خفيفاً. إجابات كبيرة قابلة للضغط، وسبب للسؤال، وزر \"احفظ\" يحوّل جهد مرة واحدة إلى رصيد دائم."
+},
+"qaLensReview": {
+"en": "Review is the consent moment. The answers, the CV that goes with them, and the cost against the 300 are all visible before anything is sent in her name.",
+"ar": "المراجعة هي لحظة الموافقة. الإجابات، والسيرة التي تُرسل معها، والتكلفة من الـ300، كلها ظاهرة قبل أن يُرسل شيء باسمها."
+},
+"qaLensDone": {
+"en": "Done is calm on purpose. Time spent and answers saved are the reward, and the next paused application is one tap away while momentum is high.",
+"ar": "شاشة الإتمام هادئة عن قصد. الوقت المستغرق والإجابات المحفوظة هي المكافأة، والطلب المتوقف التالي على بعد ضغطة والحماس ما زال موجوداً."
+},
+"qaLensBank": {
+"en": "Endowment again. Every saved answer is work Noura never repeats, and the promise that employers only see approved answers keeps the bank trustworthy.",
+"ar": "الملكية مرة أخرى. كل إجابة محفوظة هي عمل لا تكرره نورة أبداً، ووعد أن جهات العمل لا ترى إلا ما وافقت عليه يبقي البنك موثوقاً."
+},
+"qaCoMd": {
+"en": "Maaden",
+"ar": "معادن"
+},
+"qaCoRb": {
+"en": "Riyad Bank",
+"ar": "بنك الرياض"
+},
+"qaRole2": {
+"en": "FP&A Manager",
+"ar": "مدير التخطيط والتحليل المالي"
+},
+"qaCityRak": {
+"en": "Ras Al Khair",
+"ar": "رأس الخير"
+},
+"qaSalTo": {
+"en": "{a} to {b} ¤",
+"ar": "من {a} إلى {b} ¤"
+},
+"qaHomeT2": {
+"en": "2 applications are waiting on your answers",
+"ar": "طلبان ينتظران إجاباتك"
+},
+"qaHomeT1": {
+"en": "1 application is waiting on your answers",
+"ar": "طلب واحد ينتظر إجاباتك"
+},
+"qaAsks": {
+"en": "{co} asks {n} questions",
+"ar": "عند {co} {n} أسئلة"
+},
+"qaAsksShort": {
+"en": "{co} asks {n}",
+"ar": "وعند {co} {n}"
+},
+"qaHomeS2": {
+"en": "{list}. About a minute each. Nothing goes out until you answer.",
+"ar": "{list}. كل واحدة تستغرق دقيقة تقريباً. لا يُرسل شيء قبل إجابتك."
+},
+"qaHomeS1": {
+"en": "{list}. About a minute. Nothing goes out until you answer.",
+"ar": "{list}. تستغرق دقيقة تقريباً. لا يُرسل شيء قبل إجابتك."
+},
+"qaHomeCta": {
+"en": "Answer now",
+"ar": "أجب الآن"
+},
+"qaHomeSee": {
+"en": "See both",
+"ar": "شوف الاثنين"
+},
+"qaHomeSee1": {
+"en": "See the list",
+"ar": "شوف القائمة"
+},
+"qaNtSub": {
+"en": "{n} quick answers to finish your {co} application",
+"ar": "{n} إجابات سريعة لإكمال طلبك في {co}"
+},
+"qaNtSnip": {
+"en": "{role} · nothing goes out until you answer",
+"ar": "{role} · لا يُرسل شيء قبل إجابتك"
+},
+"qaNtPill": {
+"en": "Waiting on you",
+"ar": "بانتظارك"
+},
+"mq1s": {
+"en": "3 quick answers to finish your Maaden application",
+"ar": "3 إجابات سريعة لإكمال طلبك في معادن"
+},
+"mq1b1": {
+"en": "At 02:41 last night Auto-Apply reached the Maaden form for Senior Financial Analyst in Ras Al Khair. It filled 9 of the 12 questions from your CV and profile, then stopped, because the last 3 are yours to answer.",
+"ar": "الساعة 02:41 وصل التقديم التلقائي إلى نموذج معادن لوظيفة محلل مالي أول في رأس الخير، وعبّأ 9 من 12 سؤالاً من سيرتك الذاتية وملفك، ثم توقف عند 3 أسئلة لا يجيب عنها إلا أنت."
+},
+"mq1b2": {
+"en": "Maaden asks whether you are willing to relocate to Ras Al Khair with a housing allowance, whether you hold SOCPA membership, and whether you are related to any current Maaden employee.",
+"ar": "معادن تسأل إذا كان الانتقال إلى رأس الخير مناسب لك مع بدل سكن، وإذا كنت عضو في الهيئة السعودية للمراجعين والمحاسبين (SOCPA)، وإذا كان لك قرابة بأي موظف حالي في معادن."
+},
+"mq1b3": {
+"en": "The application is on hold. Nothing goes out until you answer, and it does not count toward your 300 until it does. Answering takes about a minute.",
+"ar": "الطلب متوقف الآن. لا يُرسل شيء قبل إجابتك، ولا يُحتسب من الـ300 إلا بعد إرساله. الإجابة تأخذ دقيقة تقريباً."
+},
+"mq1b4": {
+"en": "The Riyad Bank application paused on 3 questions of its own at the same time. Both are waiting for you in the app.",
+"ar": "وبنفس الوقت توقف طلب بنك الرياض عند 3 أسئلة ثانية. الاثنين ينتظرونك في التطبيق."
+},
+"qaMlLink": {
+"en": "Answer the questions",
+"ar": "جاوب على الأسئلة"
+},
+"qaMlDone": {
+"en": "Answered and sent at {t}",
+"ar": "جاوبت وأرسلناه الساعة {t}"
+},
+"qaMlSkipped": {
+"en": "You skipped this application",
+"ar": "تخطيت هذا الطلب"
+},
+"qaLogT": {
+"en": "Paused 2 applications that ask things only you can answer",
+"ar": "وقّفنا طلبين يسألون أشياء ما يعرفها غيرك"
+},
+"qaLogS": {
+"en": "Maaden asks about relocation, SOCPA membership and a conflict check. Riyad Bank asks for your expected salary, SAMA experience and a short motivation.",
+"ar": "معادن تسأل عن الانتقال وعضوية SOCPA وتعارض المصالح. بنك الرياض يسأل عن الراتب المتوقع والخبرة في مؤسسة خاضعة لساما ونبذة قصيرة عن دوافعك."
+},
+"qaLogLink": {
+"en": "Answer them",
+"ar": "جاوب عليهم"
+},
+"qaLogDone": {
+"en": "Nothing left to answer",
+"ar": "لم يبقَ شيء ينتظرك"
+},
+"qaStWait": {
+"en": "Waiting on you",
+"ar": "بانتظارك"
+}
+}

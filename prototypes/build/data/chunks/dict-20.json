@@ -1,0 +1,602 @@
+{
+"swsHTop": {
+"en": "You used your month. Top up to keep applying",
+"ar": "انتهى رصيد شهرك. عبّئ رصيدك لمواصلة التقديم"
+},
+"lensSwsQ": {
+"en": "The cap is shown as a full bar and a way forward, never as a wall.",
+"ar": "الحد يظهر كشريط ممتلئ ومعه طريق للأمام، لا كجدار."
+},
+"swsPH": {
+"en": "Your plan is paused",
+"ar": "باقتك متوقفة مؤقتاً"
+},
+"swsPS": {
+"en": "Your {tot} ¤ renewal did not go through, so applying stopped. Your matches, your CV and your locked price are all waiting.",
+"ar": "تجديد الباقة بمبلغ {tot} ¤ ما نجح، فوقف التقديم. وظائفك المطابقة وسيرتك الذاتية وسعرك المحفوظ كلها بانتظارك."
+},
+"swsF1": {
+"en": "{c} was declined",
+"ar": "البنك رفض {c}"
+},
+"swsF1S": {
+"en": "Nothing was charged.",
+"ar": "لم يُخصم شيء."
+},
+"swsF1n": {
+"en": "{c} is ready to try",
+"ar": "{c} جاهزة للمحاولة"
+},
+"swsF1nS": {
+"en": "Retry to charge it. Your old card is not touched.",
+"ar": "اضغط أعد المحاولة لنخصم منها. بطاقتك القديمة لا نمسّها."
+},
+"swsF2": {
+"en": "Nothing is lost while paused",
+"ar": "لا يضيع شيء وباقتك متوقفة"
+},
+"swsF2S": {
+"en": "Your applications, your CV and your {mo} ¤ a month price stay as they are.",
+"ar": "طلباتك وسيرتك الذاتية وسعرك {mo} ¤ بالشهر كلها باقية مثل ما هي."
+},
+"swsF3": {
+"en": "Applying resumes the moment the payment clears",
+"ar": "التقديم يرجع أول ما تنجح الدفعة"
+},
+"swsF3S": {
+"en": "Auto-Apply runs again today.",
+"ar": "التقديم التلقائي يعمل من جديد اليوم."
+},
+"swsRetry": {
+"en": "Retry the payment",
+"ar": "أعد محاولة الدفع"
+},
+"swsRetryN": {
+"en": "Retry with {c}",
+"ar": "أعد المحاولة بـ{c}"
+},
+"swsCharging": {
+"en": "Charging",
+"ar": "جاري الخصم"
+},
+"swsOther": {
+"en": "Use another card",
+"ar": "استخدم بطاقة ثانية"
+},
+"swsHome": {
+"en": "Back to Home",
+"ar": "رجوع للرئيسية"
+},
+"swsTPaid": {
+"en": "Paid. Auto-Apply is back on today.",
+"ar": "تم الدفع. التقديم التلقائي يعود اليوم."
+},
+"swsStripT": {
+"en": "Your plan is paused. The renewal did not go through.",
+"ar": "باقتك متوقفة مؤقتاً. التجديد ما نجح."
+},
+"swsStripBtn": {
+"en": "Retry payment",
+"ar": "أعد محاولة الدفع"
+},
+"swsPaused": {
+"en": "Paused",
+"ar": "متوقف"
+},
+"swsPlanChip": {
+"en": "Payment failed",
+"ar": "الدفع ما نجح"
+},
+"lensSwsP": {
+"en": "The state names the exact cause and the exact fix, and shows what is safe.",
+"ar": "الحالة تسمّي السبب بالضبط والحل بالضبط، وتوضّح ما هو آمن."
+},
+"pvStep": {
+"en": "Step 1 of 2 · Confirm your email",
+"ar": "الخطوة 1 من 2 · أكّد بريدك"
+},
+"pvEy": {
+"en": "Before you pay",
+"ar": "قبل الدفع"
+},
+"pvH": {
+"en": "Confirm your email.",
+"ar": "أكد بريدك الإلكتروني"
+},
+"pvSub": {
+"en": "We sent a 6-digit code to",
+"ar": "أرسلنا رمز من 6 أرقام إلى"
+},
+"pvSub2": {
+"en": ". Enter it to continue to payment. It expires in 10 minutes.",
+"ar": ". أدخله لمتابعة الدفع. تنتهي صلاحيته خلال 10 دقائق."
+},
+"pvWhy": {
+"en": "Your plan, your receipts and every employer reply land in this inbox, so we check it once before you pay.",
+"ar": "باقتك وفواتيرك وكل ردود الشركات تصل على هذا البريد، لذلك نتأكد منه مرة واحدة قبل الدفع."
+},
+"pvEditL": {
+"en": "Send the code to",
+"ar": "أرسل الرمز إلى"
+},
+"pvEditPh": {
+"en": "you@example.com",
+"ar": "you@example.com"
+},
+"pvSend": {
+"en": "Send code",
+"ar": "أرسل الرمز"
+},
+"pvKeep": {
+"en": "Keep this email",
+"ar": "خلّه على هذا البريد"
+},
+"pvCta": {
+"en": "Verify and continue",
+"ar": "تحقّق وكمّل"
+},
+"pvOk": {
+"en": "Email confirmed",
+"ar": "تأكّد البريد"
+},
+"pvTSent": {
+"en": "Code sent to {e}",
+"ar": "أرسلنا الرمز إلى {e}"
+},
+"pvBad": {
+"en": "Enter a valid email address",
+"ar": "اكتب بريد صحيح"
+},
+"lensPayOtp": {
+"en": "Proof of ownership before money. One code confirms the inbox that will receive every employer reply, and it happens before the card, not after.",
+"ar": "إثبات الملكية قبل الدفع. رمز واحد يؤكّد البريد الذي تصل إليه كل ردود جهات العمل، ويحدث قبل البطاقة لا بعدها."
+},
+"ck2Step": {
+"en": "Step 2 of 2 · Payment",
+"ar": "الخطوة 2 من 2 · الدفع"
+},
+"ck2SumH": {
+"en": "Order summary",
+"ar": "ملخص الطلب"
+},
+"ck2Line1": {
+"en": "399 ¤ for one month",
+"ar": "399 ¤ لشهر واحد"
+},
+"ck2Line4": {
+"en": "339 ¤ a month × 4 months",
+"ar": "339 ¤ بالشهر × 4 أشهر"
+},
+"ck2Line12": {
+"en": "279 ¤ a month × 12 months",
+"ar": "279 ¤ بالشهر × 12 شهر"
+},
+"ck2Vat": {
+"en": "VAT 15%",
+"ar": "ضريبة القيمة المضافة 15%"
+},
+"ck2Incl": {
+"en": "Included",
+"ar": "مشمولة"
+},
+"ck2Due": {
+"en": "Due today",
+"ar": "المطلوب اليوم"
+},
+"ck2DueB": {
+"en": "Due today with {b}",
+"ar": "المطلوب اليوم عن طريق {b}"
+},
+"ck2Bnpl": {
+"en": "Then 3 payments of {inst} ¤, one a month, 0% interest",
+"ar": "وبعدها 3 دفعات بـ {inst} ¤، واحدة كل شهر، بدون فوائد"
+},
+"ck2Next": {
+"en": "Next renewal {d} · {tot} ¤, charged automatically to the same method. Cancel anytime before then and you are not charged again.",
+"ar": "التجديد القادم {d} · {tot} ¤ يُخصم تلقائياً من نفس طريقة الدفع. ألغِ في أي وقت قبلها ولن يُخصم منك شيء مرة أخرى."
+},
+"ck2NextB": {
+"en": "Next renewal {d} · {tot} ¤. Before it, {b} asks you to approve a new 4-payment plan; nothing is charged until you do.",
+"ar": "التجديد القادم {d} · {tot} ¤. قبله يطلب منك {b} الموافقة على خطة 4 دفعات جديدة، ولا يُخصم شيء إلا بعد موافقتك."
+},
+"ck2Get": {
+"en": "What your plan includes",
+"ar": "ما تشمله باقتك"
+},
+"ck2PayH": {
+"en": "Payment",
+"ar": "الدفع"
+},
+"ck2Secure": {
+"en": "Secure checkout",
+"ar": "دفع آمن"
+},
+"cvtName": {
+"en": "CV Tailoring",
+"ar": "تخصيص السيرة الذاتية"
+},
+"cvtReco": {
+"en": "Highly recommended",
+"ar": "موصى بها بشدة"
+},
+"cvtFinishing": {
+"en": "Finishing up",
+"ar": "اللمسات الأخيرة"
+},
+"cvtBack": {
+"en": "Back",
+"ar": "رجوع"
+},
+"cvtNotNow": {
+"en": "Not now",
+"ar": "ليس الآن"
+},
+"cvtContinueWithout": {
+"en": "Continue without it",
+"ar": "المتابعة من دونها"
+},
+"cvtMo": {
+"en": "{p} ¤ a month",
+"ar": "{p} ¤ شهرياً"
+},
+"cvtOfH": {
+"en": "Send a CV written for each role.",
+"ar": "أرسل سيرة ذاتية مكتوبة لكل وظيفة."
+},
+"cvtOfS": {
+"en": "Today every application goes out with the CV you uploaded. With CV Tailoring each one is rewritten for that role, with a cover letter to match.",
+"ar": "اليوم يخرج كل طلب بالسيرة الذاتية التي رفعتها. مع تخصيص السيرة الذاتية تُعاد كتابتها لكل وظيفة على حدة، مع خطاب تغطية يناسبها."
+},
+"cvtBaH": {
+"en": "A real match from your CV",
+"ar": "تطابق حقيقي من سيرتك الذاتية"
+},
+"cvtBaRole": {
+"en": "Senior Financial Analyst · SNB · Riyadh",
+"ar": "محلل مالي أول · البنك الأهلي السعودي · الرياض"
+},
+"cvtBaBefore": {
+"en": "Your CV",
+"ar": "سيرتك الذاتية"
+},
+"cvtBaAfter": {
+"en": "Tailored",
+"ar": "المخصصة"
+},
+"cvtBaMatch": {
+"en": "{n}% match",
+"ar": "تطابق {n}٪"
+},
+"cvtBaChanged": {
+"en": "Highlighted = the lines rewritten for this posting",
+"ar": "المظلّل = الأسطر التي أُعيدت كتابتها لهذا الإعلان"
+},
+"cvtKwH": {
+"en": "Keywords from the posting",
+"ar": "الكلمات المفتاحية في الإعلان"
+},
+"cvtKwHit": {
+"en": "matched",
+"ar": "موجودة"
+},
+"cvtKwMiss": {
+"en": "missing",
+"ar": "ناقصة"
+},
+"cvtKwNote": {
+"en": "{a} of 16 keywords in your CV, {b} of 16 after tailoring",
+"ar": "{a} من 16 كلمة مفتاحية في سيرتك، و{b} من 16 بعد التخصيص"
+},
+"cvtTplH": {
+"en": "Six templates, one choice for every application",
+"ar": "ستة قوالب، واختيار واحد لكل الطلبات"
+},
+"cvtTplS": {
+"en": "Tap one to preview it in the tailored CV. Change it anytime.",
+"ar": "اضغط على أحدها لمعاينته في السيرة المخصصة. غيّره في أي وقت."
+},
+"cvtTplClassic": {
+"en": "Classic",
+"ar": "كلاسيكي"
+},
+"cvtTplModern": {
+"en": "Modern",
+"ar": "عصري"
+},
+"cvtTplMinimal": {
+"en": "Minimal",
+"ar": "بسيط"
+},
+"cvtTplExecutive": {
+"en": "Executive",
+"ar": "تنفيذي"
+},
+"cvtTplAts": {
+"en": "ATS plain",
+"ar": "ATS نصي"
+},
+"cvtTplGulf": {
+"en": "Gulf",
+"ar": "خليجي"
+},
+"cvtTplGulfS": {
+"en": "Photo, bilingual",
+"ar": "بصورة، وبلغتين"
+},
+"cvtFeatH": {
+"en": "What CV Tailoring includes",
+"ar": "ما يشمله تخصيص السيرة الذاتية"
+},
+"cvtF1": {
+"en": "A CV written for every application, Auto-Apply and manual swipes",
+"ar": "سيرة ذاتية مكتوبة لكل طلب، في التقديم التلقائي والسحب اليدوي"
+},
+"cvtF2": {
+"en": "Six templates, chosen once for all applications, changeable anytime",
+"ar": "ستة قوالب، تختار واحداً لكل الطلبات وتغيّره في أي وقت"
+},
+"cvtF3": {
+"en": "Keyword match against each job description, with a score",
+"ar": "مطابقة الكلمات المفتاحية مع وصف كل وظيفة، مع درجة"
+},
+"cvtF4": {
+"en": "Tone and length control",
+"ar": "التحكم في النبرة والطول"
+},
+"cvtF5": {
+"en": "English and Arabic versions",
+"ar": "نسختان بالإنجليزية والعربية"
+},
+"cvtF6": {
+"en": "A cover letter for each application",
+"ar": "خطاب تغطية لكل طلب"
+},
+"cvtF7": {
+"en": "Unlimited edits with AI rewrite",
+"ar": "تعديلات غير محدودة مع إعادة كتابة بالذكاء الاصطناعي"
+},
+"cvtF8": {
+"en": "Download any sent CV as PDF or Word",
+"ar": "تنزيل أي سيرة أُرسلت بصيغة PDF أو Word"
+},
+"cvtHonest": {
+"en": "Written from what is in your CV. It never invents experience.",
+"ar": "تُكتب مما في سيرتك الذاتية. ولا تختلق أي خبرة."
+},
+"cvtDream": {
+"en": "Dream Job mode already tailors its own applications.",
+"ar": "وضع وظيفة الأحلام يخصص السيرة الذاتية لطلباته أصلاً."
+},
+"cvtPrT": {
+"en": "CV Tailoring",
+"ar": "تخصيص السيرة الذاتية"
+},
+"cvtPrS": {
+"en": "Billed on the 27th with your plan · cancel anytime · card or Apple Pay",
+"ar": "تُحصّل يوم 27 مع باقتك · ألغِ في أي وقت · بطاقة أو Apple Pay"
+},
+"cvtOfCta": {
+"en": "Add CV Tailoring, {p} ¤ a month",
+"ar": "أضف تخصيص السيرة الذاتية، {p} ¤ شهرياً"
+},
+"lensCvtOffer": {
+"en": "The offer comes after the plan is paid, never before it, and leads with a real match from her own CV: the same lines rewritten, and the score that changed. One price stated flat, and one honest line about what the AI will not do.",
+"ar": "العرض يأتي بعد دفع الباقة لا قبلها، ويبدأ بتطابق حقيقي من سيرتها هي: الأسطر نفسها بعد إعادة كتابتها، والدرجة التي تغيّرت. سعر واحد يُقال بوضوح، وسطر صادق واحد عمّا لن يفعله الذكاء الاصطناعي."
+},
+"cvtPayH": {
+"en": "Add CV Tailoring",
+"ar": "إضافة تخصيص السيرة الذاتية"
+},
+"cvtPayRetryH": {
+"en": "Retry the payment",
+"ar": "إعادة محاولة الدفع"
+},
+"cvtPayPrice": {
+"en": "Price",
+"ar": "السعر"
+},
+"cvtPayToday": {
+"en": "Today",
+"ar": "اليوم"
+},
+"cvtPayThen": {
+"en": "Then",
+"ar": "بعدها"
+},
+"cvtPayWith": {
+"en": "Paid with",
+"ar": "الدفع عبر"
+},
+"cvtPayTodayPro": {
+"en": "{a} ¤ for the {d} days until {date}",
+"ar": "{a} ¤ عن {d} يوماً حتى {date}"
+},
+"cvtPayThenS": {
+"en": "{p} ¤ on the 27th of every month, with your plan",
+"ar": "{p} ¤ يوم 27 من كل شهر، مع باقتك"
+},
+"cvtPayApple": {
+"en": "Apple Pay",
+"ar": "Apple Pay"
+},
+"cvtPayOrCard": {
+"en": "or pay by card",
+"ar": "أو ادفع بالبطاقة"
+},
+"cvtPayNoCard": {
+"en": "Your plan is paid in 4, so there is no card on file. Add one for the add-on.",
+"ar": "باقتك مدفوعة على 4 دفعات، فلا توجد بطاقة محفوظة. أضف بطاقة للإضافة."
+},
+"cvtPayNote": {
+"en": "Tabby and Tamara do not cover add-ons. Cancel anytime from Manage subscription.",
+"ar": "Tabby وTamara لا تغطيان الإضافات. ألغِ في أي وقت من إدارة الاشتراك."
+},
+"cvtPayCta": {
+"en": "Pay {a} ¤",
+"ar": "ادفع {a} ¤"
+},
+"cvtPayBusy": {
+"en": "Paying",
+"ar": "جارٍ الدفع"
+},
+"cvtPayNeed": {
+"en": "Fill in the four card fields to pay",
+"ar": "أكمل حقول البطاقة الأربعة للدفع"
+},
+"cvtPayBadNum": {
+"en": "Check the card number",
+"ar": "تحقق من رقم البطاقة"
+},
+"cvtPayExpired": {
+"en": "That card has expired",
+"ar": "انتهت صلاحية هذه البطاقة"
+},
+"cvtPayNeedName": {
+"en": "Enter the full name as it is on the card",
+"ar": "أدخل الاسم كاملاً كما هو على البطاقة"
+},
+"cvtTOn": {
+"en": "CV Tailoring is on",
+"ar": "تخصيص السيرة الذاتية مفعّل"
+},
+"cvtTPaid": {
+"en": "Paid. CV Tailoring is back on.",
+"ar": "تم الدفع. تخصيص السيرة الذاتية مفعّل من جديد."
+},
+"lensCvtPay": {
+"en": "The sheet says four things and nothing else: the price, what is charged today, what is charged next and where. A pay-in-4 member has no card on file, so the card form appears only for her.",
+"ar": "الورقة تقول أربعة أشياء لا غير: السعر، وما يُخصم اليوم، وما يُخصم لاحقاً، ومن أين. عضوة الدفع على 4 دفعات لا بطاقة محفوظة لها، فنموذج البطاقة يظهر لها وحدها."
+},
+"cvtStH": {
+"en": "Set up your CV",
+"ar": "جهّز سيرتك الذاتية"
+},
+"cvtStS": {
+"en": "Pick the template, tone and length once. Every tailored CV follows them from your next application.",
+"ar": "اختر القالب والنبرة والطول مرة واحدة. كل سيرة مخصصة تتبعها من طلبك القادم."
+},
+"cvtStMH": {
+"en": "CV Tailoring",
+"ar": "تخصيص السيرة الذاتية"
+},
+"cvtStBack": {
+"en": "Preferences",
+"ar": "الإعدادات"
+},
+"cvtStStatus": {
+"en": "On · {t} template · {n} CVs written this month",
+"ar": "مفعّل · قالب {t} · {n} سيرة مكتوبة هذا الشهر"
+},
+"cvtStNext": {
+"en": "Next charge {d}, {p} ¤",
+"ar": "الخصم القادم {d}، {p} ¤"
+},
+"cvtEndsBanner": {
+"en": "Ends {d}. Applications then go out with your uploaded CV. CVs already written stay in your library.",
+"ar": "ينتهي {d}. بعدها تخرج الطلبات بسيرتك الذاتية التي رفعتها. والسير المكتوبة تبقى في مكتبتك."
+},
+"cvtKeep": {
+"en": "Keep CV Tailoring",
+"ar": "أبقِ تخصيص السيرة الذاتية"
+},
+"cvtTKept": {
+"en": "CV Tailoring stays on",
+"ar": "تخصيص السيرة الذاتية ما زال مفعّلاً"
+},
+"cvtDunBanner": {
+"en": "Payment failed. Applications go out with your uploaded CV until it is paid.",
+"ar": "فشل الدفع. تخرج الطلبات بسيرتك الذاتية التي رفعتها حتى يتم السداد."
+},
+"cvtRetry": {
+"en": "Retry payment",
+"ar": "إعادة محاولة الدفع"
+},
+"cvtGalH": {
+"en": "Template",
+"ar": "القالب"
+},
+"cvtGalS": {
+"en": "One template for every application. Change it anytime.",
+"ar": "قالب واحد لكل الطلبات. غيّره في أي وقت."
+},
+"cvtToneH": {
+"en": "Tone",
+"ar": "النبرة"
+},
+"cvtToneConf": {
+"en": "Confident",
+"ar": "واثقة"
+},
+"cvtToneBal": {
+"en": "Balanced",
+"ar": "متوازنة"
+},
+"cvtToneUnd": {
+"en": "Understated",
+"ar": "هادئة"
+},
+"cvtLenH": {
+"en": "Length",
+"ar": "الطول"
+},
+"cvtLen1": {
+"en": "1 page",
+"ar": "صفحة واحدة"
+},
+"cvtLen2": {
+"en": "2 pages",
+"ar": "صفحتان"
+},
+"cvtLangH": {
+"en": "Language",
+"ar": "اللغة"
+},
+"cvtLangEn": {
+"en": "English",
+"ar": "الإنجليزية"
+},
+"cvtLangAr": {
+"en": "Arabic",
+"ar": "العربية"
+},
+"cvtLangBoth": {
+"en": "Both",
+"ar": "اللغتان"
+},
+"cvtCoverT": {
+"en": "Cover letter with every application",
+"ar": "خطاب تغطية مع كل طلب"
+},
+"cvtCoverS": {
+"en": "Written for the role, from your CV",
+"ar": "مكتوب للوظيفة، من سيرتك الذاتية"
+},
+"cvtPrevH": {
+"en": "Preview",
+"ar": "معاينة"
+},
+"cvtPrevS": {
+"en": "Your CV in the {t} template, {tone} tone, {len}, {lg}",
+"ar": "سيرتك بقالب {t}، نبرة {tone}، {len}، {lg}"
+},
+"cvtLangBothS": {
+"en": "English and Arabic",
+"ar": "الإنجليزية والعربية"
+},
+"cvtLangArV": {
+"en": "Arabic version",
+"ar": "نسخة عربية"
+},
+"cvtLangBothV": {
+"en": "English and Arabic versions",
+"ar": "نسختان بالإنجليزية والعربية"
+},
+"cvtPrevRow": {
+"en": "Preview with a real match",
+"ar": "معاينة على تطابق حقيقي"
+},
+"cvtPrevRowS": {
+"en": "Senior Financial Analyst at SNB, 92% match",
+"ar": "محلل مالي أول في البنك الأهلي السعودي، تطابق 92٪"
+}
+}

@@ -1,0 +1,602 @@
+{
+"ibEmptyS": {
+"en": "Ask any advisor a question before you book. Replies land here.",
+"ar": "اسأل أي مستشار قبل الحجز، وتصل ردوده هنا."
+},
+"ibNote": {
+"en": "Messages with advisors stay here. Sessions include a written follow-up.",
+"ar": "رسائلك مع المستشارين محفوظة هنا. وكل جلسة بعدها متابعة مكتوبة."
+},
+"ibPromptT": {
+"en": "Have a question before booking",
+"ar": "لديك سؤال قبل الحجز"
+},
+"ibPromptS": {
+"en": "Message any advisor free. Most reply the same day.",
+"ar": "راسل أي مستشار مجاناً. أغلبهم يرد بنفس اليوم."
+},
+"chBack": {
+"en": "Messages",
+"ar": "الرسائل"
+},
+"chFast": {
+"en": "Replies fast",
+"ar": "ترد بسرعة"
+},
+"lensChat": {
+"en": "Asking a question is the first yes. A small commitment made in her own words makes the booked session the natural next step.",
+"ar": "السؤال هو أول نعم. التزام صغير بكلمات المستخدم نفسه يجعل حجز الجلسة الخطوة التالية الطبيعية."
+},
+"chToday": {
+"en": "Today",
+"ar": "اليوم"
+},
+"chM1": {
+"en": "I have a Head of Finance interview at Rewaa on Thursday. Can we prep the panel stage in one session?",
+"ar": "عندي مقابلة لوظيفة رئيس المالية في رِوّاء يوم الخميس. نقدر نجهّز مرحلة اللجنة في جلسة وحدة؟"
+},
+"chT1": {
+"en": "Yes, one session is enough for the panel stage. I run it exactly like a Saudi panel, then we fix your answers together. Wednesday evening works.",
+"ar": "نعم، جلسة واحدة تكفي لمرحلة اللجنة. أديرها معك بالضبط مثل اللجان السعودية، وبعدها نعدّل إجاباتك معاً. مساء الأربعاء يناسب."
+},
+"chM2": {
+"en": "That works for me. Should I send my CV here or with the booking?",
+"ar": "يناسبني الوقت. أرسل سيرتي هنا أو مع الحجز؟"
+},
+"chT2": {
+"en": "Book the 60-minute Interview prep and add your CV in the booking notes.",
+"ar": "احجزي جلسة التحضير للمقابلة 60 دقيقة، وأرفقي سيرتك الذاتية في ملاحظات الحجز."
+},
+"chHiOther": {
+"en": "Marhaba. Ask me anything before you book.",
+"ar": "مرحباً. اسأليني عن أي شيء قبل الحجز."
+},
+"chNudge": {
+"en": "Ready when you are.",
+"ar": "كل شيء جاهز، يبقى الحجز فقط."
+},
+"chNudgeBtn": {
+"en": "Book Interview prep, 230 ¤",
+"ar": "احجز التحضير للمقابلة، 230 ¤"
+},
+"chNudgeT": {
+"en": "Book {s}, {p} ¤",
+"ar": "احجز {s}، {p} ¤"
+},
+"chPh": {
+"en": "Write a message",
+"ar": "اكتب رسالة"
+},
+"chAuto1": {
+"en": "I will reply properly within two hours. If it is urgent, book a slot and we take it from there.",
+"ar": "برد عليك رداً وافياً خلال ساعتين. إذا كان الموضوع مستعجلاً، احجزي موعداً ونكمل من هناك."
+},
+"chAuto2": {
+"en": "This is {n}. I read every message myself, and you will get a proper answer today.",
+"ar": "معك {n}. أقرأ كل رسالة بنفسي، وستصلك إجابة وافية اليوم."
+},
+"chAuto3": {
+"en": "Good question. The short answer fits here, the full one deserves a session.",
+"ar": "سؤال ممتاز. الجواب المختصر يكفي هنا، والجواب الكامل يستاهل جلسة."
+},
+"chAckAtt": {
+"en": "Received. I will look before our session.",
+"ar": "وصلني الملف. بطّلع عليه قبل جلستنا."
+},
+"chAttH": {
+"en": "Send an attachment",
+"ar": "أرسل مرفقاً"
+},
+"chAttS": {
+"en": "Your advisor sees it instantly and can open it before your session.",
+"ar": "مستشارك يشوفه فوراً ويقدر يفتحه قبل الجلسة."
+},
+"chAttCv": {
+"en": "My CV",
+"ar": "سيرتي الذاتية"
+},
+"chAttJd": {
+"en": "Rewaa job description",
+"ar": "الوصف الوظيفي لرِوّاء"
+},
+"chAttJdS": {
+"en": "PDF · 1.1 MB · from your application",
+"ar": "PDF · 1.1 MB · من طلب تقديمك"
+},
+"chAttTg": {
+"en": "My target roles",
+"ar": "وظائفي المستهدفة"
+},
+"chAttTgS": {
+"en": "DOCX · 16 KB · from your profile",
+"ar": "DOCX · 16 KB · من ملفك المهني"
+},
+"chAttClose": {
+"en": "Cancel",
+"ar": "إلغاء"
+},
+"chAttCvF": {
+"en": "Noura_AlAmri.pdf",
+"ar": "Noura_AlAmri.pdf"
+},
+"chAttJdF": {
+"en": "Rewaa job description",
+"ar": "الوصف الوظيفي لرِوّاء"
+},
+"chAttTgF": {
+"en": "My target roles",
+"ar": "وظائفي المستهدفة"
+},
+"chSysBook": {
+"en": "Booked · {s} · {d} {t}",
+"ar": "تم الحجز · {s} · {d} {t}"
+},
+"chSysPrev": {
+"en": "Booking confirmed",
+"ar": "تم تأكيد الحجز"
+},
+"chDayWedF": {
+"en": "Wednesday",
+"ar": "الأربعاء"
+},
+"btH": {
+"en": "What do you want to work on",
+"ar": "ما تبي تشتغل عليه"
+},
+"btWith": {
+"en": "With",
+"ar": "مع"
+},
+"btReply": {
+"en": "Replies within",
+"ar": "الرد خلال"
+},
+"btO1": {
+"en": "Interview prep",
+"ar": "تحضير المقابلة"
+},
+"btO2": {
+"en": "Full mock panel with written feedback",
+"ar": "لجنة تجريبية كاملة مع ملاحظات مكتوبة"
+},
+"btO3": {
+"en": "Offer review and salary talk",
+"ar": "مراجعة العرض الوظيفي ونقاش الراتب"
+},
+"btO4": {
+"en": "Interview-ready pack",
+"ar": "باقة الجاهزية للمقابلة"
+},
+"btO4s": {
+"en": "3 x Interview prep · 60 min each · Uptal call",
+"ar": "3 جلسات تحضير للمقابلة · 60 دقيقة للجلسة · مكالمة أبتال"
+},
+"btSave": {
+"en": "Save 141 ¤",
+"ar": "وفّر 141 ¤"
+},
+"btReco": {
+"en": "Recommended before Thursday",
+"ar": "موصى بها قبل الخميس"
+},
+"btLocU": {
+"en": "Uptal call",
+"ar": "مكالمة أبتال"
+},
+"btLocG": {
+"en": "Google Meet",
+"ar": "Google Meet"
+},
+"btNote": {
+"en": "Your 15% subscriber discount applies to single sessions. The pack is already discounted, so it does not stack.",
+"ar": "خصم المشتركين 15% ينطبق على الجلسات المفردة. الباقة مخفّضة أصلاً فما ينضاف عليها الخصم."
+},
+"btCta": {
+"en": "Choose a time",
+"ar": "اختر الوقت"
+},
+"lensBookType": {
+"en": "Three clear options and the best fit for Thursday pre-selected. The pack anchors below the singles and nothing is added without a tap.",
+"ar": "ثلاثة خيارات واضحة والأنسب ليوم الخميس محدد مسبقاً. الباقة تجلس تحت الجلسات المفردة كمرساة سعرية، ولا شيء يُضاف بدون ضغطة منك."
+},
+"bsBack": {
+"en": "Session type",
+"ar": "نوع الجلسة"
+},
+"bsH": {
+"en": "Pick a time",
+"ar": "اختر وقت جلستك"
+},
+"bsSubPre": {
+"en": "Riyadh time. Sessions with",
+"ar": "بتوقيت الرياض. الجلسات مع"
+},
+"bsD1": {
+"en": "MON",
+"ar": "إثن"
+},
+"bsD2": {
+"en": "TUE",
+"ar": "ثلا"
+},
+"bsD3": {
+"en": "WED",
+"ar": "أرب"
+},
+"bsD4": {
+"en": "THU",
+"ar": "خمي"
+},
+"bsD5": {
+"en": "FRI",
+"ar": "جمع"
+},
+"bsD6": {
+"en": "SAT",
+"ar": "سبت"
+},
+"bsD7": {
+"en": "SUN",
+"ar": "أحد"
+},
+"bsDF1": {
+"en": "Monday",
+"ar": "الاثنين"
+},
+"bsDF2": {
+"en": "Tuesday",
+"ar": "الثلاثاء"
+},
+"bsDF3": {
+"en": "Wednesday",
+"ar": "الأربعاء"
+},
+"bsDF4": {
+"en": "Thursday",
+"ar": "الخميس"
+},
+"bsDF5": {
+"en": "Friday",
+"ar": "الجمعة"
+},
+"bsDF6": {
+"en": "Saturday",
+"ar": "السبت"
+},
+"bsDF7": {
+"en": "Sunday",
+"ar": "الأحد"
+},
+"bsToday": {
+"en": "Today",
+"ar": "اليوم"
+},
+"bsFree": {
+"en": "3 free",
+"ar": "3 متاحة"
+},
+"bsTimes": {
+"en": "Available times",
+"ar": "الأوقات المتاحة"
+},
+"bsMin": {
+"en": "min",
+"ar": "دقيقة"
+},
+"bsEve": {
+"en": "Evenings fit most working candidates.",
+"ar": "الأوقات المسائية تناسب أغلب من هم على رأس العمل."
+},
+"bsWarn": {
+"en": "Your Rewaa interview is Thursday 10:00. Wednesday 19:00 leaves you the evening to apply the feedback.",
+"ar": "مقابلتك مع رِوّاء الخميس 10:00. حجز الأربعاء 19:00 يترك لك المساء كاملاً لتطبيق الملاحظات."
+},
+"bsSumL": {
+"en": "Your session",
+"ar": "جلستك"
+},
+"bsCta": {
+"en": "Continue to payment",
+"ar": "أكمل للدفع"
+},
+"lensBookSlot": {
+"en": "Real availability, near days first. Taken slots stay visible and struck through, so 3 free reads as fact, not pressure.",
+"ar": "التوفر حقيقي والأيام القريبة أولاً. المواعيد المحجوزة تظل ظاهرة ومشطوبة، فعبارة 3 متاحة تُقرأ كمعلومة لا كضغط."
+},
+"bpBack": {
+"en": "Times",
+"ar": "الأوقات"
+},
+"bpH": {
+"en": "Confirm and pay",
+"ar": "أكّد وادفع"
+},
+"bpDisc": {
+"en": "Auto-Apply subscriber, 15% off",
+"ar": "مشترك التقديم التلقائي، خصم 15%"
+},
+"bpNoStack": {
+"en": "The pack is already discounted. The subscriber perk does not stack.",
+"ar": "الباقة مخفّضة أصلاً، وخصم المشتركين ما ينضاف عليها."
+},
+"bpTotalL": {
+"en": "Total",
+"ar": "الإجمالي"
+},
+"bpVat": {
+"en": "Prices include 15% VAT.",
+"ar": "الأسعار شاملة ضريبة القيمة المضافة 15%."
+},
+"bpPolicyLink": {
+"en": "Read the full booking policy",
+"ar": "اقرأ سياسة الحجز كاملة"
+},
+"bpPayH": {
+"en": "Payment method",
+"ar": "طريقة الدفع"
+},
+"bpPm1": {
+"en": "mada ending 4421",
+"ar": "مدى تنتهي بـ4421"
+},
+"bpPm1s": {
+"en": "Default",
+"ar": "الافتراضية"
+},
+"bpPm2": {
+"en": "Apple Pay",
+"ar": "Apple Pay"
+},
+"bpPm3": {
+"en": "Add a card",
+"ar": "أضف بطاقة"
+},
+"bpPmVisa": {
+"en": "Visa ending 8832",
+"ar": "Visa تنتهي بـ8832"
+},
+"bpPmVisaS": {
+"en": "Added just now",
+"ar": "أُضيفت الآن"
+},
+"bpPolicy": {
+"en": "Free reschedule or cancellation up to 24 hours before the session. Inside 24 hours the session is charged but kept as a credit for one rebooking.",
+"ar": "التعديل أو الإلغاء مجاني حتى 24 ساعة قبل الجلسة. خلال الـ24 ساعة الأخيرة تُخصم الجلسة لكنها تُحفظ لك كرصيد تعيد به الحجز مرة واحدة."
+},
+"bpTrust": {
+"en": "Payment is held by Uptal and released to the advisor after the session.",
+"ar": "المبلغ محفوظ عند أبتال وينحوّل للمستشار بعد انتهاء الجلسة."
+},
+"bpPay1": {
+"en": "Pay",
+"ar": "ادفع"
+},
+"bpPay2": {
+"en": "and book",
+"ar": "واحجز"
+},
+"bpChange": {
+"en": "Change time",
+"ar": "غيّر الوقت"
+},
+"bpCsH": {
+"en": "Add a card",
+"ar": "أضف بطاقة"
+},
+"bpCsSub": {
+"en": "mada, Visa or Mastercard. Stored securely with our payment provider, Uptal never sees the full number.",
+"ar": "مدى أو Visa أو Mastercard. تُحفظ بأمان لدى مزوّد الدفع، وأبتال لا ترى رقم البطاقة كاملاً."
+},
+"bpCsNum": {
+"en": "Card number",
+"ar": "رقم البطاقة"
+},
+"bpCsNumPh": {
+"en": "1234 5678 9012 8832",
+"ar": "1234 5678 9012 8832"
+},
+"bpCsExp": {
+"en": "Expiry",
+"ar": "تاريخ الانتهاء"
+},
+"bpCsExpPh": {
+"en": "MM/YY",
+"ar": "MM/YY"
+},
+"bpCsCvv": {
+"en": "CVV",
+"ar": "رمز التحقق CVV"
+},
+"bpCsCvvPh": {
+"en": "123",
+"ar": "123"
+},
+"bpCsSave": {
+"en": "Save card",
+"ar": "احفظ البطاقة"
+},
+"bpCsCancel": {
+"en": "Cancel",
+"ar": "إلغاء"
+},
+"tBpCard": {
+"en": "Card added.",
+"ar": "انضافت البطاقة."
+},
+"lensBookPay": {
+"en": "The full price stays visible and the subscriber perk shows as money kept. The total sits right above the pay button, nothing added at the last step.",
+"ar": "السعر الكامل يظل ظاهر وخصم المشتركين ينعرض كمبلغ انحفظ لك. الإجمالي فوق زر الدفع مباشرة وما في رسوم تنضاف آخر لحظة."
+},
+"bdHa": {
+"en": "Booked.",
+"ar": "تم الحجز."
+},
+"bdWith": {
+"en": "with",
+"ar": "مع"
+},
+"bdMin": {
+"en": "minutes",
+"ar": "دقيقة"
+},
+"bdOnU": {
+"en": "on an Uptal call",
+"ar": "على مكالمة أبتال"
+},
+"bdOnG": {
+"en": "on Google Meet",
+"ar": "على Google Meet"
+},
+"bdCharged": {
+"en": "We charged",
+"ar": "خصمنا"
+},
+"bdToMada": {
+"en": "to your mada card.",
+"ar": "من بطاقة مدى."
+},
+"bdToApple": {
+"en": "via Apple Pay.",
+"ar": "عبر Apple Pay."
+},
+"bdToVisa": {
+"en": "to your Visa ending 8832.",
+"ar": "من بطاقة Visa المنتهية بـ8832."
+},
+"bdPackDesc": {
+"en": "Interview-ready pack, 3 sessions of 60 minutes on Uptal calls",
+"ar": "باقة الجاهزية للمقابلة، 3 جلسات كل واحدة 60 دقيقة على مكالمات أبتال"
+},
+"bdPackTail": {
+"en": "Your first session is booked, schedule the other two anytime.",
+"ar": "جلستك الأولى محجوزة، واحجز الثنتين الباقيات وقت ما يناسبك."
+},
+"bdIcsDesc": {
+"en": "Booked on Uptal. Join from the Sessions tab, the room opens 10 minutes before the session.",
+"ar": "محجوزة عبر أبتال. ادخل من صفحة الجلسات، الغرفة تفتح قبل الجلسة بـ10 دقايق."
+},
+"bdNextH": {
+"en": "What happens next",
+"ar": "ما يحدث بعد الحجز"
+},
+"bdN1": {
+"en": "Calendar invite sent",
+"ar": "انرسلت دعوة التقويم"
+},
+"bdSent": {
+"en": "Sent",
+"ar": "تم"
+},
+"bdN2Pre": {
+"en": "Share my profile with",
+"ar": "شارك ملفي مع"
+},
+"bdN2s": {
+"en": "They get your CV, target role and the Rewaa job description",
+"ar": "توصلهم سيرتك الذاتية ووظيفتك المستهدفة ووصف وظيفة رِوّاء"
+},
+"bdN3": {
+"en": "Join from Sessions",
+"ar": "ادخل من صفحة الجلسات"
+},
+"bdN3s": {
+"en": "The room opens 10 minutes before your session",
+"ar": "الغرفة تفتح قبل الجلسة بـ10 دقايق"
+},
+"bdTip": {
+"en": "Come with the job description open and one story per achievement. You get a written follow-up after the session.",
+"ar": "احضر ووصف الوظيفة مفتوح أمامك، وقصة لكل إنجاز. وبعد الجلسة تصلك ملاحظات مكتوبة."
+},
+"bdCal": {
+"en": "Add to my calendar",
+"ar": "أضفها لتقويمي"
+},
+"tBdCal": {
+"en": "Calendar invite downloaded.",
+"ar": "انحمّلت دعوة التقويم."
+},
+"bdCta": {
+"en": "View my sessions",
+"ar": "اعرض جلساتي"
+},
+"bdBackAdv": {
+"en": "Back to Advisors",
+"ar": "ارجع للمستشارين"
+},
+"lensBookDone": {
+"en": "The flow ends on certainty: what was charged, when the session is, and the exact next step, so the last memory is calm confidence.",
+"ar": "التجربة تنتهي على يقين: ما الذي خُصم، ومتى الجلسة، وما الخطوة التالية بالضبط، فآخر انطباع اطمئنان."
+},
+"ssH": {
+"en": "Sessions",
+"ar": "الجلسات"
+},
+"lensSessions": {
+"en": "Booked time feels like owned time. Upcoming sessions sit on top like appointments already hers, and past sessions keep paying through reports and receipts.",
+"ar": "الوقت المحجوز يصبح وقتاً مملوكاً. الجلسات القادمة في الأعلى مثل مواعيد محسومة، والجلسات السابقة تستمر في العطاء عبر تقاريرها وإيصالاتها."
+},
+"ssUpcoming": {
+"en": "Upcoming",
+"ar": "القادمة"
+},
+"ssUp1": {
+"en": "Interview prep with Layla Al-Otaibi",
+"ar": "تجهيز للمقابلة مع ليلى العتيبي"
+},
+"ssUpTail": {
+"en": "60 min · Uptal call",
+"ar": "60 دقيقة · مكالمة أبتال"
+},
+"ssIn2": {
+"en": "Starts in 2 days",
+"ar": "تبدأ بعد يومين"
+},
+"ssIn3": {
+"en": "Starts in 3 days",
+"ar": "تبدأ بعد 3 أيام"
+},
+"ssIn4": {
+"en": "Starts in 4 days",
+"ar": "تبدأ بعد 4 أيام"
+},
+"ssCxSt": {
+"en": "Cancelled · refunded",
+"ar": "ملغاة · تم الاسترداد"
+},
+"ssJoinHint": {
+"en": "Join opens 10 minutes before the session.",
+"ar": "زر الانضمام يفتح قبل الجلسة بـ10 دقائق."
+},
+"ssPast": {
+"en": "Past",
+"ar": "السابقة"
+},
+"ssPast1": {
+"en": "Interview prep with Layla Al-Otaibi",
+"ar": "تجهيز للمقابلة مع ليلى العتيبي"
+},
+"ssPast1s": {
+"en": "Completed Wednesday · 60 min",
+"ar": "اكتملت الأربعاء · 60 دقيقة"
+},
+"ssPast1st": {
+"en": "Report ready",
+"ar": "التقرير جاهز"
+},
+"ssPast2": {
+"en": "CV and LinkedIn review with Sara Kanaan",
+"ar": "مراجعة السيرة الذاتية ولينكدإن مع سارة كنعان"
+},
+"ssPast2s": {
+"en": "Last month · Google Meet",
+"ar": "الشهر الماضي · Google Meet"
+},
+"ssDemo": {
+"en": "Demo note: the list shows the same booking before and after the session so both states are tappable.",
+"ar": "ملاحظة للعرض: القائمة تعرض نفس الحجز قبل الجلسة وبعدها لتجربة الحالتين."
+},
+"ssCredits": {
+"en": "You have no session credits. Cancellations inside 24 hours become credits automatically, ready for your next booking.",
+"ar": "لا توجد لديك أرصدة جلسات. الإلغاء داخل 24 ساعة يتحوّل تلقائياً لرصيد جاهز لحجزك القادم."
+}
+}

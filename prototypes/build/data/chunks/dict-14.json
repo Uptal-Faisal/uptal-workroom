@@ -1,0 +1,602 @@
+{
+"ssNextT": {
+"en": "Book your next session",
+"ar": "احجز جلستك القادمة"
+},
+"ssNextS": {
+"en": "Advisors for interviews, offers, CVs and more",
+"ar": "مستشارون للمقابلات والعروض والسير الذاتية وأكثر"
+},
+"sdBack": {
+"en": "Sessions",
+"ar": "الجلسات"
+},
+"lensSessionDetail": {
+"en": "A visible countdown, shared files and a short prep list pull the session toward a strong outcome. The closer it gets, the more prepared Noura feels.",
+"ar": "عدّاد ظاهر وملفات مشتركة وقائمة تجهيز قصيرة تسحب الجلسة نحو نتيجة قوية. كل ما قرب الموعد، زاد إحساس نورة بالجاهزية."
+},
+"sdK": {
+"en": "Upcoming session",
+"ar": "جلسة قادمة"
+},
+"sdKCx": {
+"en": "Cancelled session",
+"ar": "جلسة ملغاة"
+},
+"sdBig": {
+"en": "Interview prep with Layla",
+"ar": "تجهيز للمقابلة مع ليلى"
+},
+"sdSt2": {
+"en": "minutes",
+"ar": "دقيقة"
+},
+"sdSt3b": {
+"en": "Uptal",
+"ar": "أبتال"
+},
+"sdSt3": {
+"en": "video call",
+"ar": "مكالمة فيديو"
+},
+"sdJoinOpens": {
+"en": "Join opens 10 minutes before start",
+"ar": "الانضمام يفتح قبل البداية بـ10 دقائق"
+},
+"sdJoin": {
+"en": "Join the call",
+"ar": "ادخل المكالمة"
+},
+"sdRiyadh": {
+"en": ", Riyadh time.",
+"ar": " بتوقيت الرياض."
+},
+"sdOnUptal": {
+"en": "This session runs on an Uptal call",
+"ar": "هذه الجلسة تتم عبر مكالمة أبتال"
+},
+"sdSharedH": {
+"en": "Shared with Layla",
+"ar": "تمت مشاركته مع ليلى"
+},
+"sdShared": {
+"en": "Shared",
+"ar": "تمت المشاركة"
+},
+"sdSh1": {
+"en": "Your CV",
+"ar": "سيرتك الذاتية"
+},
+"sdSh2": {
+"en": "Target role",
+"ar": "الوظيفة المستهدفة"
+},
+"sdSh2s": {
+"en": "Head of Finance",
+"ar": "رئيس الإدارة المالية"
+},
+"sdSh3": {
+"en": "Job description",
+"ar": "الوصف الوظيفي"
+},
+"sdSh3s": {
+"en": "Head of Finance at Rewaa",
+"ar": "رئيس الإدارة المالية في رِوّاء"
+},
+"sdShTgl": {
+"en": "Share interview outcome afterwards",
+"ar": "شارك نتيجة المقابلة بعدها"
+},
+"sdShTglS": {
+"en": "Layla follows up on how it went",
+"ar": "ليلى تتابع معك ما حدث"
+},
+"sdPrepPre": {
+"en": "Get ready before",
+"ar": "جهّز نفسك قبل"
+},
+"sdP1": {
+"en": "Open the Rewaa job description",
+"ar": "افتح الوصف الوظيفي لرِوّاء"
+},
+"sdP1s": {
+"en": "Layla walks through it line by line",
+"ar": "ليلى بتمر عليه معك سطر سطر"
+},
+"sdP2": {
+"en": "One story per achievement",
+"ar": "قصة واحدة لكل إنجاز"
+},
+"sdP2s": {
+"en": "Numbers first, then how you did it",
+"ar": "الأرقام أولاً، ثم كيف أنجزتها"
+},
+"sdP3": {
+"en": "Quiet room and a headset",
+"ar": "غرفة هادية وسماعة"
+},
+"sdP3s": {
+"en": "Test your mic from the call screen",
+"ar": "جرّب المايك من شاشة المكالمة"
+},
+"sdManageH": {
+"en": "Manage",
+"ar": "إدارة الجلسة"
+},
+"sdRe": {
+"en": "Reschedule",
+"ar": "غيّر الموعد"
+},
+"sdMsg": {
+"en": "Message Layla",
+"ar": "راسل ليلى"
+},
+"sdMsgS": {
+"en": "Replies in under 2 hours",
+"ar": "ترد في أقل من ساعتين"
+},
+"sdRc": {
+"en": "Receipt",
+"ar": "الإيصال"
+},
+"sdRcS": {
+"en": "Paid 195 ¤ · mada ending 4421",
+"ar": "مدفوع 195 ¤ · مدى المنتهية بـ4421"
+},
+"sdCancel": {
+"en": "Cancel session",
+"ar": "ألغِ الجلسة"
+},
+"sdPolicy": {
+"en": "Reschedule or cancel free up to 24 hours before the session. Inside 24 hours the session is charged but kept as a credit for one rebooking.",
+"ar": "التعديل أو الإلغاء مجاني حتى 24 ساعة قبل الجلسة. داخل الـ24 ساعة تُحسب الجلسة وتنحفظ كرصيد لحجز جديد واحد."
+},
+"sdCxH": {
+"en": "Cancel this session",
+"ar": "إلغاء هذه الجلسة"
+},
+"sdCxPolicy": {
+"en": "It is Monday. You are outside the 24 hour window, so you get a full refund of 195 ¤ to your mada card.",
+"ar": "اليوم الاثنين، وأنت خارج نافذة الـ24 ساعة، فيرجع لك المبلغ كامل 195 ¤ على بطاقة مدى."
+},
+"sdCxWhy": {
+"en": "Tell us why, so we can make this better.",
+"ar": "أخبرنا بالسبب، حتى نحسّن التجربة."
+},
+"sdCxR1": {
+"en": "My plans changed",
+"ar": "تغيّرت خططي"
+},
+"sdCxR2": {
+"en": "I found another advisor",
+"ar": "لقيت مستشاراً ثانياً"
+},
+"sdCxR3": {
+"en": "The interview moved",
+"ar": "تغيّر موعد المقابلة"
+},
+"sdCxKeep": {
+"en": "Keep my session",
+"ar": "خلّني على جلستي"
+},
+"sdCxGo": {
+"en": "Cancel and refund 195 ¤",
+"ar": "ألغِ وأرجع لي 195 ¤"
+},
+"sdCxNote": {
+"en": "Keeping the session is the easy path on purpose. If you still cancel, the refund is full and immediate.",
+"ar": "خيار الإبقاء على الجلسة هو الأسهل عن قصد. وإذا ألغيت، يرجع لك المبلغ كامل وفوراً."
+},
+"sdCxDone": {
+"en": "This session was cancelled. 195 ¤ went back to your mada card.",
+"ar": "تم إلغاء هذه الجلسة، وأُعيد 195 ¤ إلى بطاقة مدى."
+},
+"sdRebook": {
+"en": "Book a new time with Layla",
+"ar": "احجز موعداً جديداً مع ليلى"
+},
+"tSdCx": {
+"en": "Session cancelled. 195 ¤ refunded to your mada card.",
+"ar": "تم إلغاء الجلسة، ورجع 195 ¤ على بطاقة مدى."
+},
+"rsBack": {
+"en": "Session",
+"ar": "الجلسة"
+},
+"lensReschedule": {
+"en": "Moving a session costs nothing outside 24 hours, so booking never feels like a trap and the next one comes easier.",
+"ar": "تغيير الموعد خارج الـ24 ساعة لا يكلّف شيئاً، فالحجز لا يصبح التزاماً مخيفاً، والحجز القادم يأتي أسهل."
+},
+"rsH": {
+"en": "Reply",
+"ar": "رد"
+},
+"rsNowPre": {
+"en": "Now:",
+"ar": "موعدك الحالي:"
+},
+"rsNowS": {
+"en": "Interview prep · 60 min · Uptal call",
+"ar": "تجهيز للمقابلة · 60 دقيقة · مكالمة أبتال"
+},
+"rsPick": {
+"en": "Pick a new time",
+"ar": "اختر وقتاً جديداً"
+},
+"rsWed": {
+"en": "WED",
+"ar": "أربعاء"
+},
+"rsThu": {
+"en": "THU",
+"ar": "خميس"
+},
+"rsFri": {
+"en": "FRI",
+"ar": "جمعة"
+},
+"rsSat": {
+"en": "SAT",
+"ar": "سبت"
+},
+"rsDTue": {
+"en": "Tuesday",
+"ar": "الثلاثاء"
+},
+"rsDWed": {
+"en": "Wednesday",
+"ar": "الأربعاء"
+},
+"rsDThu": {
+"en": "Thursday",
+"ar": "الخميس"
+},
+"rsDFri": {
+"en": "Friday",
+"ar": "الجمعة"
+},
+"rsFreeW": {
+"en": "free",
+"ar": "متاح"
+},
+"rsFreeUntil": {
+"en": "Free until",
+"ar": "مجاناً حتى"
+},
+"rsNotif": {
+"en": "Layla is notified automatically.",
+"ar": "ليلى يوصلها إشعار تلقائياً."
+},
+"rsSlotNote": {
+"en": "Crossed out times are taken. Your current slot stays yours until you confirm a new one.",
+"ar": "الأوقات المشطوبة محجوزة. موعدك الحالي محفوظ لك حتى تأكيد الجديد."
+},
+"rsWarn": {
+"en": "Thursday 10:00 is your Rewaa interview. Keep the prep before it.",
+"ar": "الخميس 10:00 مقابلتك مع رِوّاء. أبقِ التجهيز قبلها."
+},
+"rsCta": {
+"en": "Confirm new time",
+"ar": "أكّد الموعد الجديد"
+},
+"rsKeepPre": {
+"en": "Keep",
+"ar": "خلّه"
+},
+"tRsPick": {
+"en": "Pick a new time first.",
+"ar": "اختر وقتاً جديداً أولاً."
+},
+"tRsOk1": {
+"en": "Session moved to",
+"ar": "انتقلت الجلسة إلى"
+},
+"tRsOk2": {
+"en": "Layla has been notified.",
+"ar": "ووصل ليلى إشعار."
+},
+"rcBack": {
+"en": "Session",
+"ar": "الجلسة"
+},
+"lensReceipt": {
+"en": "Price, discount, card and tax details sit one tap away, so paying through Uptal keeps feeling safe.",
+"ar": "السعر والخصم والبطاقة وبيانات الضريبة كلها على بعد ضغطة، فالدفع عبر أبتال يظل مريحاً وآمناً."
+},
+"rcH": {
+"en": "Receipt",
+"ar": "الإيصال"
+},
+"rcPaid": {
+"en": "Paid",
+"ar": "مدفوع"
+},
+"rcRefunded": {
+"en": "Refunded",
+"ar": "تم الاسترداد"
+},
+"rcL1": {
+"en": "Interview prep, 60 min",
+"ar": "تجهيز للمقابلة، 60 دقيقة"
+},
+"rcL1s": {
+"en": "CV and LinkedIn review",
+"ar": "مراجعة السيرة الذاتية ولينكدإن"
+},
+"rcL2": {
+"en": "Subscriber discount 15%",
+"ar": "خصم المشتركين 15٪"
+},
+"rcL3": {
+"en": "Paid",
+"ar": "المدفوع"
+},
+"rcVat": {
+"en": "Prices include 15% VAT.",
+"ar": "الأسعار تشمل ضريبة القيمة المضافة 15٪."
+},
+"rcMeta": {
+"en": "mada ending 4421 · Monday, 2:58 pm",
+"ar": "مدى المنتهية بـ4421 · الاثنين، 2:58 مساءً"
+},
+"rcMetaSara": {
+"en": "mada ending 4421 · Paid last month",
+"ar": "مدى المنتهية بـ4421 · مدفوع الشهر الماضي"
+},
+"rcSessPre": {
+"en": "Session:",
+"ar": "الجلسة:"
+},
+"rcSessSara": {
+"en": "Session completed last month over Google Meet.",
+"ar": "اكتملت الجلسة الشهر الماضي عبر Google Meet."
+},
+"rcSeller": {
+"en": "Uptal Information Technology Co, Riyadh. VAT 300012345600003. Session with Layla Al-Otaibi.",
+"ar": "شركة أبتال لتقنية المعلومات، الرياض. الرقم الضريبي 300012345600003. جلسة مع ليلى العتيبي."
+},
+"rcSellerSara": {
+"en": "Uptal Information Technology Co, Riyadh. VAT 300012345600003. Session with Sara Kanaan.",
+"ar": "شركة أبتال لتقنية المعلومات، الرياض. الرقم الضريبي 300012345600003. جلسة مع سارة كنعان."
+},
+"rcPerk": {
+"en": "Your Auto-Apply subscription saved you 35 ¤ on this session.",
+"ar": "اشتراكك في التقديم التلقائي وفّر لك 35 ¤ في هذه الجلسة."
+},
+"rcPerkSara": {
+"en": "Your Auto-Apply subscription saved you 22 ¤ on this session.",
+"ar": "اشتراكك في التقديم التلقائي وفّر لك 22 ¤ في هذه الجلسة."
+},
+"rcPdf": {
+"en": "Download PDF",
+"ar": "حمّل PDF"
+},
+"rcBackTo": {
+"en": "Back to session",
+"ar": "ارجع للجلسة"
+},
+"rcBackTo2": {
+"en": "Back to sessions",
+"ar": "ارجع للجلسات"
+},
+"tRcPdf": {
+"en": "Receipt downloaded.",
+"ar": "تم تحميل الإيصال."
+},
+"sdPolicyLink": {
+"en": "Read the full policy",
+"ar": "اقرأ السياسة كاملة"
+},
+"rcPolicyLink": {
+"en": "Booking policy",
+"ar": "سياسة الحجز"
+},
+"pyBack": {
+"en": "Back",
+"ar": "رجوع"
+},
+"lensPolicy": {
+"en": "Every checkout hesitation has a written answer: what it costs, what happens when plans change, and when money comes back. Clarity closes more bookings than persuasion.",
+"ar": "كل تردد قبل الدفع له جواب مكتوب: كم التكلفة، وما يحدث إذا تغيّرت الخطط، ومتى يعود المبلغ. الوضوح يُغلق حجوزات أكثر من أي إقناع."
+},
+"pyH": {
+"en": "Booking policy",
+"ar": "سياسة الحجز"
+},
+"pySub": {
+"en": "How booking, money and time work on Uptal Advisors. The short, honest version.",
+"ar": "كيف يشتغل الحجز والدفع والمواعيد في مستشاري أبتال. النسخة القصيرة والواضحة."
+},
+"pyS1": {
+"en": "Booking and payment",
+"ar": "الحجز والدفع"
+},
+"pyS1a": {
+"en": "Instant booking",
+"ar": "حجز فوري"
+},
+"pyS1as": {
+"en": "Picking a free slot confirms the session and charges your card right away.",
+"ar": "اختيار وقت متاح يأكّد الجلسة ويخصم من بطاقتك مباشرة."
+},
+"pyS1b": {
+"en": "Prices include 15% VAT",
+"ar": "الأسعار تشمل ضريبة القيمة المضافة 15٪"
+},
+"pyS1bs": {
+"en": "The price you see is the price you pay. The receipt shows the tax detail.",
+"ar": "السعر الذي تراه هو ما تدفعه، وتفاصيل الضريبة تظهر في الإيصال."
+},
+"pyS1c": {
+"en": "Subscriber perk",
+"ar": "ميزة المشتركين"
+},
+"pyS1cs": {
+"en": "Active Auto-Apply subscribers get 15% off single sessions. Bundles are already discounted.",
+"ar": "مشتركو التقديم التلقائي النشطون يحصلون على خصم 15٪ على الجلسات المفردة. الباقات مخفّضة أصلاً."
+},
+"pyS2": {
+"en": "Reschedule and cancellation",
+"ar": "تغيير الموعد والإلغاء"
+},
+"pyS2a": {
+"en": "Free up to 24 hours before",
+"ar": "مجاني حتى 24 ساعة قبل الجلسة"
+},
+"pyS2as": {
+"en": "Move or cancel with a full refund any time up to 24 hours before the session.",
+"ar": "غيّر الموعد أو ألغِ مع استرداد كامل في أي وقت قبل الجلسة بـ24 ساعة."
+},
+"pyS2b": {
+"en": "Inside 24 hours",
+"ar": "داخل الـ24 ساعة"
+},
+"pyS2bs": {
+"en": "The amount becomes a session credit, used automatically on your next booking.",
+"ar": "يتحوّل المبلغ لرصيد جلسة، ويُستخدم تلقائياً في حجزك القادم."
+},
+"pyS3": {
+"en": "Refunds",
+"ar": "الاسترداد"
+},
+"pyS3a": {
+"en": "Advisor cancellation or no-show",
+"ar": "إلغاء المستشار أو غيابه"
+},
+"pyS3as": {
+"en": "Full refund to your original payment method within 5 business days.",
+"ar": "استرداد كامل لوسيلة الدفع الأصلية خلال 5 أيام عمل."
+},
+"pyS3b": {
+"en": "The simple rule",
+"ar": "القاعدة ببساطة"
+},
+"pyS3bs": {
+"en": "If a session does not happen, you get your money back.",
+"ar": "إذا ما صارت الجلسة، يرجع لك مبلغك."
+},
+"pyS4": {
+"en": "Written follow-up promise",
+"ar": "وعد المتابعة المكتوبة"
+},
+"pyS4a": {
+"en": "A written follow-up after every session",
+"ar": "متابعة مكتوبة بعد كل جلسة"
+},
+"pyS4as": {
+"en": "Your advisor sends notes and next steps within 24 hours. It is part of the price.",
+"ar": "مستشارك يرسل الملاحظات والخطوات القادمة خلال 24 ساعة. وهي جزء من السعر."
+},
+"pyS5": {
+"en": "Privacy",
+"ar": "الخصوصية"
+},
+"pyS5a": {
+"en": "Your data stays yours",
+"ar": "بياناتك تظل لك"
+},
+"pyS5as": {
+"en": "Your CV and target roles are shared only with advisors you book or message.",
+"ar": "سيرتك الذاتية ووظائفك المستهدفة تُشارك فقط مع المستشارين الذين تحجز معهم أو تراسلهم."
+},
+"pyVer": {
+"en": "Booking policy · March 2027. The same rules apply to every advisor on Uptal.",
+"ar": "سياسة الحجز · مارس 2027. نفس القواعد تنطبق على كل مستشاري أبتال."
+},
+"clWho": {
+"en": "Layla Al-Otaibi",
+"ar": "ليلى العتيبي"
+},
+"clWhos": {
+"en": "Interview prep · 60 min · Uptal call",
+"ar": "التحضير للمقابلة · 60 دقيقة · مكالمة أبتال"
+},
+"clCapL": {
+"en": "Live captions",
+"ar": "التفريغ المباشر"
+},
+"clCap": {
+"en": "Layla: give me the close story again, but lead with the result, nine days to five.",
+"ar": "ليلى: أعطيني قصة الإقفال مرة أخرى، لكن ابدئي بالنتيجة، من 9 أيام إلى 5."
+},
+"clNotesH": {
+"en": "Your private notes",
+"ar": "ملاحظاتك الخاصة"
+},
+"clNotesPh": {
+"en": "What you want to remember for Thursday",
+"ar": "ما تريدين تذكّره يوم الخميس"
+},
+"clNotesMut": {
+"en": "Only you see these. They stay attached to this session.",
+"ar": "لا يراها أحد غيرك، وتبقى محفوظة مع هذه الجلسة."
+},
+"clNotesSave": {
+"en": "Save",
+"ar": "حفظ"
+},
+"tClSaved": {
+"en": "Notes saved.",
+"ar": "انحفظت الملاحظات."
+},
+"lensRate": {
+"en": "The session just ended, so the value is at its peak. We ask for one tap now, nothing pre-filled, and skipping is always one line away.",
+"ar": "الجلسة انتهت للتو والقيمة في ذروتها. نطلب ضغطة واحدة الآن، دون أي شيء معبّأ مسبقاً، والتخطي دائماً على بعد سطر واحد."
+},
+"rtH": {
+"en": "How was your session with Layla",
+"ar": "كيف كانت جلستك مع ليلى"
+},
+"rtSub": {
+"en": "Interview prep · 60 min · ended just now",
+"ar": "التحضير للمقابلة · 60 دقيقة · انتهت للتو"
+},
+"rtQ": {
+"en": "Rate the session",
+"ar": "قيّم الجلسة"
+},
+"rtTagsL": {
+"en": "What stood out",
+"ar": "ما الذي ميّز الجلسة"
+},
+"rtT1": {
+"en": "Knew the Saudi market",
+"ar": "تعرف السوق السعودي"
+},
+"rtT2": {
+"en": "Concrete fixes",
+"ar": "تصحيحات عملية"
+},
+"rtT3": {
+"en": "Worth the price",
+"ar": "تستاهل السعر"
+},
+"rtT4": {
+"en": "Great listener",
+"ar": "تنصت لك فعلاً"
+},
+"rtNoteL": {
+"en": "Anything else, optional",
+"ar": "أي شيء آخر، اختياري"
+},
+"rtPh": {
+"en": "Anything Layla should keep doing",
+"ar": "شيء تتمنى أن تستمر عليه ليلى"
+},
+"rtConsent": {
+"en": "Show my first name on Layla's profile.",
+"ar": "اعرضوا اسمي الأول في ملف ليلى."
+},
+"rtCta": {
+"en": "Submit rating",
+"ar": "أرسل التقييم"
+},
+"rtSkip": {
+"en": "Skip",
+"ar": "تخطّي"
+},
+"tRtOk": {
+"en": "Thank you. Your rating helps other candidates.",
+"ar": "شكراً لك. تقييمك يساعد باقي الباحثين عن عمل."
+}
+}

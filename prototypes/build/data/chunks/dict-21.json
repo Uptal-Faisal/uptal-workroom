@@ -1,0 +1,602 @@
+{
+"cvtLibRow": {
+"en": "Your tailored CVs",
+"ar": "سيرك الذاتية المخصصة"
+},
+"cvtLibRowS": {
+"en": "{n} written this month, all in your library",
+"ar": "{n} سيرة مكتوبة هذا الشهر، كلها في مكتبتك"
+},
+"cvtManageRow": {
+"en": "Manage add-on",
+"ar": "إدارة الإضافة"
+},
+"cvtManageRowS": {
+"en": "{p} ¤ a month, billed on the 27th with your plan",
+"ar": "{p} ¤ شهرياً، تُحصّل يوم 27 مع باقتك"
+},
+"cvtSaveCta": {
+"en": "Save and continue",
+"ar": "احفظ وتابع"
+},
+"cvtTSaved": {
+"en": "Saved. Applies from your next application.",
+"ar": "تم الحفظ. يُطبّق من طلبك القادم."
+},
+"lensCvtStudio": {
+"en": "Setup asks three things beside a live preview, and every later change saves at once. The status card states what is on, what it costs and when, in the same calm tone as the plan page.",
+"ar": "الإعداد يسأل ثلاثة أشياء بجانب معاينة حية، وكل تغيير لاحق يُحفظ فوراً. بطاقة الحالة تقول ما هو مفعّل، وكم يكلّف، ومتى، بنفس الهدوء الذي في صفحة الباقة."
+},
+"cvtSnBack": {
+"en": "Pipeline",
+"ar": "المسار"
+},
+"cvtSnBackApp": {
+"en": "Application",
+"ar": "الطلب"
+},
+"cvtSentBack": {
+"en": "The CV we sent",
+"ar": "السيرة التي أرسلناها"
+},
+"cvtSnWhen": {
+"en": "Sent Monday, 09:12",
+"ar": "أُرسلت الاثنين، 09:12"
+},
+"cvtTabCv": {
+"en": "CV",
+"ar": "السيرة الذاتية"
+},
+"cvtTabCover": {
+"en": "Cover letter",
+"ar": "خطاب التغطية"
+},
+"cvtSnChip": {
+"en": "{n}% match · 14 of 16 keywords",
+"ar": "تطابق {n}٪ · 14 من 16 كلمة مفتاحية"
+},
+"cvtSnChipOff": {
+"en": "Sent as uploaded · 41% match",
+"ar": "أُرسلت كما رُفعت · تطابق 41٪"
+},
+"cvtSnChanged": {
+"en": "Highlighted = rewritten for this posting",
+"ar": "المظلّل = أُعيدت كتابته لهذا الإعلان"
+},
+"cvtSnTpl": {
+"en": "{t} template",
+"ar": "قالب {t}"
+},
+"cvtDlPdf": {
+"en": "Download PDF",
+"ar": "تنزيل PDF"
+},
+"cvtDlWord": {
+"en": "Download Word",
+"ar": "تنزيل Word"
+},
+"cvtTDl": {
+"en": "Downloading the CV we sent",
+"ar": "ننزّل السيرة التي أرسلناها"
+},
+"cvtLockH": {
+"en": "The version CV Tailoring would have sent",
+"ar": "النسخة التي كان سيرسلها تخصيص السيرة الذاتية"
+},
+"cvtLockS": {
+"en": "Rewritten from your CV for this posting, with the keywords the recruiter searches for.",
+"ar": "أُعيدت كتابتها من سيرتك لهذا الإعلان، بالكلمات المفتاحية التي يبحث عنها مسؤول التوظيف."
+},
+"cvtLockChip": {
+"en": "41% → 92%",
+"ar": "41٪ ← 92٪"
+},
+"cvtCoverH": {
+"en": "Cover letter for this application",
+"ar": "خطاب التغطية لهذا الطلب"
+},
+"lensCvtSent": {
+"en": "With the add-on on, she owns the CV that went out: template, score, download. Without it, the same screen gives a taste: three readable lines of the tailored version, the rest blurred, and the score that changed.",
+"ar": "مع الإضافة المفعّلة تملك السيرة التي خرجت: القالب والدرجة والتنزيل. ومن دونها تعطي الشاشة نفسها عيّنة: ثلاثة أسطر مقروءة من النسخة المخصصة والباقي مموّه، والدرجة التي تغيّرت."
+},
+"cvtCxH": {
+"en": "Cancel CV Tailoring?",
+"ar": "إلغاء تخصيص السيرة الذاتية؟"
+},
+"cvtCxS": {
+"en": "It stays on until {d}, the end of the month you paid for. After that, applications go out with your uploaded CV. CVs already written stay in your library.",
+"ar": "يبقى مفعّلاً حتى {d}، نهاية الشهر الذي دفعته. بعدها تخرج الطلبات بسيرتك الذاتية التي رفعتها. والسير المكتوبة تبقى في مكتبتك."
+},
+"cvtCxKeep": {
+"en": "Keep it",
+"ar": "أبقِه"
+},
+"cvtCxDo": {
+"en": "Cancel add-on",
+"ar": "إلغاء الإضافة"
+},
+"cvtTCancelled": {
+"en": "CV Tailoring ends {d}",
+"ar": "تخصيص السيرة الذاتية ينتهي {d}"
+},
+"cvtUndo": {
+"en": "Undo",
+"ar": "تراجع"
+},
+"cvtPrefOff": {
+"en": "Add-on · a CV written for each role, {p} ¤ a month",
+"ar": "إضافة · سيرة مكتوبة لكل وظيفة، {p} ¤ شهرياً"
+},
+"cvtPrefOn": {
+"en": "On · {t} template · {p} ¤ a month",
+"ar": "مفعّل · قالب {t} · {p} ¤ شهرياً"
+},
+"cvtPrefEnds": {
+"en": "Ends {d}",
+"ar": "ينتهي {d}"
+},
+"cvtPrefDun": {
+"en": "Payment failed",
+"ar": "فشل الدفع"
+},
+"cvtPlanOn": {
+"en": "CV Tailoring",
+"ar": "تخصيص السيرة الذاتية"
+},
+"cvtPlanOnS": {
+"en": "{p} ¤ a month · renews on the 27th",
+"ar": "{p} ¤ شهرياً · يتجدد يوم 27"
+},
+"cvtPlanOff": {
+"en": "Add CV Tailoring",
+"ar": "أضف تخصيص السيرة الذاتية"
+},
+"cvtPlanOffS": {
+"en": "A CV written for each role · {p} ¤ a month",
+"ar": "سيرة مكتوبة لكل وظيفة · {p} ¤ شهرياً"
+},
+"cvtMgCancel": {
+"en": "Cancel CV Tailoring",
+"ar": "إلغاء تخصيص السيرة الذاتية"
+},
+"cvtCvAdd": {
+"en": "Add CV Tailoring",
+"ar": "أضف تخصيص السيرة الذاتية"
+},
+"cvtCvAddS": {
+"en": "A CV written for each role, {p} ¤ a month",
+"ar": "سيرة مكتوبة لكل وظيفة، {p} ¤ شهرياً"
+},
+"cvtSwPrice": {
+"en": "Add-on · {p} ¤ a month",
+"ar": "إضافة · {p} ¤ شهرياً"
+},
+"cvtHomeK": {
+"en": "Highly recommended · CV Tailoring",
+"ar": "موصى بها بشدة · تخصيص السيرة الذاتية"
+},
+"cvtHomeS": {
+"en": "Every application now goes out with your uploaded CV. Add CV Tailoring to send one written for each role.",
+"ar": "كل طلب يخرج الآن بسيرتك الذاتية التي رفعتها. أضف تخصيص السيرة الذاتية لترسل سيرة مكتوبة لكل وظيفة."
+},
+"cvtHomeCta": {
+"en": "See how it works",
+"ar": "شاهد كيف يعمل"
+},
+"cvtHomeX": {
+"en": "Dismiss",
+"ar": "إخفاء"
+},
+"hmLensThread": {
+"en": "A conversation, not a form. Questions, answers and voice notes live in one thread, and the check explains itself the moment it holds something back.",
+"ar": "محادثة وليست نموذجاً. الأسئلة والإجابات والرسائل الصوتية في سلسلة واحدة، والفحص يشرح نفسه في اللحظة التي يحجب فيها شيئاً."
+},
+"hmLensAnswer": {
+"en": "One question per screen. Write or speak, with a draft written from her own profile and never from experience she does not have.",
+"ar": "سؤال واحد في كل شاشة. كتابة أو صوت، مع مسودة مكتوبة من ملفها ولا تضيف خبرة ليست لديها."
+},
+"hmLensReview": {
+"en": "Review is the consent moment. Everything the hiring team will read or hear is on one screen before it leaves.",
+"ar": "المراجعة هي لحظة الموافقة. كل ما سيقرؤه فريق التوظيف أو يسمعه موجود في شاشة واحدة قبل إرساله."
+},
+"hmRoleA": {
+"en": "Senior Financial Analyst",
+"ar": "محلّل مالي أول"
+},
+"hmRoleB": {
+"en": "Budget and Planning Manager",
+"ar": "مدير الموازنة والتخطيط"
+},
+"hmCoB": {
+"en": "Alinma Bank",
+"ar": "مصرف الإنماء"
+},
+"hmAgoA": {
+"en": "6 days ago",
+"ar": "قبل 6 أيام"
+},
+"hmAgoB": {
+"en": "3 weeks ago",
+"ar": "قبل 3 أسابيع"
+},
+"hmTmA0": {
+"en": "Today 09:40",
+"ar": "اليوم 09:40"
+},
+"hmTmB2": {
+"en": "2 weeks ago",
+"ar": "قبل أسبوعين"
+},
+"hmTmB3": {
+"en": "9 days ago",
+"ar": "قبل 9 أيام"
+},
+"hmTmB4": {
+"en": "8 days ago",
+"ar": "قبل 8 أيام"
+},
+"hmTeamFor": {
+"en": "the hiring team for {role}",
+"ar": "فريق التوظيف لوظيفة {role}"
+},
+"hmTeamForCap": {
+"en": "The hiring team for {role}",
+"ar": "فريق التوظيف لوظيفة {role}"
+},
+"hmYou": {
+"en": "You: {t}",
+"ar": "أنت: {t}"
+},
+"hmVoicePrev": {
+"en": "Voice note · {d}",
+"ar": "رسالة صوتية · {d}"
+},
+"hmQs1": {
+"en": "1 screening question",
+"ar": "سؤال واحد للتقييم المبدئي"
+},
+"hmQs2": {
+"en": "2 screening questions",
+"ar": "سؤالان للتقييم المبدئي"
+},
+"hmQsN": {
+"en": "{n} screening questions",
+"ar": "{n} أسئلة للتقييم المبدئي"
+},
+"hmAnsPrev": {
+"en": "Your answers",
+"ar": "إجاباتك"
+},
+"hmTypingPrev": {
+"en": "Typing",
+"ar": "يكتب الآن"
+},
+"hmChWait": {
+"en": "Questions waiting",
+"ar": "أسئلة بانتظارك"
+},
+"hmChNew": {
+"en": "New message",
+"ar": "رسالة جديدة"
+},
+"hmChAns": {
+"en": "Answered",
+"ar": "تمت الإجابة"
+},
+"hmChInv": {
+"en": "Invited to interview",
+"ar": "دعوة لمقابلة"
+},
+"hmChRel": {
+"en": "Closed",
+"ar": "مغلقة"
+},
+"hmChClosed": {
+"en": "Role closed",
+"ar": "أُغلقت الوظيفة"
+},
+"hmChOpen": {
+"en": "Open",
+"ar": "مفتوحة"
+},
+"hmBkApp": {
+"en": "Application",
+"ar": "الطلب"
+},
+"hmBkHome": {
+"en": "Home",
+"ar": "الرئيسية"
+},
+"hmBkBell": {
+"en": "Needs you",
+"ar": "يحتاجك"
+},
+"hmBkMail": {
+"en": "Mail",
+"ar": "البريد"
+},
+"hmBkApps": {
+"en": "All applications",
+"ar": "كل الطلبات"
+},
+"hmSealT": {
+"en": "Sealed",
+"ar": "الهوية محجوبة"
+},
+"hmSealLine": {
+"en": "Sealed both ways. The hiring team sees your experience, not your name, and you see the role, not the company, until they invite you to interview.",
+"ar": "الهوية محجوبة في الاتجاهين. يرى فريق التوظيف خبرتك دون اسمك، وترى أنت الوظيفة دون اسم الجهة، حتى يدعوك الفريق إلى مقابلة."
+},
+"hmNoteT": {
+"en": "Voice notes are transcribed automatically",
+"ar": "الرسائل الصوتية تُحوّل إلى نص تلقائياً"
+},
+"hmNoteS": {
+"en": "Both ways, so the other side can read them and so every message can be checked before delivery. Your name, number, email, links, CV and current employer stay hidden until the hiring team invites you to interview.",
+"ar": "في الاتجاهين، ليتمكن الطرف الآخر من قراءتها ولتُفحص كل رسالة قبل وصولها. اسمك ورقمك وبريدك وروابطك وسيرتك الذاتية وجهة عملك الحالية تبقى محجوبة حتى يدعوك فريق التوظيف إلى مقابلة."
+},
+"hmNoteOk": {
+"en": "Got it",
+"ar": "فهمت"
+},
+"hmNtH": {
+"en": "Before you reply",
+"ar": "قبل أن تردّ"
+},
+"hmNtP1": {
+"en": "Voice notes are transcribed automatically, both ways, so the hiring team can read yours and you can read theirs.",
+"ar": "الرسائل الصوتية تُحوّل إلى نص تلقائياً في الاتجاهين، ليقرأ فريق التوظيف رسائلك وتقرأ رسائلهم."
+},
+"hmNtP2": {
+"en": "Everything you send is checked before delivery. Your name, number, email, links, CV and current employer are held back until the hiring team invites you to interview. The invite opens them.",
+"ar": "كل ما ترسله يُفحص قبل وصوله. اسمك ورقمك وبريدك وروابطك وسيرتك الذاتية وجهة عملك الحالية تبقى محجوبة حتى يدعوك فريق التوظيف إلى مقابلة، والدعوة تكشفها."
+},
+"hmNtP3": {
+"en": "Answers are optional and there is no penalty for not answering. Answering is not a promise of an interview.",
+"ar": "الإجابة اختيارية ولا يترتب على عدم الإجابة أي أثر. والإجابة لا تعني وعداً بمقابلة."
+},
+"hmNtP4": {
+"en": "Messages, answers and voice notes are deleted 60 days after the role was published, and they are never used to train AI models.",
+"ar": "تُحذف الرسائل والإجابات والرسائل الصوتية بعد 60 يوماً من نشر الوظيفة، ولا تُستخدم أبداً في تدريب نماذج الذكاء الاصطناعي."
+},
+"hmNtOk": {
+"en": "Got it, continue",
+"ar": "فهمت، متابعة"
+},
+"hmNtNo": {
+"en": "Not now",
+"ar": "ليس الآن"
+},
+"hmQsEy": {
+"en": "Screening questions",
+"ar": "أسئلة التقييم المبدئي"
+},
+"hmQsFrom": {
+"en": "From the hiring team for {role}",
+"ar": "من فريق التوظيف لوظيفة {role}"
+},
+"hmQsOpt": {
+"en": "Optional. There is no penalty for not answering, and answering is not a promise of an interview.",
+"ar": "اختيارية. لا يترتب على عدم الإجابة أي أثر، والإجابة لا تعني وعداً بمقابلة."
+},
+"hmQsCta": {
+"en": "Answer the questions",
+"ar": "أجب عن الأسئلة"
+},
+"hmQsHow": {
+"en": "Write each answer or record it, up to 2 minutes for a voice answer.",
+"ar": "اكتب كل إجابة أو سجّلها صوتياً، حتى دقيقتين للإجابة الصوتية."
+},
+"hmQsDone": {
+"en": "You answered {n} of {m}",
+"ar": "أجبت عن {n} من {m}"
+},
+"hmQsClosed": {
+"en": "This conversation closed before the questions were answered.",
+"ar": "أُغلقت هذه المحادثة قبل الإجابة عن الأسئلة."
+},
+"hmAnsH": {
+"en": "Your answers",
+"ar": "إجاباتك"
+},
+"hmAnsSkip": {
+"en": "Not answered",
+"ar": "بدون إجابة"
+},
+"hmTrShow": {
+"en": "Transcript",
+"ar": "النص المكتوب"
+},
+"hmTrHide": {
+"en": "Hide transcript",
+"ar": "إخفاء النص"
+},
+"hmPlay": {
+"en": "Play",
+"ar": "استمع"
+},
+"hmPause": {
+"en": "Pause",
+"ar": "إيقاف مؤقت"
+},
+"hmSeen": {
+"en": "Seen",
+"ar": "شوهدت"
+},
+"hmSent": {
+"en": "Sent",
+"ar": "أُرسلت"
+},
+"hmTyping": {
+"en": "The hiring team is typing",
+"ar": "فريق التوظيف يكتب"
+},
+"hmEvPf": {
+"en": "Uptal put your profile forward for this role, without your name.",
+"ar": "رشّح Uptal ملفك لهذه الوظيفة دون اسمك."
+},
+"hmEvInv": {
+"en": "The hiring team invited you to interview",
+"ar": "دعاك فريق التوظيف إلى مقابلة"
+},
+"hmEvRel": {
+"en": "The hiring team closed this conversation",
+"ar": "أغلق فريق التوظيف هذه المحادثة"
+},
+"hmEvClosed": {
+"en": "The role closed",
+"ar": "أُغلقت الوظيفة"
+},
+"hmClInvT": {
+"en": "Invited to interview by {co}",
+"ar": "دعوة لمقابلة من {co}"
+},
+"hmClInvS": {
+"en": "{co} can now see your name and contact details, and will contact you directly by phone or email. Nothing more is relayed here, so this conversation is read-only.",
+"ar": "أصبح بإمكان {co} الآن رؤية اسمك وبيانات التواصل معك، وسيتواصل معك مباشرة عبر الهاتف أو البريد الإلكتروني. لا تُنقل رسائل أخرى من هنا، لذلك أصبحت هذه المحادثة للقراءة فقط."
+},
+"hmClRelT": {
+"en": "Your profile was not taken further",
+"ar": "لم يتقدّم ملفك إلى المرحلة التالية لهذه الوظيفة"
+},
+"hmClRelS": {
+"en": "The hiring team decided not to continue with your profile for this role. Thank you for your answers. This conversation is read-only, and your other applications are not affected.",
+"ar": "قرر فريق التوظيف عدم الاستمرار في ملفك لهذه الوظيفة. شكراً على إجاباتك. أصبحت هذه المحادثة للقراءة فقط، ولا يتأثر أي طلب آخر لك."
+},
+"hmClRoleT": {
+"en": "This role has closed",
+"ar": "أُغلقت هذه الوظيفة"
+},
+"hmClRoleS": {
+"en": "The employer closed the role, so this conversation is read-only.",
+"ar": "أغلقت الجهة الوظيفة، لذلك أصبحت هذه المحادثة للقراءة فقط."
+},
+"hmClKeep": {
+"en": "Messages and voice notes are deleted 60 days after the role was published.",
+"ar": "تُحذف الرسائل والرسائل الصوتية بعد 60 يوماً من نشر الوظيفة."
+},
+"hmRo": {
+"en": "Read-only. Nothing more is relayed here.",
+"ar": "للقراءة فقط. لا تُنقل رسائل أخرى من هنا."
+},
+"hmPh": {
+"en": "Write a message",
+"ar": "اكتب رسالة"
+},
+"hmMicA": {
+"en": "Record a voice note",
+"ar": "سجّل رسالة صوتية"
+},
+"hmSendA": {
+"en": "Send",
+"ar": "إرسال"
+},
+"hmCompFree": {
+"en": "Replying is part of the subscription. Reading stays free.",
+"ar": "الرد متاح ضمن الاشتراك، والقراءة مجانية."
+},
+"hmRecOn": {
+"en": "Recording",
+"ar": "جارٍ التسجيل"
+},
+"hmRecCancel": {
+"en": "Cancel",
+"ar": "إلغاء"
+},
+"hmRecSend": {
+"en": "Send",
+"ar": "إرسال"
+},
+"hmRecStop": {
+"en": "Stop",
+"ar": "إيقاف"
+},
+"hmRecAuto": {
+"en": "Stopped at the 2-minute limit",
+"ar": "توقف التسجيل عند حد الدقيقتين"
+},
+"hmRecListen": {
+"en": "Listening",
+"ar": "جارٍ الاستماع"
+},
+"hmRecNoTr": {
+"en": "Live transcript is not available in this browser. Uptal transcribes the voice note when it is sent.",
+"ar": "النص المباشر غير متاح في هذا المتصفح. يحوّل Uptal الرسالة الصوتية إلى نص عند إرسالها."
+},
+"hmMicNo": {
+"en": "The microphone is not available in this browser. You can write instead.",
+"ar": "الميكروفون غير متاح في هذا المتصفح. يمكنك الكتابة بدلاً من ذلك."
+},
+"hmMicDenied": {
+"en": "Microphone access is off. Allow it in your browser settings, or write instead.",
+"ar": "الوصول إلى الميكروفون غير مسموح. اسمح به من إعدادات المتصفح، أو اكتب بدلاً من ذلك."
+},
+"hmTrPending": {
+"en": "Transcribed by Uptal when it is sent.",
+"ar": "يحوّلها Uptal إلى نص عند إرسالها."
+},
+"hmWhat_phone": {
+"en": "a phone number",
+"ar": "رقم هاتف"
+},
+"hmWhat_email": {
+"en": "an email address",
+"ar": "عنوان بريد إلكتروني"
+},
+"hmWhat_link": {
+"en": "a link or a social media handle",
+"ar": "رابط أو حساب تواصل اجتماعي"
+},
+"hmWhat_name": {
+"en": "your name",
+"ar": "اسمك"
+},
+"hmWhat_cv": {
+"en": "your CV",
+"ar": "سيرتك الذاتية"
+},
+"hmWhat_employer": {
+"en": "your current employer",
+"ar": "جهة عملك الحالية"
+},
+"hmBkText": {
+"en": "Not sent. Your message contains {what}.",
+"ar": "لم تُرسل. رسالتك تحتوي على {what}."
+},
+"hmBkVoice": {
+"en": "Not sent. The transcript of your voice note contains {what}. Record it again without it.",
+"ar": "لم تُرسل. النص المكتوب لرسالتك الصوتية يحتوي على {what}. سجّلها مرة أخرى دون هذه المعلومة."
+},
+"hmBkAns": {
+"en": "This answer contains {what}. Edit it to continue.",
+"ar": "هذه الإجابة تحتوي على {what}. عدّلها للمتابعة."
+},
+"hmBkAnsV": {
+"en": "The transcript of this answer contains {what}. Record it again to continue.",
+"ar": "النص المكتوب لهذه الإجابة يحتوي على {what}. سجّلها مرة أخرى للمتابعة."
+},
+"hmBkWhy": {
+"en": "Your name, number, email, links, CV and current employer stay hidden until the hiring team invites you to interview. The invite opens them.",
+"ar": "اسمك ورقمك وبريدك وروابطك وسيرتك الذاتية وجهة عملك الحالية تبقى محجوبة حتى يدعوك فريق التوظيف إلى مقابلة، والدعوة تكشفها."
+},
+"hmPwTitle": {
+"en": "Reply to the hiring team.",
+"ar": "ردّ على فريق التوظيف."
+},
+"hmPwWhy": {
+"en": "Answering hiring teams, with messages and voice notes, is part of the subscription. Reading what they send stays free.",
+"ar": "الرد على فرق التوظيف بالرسائل والرسائل الصوتية جزء من الاشتراك، وقراءة ما يرسلونه مجانية."
+},
+"hmTAns": {
+"en": "Answers sent to the hiring team",
+"ar": "أُرسلت إجاباتك إلى فريق التوظيف"
+},
+"hmTNewV": {
+"en": "New voice note from the hiring team for {role}",
+"ar": "رسالة صوتية جديدة من فريق التوظيف لوظيفة {role}"
+},
+"hmTNewT": {
+"en": "New message from the hiring team for {role}",
+"ar": "رسالة جديدة من فريق التوظيف لوظيفة {role}"
+}
+}

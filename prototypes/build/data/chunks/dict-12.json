@@ -1,0 +1,602 @@
+{
+"alSpec1": {
+"en": "Interview coach, ex-HR Director",
+"ar": "مدرّبة مقابلات، مديرة موارد بشرية سابقاً"
+},
+"alSpec2": {
+"en": "Offer negotiation specialist",
+"ar": "متخصص في التفاوض على العروض"
+},
+"alSpec3": {
+"en": "HR and career consultant, SHRM-SCP",
+"ar": "مستشارة موارد بشرية ومسار مهني، SHRM-SCP"
+},
+"alSpec4": {
+"en": "Finance career strategist, ex-CFO",
+"ar": "خبير مسارات مهنية مالية، مدير مالي سابق"
+},
+"alSpec5": {
+"en": "CV and LinkedIn review, senior recruiter",
+"ar": "مراجعة السيرة الذاتية ولينكدإن، مسؤولة توظيف أولى"
+},
+"alSpec6": {
+"en": "Government and giga-project hiring, ex-PIF",
+"ar": "توظيف حكومي ومشاريع عملاقة، من صندوق الاستثمارات سابقاً"
+},
+"alSpec7": {
+"en": "Executive coach, board advisor, ex-strategy partner",
+"ar": "مدرّبة تنفيذية، مستشارة مجالس إدارة، شريكة استراتيجية سابقاً"
+},
+"alFrom": {
+"en": "from",
+"ar": "من"
+},
+"alPerHr": {
+"en": "per hour",
+"ar": "للساعة"
+},
+"alDaySun": {
+"en": "Sun",
+"ar": "الأحد"
+},
+"alDayMon": {
+"en": "Mon",
+"ar": "الاثنين"
+},
+"alDayTue": {
+"en": "Tue",
+"ar": "الثلاثاء"
+},
+"alDayWed": {
+"en": "Wed",
+"ar": "الأربعاء"
+},
+"alDayThu": {
+"en": "Thu",
+"ar": "الخميس"
+},
+"alDayFri": {
+"en": "Fri",
+"ar": "الجمعة"
+},
+"alDaySat": {
+"en": "Sat",
+"ar": "السبت"
+},
+"alPerkT": {
+"en": "Your subscriber 15% is active.",
+"ar": "خصم المشتركين 15٪ مفعّل لك."
+},
+"alPerkS": {
+"en": "Applied automatically at checkout on single sessions.",
+"ar": "ينطبق تلقائياً عند الدفع على الجلسات المفردة."
+},
+"alNote": {
+"en": "Every advisor is approved by Uptal. You only pay for the sessions you book.",
+"ar": "كل مستشار معتمد من أبتال. ولا تدفع إلا مقابل الجلسات التي تحجزها."
+},
+"apBack": {
+"en": "Advisors",
+"ar": "المستشارون"
+},
+"lensAdvisor": {
+"en": "Credentials, proof and reviews come before any number, and the struck 690 anchor makes the 549 pack read as the smart buy.",
+"ar": "المصداقية والتقييمات تجي قبل أي رقم، وسعر 690 المشطوب يخلي باقة 549 تبان الشراء الذكي."
+},
+"apRev": {
+"en": "(127 sessions)",
+"ar": "(127 جلسة)"
+},
+"apRevT": {
+"en": "({n} sessions)",
+"ar": "({n} جلسة)"
+},
+"apM1": {
+"en": "Sessions delivered",
+"ar": "جلسة منجزة"
+},
+"apM2": {
+"en": "Average rating",
+"ar": "متوسط التقييم"
+},
+"apM3": {
+"en": "Typical reply time",
+"ar": "متوسط وقت الرد"
+},
+"apM4": {
+"en": "Session languages",
+"ar": "لغات الجلسة"
+},
+"apBio": {
+"en": "12 years of hiring experience across banks and giga-projects. She runs mock interviews the way real panels do, then tells you exactly what to change before the real interview.",
+"ar": "خبرة توظيف 12 سنة بين البنوك والمشاريع العملاقة. تدير المقابلات التجريبية بنفس طريقة اللجان الحقيقية، ثم تخبرك بالضبط بما يجب تغييره قبل المقابلة الفعلية."
+},
+"apSvcH": {
+"en": "Sessions",
+"ar": "الجلسات"
+},
+"apS1": {
+"en": "Interview prep",
+"ar": "التحضير للمقابلة"
+},
+"apD1": {
+"en": "60-minute session",
+"ar": "جلسة 60 دقيقة"
+},
+"apS2": {
+"en": "Full mock panel with written feedback",
+"ar": "لجنة تجريبية كاملة مع ملاحظات مكتوبة"
+},
+"apD2": {
+"en": "90-minute session",
+"ar": "جلسة 90 دقيقة"
+},
+"apS3": {
+"en": "Offer review and salary talk",
+"ar": "مراجعة العرض والتفاوض على الراتب"
+},
+"apDurT": {
+"en": "{m}-minute session",
+"ar": "جلسة {m} دقيقة"
+},
+"apLocApp": {
+"en": "Uptal call",
+"ar": "مكالمة أبتال"
+},
+"apLocMeet": {
+"en": "Google Meet",
+"ar": "Google Meet"
+},
+"apRate": {
+"en": "Billed per session. Your subscriber 15% is applied at checkout.",
+"ar": "الدفع لكل جلسة. وخصم المشتركين 15٪ ينضاف تلقائياً عند الدفع."
+},
+"apPackT": {
+"en": "Interview-ready pack",
+"ar": "باقة جاهز للمقابلة"
+},
+"apPackB": {
+"en": "SAVE 20%",
+"ar": "وفّر 20٪"
+},
+"apPackS": {
+"en": "3 x Interview prep, use within 60 days",
+"ar": "3 جلسات تحضير للمقابلة، استخدمها خلال 60 يوم"
+},
+"apPackN": {
+"en": "already discounted",
+"ar": "مخفّضة مسبقاً"
+},
+"apNextT": {
+"en": "Next free slots",
+"ar": "أقرب المواعيد المتاحة"
+},
+"apSlot1": {
+"en": "Wed 19:00",
+"ar": "الأربعاء 19:00"
+},
+"apSlot2": {
+"en": "Thu 20:00",
+"ar": "الخميس 20:00"
+},
+"apSlot3": {
+"en": "Fri 17:00",
+"ar": "الجمعة 17:00"
+},
+"apRevH": {
+"en": "What clients say about Layla",
+"ar": "ما يقوله العملاء عن ليلى"
+},
+"apRevHT": {
+"en": "What clients say about {n}",
+"ar": "ما يقوله العملاء عن {n}"
+},
+"apR1": {
+"en": "\"The way she prepared me for the interview was phenomenal, methodical and professional.\"",
+"ar": "\"طريقة تجهيزها لي قبل المقابلة كانت استثنائية، منظّمة واحترافية.\""
+},
+"apRn1": {
+"en": "Reem, Financial Analyst",
+"ar": "ريم، محللة مالية"
+},
+"apR2": {
+"en": "\"Calm, and she knows exactly how Saudi panels think.\"",
+"ar": "\"هادية، وتعرف بالضبط كيف تفكر اللجان السعودية.\""
+},
+"apRn2": {
+"en": "Abdullah, FP&A Lead",
+"ar": "عبدالله، قائد التخطيط والتحليل المالي"
+},
+"apGuar": {
+"en": "Money back if a session does not happen.",
+"ar": "نرجّع لك المبلغ كامل إذا ما صارت الجلسة."
+},
+"apBook": {
+"en": "Book a session",
+"ar": "احجز جلسة"
+},
+"apMsg": {
+"en": "Message Layla first, free",
+"ar": "راسل ليلى أولاً، مجاناً"
+},
+"apMsgT": {
+"en": "Message {n} first, free",
+"ar": "راسل {n} أولاً، مجاناً"
+},
+"apNmLayla": {
+"en": "Layla",
+"ar": "ليلى"
+},
+"apNmOmar": {
+"en": "Omar",
+"ar": "عمر"
+},
+"apNmHuda": {
+"en": "Huda",
+"ar": "هدى"
+},
+"apNmKhalid": {
+"en": "Khalid",
+"ar": "خالد"
+},
+"apNmSara": {
+"en": "Sara",
+"ar": "سارة"
+},
+"apNmFaisal": {
+"en": "Faisal",
+"ar": "فيصل"
+},
+"apNmNadia": {
+"en": "Nadia",
+"ar": "نادية"
+},
+"apVidRowT": {
+"en": "Watch {n}'s intro",
+"ar": "شاهد مقدمة {n}"
+},
+"apVidRowS": {
+"en": "{d} · recorded by the advisor",
+"ar": "{d} · مسجّلة من المستشار"
+},
+"apVidShT": {
+"en": "Meet {n}",
+"ar": "تعرّف على {n}"
+},
+"apVidTrust": {
+"en": "Uploaded by the advisor. Reviewed by Uptal.",
+"ar": "رفعها المستشار وراجعتها أبتال."
+},
+"apVidBook": {
+"en": "Book a session",
+"ar": "احجز جلسة"
+},
+"apVidClose": {
+"en": "Close",
+"ar": "إغلاق"
+},
+"apOmBio": {
+"en": "Eight years negotiating offers on the employer side, now he negotiates for you. He builds your counter, your scripts, and your walk-away number before you reply to the offer.",
+"ar": "ثماني سنوات يفاوض على العروض من جهة صاحب العمل، واليوم يفاوض لصالحك. يبني لك العرض المقابل والعبارات الجاهزة وحدّك الأدنى قبل ما ترد على العرض."
+},
+"apOmS1": {
+"en": "Offer review and counter strategy",
+"ar": "مراجعة العرض وبناء العرض المقابل"
+},
+"apOmS2": {
+"en": "Live negotiation rehearsal",
+"ar": "بروفة تفاوض مباشرة"
+},
+"apOmR1": {
+"en": "\"He got me 18% above the first offer without souring the relationship.\"",
+"ar": "\"حصل لي على 18٪ فوق العرض الأول بدون ما يخرب العلاقة مع الشركة.\""
+},
+"apOmRn1": {
+"en": "Mishal, Product Manager",
+"ar": "مشعل، مدير منتج"
+},
+"apOmR2": {
+"en": "\"The rehearsal felt harder than the real call. That is exactly why it worked.\"",
+"ar": "\"البروفة كانت أصعب من المكالمة الحقيقية. وهذا بالضبط سبب نجاحها.\""
+},
+"apOmRn2": {
+"en": "Dana, Data Lead",
+"ar": "دانة، قائدة بيانات"
+},
+"apHuBio": {
+"en": "SHRM-SCP certified consultant with 10 years inside Saudi HR teams. She helps you read the organization, choose your next move, and land your first 90 days with a plan.",
+"ar": "مستشارة معتمدة SHRM-SCP بخبرة 10 سنوات داخل فرق الموارد البشرية السعودية. تساعدك تقرأ المنظمة، وتختار خطوتك القادمة، وتبدأ أول 90 يوم بخطة واضحة."
+},
+"apHuS1": {
+"en": "Career direction consult",
+"ar": "جلسة تحديد الاتجاه المهني"
+},
+"apHuS2": {
+"en": "Start strong, your first 90 days plan",
+"ar": "ابدأ بقوة، خطة أول 90 يوم"
+},
+"apHuS3": {
+"en": "HR policy and workplace consult",
+"ar": "استشارة موارد بشرية وسياسات عمل"
+},
+"apHuR1": {
+"en": "\"She read my situation in ten minutes and gave me a plan I actually followed.\"",
+"ar": "\"قرأت وضعي في عشر دقائق وأعطتني خطة مشيت عليها فعلاً.\""
+},
+"apHuRn1": {
+"en": "Amal, HR Specialist",
+"ar": "أمل، أخصائية موارد بشرية"
+},
+"apHuR2": {
+"en": "\"My first 90 days went exactly as we mapped them.\"",
+"ar": "\"أول 90 يوم لي مشت بالضبط مثل ما خططناها.\""
+},
+"apHuRn2": {
+"en": "Yousef, Operations Manager",
+"ar": "يوسف، مدير عمليات"
+},
+"apKhBio": {
+"en": "Former CFO who hired and promoted finance teams for 15 years. He maps the route from analyst to the executive table and tells you which roles actually get you there.",
+"ar": "مدير مالي سابق وظّف ورقّى فرق مالية لمدة 15 سنة. يرسم لك الطريق من محلل إلى طاولة التنفيذيين، ويقول لك أي الأدوار توصلك فعلاً."
+},
+"apKhS1": {
+"en": "Finance career roadmap",
+"ar": "خارطة المسار المهني المالي"
+},
+"apKhS2": {
+"en": "CFO-track mentoring session",
+"ar": "جلسة إرشاد لمسار المدير المالي"
+},
+"apKhR1": {
+"en": "\"A CFO telling you how CFOs are chosen. Worth every riyal.\"",
+"ar": "\"مدير مالي يقول لك كيف يُختار المدراء الماليون. يستاهل كل ريال.\""
+},
+"apKhRn1": {
+"en": "Turki, Senior Accountant",
+"ar": "تركي، محاسب أول"
+},
+"apKhR2": {
+"en": "\"He redrew my five-year plan in one session.\"",
+"ar": "\"أعاد رسم خطتي الخمسية في جلسة واحدة.\""
+},
+"apKhRn2": {
+"en": "Lama, FP&A Analyst",
+"ar": "لمى، محللة تخطيط مالي"
+},
+"apSaBio": {
+"en": "Senior recruiter who has screened more than 20,000 CVs. She rewrites yours line by line so it passes both the screening software and the human who reads it in six seconds.",
+"ar": "مسؤولة توظيف أولى راجعت أكثر من 20,000 سيرة ذاتية. تعيد كتابة سيرتك سطراً بسطر حتى تعدي أنظمة الفرز وقارئها البشري في ست ثوان."
+},
+"apSaS1": {
+"en": "CV deep review with rewrite notes",
+"ar": "مراجعة معمّقة للسيرة مع ملاحظات إعادة الصياغة"
+},
+"apSaS2": {
+"en": "LinkedIn profile makeover",
+"ar": "تطوير ملف لينكدإن بالكامل"
+},
+"apSaR1": {
+"en": "\"Three interviews in the two weeks after her rewrite.\"",
+"ar": "\"ثلاث مقابلات خلال أسبوعين بعد إعادة الصياغة.\""
+},
+"apSaRn1": {
+"en": "Noor, Marketing Specialist",
+"ar": "نور، أخصائية تسويق"
+},
+"apSaR2": {
+"en": "\"She sees your CV the way recruiters do, six seconds and a verdict.\"",
+"ar": "\"تشوف سيرتك بنفس عين مسؤول التوظيف، ست ثوان وحكم.\""
+},
+"apSaRn2": {
+"en": "Salem, Project Engineer",
+"ar": "سالم، مهندس مشاريع"
+},
+"apFaBio": {
+"en": "Ex-PIF talent leader who hired for NEOM-scale programs. He knows what government and giga-project panels look for and how to position your file for them.",
+"ar": "قائد مواهب سابق في صندوق الاستثمارات العامة وظّف لبرامج بحجم نيوم. يعرف ما تبحث عنه لجان الجهات الحكومية والمشاريع العملاقة، وكيف تقدّم ملفك لها."
+},
+"apFaS1": {
+"en": "Giga-project application strategy",
+"ar": "استراتيجية التقديم للمشاريع العملاقة"
+},
+"apFaS2": {
+"en": "Government sector switch roadmap",
+"ar": "خارطة الانتقال للقطاع الحكومي"
+},
+"apFaR1": {
+"en": "\"He knew the panel format before I even described it.\"",
+"ar": "\"كان عارف شكل اللجنة قبل حتى ما أوصفها له.\""
+},
+"apFaRn1": {
+"en": "Ghada, Contracts Manager",
+"ar": "غادة، مديرة عقود"
+},
+"apFaR2": {
+"en": "\"From application to NEOM offer in seven weeks.\"",
+"ar": "\"من التقديم إلى عرض نيوم في سبعة أسابيع.\""
+},
+"apFaRn2": {
+"en": "Bader, Civil Engineer",
+"ar": "بدر، مهندس مدني"
+},
+"apNdCnt": {
+"en": "(34 engagements)",
+"ar": "(34 تعاقداً تدريبياً)"
+},
+"apNdBio": {
+"en": "15 years coaching C-suite and VP leaders across GCC banks and giga-projects. She takes a handful of leaders at a time and stays with you, month by month, until the role and the offer land.",
+"ar": "خبرة 15 سنة في تدريب التنفيذيين ونواب الرؤساء في بنوك الخليج والمشاريع العملاقة. تشتغل مع عدد محدود من القادة في نفس الفترة، وتبقى معك شهراً بشهر إلى أن يوصل الدور والعرض الصحيح."
+},
+"apNdS1": {
+"en": "Executive coaching month, 4 x 60 min private sessions plus async support",
+"ar": "شهر التدريب التنفيذي، 4 جلسات خاصة 60 دقيقة مع دعم مستمر بينها"
+},
+"apNdS2": {
+"en": "Leadership deep dive",
+"ar": "جلسة معمّقة في القيادة"
+},
+"apNdS3": {
+"en": "Board and CV positioning",
+"ar": "التموضع أمام مجالس الإدارة وتجهيز السيرة الذاتية"
+},
+"apNdR1": {
+"en": "\"Three months with Nadia took me from Head of FP&A to VP Finance. The offer was 40% up.\"",
+"ar": "\"ثلاثة أشهر مع نادية نقلتني من رئيس التخطيط والتحليل المالي إلى نائب رئيس للمالية. والعرض كان أعلى بنسبة 40٪.\""
+},
+"apNdRn1": {
+"en": "Majed, VP Finance",
+"ar": "ماجد، نائب رئيس المالية"
+},
+"apNdR2": {
+"en": "\"She rebuilt how I tell my story to boards.\"",
+"ar": "\"أعادت بناء طريقتي في سرد قصتي أمام مجالس الإدارة.\""
+},
+"apNdRn2": {
+"en": "Lubna, Transformation Director",
+"ar": "لبنى، مديرة تحول"
+},
+"lensExecutive": {
+"en": "A tier, not a product list. Coach seats are genuinely few, so the scarcity is honest, and the free discovery call lowers the wall without lowering the tier.",
+"ar": "فئة كاملة، لا قائمة منتجات. مقاعد المدرّبين قليلة فعلاً، فالندرة هنا صادقة، والمكالمة التعريفية المجانية تخفض الحاجز دون أن تخفض الفئة."
+},
+"exEyebrow": {
+"en": "Executive",
+"ar": "للتنفيذيين"
+},
+"exSub": {
+"en": "For Head, Director and VP candidates and above. Interviews, offers, and your first 90 days at the top, with one coach who stays.",
+"ar": "لمرشحي مناصب رئيس قسم ومدير ونائب رئيس وما فوق. المقابلات والعروض وأول 90 يوم في القمة، مع مدرّب واحد يبقى معك."
+},
+"exHowH": {
+"en": "How the engagement works",
+"ar": "كيف يمشي البرنامج"
+},
+"exHow1T": {
+"en": "4 private sessions a month",
+"ar": "4 جلسات خاصة كل شهر"
+},
+"exHow1S": {
+"en": "Yours to schedule, whenever they help most.",
+"ar": "جدولتها بيدك، متى ما تحتاجها أكثر."
+},
+"exHow2T": {
+"en": "Unlimited async messaging",
+"ar": "مراسلة مفتوحة بلا حدود"
+},
+"exHow2S": {
+"en": "Your coach is one message away between sessions.",
+"ar": "مدرّبك على بعد رسالة واحدة بين الجلسات."
+},
+"exHow3T": {
+"en": "A quarterly leadership plan",
+"ar": "خطة قيادية ربع سنوية"
+},
+"exHow3S": {
+"en": "Written with your coach, reviewed together every month.",
+"ar": "تكتبها مع مدرّبك وتراجعونها مع بعض كل شهر."
+},
+"exDiscT": {
+"en": "Start with a free 20 minute discovery call",
+"ar": "ابدأ بمكالمة تعارف مجانية 20 دقيقة"
+},
+"exDiscS": {
+"en": "Meet your coach, align on goals, then decide.",
+"ar": "قابل مدرّبك، اتفقوا على الأهداف، وبعدها قرر."
+},
+"exDiscBtn": {
+"en": "Book the free call",
+"ar": "احجز المكالمة المجانية"
+},
+"exDoneLab": {
+"en": "Booked · {d} {t}",
+"ar": "تم الحجز · {d} {t}"
+},
+"exDoneS": {
+"en": "Invite sent to your email.",
+"ar": "الدعوة وصلت بريدك."
+},
+"exBenchH": {
+"en": "Your coach bench",
+"ar": "فريق مدرّبينك"
+},
+"exPriceH": {
+"en": "Program pricing",
+"ar": "أسعار البرنامج"
+},
+"exPr1D": {
+"en": "Monthly program · Uptal call",
+"ar": "برنامج شهري · مكالمة أبتال"
+},
+"exPr2D": {
+"en": "90-minute session · Uptal call",
+"ar": "جلسة 90 دقيقة · مكالمة أبتال"
+},
+"exPr3D": {
+"en": "60-minute session · Google Meet",
+"ar": "جلسة 60 دقيقة · Google Meet"
+},
+"exPriceN": {
+"en": "Programs renew monthly. Cancel anytime. Your subscriber 15% applies at checkout.",
+"ar": "البرامج تتجدد شهرياً. ألغِ في أي وقت. وخصم المشتركين 15٪ ينطبق عند الدفع."
+},
+"exTrust": {
+"en": "Every coach on this bench is vetted personally by Uptal leadership.",
+"ar": "كل مدرّب في هذا الفريق معتمد شخصياً من قيادة أبتال."
+},
+"exShH": {
+"en": "Book your discovery call",
+"ar": "احجز مكالمة التعارف"
+},
+"exShS": {
+"en": "Free, 20 minutes, no card needed.",
+"ar": "مجانية، 20 دقيقة، بدون بطاقة."
+},
+"exShCoach": {
+"en": "Choose your coach",
+"ar": "اختر مدرّبك"
+},
+"exShWhen": {
+"en": "Pick a time",
+"ar": "اختر الوقت"
+},
+"exShCta": {
+"en": "Confirm free call",
+"ar": "أكّد المكالمة المجانية"
+},
+"exShCancel": {
+"en": "Cancel",
+"ar": "إلغاء"
+},
+"exDiscSvc": {
+"en": "Free discovery call",
+"ar": "مكالمة تعارف مجانية"
+},
+"exDayThuF": {
+"en": "Thursday",
+"ar": "الخميس"
+},
+"exDaySunF": {
+"en": "Sunday",
+"ar": "الأحد"
+},
+"exDayMonF": {
+"en": "Monday",
+"ar": "الاثنين"
+},
+"tExBooked": {
+"en": "Discovery call booked. Check your email.",
+"ar": "تم حجز مكالمة التعارف. راجع بريدك."
+},
+"ibH": {
+"en": "Messages",
+"ar": "الرسائل"
+},
+"lensInbox": {
+"en": "A free answer starts the relationship. Value flows to the user first, so the booking that follows feels like their idea.",
+"ar": "إجابة مجانية تبدأ العلاقة. القيمة تصل إلى المستخدم أولاً، فيصبح الحجز بعدها فكرته هو."
+},
+"ibEmptyT": {
+"en": "No messages yet",
+"ar": "لا رسائل بعد"
+}
+}

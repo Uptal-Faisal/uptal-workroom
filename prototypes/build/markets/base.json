@@ -1,0 +1,43 @@
+{
+ "_note": "Central market table. Prices are PLACEHOLDERS (local tiers by purchasing power, 4-month = ~15% off, 12-month = ~30% off). p1/p4/p12 are per-month prices; t4/t12 are the totals charged. Currency fmt: pos=before|after the number, sp=space between.",
+ "regions": [
+  {"id":"gcc","en":"Gulf (GCC)","ar":"الخليج","fr":"Golfe (CCG)","markets":["SA","AE","QA","KW","BH","OM"]},
+  {"id":"na","en":"North America","ar":"أمريكا الشمالية","fr":"Amérique du Nord","markets":["US","CA"]},
+  {"id":"uk","en":"UK & Ireland","ar":"المملكة المتحدة وأيرلندا","fr":"Royaume-Uni et Irlande","markets":["GB","IE"]},
+  {"id":"eu","en":"Europe","ar":"أوروبا","fr":"Europe","markets":["DE","FR","NL","BE","ES","IT","PL","SE","CH"]},
+  {"id":"au","en":"Australia","ar":"أستراليا","fr":"Australie","markets":["AU"]},
+  {"id":"naf","en":"North Africa","ar":"شمال أفريقيا","fr":"Afrique du Nord","markets":["EG","MA","TN","DZ","LY"]},
+  {"id":"lev","en":"Levant & Iraq","ar":"بلاد الشام والعراق","fr":"Levant et Irak","markets":["JO","LB","IQ"]}
+ ],
+ "markets": {
+  "SA":{"arVariant":"gulf","lang":"en","cur":{"code":"SAR","sym":{"en":"¤","ar":"¤","fr":"¤"},"pos":"after","sp":true,"glyph":true},"price":{"p1":399,"p4":339,"p12":279,"t4":1356,"t12":3348}},
+  "AE":{"arVariant":"gulf","lang":"en","cur":{"code":"AED","sym":{"en":"AED","ar":"درهم","fr":"AED"},"pos":"after","sp":true},"price":{"p1":399,"p4":339,"p12":279,"t4":1356,"t12":3348}},
+  "QA":{"arVariant":"gulf","lang":"en","cur":{"code":"QAR","sym":{"en":"QAR","ar":"ريال","fr":"QAR"},"pos":"after","sp":true},"price":{"p1":399,"p4":339,"p12":279,"t4":1356,"t12":3348}},
+  "KW":{"arVariant":"gulf","lang":"en","cur":{"code":"KWD","sym":{"en":"KWD","ar":"د.ك","fr":"KWD"},"pos":"after","sp":true},"price":{"p1":33,"p4":28,"p12":23,"t4":112,"t12":276}},
+  "BH":{"arVariant":"gulf","lang":"en","cur":{"code":"BHD","sym":{"en":"BHD","ar":"د.ب","fr":"BHD"},"pos":"after","sp":true},"price":{"p1":39,"p4":33,"p12":27,"t4":132,"t12":324}},
+  "OM":{"arVariant":"gulf","lang":"en","cur":{"code":"OMR","sym":{"en":"OMR","ar":"ر.ع","fr":"OMR"},"pos":"after","sp":true},"price":{"p1":39,"p4":33,"p12":27,"t4":132,"t12":324}},
+  "US":{"arVariant":"neutral","lang":"en","cur":{"code":"USD","sym":{"en":"$","ar":"دولار","fr":"$ US"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":99,"p4":84,"p12":69,"t4":336,"t12":828}},
+  "CA":{"arVariant":"neutral","lang":"en","cur":{"code":"CAD","sym":{"en":"CA$","ar":"دولار كندي","fr":"$ CA"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":119,"p4":101,"p12":83,"t4":404,"t12":996}},
+  "GB":{"arVariant":"neutral","lang":"en","cur":{"code":"GBP","sym":{"en":"£","ar":"جنيه إسترليني","fr":"£"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":79,"p4":67,"p12":55,"t4":268,"t12":660}},
+  "IE":{"arVariant":"neutral","lang":"en","cur":{"code":"EUR","sym":{"en":"€","ar":"يورو","fr":"€"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":89,"p4":75,"p12":62,"t4":300,"t12":744}},
+  "DE":{"arVariant":"neutral","lang":"en","cur":{"code":"EUR","sym":{"en":"€","ar":"يورو","fr":"€"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":89,"p4":75,"p12":62,"t4":300,"t12":744}},
+  "FR":{"arVariant":"neutral","lang":"fr","cur":{"code":"EUR","sym":{"en":"€","ar":"يورو","fr":"€"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":89,"p4":75,"p12":62,"t4":300,"t12":744}},
+  "NL":{"arVariant":"neutral","lang":"en","cur":{"code":"EUR","sym":{"en":"€","ar":"يورو","fr":"€"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":89,"p4":75,"p12":62,"t4":300,"t12":744}},
+  "BE":{"arVariant":"neutral","lang":"fr","cur":{"code":"EUR","sym":{"en":"€","ar":"يورو","fr":"€"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":89,"p4":75,"p12":62,"t4":300,"t12":744}},
+  "ES":{"arVariant":"neutral","lang":"en","cur":{"code":"EUR","sym":{"en":"€","ar":"يورو","fr":"€"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":69,"p4":59,"p12":48,"t4":236,"t12":576}},
+  "IT":{"arVariant":"neutral","lang":"en","cur":{"code":"EUR","sym":{"en":"€","ar":"يورو","fr":"€"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":69,"p4":59,"p12":48,"t4":236,"t12":576}},
+  "PL":{"arVariant":"neutral","lang":"en","cur":{"code":"PLN","sym":{"en":"zł","ar":"زلوتي","fr":"zł"},"pos":"after","sp":true},"price":{"p1":229,"p4":195,"p12":159,"t4":780,"t12":1908}},
+  "SE":{"arVariant":"neutral","lang":"en","cur":{"code":"SEK","sym":{"en":"kr","ar":"كرونة","fr":"kr"},"pos":"after","sp":true},"price":{"p1":999,"p4":849,"p12":699,"t4":3396,"t12":8388}},
+  "CH":{"arVariant":"neutral","lang":"en","cur":{"code":"CHF","sym":{"en":"CHF","ar":"فرنك","fr":"CHF"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":true},"price":{"p1":99,"p4":84,"p12":69,"t4":336,"t12":828}},
+  "AU":{"arVariant":"neutral","lang":"en","cur":{"code":"AUD","sym":{"en":"A$","ar":"دولار أسترالي","fr":"$ AU"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":129,"p4":109,"p12":89,"t4":436,"t12":1068}},
+  "EG":{"arVariant":"neutral","lang":"ar","cur":{"code":"EGP","sym":{"en":"EGP","ar":"ج.م","fr":"EGP"},"pos":"after","sp":true},"price":{"p1":1299,"p4":1099,"p12":899,"t4":4396,"t12":10788}},
+  "MA":{"arVariant":"neutral","lang":"fr","cur":{"code":"MAD","sym":{"en":"MAD","ar":"درهم","fr":"DH"},"pos":"after","sp":true},"price":{"p1":299,"p4":254,"p12":209,"t4":1016,"t12":2508}},
+  "TN":{"arVariant":"neutral","lang":"fr","cur":{"code":"TND","sym":{"en":"TND","ar":"د.ت","fr":"DT"},"pos":"after","sp":true},"price":{"p1":89,"p4":75,"p12":62,"t4":300,"t12":744}},
+  "DZ":{"arVariant":"neutral","lang":"fr","cur":{"code":"DZD","sym":{"en":"DZD","ar":"د.ج","fr":"DA"},"pos":"after","sp":true},"price":{"p1":3900,"p4":3300,"p12":2700,"t4":13200,"t12":32400}},
+  "LY":{"arVariant":"neutral","lang":"ar","cur":{"code":"LYD","sym":{"en":"LYD","ar":"د.ل","fr":"LYD"},"pos":"after","sp":true},"price":{"p1":149,"p4":126,"p12":104,"t4":504,"t12":1248}},
+  "JO":{"arVariant":"neutral","lang":"ar","cur":{"code":"JOD","sym":{"en":"JOD","ar":"د.أ","fr":"JOD"},"pos":"after","sp":true},"price":{"p1":29,"p4":25,"p12":20,"t4":100,"t12":240}},
+  "LB":{"arVariant":"neutral","lang":"ar","cur":{"code":"USD","sym":{"en":"$","ar":"دولار","fr":"$ US"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":39,"p4":33,"p12":27,"t4":132,"t12":324}},
+  "IQ":{"arVariant":"neutral","lang":"ar","cur":{"code":"IQD","sym":{"en":"IQD","ar":"د.ع","fr":"IQD"},"pos":"after","sp":true},"price":{"p1":45000,"p4":38000,"p12":31000,"t4":152000,"t12":372000}},
+  "INTL":{"arVariant":"neutral","lang":"en","cur":{"code":"USD","sym":{"en":"$","ar":"دولار","fr":"$ US"},"pos":{"en":"before","ar":"after","fr":"after"},"sp":{"en":false,"ar":true,"fr":true}},"price":{"p1":49,"p4":42,"p12":34,"t4":168,"t12":408},"_note":"International tier: people living outside our 28 markets who target one of them."}
+ }
+}

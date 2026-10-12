@@ -1,0 +1,602 @@
+{
+"hrLoSend": {
+"en": "Send to the team",
+"ar": "أرسل للفريق"
+},
+"hrSkip": {
+"en": "Not now",
+"ar": "ليس الآن"
+},
+"hrDone": {
+"en": "Thank you. Noted.",
+"ar": "شكراً لك. وصلنا."
+},
+"salTo": {
+"en": "to",
+"ar": "إلى"
+},
+"hrFbLabel": {
+"en": "Anything we can do better goes straight to the team, privately.",
+"ar": "أي شيء يمكننا تحسينه يصل مباشرة إلى الفريق وبشكل خاص."
+},
+"tReviewThanks": {
+"en": "Thank you. Opening the App Store rating.",
+"ar": "شكراً لك. نفتح لك تقييم المتجر."
+},
+"tTestiThanks": {
+"en": "Thank you. Your story helps someone still searching.",
+"ar": "شكراً لك. قصتك تساعد شخصاً ما زال يبحث."
+},
+"tConsentNeed": {
+"en": "Check the box so we can share it.",
+"ar": "علّم على المربع لنتمكن من مشاركتها."
+},
+"tFbThanks": {
+"en": "Thank you. The team has your note.",
+"ar": "شكراً لك. ملاحظتك وصلت الفريق."
+},
+"wkBack": {
+"en": "Home",
+"ar": "الرئيسية"
+},
+"lensWeekly": {
+"en": "A weekly artifact that packages Auto-Apply work into momentum, so a slow week still shows progress and a reason to come back.",
+"ar": "ملخّص أسبوعي يجمع عمل التقديم التلقائي في صيغة زخم، فحتى الأسبوع الهادئ يُظهر تقدماً وسبباً للعودة."
+},
+"wkEy": {
+"en": "Weekly report",
+"ar": "التقرير الأسبوعي"
+},
+"wkH": {
+"en": "Your best week yet.",
+"ar": "أفضل أسبوع لك."
+},
+"wkRange": {
+"en": "7 to 13 July",
+"ar": "7 إلى 13 يوليو"
+},
+"wk1": {
+"en": "roles we applied to for you",
+"ar": "وظيفة قدمنا لك عليها"
+},
+"wk2": {
+"en": "recruiter views",
+"ar": "مشاهدات توظيف"
+},
+"wk3": {
+"en": "interview",
+"ar": "مقابلة"
+},
+"wkVs": {
+"en": "applications vs last week",
+"ar": "تقديم مقارنة بالأسبوع الماضي"
+},
+"wkC1": {
+"en": "Applications this week",
+"ar": "الطلبات هذا الأسبوع"
+},
+"wkC1s": {
+"en": "Your best day was Tuesday, 9 roles we applied to for you",
+"ar": "أفضل يوم كان الثلاثاء، 9 وظائف قدمنا لك عليها"
+},
+"wkC2": {
+"en": "What happened to them",
+"ar": "ما حدث لها"
+},
+"wkC2s": {
+"en": "From application to interview",
+"ar": "من التقديم إلى المقابلة"
+},
+"wkF1": {
+"en": "15% of applications opened by a recruiter",
+"ar": "15% من الطلبات فتحها مسؤولين التوظيف"
+},
+"wkF2": {
+"en": "2 moved to a screening step",
+"ar": "2 وصلت مرحلة الفرز"
+},
+"wkF3": {
+"en": "1 interview booked, at Rewaa",
+"ar": "مقابلة واحدة محجوزة، في رِوّاء"
+},
+"wkC3": {
+"en": "Recruiter views are trending up",
+"ar": "مشاهدات المسؤولين في ارتفاع"
+},
+"wkC3s": {
+"en": "Last 4 weeks",
+"ar": "آخر 4 أسابيع"
+},
+"wkW1": {
+"en": "4 wks",
+"ar": "4 أسابيع"
+},
+"wkNow": {
+"en": "now",
+"ar": "الآن"
+},
+"wkSaved": {
+"en": "You saved about 6 hours of form-filling this week. We do not stop until you are hired.",
+"ar": "وفّرت حوالي 6 ساعات تعبئة نماذج هذا الأسبوع. ما نوقّف إلى ما تتوظّف."
+},
+"wkShare": {
+"en": "Share my week",
+"ar": "شارك أسبوعك"
+},
+"wd0": {
+"en": "S",
+"ar": "ح"
+},
+"wd1": {
+"en": "M",
+"ar": "ن"
+},
+"wd2": {
+"en": "T",
+"ar": "ث"
+},
+"wd3": {
+"en": "W",
+"ar": "ر"
+},
+"wd4": {
+"en": "T",
+"ar": "خ"
+},
+"wd5": {
+"en": "F",
+"ar": "ج"
+},
+"wd6": {
+"en": "S",
+"ar": "س"
+},
+"plSeeAll": {
+"en": "See the 214 roles we applied to for you",
+"ar": "شاهد الـ214 وظيفة التي قدمنا لك عليها"
+},
+"hWeekT": {
+"en": "Your week is ready",
+"ar": "تقريرك الأسبوعي جاهز"
+},
+"hWeekS": {
+"en": "41 applications, 1 interview, your best week yet",
+"ar": "41 تقديم، مقابلة وحدة، أفضل أسبوع لك"
+},
+"ntW": {
+"en": "Your weekly report is ready",
+"ar": "تقريرك الأسبوعي جاهز"
+},
+"ntWs": {
+"en": "41 applications, 1 interview this week",
+"ar": "41 طلب، مقابلة واحدة هذا الأسبوع"
+},
+"tCvDl": {
+"en": "Downloading the CV we sent",
+"ar": "ننزّل السيرة التي أرسلناها"
+},
+"tMore": {
+"en": "Loaded more applications",
+"ar": "انحمّلت طلبات أكثر"
+},
+"tShare": {
+"en": "Preparing your week to share",
+"ar": "نجهّز أسبوعك للمشاركة"
+},
+"gwH": {
+"en": "Grow your career",
+"ar": "طوّر مسيرتك"
+},
+"lensGrow": {
+"en": "Human experts and courses that raise the user value turn the subscription into a career platform and add revenue beyond applications.",
+"ar": "خبراء بشر وكورسات ترفع قيمة المستخدم تحوّل الاشتراك لمنصة مهنية وتضيف دخل غير التقديمات."
+},
+"gwSub": {
+"en": "Hand-picked experts and courses to help you land the role and get paid what you are worth.",
+"ar": "خبراء منتقين وكورسات تساعدك تحصل الوظيفة وتاخذ راتب يليق فيك."
+},
+"gwExperts": {
+"en": "Experts",
+"ar": "الخبراء"
+},
+"gwSeeAll": {
+"en": "See all",
+"ar": "الكل"
+},
+"gwSpec1": {
+"en": "Interview coach, ex-HR Director",
+"ar": "مدرّبة مقابلات، مديرة موارد بشرية سابقة"
+},
+"gwSpec2": {
+"en": "Offer negotiation specialist",
+"ar": "أخصائي تفاوض على العروض"
+},
+"gwFrom": {
+"en": "from",
+"ar": "من"
+},
+"advH": {
+"en": "Advisors",
+"ar": "المستشارين"
+},
+"advSub": {
+"en": "Book a human expert for the exact help you need. You only pay for the sessions you book.",
+"ar": "احجز خبيراً بشرياً للمساعدة التي تحتاجها بالضبط. لا تدفع إلا مقابل الجلسات التي تحجزها."
+},
+"advNeed": {
+"en": "What do you need help with?",
+"ar": "في ماذا تحتاج مساعدة؟"
+},
+"advS1": {
+"en": "Interview preparation",
+"ar": "التحضير للمقابلات الشخصية"
+},
+"advS2": {
+"en": "Offer negotiation",
+"ar": "التفاوض على العروض الوظيفية"
+},
+"advS3": {
+"en": "CV and LinkedIn review",
+"ar": "مراجعة السيرة الذاتية ولينكدإن"
+},
+"advS4": {
+"en": "HR and career consultation",
+"ar": "استشارة موارد بشرية ومهنية"
+},
+"advS5": {
+"en": "Career strategy",
+"ar": "استراتيجية المسيرة المهنية"
+},
+"advS6": {
+"en": "Government and giga-project track",
+"ar": "مسار الحكومة والمشاريع العملاقة"
+},
+"advS7": {
+"en": "Know your market salary",
+"ar": "اعرف راتبك في السوق"
+},
+"advS8": {
+"en": "Certification roadmap",
+"ar": "خطة الشهادات المهنية"
+},
+"advS9": {
+"en": "Start strong in a new role",
+"ar": "ابدأ بقوة في وظيفتك الجديدة"
+},
+"advFor": {
+"en": "Advisors for",
+"ar": "مستشارون لـ"
+},
+"advShowAll": {
+"en": "Show all",
+"ar": "الكل"
+},
+"gwSpec6": {
+"en": "Government and giga-project hiring, ex-PIF",
+"ar": "التوظيف الحكومي والمشاريع العملاقة، سابقاً في صندوق الاستثمارات العامة"
+},
+"hHiredNudge": {
+"en": "Landed a job or got an offer?",
+"ar": "حصلت على وظيفة أو عرض؟"
+},
+"hHiredYes": {
+"en": "I got hired",
+"ar": "توظّفت"
+},
+"hOfferYes": {
+"en": "I got an offer",
+"ar": "حصلت على عرض"
+},
+"advFeatured": {
+"en": "Featured advisor",
+"ar": "مستشار مميز"
+},
+"mkCoursesH": {
+"en": "Close it with one of these courses",
+"ar": "قلّصها بإحدى هذه الدورات"
+},
+"mkBrowse": {
+"en": "Browse all",
+"ar": "تصفّح الكل"
+},
+"mkCoursesR": {
+"en": "Chosen based on what the job market asks for in the roles that fit you.",
+"ar": "مختارة بناءً على احتياج سوق العمل للوظائف التي تناسبك. "
+},
+"mkGap1": {
+"en": "Power BI · in 71% of the market",
+"ar": "Power BI · في 71% من السوق"
+},
+"mkGap2": {
+"en": "SQL · in 64% of the market",
+"ar": "SQL · في 64% من السوق"
+},
+"gwCourses": {
+"en": "Courses",
+"ar": "الكورسات"
+},
+"gwGap": {
+"en": "Closes a gap in the market",
+"ar": "يسدّ فجوة في السوق"
+},
+"gwLearnT": {
+"en": "Uptal Learn",
+"ar": "Uptal Learn"
+},
+"gwLearnS": {
+"en": "Every course, new ones added monthly",
+"ar": "كل الدورات، ينضاف لها شهرياً"
+},
+"gwMo": {
+"en": "per month",
+"ar": "بالشهر"
+},
+"exBack": {
+"en": "Advisors",
+"ar": "المستشارون"
+},
+"exH": {
+"en": "A dedicated coach in your corner",
+"ar": "مدرّب مخصص في صفك"
+},
+"exApproved": {
+"en": "Hand-picked and approved by Uptal",
+"ar": "مختارين ومعتمدين من Uptal"
+},
+"exAll": {
+"en": "All",
+"ar": "الكل"
+},
+"exF1": {
+"en": "Interview",
+"ar": "مقابلات"
+},
+"exF2": {
+"en": "Negotiation",
+"ar": "تفاوض"
+},
+"exF3": {
+"en": "HR",
+"ar": "موارد بشرية"
+},
+"gwSpec3": {
+"en": "HR and career consultant, SHRM-SCP",
+"ar": "مستشارة موارد بشرية ومهنية، SHRM-SCP"
+},
+"gwSpec4": {
+"en": "Finance career strategist, ex-CFO",
+"ar": "استراتيجي مسيرة مالية، مدير مالي سابق"
+},
+"gwSpec5": {
+"en": "CV and LinkedIn review, senior recruiter",
+"ar": "مراجعة سيرة ولينكدإن، خبيرة توظيف"
+},
+"exNote": {
+"en": "Every advisor is approved by Uptal. You only pay for the sessions you book.",
+"ar": "كل مستشار معتمد من Uptal. ولا تدفع إلا مقابل الجلسات التي تحجزها."
+},
+"epBack": {
+"en": "Advisors",
+"ar": "المستشارين"
+},
+"epTitle": {
+"en": "Interview coach, ex-HR Director",
+"ar": "مدرّبة مقابلات، مديرة موارد بشرية سابقة"
+},
+"epRev": {
+"en": "(127 sessions)",
+"ar": "(127 جلسة)"
+},
+"epBio": {
+"en": "12 years of hiring experience across banks and giga-projects. She runs mock interviews the way real panels do, then tells you exactly what to change before the real interview.",
+"ar": "خبرة توظيف 12 سنة بين البنوك والمشاريع العملاقة. تدير المقابلات التجريبية بنفس طريقة اللجان الحقيقية، ثم تخبرك بالضبط بما يجب تغييره قبل المقابلة الفعلية."
+},
+"epSvc": {
+"en": "Sessions",
+"ar": "الجلسات"
+},
+"epS1": {
+"en": "Interview prep",
+"ar": "تحضير المقابلة"
+},
+"epS2": {
+"en": "Full mock panel with written feedback",
+"ar": "لجنة تجريبية كاملة مع ملاحظات مكتوبة"
+},
+"epS3": {
+"en": "Offer review and salary talk",
+"ar": "مراجعة العرض وظيفي ومنقاش الراتب"
+},
+"epReviews": {
+"en": "What clients say about Layla",
+"ar": "رأي العملاء في ليلى"
+},
+"epR1": {
+"en": "\"The way she prepared me for the interview was phenomenal, methodical and professional.\"",
+"ar": "\"طريقتها في تحضيري للمقابلة كانت خرافية وبطريقة علمية واحترافية.\""
+},
+"epR2": {
+"en": "\"Calm, and she knows exactly how Saudi panels think.\"",
+"ar": "\"هادية وتعرف بالضبط كيف تفكّر اللجان السعودية.\""
+},
+"epBook": {
+"en": "Book a session, 249 ¤ per hour",
+"ar": "احجز جلسة، 249 ¤ في الساعة"
+},
+"csBack": {
+"en": "Market",
+"ar": "السوق"
+},
+"csH": {
+"en": "Courses",
+"ar": "الدورات"
+},
+"csSub": {
+"en": "Strengthen your CV and close the gaps in your market.",
+"ar": "قوّي سيرتك وسدّ الفجوات في سوقك."
+},
+"csLearnS": {
+"en": "All courses, cancel anytime",
+"ar": "كل الدورات، ألغِ في أي وقت"
+},
+"csAll": {
+"en": "All",
+"ar": "الكل"
+},
+"csF1": {
+"en": "Finance",
+"ar": "مالية"
+},
+"csF2": {
+"en": "Data",
+"ar": "بيانات"
+},
+"csF3": {
+"en": "Leadership",
+"ar": "قيادة"
+},
+"coBack": {
+"en": "Courses",
+"ar": "الكورسات"
+},
+"coRev": {
+"en": "(312 learners)",
+"ar": "(312 متعلّم)"
+},
+"coGain": {
+"en": "In 71% of senior finance postings in your market. Finishing this can lift your profile strength and your offers by about 8%.",
+"ar": "موجودة في 71% من الوظائف المالية القيادية في سوقك. إنهاؤها يرفع قوة ملفك وعروضك بحوالي 8%."
+},
+"coLearn": {
+"en": "What you will learn",
+"ar": "ما ستتعلمه"
+},
+"coL1": {
+"en": "Build the dashboards finance teams actually use",
+"ar": "تبني اللوحات التي تستخدمها فرق المالية فعلاً"
+},
+"coL2": {
+"en": "DAX basics for real reporting",
+"ar": "أساسيات DAX للتقارير الحقيقية"
+},
+"coL3": {
+"en": "Connect to Excel and SAP and publish reports",
+"ar": "تربط بإكسل وSAP وتنشر التقارير"
+},
+"coMods": {
+"en": "5 modules",
+"ar": "5 وحدات"
+},
+"coM1": {
+"en": "Getting started with Power BI",
+"ar": "البداية مع Power BI"
+},
+"coM2": {
+"en": "Modelling finance data",
+"ar": "نمذجة بيانات المالية"
+},
+"coM3": {
+"en": "DAX for reporting",
+"ar": "DAX للتقارير"
+},
+"coM4": {
+"en": "Dashboards and visuals",
+"ar": "اللوحات والمرئيات"
+},
+"coM5": {
+"en": "Publishing and sharing",
+"ar": "النشر والمشاركة"
+},
+"coIncl": {
+"en": "Included with Uptal Learn, or buy this course on its own.",
+"ar": "ضمن Uptal Learn، أو اشتري الكورس لحاله."
+},
+"coEnroll": {
+"en": "Enroll, 249 ¤",
+"ar": "سجّل، 249 ¤"
+},
+"coLearnBtn": {
+"en": "Or start Uptal Learn, 399 ¤ per month",
+"ar": "أو ابدأ Uptal Learn، 399 ¤ بالشهر"
+},
+"hGrowT": {
+"en": "Get interview-ready with an advisor",
+"ar": "جهّز نفسك للمقابلة مع مستشار"
+},
+"hGrowS": {
+"en": "Interview prep, negotiation, and CV and LinkedIn review with vetted experts",
+"ar": "تحضير مقابلات، تفاوض، مراجعة السيرة الذاتية ولنكدان مع مختصين"
+},
+"skCourse": {
+"en": "Take the Power BI course",
+"ar": "خذ دورة Power BI"
+},
+"hwExpert": {
+"en": "Prefer a human, book an advisor",
+"ar": "تفضّل مختص بشري، احجز مستشار"
+},
+"tBooked": {
+"en": "Session booked. We will confirm the time on WhatsApp.",
+"ar": "تم حجز الجلسة. سنؤكد الوقت على واتساب."
+},
+"tEnrolled": {
+"en": "Enrolled. This strengthens your profile.",
+"ar": "انسجّلت. هذا يقوّي ملفك."
+},
+"tLearn": {
+"en": "Uptal Learn started. All courses unlocked.",
+"ar": "بدينا Uptal Learn. كل الكورسات مفتوحة."
+},
+"lgEy": {
+"en": "Welcome",
+"ar": "أهلاً وسهلًا"
+},
+"lgH": {
+"en": "Sign in.",
+"ar": "تسجيل الدخول"
+},
+"lgSub": {
+"en": "No password and no signup. We created your account when you uploaded your CV, so you just confirm your email.",
+"ar": "بدون كلمة مرور وبدون تسجيل جديد. أنشأنا حسابك عند رفع سيرتك الذاتية، وكل ما عليك تأكيد بريدك."
+},
+"lgEmail": {
+"en": "Email",
+"ar": "البريد"
+},
+"lgEmailPh": {
+"en": "you@example.com",
+"ar": "you@example.com"
+},
+"lgHint": {
+"en": "This is the email on your CV. Prefer a different one? Change it in Account after you sign in.",
+"ar": "هذا البريد المذكور في سيرتك الذاتية. تبي بريداً آخر؟ يمكنك تغييره من حسابك بعد الدخول."
+},
+"lgCta": {
+"en": "Email me a code",
+"ar": "أرسل لي الرمز"
+},
+"lgPriv": {
+"en": "",
+"ar": ""
+},
+"lgBad": {
+"en": "Enter a valid email address",
+"ar": "اكتب بريد صحيح"
+},
+"lensLogin": {
+"en": "Uploading the CV already created the account, so signing in is only proving you own the inbox. One field, one code, no password to remember.",
+"ar": "رفع السيرة أنشأ الحساب من قبل، فالدخول مجرد إثبات أنك صاحب البريد. خانة واحدة ورمز واحد وبدون كلمة مرور."
+},
+"otEy": {
+"en": "Check your email",
+"ar": "شيّك بريدك"
+},
+"otH": {
+"en": "Enter your code.",
+"ar": "أدخل الرمز."
+},
+"otSub": {
+"en": "We sent a 6 digit code to",
+"ar": "أرسلنا رمز من 6 أرقام إلى"
+}
+}

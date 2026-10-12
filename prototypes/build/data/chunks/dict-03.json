@@ -1,0 +1,602 @@
+{
+"swc8O1": {
+"en": "Fully remote with flexible hours",
+"ar": "عمل عن بُعد بالكامل بساعات مرنة"
+},
+"swc8O2": {
+"en": "Employee stock option plan",
+"ar": "خطة خيارات أسهم للموظفين"
+},
+"swc8O3": {
+"en": "Annual learning and wellness budget",
+"ar": "ميزانية سنوية للتعلّم والرفاهية"
+},
+"swc9Title": {
+"en": "Financial Analyst",
+"ar": "محلّل مالي"
+},
+"swc9Co": {
+"en": "Mobily",
+"ar": "موبايلي"
+},
+"swc9City": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"swc9Sum": {
+"en": "Finance role owning the budgeting cycle and monthly variance reporting at a listed telecom operator.",
+"ar": "وظيفة مالية تملك دورة الموازنة وتقارير الانحراف الشهرية لدى مشغّل اتصالات مدرج."
+},
+"swc9Exp": {
+"en": "3 to 5 years",
+"ar": "من 3 إلى 5 سنوات"
+},
+"swc9Post": {
+"en": "3 days ago",
+"ar": "قبل 3 أيام"
+},
+"swc9W1": {
+"en": "Monthly variance reporting",
+"ar": "تقارير الانحراف الشهرية"
+},
+"swc9W1s": {
+"en": "You built variance analysis that cut reporting time by a third",
+"ar": "بنيت تحليل انحراف قلّص وقت التقارير بالثلث"
+},
+"swc9W2": {
+"en": "Budgeting on SAP",
+"ar": "الموازنة على SAP"
+},
+"swc9W2s": {
+"en": "You lead the same cycle on SAP today",
+"ar": "تقود الدورة نفسها على SAP اليوم"
+},
+"swc9R1": {
+"en": "Run the annual budgeting cycle and quarterly reforecasts for a commercial segment",
+"ar": "إدارة دورة الموازنة السنوية وإعادة التوقّع الربعية لقطاع تجاري"
+},
+"swc9R2": {
+"en": "Prepare monthly variance reports against budget with commentary for management",
+"ar": "إعداد تقارير الانحراف الشهرية مقابل الموازنة مع التعليقات للإدارة"
+},
+"swc9R3": {
+"en": "Partner with commercial teams on revenue, subscriber, and margin drivers",
+"ar": "العمل مع الفرق التجارية على محرّكات الإيراد والمشتركين والهامش"
+},
+"swc9R4": {
+"en": "Model the financial impact of new tariffs, device offers, and enterprise deals",
+"ar": "نمذجة الأثر المالي للباقات الجديدة وعروض الأجهزة وعقود الشركات"
+},
+"swc9Q1": {
+"en": "3 to 5 years in financial analysis or FP and A, telecom a plus",
+"ar": "من 3 إلى 5 سنوات في التحليل المالي أو التخطيط والتحليل المالي، ويفضّل خبرة اتصالات"
+},
+"swc9Q2": {
+"en": "Advanced Excel financial modeling; SAP or Oracle preferred",
+"ar": "نمذجة مالية متقدّمة على Excel، ويفضّل خبرة SAP أو Oracle"
+},
+"swc9Q3": {
+"en": "Bachelor in Finance or Accounting; SOCPA or CMA a plus",
+"ar": "بكالوريوس مالية أو محاسبة، ويفضّل SOCPA أو CMA"
+},
+"swc9Q4": {
+"en": "Able to present numbers clearly to non-finance teams",
+"ar": "قدرة على عرض الأرقام بوضوح للفرق غير المالية"
+},
+"swc9About": {
+"en": "Mobily is one of Saudi Arabia's three main telecom operators, listed on Tadawul and serving millions of mobile and fiber customers.",
+"ar": "موبايلي من مشغّلي الاتصالات الرئيسيين الثلاثة في المملكة، مدرجة في تداول وتخدم ملايين عملاء الجوال والألياف."
+},
+"swc9Role": {
+"en": "You will run the budgeting cycle and monthly variance reporting for a commercial segment, partnering with sales and marketing teams and presenting to the segment finance director.",
+"ar": "ستدير دورة الموازنة وتقارير الانحراف الشهرية لقطاع تجاري، وتعمل مع فرق المبيعات والتسويق وتعرض على المدير المالي للقطاع."
+},
+"swc9O1": {
+"en": "Annual performance bonus",
+"ar": "مكافأة أداء سنوية"
+},
+"swc9O2": {
+"en": "Medical cover for you and your dependents",
+"ar": "تأمين طبي لك ولمن تعول"
+},
+"swc9O3": {
+"en": "Staff discounts on mobile and fiber plans",
+"ar": "خصومات للموظفين على باقات الجوال والألياف"
+},
+"swc10Title": {
+"en": "Budgeting Analyst",
+"ar": "محلّل موازنة"
+},
+"swc10Co": {
+"en": "Bupa Arabia",
+"ar": "بوبا العربية"
+},
+"swc10City": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"swc10Sum": {
+"en": "Budgeting role owning the annual budget and quarterly reforecasts for a listed health insurer in an IFRS 17 environment.",
+"ar": "وظيفة موازنة تملك الموازنة السنوية وإعادة التوقّع الربعية لشركة تأمين صحي مدرجة في بيئة IFRS 17."
+},
+"swc10Exp": {
+"en": "3 to 5 years",
+"ar": "من 3 إلى 5 سنوات"
+},
+"swc10Post": {
+"en": "This week",
+"ar": "هذا الأسبوع"
+},
+"swc10W1": {
+"en": "Annual budgeting cycle",
+"ar": "دورة الموازنة السنوية"
+},
+"swc10W1s": {
+"en": "You lead budgeting on SAP across Riyadh business units",
+"ar": "تقود الموازنة على SAP عبر وحدات الأعمال في الرياض"
+},
+"swc10W2": {
+"en": "Reforecasts and variance",
+"ar": "إعادة التوقّع وتحليل الانحراف"
+},
+"swc10W2s": {
+"en": "These cut your reporting time by a third",
+"ar": "قلّصت بها وقت التقارير بالثلث"
+},
+"swc10R1": {
+"en": "Run the annual budgeting cycle and quarterly reforecasts across company functions",
+"ar": "إدارة دورة الموازنة السنوية وإعادة التوقّع الربعية عبر إدارات الشركة"
+},
+"swc10R2": {
+"en": "Analyze claims cost trends and their impact on loss ratios and budgets",
+"ar": "تحليل اتجاهات تكاليف المطالبات وأثرها على نسب الخسارة والموازنة"
+},
+"swc10R3": {
+"en": "Prepare monthly budget versus actual reports with variance commentary for management",
+"ar": "تجهيز تقارير الموازنة مقابل الفعلي شهرياً مع تعليقات الانحراف للإدارة"
+},
+"swc10R4": {
+"en": "Support planning under IFRS 17 with finance and actuarial teams",
+"ar": "دعم التخطيط وفق معايير IFRS 17 مع فرق المالية والاكتواريين"
+},
+"swc10Q1": {
+"en": "3 to 5 years in budgeting or FP and A, ideally insurance or healthcare",
+"ar": "من 3 إلى 5 سنوات في الموازنة أو التخطيط والتحليل المالي، ويفضّل في التأمين أو الرعاية الصحية"
+},
+"swc10Q2": {
+"en": "Advanced Excel financial modeling; SAP a plus",
+"ar": "نمذجة مالية متقدّمة على Excel، ويفضّل خبرة SAP"
+},
+"swc10Q3": {
+"en": "Bachelor in Finance or Accounting; SOCPA or CMA a plus",
+"ar": "بكالوريوس محاسبة أو مالية، ويفضّل SOCPA أو CMA"
+},
+"swc10Q4": {
+"en": "IFRS 17 exposure and strong Arabic and English communication",
+"ar": "اطّلاع على IFRS 17 وتواصل قوي بالعربية والإنجليزية"
+},
+"swc10About": {
+"en": "Bupa Arabia is the largest health insurer in Saudi Arabia, listed on Tadawul and covering millions of members across the Kingdom.",
+"ar": "بوبا العربية أكبر شركة تأمين صحي في السعودية، مدرجة في تداول وتغطّي ملايين المؤمَّن لهم في المملكة."
+},
+"swc10Role": {
+"en": "You will own the annual budget and quarterly reforecasts, analyze claims cost trends with the actuarial team, and report to the head of financial planning in an IFRS 17 environment.",
+"ar": "ستملك الموازنة السنوية وإعادة التوقّع الربعية، وتحلّل تكاليف المطالبات مع الفريق الاكتواري، وترفع تقاريرك لرئيس التخطيط المالي في بيئة IFRS 17."
+},
+"swc10O1": {
+"en": "Premium medical cover for you and your family",
+"ar": "تأمين طبي مميّز لك ولعائلتك"
+},
+"swc10O2": {
+"en": "Annual bonus tied to company performance",
+"ar": "مكافأة سنوية مرتبطة بأداء الشركة"
+},
+"swc10O3": {
+"en": "Support for SOCPA or CMA certification",
+"ar": "دعم شهادات SOCPA أو CMA"
+},
+"swSubFree": {
+"en": "Your top 10 matches. Swipe left to pass. Applying starts with your plan.",
+"ar": "أفضل 10 وظائف تناسبك. اسحب يسار للتجاوز. والتقديم يبدأ مع باقتك."
+},
+"swFreePill": {
+"en": "Free preview",
+"ar": "معاينة مجانية"
+},
+"swFreeLeft": {
+"en": "left to browse",
+"ar": "متبقية للتصفح"
+},
+"swLockChip": {
+"en": "Subscribe to apply",
+"ar": "اشترك للتقديم"
+},
+"swAutoFree": {
+"en": "Auto-Apply can work through matches like these for you, every day.",
+"ar": "التقديم التلقائي يمكنه العمل نيابة عنك على وظائف مثل هذه، كل يوم."
+},
+"swAutoFreeCta": {
+"en": "Activate",
+"ar": "فعّله"
+},
+"swFreeEndH": {
+"en": "That is your 10 free matches.",
+"ar": "هذه وظائفك الـ 10 المجانية."
+},
+"swFreeEndS": {
+"en": "You have seen what the matching engine found for you. Start your plan to swipe, apply, and put Auto-Apply to work every day.",
+"ar": "رأيت ما وجده لك محرّك المطابقة. ابدأ باقتك لتسحب وتقدّم وتجعل التقديم التلقائي يعمل كل يوم."
+},
+"swFreeEndCta": {
+"en": "Start applying",
+"ar": "ابدأ التقديم"
+},
+"swFreeEndAlt": {
+"en": "See what the plan includes",
+"ar": "شاهد ما تشمله الباقة"
+},
+"pwTitleApply": {
+"en": "Ready to apply?",
+"ar": "جاهز تقدّم؟"
+},
+"pwTitleAuto": {
+"en": "Let it apply for you.",
+"ar": "دع التقديم يعمل بنفسه."
+},
+"pwTitleDeck": {
+"en": "Keep going. Start applying.",
+"ar": "أكمل. ابدأ التقديم."
+},
+"pwTitleLater": {
+"en": "Save it for later?",
+"ar": "تبيه لاحقاً؟"
+},
+"pwTitlePlan": {
+"en": "What your plan includes",
+"ar": "ما تشمله باقتك"
+},
+"pwSub": {
+"en": "On the 4-month plan, billed 1,356 ¤ every 4 months. Monthly and 12-month plans too. Cancel anytime.",
+"ar": "على باقة الـ4 أشهر، تدفع 1,356 ¤ كل 4 أشهر. وتتوفر باقة شهرية وباقة 12 شهر. ألغِ في أي وقت."
+},
+"pwMo": {
+"en": "a month",
+"ar": "شهرياً"
+},
+"pwB1": {
+"en": "Swipe to apply, one tap per role",
+"ar": "اسحب وقدّم، ضغطة واحدة لكل وظيفة"
+},
+"pwB2": {
+"en": "Auto-Apply works through your matches every day",
+"ar": "التقديم التلقائي يعمل على الوظائف التي تناسبك كل يوم"
+},
+"pwB3": {
+"en": "Up to 300 applications a month",
+"ar": "حتى 300 طلب تقديم بالشهر"
+},
+"pwB4": {
+"en": "Interview practice, salary alerts, and priority support",
+"ar": "تدريب على المقابلات، وبيانات السوق، ودعم بأولوية"
+},
+"pwCta": {
+"en": "Continue",
+"ar": "أكمل"
+},
+"pwKeep": {
+"en": "Keep browsing",
+"ar": "أكمل التصفّح"
+},
+"fmLensPay": {
+"en": "One number, stated flat. The sheet teases only the default 4-month plan, set by career level, with its full charge in words; the term itself is chosen on the wall so the gate never becomes a pricing table. The sell is what happens next, never why the number is what it is.",
+"ar": "رقم واحد يُعرض كما هو. الشاشة تلمّح فقط لباقة الـ4 أشهر الافتراضية، التي يحدّدها المستوى المهني، مع مبلغها الكامل بالكلمات، أما المدة فتُختار على الجدار حتى لا تتحول البوابة إلى جدول أسعار. البيع على ما يحدث بعدها، لا على سبب الرقم نفسه."
+},
+"fmCkH": {
+"en": "Start your plan",
+"ar": "ابدأ باقتك"
+},
+"ckPlanT": {
+"en": "Auto-Apply Monthly",
+"ar": "التقديم التلقائي الشهري"
+},
+"ckPlanS": {
+"en": "Everything included. Cancel anytime.",
+"ar": "كل شيء مشمول. ألغِ في أي وقت."
+},
+"ckRenew": {
+"en": "Renews on 27 September. Cancel before then and you are not charged again.",
+"ar": "يتجدّد في 27 سبتمبر. إذا ألغيت قبلها لن يُخصم منك شيء مرة أخرى."
+},
+"ckNote": {
+"en": "Your plan starts the moment you pay. Your 10 matches unlock right away and Auto-Apply is ready to switch on.",
+"ar": "باقتك تبدأ لحظة الدفع. وظائفك الـ 10 تُفتح مباشرة والتقديم التلقائي جاهز للتفعيل."
+},
+"fmCkCta": {
+"en": "Pay 399 ¤ now",
+"ar": "ادفع 399 ¤ الآن"
+},
+"lensCheckout": {
+"en": "Nothing new is decided here. The amount about to be charged is the largest thing on the screen and matches the plan picked one screen ago. Every way to pay stays in view, and the ones a term does not allow say so, so nobody wonders where Tabby went.",
+"ar": "لا قرار جديد هنا. المبلغ الذي سيُخصم هو أكبر شيء في الشاشة ويطابق الباقة التي اختيرت قبل شاشة واحدة. كل طرق الدفع تبقى ظاهرة، وما لا تسمح به المدة يقول ذلك، فلا أحد يتساءل أين ذهبت تابي."
+},
+"sdH": {
+"en": "You are in.",
+"ar": "صرت معنا."
+},
+"sdSub": {
+"en": "Your plan is active. Every swipe now applies with your CV.",
+"ar": "باقتك مفعّلة. كل سحبة الآن تقدّم بسيرتك الذاتية."
+},
+"sdF1": {
+"en": "Your 10 matches are unlocked",
+"ar": "وظائفك الـ 10 صارت مفتوحة"
+},
+"sdF2": {
+"en": "Auto-Apply is ready to switch on",
+"ar": "التقديم التلقائي جاهز للتفعيل"
+},
+"sdCta": {
+"en": "Swipe your matches",
+"ar": "اسحب وظائفك"
+},
+"sdAlt": {
+"en": "Activate Auto-Apply first",
+"ar": "فعّل التقديم التلقائي أولاً"
+},
+"lensSubDone": {
+"en": "Peak-End, receipt last. Possession comes first, the paid amount and the renewal date one quiet line later, so the high is about the deck and the receipt is still there for anyone who looks.",
+"ar": "الذروة والنهاية، والإيصال آخر شيء. التملّك يأتي أولاً، والمبلغ المدفوع وتاريخ التجديد في سطر هادئ بعده، لتبقى اللحظة عن الوظائف التي صارت له، والإيصال موجود لمن يريد الاطلاع عليه."
+},
+"fmDrH": {
+"en": "Your matches are ready.",
+"ar": "وظائفك المناسبة جاهزة."
+},
+"fmDrSub": {
+"en": "We read 1,240 live roles against your CV. 38 fit. These are your top 10.",
+"ar": "قرأنا 1,240 وظيفة حية مقابل سيرتك الذاتية. 38 منها تناسبك. وهذي أفضل 10."
+},
+"fmDrCta": {
+"en": "See my matches",
+"ar": "ورّني وظائفي"
+},
+"lensDeckReady": {
+"en": "Setup ends with finished work: a ranked deck built from the CV before any payment ask. The paywall lands later, once the value sits in hand.",
+"ar": "الإعداد ينتهي بعمل مكتمل: مجموعة مرتّبة مبنية من السيرة قبل أي طلب دفع. الجدار يأتي لاحقاً، بعد أن تُرى القيمة."
+},
+"hAutoOffT": {
+"en": "Auto-Apply is off.",
+"ar": "التقديم التلقائي مطفّي."
+},
+"hAutoOffS": {
+"en": "Every day it reads new roles, picks your matches, and applies for you. It comes with your plan.",
+"ar": "كل يوم يقرأ الوظائف الجديدة، ويختار ما يناسبك، ويقدّم نيابة عنك. ويأتي مع باقتك."
+},
+"hAutoOffCta": {
+"en": "Activate Auto-Apply",
+"ar": "فعّل التقديم التلقائي"
+},
+"hPathFree": {
+"en": "Applications, views, screening, interviews. Your path fills in here from your first application.",
+"ar": "تقديمات، مشاهدات، فرز، مقابلات. رحلتك تتعبّى هنا من أول تقديم."
+},
+"hFreeQT": {
+"en": "You are on the free preview",
+"ar": "أنت على المعاينة المجانية"
+},
+"hFreeQS": {
+"en": "Browse your 10 matches free. Start your plan to apply.",
+"ar": "تصفّح وظائفك الـ 10 مجاناً. ابدأ باقتك للتقديم."
+},
+"hFreeQCta": {
+"en": "Start applying · 339 ¤ a month",
+"ar": "ابدأ التقديم · 339 ¤ شهرياً"
+},
+"hPickTF": {
+"en": "Browse your 10 matches",
+"ar": "تصفّح وظائفك الـ 10"
+},
+"hPickBadgeF": {
+"en": "free",
+"ar": "مجاني"
+},
+"hPickSF": {
+"en": "Ranked for you from 1,240 live roles. See every posting in full before you decide anything.",
+"ar": "مرتّبة لك من 1,240 وظيفة حية. شوف كل إعلان كامل قبل ما تقرّر أي شيء."
+},
+"hFeedFree": {
+"en": "Your activity lands here once you start applying.",
+"ar": "نشاطك ينزل هنا أول ما تبدأ التقديم."
+},
+"agFree": {
+"en": "Auto-Apply has not run yet. It activates with your plan and reports every decision it makes here.",
+"ar": "التقديم التلقائي ما اشتغل للحين. يتفعّل مع باقتك ويسجّل لك هنا كل قرار ياخذه."
+},
+"agFreeCta": {
+"en": "See the plan",
+"ar": "شوف الباقة"
+},
+"plFree": {
+"en": "Your pipeline is empty for now. It fills stage by stage from your first application.",
+"ar": "مسارك فاضي حالياً. يتعبّى مرحلة بمرحلة من أول تقديم."
+},
+"plFreeCta": {
+"en": "Browse your matches",
+"ar": "تصفّح وظائفك"
+},
+"apFree": {
+"en": "No applications yet. Everything you apply to shows up here with its live status.",
+"ar": "لا توجد تقديمات حتى الآن. كل وظيفة تقدّم عليها تظهر هنا بحالتها أولاً بأول."
+},
+"wkFree": {
+"en": "Your weekly report starts after your first week of applying.",
+"ar": "تقريرك الأسبوعي يبدأ بعد أول أسبوع من التقديم."
+},
+"plnFreeT": {
+"en": "Free preview",
+"ar": "معاينة مجانية"
+},
+"plnFreeS": {
+"en": "You browse matches free. Applying and Auto-Apply come with your plan.",
+"ar": "تتصفّح وظائفك مجاناً. التقديم والتقديم التلقائي يأتيان مع باقتك."
+},
+"plnFreeCta": {
+"en": "Start my plan",
+"ar": "ابدأ باقتي"
+},
+"prPlanSFree": {
+"en": "Free preview",
+"ar": "معاينة مجانية"
+},
+"prAutoFreeS": {
+"en": "Off. Comes with your plan.",
+"ar": "مطفّي. يجي مع باقتك."
+},
+"gateHold": {
+"en": "Hold",
+"ar": "تثبيت"
+},
+"gateBounce": {
+"en": "Bounce",
+"ar": "ارتداد"
+},
+"lensSwipeFree": {
+"en": "The lock is felt, not read. Left swipes stay free so browsing feels like the real product, and the blocked right swipe teaches what subscribing buys at the exact moment of intent. The demo toggle above switches the gate between hold and bounce.",
+"ar": "القفل تحسّه ولا تقرأه. السحب لليسار يبقى مجانياً ليظل التصفح مثل المنتج الحقيقي، وسحبة اليمين المقفلة تعلّمك ما الذي يشتريه الاشتراك في لحظة النية بالضبط. مفتاح التجربة في الأعلى يبدّل البوابة بين التثبيت والارتداد."
+},
+"lens": {
+"en": "Lens",
+"ar": "العدسة"
+},
+"restart": {
+"en": "Restart",
+"ar": "من جديد"
+},
+"setup1": {
+"en": "Setting up your account",
+"ar": "نجهّز حسابك"
+},
+"wEy": {
+"en": "You are signed in",
+"ar": "تم تسجيل الدخول"
+},
+"wH1": {
+"en": "Welcome to Auto-Apply, Noura.",
+"ar": "أهلاً بك في التقديم التلقائي، نورة."
+},
+"wSub": {
+"en": "Your account is ready. We already read your CV and set up your account. We just confirm a few things, then the applying starts.",
+"ar": "حسابك جاهز. قرأنا سيرتك الذاتية وجهّزنا إعدادات حسابك. نتأكّد من أمور قليلة فقط ثم يبدأ التقديم."
+},
+"wr1": {
+"en": "We read your CV and understood your experience",
+"ar": "قرينا سيرتك الذاتية وعرفنا خبراتك"
+},
+"wr1s": {
+"en": "8 years, Financial Analyst, Riyadh",
+"ar": "8 سنوات، محلل مالي، الرياض"
+},
+"wr2": {
+"en": "We found you 42 roles",
+"ar": "لقينا لك 42 وظيفة"
+},
+"wr2s": {
+"en": "across Saudi and the Gulf",
+"ar": "في السعودية والخليج"
+},
+"wr3": {
+"en": "3 quick things left to confirm",
+"ar": "باقي 3 أشياء نتأكد منها عالسريع"
+},
+"wr3s": {
+"en": "targets, CV, and how we ping you",
+"ar": "الأهداف والسيرة الذاتية وكيف ننبّهك"
+},
+"wCta": {
+"en": "Confirm my setup",
+"ar": "أكّد إعداداتي"
+},
+"wCtaS": {
+"en": "· about 2 minutes",
+"ar": "· حوالي دقيقتين"
+},
+"lensWelcome": {
+"en": "Setup opens at 40 percent, never zero, because reading the CV already did most of it. The job is to confirm, not to fill.",
+"ar": "الإعداد يبدأ من 40٪ لا من صفر، لأن قراءة السيرة أنجزت أغلب العمل. المطلوب تأكيد لا تعبئة."
+},
+"setup2": {
+"en": "Step 1 of 3",
+"ar": "الخطوة 1 من 3"
+},
+"tH": {
+"en": "Confirm your targets",
+"ar": "أكّد أهدافك"
+},
+"tSub": {
+"en": "Pulled from your CV. Change anything that does not fit.",
+"ar": "مسحوبة من سيرتك الذاتية. غيّر أي شيء لا يناسبك."
+},
+"tRole": {
+"en": "Target roles",
+"ar": "الوظائف المستهدفة"
+},
+"fromcv": {
+"en": "from your CV",
+"ar": "من سيرتك"
+},
+"tCities": {
+"en": "Cities",
+"ar": "المدن"
+},
+"cRemote": {
+"en": "Remote",
+"ar": "عن بعد"
+},
+"tTypes": {
+"en": "Employer types",
+"ar": "أنواع جهات العمل"
+},
+"tMulti": {
+"en": "Multinationals",
+"ar": "شركات عالمية"
+},
+"tPriv": {
+"en": "Private",
+"ar": "قطاع خاص"
+},
+"tSemi": {
+"en": "Semi-government",
+"ar": "شبه حكومي"
+},
+"tGov": {
+"en": "Government",
+"ar": "حكومي"
+},
+"tAuto": {
+"en": "Auto-Apply mode",
+"ar": "وضعية التقديم التلقائي"
+},
+"tReco": {
+"en": "Recommended",
+"ar": "موصى به"
+},
+"tAutoS": {
+"en": "We apply for you the moment a new matching role appears. No approvals.",
+"ar": "نقدّم لك لحظة ما تظهر وظيفة جديدة تناسبك. بدون موافقات."
+},
+"tCta": {
+"en": "Continue",
+"ar": "أكمل"
+},
+"lensTargets": {
+"en": "Everything is pre-checked from the CV, and Autopilot is on by default with a Recommended tag. Most people never change a good default, so we set the good one.",
+"ar": "كل شيء محدد مسبقاً من السيرة، والطيار الآلي مفعّل افتراضياً مع وسم موصى به. أغلب الناس لا يغيّرون إعداداً جيداً، فوضعنا الإعداد الجيد."
+},
+"setup2b": {
+"en": "Step 1 of 3",
+"ar": "الخطوة 1 من 3"
+},
+"blH": {
+"en": "Add the employers you do not want us to apply to.",
+"ar": "أضف الجهات التي ما تبي نقدّم عليها."
+}
+}

@@ -1,0 +1,602 @@
+{
+"rSFA": {
+"en": "Senior Financial Analyst",
+"ar": "محلل مالي أول"
+},
+"rFPA": {
+"en": "FP&A Analyst",
+"ar": "محلل تخطيط وتحليل مالي"
+},
+"rFM": {
+"en": "Finance Manager",
+"ar": "مدير مالي"
+},
+"rAdd": {
+"en": "Add role",
+"ar": "أضف وظيفة"
+},
+"rSheetH": {
+"en": "Add a target role",
+"ar": "أضف وظيفة مستهدفة"
+},
+"rSheetSub": {
+"en": "Auto-Apply applies to every role you keep here.",
+"ar": "التقديم التلقائي يقدّم على كل وظيفة تضيفها هنا."
+},
+"rSugLabel": {
+"en": "Suggested for your background",
+"ar": "مقترحة حسب خبرتك"
+},
+"rSugBudget": {
+"en": "Budget Analyst",
+"ar": "محلل ميزانية"
+},
+"rSugTreasury": {
+"en": "Treasury Analyst",
+"ar": "محلل خزينة"
+},
+"rSugCost": {
+"en": "Cost Controller",
+"ar": "مراقب تكاليف"
+},
+"rSugFC": {
+"en": "Financial Controller",
+"ar": "مراقب مالي"
+},
+"rInputPh": {
+"en": "Type another role",
+"ar": "اكتب وظيفة ثانية"
+},
+"rAddBtn": {
+"en": "Add role",
+"ar": "أضف الوظيفة"
+},
+"tRoleAdded": {
+"en": "Role added. Auto-Apply uses it on the next run.",
+"ar": "انضافت الوظيفة. التقديم التلقائي يستخدمها بالجولة القادمة."
+},
+"tRoleRemoved": {
+"en": "Role removed.",
+"ar": "انحذفت الوظيفة."
+},
+"tRoleDup": {
+"en": "That role is already in your targets.",
+"ar": "الوظيفة موجودة أصلاً في أهدافك."
+},
+"tRoleMin": {
+"en": "Keep at least one target role so Auto-Apply knows what to apply to.",
+"ar": "أبقِ وظيفة مستهدفة واحدة على الأقل ليعرف التقديم التلقائي على ماذا يقدّم."
+},
+"cAll": {
+"en": "All of Saudi Arabia",
+"ar": "كل السعودية"
+},
+"cRiyadh": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"cJeddah": {
+"en": "Jeddah",
+"ar": "جدة"
+},
+"cDammam": {
+"en": "Dammam",
+"ar": "الدمام"
+},
+"cKhobar": {
+"en": "Al Khobar",
+"ar": "الخبر"
+},
+"cMecca": {
+"en": "Mecca",
+"ar": "مكة"
+},
+"cMedina": {
+"en": "Medina",
+"ar": "المدينة المنورة"
+},
+"cAbha": {
+"en": "Abha",
+"ar": "أبها"
+},
+"cAddCity": {
+"en": "Add city",
+"ar": "أضف مدينة"
+},
+"cAllHint": {
+"en": "Every Saudi city is included. Turn this off to pick specific cities.",
+"ar": "كل مدن السعودية مشمولة. أوقفه لاختيار مدن محددة."
+},
+"cSheetH": {
+"en": "Add a city",
+"ar": "أضف مدينة"
+},
+"cSheetSub": {
+"en": "Pick another Saudi city to include.",
+"ar": "اختر مدينة سعودية ثانية نضيفها."
+},
+"cSugLabel": {
+"en": "More Saudi cities",
+"ar": "مدن سعودية أكثر"
+},
+"cSugTabuk": {
+"en": "Tabuk",
+"ar": "تبوك"
+},
+"cSugKhamis": {
+"en": "Khamis Mushait",
+"ar": "خميس مشيط"
+},
+"cSugBuraidah": {
+"en": "Buraidah",
+"ar": "بريدة"
+},
+"cSugHail": {
+"en": "Hail",
+"ar": "حائل"
+},
+"cSugTaif": {
+"en": "Taif",
+"ar": "الطائف"
+},
+"cSugJubail": {
+"en": "Jubail",
+"ar": "الجبيل"
+},
+"cInputPh": {
+"en": "Type a city",
+"ar": "اكتب اسم مدينة"
+},
+"cAddBtn": {
+"en": "Add city",
+"ar": "أضف المدينة"
+},
+"tCityAdded": {
+"en": "City added. Auto-Apply uses it on the next run.",
+"ar": "انضافت المدينة. التقديم التلقائي يستخدمها بالجولة القادمة."
+},
+"tCityDup": {
+"en": "That city is already selected.",
+"ar": "المدينة مختارة أصلاً."
+},
+"tAll": {
+"en": "All types",
+"ar": "كل الأنواع"
+},
+"tStartup": {
+"en": "Startups",
+"ar": "شركات ناشئة"
+},
+"tAllHint": {
+"en": "Every employer type is included. Turn this off to pick specific types.",
+"ar": "كل أنواع جهات العمل مشمولة. أوقفه لاختيار أنواع محددة."
+},
+"swAuto": {
+"en": "Auto-Apply is still running in the background.",
+"ar": "التقديم التلقائي لا يزال يعمل في الخلفية."
+},
+"swMatch": {
+"en": "match",
+"ar": "تطابق"
+},
+"swWhy": {
+"en": "Why you match",
+"ar": "ليش تناسبك"
+},
+"swMore": {
+"en": "Read the full posting",
+"ar": "شوف الإعلان كامل"
+},
+"lensSwipe": {
+"en": "The job card mirrors the card employers see when they review you: the same header, tiles, and evidence rows. Every match claim cites your CV, everything needed to decide sits on one scrollable card, and the full posting is one tap away.",
+"ar": "بطاقة الوظيفة تعكس البطاقة نفسها التي تراها جهات العمل عند مراجعتك: الترويسة نفسها والبطاقات وأسطر الدليل. كل ادّعاء تطابق يستند إلى سيرتك، وكل ما تحتاجه للقرار في بطاقة واحدة تتمرّر، والإعلان الكامل على بعد ضغطة واحدة."
+},
+"swResp": {
+"en": "Responsibilities",
+"ar": "المهام"
+},
+"swReq": {
+"en": "Requirements",
+"ar": "المتطلبات"
+},
+"swApplyDetail": {
+"en": "Apply",
+"ar": "قدّم"
+},
+"swCloseDetail": {
+"en": "Close",
+"ar": "إغلاق"
+},
+"swJobFoot": {
+"en": "We send your CV to this exact role. Nothing is sent until you swipe right or tap Apply.",
+"ar": "نرسل سيرتك لهذه الوظيفة بالضبط. ولا نرسل شيئاً إلا عندما تسحب يمين أو تضغط قدّم."
+},
+"swc1Title": {
+"en": "Financial Analyst",
+"ar": "محلّل مالي"
+},
+"swc1Co": {
+"en": "Almarai",
+"ar": "المراعي"
+},
+"swc1City": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"swc1W1": {
+"en": "FP&A and budgeting",
+"ar": "التخطيط المالي والموازنة"
+},
+"swc1W2": {
+"en": "Consumer sector experience",
+"ar": "خبرة في القطاع الاستهلاكي"
+},
+"swc1Sum": {
+"en": "FP&A role owning the annual budget and monthly forecasts for a consumer business unit.",
+"ar": "وظيفة تخطيط وتحليل مالي تملك الموازنة السنوية والتوقّعات الشهرية لوحدة أعمال استهلاكية."
+},
+"swc2Title": {
+"en": "FP&A Lead",
+"ar": "قائد التخطيط والتحليل المالي"
+},
+"swc2Co": {
+"en": "Jahez",
+"ar": "جاهز"
+},
+"swc2City": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"swc2W1": {
+"en": "Rolling forecasts and variance",
+"ar": "التوقّعات المتحرّكة وتحليل الانحراف"
+},
+"swc2W2": {
+"en": "Team leadership",
+"ar": "قيادة فريق"
+},
+"swc2Sum": {
+"en": "Lead FP&A for a listed technology and delivery company, owning rolling forecasts and board reporting.",
+"ar": "قيادة التخطيط والتحليل المالي لشركة تقنية وتوصيل مدرجة، وتملك التوقّعات المتحرّكة وتقارير المجلس."
+},
+"swc3Title": {
+"en": "Senior Financial Analyst",
+"ar": "محلّل مالي أول"
+},
+"swc3Co": {
+"en": "Aramco",
+"ar": "أرامكو"
+},
+"swc3City": {
+"en": "Dhahran",
+"ar": "الظهران"
+},
+"swc3W1": {
+"en": "IFRS reporting on SAP",
+"ar": "تقارير IFRS على SAP"
+},
+"swc3W2": {
+"en": "Owned the monthly close",
+"ar": "أدار الإقفال الشهري"
+},
+"swc3Sum": {
+"en": "Corporate finance role owning IFRS reporting and the monthly close for a major operating segment.",
+"ar": "وظيفة مالية للشركات تملك تقارير IFRS والإقفال الشهري لقطاع تشغيلي كبير."
+},
+"swEngineT": {
+"en": "From the matching engine",
+"ar": "من محرّك المطابقة"
+},
+"swRec": {
+"en": "Recommended",
+"ar": "مرشّحة لك"
+},
+"swAboutL": {
+"en": "About the company",
+"ar": "عن الشركة"
+},
+"swRoleL": {
+"en": "The role",
+"ar": "الوظيفة"
+},
+"swOfferL": {
+"en": "What they offer",
+"ar": "المزايا"
+},
+"swFullSub": {
+"en": "The posting as the employer published it.",
+"ar": "الإعلان كما نشرته جهة العمل."
+},
+"swc1R1": {
+"en": "Build and maintain the annual operating budget and quarterly reforecasts",
+"ar": "إعداد ومتابعة الموازنة التشغيلية السنوية وإعادة التوقّع الربعية"
+},
+"swc1R2": {
+"en": "Prepare monthly management reports with variance analysis against budget",
+"ar": "تجهيز التقارير الإدارية الشهرية مع تحليل الانحرافات مقابل الموازنة"
+},
+"swc1R3": {
+"en": "Partner with commercial teams on volume, price, and margin drivers",
+"ar": "العمل مع الفرق التجارية على محرّكات الكمية والسعر والهامش"
+},
+"swc1R4": {
+"en": "Model the profit and loss impact of new products and trade promotions",
+"ar": "نمذجة أثر المنتجات الجديدة والعروض التجارية على قائمة الدخل"
+},
+"swc1Q1": {
+"en": "3 to 5 years in FP and A, ideally consumer goods or FMCG",
+"ar": "من 3 إلى 5 سنوات في التخطيط والتحليل المالي، ويفضّل في السلع الاستهلاكية"
+},
+"swc1Q2": {
+"en": "Advanced Excel financial modeling; SAP or Oracle a plus",
+"ar": "نمذجة مالية متقدّمة على Excel، ويفضّل خبرة SAP أو Oracle"
+},
+"swc1Q3": {
+"en": "Bachelor in Finance or Accounting; SOCPA or CMA a plus",
+"ar": "بكالوريوس محاسبة أو مالية، ويفضّل SOCPA أو CMA"
+},
+"swc1Q4": {
+"en": "Strong Arabic and English communication",
+"ar": "تواصل قوي بالعربية والإنجليزية"
+},
+"swc1About": {
+"en": "Almarai is the largest dairy and food company in the region, with more than 40,000 employees across the Gulf.",
+"ar": "المراعي أكبر شركة ألبان وأغذية في المنطقة، بأكثر من 40,000 موظف في الخليج."
+},
+"swc1Role": {
+"en": "You will own the annual budget and monthly forecasts for a consumer business unit, working with commercial and supply teams and presenting to the unit CFO.",
+"ar": "ستملك الموازنة السنوية والتوقّعات الشهرية لوحدة أعمال استهلاكية، وتعمل مع الفرق التجارية وفرق الإمداد وتعرض على المدير المالي للوحدة."
+},
+"swc1O1": {
+"en": "Housing and transport allowances",
+"ar": "بدل سكن ومواصلات"
+},
+"swc1O2": {
+"en": "Annual bonus tied to unit performance",
+"ar": "مكافأة سنوية مرتبطة بأداء الوحدة"
+},
+"swc1O3": {
+"en": "Medical cover for you and your family",
+"ar": "تأمين طبي لك ولعائلتك"
+},
+"swc2R1": {
+"en": "Own the 13-week cash flow and the rolling 12-month forecast",
+"ar": "إدارة التدفّق النقدي لثلاثة عشر أسبوعاً والتوقّع المتحرّك لاثني عشر شهراً"
+},
+"swc2R2": {
+"en": "Lead the monthly close review and variance commentary for the board",
+"ar": "قيادة مراجعة الإقفال الشهري وتعليقات الانحراف المرفوعة للمجلس"
+},
+"swc2R3": {
+"en": "Manage two analysts and set the planning calendar",
+"ar": "إدارة محلّلَين ووضع جدول التخطيط"
+},
+"swc2R4": {
+"en": "Build unit-economics models for new verticals and cities",
+"ar": "بناء نماذج اقتصاديات الوحدة للقطاعات والمدن الجديدة"
+},
+"swc2Q1": {
+"en": "6 or more years in FP and A, with 2 leading a team",
+"ar": "ست سنوات أو أكثر في التخطيط والتحليل المالي، منها سنتان في قيادة فريق"
+},
+"swc2Q2": {
+"en": "Experience in a listed or high-growth technology company",
+"ar": "خبرة في شركة تقنية مدرجة أو سريعة النمو"
+},
+"swc2Q3": {
+"en": "Strong SQL or Power BI for large data sets",
+"ar": "إتقان SQL أو Power BI للتعامل مع البيانات الكبيرة"
+},
+"swc2Q4": {
+"en": "IFRS knowledge; CMA, CFA, or SOCPA preferred",
+"ar": "معرفة بمعايير IFRS، ويفضّل CMA أو CFA أو SOCPA"
+},
+"swc2About": {
+"en": "Jahez is a listed Saudi technology and delivery company serving millions of customers across the Kingdom.",
+"ar": "جاهز شركة تقنية وتوصيل سعودية مدرجة تخدم ملايين العملاء في المملكة."
+},
+"swc2Role": {
+"en": "You will lead FP&A for the group, own the rolling forecast and board reporting, and manage two analysts.",
+"ar": "ستقود التخطيط والتحليل المالي للمجموعة، وتملك التوقّع المتحرّك وتقارير المجلس، وتدير محلّلَين."
+},
+"swc2O1": {
+"en": "Equity plan for senior hires",
+"ar": "خطة أسهم للتعيينات العليا"
+},
+"swc2O2": {
+"en": "Hybrid work after probation",
+"ar": "عمل هجين بعد فترة التجربة"
+},
+"swc2O3": {
+"en": "Annual training budget",
+"ar": "ميزانية تدريب سنوية"
+},
+"swc3R1": {
+"en": "Own the monthly and quarterly close under IFRS on SAP S/4HANA",
+"ar": "إدارة الإقفال الشهري والربعي وفق معايير IFRS على SAP S/4HANA"
+},
+"swc3R2": {
+"en": "Prepare consolidated financial statements and disclosure notes",
+"ar": "إعداد القوائم المالية الموحّدة وإيضاحات الإفصاح"
+},
+"swc3R3": {
+"en": "Support external audit and internal controls over financial reporting",
+"ar": "دعم المراجعة الخارجية والرقابة الداخلية على التقارير المالية"
+},
+"swc3R4": {
+"en": "Analyze capital projects and long-term investment returns",
+"ar": "تحليل المشاريع الرأسمالية وعوائد الاستثمار طويل الأجل"
+},
+"swc3Q1": {
+"en": "5 to 8 years in financial reporting or audit",
+"ar": "من 5 إلى 8 سنوات في التقارير المالية أو المراجعة"
+},
+"swc3Q2": {
+"en": "Qualified accountant: SOCPA, CPA, or ACCA",
+"ar": "محاسب مؤهّل: SOCPA أو CPA أو ACCA"
+},
+"swc3Q3": {
+"en": "Hands-on IFRS and SAP S/4HANA experience",
+"ar": "خبرة عملية في IFRS وSAP S/4HANA"
+},
+"swc3Q4": {
+"en": "Based in Dhahran, Eastern Province",
+"ar": "مقرّ العمل في الظهران، المنطقة الشرقية"
+},
+"swc3About": {
+"en": "Aramco is one of the largest integrated energy companies in the world, headquartered in Dhahran.",
+"ar": "أرامكو من أكبر شركات الطاقة المتكاملة في العالم، ومقرّها الظهران."
+},
+"swc3Role": {
+"en": "You will own IFRS reporting and the monthly close for a major operating segment, supporting external audit and long-term investment analysis.",
+"ar": "ستملك تقارير IFRS والإقفال الشهري لقطاع تشغيلي كبير، وتدعم المراجعة الخارجية وتحليل الاستثمارات طويلة الأجل."
+},
+"swc3O1": {
+"en": "Relocation support to the Eastern Province",
+"ar": "دعم انتقال للمنطقة الشرقية"
+},
+"swc3O2": {
+"en": "Company housing or a housing allowance",
+"ar": "سكن من الشركة أو بدل سكن"
+},
+"swc3O3": {
+"en": "World-class development programs",
+"ar": "برامج تطوير عالمية المستوى"
+},
+"swStatSal": {
+"en": "Salary",
+"ar": "الراتب"
+},
+"swStatExp": {
+"en": "Experience",
+"ar": "الخبرة"
+},
+"swStatPost": {
+"en": "Posted",
+"ar": "نزلت"
+},
+"swc1Exp": {
+"en": "3 to 5 years",
+"ar": "من 3 إلى 5 سنوات"
+},
+"swc1Post": {
+"en": "Today",
+"ar": "اليوم"
+},
+"swc1W1s": {
+"en": "You lead budgeting on SAP in your current role",
+"ar": "تقود الموازنة على SAP في وظيفتك الحالية"
+},
+"swc1W2s": {
+"en": "From the roles on your CV",
+"ar": "من الوظائف في سيرتك"
+},
+"swc2Exp": {
+"en": "6+ years",
+"ar": "6 سنوات أو أكثر"
+},
+"swc2Post": {
+"en": "Yesterday",
+"ar": "أمس"
+},
+"swc2W1s": {
+"en": "You cut reporting time by a third with these",
+"ar": "قلّصت فيهما وقت التقارير بالثلث"
+},
+"swc2W2s": {
+"en": "You own the close for a 40-person function",
+"ar": "تملك الإقفال لإدارة من 40 شخصاً"
+},
+"swc3Exp": {
+"en": "5 to 8 years",
+"ar": "من 5 إلى 8 سنوات"
+},
+"swc3Post": {
+"en": "2 days ago",
+"ar": "قبل يومين"
+},
+"swc3W1s": {
+"en": "You led this across Riyadh business units",
+"ar": "قدتها عبر وحدات الأعمال في الرياض"
+},
+"swc3W2s": {
+"en": "You run it today for a 40-person function",
+"ar": "تديره اليوم لإدارة من 40 شخصاً"
+},
+"hPickT": {
+"en": "Handpick today's matches",
+"ar": "اختَر وظائف اليوم بنفسك"
+},
+"hPickBadge": {
+"en": "3 fresh",
+"ar": "3 جديدة"
+},
+"hPickS": {
+"en": "Auto-Apply keeps running. Swipe through today's top matches and add the ones you love.",
+"ar": "التقديم التلقائي يعمل. تصفّح أفضل وظائف اليوم وأضِف ما يعجبك."
+},
+"hPickStreak": {
+"en": "Handpicked 4 days",
+"ar": "اخترت بنفسك 4 أيام"
+},
+"perHr": {
+"en": "per hour",
+"ar": "في الساعة"
+},
+"epD1": {
+"en": "60-minute session",
+"ar": "جلسة 60 دقيقة"
+},
+"epD2": {
+"en": "90-minute session",
+"ar": "جلسة 90 دقيقة"
+},
+"epD3": {
+"en": "60-minute session",
+"ar": "جلسة 60 دقيقة"
+},
+"epRate": {
+"en": "Billed at 249 ¤ per hour. You only pay for the time you book.",
+"ar": "يُحسب بـ249 ¤ في الساعة. تدفع فقط على الوقت الذي تحجزه."
+},
+"hrRateQ": {
+"en": "How was Auto-Apply for you",
+"ar": "كيف كانت تجربتك مع التقديم التلقائي"
+},
+"hrHiP": {
+"en": "Glad it worked for you. A quick rating helps other job seekers in Riyadh find us.",
+"ar": "سعيدين إنه نفعك. تقييمك السريع يساعد باقي الباحثين عن عمل في الرياض يلقوننا."
+},
+"hrStoreBtn": {
+"en": "Rate us on the App Store",
+"ar": "قيّمنا في متجر التطبيقات"
+},
+"hrTestiOpen": {
+"en": "Or share your story as a testimonial",
+"ar": "أو شاركنا قصتك كشهادة"
+},
+"hrTestiPh": {
+"en": "What did Auto-Apply change for you",
+"ar": "ما الذي غيّره لك التقديم التلقائي"
+},
+"hrConsentL": {
+"en": "Uptal can show my first name, my role, and that I got hired.",
+"ar": "أوافق يعرض Uptal اسمي الأول ومسماي الوظيفي وإني حصلت على وظيفة."
+},
+"hrTestiSend": {
+"en": "Share my testimonial",
+"ar": "شارك شهادتي"
+},
+"hrLoP": {
+"en": "Thank you for the honesty. Tell us what fell short. This goes straight to the team, privately.",
+"ar": "شكراً على صراحتك. أخبرنا بما قصّرنا فيه. يصل مباشرة للفريق وبشكل خاص."
+},
+"hrLoPh": {
+"en": "What could we have done better",
+"ar": "ما الذي كان بإمكاننا تحسينه"
+},
+"hrLoPriv": {
+"en": "Only the Uptal team sees this. It never appears publicly.",
+"ar": "لا يراه إلا فريق Uptal. ولا يظهر للعامة أبداً."
+}
+}

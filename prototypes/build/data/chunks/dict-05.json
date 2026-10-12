@@ -1,0 +1,602 @@
+{
+"hf1": {
+"en": "Interview request",
+"ar": "طلب مقابلة"
+},
+"hf2": {
+"en": "Recruiter viewed your application",
+"ar": "مسؤول توظيف شاف طلبك"
+},
+"hf3": {
+"en": "Applied",
+"ar": "تم التقديم"
+},
+"hRefT": {
+"en": "Give 10% off, get 10% off",
+"ar": "اعطِ خصم 10٪، واحصل على خصم 10٪"
+},
+"hRefS": {
+"en": "Every friend who joins gives you 10% off your next renewal.",
+"ar": "كل صديق يشترك يعطيك خصم 10٪ على تجديدك القادم."
+},
+"lensHome": {
+"en": "The upsell rides real moments, a confirmed interview or a fresh offer, never a cold pitch. Help arrives exactly when it is wanted, so it reads as a favor, not an ad.",
+"ar": ""
+},
+"agBack": {
+"en": "Home",
+"ar": "الرئيسية"
+},
+"agH": {
+"en": "Auto-Apply activity",
+"ar": "نشاط التقديم التلقائي"
+},
+"agSub": {
+"en": "Last run · 1,240 roles found · 38 fit you",
+"ar": "آخر جولة · 1,240 وظيفة · منها 38 تناسبك"
+},
+"ag1": {
+"en": "Applied to 6 roles, best matches first",
+"ar": "قدّمنا على 6 وظائف، الأكثر مطابقة أولاً"
+},
+"ag1s": {
+"en": "Started with your two 95%+ matches so the strongest CV lands early.",
+"ar": "بدأنا بأعلى تطابقين فوق 95٪ لتصل أقوى سيرة ذاتية مبكراً."
+},
+"ag2": {
+"en": "Queued 9 more for the next run",
+"ar": "9 وظائف في الانتظار للجولة القادمة"
+},
+"ag2s": {
+"en": "Spread out so applications do not all land in one hour.",
+"ar": "موزّعة حتى لا تصل كل الطلبات في ساعة واحدة."
+},
+"ag3": {
+"en": "Skipped 2 roles below your salary floor",
+"ar": "تخطّينا وظيفتين تحت حدّك للراتب"
+},
+"ag3s": {
+"en": "Both were under 26,000 ¤. Raise or lower your floor in Preferences.",
+"ar": "الثنتين تحت 26,000 ¤. عدّل حدّك من الإعدادات."
+},
+"ag4": {
+"en": "Skipped 1 role at Acme Capital",
+"ar": "تخطّينا وظيفة في Acme Capital"
+},
+"ag4s": {
+"en": "On your do-not-apply list. Blocklist honored, always.",
+"ar": "ضمن قائمة عدم التقديم. نحترم الحظر، دايماً."
+},
+"agLearnT": {
+"en": "The AI got smarter this week",
+"ar": "الذكاء الاصطناعي أصبح أذكى هذا الأسبوع"
+},
+"agLearn": {
+"en": "You prioritized the Qiddiya role, so it now ranks giga-project finance roles higher for you.",
+"ar": "رفعت أولوية وظيفة القدية، فأصبح يرتّب وظائف المشاريع العملاقة بأولوية أعلى لك."
+},
+"lensAgent": {
+"en": "Showing the reasons behind every decision, including what it refused to do, turns autonomous applying into trust and gives a real reason to check in.",
+"ar": "عرض أسباب كل قرار، حتى ما رفض فعله، يحوّل التقديم التلقائي إلى ثقة ويعطي سبباً حقيقياً للدخول والاطلاع."
+},
+"plH": {
+"en": "Pipeline",
+"ar": "المسار"
+},
+"pApplied2": {
+"en": "Applications",
+"ar": "التقديم"
+},
+"pViewed2": {
+"en": "Views",
+"ar": "المشاهدات"
+},
+"pScreen2": {
+"en": "Screening",
+"ar": "الفرز"
+},
+"pIv2": {
+"en": "Interviews",
+"ar": "المقابلات"
+},
+"pOffer2": {
+"en": "Offers",
+"ar": "العروض الوظيفية"
+},
+"plActive": {
+"en": "Active",
+"ar": "نشط"
+},
+"plS1": {
+"en": "Interview requested · Thu 10:00",
+"ar": "جاك طلب مقابلة · الخميس 10:00"
+},
+"plS2": {
+"en": "Screening · recruiter reviewing",
+"ar": "فرز · المسؤول يراجع"
+},
+"plS3": {
+"en": "Viewed 5 hours ago",
+"ar": "شوهد قبل 5 ساعات"
+},
+"plS4": {
+"en": "Applied today 03:12",
+"ar": "تم التقديم اليوم 03:12"
+},
+"plGot": {
+"en": "Got a job offer",
+"ar": "حصلت على عرض وظيفي"
+},
+"plGotS": {
+"en": "We help you negotiate the best package and close it.",
+"ar": "نساعدك تفاوض على أفضل عرض وتقفله."
+},
+"plGotBtn": {
+"en": "I need help negotiating",
+"ar": "أحتاج مساعدة في التفاوض"
+},
+"plHiredT": {
+"en": "Did you land the job",
+"ar": "حصلت على الوظيفة؟"
+},
+"plHiredS": {
+"en": "The moment you sign, tell us. We celebrate it with you and help you start strong.",
+"ar": "فور توقيعك العقد، أخبرنا. نحتفل معك ونساعدك على بداية قوية."
+},
+"plHiredBtn": {
+"en": "I got hired",
+"ar": "توظّفت"
+},
+"lensPipe": {
+"en": "Seeing movement stage by stage toward an offer keeps momentum. The last empty stage is the open loop that pulls the user forward.",
+"ar": "رؤية الحركة مرحلة بمرحلة نحو العرض تحافظ على الزخم. المرحلة الفارغة الأخيرة هي الحلقة المفتوحة التي تسحبك للأمام."
+},
+"jBack": {
+"en": "Pipeline",
+"ar": "المسار"
+},
+"jStatus": {
+"en": "Interview requested",
+"ar": "وصلك طلب مقابلة"
+},
+"jWhy": {
+"en": "Why you match",
+"ar": "ليش تناسبك"
+},
+"jm1": {
+"en": "Core requirement, on your CV",
+"ar": "متطلب أساسي، موجود بسيرتك"
+},
+"jm2b": {
+"en": "Team leadership",
+"ar": "قيادة فريق"
+},
+"jm2": {
+"en": "You led a 40-person function",
+"ar": "قدت فريق من 40 شخص"
+},
+"jm3b": {
+"en": "Public sector exposure",
+"ar": "خبرة بالقطاع العام"
+},
+"jm3": {
+"en": "Nice to have, not required",
+"ar": "يُفضّل، غير مطلوب"
+},
+"jCv": {
+"en": "See the CV we sent",
+"ar": "شاهد السيرة التي أرسلناها"
+},
+"jCta": {
+"en": "Confirm the interview",
+"ar": "أكّد المقابلة"
+},
+"lensJob": {
+"en": "Showing the member the exact CV that went out, and why the role fits, builds trust in what Auto-Apply sends. With CV Tailoring on, the same view shows the rewrite and its match score: the add-on proving itself on a real application.",
+"ar": "عرض السيرة نفسها التي أُرسلت للعضو، ولماذا تناسبه الوظيفة، يبني الثقة بما يرسله التقديم التلقائي. ومع تفعيل تخصيص السيرة الذاتية تعرض الشاشة نفسها النسخة المعاد كتابتها ودرجة تطابقها: الإضافة تثبت قيمتها على طلب حقيقي."
+},
+"mkH": {
+"en": "Analytics",
+"ar": "التحليلات"
+},
+"mkK": {
+"en": "What companies pay for your current role in your city",
+"ar": "كم تدفع الشركات لنفس وظيفتك الحالية في مدينتك؟"
+},
+"mkYou": {
+"en": "you",
+"ar": "أنت"
+},
+"mkWarn": {
+"en": "Your salary floor is 26% below market. Raising it filters out low offers and can lift replies.",
+"ar": "حدّك للراتب أقل من السوق بـ26٪. رفعه يصفّي العروض المنخفضة ويرفع الردود."
+},
+"mkRaise": {
+"en": "Raise my floor in Preferences",
+"ar": "ارفع حدّي من الإعدادات"
+},
+"mkPct": {
+"en": "Your profile strength",
+"ar": "قوة ملفك"
+},
+"mkPctv": {
+"en": "stronger than 82%",
+"ar": "أقوى من 82٪"
+},
+"mkGap": {
+"en": "You need these courses to strengthen your profile in the job market",
+"ar": "تحتاج هذه الدورات لترفع قوة ملفك في سوق العمل"
+},
+"mkg1": {
+"en": "in 64% of senior postings",
+"ar": "في 64٪ من الوظائف القيادية"
+},
+"mkg2": {
+"en": "in 71% of postings",
+"ar": "في 71٪ من الوظائف"
+},
+"mkHonest": {
+"en": "We show the gap between your profile and what the market needs",
+"ar": "نعرض الفجوة بين ملفك وبين احتياجات السوق"
+},
+"lensMarket": {
+"en": "Showing the real salary band first anchors the user’s sense of worth, so a low floor looks obviously low and the subscription becomes career intelligence, not just applications.",
+"ar": "عرض نطاق الراتب الحقيقي أولاً يضبط إحساسك بقيمتك، فيبدو الحد المنخفض منخفضاً بوضوح، ويصير الاشتراك ذكاءً مهنياً لا مجرد تقديمات."
+},
+"prH": {
+"en": "Preferences",
+"ar": "الإعدادات"
+},
+"pr1": {
+"en": "Target role",
+"ar": "الوظيفة المستهدفة"
+},
+"pr2": {
+"en": "Cities",
+"ar": "المدن"
+},
+"pr2s": {
+"en": "Riyadh, Jeddah, Remote",
+"ar": "الرياض، جدة، عن بعد"
+},
+"pr3": {
+"en": "Salary floor",
+"ar": "الحد الأدنى للراتب"
+},
+"pr3w": {
+"en": "Market 34-41k",
+"ar": "السوق 34-41 ألف"
+},
+"pr4": {
+"en": "Do not apply to",
+"ar": "لا تقدّم لـ"
+},
+"pr4s": {
+"en": "2 employers",
+"ar": "جهتين"
+},
+"pr5": {
+"en": "Your CV",
+"ar": "سيرتك الذاتية"
+},
+"pr5s": {
+"en": "Updated 2 days ago",
+"ar": "حُدّثت قبل يومين"
+},
+"prAuto": {
+"en": "Auto-Apply",
+"ar": "التقديم التلقائي"
+},
+"prAutoS": {
+"en": "Applying automatically to the roles that fit you",
+"ar": "نقدّم تلقائياً للوظائف التي تناسبك"
+},
+"prAcct": {
+"en": "Account",
+"ar": "الحساب"
+},
+"prPlan": {
+"en": "Subscription",
+"ar": "نوع الاشتراك"
+},
+"prPlanS": {
+"en": "Monthly",
+"ar": "شهري"
+},
+"prNotif": {
+"en": "Notifications",
+"ar": "التنبيهات"
+},
+"prLang": {
+"en": "Language",
+"ar": "اللغة"
+},
+"prManage": {
+"en": "Account and support",
+"ar": "الحساب والدعم"
+},
+"lensPrefs": {
+"en": "This is the profile the user built and keeps tuning. The more they shape it, the more it is theirs and the harder it is to walk away from.",
+"ar": "هذا هو الملف الذي بناه المستخدم ويظل يضبطه. كلما شكّله أكثر أصبح ملكه أكثر وصعُب عليه أن يتركه."
+},
+"plnBack": {
+"en": "Preferences",
+"ar": "الإعدادات"
+},
+"plnH": {
+"en": "Your subscription",
+"ar": "اشتراكك"
+},
+"plnSub": {
+"en": "You are on the Monthly plan. This is your best rate.",
+"ar": "أنت على باقة شهري. هذا أفضل سعر لك."
+},
+"plnCur": {
+"en": "Monthly",
+"ar": "شهري"
+},
+"plnCurS": {
+"en": "Renews 27 September 2026",
+"ar": "يتجدد 27 سبتمبر 2026"
+},
+"plnMo": {
+"en": "¤ / mo",
+"ar": "¤ / شهر"
+},
+"plnAnchor": {
+"en": "",
+"ar": ""
+},
+"plnChange": {
+"en": "Change or pause",
+"ar": "غيّر أو أوقف"
+},
+"plnDreamB": {
+"en": "post-hire",
+"ar": "بعد التوظيف"
+},
+"plnDreamS": {
+"en": "Watch only for your dream role, apply instantly",
+"ar": "يراقب وظيفة أحلامك فقط ويقدّم فوراً"
+},
+"plnMo2": {
+"en": "¤ / mo",
+"ar": "¤ / شهر"
+},
+"plnLite": {
+"en": "Auto-Apply Lite",
+"ar": "التقديم التلقائي لايت"
+},
+"plnLiteS": {
+"en": "Up to 100 a month",
+"ar": "إلى 100 بالشهر"
+},
+"plnMo3": {
+"en": "¤ / mo",
+"ar": "¤ / شهر"
+},
+"plnPause": {
+"en": "Pause subscription",
+"ar": "أوقف الاشتراك"
+},
+"plnPauseS": {
+"en": "Up to 3 months, rate locked",
+"ar": "إلى 3 أشهر، السعر محفوظ"
+},
+"plnCancel": {
+"en": "Cancel subscription",
+"ar": "ألغِ الاشتراك"
+},
+"plnGives": {
+"en": "What your plan gives you",
+"ar": "ما تقدمه لك باقتك"
+},
+"plnB1": {
+"en": "Up to 300 applications a month",
+"ar": "تقديم على 300 وظيفة بالشهر كحد أقصى"
+},
+"plnB2": {
+"en": "Employer replies in one Uptal inbox",
+"ar": "ردود جهات العمل في بريد واحد داخل Uptal"
+},
+"plnB3": {
+"en": "Salary alerts and market moves tracked for you",
+"ar": "تحليل السوق والرواتب"
+},
+"plnB4": {
+"en": "Priority support when you need it",
+"ar": "أولوية الدعم وقت ما تحتاج"
+},
+"plnB5": {
+"en": "Your price locked in for as long as you stay",
+"ar": "سعرك محفوظ ما دمت مشترك"
+},
+"plnDone": {
+"en": "What Auto-Apply has done for you",
+"ar": "ما فعله التقديم التلقائي لك"
+},
+"plnKeep": {
+"en": "All of this continues for as long as your subscription is active.",
+"ar": "كل هذا يستمر ما دام اشتراكك مفعلاً."
+},
+"plnBilling": {
+"en": "Billing",
+"ar": "الفوترة"
+},
+"plnNext": {
+"en": "Next renewal",
+"ar": "التجديد القادم"
+},
+"plnPay": {
+"en": "Payment method",
+"ar": "طريقة الدفع"
+},
+"plnPayV": {
+"en": "mada ending 4421",
+"ar": "مدى تنتهي بـ4421"
+},
+"plnInv": {
+"en": "Invoices and receipts",
+"ar": "الفواتير والإيصالات"
+},
+"plnManage": {
+"en": "Manage subscription",
+"ar": "إدارة الاشتراك"
+},
+"mgBack": {
+"en": "Subscription",
+"ar": "الاشتراك"
+},
+"mgH": {
+"en": "Manage subscription",
+"ar": "إدارة الاشتراك"
+},
+"lensManage": {
+"en": "Cheaper plans are not shown here. Dream and Lite surface only as targeted save offers once someone actually starts to cancel, so a full-price member is never nudged to pay less.",
+"ar": "الباقات الأرخص لا تُعرض هنا. الأحلام ولايت تظهران فقط كعروض إبقاء موجّهة حين يبدأ أحد فعلاً بالإلغاء، فالعضو بالسعر الكامل لا يُوجَّه أبداً نحو سعر أقل."
+},
+"mgNote": {
+"en": "Your price of 399 ¤ a month is locked in for as long as you stay. Move to a lighter plan or cancel and you give it up, so coming back later could cost more.",
+"ar": "سعرك 399 ¤ بالشهر محفوظ ما دمت مشترك. لو نزّلت باقتك أو ألغيت تخسره، ويمكن يزيد السعر لما ترجع."
+},
+"tInvoice": {
+"en": "Opening your invoices and receipts",
+"ar": "نفتح فواتيرك وإيصالاتك"
+},
+"lensPlan": {
+"en": "Retention by design. A member sees the term they chose, what it costs per application, and at most one row that goes longer and costs less a month. Nothing on this page points to a shorter, pricier term, and cancel still takes deliberate steps.",
+"ar": "الاحتفاظ بالعضو مقصود بالتصميم. العضو يرى المدة التي اختارها، وكم تكلّفه لكل طلب، وعلى الأكثر صف واحد لباقة أطول وأرخص بالشهر. لا شيء في هذه الصفحة يشير إلى مدة أقصر وأغلى، والإلغاء ما زال يأخذ خطوات مقصودة."
+},
+"hrH": {
+"en": "You got hired.",
+"ar": "توظّفت."
+},
+"hrSub": {
+"en": "Congratulations, this is the news we love to hear. You did the interview, and we applied to the 214 roles behind it.",
+"ar": "ألف مبروك، هذه الأخبار التي نحب سماعها. أنت أجريت المقابلة، ونحن قدّمنا على الـ214 وظيفة التي وراءها."
+},
+"hrKeep": {
+"en": "Do not lose your momentum",
+"ar": "لا تخسر زخمك"
+},
+"hrDream": {
+"en": "Switch to Dream Job, 99 ¤",
+"ar": "حوّل لوضع وظيفة الأحلام، 99 ¤"
+},
+"hrDreamS": {
+"en": "We keep watching only for your dream role and apply the instant it appears. Your full rate stays locked.",
+"ar": "نستمر في مراقبة وظيفة أحلامك فقط ونقدّم لحظة ظهورها. سعرك الكامل يظل محفوظاً."
+},
+"hrDreamBtn": {
+"en": "Switch to Dream Job mode",
+"ar": "حوّل لوضع وظيفة الأحلام"
+},
+"hrPause": {
+"en": "Pause instead, up to 3 months",
+"ar": "أوقف بدلاً من ذلك، إلى 3 أشهر"
+},
+"hrCancel": {
+"en": "Cancel membership",
+"ar": "ألغِ العضوية"
+},
+"hrVow": {
+"en": "We do not stop until you are hired. You made it.",
+"ar": "ما نوقّف إلى ما تتوظّف. وصلت."
+},
+"hrCta": {
+"en": "Back to my dashboard",
+"ar": "ارجع للوحة التحكم"
+},
+"hrManage": {
+"en": "Your membership stays active. You can manage it anytime in Membership.",
+"ar": "عضويتك تظل فعّالة. يمكنك إدارتها في أي وقت من العضوية."
+},
+"lensHired": {
+"en": "The win is the moment the whole product exists for, so this screen does one thing: celebrate. Managing, pausing or cancelling lives only in Membership, never pushed at the person who just succeeded.",
+"ar": "الفوز هو اللحظة التي وُجد المنتج من أجلها، فهذه الشاشة تفعل شيئاً واحداً: تحتفل. الإدارة والإيقاف والإلغاء في العضوية فقط، ولا تُعرض أبداً على من نجح للتو."
+},
+"drEy": {
+"en": "Dream Job mode",
+"ar": "وضع وظيفة الأحلام"
+},
+"drH": {
+"en": "Never miss your dream role.",
+"ar": "لا تفوتك وظيفة أحلامك."
+},
+"drSub": {
+"en": "We focus on exactly what you want and watch every new posting. The minute it appears, we apply and ping you. Pick the role and the employer you dream of and leave the rest to us.",
+"ar": "نركز على ما تبيه بالضبط ونراقب كل وظيفة جديدة، وفور ظهورها نقدّم وننبّهك. حدد الوظيفة والجهة التي تتمنى العمل فيها ودع الباقي علينا."
+},
+"drC1": {
+"en": "Job titles",
+"ar": "المسميات الوظيفية"
+},
+"drC2": {
+"en": "Dream employers",
+"ar": "جهات الأحلام"
+},
+"drC3": {
+"en": "Salary floor",
+"ar": "الحد الأدنى للراتب"
+},
+"drPushT": {
+"en": "We caught your dream role",
+"ar": "جبنا لك وظيفة أحلامك"
+},
+"drPushP": {
+"en": "VP Finance at PIF posted 09:02. We applied at 09:08, you were applicant number 4.",
+"ar": "نائب رئيس مالية في PIF نُشرت 09:02. قدّمنا 09:08، كنت المتقدّم رقم 4."
+},
+"drNote": {
+"en": "Your original subscription price stays locked. Switch back anytime with one tap.",
+"ar": "سعر الاشتراك الأصلي يظل محفوظ. ارجع في أي وقت بضغطة واحدة."
+},
+"drCta": {
+"en": "Turn on Dream Job, 99 ¤",
+"ar": "فعّل وضع وظيفة الأحلام، 99 ¤"
+},
+"lensDream": {
+"en": "Framed around the fear of missing the one role that matters. Auto-Apply quietly watches so the user never loses a dream opening.",
+"ar": "مصاغ حول الخوف من تفويت الوظيفة الوحيدة المهمة. التقديم التلقائي يراقب بهدوء فما يخسر المستخدم فرصة أحلامه."
+},
+"paH": {
+"en": "Pause your subscription, do not cancel it.",
+"ar": "جمّد الاشتراك لا تلغيه."
+},
+"paSub": {
+"en": "Take up to 3 months. We keep watching the job market so nothing good slips by while you are away.",
+"ar": "خذ حتى 3 أشهر. نواصل مراقبة سوق العمل حتى لا يفوتك شيء جيد أثناء غيابك."
+},
+"pa1": {
+"en": "Your subscription price stays locked",
+"ar": "سعر اشتراكك يظل محفوظ"
+},
+"pa1s": {
+"en": "No re-pricing when you come back",
+"ar": "بدون إعادة تسعير لما ترجع"
+},
+"pa2": {
+"en": "We keep watching",
+"ar": "نستمر نراقب"
+},
+"pa2s": {
+"en": "See what you missed the day you resume",
+"ar": "تشاهد ما فاتك يوم ترجع"
+},
+"pa3": {
+"en": "One tap to reactivate",
+"ar": "ضغطة واحدة لتفعيل الاشتراك"
+},
+"pa3s": {
+"en": "We pick up exactly where we stopped",
+"ar": "نكمّل من نفس المكان الذي وقفنا عنده"
+},
+"paHow": {
+"en": "Pause for",
+"ar": "جمّد لمدة"
+},
+"paMo": {
+"en": "month",
+"ar": "شهر"
+}
+}

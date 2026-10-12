@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Multi-region onboarding · prototype</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@700,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#061430;--persian:#353cd8;--electric:#0028db;--flash:#4cea63;--green-d:#0b7a46;--green-t:#eafbf0;
+  --amber:#c98a00;--amber-d:#8a5d00;--amber-t:#fff6e6;--cream:#fff9ec;--red:#d9435e;--slate:#42506b;--muted:#8592a8;
+  --line:#e7ebf2;--line2:#eef1f7;--bg:#ffffff;--wash:#f6f8fc;--chip-on:#e9ecff;--tile:#eef0ff;
+  --sans:'Inter','IBM Plex Sans Arabic',system-ui,sans-serif;
+  --disp:'Switzer','IBM Plex Sans Arabic','Inter',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--wash);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--persian);outline-offset:2px}
+
+/* ── prototype controls (not part of the product) ── */
+.proto{position:sticky;top:0;z-index:30;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding:8px 16px;background:#0b1020;color:#c9d1e6;font-size:12.5px}
+.proto strong{color:#fff;font-weight:800;margin-inline-end:4px}
+.proto label{display:inline-flex;align-items:center;gap:6px}
+.proto select{background:#1a2240;color:#fff;border:1px solid #2c3760;border-radius:8px;padding:5px 8px;font:inherit;font-size:12.5px}
+.proto .pbtn{background:#1a2240;color:#fff;border:1px solid #2c3760;border-radius:8px;padding:5px 10px;cursor:pointer;font-size:12.5px;font-weight:700}
+.proto .grow{flex:1 1 auto}
+
+/* ── app shell ── */
+.app{display:flex;min-height:calc(100vh - 44px)}
+.brand{display:none}
+@media (min-width:1020px){
+  .brand{display:flex;flex:0 0 380px;flex-direction:column;justify-content:space-between;gap:36px;padding:40px 34px;color:#fff;
+    background:radial-gradient(600px 400px at 0% 100%,rgba(76,234,99,.14),transparent 60%),radial-gradient(500px 380px at 100% 0%,rgba(53,60,216,.35),transparent 60%),linear-gradient(160deg,#0b1020 0%,#121a3c 55%,#1a2a6e 100%)}
+}
+.brand .logo{display:flex;align-items:center;gap:8px;font-family:var(--disp);font-weight:800;font-size:22px;letter-spacing:-.02em}
+.brand .logo i{width:10px;height:10px;border-radius:999px;background:var(--flash);display:inline-block}
+.brand h1{margin:0;font-family:var(--disp);font-size:32px;line-height:1.12;font-weight:800;letter-spacing:-.02em}
+.brand p{margin:0;font-size:14px;line-height:1.55;color:#c9d1e6}
+.rail{display:flex;flex-direction:column;gap:4px}
+.rail button{display:flex;align-items:center;gap:12px;width:100%;min-height:50px;padding:6px 10px;border:0;border-radius:14px;background:transparent;color:#fff;cursor:pointer;text-align:start}
+.rail button.on{background:rgba(255,255,255,.10)}
+.rail .dot{flex:0 0 28px;height:28px;border-radius:999px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;border:1.5px solid rgba(255,255,255,.35)}
+.rail button.on .dot{background:var(--flash);color:var(--ink);border-color:var(--flash)}
+.rail button.done .dot{background:rgba(76,234,99,.18);color:var(--flash);border-color:transparent}
+.rail button.skip{opacity:.55}
+.rail .t{display:flex;flex-direction:column;gap:2px}
+.rail .t b{font-size:14px;font-weight:700}
+.rail .t span{font-size:12px;color:#aab4cf}
+
+.main{flex:1 1 auto;min-width:0;display:flex;justify-content:center}
+.col{width:100%;max-width:452px;background:var(--bg);display:flex;flex-direction:column;min-height:calc(100vh - 44px)}
+@media (min-width:700px){
+  .main{padding:32px 24px 56px}
+  .col{max-width:640px;min-height:auto;border:1px solid var(--line);border-radius:24px;box-shadow:0 12px 40px -24px rgba(6,20,48,.25);overflow:hidden}
+}
+.screen{flex:1 1 auto;display:flex;flex-direction:column;gap:22px;padding:16px 20px 8px;animation:fadeUp .28s ease}
+@media (min-width:700px){.screen{padding:28px 36px 8px}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.cta{position:sticky;bottom:0;display:flex;flex-direction:column;gap:8px;padding:16px 20px 22px;background:linear-gradient(180deg,rgba(255,255,255,0),#fff 32%)}
+@media (min-width:700px){.cta{padding:18px 36px 28px}}
+.cta .meta{text-align:center;font-size:12.5px;font-weight:700;color:var(--slate)}
+
+/* ── type ── */
+.h1{margin:0;font-family:var(--disp);font-size:27px;line-height:1.15;font-weight:800;letter-spacing:-.02em}
+@media (min-width:700px){.h1{font-size:30px}}
+.h2{margin:0;font-size:15px;font-weight:800}
+.sub{margin:0;font-size:14px;line-height:1.55;color:var(--slate)}
+.small{font-size:12.5px;line-height:1.5;color:var(--slate)}
+.eyebrow{align-self:flex-start;display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:#f3f4fe;border:1px solid #dfe3f6;color:var(--persian);font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+.eyebrow i{width:6px;height:6px;border-radius:999px;background:var(--flash)}
+.label{font-size:13px;font-weight:800}
+.stack{display:flex;flex-direction:column;gap:10px}
+.row{display:flex;align-items:center;gap:12px}
+.wrap{display:flex;flex-wrap:wrap;gap:8px}
+
+/* ── header ── */
+.top{display:flex;flex-direction:column;gap:10px}
+.back{flex:0 0 44px;height:44px;border-radius:999px;border:1px solid var(--line);background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer}
+[dir=rtl] .back svg,[dir=rtl] .flip{transform:scaleX(-1)}
+.steplbl{flex:1 1 auto;display:flex;justify-content:space-between;font-size:12px;font-weight:700;color:var(--slate)}
+.steplbl b{color:var(--persian)}
+.track{height:6px;border-radius:999px;background:var(--line2);overflow:hidden}
+.track i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--flash),#37d64f);transition:width .3s ease}
+
+/* ── controls ── */
+.btn{width:100%;min-height:52px;border:0;border-radius:999px;font-size:15px;font-weight:800;cursor:pointer}
+.btn-b{background:var(--persian);color:#fff}
+.btn-p{background:var(--flash);color:var(--ink);box-shadow:0 10px 24px -12px rgba(76,234,99,.9)}
+.btn-o{background:#fff;border:1.5px solid var(--line)}
+.btn-t{min-height:44px;background:transparent;color:var(--persian);font-size:14px;font-weight:700}
+.btn-sm{min-height:44px;padding:0 16px;border-radius:999px;border:1.5px solid var(--line);background:#fff;font-size:13px;font-weight:800;cursor:pointer}
+.chip{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border-radius:999px;border:1.5px solid var(--wash);background:var(--wash);color:var(--slate);font-size:13px;font-weight:700;cursor:pointer}
+.chip.on{border-color:var(--persian);background:var(--chip-on);color:var(--persian)}
+.chip.add{border:1.5px dashed #c9d1e1;background:#fff;color:var(--persian)}
+.chip.prim{border-color:var(--persian);background:var(--persian);color:#fff}
+.chip.dis{opacity:.45;cursor:default}
+.tag{padding:2px 6px;border-radius:6px;font-size:10.5px;font-weight:800;letter-spacing:.03em}
+.tag.cv{background:#fff;color:var(--slate);text-transform:uppercase}
+.tag.here{background:var(--green-t);color:var(--green-d)}
+.tag.soon{background:var(--amber-t);color:var(--amber-d)}
+.tag.top{background:var(--green-t);color:var(--green-d)}
+.tag.need{background:var(--amber-t);color:var(--amber-d)}
+.sw{flex:0 0 44px;height:26px;border-radius:999px;border:0;padding:3px;cursor:pointer;display:flex;justify-content:flex-start;background:#d5dbe7;transition:background .15s}
+.sw i{width:20px;height:20px;border-radius:999px;background:#fff;box-shadow:0 1px 3px rgba(6,20,48,.25)}
+.sw[aria-checked=true]{justify-content:flex-end;background:var(--flash)}
+.sw.blue[aria-checked=true]{background:var(--persian)}
+.inp{display:flex;align-items:center;gap:10px;min-height:48px;padding:0 14px;border:1.5px solid var(--line);border-radius:12px;background:#fff;color:var(--slate)}
+.inp:focus-within{border-color:var(--persian)}
+.inp input{flex:1 1 auto;min-width:0;border:0;outline:none;font:inherit;font-size:14px;color:var(--ink);background:transparent}
+.inp .unit{font-size:12.5px;font-weight:700;color:var(--slate);white-space:nowrap}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ── cards ── */
+.card{display:flex;flex-direction:column;gap:12px;padding:16px;border:1px solid #e6ebf3;border-radius:18px;background:#fff;box-shadow:0 6px 20px -10px rgba(6,20,48,.16)}
+.card.miss{border-color:#f0d9a8;background:linear-gradient(180deg,#fffcf5,#fff)}
+.tile{flex:0 0 40px;height:40px;border-radius:12px;background:var(--tile);color:var(--persian);display:flex;align-items:center;justify-content:center}
+.tile.sm{flex-basis:34px;height:34px;border-radius:10px}
+.code{flex:0 0 34px;height:26px;border-radius:7px;background:var(--tile);color:var(--persian);font-size:11.5px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.note{display:flex;align-items:flex-start;gap:8px;padding:10px 12px;border-radius:12px;background:var(--wash);font-size:12.5px;line-height:1.5;color:var(--slate)}
+.note.green{background:var(--green-t);color:#0a5c36}
+.note.cream{background:var(--cream)}
+.note svg{flex:0 0 16px;margin-top:1px}
+
+.regions{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.region{display:flex;flex-direction:column;align-items:flex-start;gap:8px;min-height:138px;padding:14px;border-radius:16px;border:1.5px solid var(--line);background:#fff;cursor:pointer;text-align:start}
+.region.on{border-color:var(--persian);background:#f7f8ff}
+.region.soon{border-style:dashed;border-color:#d5dbe7}
+.region .name{font-size:14.5px;font-weight:800;line-height:1.25}
+.region .desc{font-size:12px;line-height:1.4;color:var(--slate)}
+.check{width:22px;height:22px;border-radius:999px;border:1.5px solid #d5dbe7;background:#fff;display:flex;align-items:center;justify-content:center;color:transparent}
+.on>.row>.check,.region.on .check{background:var(--persian);border-color:var(--persian);color:#fff}
+
+.opt{display:flex;align-items:center;gap:12px;min-height:48px;padding:10px 12px;border:1.5px solid var(--line);border-radius:12px;background:#fff;cursor:pointer;text-align:start;font-size:13.5px;font-weight:600;width:100%}
+.opt .rad{flex:0 0 20px;height:20px;border-radius:999px;border:1.5px solid #c9d1e1;display:flex;align-items:center;justify-content:center}
+.opt.on{border-color:var(--persian);background:#f7f8ff;color:var(--persian)}
+.opt.on .rad{border-color:var(--persian)}
+.opt.on .rad::after{content:"";width:10px;height:10px;border-radius:999px;background:var(--persian)}
+.opt .od{display:block;font-size:12px;font-weight:500;color:var(--slate);margin-top:2px}
+
+.rank{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid #e6ebf3;border-radius:16px;background:#fff}
+.rank .num{flex:0 0 30px;height:30px;border-radius:999px;background:var(--tile);color:var(--persian);font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.rank.first .num{background:var(--persian);color:#fff}
+.rank .tx{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:2px}
+.rank .tx b{font-size:14.5px;font-weight:800}
+.rank .tx span{font-size:12.5px;color:var(--slate)}
+.mv{flex:0 0 44px;height:44px;border-radius:12px;border:1px solid var(--line);background:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.mv:disabled{opacity:.35;cursor:default}
+.seg{display:inline-flex;padding:3px;border-radius:999px;background:var(--wash)}
+.seg button{min-height:36px;padding:0 12px;border:0;border-radius:999px;background:transparent;font-size:12.5px;font-weight:800;color:var(--slate);cursor:pointer}
+.seg button.on{background:#fff;color:var(--persian);box-shadow:0 1px 4px rgba(6,20,48,.12)}
+.auto{display:flex;align-items:center;gap:10px;padding:12px;border-radius:12px;background:var(--green-t);color:#0a5c36;font-size:13px;font-weight:700}
+.auto .grow{flex:1 1 auto}
+.auto button{border:0;background:transparent;color:var(--green-d);font-size:12.5px;font-weight:800;text-decoration:underline;cursor:pointer;min-height:36px}
+
+.welcome-row{display:flex;gap:12px;align-items:flex-start;padding:14px;border-radius:16px;background:var(--wash)}
+.welcome-row b{display:block;font-size:14.5px}
+.welcome-row span{font-size:13px;color:var(--slate)}
+
+/* ── sheet ── */
+.backdrop{position:fixed;inset:0;z-index:40;display:flex;align-items:flex-end;justify-content:center;background:rgba(6,20,48,.35)}
+.sheet{width:100%;max-width:452px;max-height:88vh;overflow:auto;display:flex;flex-direction:column;gap:16px;padding:10px 20px 24px;border-radius:22px 22px 0 0;background:#fff;animation:up .28s ease}
+.sheet .grab{align-self:center;width:40px;height:4px;border-radius:999px;background:#dfe3ec}
+@media (min-width:700px){.backdrop{align-items:center}.sheet{max-width:560px;border-radius:22px}.sheet .grab{display:none}}
+@keyframes up{from{transform:translateY(24px);opacity:0}to{transform:none;opacity:1}}
+.listbtn{display:flex;align-items:center;gap:12px;width:100%;min-height:52px;padding:0 4px;border:0;border-bottom:1px solid var(--line2);background:transparent;cursor:pointer;text-align:start;font-size:14.5px;font-weight:600}
+.listbtn .grow{flex:1 1 auto}
+.close{flex:0 0 44px;height:44px;border-radius:999px;border:0;background:var(--wash);cursor:pointer;display:flex;align-items:center;justify-content:center}
+
+/* ── rules overlay ── */
+.rules{position:fixed;inset:44px 0 0 0;z-index:35;overflow:auto;background:var(--wash);padding:24px 16px 64px}
+.rules .in{max-width:1240px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+.rules .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px}
+.rules .rc{display:flex;flex-direction:column;gap:10px;padding:16px;border-radius:18px;border:1px solid #e6ebf3;background:#fff}
+.rules ul{margin:0;padding-inline-start:18px;display:flex;flex-direction:column;gap:4px;font-size:13px;line-height:1.45}
+.rules .k{font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--slate)}
+.toast{position:fixed;inset-inline:0;bottom:24px;z-index:50;display:flex;justify-content:center;pointer-events:none}
+.toast span{padding:10px 16px;border-radius:999px;background:var(--ink);color:#fff;font-size:13px;font-weight:700;box-shadow:0 10px 30px -12px rgba(6,20,48,.6)}
+</style>
+</head>
+<body>
+
+<div class="proto" role="region" aria-label="Prototype controls">
+  <strong>Prototype</strong>
+  <label>Member
+    <select id="pPersona">
+      <option value="expat">Egyptian, living in Riyadh</option>
+      <option value="saudi">Saudi citizen, living in Riyadh</option>
+    </select>
+  </label>
+  <label>Focus step
+    <select id="pFocus">
+      <option value="rank">A · Ranked list + one rule (recommended)</option>
+      <option value="must">B · Ranked list + must-have / nice-to-have</option>
+    </select>
+  </label>
+  <label>Direction
+    <select id="pDir">
+      <option value="ltr">Left to right</option>
+      <option value="rtl">Right to left (layout check)</option>
+    </select>
+  </label>
+  <span class="grow"></span>
+  <button class="pbtn" type="button" data-act="rules">Per-country rules</button>
+  <button class="pbtn" type="button" data-act="restart">Restart</button>
+</div>
+
+<div class="app">
+  <aside class="brand" id="brand"></aside>
+  <main class="main"><div class="col" id="col"></div></main>
+</div>
+<div id="layer"></div>
+
+<script>
+/* ───────────────────────── data ───────────────────────── */
+const GCC = ['SA','AE','QA','KW','BH','OM'];
+const EU = ['DE','NL','IE','FR','ES'];
+const REGIONS = [
+  {id:'gcc', name:'Gulf (GCC)', desc:'Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, Oman', countries:GCC},
+  {id:'mena', name:'Middle East & North Africa', desc:'Egypt, Jordan, Morocco and more', countries:['EG','JO','LB','MA','TN','IQ']},
+  {id:'eu', name:'Europe', desc:'UK, Germany, Netherlands and more', countries:['GB','DE','NL','IE','FR','ES']},
+  {id:'na', name:'North America', desc:'United States, Canada', countries:['US','CA'], soon:true},
+  {id:'apac', name:'Asia-Pacific', desc:'Singapore, India, Australia and more', countries:['SG','IN','MY','AU']},
+  {id:'af', name:'Sub-Saharan Africa', desc:'Nigeria, Kenya, South Africa and more', countries:['NG','KE','ZA']}
+];
+const C = {
+  SA:{n:'Saudi Arabia', dem:'Saudi', cities:['Riyadh','Jeddah','Dammam','Al Khobar','Makkah','Madinah'], cur:'SAR', per:'month', metro:'Picking Al Khobar also covers Dammam and Dhahran.'},
+  AE:{n:'United Arab Emirates', s:'the UAE', dem:'Emirati', cities:['Dubai','Abu Dhabi','Sharjah','Ajman','Al Ain'], cur:'AED', per:'month', metro:'Picking Dubai also covers Sharjah and Ajman.'},
+  QA:{n:'Qatar', dem:'Qatari', cities:['Doha','Al Wakrah','Lusail'], cur:'QAR', per:'month'},
+  KW:{n:'Kuwait', dem:'Kuwaiti', cities:['Kuwait City','Hawalli','Salmiya','Al Ahmadi'], cur:'KWD', per:'month'},
+  BH:{n:'Bahrain', dem:'Bahraini', cities:['Manama','Muharraq','Riffa'], cur:'BHD', per:'month'},
+  OM:{n:'Oman', dem:'Omani', cities:['Muscat','Sohar','Salalah','Duqm'], cur:'OMR', per:'month'},
+  EG:{n:'Egypt', dem:'Egyptian', cities:['Cairo','Giza','Alexandria','New Cairo'], cur:'EGP', per:'month'},
+  JO:{n:'Jordan', dem:'Jordanian', cities:['Amman','Irbid','Zarqa'], cur:'JOD', per:'month'},
+  LB:{n:'Lebanon', dem:'Lebanese', cities:['Beirut','Tripoli','Jounieh'], cur:'USD', per:'month'},
+  MA:{n:'Morocco', dem:'Moroccan', cities:['Casablanca','Rabat','Marrakesh','Tangier'], cur:'MAD', per:'month'},
+  TN:{n:'Tunisia', dem:'Tunisian', cities:['Tunis','Sfax','Sousse'], cur:'TND', per:'month'},
+  IQ:{n:'Iraq', dem:'Iraqi', cities:['Baghdad','Erbil','Basra'], cur:'USD', per:'month'},
+  GB:{n:'United Kingdom', s:'the UK', dem:'British', cities:['London','Manchester','Birmingham','Edinburgh'], cur:'GBP', per:'year', metro:'London covers Greater London.'},
+  DE:{n:'Germany', dem:'German', cities:['Berlin','Munich','Frankfurt','Hamburg'], cur:'EUR', per:'year', lang:'German'},
+  NL:{n:'Netherlands', s:'the Netherlands', dem:'Dutch', cities:['Amsterdam','Rotterdam','The Hague','Eindhoven'], cur:'EUR', per:'year'},
+  IE:{n:'Ireland', dem:'Irish', cities:['Dublin','Cork','Galway'], cur:'EUR', per:'year'},
+  FR:{n:'France', dem:'French', cities:['Paris','Lyon','Toulouse'], cur:'EUR', per:'year', lang:'French'},
+  ES:{n:'Spain', dem:'Spanish', cities:['Madrid','Barcelona','Valencia'], cur:'EUR', per:'year', lang:'Spanish'},
+  US:{n:'United States', s:'the US', dem:'American', cities:['New York','San Francisco','Austin','Seattle'], cur:'USD', per:'year'},
+  CA:{n:'Canada', dem:'Canadian', cities:['Toronto','Vancouver','Montréal','Calgary'], cur:'CAD', per:'year'},
+  SG:{n:'Singapore', dem:'Singaporean', cities:['Singapore'], cur:'SGD', per:'month'},
+  IN:{n:'India', dem:'Indian', cities:['Bengaluru','Mumbai','Delhi NCR','Hyderabad'], cur:'INR', per:'year'},
+  MY:{n:'Malaysia', dem:'Malaysian', cities:['Kuala Lumpur','Penang','Johor Bahru'], cur:'MYR', per:'month'},
+  AU:{n:'Australia', dem:'Australian', cities:['Sydney','Melbourne','Brisbane','Perth'], cur:'AUD', per:'year'},
+  NG:{n:'Nigeria', dem:'Nigerian', cities:['Lagos','Abuja','Port Harcourt'], cur:'NGN', per:'month'},
+  KE:{n:'Kenya', dem:'Kenyan', cities:['Nairobi','Mombasa'], cur:'KES', per:'month'},
+  ZA:{n:'South Africa', dem:'South African', cities:['Johannesburg','Cape Town','Durban'], cur:'ZAR', per:'year'},
+  PK:{n:'Pakistan', dem:'Pakistani', cities:['Karachi','Lahore','Islamabad'], cur:'PKR', per:'month'},
+  PH:{n:'Philippines', dem:'Filipino', cities:['Manila','Cebu'], cur:'PHP', per:'month'},
+  SY:{n:'Syria', dem:'Syrian', cities:['Damascus','Aleppo'], cur:'USD', per:'month'},
+  SD:{n:'Sudan', dem:'Sudanese', cities:['Khartoum'], cur:'USD', per:'month'},
+  YE:{n:'Yemen', dem:'Yemeni', cities:['Sanaa','Aden'], cur:'USD', per:'month'}
+};
+const regionOf = (code) => (REGIONS.find(r => r.countries.includes(code)) || {}).id;
+const short = (code) => C[code].s || C[code].n;
+
+/* Work-rights question per country. Citizens (and GCC citizens inside the GCC, EU citizens inside the EU) are answered automatically. */
+function rightsDef(code){
+  const nm = short(code), N = C[code].n;
+  const gccLic = {k:'licence', label:'Driving licence (Gulf forms often ask)', opts:['Local licence','GCC licence','International licence','No licence']};
+  const D = {
+    SA:{q:'Your status in Saudi Arabia', opts:[
+      ['Iqama, I can move to a new employer','Transfer allowed through Qiwa'],
+      ['Iqama, but I can’t transfer yet',''],
+      ['Premium Residency',''],
+      ['Family (dependant) Iqama',''],
+      ['Visit visa',''],
+      ['I’d need an employer to sponsor a work visa','']],
+      extra:[gccLic], nationals:'Jobs reserved for Saudi nationals (Saudization) are only shown to Saudis.'},
+    AE:{q:'Your status in the UAE', opts:[
+      ['Residence visa through my employer',''],
+      ['Residence visa through family','Spouse or parent sponsors you'],
+      ['Golden visa',''],
+      ['Green visa or freelance permit',''],
+      ['Visit or job-seeker visa',''],
+      ['Cancelled visa, still in my grace period',''],
+      ['I’d need an employer to sponsor a visa','']],
+      extra:[gccLic], nationals:'Jobs reserved for UAE nationals (Emiratisation) are only shown to Emiratis.'},
+    QA:{q:'Your status in Qatar', opts:[
+      ['Work residence (QID), I can change employers',''],
+      ['Family-sponsored residence',''],
+      ['Visit visa',''],
+      ['I’d need an employer to sponsor a visa','']],
+      extra:[gccLic], nationals:'Jobs reserved for Qatari nationals are only shown to Qataris.'},
+    KW:{q:'Your status in Kuwait', opts:[
+      ['Work residence (Article 18), I can transfer',''],
+      ['Work residence (Article 18), I can’t transfer yet',''],
+      ['Family residence (Article 22)',''],
+      ['Visit visa',''],
+      ['I’d need an employer to sponsor a visa','']],
+      extra:[gccLic], nationals:'Jobs reserved for Kuwaiti nationals are only shown to Kuwaitis.'},
+    BH:{q:'Your status in Bahrain', opts:[
+      ['Work permit (LMRA)',''],
+      ['Family residence',''],
+      ['Golden residency',''],
+      ['Visit visa',''],
+      ['I’d need an employer to sponsor a permit','']],
+      extra:[gccLic], nationals:'New vacancies are held for Bahrainis for their first weeks; we apply once they open to everyone.'},
+    OM:{q:'Your status in Oman', opts:[
+      ['Resident card through my employer',''],
+      ['Family resident card',''],
+      ['Visit visa',''],
+      ['I’d need an employer to sponsor a visa','']],
+      extra:[gccLic], nationals:'Over 200 job titles are reserved for Omanis; we hide those for everyone else.'},
+    GB:{q:'Your right to work in the UK', opts:[
+      ['British or Irish citizen',''],
+      ['Settled or pre-settled status',''],
+      ['A visa that lets me work','e.g. Graduate or dependant visa'],
+      ['I’d need visa sponsorship','Skilled Worker visa']],
+      extra:[], nationals:'We skip UK jobs that say they can’t sponsor, if you need sponsorship.'},
+    US:{us:true, q:'Your right to work in the US', nationals:'We skip jobs that need US citizenship or a security clearance unless you have them.'},
+    CA:{q:'Your right to work in Canada', opts:[
+      ['Canadian citizen or permanent resident',''],
+      ['Open work permit',''],
+      ['Employer-specific work permit',''],
+      ['I’d need sponsorship (LMIA)','']],
+      extra:[], nationals:''},
+    AU:{q:'Your right to work in Australia', opts:[
+      ['Australian or New Zealand citizen, or permanent resident',''],
+      ['A visa with work rights',''],
+      ['I’d need employer sponsorship','']],
+      extra:[], nationals:''},
+    SG:{q:'Your right to work in Singapore', opts:[
+      ['Singapore citizen or permanent resident',''],
+      ['I hold a work pass',''],
+      ['I’d need an employer to apply for a work pass','']],
+      extra:[], nationals:''}
+  };
+  if (D[code]) return D[code];
+  if (EU.includes(code)) {
+    const extra = C[code].lang ? [{k:'lang', label:C[code].lang+' level', opts:['None','A1–A2','B1–B2','C1–C2','Native']}] : [];
+    return {q:'Your right to work in '+nm, opts:[
+      ['EU, EEA or Swiss citizen',''],
+      ['A residence permit that lets me work',''],
+      ['EU Blue Card',''],
+      ['I’d need a work visa','']], extra, nationals:''};
+  }
+  return {q:'Can you work in '+nm+'?', opts:[
+    ['I have a permit or residence that lets me work',''],
+    ['I’d need an employer to get me a work permit','']], extra:[], nationals:''};
+}
+
+/* ───────────────────────── state ───────────────────────── */
+const fresh = () => ({
+  persona:'expat', focusStyle:'rank', dir:'ltr',
+  step:'welcome', sheet:null, rules:false, sheetCountry:'SA', showAll:false,
+  based:{country:'SA', city:'Riyadh', detected:true},
+  extraNats:[],
+  regions:{gcc:true, eu:true},
+  countries:{SA:true, AE:true, QA:true, GB:true},
+  remote:true,
+  anywhere:{SA:false, AE:false, QA:true, GB:false},
+  cities:{SA:['Riyadh','Jeddah'], AE:['Dubai','Abu Dhabi'], GB:['London']},
+  order:['SA','AE','QA','GB','REMOTE'],
+  strict:'only',
+  must:{SA:'must', AE:'must', QA:'nice', GB:'nice', REMOTE:'nice'},
+  rights:{SA:0}, extra:{}, salary:{}, us:{auth:null, spons:null},
+  overrideAuto:{},
+  roles:['Project Manager','Program Manager','PMO Lead'], roleOn:{'Project Manager':true,'Program Manager':true,'PMO Lead':true},
+  emp:{Multinationals:true, Private:true, 'Semi-government':true, Government:false, Startups:false},
+  autopilot:true,
+  about:{status:'employed', notice:'30', english:'Advanced', gender:null, salary:''},
+  blocked:['Your current employer (from your CV)']
+});
+let S = fresh();
+
+const nats = () => [S.persona === 'saudi' ? 'SA' : 'EG', ...S.extraNats];
+const regionOn = (id) => !!S.regions[id];
+const pickedCountries = () => Object.keys(S.countries).filter(c => S.countries[c] && C[c] && regionOn(regionOf(c)) && !(REGIONS.find(r => r.id === regionOf(c)) || {}).soon);
+const isAnywhere = (c) => S.anywhere[c] !== undefined ? S.anywhere[c] : !((S.cities[c] || []).length);
+function syncOrder(){
+  const want = [...pickedCountries(), ...(S.remote ? ['REMOTE'] : [])];
+  S.order = [...S.order.filter(k => want.includes(k)), ...want.filter(k => !S.order.includes(k))];
+}
+function autoFor(code){
+  const n = nats();
+  if (n.includes(code)) return {label:'Citizen', text:'You’re '+(C[code].dem ? 'a '+C[code].dem+' citizen' : 'a citizen')+', so there’s nothing to ask.'};
+  if (GCC.includes(code) && n.some(x => GCC.includes(x))) return {label:'GCC citizen', text:'GCC citizens can work in '+short(code)+' without an employer sponsoring a visa.'};
+  if (EU.includes(code) && n.some(x => EU.includes(x))) return {label:'EU citizen', text:'EU citizens can work anywhere in the EU.'};
+  if ((code === 'GB' && n.includes('IE')) || (code === 'IE' && n.includes('GB'))) return {label:'Common Travel Area', text:'British and Irish citizens can work in each other’s country.'};
+  return null;
+}
+const rightsTargets = () => S.order.filter(k => k !== 'REMOTE');
+const needsAsking = () => rightsTargets().some(c => !autoFor(c) || S.overrideAuto[c]);
+
+const STEPS = [
+  {id:'welcome', label:'Welcome', counted:false},
+  {id:'based', label:'Where you’re based', hint:'Detected from your connection'},
+  {id:'where', label:'Where you want to work', hint:'Regions, then countries'},
+  {id:'cities', label:'Cities', hint:'Optional'},
+  {id:'focus', label:'Focus order', hint:'Only with 2+ places', when:() => S.order.length > 1, skipWhy:'Skipped: only one place'},
+  {id:'rights', label:'Work rights', hint:'Only where we must ask', when:() => needsAsking(), skipWhy:'Skipped: nothing to ask'},
+  {id:'roles', label:'Roles & employers', hint:'As today, minus cities'},
+  {id:'about', label:'About you', hint:'Shorter than today'},
+  {id:'block', label:'Employers to skip', hint:'As today'},
+  {id:'done', label:'Done', counted:false}
+];
+const active = () => STEPS.filter(s => !s.when || s.when());
+const counted = () => active().filter(s => s.counted !== false);
+
+/* ───────────────────────── helpers ───────────────────────── */
+const esc = (v) => String(v == null ? '' : v).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const I = {
+  back:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>',
+  check:'<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+  plus:'<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>',
+  pin:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>',
+  globe:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18"/><path d="M12 3a14 14 0 0 0 0 18"/></svg>',
+  laptop:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>',
+  info:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/></svg>',
+  shield:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>',
+  search:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>',
+  up:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>',
+  down:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>',
+  x:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+  spark:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"/></svg>',
+  doc:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h4"/></svg>'
+};
+const chip = (label, on, act, arg, extra) => `<button type="button" class="chip${on ? ' on' : ''}" aria-pressed="${on}" data-act="${act}" data-arg="${esc(arg)}">${on ? I.check : ''}<span>${esc(label)}</span>${extra || ''}</button>`;
+const sw = (on, act, arg, label, cls) => `<button type="button" class="sw${cls ? ' '+cls : ''}" role="switch" aria-checked="${on}" aria-label="${esc(label)}" data-act="${act}" data-arg="${esc(arg || '')}"><i></i></button>`;
+function placeLabel(k){
+  if (k === 'REMOTE') return {t:'Remote jobs', s:'From '+S.based.city+', for employers anywhere'};
+  const cs = S.cities[k] || [];
+  if (isAnywhere(k) || !cs.length) return {t:'Anywhere in '+short(k), s:C[k].n};
+  return {t:cs.join(', '), s:C[k].n};
+}
+
+function header(){
+  const st = S.step;
+  const list = counted();
+  const i = list.findIndex(s => s.id === st);
+  if (st === 'welcome') return `<div class="top"><div class="row"><div class="steplbl"><span>Setting up your account</span><b>0%</b></div></div><div class="track"><i style="width:4%"></i></div></div>`;
+  if (st === 'done') return `<div class="top"><div class="row"><div class="steplbl"><span>All set</span><b>100%</b></div></div><div class="track"><i style="width:100%"></i></div></div>`;
+  const pct = Math.round(((i + 1) / list.length) * 100);
+  return `<div class="top"><div class="row"><button type="button" class="back" aria-label="Back" data-act="back">${I.back}</button><div class="steplbl"><span>Step ${i + 1} of ${list.length} · ${esc(list[i].label)}</span><b>${pct}%</b></div></div><div class="track"><i style="width:${pct}%"></i></div></div>`;
+}
+
+/* ───────────────────────── screens ───────────────────────── */
+function vWelcome(){
+  const name = S.persona === 'saudi' ? 'Faisal' : 'Omar';
+  return {body:`
+    <span class="eyebrow"><i></i>You are signed in</span>
+    <h1 class="h1">Welcome to Auto-Apply, ${name}.</h1>
+    <p class="sub">Your account is ready. We already read your CV. A few quick questions and we start applying.</p>
+    <div class="stack">
+      <div class="welcome-row"><span class="tile sm">${I.doc}</span><div><b>We read your CV</b><span>Project Manager · 8 years · currently in ${esc(S.based.city)}</span></div></div>
+      <div class="welcome-row"><span class="tile sm">${I.globe}</span><div><b>[N] matching roles in ${esc(C[S.based.country].n)} so far</b><span>Next you tell us where else you would work, and we widen the search.</span></div></div>
+      <div class="welcome-row"><span class="tile sm">${I.spark}</span><div><b>About 2 minutes left</b><span>Where you are, where you want to work, and whether you can work there.</span></div></div>
+    </div>`, cta:`<button type="button" class="btn btn-p" data-act="next">Confirm my setup</button>`};
+}
+
+function vBased(){
+  const n = nats();
+  const natChips = n.map((c, i) => `<span class="chip on">${I.check}${esc(C[c] ? C[c].dem : c)}${i === 0 ? '<span class="tag cv">From CV</span>' : `<button type="button" class="close" style="flex-basis:28px;height:28px;background:transparent" aria-label="Remove ${esc(C[c].dem)}" data-act="rmNat" data-arg="${c}">${I.x}</button>`}</span>`).join('');
+  return {body:`
+    <span class="eyebrow"><i></i>Your location</span>
+    <h1 class="h1">Where are you based right now?</h1>
+    <p class="sub">We worked it out from your connection. It decides which questions we ask and which jobs you can apply to.</p>
+    <div class="card">
+      <div class="row">
+        <span class="tile">${I.pin}</span>
+        <div style="flex:1 1 auto;min-width:0" class="stack" >
+          <b style="font-size:18px">${esc(S.based.city)}, ${esc(C[S.based.country].n)}</b>
+          <span class="small" style="margin-top:-6px">${S.based.detected ? 'Detected from your internet connection' : 'Set by you'}</span>
+        </div>
+        <button type="button" class="btn-sm" data-act="openSheet" data-arg="based">Change</button>
+      </div>
+      <div class="note">${I.info}<span>Using a VPN or travelling? Change it to where you actually live.</span></div>
+    </div>
+    <div class="stack">
+      <span class="label">Your citizenship</span>
+      <div class="wrap">${natChips}<button type="button" class="chip add" data-act="openSheet" data-arg="nat">${I.plus}Add another citizenship</button></div>
+      <p class="small" style="margin:0">Hold two passports? Add both. Some jobs are only open to citizens of that country.</p>
+    </div>`,
+    cta:`<button type="button" class="btn btn-b" data-act="next">That’s right, continue</button><button type="button" class="btn btn-t" data-act="openSheet" data-arg="based">I’m based somewhere else</button>`};
+}
+
+function vWhere(){
+  const cards = REGIONS.map(r => {
+    const on = regionOn(r.id);
+    return `<button type="button" class="region${on ? ' on' : ''}${r.soon ? ' soon' : ''}" aria-pressed="${on}" data-act="region" data-arg="${r.id}">
+      <span class="row" style="justify-content:space-between;width:100%"><span class="tile sm">${I.globe}</span><span class="check">${I.check}</span></span>
+      <span class="name">${esc(r.name)}</span><span class="desc">${esc(r.desc)}</span>
+      ${r.soon ? '<span class="tag soon">Coming soon</span>' : ''}</button>`;
+  }).join('');
+  const sections = REGIONS.filter(r => regionOn(r.id)).map(r => {
+    if (r.soon) return `<section class="card"><h2 class="h2">Countries in ${esc(r.name)}</h2>
+      <div class="note cream">${I.info}<span>We don’t apply to jobs here yet. Join the waitlist and we’ll start the day we do.</span></div>
+      <div class="wrap">${r.countries.map(c => `<span class="chip dis">${esc(C[c].n)}</span>`).join('')}</div>
+      <button type="button" class="btn-sm" style="align-self:flex-start" data-act="toast" data-arg="You’re on the waitlist for ${esc(r.name)}">Join the waitlist</button></section>`;
+    const all = r.countries.every(c => S.countries[c]);
+    return `<section class="card"><div class="row" style="justify-content:space-between"><h2 class="h2">Countries in ${esc(r.name)}</h2>
+      <button type="button" class="chip" style="min-height:36px;background:#f3f4fe;border-color:#f3f4fe;color:var(--persian)" data-act="allIn" data-arg="${r.id}">${all ? 'Clear' : 'Select all'}</button></div>
+      <div class="wrap">${r.countries.map(c => chip(C[c].n, !!S.countries[c], 'country', c, c === S.based.country ? '<span class="tag here">You’re here</span>' : '')).join('')}</div></section>`;
+  }).join('');
+  const n = pickedCountries().length;
+  return {body:`
+    <h1 class="h1">Where would you like to work?</h1>
+    <p class="sub">Pick regions first, then the countries in them. Pick as many as you like. You set the order next.</p>
+    <label class="inp">${I.search}<span class="sr">Search a region or country</span><input type="text" placeholder="Search a region or country"></label>
+    <div class="regions">${cards}</div>
+    ${sections}
+    <div class="card" style="flex-direction:row;align-items:center"><span class="tile sm">${I.laptop}</span>
+      <div style="flex:1 1 auto"><b style="display:block;font-size:14.5px">Remote jobs too</b><span class="small">Work from ${esc(S.based.city)} for employers anywhere</span></div>
+      ${sw(S.remote, 'remote', '', 'Include remote jobs')}</div>`,
+    cta:`<span class="meta">${n} ${n === 1 ? 'country' : 'countries'}${S.remote ? ' + remote' : ''} selected</span><button type="button" class="btn btn-b" data-act="next"${n || S.remote ? '' : ' disabled style="opacity:.5"'}>Continue</button>`};
+}
+
+function vCities(){
+  const list = pickedCountries();
+  const cards = list.map(c => {
+    const any = isAnywhere(c);
+    const cs = S.cities[c] || [];
+    return `<section class="card"><div class="row"><span class="code">${c}</span><h2 class="h2" style="flex:1 1 auto">${esc(C[c].n)}</h2><span class="small" style="font-weight:700">Anywhere</span>${sw(any, 'any', c, 'Anywhere in '+C[c].n, 'blue')}</div>
+      ${any ? `<p class="note" style="margin:0">Every city in ${esc(short(c))} is included. Turn this off to pick specific cities.</p>`
+            : `<div class="wrap">${C[c].cities.map(x => chip(x, cs.includes(x), 'city', c+'|'+x)).join('')}<button type="button" class="chip add" data-act="toast" data-arg="Search opens here, like today’s city sheet">${I.plus}Add a city</button></div>${C[c].metro ? `<span class="small">${esc(C[c].metro)}</span>` : ''}`}
+    </section>`;
+  }).join('');
+  return {body:`
+    <span class="eyebrow"><i></i>Optional</span>
+    <h1 class="h1">Any cities you’d prefer?</h1>
+    <p class="sub">Leave a country on “Anywhere” to see every city. Turn it off only if there are cities you wouldn’t move to.</p>
+    ${cards || '<p class="note">No countries picked. Go back to pick some, or continue with remote only.</p>'}`,
+    cta:`<button type="button" class="btn btn-b" data-act="next">Continue</button><button type="button" class="btn btn-t" data-act="skipCities">Skip, anywhere is fine</button>`};
+}
+
+function vFocus(){
+  const must = S.focusStyle === 'must';
+  const rows = S.order.map((k, i) => {
+    const p = placeLabel(k);
+    const seg = must ? `<div class="seg" role="group" aria-label="How important is ${esc(p.t)}"><button type="button" class="${S.must[k] !== 'nice' ? 'on' : ''}" data-act="must" data-arg="${k}|must">Must have</button><button type="button" class="${S.must[k] === 'nice' ? 'on' : ''}" data-act="must" data-arg="${k}|nice">Nice to have</button></div>` : '';
+    return `<div class="rank${i === 0 ? ' first' : ''}"><span class="num">${i + 1}</span>
+      <div class="tx"><b>${esc(p.t)}</b><span>${esc(p.s)}</span>${i === 0 && !must ? '<span><span class="tag top">We start here</span></span>' : ''}${must ? `<div style="margin-top:6px">${seg}</div>` : ''}</div>
+      <div class="stack" style="gap:6px"><button type="button" class="mv" aria-label="Move ${esc(p.t)} up" data-act="up" data-arg="${i}" ${i === 0 ? 'disabled' : ''}>${I.up}</button><button type="button" class="mv" aria-label="Move ${esc(p.t)} down" data-act="down" data-arg="${i}" ${i === S.order.length - 1 ? 'disabled' : ''}>${I.down}</button></div></div>`;
+  }).join('');
+  const rule = must
+    ? `<div class="note">${I.info}<span>Must-have places are always searched. Nice-to-have places are used only when must-haves run low. Order still decides which comes first within each group.</span></div>`
+    : `<div class="stack"><span class="label">When these places run low on new jobs</span>
+        <button type="button" class="opt${S.strict === 'only' ? ' on' : ''}" data-act="strict" data-arg="only"><span class="rad"></span><span>Only apply in my places<span class="od">We wait for new jobs rather than go elsewhere.</span></span></button>
+        <button type="button" class="opt${S.strict === 'near' ? ' on' : ''}" data-act="strict" data-arg="near"><span class="rad"></span><span>Also try other cities in these countries<span class="od">Always after your list, never instead of it.</span></span></button></div>`;
+  return {body:`
+    <h1 class="h1">What should we focus on first?</h1>
+    <p class="sub">We apply to your top place first, then work down the list. Move places up or down.</p>
+    <div class="stack">${rows}</div>
+    ${rule}`, cta:`<button type="button" class="btn btn-b" data-act="next">Continue</button>`};
+}
+
+function rightsCard(c, i){
+  const a = autoFor(c);
+  const head = `<div class="row"><span class="code">${c}</span><h2 class="h2" style="flex:1 1 auto">${esc(C[c].n)}</h2><span class="tag" style="background:var(--tile);color:var(--persian)">#${i + 1}</span></div>`;
+  if (a && !S.overrideAuto[c]) {
+    return `<section class="card">${head}<div class="auto">${I.shield}<span class="grow">${esc(a.label)}: ${esc(a.text)}</span><button type="button" data-act="override" data-arg="${c}">Not right?</button></div></section>`;
+  }
+  const d = rightsDef(c);
+  let qs = '', answered = true;
+  if (d.us) {
+    answered = S.us.auth !== null && S.us.spons !== null;
+    const yn = (key, q) => `<div class="stack"><span class="label">${q}</span><div class="wrap">${chip('Yes', S.us[key] === true, 'us', key+'|1')}${chip('No', S.us[key] === false, 'us', key+'|0')}</div></div>`;
+    qs = yn('auth', 'Are you legally allowed to work in the US?') + yn('spons', 'Will you now or later need visa sponsorship (e.g. H-1B)?')
+       + `<div class="note">${I.info}<span>Diversity questions (gender, ethnicity, veteran, disability) are voluntary in the US. We answer “Prefer not to say” unless you tell us otherwise.</span></div>`;
+  } else {
+    answered = S.rights[c] !== undefined;
+    qs = `<div class="stack"><span class="label">${esc(d.q)}</span>${d.opts.map((o, j) => `<button type="button" class="opt${S.rights[c] === j ? ' on' : ''}" data-act="right" data-arg="${c}|${j}"><span class="rad"></span><span>${esc(o[0])}${o[1] ? `<span class="od">${esc(o[1])}</span>` : ''}</span></button>`).join('')}</div>`;
+  }
+  const extras = (d.extra || []).map(e => `<div class="stack"><span class="label">${esc(e.label)} <span class="small" style="font-weight:600">· optional</span></span><div class="wrap">${e.opts.map(o => chip(o, (S.extra[c+e.k]) === o, 'extra', c+'|'+e.k+'|'+o)).join('')}</div></div>`).join('');
+  const sal = `<div class="stack"><span class="label">Expected salary in ${esc(short(c))} <span class="small" style="font-weight:600">· optional</span></span><label class="inp"><span class="sr">Expected salary in ${esc(C[c].n)}</span><input inputmode="numeric" data-model="salary" data-arg="${c}" value="${esc(S.salary[c] || '')}" placeholder="e.g. ${C[c].per === 'year' ? '65,000' : '18,000'}"><span class="unit">${C[c].cur} / ${C[c].per}</span></label></div>`;
+  const nat = d.nationals ? `<span class="small">${esc(d.nationals)}</span>` : '';
+  return `<section class="card${answered ? '' : ' miss'}">${head.replace('</h2>', '</h2>' + (answered ? '' : '<span class="tag need">Needs an answer</span>'))}${qs}${extras}${sal}${nat}</section>`;
+}
+
+function vRights(){
+  const t = rightsTargets();
+  const n = nats();
+  const gccCitizen = n.some(x => GCC.includes(x));
+  const banner = gccCitizen && t.some(c => GCC.includes(c))
+    ? `<div class="note green">${I.shield}<span>As a GCC citizen you can work anywhere in the Gulf without an employer sponsoring a visa. We’ve answered those for you.</span></div>` : '';
+  const remoteNote = S.order.includes('REMOTE') ? `<div class="note">${I.info}<span>Remote jobs: we only apply when the employer hires people based in ${esc(C[S.based.country].n)}.</span></div>` : '';
+  return {body:`
+    <span class="eyebrow"><i></i>Work rights</span>
+    <h1 class="h1">Can you work in these countries?</h1>
+    <p class="sub">Employers ask this on almost every application. Answer once and we fill it in, truthfully, every time.</p>
+    ${banner}
+    ${t.map((c, i) => rightsCard(c, i)).join('')}
+    ${remoteNote}`, cta:`<button type="button" class="btn btn-b" data-act="next">Continue</button>`};
+}
+
+function vRoles(){
+  const types = Object.keys(S.emp);
+  const allTypes = types.every(t => S.emp[t]);
+  return {body:`
+    <h1 class="h1">Confirm your targets</h1>
+    <p class="sub">Pulled from your CV. Change anything that doesn’t fit. (Cities moved to their own steps.)</p>
+    <section class="card"><span class="label">Target roles</span>
+      <div class="wrap">${S.roles.map((r, i) => i === 0 ? `<span class="chip prim">${I.check}${esc(r)}<span class="tag cv">CV</span></span>` : chip(r, !!S.roleOn[r], 'role', r)).join('')}<button type="button" class="chip add" data-act="toast" data-arg="Role search opens here, as today">${I.plus}Add role</button></div></section>
+    <section class="card"><div class="row" style="justify-content:space-between"><span class="label">Employer types</span><span class="row" style="gap:8px"><span class="small" style="font-weight:700">All types</span>${sw(allTypes, 'allTypes', '', 'All employer types', 'blue')}</span></div>
+      <div class="wrap">${types.map(t => chip(t, !!S.emp[t], 'emp', t)).join('')}</div></section>
+    <section class="card" style="flex-direction:row;align-items:center"><span class="tile sm">${I.spark}</span><div style="flex:1 1 auto"><b style="display:block;font-size:14.5px">Auto-Apply mode</b><span class="small">We apply the moment a new matching role appears. No approvals.</span></div>${sw(S.autopilot, 'autopilot', '', 'Auto-Apply mode')}</section>`,
+    cta:`<button type="button" class="btn btn-b" data-act="next">Continue</button>`};
+}
+
+function vAbout(){
+  const a = S.about;
+  const cur = C[S.based.country];
+  return {body:`
+    <h1 class="h1">About you</h1>
+    <p class="sub">Shorter than before: location, citizenship and visa are now asked earlier.</p>
+    <section class="card"><span class="label">Are you working right now?</span>
+      <div class="wrap">${chip('Employed', a.status === 'employed', 'aStatus', 'employed')}${chip('Not working right now', a.status === 'unemployed', 'aStatus', 'unemployed')}</div>
+      ${a.status === 'employed' ? `<span class="label">Notice period</span><label class="inp"><span class="sr">Notice period in days</span><input inputmode="numeric" data-model="notice" value="${esc(a.notice)}" placeholder="45"><span class="unit">days</span></label>` : `<div class="note green">${I.check}<span>You can start immediately.</span></div>`}
+    </section>
+    <section class="card"><span class="label">English level</span>
+      <div class="wrap">${['Basic','Intermediate','Advanced','Full professional'].map(l => chip(l, a.english === l, 'aEng', l)).join('')}</div></section>
+    <section class="card${a.gender ? '' : ' miss'}"><div class="row" style="justify-content:space-between"><span class="label">Gender</span>${a.gender ? '' : '<span class="tag need">Not answered</span>'}</div>
+      <div class="wrap">${['Female','Male','Prefer not to say'].map(g => chip(g, a.gender === g, 'aGender', g)).join('')}</div>
+      <span class="small">Some Gulf application forms require it. Nothing is preselected and we never guess it from your name.</span></section>
+    <section class="card"><span class="label">Current salary <span class="small" style="font-weight:600">· optional</span></span>
+      <label class="inp"><span class="sr">Current salary</span><input inputmode="numeric" data-model="aSalary" value="${esc(a.salary)}" placeholder="e.g. 15,000"><span class="unit">${cur.cur} / ${cur.per}</span></label>
+      <span class="small">In the currency of where you’re based. Expected salary is asked per country, in that country’s currency.</span></section>`,
+    cta:`<button type="button" class="btn btn-b" data-act="next">Continue</button>`};
+}
+
+function vBlock(){
+  return {body:`
+    <h1 class="h1">Add the employers you do not want us to apply to.</h1>
+    <p class="sub">We will never apply to these employers. We added your current one.</p>
+    <div class="wrap">${S.blocked.map(b => `<span class="chip on">${I.check}${esc(b)}</span>`).join('')}</div>
+    <button type="button" class="btn btn-o" data-act="toast" data-arg="Employer search opens here, as today">Add another employer to block</button>
+    <div class="note cream">${I.info}<span>Recruiters only see the CV we send, and never know that AI applied on your behalf.</span></div>`,
+    cta:`<button type="button" class="btn btn-b" data-act="next">Finish setup</button>`};
+}
+
+function vDone(){
+  const places = S.order.map((k, i) => { const p = placeLabel(k); return `<div class="rank${i === 0 ? ' first' : ''}"><span class="num">${i + 1}</span><div class="tx"><b>${esc(p.t)}</b><span>${esc(p.s)}${S.focusStyle === 'must' ? ' · ' + (S.must[k] === 'nice' ? 'nice to have' : 'must have') : ''}</span></div></div>`; }).join('');
+  return {body:`
+    <span class="eyebrow"><i></i>All set</span>
+    <h1 class="h1">You’re set. We start with ${esc(placeLabel(S.order[0] || 'REMOTE').t)}.</h1>
+    <p class="sub">${S.focusStyle === 'rank' ? (S.strict === 'only' ? 'We only apply in these places.' : 'When these run low we also try other cities in the same countries.') : 'Nice-to-have places are used when must-haves run low.'} Change it any time in You → Where we apply.</p>
+    <div class="stack">${places}</div>`,
+    cta:`<button type="button" class="btn btn-p" data-act="restart">See my matches</button>`};
+}
+
+const VIEWS = {welcome:vWelcome, based:vBased, where:vWhere, cities:vCities, focus:vFocus, rights:vRights, roles:vRoles, about:vAbout, block:vBlock, done:vDone};
+
+/* ───────────────────────── sheets & overlays ───────────────────────── */
+function vSheet(){
+  if (!S.sheet) return '';
+  if (S.sheet === 'nat') {
+    const have = nats();
+    const opts = Object.keys(C).filter(c => !have.includes(c)).sort((x, y) => C[x].dem.localeCompare(C[y].dem));
+    return `<div class="backdrop" data-act="closeSheet" data-self="1"><div class="sheet" role="dialog" aria-label="Add a citizenship">
+      <span class="grab"></span><div class="row" style="justify-content:space-between"><h2 class="h1" style="font-size:21px">Add a citizenship</h2><button type="button" class="close" aria-label="Close" data-act="closeSheet">${I.x}</button></div>
+      <label class="inp">${I.search}<span class="sr">Search nationality</span><input type="text" placeholder="Search nationality"></label>
+      <div>${opts.slice(0, 12).map(c => `<button type="button" class="listbtn" data-act="addNat" data-arg="${c}"><span class="code">${c}</span><span class="grow">${esc(C[c].dem)}</span></button>`).join('')}</div>
+    </div></div>`;
+  }
+  const sc = S.sheetCountry;
+  const sugg = ['SA', 'AE', 'EG', 'JO'];
+  const list = S.showAll ? Object.keys(C).sort((x, y) => C[x].n.localeCompare(C[y].n)) : sugg;
+  return `<div class="backdrop" data-act="closeSheet" data-self="1"><div class="sheet" role="dialog" aria-label="Change where you're based">
+    <span class="grab"></span>
+    <div class="row" style="justify-content:space-between"><h2 class="h1" style="font-size:21px">Where are you based?</h2><button type="button" class="close" aria-label="Close" data-act="closeSheet">${I.x}</button></div>
+    <label class="inp" style="border-color:var(--persian)">${I.search}<span class="sr">Search a country or city</span><input type="text" placeholder="Search a country or city"></label>
+    <div><span class="small" style="font-weight:800;text-transform:uppercase;letter-spacing:.06em">${S.showAll ? 'All countries' : 'Suggested'}</span>
+      ${list.map(c => `<button type="button" class="listbtn" data-act="sheetCountry" data-arg="${c}"><span class="code">${c}</span><span class="grow" style="${c === sc ? 'font-weight:800' : ''}">${esc(C[c].n)}</span>${c === 'SA' ? '<span class="tag here">Detected</span>' : ''}${nats().includes(c) ? '<span class="small">Your citizenship</span>' : ''}${c === sc ? `<span style="color:var(--persian)">${I.check}</span>` : ''}</button>`).join('')}
+      ${S.showAll ? '' : '<button type="button" class="listbtn" style="color:var(--persian);font-weight:700" data-act="showAll">Show all countries</button>'}
+    </div>
+    <div class="stack"><span class="label">City in ${esc(C[sc].n)}</span>
+      <div class="wrap">${C[sc].cities.map(x => chip(x, S.based.country === sc && S.based.city === x, 'basedCity', sc+'|'+x)).join('')}<button type="button" class="chip add" data-act="toast" data-arg="Free-text city, as today">${I.plus}Other city</button></div></div>
+    <button type="button" class="btn btn-b" data-act="closeSheet">Save location</button>
+  </div></div>`;
+}
+
+function vRules(){
+  if (!S.rules) return '';
+  const groups = REGIONS.map(r => {
+    const cards = r.countries.map(c => {
+      const d = rightsDef(c);
+      const skip = GCC.includes(c) ? C[c].dem + ' and other GCC citizens' : EU.includes(c) ? 'EU, EEA and Swiss citizens' : c === 'GB' ? 'British and Irish citizens' : C[c].dem + ' citizens';
+      const opts = d.us ? ['Allowed to work in the US? Yes / No', 'Need sponsorship now or later? Yes / No', 'Voluntary diversity questions: “Prefer not to say” by default'] : d.opts.map(o => o[0] + (o[1] ? ' (' + o[1] + ')' : ''));
+      const extras = (d.extra || []).map(e => e.label.replace(' (Gulf forms often ask)', '')).concat(['Expected salary in ' + C[c].cur + ' per ' + C[c].per]);
+      return `<div class="rc"><div class="row"><span class="code">${c}</span><b style="flex:1 1 auto">${esc(C[c].n)}</b>${r.soon ? '<span class="tag soon">Coming soon</span>' : ''}</div>
+        <span class="k">Answered automatically for</span><span class="small" style="margin-top:-6px">${esc(skip)}</span>
+        <span class="k">Everyone else is asked</span><b style="font-size:13.5px;margin-top:-6px">${esc(d.q)}</b><ul>${opts.map(o => `<li>${esc(o)}</li>`).join('')}</ul>
+        <span class="k">Also</span><ul>${extras.map(o => `<li>${esc(o)}</li>`).join('')}</ul>
+        ${d.nationals ? `<span class="k">Matching rule</span><span class="small" style="margin-top:-6px">${esc(d.nationals)}</span>` : ''}</div>`;
+    }).join('');
+    return `<section class="stack" style="gap:12px"><h2 class="h1" style="font-size:21px">${esc(r.name)}</h2><div class="grid">${cards}</div></section>`;
+  }).join('');
+  return `<div class="rules" role="dialog" aria-label="Per-country work-rights rules"><div class="in">
+    <div class="row" style="justify-content:space-between;flex-wrap:wrap"><div class="stack" style="gap:6px"><h1 class="h1">Work-rights questions, country by country</h1><p class="sub">What the “Can you work there?” card asks for each target country. Same data drives the prototype.</p></div><button type="button" class="btn-sm" data-act="rules">Back to the flow</button></div>
+    ${groups}</div></div>`;
+}
+
+let toastTimer = null;
+function toast(msg){
+  const el = document.getElementById('layer');
+  const t = document.createElement('div');
+  t.className = 'toast'; t.innerHTML = `<span>${esc(msg)}</span>`;
+  el.appendChild(t);
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => t.remove(), 2200);
+}
+
+/* ───────────────────────── render ───────────────────────── */
+function vRail(){
+  const act = active().map(s => s.id);
+  const list = STEPS.filter(s => s.counted !== false);
+  const cur = S.step;
+  const curIdx = active().findIndex(s => s.id === cur);
+  return `<div class="stack" style="gap:34px"><div class="logo"><i></i>uptal</div>
+    <div class="stack"><h1>Set up once. We apply every day.</h1><p>Tell us where you are, where you want to work and whether you can work there. We only apply to jobs you can actually get.</p></div>
+    <nav class="rail" aria-label="Onboarding steps">${list.map((s, n) => {
+      const on = s.id === cur, skipped = !act.includes(s.id);
+      const done = !skipped && active().findIndex(x => x.id === s.id) < curIdx;
+      return `<button type="button" class="${on ? 'on' : ''}${done ? ' done' : ''}${skipped ? ' skip' : ''}" data-act="jump" data-arg="${s.id}" ${skipped ? 'aria-disabled="true"' : ''}><span class="dot">${done ? '✓' : n + 1}</span><span class="t"><b>${esc(s.label)}</b><span>${esc(skipped ? s.skipWhy : s.hint)}</span></span></button>`;
+    }).join('')}</nav></div>
+    <p style="font-size:12px;color:#aab4cf">Steps 4 and 5 hide themselves when there is nothing to ask. Try the “Saudi citizen” member above.</p>`;
+}
+
+function render(){
+  syncOrder();
+  if (!active().some(s => s.id === S.step)) S.step = 'roles';
+  const v = VIEWS[S.step]();
+  document.documentElement.dir = S.dir;
+  document.getElementById('col').innerHTML = `<div class="screen">${header()}${v.body}</div><div class="cta">${v.cta}</div>`;
+  document.getElementById('brand').innerHTML = vRail();
+  const layer = document.getElementById('layer');
+  layer.innerHTML = vSheet() + vRules();
+  if (location.hash.slice(1) !== S.step) history.replaceState(null, '', '#' + S.step);
+}
+
+function go(delta){
+  const a = active();
+  const i = a.findIndex(s => s.id === S.step);
+  const n = a[Math.min(a.length - 1, Math.max(0, i + delta))];
+  S.step = n.id;
+  render();
+  window.scrollTo({top:0, behavior:'smooth'});
+  const col = document.getElementById('col'); if (col) col.scrollTop = 0;
+}
+
+const ACT = {
+  next:() => go(1), back:() => go(-1),
+  jump:(a) => { if (active().some(s => s.id === a)) { S.step = a; render(); } },
+  restart:() => { const keep = {persona:S.persona, focusStyle:S.focusStyle, dir:S.dir}; S = Object.assign(fresh(), keep); render(); },
+  rules:() => { S.rules = !S.rules; render(); },
+  toast:(a) => toast(a),
+  openSheet:(a) => { S.sheet = a; S.sheetCountry = S.based.country; S.showAll = false; render(); },
+  closeSheet:() => { S.sheet = null; render(); },
+  showAll:() => { S.showAll = true; render(); },
+  sheetCountry:(a) => { S.sheetCountry = a; S.based = {country:a, city:C[a].cities[0], detected:a === 'SA'}; render(); },
+  basedCity:(a) => { const [c, x] = a.split('|'); S.based = {country:c, city:x, detected:false}; render(); },
+  addNat:(a) => { S.extraNats.push(a); S.sheet = null; render(); },
+  rmNat:(a) => { S.extraNats = S.extraNats.filter(x => x !== a); render(); },
+  region:(a) => { S.regions[a] = !S.regions[a]; render(); },
+  country:(a) => { S.countries[a] = !S.countries[a]; render(); },
+  allIn:(a) => { const r = REGIONS.find(x => x.id === a); const all = r.countries.every(c => S.countries[c]); r.countries.forEach(c => { S.countries[c] = !all; }); render(); },
+  remote:() => { S.remote = !S.remote; render(); },
+  any:(a) => { S.anywhere[a] = !isAnywhere(a); render(); },
+  city:(a) => { const [c, x] = a.split('|'); const cs = S.cities[c] || []; S.cities[c] = cs.includes(x) ? cs.filter(y => y !== x) : [...cs, x]; render(); },
+  skipCities:() => { pickedCountries().forEach(c => { S.anywhere[c] = true; }); go(1); },
+  up:(a) => { const i = +a; if (i > 0) { const o = S.order; [o[i - 1], o[i]] = [o[i], o[i - 1]]; render(); } },
+  down:(a) => { const i = +a; const o = S.order; if (i < o.length - 1) { [o[i + 1], o[i]] = [o[i], o[i + 1]]; render(); } },
+  strict:(a) => { S.strict = a; render(); },
+  must:(a) => { const [k, v] = a.split('|'); S.must[k] = v; render(); },
+  right:(a) => { const [c, j] = a.split('|'); S.rights[c] = +j; render(); },
+  extra:(a) => { const [c, k, v] = a.split('|'); S.extra[c + k] = S.extra[c + k] === v ? undefined : v; render(); },
+  us:(a) => { const [k, v] = a.split('|'); S.us[k] = v === '1'; render(); },
+  override:(a) => { S.overrideAuto[a] = true; render(); },
+  role:(a) => { S.roleOn[a] = !S.roleOn[a]; render(); },
+  emp:(a) => { S.emp[a] = !S.emp[a]; render(); },
+  allTypes:() => { const all = Object.values(S.emp).every(Boolean); Object.keys(S.emp).forEach(k => { S.emp[k] = !all; }); render(); },
+  autopilot:() => { S.autopilot = !S.autopilot; render(); },
+  aStatus:(a) => { S.about.status = a; render(); },
+  aEng:(a) => { S.about.english = a; render(); },
+  aGender:(a) => { S.about.gender = a; render(); }
+};
+
+if (typeof document !== 'undefined') {
+  document.addEventListener('click', (e) => {
+    const el = e.target.closest('[data-act]');
+    if (!el) return;
+    if (el.dataset.self && e.target !== el) return;
+    const fn = ACT[el.dataset.act];
+    if (fn) { e.preventDefault(); fn(el.dataset.arg); }
+  });
+  document.addEventListener('input', (e) => {
+    const m = e.target.dataset && e.target.dataset.model;
+    if (!m) return;
+    const v = e.target.value.replace(/[^0-9,]/g, '');
+    if (e.target.value !== v) e.target.value = v;
+    if (m === 'salary') S.salary[e.target.dataset.arg] = v;
+    if (m === 'notice') S.about.notice = v;
+    if (m === 'aSalary') S.about.salary = v;
+  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && (S.sheet || S.rules)) { S.sheet = null; S.rules = false; render(); } });
+  const bind = (id, key) => { const el = document.getElementById(id); el.value = S[key]; el.addEventListener('change', () => { S[key] = el.value; render(); }); };
+  bind('pPersona', 'persona'); bind('pFocus', 'focusStyle'); bind('pDir', 'dir');
+  const h = location.hash.slice(1);
+  if (VIEWS[h]) S.step = h;
+  render();
+}
+</script>
+</body>
+</html>

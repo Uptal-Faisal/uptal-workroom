@@ -1,0 +1,462 @@
+{
+"hmTPlayNo": {
+"en": "Audio is not available in this browser, so the transcript is open instead.",
+"ar": "الاستماع غير متاح في هذا المتصفح، لذلك فتحنا النص المكتوب."
+},
+"hmTCancel": {
+"en": "Recording discarded",
+"ar": "تم حذف التسجيل"
+},
+"hmAProg": {
+"en": "Question {i} of {n}",
+"ar": "السؤال {i} من {n}"
+},
+"hmAFrom": {
+"en": "The hiring team for {role} asks",
+"ar": "يسأل فريق التوظيف لوظيفة {role}"
+},
+"hmAModeW": {
+"en": "Write",
+"ar": "كتابة"
+},
+"hmAModeV": {
+"en": "Voice",
+"ar": "صوت"
+},
+"hmAPh": {
+"en": "Write your answer in your own words.",
+"ar": "اكتب إجابتك بأسلوبك."
+},
+"hmADraft": {
+"en": "Draft it for me",
+"ar": "اكتبها لي"
+},
+"hmARedraft": {
+"en": "Draft again",
+"ar": "مسودة جديدة"
+},
+"hmADraftNote": {
+"en": "Written from your profile. It never adds experience you do not have. Edit anything.",
+"ar": "مكتوبة من ملفك، ولا تضيف أي خبرة ليست لديك. عدّل ما تريد."
+},
+"hmARecCta": {
+"en": "Record your answer",
+"ar": "سجّل إجابتك"
+},
+"hmARecS": {
+"en": "Up to 2 minutes. You can play it back and record again.",
+"ar": "حتى دقيقتين. يمكنك الاستماع إليها وإعادة تسجيلها."
+},
+"hmARedo": {
+"en": "Record again",
+"ar": "أعد التسجيل"
+},
+"hmADel": {
+"en": "Delete",
+"ar": "احذف"
+},
+"hmANext": {
+"en": "Next",
+"ar": "التالي"
+},
+"hmAReview": {
+"en": "Review answers",
+"ar": "راجع الإجابات"
+},
+"hmASaveBack": {
+"en": "Save and review",
+"ar": "احفظ وراجع"
+},
+"hmASkip": {
+"en": "Skip this question",
+"ar": "تخطّ هذا السؤال"
+},
+"hmAHint": {
+"en": "Write or record an answer, or skip this question.",
+"ar": "اكتب إجابة أو سجّلها، أو تخطّ هذا السؤال."
+},
+"hmAOpt": {
+"en": "Optional",
+"ar": "اختياري"
+},
+"hmRvH": {
+"en": "Check your answers",
+"ar": "راجع إجاباتك"
+},
+"hmRvS": {
+"en": "This is exactly what the hiring team for {role} reads. Edit anything before you send.",
+"ar": "هذا بالضبط ما يقرؤه فريق التوظيف لوظيفة {role}. عدّل ما تريد قبل الإرسال."
+},
+"hmRvEdit": {
+"en": "Edit",
+"ar": "تعديل"
+},
+"hmRvSkipped": {
+"en": "Skipped",
+"ar": "تم التخطي"
+},
+"hmRvCheck": {
+"en": "Checked before delivery. Anything that names you, your contact details, links, your CV or your current employer is held back.",
+"ar": "تُفحص الإجابات قبل وصولها. أي شيء يكشف اسمك أو بيانات التواصل معك أو روابطك أو سيرتك الذاتية أو جهة عملك الحالية لا يُرسل."
+},
+"hmRvSend": {
+"en": "Send answers",
+"ar": "أرسل الإجابات"
+},
+"hmRvBack": {
+"en": "Back",
+"ar": "رجوع"
+},
+"hmRvNone": {
+"en": "Answer at least one question to send.",
+"ar": "أجب عن سؤال واحد على الأقل للإرسال."
+},
+"hmHmQsT": {
+"en": "{q} from a hiring team",
+"ar": "{q} من فريق توظيف"
+},
+"hmHmQsS": {
+"en": "The hiring team for {role} would like to know more. Answers are optional, and your name stays hidden until an invite.",
+"ar": "يرغب فريق التوظيف لوظيفة {role} في معرفة المزيد. الإجابة اختيارية، واسمك يبقى محجوباً حتى الدعوة إلى مقابلة."
+},
+"hmHmQsCta": {
+"en": "See the questions",
+"ar": "اطّلع على الأسئلة"
+},
+"hmHmAll": {
+"en": "All conversations in Mail",
+"ar": "كل المحادثات في البريد"
+},
+"hmHmNewCta": {
+"en": "Open the conversation",
+"ar": "افتح المحادثة"
+},
+"hmHmNewS": {
+"en": "Sealed. They see your experience, not your name.",
+"ar": "الهوية محجوبة. يرون خبرتك دون اسمك."
+},
+"hmNfWait": {
+"en": "Waiting on you",
+"ar": "بانتظارك"
+},
+"hmNfNew": {
+"en": "New",
+"ar": "جديد"
+},
+"hmNfSnip": {
+"en": "Sealed · answers are optional",
+"ar": "الهوية محجوبة · الإجابة اختيارية"
+},
+"hmApFreeH": {
+"en": "Put forward by Uptal",
+"ar": "رشّحك Uptal"
+},
+"hmApFreeS": {
+"en": "Hiring teams are looking at your profile, without your name.",
+"ar": "فرق توظيف تطّلع على ملفك دون اسمك."
+},
+"hmApMeta": {
+"en": "Hiring team · {city} · {ago}",
+"ar": "فريق التوظيف · {city} · {ago}"
+},
+"hmFHm": {
+"en": "Hiring teams",
+"ar": "فرق التوظيف"
+},
+"hmStInv": {
+"en": "Interview",
+"ar": "مقابلة"
+},
+"hmAsH": {
+"en": "Messages from the hiring team",
+"ar": "رسائل فريق التوظيف"
+},
+"hmAsSeal": {
+"en": "Sealed: they see your experience, not your name.",
+"ar": "الهوية محجوبة: يرون خبرتك دون اسمك."
+},
+"hmAsMeta": {
+"en": "Hiring team · {city}",
+"ar": "فريق التوظيف · {city}"
+},
+"hmTl1": {
+"en": "Put forward by Uptal",
+"ar": "رشّحك Uptal"
+},
+"hmTl1s": {
+"en": "Your experience went to the hiring team, without your name.",
+"ar": "وصلت خبرتك إلى فريق التوظيف دون اسمك."
+},
+"hmTl2": {
+"en": "Screening questions received",
+"ar": "وصلتك أسئلة التقييم المبدئي"
+},
+"hmTl2s": {
+"en": "Answers are optional.",
+"ar": "الإجابة اختيارية."
+},
+"hmTl3": {
+"en": "You sent your answers",
+"ar": "أرسلت إجاباتك"
+},
+"hmTl3s": {
+"en": "Seen by the hiring team.",
+"ar": "اطّلع عليها فريق التوظيف."
+},
+"hmTl4": {
+"en": "Invited to interview",
+"ar": "دعوة لمقابلة"
+},
+"hmTl4s": {
+"en": "{co} will contact you directly by phone or email.",
+"ar": "سيتواصل معك {co} مباشرة عبر الهاتف أو البريد الإلكتروني."
+},
+"hmTlRel": {
+"en": "Not taken further",
+"ar": "لم يتقدّم الملف"
+},
+"hmTlRels": {
+"en": "Your other applications are not affected.",
+"ar": "لا يتأثر أي طلب آخر لك."
+},
+"hmTlClosed": {
+"en": "Role closed",
+"ar": "أُغلقت الوظيفة"
+},
+"hmTlCloseds": {
+"en": "The employer closed the role.",
+"ar": "أغلقت الجهة الوظيفة."
+},
+"hmMlConv": {
+"en": "Conversation",
+"ar": "محادثة"
+},
+"hmApBtn": {
+"en": "Messages",
+"ar": "المحادثة"
+},
+"hmOpenLine": {
+"en": "Your name and contact details were shared with {co} when they invited you to interview.",
+"ar": "شارك Uptal اسمك وبيانات التواصل معك مع {co} عند دعوتك إلى مقابلة."
+},
+"hmClRelS0": {
+"en": "The hiring team decided not to continue with your profile for this role. This conversation is read-only, and your other applications are not affected.",
+"ar": "قرر فريق التوظيف عدم الاستمرار في ملفك لهذه الوظيفة. أصبحت هذه المحادثة للقراءة فقط، ولا يتأثر أي طلب آخر لك."
+},
+"hmRoShort": {
+"en": "Read-only",
+"ar": "للقراءة فقط"
+},
+"hmMlFreeHint": {
+"en": "Mail about the applications we send starts once your plan starts. Conversations with hiring teams are already here.",
+"ar": "بريد جهات العمل عن الطلبات التي نقدّمها لك يبدأ بالوصول عند بدء باقتك. ومحادثات فرق التوظيف موجودة هنا من الآن."
+},
+"hmMicWait": {
+"en": "Waiting for microphone access. Tap the microphone again to cancel.",
+"ar": "بانتظار السماح بالوصول إلى الميكروفون. اضغط على الميكروفون مرة أخرى للإلغاء."
+},
+"hmChk": {
+"en": "Checking before delivery",
+"ar": "جارٍ الفحص قبل الإرسال"
+},
+"hmTrChk": {
+"en": "Transcribing and checking before delivery.",
+"ar": "جارٍ تحويلها إلى نص وفحصها قبل الإرسال."
+},
+"hmTrNoText": {
+"en": "Transcribed and checked by Uptal. The text cannot be shown in this browser.",
+"ar": "حوّلها Uptal إلى نص وفحصها. لا يمكن عرض النص في هذا المتصفح."
+},
+"hmHeld": {
+"en": "Not delivered",
+"ar": "لم تُرسل"
+},
+"hmTPlayRec": {
+"en": "Stop the recording to play a voice note.",
+"ar": "أوقف التسجيل لتستمع إلى الرسالة الصوتية."
+},
+"hmAsStNote": {
+"en": "This status comes from the hiring team, so there is nothing to update here.",
+"ar": "تأتي هذه الحالة من فريق التوظيف، فلا حاجة إلى تحديثها هنا."
+},
+"hmAsStepPh": {
+"en": "e.g. Prepare examples for a follow-up question",
+"ar": "مثلاً: جهّز أمثلة لسؤال متابعة"
+},
+"hmSdT": {
+"en": "Your conversation with the hiring team for {role}",
+"ar": "محادثتك مع فريق التوظيف لوظيفة {role}"
+},
+"hmSdS": {
+"en": "You can answer and reply now.",
+"ar": "يمكنك الآن الإجابة والرد."
+},
+"hmSdCta": {
+"en": "Back to the conversation",
+"ar": "العودة إلى المحادثة"
+},
+"hmQA1": {
+"en": "Describe your hands-on experience with IFRS reporting: the scope, your part in it, and one result.",
+"ar": "يرجى توضيح خبرتكم العملية في إعداد التقارير وفق IFRS: حجم المشاريع، وإسهامكم فيها، ونتيجة واحدة تحققت."
+},
+"hmQA2": {
+"en": "Describe your hands-on experience with SAP FI/CO: the scope, your part in it, and one result.",
+"ar": "يرجى توضيح خبرتكم العملية في SAP FI/CO: حجم المشاريع، وإسهامكم فيها، ونتيجة واحدة تحققت."
+},
+"hmQA3": {
+"en": "Tell us what would make this role the right next step for you.",
+"ar": "يرجى توضيح ما يجعل هذه الوظيفة الخطوة التالية المناسبة لكم."
+},
+"hmQA4": {
+"en": "Describe the first thing you would take on in this role, and how.",
+"ar": "يرجى توضيح أول مهمة ستتولونها في هذه الوظيفة، وطريقة تنفيذها."
+},
+"hmQB1": {
+"en": "Describe your hands-on experience with budgeting and forecasting: the scope, your part in it, and one result.",
+"ar": "يرجى توضيح خبرتكم العملية في إعداد الموازنات والتوقعات: حجم المشاريع، وإسهامكم فيها، ونتيجة واحدة تحققت."
+},
+"hmDA1": {
+"en": "For eight years I have worked in financial analysis in Riyadh. I lead IFRS reporting and budgeting on SAP across several business units and own the monthly close for a 40-person finance function. The rolling forecasts and variance analysis I built cut reporting time by a third.",
+"ar": "أعمل في التحليل المالي في الرياض منذ ثماني سنوات. أقود إعداد التقارير وفق IFRS والموازنات على SAP لعدة وحدات أعمال، وأتولى الإقفال الشهري لفريق مالي من 40 شخصاً. والتوقعات المتحركة وتحليل الانحرافات التي بنيتها خفّضت وقت إعداد التقارير بمقدار الثلث."
+},
+"hmDA2": {
+"en": "I work in SAP every day: the monthly close, budgeting and variance analysis for several business units all run on it. I own the close for a 40-person function, and the rolling forecasts and variance reports I built in SAP cut reporting time by a third.",
+"ar": "أستخدم SAP يومياً، فالإقفال الشهري والموازنات وتحليل الانحرافات لعدة وحدات أعمال تتم عليه. أتولى الإقفال لفريق من 40 شخصاً، والتوقعات المتحركة وتقارير الانحرافات التي بنيتها على SAP خفّضت وقت إعداد التقارير بمقدار الثلث."
+},
+"hmDA3": {
+"en": "I have owned the monthly close and IFRS reporting for years, and I want a senior seat where I also shape the analysis that goes to leadership. This role puts reporting, planning and SAP in one place, which is where my experience is strongest.",
+"ar": "توليت الإقفال الشهري وتقارير IFRS لسنوات، وأبحث عن دور أعلى أشارك فيه أيضاً في صياغة التحليل الذي يصل إلى الإدارة. هذه الوظيفة تجمع التقارير والتخطيط وSAP في مكان واحد، وهذا أقوى ما في خبرتي."
+},
+"hmDA4": {
+"en": "I would start with the monthly close: map each step and who owns it, find where the time goes, and agree a shorter timetable with the team. That is how I cut reporting time by a third in my current role, with rolling forecasts and variance analysis.",
+"ar": "أبدأ بالإقفال الشهري: أرسم كل خطوة ومن يتولاها، وأحدد أين يذهب الوقت، ثم أتفق مع الفريق على جدول زمني أقصر. بهذه الطريقة خفّضت وقت إعداد التقارير بمقدار الثلث في دوري الحالي، بالتوقعات المتحركة وتحليل الانحرافات."
+},
+"hmAB1": {
+"en": "I own the annual budget and the rolling forecast for several business units in Riyadh, on SAP, and I run the variance analysis behind every monthly close. The forecasts I built cut reporting time by a third.",
+"ar": "أتولى الموازنة السنوية والتوقعات المتحركة لعدة وحدات أعمال في الرياض على SAP، وأدير تحليل الانحرافات وراء كل إقفال شهري. والتوقعات التي بنيتها خفّضت وقت إعداد التقارير بمقدار الثلث."
+},
+"hmAB2": {
+"en": "I want to move from reporting the numbers to planning them. This role owns the budget cycle end to end, which is the part of my work I enjoy most.",
+"ar": "أريد أن أنتقل من إعداد تقارير الأرقام إلى التخطيط لها. هذه الوظيفة تتولى دورة الموازنة كاملة، وهذا أكثر جزء أستمتع به في عملي."
+},
+"hmTB1": {
+"en": "Thank you. Your answers on the budget cycle were clear. Please tell us your notice period.",
+"ar": "شكراً لكم. إجاباتكم عن دورة الموازنة كانت واضحة. يرجى توضيح مدة الإشعار المطلوبة لديكم."
+},
+"hmMB1": {
+"en": "My notice period is 60 days, and I can start the handover earlier if needed.",
+"ar": "مدة الإشعار لدي 60 يوماً، ويمكنني بدء التسليم قبل ذلك عند الحاجة."
+},
+"hmVB1": {
+"en": "Thank you. We would like to invite you to an interview. The invitation comes to you through Uptal today.",
+"ar": "شكراً لكم. نود دعوتكم إلى مقابلة، وتصلكم الدعوة عبر Uptal اليوم."
+},
+"hmVA1": {
+"en": "Thank you for the clear answers. One follow-up on SAP: please tell us whether you have led the monthly close on S/4HANA or on ECC, and what changed for the team. A short voice note is fine.",
+"ar": "شكراً على إجاباتكم الواضحة. لدينا سؤال متابعة عن SAP: يرجى توضيح ما إذا كنتم قد قدتم الإقفال الشهري على S/4HANA أو على ECC، وما الذي تغيّر للفريق. تكفي رسالة صوتية قصيرة."
+},
+"hmTA2": {
+"en": "Thank you, that is helpful. We will come back to you here.",
+"ar": "شكراً لكم، هذا مفيد. سنعود إليكم هنا."
+},
+"hmSimComp": {
+"en": "I have run the monthly close on SAP for four years and led the team through the move to S/4HANA. The close is shorter now, and the variance reports come straight out of the system.",
+"ar": "أدرت الإقفال الشهري على SAP لأربع سنوات، وقدت الفريق خلال الانتقال إلى S/4HANA. أصبح الإقفال أقصر، وتقارير الانحرافات تخرج من النظام مباشرة."
+},
+"hmSimAns": {
+"en": "I have owned the monthly close and IFRS reporting for years, and I want a senior seat where I also shape the analysis that goes to leadership.",
+"ar": "توليت الإقفال الشهري وتقارير IFRS لسنوات، وأريد دوراً أعلى أشارك فيه في صياغة التحليل الذي يصل إلى الإدارة."
+},
+"hmSimBlk": {
+"en": "Happy to talk more. You can reach me on 0551234567.",
+"ar": "يسعدني الحديث أكثر. يمكنكم التواصل معي على 0551234567."
+},
+"hmSimBlkAns": {
+"en": "At Acme Financial I lead IFRS reporting for six business units, and I own the monthly close.",
+"ar": "في Acme Financial أقود إعداد التقارير وفق IFRS لست وحدات أعمال، وأتولى الإقفال الشهري."
+},
+"rsMoveH": {
+"en": "Move your session",
+"ar": "غيّر موعد جلستك"
+},
+"sdMsaS": {
+"en": "Your HR assistant",
+"ar": "مساعدك في التوظيف"
+},
+"acsR2TCvt": {
+"en": "Every application goes out with a CV tailored to that role",
+"ar": "كل طلب يُرسل بسيرة ذاتية مخصّصة لهذه الوظيفة"
+},
+"as1Cvt": {
+"en": "Applied with a tailored CV",
+"ar": "قدّمنا بسيرة ذاتية مخصّصة"
+},
+"as1sCvt": {
+"en": "We rewrote your CV for this exact role.",
+"ar": "أعدنا كتابة سيرتك لهذه الوظيفة بالضبط."
+},
+"tApplied2Cvt": {
+"en": "Applied, and tailoring your CV",
+"ar": "قدّمنا، ونخصّص سيرتك"
+},
+"apNoteCvt": {
+"en": "Every application uses a CV we tailored to that role.",
+"ar": "كل طلب يستخدم سيرة ذاتية خصّصناها لهذه الوظيفة."
+},
+"hMileSCvt": {
+"en": "Every one tailored to the role",
+"ar": "كل واحد مخصّص للوظيفة"
+},
+"hE3Cvt": {
+"en": "tailored CVs",
+"ar": "سيرة ذاتية مخصّصة"
+},
+"swJobFootCvt": {
+"en": "We tailor your CV to this exact role before we apply. Nothing is sent until you swipe right or tap Apply.",
+"ar": "نخصّص سيرتك لهذه الوظيفة بالضبط قبل التقديم. ولا نرسل شيئاً إلا عندما تسحب يمين أو تضغط قدّم."
+},
+"swApplyDetailCvt": {
+"en": "Apply, and tailor my CV",
+"ar": "قدّم، وخصّص سيرتي"
+},
+"swTailorSCvt": {
+"en": "The AI rewrites your CV to match each job description before applying.",
+"ar": "الذكاء الاصطناعي يعيد كتابة سيرتك لتطابق وصف كل وظيفة قبل التقديم."
+},
+"cvvSubCvt": {
+"en": "The CV we start from when tailoring each application. Last updated 2 days ago.",
+"ar": "هذه السيرة التي ننطلق منها عند تخصيص كل طلب. آخر تحديث قبل يومين."
+},
+"cvvSubNewCvt": {
+"en": "The CV we start from when tailoring each application. Updated just now.",
+"ar": "هذه السيرة التي ننطلق منها عند تخصيص كل طلب. حُدّثت الآن."
+},
+"cvvLibCvt": {
+"en": "tailored CVs this month",
+"ar": "سيرة ذاتية مخصّصة هذا الشهر"
+},
+"cvvLibSCvt": {
+"en": "A CV written for each role, ready to view and download",
+"ar": "سيرة ذاتية مكتوبة لكل وظيفة، جاهزة للعرض والتنزيل"
+},
+"cvvLegCvt": {
+"en": "Highlighted = your strongest lines, the ones each tailored CV is built around",
+"ar": "المظلّل = أقوى سطورك، وعليها نبني كل سيرة مخصّصة"
+},
+"paNoteCvt": {
+"en": "We spend your applications on the strongest matches first. Whatever pace you choose, every application still gets a tailored CV.",
+"ar": "نصرف طلباتك على أقوى التطابقات أولاً. أي وتيرة تختارها، كل طلب له سيرة ذاتية مخصّصة."
+},
+"tuNoteCvt": {
+"en": "Top-up applications are used after your monthly quota and expire at the end of your subscription month. Every one still gets a CV tailored to the role.",
+"ar": "طلبات التعبئة تُستخدم بعد رصيدك الشهري وتنتهي بنهاية شهر اشتراكك. وكل طلب له سيرة ذاتية مخصّصة للوظيفة."
+},
+"hAutoOffSCvt": {
+"en": "Every day it reads new roles, picks your matches, and applies with a tailored CV. It comes with your plan.",
+"ar": "كل يوم يقرأ الوظائف الجديدة، ويختار ما يناسبك، ويقدّم بسيرة ذاتية مخصّصة. ويأتي مع باقتك."
+},
+"qaRCvCvt": {
+"en": "Goes out with the CV we wrote for this role",
+"ar": "يُرسل مع السيرة الذاتية التي كتبناها لهذه الوظيفة"
+}
+}

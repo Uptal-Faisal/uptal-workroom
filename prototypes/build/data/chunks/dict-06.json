@@ -1,0 +1,602 @@
+{
+"paMos": {
+"en": "months",
+"ar": "أشهر"
+},
+"paMos2": {
+"en": "months",
+"ar": "أشهر"
+},
+"paCta": {
+"en": "Pause for 1 month",
+"ar": "أوقف لمدة شهر"
+},
+"lensPause": {
+"en": "Pause protects what they would lose by cancelling: their locked rate and the matches that keep stacking up while they are away.",
+"ar": "الإيقاف يحمي ما سيخسره لو ألغى: سعره المحفوظ والوظائف التي تتراكم في غيابه."
+},
+"pdH": {
+"en": "Paused until 7 August.",
+"ar": "تم التجميد حتى 7 أغسطس."
+},
+"pdSub": {
+"en": "We are still watching the market and will show you everything you missed the day you resume.",
+"ar": "ما زلنا نراقب السوق وسنعرض لك كل ما فاتك يوم ترجع."
+},
+"pd1": {
+"en": "Matches waiting for you",
+"ar": "وظائف تنتظرك"
+},
+"pd1s": {
+"en": "We apply to these the moment you resume, if they are still open",
+"ar": "نقدّم لها فور عودتك إذا كانت ما زالت متاحة"
+},
+"pd2": {
+"en": "Rate locked",
+"ar": "السعر محفوظ"
+},
+"pd2s": {
+"en": "Your term price held",
+"ar": "سعر باقتك محفوظ"
+},
+"pdCta": {
+"en": "Reactivate my account",
+"ar": "أعد تفعيل الحساب"
+},
+"c1H": {
+"en": "Before you go, here is what Auto-Apply did.",
+"ar": "قبل أن تغادر، هذا ما فعله التقديم التلقائي."
+},
+"c1r1": {
+"en": "applications",
+"ar": "طلب"
+},
+"c1r2": {
+"en": "hours saved",
+"ar": "ساعة موفّرة"
+},
+"c1r3": {
+"en": "roles found for you",
+"ar": "وظيفة لقيناها لك"
+},
+"c1Sub": {
+"en": "You have an interview live right now. Most people pause their account instead of cancelling, but it is up to you.",
+"ar": "لديك مقابلة شخصية الآن. أغلب الأعضاء يجمّدون الحساب بدل إلغائه، والأمر راجع لك."
+},
+"c1PauseT": {
+"en": "Pause my account up to 3 months",
+"ar": "جمّد حسابي إلى 3 أشهر"
+},
+"c1PauseS": {
+"en": "Keep your rate and your history. Resume in one tap.",
+"ar": "احتفظ بسعرك وسجلك. استأنف بضغطة."
+},
+"c1PauseBtn": {
+"en": "Reactivate my account",
+"ar": "أعد تفعيل الحساب"
+},
+"c1Lite": {
+"en": "Switch to Lite, 199 ¤",
+"ar": "حوّل لباقة لايت، 199 ¤"
+},
+"c1LiteS": {
+"en": "Lighter plan, keep applying, up to 50 roles a month",
+"ar": "باقة أخف، وتستمر تقدّم لكن إلى 50 وظيفة في الشهر"
+},
+"c1Cancel": {
+"en": "Continue to cancel",
+"ar": "أكمل الإلغاء"
+},
+"lensCx1": {
+"en": "Before anyone cancels, we replay what they built and what we saved them, and lead with pause, so leaving means giving up something real. The word cancel is never hidden.",
+"ar": "قبل أن يلغي أحد، نعيد عرض ما بناه وما وفّرناه له، ونبدأ بالإيقاف، حتى تعني المغادرة التخلّي عن شيء حقيقي. وكلمة إلغاء لا تُخفى أبداً."
+},
+"c2H": {
+"en": "What is making you leave.",
+"ar": "ما الذي يدفعك للمغادرة."
+},
+"c2Sub": {
+"en": "This decides how we can help.",
+"ar": "هذا يحدد كيف نقدر نساعدك."
+},
+"c2o1": {
+"en": "I got hired",
+"ar": "توظّفت"
+},
+"c2o2": {
+"en": "Not enough interviews yet",
+"ar": "ما جاتني مقابلات كفاية"
+},
+"c2o3": {
+"en": "Too expensive for me",
+"ar": "غالي عليّ"
+},
+"c2o4": {
+"en": "Not looking for a job right now",
+"ar": "لا أبحث عن وظيفة الآن"
+},
+"c2o5": {
+"en": "Something else",
+"ar": "شيء آخر"
+},
+"c2Cta": {
+"en": "Continue",
+"ar": "أكمل"
+},
+"lensCx2": {
+"en": "No option is pre-selected and Continue stays disabled until the user chooses. A pre-ticked reason reads as manipulation and we do not do that.",
+"ar": "لا خيار محدد مسبقاً، وزر أكمل يظل معطّلاً حتى يختار المستخدم. السبب المحدد مسبقاً يُقرأ كتلاعب، ونحن لا نفعل ذلك."
+},
+"c3K": {
+"en": "A better option",
+"ar": "خيار أفضل"
+},
+"c3Title": {
+"en": "25% off your next renewal",
+"ar": "خصم 25٪ على تجديدك القادم"
+},
+"c3Sub": {
+"en": "This offer goes away if you do not take it now",
+"ar": "هذا العرض ينتهي إذا لم تستفد منه الآن"
+},
+"c3Recap": {
+"en": "You keep everything you built",
+"ar": "تحتفظ بكل ما بنيته"
+},
+"c3Recap2": {
+"en": "214 applications, your tuned account, your locked rate",
+"ar": "214 طلب، حسابك المضبوط، سعرك المحفوظ"
+},
+"c3Keep": {
+"en": "Give me the discount",
+"ar": "اعطوني الخصم"
+},
+"c3Cancel": {
+"en": "No thanks, cancel",
+"ar": "لا شكراً، ألغِ"
+},
+"lensCx3": {
+"en": "The save offer is targeted to the stated reason and anchored to what a member on a paid term can actually use. Keep is the one solid button; cancel stays a plain link.",
+"ar": "عرض الإبقاء موجّه حسب السبب المذكور ومربوط بما يقدر المشترك على مدة مدفوعة يستخدمه فعلاً. الإبقاء هو الزر الوحيد الواضح، والإلغاء يظل رابط بسيط."
+},
+"c4H": {
+"en": "Here is what changes.",
+"ar": "هذا ما يتغيّر."
+},
+"c4Sub": {
+"en": "You keep full access until 27 September 2026, the end of your paid year. After that date:",
+"ar": "تحتفظ بكامل الوصول حتى 27 سبتمبر 2026، نهاية سنتك المدفوعة. بعد هذا التاريخ:"
+},
+"c4a": {
+"en": "Applying stops",
+"ar": "التقديم يتوقف"
+},
+"c4as": {
+"en": "We stop searching and applying",
+"ar": "نوقف البحث والتقديم"
+},
+"c4b": {
+"en": "Market watch turns off",
+"ar": "مراقبة السوق توقف"
+},
+"c4bs": {
+"en": "No salary updates or any analytics",
+"ar": "لا تحديثات رواتب ولا أي تحليلات"
+},
+"c4c": {
+"en": "Your data is kept 90 days",
+"ar": "بياناتك تُحفظ 90 يوماً"
+},
+"c4cs": {
+"en": "Resume anytime in that window, nothing lost",
+"ar": "استأنف متى ما تبي خلال هذه المدة، ولا يضيع شيء"
+},
+"c4Rate": {
+"en": "Cancel now and we hold your current rate for 90 days, in case you come back.",
+"ar": "ألغِ الآن ونحفظ سعرك الحالي 90 يوماً، إن عدت."
+},
+"c4Keep": {
+"en": "No, I changed my mind",
+"ar": "لا غيرت رأيي"
+},
+"c4Cancel": {
+"en": "Cancel my membership",
+"ar": "ألغِ عضويتي"
+},
+"lensCx4": {
+"en": "The loss is real and future-dated, never a scare. Full access continues until the paid date, then specific things stop. No fake urgency, no data threats.",
+"ar": "الخسارة حقيقية ومؤجلة إلى تاريخ، لا تخويفاً. الوصول الكامل يستمر حتى نهاية المدة المدفوعة، وبعدها تتوقف أشياء محددة. بدون استعجال مزيّف ولا تهديد بالبيانات."
+},
+"cdH": {
+"en": "Subscription cancelled successfully.",
+"ar": "تم إلغاء الاشتراك بنجاح."
+},
+"cdSub": {
+"en": "You keep full access until 27 September 2026. We will remind you a week before it ends. Nothing is deleted for 90 days.",
+"ar": "تحتفظ بكامل الوصول حتى 27 سبتمبر 2026. سنذكّرك قبل انتهائها بأسبوع. لا يُحذف شيء لمدة 90 يوماً."
+},
+"cd1": {
+"en": "Full access until 27 September 2026",
+"ar": "وصول كامل حتى 27 سبتمبر 2026"
+},
+"cd2": {
+"en": "Your rate is held for 90 days",
+"ar": "سعرك محفوظ 90 يوم"
+},
+"cdUndo": {
+"en": "Undo cancellation",
+"ar": "تراجع عن الإلغاء"
+},
+"cdDone": {
+"en": "Done",
+"ar": "تم"
+},
+"lensPipeak": {
+"en": "The win lands and holds first, then the offer slides up. Money rides the peak of the interview invite instead of stepping on it. Always skippable.",
+"ar": "الفوز يظهر ويثبت أولاً، ثم يصعد العرض. المبلغ يركب ذروة دعوة المقابلة بدل أن يدوسها. ويمكنك تخطيه دائماً."
+},
+"pkWin": {
+"en": "Thursday 10:00 is locked.",
+"ar": "الخميس 10:00 محجوز."
+},
+"pkWinS": {
+"en": "Head of Finance at Rewaa, Riyadh.",
+"ar": "مدير مالية في رِوّاء، الرياض."
+},
+"pkEy": {
+"en": "One step left",
+"ar": "بقيت خطوة واحدة"
+},
+"pkH": {
+"en": "We got you the interview. Now let us help you shine in it.",
+"ar": "حصلنا لك على المقابلة. الآن دعنا نساعدك تتألق فيها."
+},
+"pkB": {
+"en": "Practice this exact interview today. 5 questions built from the Rewaa role and the CV we sent. About 15 minutes.",
+"ar": "تدرب على نفس المقابلة اليوم. 5 أسئلة مبنية على وظيفة رِوّاء والسيرة التي أرسلناها. حوالي 15 دقيقة."
+},
+"pkPrice": {
+"en": "149 ¤ per session, unlimited retakes.",
+"ar": "149 ¤ للجلسة، إعادة تسجيل غير محدودة."
+},
+"pkTrust": {
+"en": "Only you ever see this interview.",
+"ar": "أنت وحدك من يرى هذه المقابلة."
+},
+"pkCta": {
+"en": "Practice the Rewaa interview",
+"ar": "تدرب على مقابلة رِوّاء"
+},
+"pkSkip": {
+"en": "Not now, show interview details",
+"ar": "ليس الآن، اعرض تفاصيل المقابلة"
+},
+"lensPihow": {
+"en": "Kill the two conversion killers before the camera opens: video anxiety and privacy fear. The only deadline used is the real interview date.",
+"ar": "نشيل مخاوف التسجيل والخصوصية قبل ما تفتح الكاميرا. الموعد الوحيد المذكور هو موعد المقابلة الحقيقي."
+},
+"hwH": {
+"en": "How the interview practice works",
+"ar": "كيف تم التدريب على المقابلة؟"
+},
+"hw1": {
+"en": "Built from your role",
+"ar": "مبني على وظيفتك"
+},
+"hw1s": {
+"en": "The AI writes the questions from the job description we already have on file.",
+"ar": "الأسئلة يكتبها الذكاء الاصطناعي بناءً على الوصف الوظيفي الموجود لدينا أصلاً."
+},
+"hw2": {
+"en": "Only you see the recording",
+"ar": "أنت وحدك من يرى التسجيل"
+},
+"hw2s": {
+"en": "Nothing reaches Rewaa or any employer, ever. Delete any session anytime.",
+"ar": "لا يصل رِوّاء ولا أي جهة عمل أبداً. يمكنك حذف أي جلسة في أي وقت."
+},
+"hw3": {
+"en": "Redo anything",
+"ar": "أعِد أي شيء"
+},
+"hw3s": {
+"en": "Unlimited retakes on every answer. This is practice, not a test.",
+"ar": "إعادة تسجيل غير محدودة لكل جواب. هذا تمرين، ليس اختباراً."
+},
+"hwDeadline": {
+"en": "Your interview is Thursday 10:00, in 2 days.",
+"ar": "مقابلتك الخميس 10:00، بعد يومين."
+},
+"hwMode": {
+"en": "Record with video, or audio only",
+"ar": "سجّل بالفيديو، أو بالصوت فقط"
+},
+"hwVideo": {
+"en": "Video",
+"ar": "فيديو"
+},
+"hwAudio": {
+"en": "Audio only",
+"ar": "صوت فقط"
+},
+"hwNothing": {
+"en": "Nothing is recorded until you press start.",
+"ar": "ما يبدأ التسجيل إلا لمّا تضغط ابدأ."
+},
+"hwCta": {
+"en": "Start practice",
+"ar": "ابدأ التدريب"
+},
+"lensPisetup": {
+"en": "The role path arrives fully prefilled from the application, so a confident user starts in one tap. The any-role path is a clean intake with nothing pre-ticked that costs anything.",
+"ar": "مسار الوظيفة يأتي معبّأ بالكامل من طلبك، فتبدأ بضغطة واحدة. ومسار أي وظيفة إدخال بسيط، بدون أي شيء محدد مسبقاً يكلّفك."
+},
+"stH": {
+"en": "Set up your session",
+"ar": "جهّز جلستك"
+},
+"stMode1": {
+"en": "This role (Rewaa)",
+"ar": "هذه الوظيفة (رِوّاء)"
+},
+"stMode2": {
+"en": "Another role",
+"ar": "وظيفة ثانية"
+},
+"stR1s": {
+"en": "Role",
+"ar": "الوظيفة"
+},
+"stR2": {
+"en": "Head or Director",
+"ar": "رئيس أو مدير"
+},
+"stR2s": {
+"en": "Seniority",
+"ar": "المستوى"
+},
+"stR3s": {
+"en": "Company",
+"ar": "الشركة"
+},
+"stR4": {
+"en": "Attached from your application",
+"ar": "مرفق من طلبك"
+},
+"stR4s": {
+"en": "Job description",
+"ar": "وصف الوظيفة"
+},
+"stEdit": {
+"en": "Edit",
+"ar": "تعديل"
+},
+"stShape": {
+"en": "5 questions, about 15 minutes. Answer in English or العربية.",
+"ar": "5 أسئلة، حوالي 15 دقيقة. جاوب بالعربي أو الإنجليزي."
+},
+"stJob": {
+"en": "Job title",
+"ar": "المسمى الوظيفي"
+},
+"stJobPh": {
+"en": "e.g. Finance Manager",
+"ar": "مثال: مدير مالي"
+},
+"stSen": {
+"en": "Seniority",
+"ar": "المستوى"
+},
+"stSe1": {
+"en": "Entry",
+"ar": "مبتدئ"
+},
+"stSe2": {
+"en": "Mid",
+"ar": "متوسط"
+},
+"stSe3": {
+"en": "Senior",
+"ar": "كبير"
+},
+"stSe4": {
+"en": "Head of function",
+"ar": "رئيس إدارة"
+},
+"stSe5": {
+"en": "Director",
+"ar": "مدير"
+},
+"stJd": {
+"en": "Job description",
+"ar": "وصف الوظيفة"
+},
+"stJdPh": {
+"en": "Paste it for sharper questions, or skip",
+"ar": "الصقه لأسئلة أدق، أو تخطّه"
+},
+"stHelp": {
+"en": "Optional. With a job description we ask about the exact responsibilities. Without one we ask the standard questions for this title and level.",
+"ar": "اختياري. مع وصف الوظيفة نسأل عن المهام بالضبط. وبدونه نسأل الأسئلة المعتادة لهذا المسمى والمستوى."
+},
+"stCta": {
+"en": "Continue",
+"ar": "أكمل"
+},
+"stCtaAny": {
+"en": "Continue to payment",
+"ar": "أكمل للدفع"
+},
+"lensPiplan": {
+"en": "Value before recording: we show the plan built from the real job description, and the progress is pre-drawn so it never starts empty.",
+"ar": "قيمة قبل التسجيل: نعرض الخطة المبنية على وصف الوظيفة الحقيقي، والتقدّم مرسوم مسبقاً فما يبدأ فاضي."
+},
+"qpH": {
+"en": "What we will cover",
+"ar": "ما سنغطّيه"
+},
+"qpSub": {
+"en": "Built from the Rewaa job description and the CV we sent.",
+"ar": "مبني على وصف وظيفة رِوّاء والسيرة التي أرسلناها."
+},
+"qp1": {
+"en": "Walk me through your background",
+"ar": "كلّمني عن خلفيتك"
+},
+"qpStd": {
+"en": "standard opener",
+"ar": "سؤال افتتاحي"
+},
+"qp2": {
+"en": "Owning the monthly close and forecast",
+"ar": "إدارة الإقفال الشهري والتوقعات"
+},
+"qpJd": {
+"en": "from the Rewaa role",
+"ar": "من وظيفة رِوّاء"
+},
+"qp3": {
+"en": "Leading a 40-person finance function",
+"ar": "قيادة إدارة مالية فيها 40 شخص"
+},
+"qp4": {
+"en": "A time you challenged a number leadership believed",
+"ar": "موقف تحدّيت فيه رقماً كانت الإدارة متأكدة منه"
+},
+"qpBeh": {
+"en": "behavioral",
+"ar": "سلوكي"
+},
+"qp5": {
+"en": "What you would ask Rewaa",
+"ar": "ما تودّ سؤاله لرِوّاء"
+},
+"qpFit": {
+"en": "company fit",
+"ar": "ملاءمة الشركة"
+},
+"qpNote": {
+"en": "Each question appears after you answer the one before it. 0 of 5 recorded.",
+"ar": "يظهر كل سؤال بعد الإجابة عن السؤال الذي قبله. 0 من 5 مسجّلة."
+},
+"qpCta": {
+"en": "I am ready",
+"ar": "أنا جاهز"
+},
+"lensPicheck": {
+"en": "Meet your own face and voice at zero stakes and warm up in your own words before anything counts.",
+"ar": "ترى وجهك وصوتك بدون أي ضغط وتسخّن بكلامك قبل أن يبدأ أي شيء محسوب."
+},
+"ckH": {
+"en": "Camera and mic check",
+"ar": "فحص الكاميرا والمايك"
+},
+"ckLock": {
+"en": "Only you can see this",
+"ar": "ما يشوفه إلا أنت"
+},
+"ck1": {
+"en": "2 minutes per answer",
+"ar": "دقيقتين لكل جواب"
+},
+"ck1s": {
+"en": "30 seconds to think before each one",
+"ar": "30 ثانية تفكّر قبل كل الإجابة"
+},
+"ck2": {
+"en": "Pause and finish later anytime",
+"ar": "وقف وأكمل لاحقاً في أي وقت"
+},
+"ckWarm": {
+"en": "Warm-up, not scored",
+"ar": "تسخين، غير محسوب"
+},
+"ckWarmS": {
+"en": "Just say your name and the role you are preparing for.",
+"ar": "فقط قل اسمك والوظيفة التي تحضّر لها."
+},
+"ckFoot": {
+"en": "Recorded on your device, visible only to you. Nothing records until you press start.",
+"ar": "مسجّل على جهازك، لا يراه غيرك. لا يبدأ التسجيل إلا عندما تضغط ابدأ."
+},
+"ckCta": {
+"en": "I am ready, start question 1",
+"ar": "أنا جاهز، ابدأ السؤال 1"
+},
+"qOf": {
+"en": "Question",
+"ar": "السؤال"
+},
+"qOf2": {
+"en": "of",
+"ar": "من"
+},
+"recRole": {
+"en": "Head of Finance, Rewaa",
+"ar": "مدير مالية، رِوّاء"
+},
+"recHear": {
+"en": "Hear the question",
+"ar": "اسمع السؤال"
+},
+"recTip": {
+"en": "Remember: talk about the situation, the task, the action, then the result.",
+"ar": "تذكر: تكلم عن موقف ومهمة والإجراء ثم النتيجة."
+},
+"recRetake": {
+"en": "Re-record",
+"ar": "أعِد التسجيل"
+},
+"recKeep": {
+"en": "Keep and continue",
+"ar": "احفظ وأكمل"
+},
+"anH": {
+"en": "Building your report",
+"ar": "نجهّز تقريرك"
+},
+"anNote": {
+"en": "We look at what you said and how you said it, never who you are or how you look.",
+"ar": "ننظر إلى ما قلته وكيف قلته، لا إلى من أنت ولا شكلك."
+},
+"anTime": {
+"en": "About 2 minutes. You can leave, we will notify you when it is ready.",
+"ar": "حوالي دقيقتين. يمكنك الخروج، وسننبّهك عندما يجهز."
+},
+"anS1": {
+"en": "Transcribing your 5 answers",
+"ar": "نفرّغ أجوبتك الخمسة"
+},
+"anS2": {
+"en": "Checking each against the Rewaa responsibilities",
+"ar": "نطابق كل جواب مع مهام رِوّاء"
+},
+"anS3": {
+"en": "Measuring pace, structure and filler words",
+"ar": "نقيس السرعة والبناء وكلمات الحشو"
+},
+"anS4": {
+"en": "Writing your model answers",
+"ar": "نكتب أجوبتك النموذجية"
+},
+"piLensReport": {
+"en": "Opens on strengths, gives an honest score that can say not ready, and anchors real specifics so the price feels like a steal.",
+"ar": "يبدأ بنقاط القوة، ويعطي درجة صادقة قد تقول غير جاهز، ويربط تفاصيل حقيقية فيبدو السعر مغرياً."
+},
+"piRpH": {
+"en": "Interview readiness",
+"ar": "جاهزيتك للمقابلة"
+},
+"rpOf": {
+"en": "of 100",
+"ar": "من 100"
+},
+"piRpBand": {
+"en": "Almost there. A few things to tighten before Thursday.",
+"ar": "قريبة. بضعة أمور بسيطة نضبطها قبل الخميس."
+},
+"rpLine": {
+"en": "Strong material. Tighten delivery, lead with your numbers, and you will walk in calm.",
+"ar": "مادة قوية. اضبطي الإلقاء، وابدئي بأرقامك، وستدخلين وأنت مرتاحة."
+}
+}

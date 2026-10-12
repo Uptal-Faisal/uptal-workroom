@@ -1,0 +1,602 @@
+{
+"piRpW1": {
+"en": "Specific and numeric",
+"ar": "محدد وبأرقام"
+},
+"piRpW2": {
+"en": "Tied to outcomes",
+"ar": "مربوط بالنتائج"
+},
+"piRpW3": {
+"en": "Calm delivery",
+"ar": "إلقاء هادي"
+},
+"rpDims": {
+"en": "How you scored",
+"ar": "كيف كانت درجاتك"
+},
+"rpd1": {
+"en": "Content and relevance",
+"ar": "المحتوى والملاءمة"
+},
+"rpd2": {
+"en": "Structure, STAR",
+"ar": "البناء، STAR"
+},
+"rpd2w": {
+"en": "You often gave the result but skipped the situation.",
+"ar": "كثير تعطي النتيجة وتتخطى الموقف."
+},
+"rpd3": {
+"en": "Evidence and specifics",
+"ar": "الأدلة والتفاصيل"
+},
+"rpd4": {
+"en": "Delivery and pace",
+"ar": "الإلقاء والسرعة"
+},
+"rpd5": {
+"en": "Role and seniority fit",
+"ar": "ملاءمة الوظيفة والمستوى"
+},
+"rpm1": {
+"en": "You speak a touch fast",
+"ar": "كلامك سريع قليلاً"
+},
+"rpm2": {
+"en": "times you said um",
+"ar": "مرة قلت يعني"
+},
+"rpm3": {
+"en": "Average answer length",
+"ar": "متوسط مدة الإجابة"
+},
+"rpm4": {
+"en": "Longest pause",
+"ar": "أطول وقفة"
+},
+"rpFix": {
+"en": "Your top 3 fixes",
+"ar": "أهم 3 تعديلات"
+},
+"rpf1": {
+"en": "Lead with the numbers",
+"ar": "ابدأ بالأرقام"
+},
+"rpf1s": {
+"en": "You cut monthly close from 9 days to 5. Open with that.",
+"ar": "خفّضت الإقفال الشهري من 9 أيام إلى 5. ابدأ فيها."
+},
+"rpf2": {
+"en": "Use STAR on the challenge question",
+"ar": "استخدم STAR في سؤال التحدي"
+},
+"rpf2s": {
+"en": "You gave the result but skipped the situation.",
+"ar": "عطيت النتيجة وتخطّيت الموقف."
+},
+"rpf3": {
+"en": "Cut the filler",
+"ar": "قلّل الحشو"
+},
+"rpf3s": {
+"en": "Pause instead of saying um.",
+"ar": "اسكت لحظة بدل ما تقول يعني."
+},
+"rpCta": {
+"en": "See each answer",
+"ar": "شوف كل جواب"
+},
+"lensAnswer": {
+"en": "Every note is grounded in your own transcript, and the model answer is rebuilt from your real CV, so it is yours to own.",
+"ar": "كل ملاحظة مبنية على تفريغ كلامك، والجواب النموذجي معاد بناؤه من سيرتك الحقيقية، فهو ملكك."
+},
+"paH2": {
+"en": "Your answers",
+"ar": "أجوبتك"
+},
+"paSub2": {
+"en": "Tap any answer for the detail and a model answer built from your CV.",
+"ar": "اضغط أي جواب للتفاصيل والإجابة النموذجية مبنية على سيرتك."
+},
+"paQ2": {
+"en": "Owning the monthly close",
+"ar": "إدارة الإقفال الشهري"
+},
+"paS1": {
+"en": "Structure 3/5",
+"ar": "البناء 3/5"
+},
+"paS2": {
+"en": "Evidence 2/5",
+"ar": "الأدلة 2/5"
+},
+"paS3": {
+"en": "Delivery 4/5",
+"ar": "الإلقاء 4/5"
+},
+"paMetric": {
+"en": "Spoke 1:12, pace 168 wpm a little fast, 9 filler words, longest pause 4s.",
+"ar": "تكلمت 1:12، السرعة 168 كلمة/د أسرع قليلاً، 9 كلمات حشو، أطول وقفة 4 ثوانٍ."
+},
+"paQuote": {
+"en": "\"So I basically handled the close, and yeah, we got it done faster...\"",
+"ar": "\"يعني أنا تولّيت الإقفال، وايش، خلّصناه أسرع...\""
+},
+"paGood": {
+"en": "What worked.",
+"ar": "ما نجح."
+},
+"paGoodS": {
+"en": "You owned the process end to end and named the systems, IFRS and SAP.",
+"ar": "أدرت العملية من الأول للآخر وسمّيت الأنظمة، IFRS و SAP."
+},
+"paTry": {
+"en": "One thing to try.",
+"ar": "شيء تجربه."
+},
+"paTryS": {
+"en": "You described the actions but never said the outcome. The interviewer cannot tell if it worked.",
+"ar": "وصفت الإجراءات لكن لم تذكر النتيجة. المُحاوِر لا يعرف هل نجحت أم لا."
+},
+"paModel": {
+"en": "A model answer, built from your CV",
+"ar": "جواب نموذجي، مبني على سيرتك"
+},
+"paMS": {
+"en": "When I took over, month-end close ran 9 days. ",
+"ar": "لمّا استلمت، كان الإقفال الشهري ياخذ 9 أيام. "
+},
+"paMT": {
+"en": "I needed to get the forecast to leadership sooner. ",
+"ar": "كنت أبي أوصّل التوقعات للإدارة أسرع. "
+},
+"paMA": {
+"en": "I mapped the bottlenecks and automated three reconciliations in SAP. ",
+"ar": "حدّدت نقاط الاختناق وأتمتت ثلاث تسويات في SAP. "
+},
+"paMR": {
+"en": "We cut it to 5 days, so the board saw numbers two days earlier.",
+"ar": "خفّضناه إلى 5 أيام، فرأى مجلس الإدارة الأرقام قبل بيومين."
+},
+"paModelNote": {
+"en": "An example, not a script.",
+"ar": "مثال، وليس نصاً تحفظه."
+},
+"paRe": {
+"en": "Re-record just this answer",
+"ar": "أعِد تسجيل هذا الجواب فقط"
+},
+"paQ1": {
+"en": "Your background",
+"ar": "خلفيتك"
+},
+"paQ1b": {
+"en": "Clear and calm. Tighten it to 45 seconds and lead with your strongest number.",
+"ar": "واضح وهادئ. اختصره لـ45 ثانية وابدأ بأقوى رقم لديك."
+},
+"paQ4": {
+"en": "Challenging a number",
+"ar": "تحدّي رقم"
+},
+"paQ4b": {
+"en": "Good instinct, but you skipped the situation. Set the scene in one sentence, then the action and the result.",
+"ar": "حدس جيد، لكنك تخطيت الموقف. اضبط المشهد بجملة، ثم الإجراء والنتيجة."
+},
+"paCta2": {
+"en": "Next steps",
+"ar": "الخطوات القادمة"
+},
+"lensDone": {
+"en": "Bank the score, schedule a second rep against the real date, and surface packs only after value is felt. Nothing pre-selected.",
+"ar": "ثبّت الدرجة، ورتّب جولة ثانية قبل الموعد الحقيقي، واعرض الباقات بعد أن يشعر بالقيمة. لا شيء محدد مسبقاً."
+},
+"dnH": {
+"en": "You are more ready than 15 minutes ago.",
+"ar": "صرت أجهز من قبل 15 دقيقة."
+},
+"dnSub": {
+"en": "Report saved. Your interview is Thursday 10:00. Candidates who practice twice tend to walk in calmer and lift their score about 12 points.",
+"ar": "تم حفظ التقرير. مقابلتك الخميس 10:00. من يتدربون مرتين عادة يدخلون أهدأ ويرفعون درجتهم حوالي 12 نقطة."
+},
+"dnScore": {
+"en": "Your score is 78. One more pass, aim for 85.",
+"ar": "درجتك الآن 78. جولة إضافية واحدة، استهدف 85."
+},
+"dnAgain": {
+"en": "Practice once more",
+"ar": "تدرب مرة أخرى"
+},
+"dnRemind": {
+"en": "Set a reminder 24 hours before",
+"ar": "ذكّرني قبل 24 ساعة"
+},
+"dnMore": {
+"en": "Practice packs",
+"ar": "باقات التمرين"
+},
+"dnP1": {
+"en": "One more rehearsal",
+"ar": "جولة تمرين واحدة"
+},
+"dnP1s": {
+"en": "A single session with a full report",
+"ar": "جلسة واحدة مع تقرير كامل"
+},
+"dnMo": {
+"en": "¤",
+"ar": "¤"
+},
+"dnP2": {
+"en": "Interview Ready, 5 rehearsals",
+"ar": "جاهز للمقابلة، 5 جولات"
+},
+"dnP2s": {
+"en": "About 100 each. They only expire if your subscription ends and you do not renew.",
+"ar": "حوالي 100 للوحدة، ما تنتهي إلى في حال انتهى اشتراكك وما جددت"
+},
+"dnMo2": {
+"en": "¤",
+"ar": "¤"
+},
+"dnExpert": {
+"en": "Every session is a paid add-on. One is 149 ¤, or 5 for 499 ¤.",
+"ar": "كل جلسة إضافة مدفوعة. الوحدة 149 ¤، أو 5 بـ499 ¤."
+},
+"dnAny": {
+"en": "Practicing for other roles too",
+"ar": "تدرب لوظائف ثانية بعد"
+},
+"dnAnyS": {
+"en": "Start a session for any job title",
+"ar": "ابدأ جلسة لأي مسمى وظيفي"
+},
+"dnLater": {
+"en": "Maybe later",
+"ar": "ممكن لاحقاً"
+},
+"lensPay": {
+"en": "Anchored against a human coach and the salary at stake, so the price is a reflex. Nothing pre-ticked, always skippable.",
+"ar": "مربوط بمدرّب بشري وبالراتب الذي على المحك، فيصير السعر رد فعل. لا شيء محدد مسبقاً، ويمكنك تخطيه دائماً."
+},
+"piPyH": {
+"en": "Confirm your session",
+"ar": "أكّد جلستك"
+},
+"py1": {
+"en": "A human mock-interview coach in Riyadh",
+"ar": "مدرّب مقابلات بشري في الرياض"
+},
+"py2": {
+"en": "One Uptal session with full report",
+"ar": "جلسة Uptal واحدة مع تقرير كامل"
+},
+"py3": {
+"en": "Pack of 5, about 100 each, never expires",
+"ar": "باقة 5، حوالي 100 للوحدة، ما تنتهي"
+},
+"pyMath": {
+"en": "About 30 ¤ per question, with written feedback on each. You can redo every answer.",
+"ar": "حوالي 30 ¤ للسؤال، مع ملاحظات مكتوبة على كل جواب. ويمكنك إعادة كل جواب."
+},
+"pyStakes": {
+"en": "You already have an interview with Rewaa. This is the cheapest part of getting the job.",
+"ar": "لديك بالفعل مقابلة مع رِوّاء. هذا أرخص جزء في الحصول على الوظيفة."
+},
+"pyPay": {
+"en": "One tap with the mada or Apple Pay on your account.",
+"ar": "ضغطة واحدة بمدى أو Apple Pay المسجّلة في حسابك."
+},
+"pyCta": {
+"en": "Pay 149 ¤ and start",
+"ar": "ادفع 149 ¤ وابدأ"
+},
+"pyLater": {
+"en": "Maybe later",
+"ar": "ممكن لاحقاً"
+},
+"hNeedT": {
+"en": "Your Rewaa interview is Thursday 10:00",
+"ar": "مقابلة رِوّاء الخميس 10:00"
+},
+"hNeedS": {
+"en": "15 minutes of practice, built from this role",
+"ar": "15 دقيقة تمرين، مبنية على هذه الوظيفة"
+},
+"jpH": {
+"en": "Practice this interview before Thursday",
+"ar": "تدرب على هذه المقابلة قبل يوم الخميس"
+},
+"jpB": {
+"en": "We already have the Head of Finance job description plus the CV we sent. Practice the interview with AI or with a human expert. Only you see the result and the report.",
+"ar": "الوصف الوظيفي لمدير المالية موجود لدينا بالإضافة إلى سيرتك الذاتية التي أرسلناها. تدرب على المقابلة الشخصية مع الذكاء الاصطناعي أو مع خبير. أنت وحدك من يرى النتيجة والتقرير."
+},
+"jpDate": {
+"en": "Thursday 10:00, in 2 days",
+"ar": "الخميس 10:00، بعد يومين"
+},
+"jpAnchor": {
+"en": "A human coach in Riyadh runs about 400 ¤. Your session is 149 ¤.",
+"ar": "مدرّب في الرياض ياخذ حوالي 400 ¤. جلستك بـ149 ¤."
+},
+"jpCta": {
+"en": "Practice the Rewaa interview",
+"ar": "تدرب على مقابلة رِوّاء"
+},
+"plPractice": {
+"en": "Practice",
+"ar": "تمرّن"
+},
+"plnPractice": {
+"en": "Includes one Practice Interview on every real interview invite.",
+"ar": "تشمل مقابلة تجريبية واحدة مع كل دعوة مقابلة حقيقية."
+},
+"prPractice": {
+"en": "Practice Interview",
+"ar": "مقابلة تجريبية"
+},
+"prPracticeS": {
+"en": "Practice any role and be ready",
+"ar": "تدرب على أي وظيفة وخلّك جاهز"
+},
+"ntBack": {
+"en": "Home",
+"ar": "الرئيسية"
+},
+"ntH": {
+"en": "Needs you",
+"ar": "يحتاجك"
+},
+"nt1": {
+"en": "Interview request",
+"ar": "طلب مقابلة"
+},
+"nt1s": {
+"en": "Head of Finance, Rewaa, Thursday 10:00",
+"ar": "مدير مالية، رِوّاء، الخميس 10:00"
+},
+"nt2": {
+"en": "Practice your Rewaa interview",
+"ar": "تدرب على مقابلة رِوّاء"
+},
+"nt2s": {
+"en": "Built from this role, only you see it",
+"ar": "مبنية على هذه الوظيفة، ولا يراها غيرك"
+},
+"nt3": {
+"en": "A recruiter viewed your application",
+"ar": "مسؤول توظيف شاف طلبك"
+},
+"nt3s": {
+"en": "stc, Riyadh",
+"ar": "stc، الرياض"
+},
+"nt4": {
+"en": "6 new roles applied in the last run",
+"ar": "قدّمنا على 6 وظائف في آخر جولة"
+},
+"nt4s": {
+"en": "See what Auto-Apply did",
+"ar": "شاهد ما فعله التقديم التلقائي"
+},
+"nt5": {
+"en": "Your market moved",
+"ar": "سوقك تحرّك"
+},
+"nt5s": {
+"en": "Finance roles in Riyadh are up this week",
+"ar": "وظائف المالية في الرياض زادت هالأسبوع"
+},
+"ntEmpty": {
+"en": "That is everything. We only ping you when something needs you.",
+"ar": "هذا كل شيء. لا ننبّهك إلا عندما يحتاجك شيء."
+},
+"asBack": {
+"en": "Pipeline",
+"ar": "المسار"
+},
+"asStatus": {
+"en": "Screening",
+"ar": "فرز"
+},
+"asTl": {
+"en": "Timeline",
+"ar": "الخط الزمني"
+},
+"as1": {
+"en": "Applied with your CV",
+"ar": "قدّمنا بسيرتك الذاتية"
+},
+"as1s": {
+"en": "Sent exactly as you uploaded it.",
+"ar": "أُرسلت كما رفعتها بالضبط."
+},
+"as2": {
+"en": "Delivered to the recruiter",
+"ar": "وصلت للمسؤول"
+},
+"as2s": {
+"en": "Confirmed received on the job board.",
+"ar": "تأكّد استلامها على موقع الوظائف."
+},
+"asTodayTm": {
+"en": "today",
+"ar": "اليوم"
+},
+"as3": {
+"en": "A recruiter opened your application",
+"ar": "مسؤول توظيف فتح طلبك"
+},
+"as3s": {
+"en": "stc, Riyadh.",
+"ar": "stc، الرياض."
+},
+"asSoon": {
+"en": "this week",
+"ar": "هالأسبوع"
+},
+"as4": {
+"en": "Screening decision expected",
+"ar": "متوقّع قرار الفرز"
+},
+"as4s": {
+"en": "We will notify you the moment it moves.",
+"ar": "بننبّهك أول ما يتحرّك."
+},
+"asCv": {
+"en": "See the CV we sent",
+"ar": "شاهد السيرة الذاتية التي أرسلناها"
+},
+"skBack": {
+"en": "Market",
+"ar": "السوق"
+},
+"skEy": {
+"en": "Skill gap",
+"ar": "فجوة مهارة"
+},
+"skSub": {
+"en": "Power BI shows up in 71% of senior finance postings in your cities, and candidates who list it tend to be offered about 8% more.",
+"ar": "Power BI تظهر في 71% من الوظائف المالية القيادية في مدنك، واللي يذكرونها عادة يُعرض عليهم أعلى بحوالي 8%."
+},
+"skW": {
+"en": "In the market",
+"ar": "في السوق"
+},
+"skWv": {
+"en": "71% of senior finance roles ask for it",
+"ar": "71% من الوظائف المالية القيادية تطلبها"
+},
+"skP": {
+"en": "Pay effect",
+"ar": "أثر الراتب"
+},
+"skPv": {
+"en": "About 8% higher offers, from real postings",
+"ar": "عروض أعلى بحوالي 8%، من وظائف حقيقية"
+},
+"skT": {
+"en": "Time to learn",
+"ar": "وقت التعلّم"
+},
+"skTv": {
+"en": "A focused week for the basics finance teams use",
+"ar": "أسبوع مركّز للأساسيات التي تستخدمها فرق المالية"
+},
+"skHonest": {
+"en": "We only show gaps from real postings in the job market.",
+"ar": "نعرض فقط الفجوات من وظائف حقيقية في سوق العمل."
+},
+"skAdd": {
+"en": "Add Power BI to my profile",
+"ar": "أضف Power BI لملفي"
+},
+"ytBack": {
+"en": "You",
+"ar": "حسابي"
+},
+"ytH": {
+"en": "Where we apply",
+"ar": "وين نقدّم"
+},
+"ytSub": {
+"en": "Change what Auto-Apply looks for. Takes effect on the next run.",
+"ar": "غيّر ما يبحث عنه التقديم التلقائي. يسري من الجولة القادمة."
+},
+"ytRole": {
+"en": "Target roles",
+"ar": "الوظائف المستهدفة"
+},
+"ytCities": {
+"en": "Cities",
+"ar": "المدن"
+},
+"ytRemote": {
+"en": "Remote",
+"ar": "عن بعد"
+},
+"ytTypes": {
+"en": "Employer types",
+"ar": "أنواع جهات العمل"
+},
+"ytMulti": {
+"en": "Multinationals",
+"ar": "شركات عالمية"
+},
+"ytPriv": {
+"en": "Private",
+"ar": "قطاع خاص"
+},
+"ytSemi": {
+"en": "Semi-government",
+"ar": "شبه حكومي"
+},
+"ytGov": {
+"en": "Government",
+"ar": "حكومي"
+},
+"ytSalary": {
+"en": "Salary floor",
+"ar": "الحد الأدنى الراتب"
+},
+"ytWarn": {
+"en": "Market is 34-41k, see why",
+"ar": "السوق 34-41 ألف، شوف ليش"
+},
+"ytSave": {
+"en": "Save changes",
+"ar": "احفظ التغييرات"
+},
+"beBack": {
+"en": "You",
+"ar": "حسابي"
+},
+"beH": {
+"en": "Do not apply to",
+"ar": "لا تقدّم لـ"
+},
+"beSub": {
+"en": "We never apply to these employers. Your search stays private.",
+"ar": "ما نقدّم أبد لهذي الجهات. بحثك يظل خاص."
+},
+"beCur": {
+"en": "Your current employer",
+"ar": "جهة عملك الحالية"
+},
+"beSub2": {
+"en": "A subsidiary we detected",
+"ar": "شركة تابعة رصدناها"
+},
+"beAdd": {
+"en": "Add an employer to block",
+"ar": "أضف جهة للحظر"
+},
+"beNote": {
+"en": "Recruiters only see the CV we send, never that AI applied for you.",
+"ar": "مسؤولو التوظيف يرون فقط السيرة الذاتية التي نرسلها، ولا يعرفون أن الذكاء الاصطناعي قدّم عنك."
+},
+"cvvBack": {
+"en": "You",
+"ar": "حسابي"
+},
+"cvvH": {
+"en": "Your CV",
+"ar": "سيرتك الذاتية"
+},
+"cvvSub": {
+"en": "This is the CV employers receive, exactly as you uploaded it. Last updated 2 days ago.",
+"ar": "هذه السيرة التي تصل جهات العمل، كما رفعتها بالضبط. آخر تحديث قبل يومين."
+},
+"cvvLeg": {
+"en": "Highlighted = your strongest lines, the ones matching engines look for",
+"ar": "المظلّل = أقوى سطورك، وهي ما تبحث عنه محرّكات المطابقة"
+},
+"cvvEdit": {
+"en": "Edit this CV",
+"ar": "عدّل هذه السيرة"
+},
+"cvvDl": {
+"en": "Download",
+"ar": "تنزيل"
+}
+}

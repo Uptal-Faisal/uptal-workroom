@@ -1,0 +1,602 @@
+{
+"m1b2": {
+"en": "Three times are open on our side this week: Thursday 10:00, Thursday 14:00, or Sunday 11:00. The interview runs 45 minutes with our CFO and the Head of People, at our Riyadh office.",
+"ar": "لدينا ثلاثة مواعيد متاحة هذا الأسبوع: الخميس 10:00، أو الخميس 14:00، أو الأحد 11:00. مدة المقابلة 45 دقيقة مع المدير المالي ورئيس الموارد البشرية، في مكتبنا بالرياض."
+},
+"m2b1": {
+"en": "We are delighted to offer you the Finance Manager role. The package is 33,000 ¤ a month, fully remote, with a 1 October start.",
+"ar": "يسعدنا أن نعرض عليك وظيفة مدير مالي. العرض 33,000 ¤ شهرياً، عمل عن بُعد بالكامل، وتاريخ المباشرة 1 أكتوبر."
+},
+"m2b2": {
+"en": "To accept, reply to this email confirming that you accept the offer, and we will send the formal contract for signature.",
+"ar": "لقبول العرض يكفي الردّ على هذه الرسالة بتأكيد قبولك، وسنرسل لك العقد الرسمي للتوقيع."
+},
+"m3b1": {
+"en": "Your profile is strong and we are close to moving you forward for the Financial Planning Analyst role. Before we do, the hiring manager would like to put one question to you.",
+"ar": "ملفك قوي ونحن قريبون من الانتقال بك إلى الخطوة التالية في وظيفة محلل تخطيط مالي. وقبل ذلك، يودّ مدير التوظيف طرح سؤال واحد عليك."
+},
+"m3q": {
+"en": "You own the monthly close for a 40-person function today. What would you want to change in your first 90 days here?",
+"ar": "أنت اليوم تدير الإقفال الشهري لإدارة من 40 شخصاً. ما الذي تودّ تغييره في أول 90 يوم معنا؟"
+},
+"m3d": {
+"en": "In the first 90 days I would map the close calendar end to end before changing anything, because the bottleneck is rarely where it appears. In my current role that mapping is what let us cut reporting time by a third, mostly by moving variance commentary earlier and automating the reconciliations that were blocking day three. I would expect to spend the first month listening, the second month fixing the two slowest steps, and the third proving the shorter cycle holds.",
+"ar": "في أول 90 يوماً سأرسم دورة الإقفال من أولها إلى آخرها قبل أن أغيّر أي شيء، لأن نقطة الاختناق نادراً ما تكون في المكان الذي تظهر فيه. في وظيفتي الحالية، هذه الخريطة بالذات هي التي مكّنتنا من تقليص وقت التقارير بالثلث، وأغلبه جاء من تبكير تعليقات الانحراف وأتمتة التسويات التي كانت تعطّل اليوم الثالث. أتوقّع أن يكون الشهر الأول استماعاً، والثاني إصلاحاً لأبطأ خطوتين، والثالث إثباتاً أن الدورة الأقصر ثابتة."
+},
+"m3d2": {
+"en": "My instinct is to listen before I change anything. I would sit through one full close, find the two steps that everyone quietly works around, and fix those first. That approach cut reporting time by a third in my current role, and it worked because the fix came from the team rather than from me.",
+"ar": "طبيعتي أن أستمع قبل أن أغيّر أي شيء. سأحضر دورة إقفال واحدة كاملة، وأجد الخطوتين اللتين يلتف حولهما الجميع بهدوء، وأبدأ بهما. هذه الطريقة قلّصت وقت التقارير بالثلث في وظيفتي الحالية، ونجحت لأن الحل جاء من الفريق لا مني."
+},
+"m4b1": {
+"en": "Your application for the Financial Analyst role is moving through our stages. Before the panel stage our compliance team needs two documents from you.",
+"ar": "طلبك لوظيفة محلل مالي يتقدّم في مراحل التوظيف لدينا. وقبل مرحلة اللجنة، يحتاج فريق الالتزام لدينا مستندين منك."
+},
+"mlDoc1": {
+"en": "SOCPA certificate",
+"ar": "شهادة SOCPA"
+},
+"mlDoc2": {
+"en": "National ID or Iqama",
+"ar": "الهوية الوطنية أو الإقامة"
+},
+"m5b1": {
+"en": "As part of your application for the Senior Financial Analyst role, please complete a short numerical reasoning assessment.",
+"ar": "ضمن إجراءات طلبك لوظيفة محلل مالي أول، نرجو إكمال اختبار قصير في الاستدلال العددي."
+},
+"m5b2": {
+"en": "You can open the assessment from the careers portal, under your application. It takes about 45 minutes and is due within 3 days.",
+"ar": "يمكنك فتح الاختبار من بوابة التوظيف، ضمن طلبك. ويستغرق نحو 45 دقيقة، وآخر موعد لأدائه خلال 3 أيام."
+},
+"m11b1": {
+"en": "Your interview for the Budgeting Analyst role is confirmed for Tuesday 09:30 at the Bupa Arabia office in Riyadh.",
+"ar": "تم تأكيد موعد مقابلتك لوظيفة محلل ميزانيات يوم الثلاثاء 09:30 في مكتب بوبا العربية بالرياض."
+},
+"m6b1": {
+"en": "Thanks for applying to Jahez. Your application for FP&A Lead is with our team now, and we will come back to you within two weeks either way.",
+"ar": "شكراً لتقديمك على وظيفة رئيس التخطيط والتحليل المالي في جاهز. طلبك الآن لدى فريقنا، وسنعود إليك خلال أسبوعين في كل الأحوال."
+},
+"m7b1": {
+"en": "We have received your application. Our talent team reviews every application manually, which takes up to 10 working days.",
+"ar": "استلمنا طلبك. فريق الاستقطاب لدينا يراجع كل طلب يدوياً، وقد تستغرق المراجعة حتى 10 أيام عمل."
+},
+"m10b1": {
+"en": "Thank you for applying to a role at Mobily. If your profile matches what the hiring team is looking for, we will contact you directly.",
+"ar": "شكراً لتقديمك على وظيفة في موبايلي. وإذا كان ملفك مطابقاً لما يبحث عنه فريق التوظيف، سنتواصل معك مباشرة."
+},
+"m8b1": {
+"en": "Good news. Your application for Finance Analyst, Performance Management has moved to the screening stage, and a recruiter is reviewing it in detail. No action is needed from you right now.",
+"ar": "خبر سار. انتقل طلبك لوظيفة محلل مالي، إدارة الأداء إلى مرحلة الفرز، ويقوم أحد مسؤولي التوظيف بمراجعته بالتفصيل. ولا يُطلب منك أي إجراء في الوقت الحالي."
+},
+"m9b1": {
+"en": "Thank you for your interest in NEOM and for the time you gave to your application for Finance Manager, Sector Finance. On this occasion we are moving forward with other candidates.",
+"ar": "شكراً لاهتمامك بـ NEOM وللوقت الذي خصصته لطلب وظيفة مدير مالي، التمويل القطاعي. في هذه المرة سنكمل الإجراءات مع مرشحين آخرين."
+},
+"m0b1": {
+"en": "Every reply from an employer about an application we sent for you lands here, instead of scattering across your personal inbox.",
+"ar": "كل رد من جهة توظيف على طلب قدّمناه لك يوصل هنا، بدل ما يتفرّق في بريدك الشخصي."
+},
+"m0b2": {
+"en": "When something needs a decision from you, and only then, it also appears in your notifications.",
+"ar": "وحين يكون هناك ما يحتاج قراراً منك، وفي هذه الحالة فقط، يصلك تنبيه به."
+},
+"hubPerkFreeT": {
+"en": "Subscribers get 15% off",
+"ar": "المشتركين ياخذون خصم 15%"
+},
+"hubPerkFreeS": {
+"en": "Every single session, for as long as the plan is active.",
+"ar": "على كل جلسة مفردة، ما دامت الباقة فعّالة."
+},
+"alPerkFreeT": {
+"en": "Subscribers save 15% here",
+"ar": "المشتركين يوفّرون 15% هنا"
+},
+"alPerkFreeS": {
+"en": "The discount applies at checkout on single sessions.",
+"ar": "الخصم ينطبق عند الدفع على الجلسات المفردة."
+},
+"hubHow2sFree": {
+"en": "Subscribers get 15% off at checkout.",
+"ar": "المشتركين ياخذون خصم 15% عند الدفع."
+},
+"apRateFree": {
+"en": "Billed per session. Auto-Apply subscribers get 15% off at checkout.",
+"ar": "الفوترة لكل جلسة. ومشتركين التقديم التلقائي ياخذون خصم 15% عند الدفع."
+},
+"exPriceNFree": {
+"en": "Programs renew monthly. Cancel anytime. Auto-Apply subscribers get 15% off at checkout.",
+"ar": "البرامج تتجدد شهرياً. ألغِ في أي وقت. ومشتركو التقديم التلقائي يحصلون على خصم 15% عند الدفع."
+},
+"btNoteFree": {
+"en": "The 15% subscriber discount applies to single sessions. The pack is already discounted, so it does not stack.",
+"ar": "خصم المشتركين 15% ينطبق على الجلسات المفردة. والباقة مخفّضة أصلاً، فما يتجمّع الخصمين."
+},
+"cvvSubFree": {
+"en": "This is the CV we matched you against. Once your plan starts, every application goes out with it.",
+"ar": "هذه السيرة التي طابقناك بها. وعندما تبدأ باقتك يُرسل كل طلب بها."
+},
+"cvvNoteFree": {
+"en": "Changes apply from the moment your plan starts.",
+"ar": "التعديلات تسري من لحظة ما تبدأ باقتك."
+},
+"rfRewardFreeT": {
+"en": "Sara joined, 10% off waiting for you",
+"ar": "سارة اشتركت، وخصم 10% ينتظرك"
+},
+"rfRewardFreeS": {
+"en": "It lands on your first month the moment your plan starts",
+"ar": "ينزل على شهرك الأول أول ما تبدأ باقتك"
+},
+"rfS3Free": {
+"en": "off your first month",
+"ar": "على شهرك الأول"
+},
+"rfSubFree": {
+"en": "Every friend who subscribes gives you 10% off your first month.",
+"ar": "كل صديق يشترك يعطيك خصم 10٪ على شهرك الأول."
+},
+"swJobFootFree": {
+"en": "Applying unlocks with your plan.",
+"ar": "التقديم يُفتح مع باقتك."
+},
+"plSeeAllFree": {
+"en": "See your applications",
+"ar": "شوف تقديماتك"
+},
+"hWeekTFree": {
+"en": "Your weekly report",
+"ar": "تقريرك الأسبوعي"
+},
+"hWeekSFree": {
+"en": "Starts after your first week of applying",
+"ar": "يبدأ بعد أول أسبوع تقديم لك"
+},
+"swc4Title": {
+"en": "Financial Planning Analyst",
+"ar": "محلّل تخطيط مالي"
+},
+"swc4Co": {
+"en": "stc",
+"ar": "stc"
+},
+"swc4City": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"swc4Sum": {
+"en": "Group FP&A role owning the annual budget cycle on SAP and the variance commentary behind board reporting.",
+"ar": "وظيفة تخطيط وتحليل مالي على مستوى المجموعة تملك دورة الموازنة السنوية على SAP وتعليقات الانحراف المرفوعة للمجلس."
+},
+"swc4Exp": {
+"en": "5 to 7 years",
+"ar": "من 5 إلى 7 سنوات"
+},
+"swc4Post": {
+"en": "Today",
+"ar": "اليوم"
+},
+"swc4W1": {
+"en": "Budgeting on SAP",
+"ar": "الموازنة على SAP"
+},
+"swc4W1s": {
+"en": "You lead this today across Riyadh business units",
+"ar": "تقودها اليوم عبر وحدات الأعمال في الرياض"
+},
+"swc4W2": {
+"en": "Forecasts and variance analysis",
+"ar": "التوقّعات وتحليل الانحراف"
+},
+"swc4W2s": {
+"en": "You built these and cut reporting time by a third",
+"ar": "بنيتهما وقلّصت وقت التقارير بالثلث"
+},
+"swc4R1": {
+"en": "Run the annual budget cycle on SAP across group business units",
+"ar": "إدارة دورة الموازنة السنوية على SAP عبر وحدات أعمال المجموعة"
+},
+"swc4R2": {
+"en": "Prepare quarterly board reporting packs with variance commentary",
+"ar": "إعداد حزم تقارير المجلس الربعية مع تعليقات الانحراف"
+},
+"swc4R3": {
+"en": "Consolidate monthly forecasts from operating segments and subsidiaries",
+"ar": "توحيد التوقّعات الشهرية من القطاعات التشغيلية والشركات التابعة"
+},
+"swc4R4": {
+"en": "Model the revenue and margin impact of new digital services",
+"ar": "نمذجة أثر الخدمات الرقمية الجديدة على الإيرادات والهامش"
+},
+"swc4Q1": {
+"en": "5 to 7 years in FP and A, ideally telecom or a listed group",
+"ar": "من 5 إلى 7 سنوات في التخطيط والتحليل المالي، ويفضّل في الاتصالات أو مجموعة مدرجة"
+},
+"swc4Q2": {
+"en": "Hands-on SAP planning and budgeting; BPC or Analytics Cloud a plus",
+"ar": "خبرة عملية في التخطيط والموازنة على SAP، ويفضّل BPC أو Analytics Cloud"
+},
+"swc4Q3": {
+"en": "Bachelor in Finance or Accounting; CMA, CFA, or SOCPA a plus",
+"ar": "بكالوريوس مالية أو محاسبة، ويفضّل CMA أو CFA أو SOCPA"
+},
+"swc4Q4": {
+"en": "Strong written Arabic and English for board material",
+"ar": "كتابة قوية بالعربية والإنجليزية للمواد المرفوعة للمجلس"
+},
+"swc4About": {
+"en": "stc is Saudi Arabia's largest telecom group, listed on Tadawul and one of the largest operators in the region.",
+"ar": "stc أكبر مجموعة اتصالات في السعودية، مدرجة في تداول ومن أكبر المشغّلين في المنطقة."
+},
+"swc4Role": {
+"en": "You will own the annual budget cycle on SAP for the group, consolidate segment forecasts, and write the variance commentary that goes to the board.",
+"ar": "ستملك دورة الموازنة السنوية على SAP على مستوى المجموعة، وتوحّد توقّعات القطاعات، وتكتب تعليقات الانحراف المرفوعة للمجلس."
+},
+"swc4O1": {
+"en": "Annual bonus tied to group results",
+"ar": "مكافأة سنوية مرتبطة بنتائج المجموعة"
+},
+"swc4O2": {
+"en": "Medical and life cover for you and your family",
+"ar": "تأمين طبي وتأمين حياة لك ولعائلتك"
+},
+"swc4O3": {
+"en": "Support for CMA or CFA certification",
+"ar": "دعم للحصول على شهادة CMA أو CFA"
+},
+"swc5Title": {
+"en": "Project Finance Analyst",
+"ar": "محلّل مالي للمشاريع"
+},
+"swc5Co": {
+"en": "Qiddiya",
+"ar": "القدية"
+},
+"swc5City": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"swc5Sum": {
+"en": "Project finance role owning capital budgets and cost control against baselines for a giga-project near Riyadh.",
+"ar": "وظيفة مالية للمشاريع تملك الموازنات الرأسمالية وضبط التكاليف مقابل خطوط الأساس لمشروع عملاق قرب الرياض."
+},
+"swc5Exp": {
+"en": "5 to 8 years",
+"ar": "من 5 إلى 8 سنوات"
+},
+"swc5Post": {
+"en": "Yesterday",
+"ar": "أمس"
+},
+"swc5W1": {
+"en": "Budgeting on SAP",
+"ar": "الموازنة على SAP"
+},
+"swc5W1s": {
+"en": "You led budgeting and IFRS reporting on SAP",
+"ar": "قدت الموازنة وتقارير IFRS على SAP"
+},
+"swc5W2": {
+"en": "Variance analysis",
+"ar": "تحليل الانحرافات"
+},
+"swc5W2s": {
+"en": "Your variance analysis cut reporting time by a third",
+"ar": "تحليلك للانحرافات قلّص وقت التقارير بالثلث"
+},
+"swc5R1": {
+"en": "Own capital budgets and cost forecasts for a portfolio of construction packages",
+"ar": "إدارة الموازنات الرأسمالية وتوقّعات التكلفة لمجموعة من حزم الإنشاءات"
+},
+"swc5R2": {
+"en": "Track committed and actual costs against approved project baselines",
+"ar": "متابعة التكاليف الملتزم بها والفعلية مقابل خطوط الأساس المعتمدة للمشروع"
+},
+"swc5R3": {
+"en": "Review contractor payment applications against milestones and contract terms",
+"ar": "مراجعة مستخلصات المقاولين مقابل مراحل الإنجاز وشروط العقد"
+},
+"swc5R4": {
+"en": "Prepare monthly cost reports and cash flow forecasts for the project director",
+"ar": "إعداد تقارير التكلفة الشهرية وتوقّعات التدفّق النقدي لمدير المشروع"
+},
+"swc5Q1": {
+"en": "5 to 8 years in project cost control, project finance, or FP and A",
+"ar": "من 5 إلى 8 سنوات في ضبط تكاليف المشاريع أو مالية المشاريع أو التخطيط والتحليل المالي"
+},
+"swc5Q2": {
+"en": "Experience with capital projects in construction or real estate",
+"ar": "خبرة في المشاريع الرأسمالية في الإنشاءات أو التطوير العقاري"
+},
+"swc5Q3": {
+"en": "Advanced Excel modeling; SAP and Power BI a plus",
+"ar": "نمذجة متقدّمة على Excel، ويفضّل SAP وPower BI"
+},
+"swc5Q4": {
+"en": "Bachelor in Finance or Accounting; SOCPA or CMA a plus",
+"ar": "بكالوريوس مالية أو محاسبة، ويفضّل SOCPA أو CMA"
+},
+"swc5About": {
+"en": "Qiddiya is the PIF-owned giga-project building a city for entertainment, sports, and culture on a site of more than 300 square kilometers at the edge of Riyadh.",
+"ar": "القدية مشروع عملاق مملوك لصندوق الاستثمارات العامة يبني مدينة للترفيه والرياضة والثقافة على مساحة تتجاوز 300 كيلومتر مربع على أطراف الرياض."
+},
+"swc5Role": {
+"en": "You will own capital budgets and cost control for a set of construction packages, tracking spend against approved baselines and reviewing contractor payment milestones with the delivery team.",
+"ar": "ستملك الموازنات الرأسمالية وضبط التكاليف لعدد من حزم الإنشاءات، وتتابع الصرف مقابل خطوط الأساس المعتمدة وتراجع مستخلصات المقاولين مع فريق التنفيذ."
+},
+"swc5O1": {
+"en": "Housing and transport allowances",
+"ar": "بدل سكن ومواصلات"
+},
+"swc5O2": {
+"en": "Annual bonus tied to project milestones",
+"ar": "مكافأة سنوية مرتبطة بمراحل المشروع"
+},
+"swc5O3": {
+"en": "Medical cover for you and your family",
+"ar": "تأمين طبي لك ولعائلتك"
+},
+"swc6Title": {
+"en": "Finance Analyst, Performance Management",
+"ar": "محلّل مالي، إدارة الأداء"
+},
+"swc6Co": {
+"en": "Al Rajhi Bank",
+"ar": "مصرف الراجحي"
+},
+"swc6City": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"swc6Sum": {
+"en": "Performance management role supporting the monthly close and owning branch and segment profitability reporting under IFRS.",
+"ar": "وظيفة إدارة أداء تدعم الإقفال الشهري وتملك تقارير ربحية الفروع والقطاعات وفق معايير IFRS."
+},
+"swc6Exp": {
+"en": "4 to 6 years",
+"ar": "من 4 إلى 6 سنوات"
+},
+"swc6Post": {
+"en": "2 days ago",
+"ar": "قبل يومين"
+},
+"swc6W1": {
+"en": "IFRS and the monthly close",
+"ar": "IFRS والإقفال الشهري"
+},
+"swc6W1s": {
+"en": "You led IFRS on SAP and own the close today",
+"ar": "قدت تقارير IFRS على SAP وتملك الإقفال اليوم"
+},
+"swc6W2": {
+"en": "Variance analysis and forecasts",
+"ar": "تحليل الانحراف والتوقّعات"
+},
+"swc6W2s": {
+"en": "You cut reporting time by a third with them",
+"ar": "قلّصت بهما وقت التقارير بالثلث"
+},
+"swc6R1": {
+"en": "Support the monthly close and prepare management reports under IFRS",
+"ar": "دعم الإقفال الشهري وإعداد التقارير الإدارية وفق معايير IFRS"
+},
+"swc6R2": {
+"en": "Run cost allocation across branches, segments, and support functions",
+"ar": "إدارة توزيع التكاليف على الفروع والقطاعات والإدارات المساندة"
+},
+"swc6R3": {
+"en": "Report branch and segment profitability with variance commentary",
+"ar": "إعداد تقارير ربحية الفروع والقطاعات مع تعليقات الانحراف"
+},
+"swc6R4": {
+"en": "Build performance dashboards and support the annual budget cycle",
+"ar": "بناء لوحات مؤشرات الأداء ودعم دورة الموازنة السنوية"
+},
+"swc6Q1": {
+"en": "4 to 6 years in financial analysis or performance management, banking preferred",
+"ar": "من 4 إلى 6 سنوات في التحليل المالي أو إدارة الأداء، ويفضّل في القطاع المصرفي"
+},
+"swc6Q2": {
+"en": "Hands-on IFRS; SAP or Oracle experience a plus",
+"ar": "خبرة عملية في IFRS، ويفضّل خبرة SAP أو Oracle"
+},
+"swc6Q3": {
+"en": "Bachelor in Finance or Accounting; SOCPA, CMA, or CFA a plus",
+"ar": "بكالوريوس مالية أو محاسبة، ويفضّل SOCPA أو CMA أو CFA"
+},
+"swc6Q4": {
+"en": "Strong Excel and Power BI for management reporting",
+"ar": "إتقان Excel وPower BI للتقارير الإدارية"
+},
+"swc6About": {
+"en": "Al Rajhi Bank is the largest Islamic bank in the world by assets, with more than 500 branches and its headquarters in Riyadh.",
+"ar": "مصرف الراجحي أكبر مصرف إسلامي في العالم من حيث الأصول، بأكثر من 500 فرع ومقرّه الرياض."
+},
+"swc6Role": {
+"en": "You will support the monthly close under IFRS, run the bank's cost allocation model, and own branch and segment profitability reporting for senior finance leadership.",
+"ar": "ستدعم الإقفال الشهري وفق معايير IFRS، وتدير نموذج توزيع التكاليف، وتملك تقارير ربحية الفروع والقطاعات المرفوعة لقيادات المالية."
+},
+"swc6O1": {
+"en": "Employee home financing program",
+"ar": "برنامج تمويل سكني لمنسوبي المصرف"
+},
+"swc6O2": {
+"en": "Annual bonus tied to bank performance",
+"ar": "مكافأة سنوية مرتبطة بأداء المصرف"
+},
+"swc6O3": {
+"en": "Medical cover for you and your dependents",
+"ar": "تأمين طبي لك ولمن تعول"
+},
+"swc7Title": {
+"en": "Finance Manager, Sector Finance",
+"ar": "مدير مالية القطاعات"
+},
+"swc7Co": {
+"en": "NEOM",
+"ar": "نيوم"
+},
+"swc7City": {
+"en": "Tabuk",
+"ar": "تبوك"
+},
+"swc7Sum": {
+"en": "Sector finance role owning consolidated budgets, rolling forecasts, and leadership reporting for a fast-scaling giga-project.",
+"ar": "وظيفة مالية قطاعية تملك توحيد الموازنات والتوقّعات المتحرّكة وتقارير القيادة لمشروع يتوسّع بسرعة."
+},
+"swc7Exp": {
+"en": "6 to 9 years",
+"ar": "من 6 إلى 9 سنوات"
+},
+"swc7Post": {
+"en": "This week",
+"ar": "هذا الأسبوع"
+},
+"swc7W1": {
+"en": "Budgeting across business units",
+"ar": "الموازنة عبر وحدات الأعمال"
+},
+"swc7W1s": {
+"en": "You led this on SAP in Riyadh",
+"ar": "قدتها على SAP في الرياض"
+},
+"swc7W2": {
+"en": "Rolling forecasts and reporting",
+"ar": "التوقّعات المتحرّكة والتقارير"
+},
+"swc7W2s": {
+"en": "You built the same forecasts in your current role",
+"ar": "بنيت التوقّعات نفسها في وظيفتك الحالية"
+},
+"swc7R1": {
+"en": "Consolidate sector budgets and quarterly reforecasts across multiple entities",
+"ar": "توحيد موازنات القطاع وإعادة التوقّع الربعية عبر عدة جهات"
+},
+"swc7R2": {
+"en": "Own the rolling 12-month forecast and the monthly leadership reporting pack",
+"ar": "إدارة التوقّع المتحرّك لاثني عشر شهراً وحزمة تقارير القيادة الشهرية"
+},
+"swc7R3": {
+"en": "Partner with sector heads on headcount, capex, and operating spend",
+"ar": "العمل مع رؤساء القطاع على القوى العاملة والمصروفات الرأسمالية والتشغيلية"
+},
+"swc7R4": {
+"en": "Standardize planning templates and close calendars as the sector scales",
+"ar": "توحيد نماذج التخطيط وجداول الإقفال مع توسّع القطاع"
+},
+"swc7Q1": {
+"en": "6 to 9 years in FP and A, with budget consolidation experience",
+"ar": "من 6 إلى 9 سنوات في التخطيط والتحليل المالي، مع خبرة في توحيد الموازنات"
+},
+"swc7Q2": {
+"en": "Advanced Excel modeling; SAP or Oracle experience",
+"ar": "نمذجة متقدّمة على Excel، وخبرة في SAP أو Oracle"
+},
+"swc7Q3": {
+"en": "Bachelor in Finance or Accounting; SOCPA, CMA, or CFA a plus",
+"ar": "بكالوريوس مالية أو محاسبة، ويفضّل SOCPA أو CMA أو CFA"
+},
+"swc7Q4": {
+"en": "Willing to relocate to Tabuk, northwest Saudi Arabia",
+"ar": "استعداد للانتقال إلى تبوك شمال غرب المملكة"
+},
+"swc7About": {
+"en": "NEOM is the giga-project building a new region in northwest Saudi Arabia, backed by the Public Investment Fund with planned investment of more than 500 billion dollars.",
+"ar": "نيوم مشروع عملاق يبني منطقة جديدة شمال غرب المملكة، بدعم من صندوق الاستثمارات العامة وباستثمارات مخطّطة تتجاوز 500 مليار دولار."
+},
+"swc7Role": {
+"en": "You will consolidate sector budgets and rolling forecasts, own the monthly leadership reporting pack, and work with sector heads and central finance as the organization scales.",
+"ar": "ستوحّد موازنات القطاع والتوقّعات المتحرّكة، وتملك تقارير القيادة الشهرية لقطاع يتوسّع بسرعة، وتعمل مع رؤساء القطاع وفريق المالية المركزي."
+},
+"swc7O1": {
+"en": "NEOM community housing or a housing allowance",
+"ar": "سكن في مجتمع نيوم أو بدل سكن"
+},
+"swc7O2": {
+"en": "Relocation support and annual flights",
+"ar": "دعم انتقال وتذاكر طيران سنوية"
+},
+"swc7O3": {
+"en": "Schooling allowance for dependents",
+"ar": "بدل تعليم للأبناء"
+},
+"swc8Title": {
+"en": "FP&A Manager",
+"ar": "مدير التخطيط والتحليل المالي"
+},
+"swc8Co": {
+"en": "Tabby",
+"ar": "تابي"
+},
+"swc8City": {
+"en": "Remote",
+"ar": "عن بُعد"
+},
+"swc8Sum": {
+"en": "Remote FP&A role owning unit economics, cohort models, and monthly reporting for one of the largest fintechs in the region.",
+"ar": "وظيفة تخطيط وتحليل مالي عن بُعد تملك اقتصاديات الوحدة ونماذج شرائح العملاء والتقارير الشهرية لواحدة من أكبر شركات التقنية المالية في المنطقة."
+},
+"swc8Exp": {
+"en": "6+ years",
+"ar": "6 سنوات أو أكثر"
+},
+"swc8Post": {
+"en": "Yesterday",
+"ar": "أمس"
+},
+"swc8W1": {
+"en": "Forecasting and variance analysis",
+"ar": "التوقّعات وتحليل الانحراف"
+},
+"swc8W1s": {
+"en": "You built rolling forecasts that cut reporting time by a third",
+"ar": "بنيت توقّعات متحرّكة قلّصت وقت التقارير بالثلث"
+},
+"swc8W2": {
+"en": "Monthly close ownership",
+"ar": "تملك الإقفال الشهري"
+},
+"swc8W2s": {
+"en": "You run it every month for a 40-person function",
+"ar": "تديره كل شهر لإدارة من 40 شخصاً"
+},
+"swc8R1": {
+"en": "Own unit economics and cohort models across markets and merchant segments",
+"ar": "إدارة اقتصاديات الوحدة ونماذج شرائح العملاء عبر الأسواق وفئات التجّار"
+},
+"swc8R2": {
+"en": "Build monthly management reporting with variance analysis against plan",
+"ar": "إعداد التقارير الإدارية الشهرية مع تحليل الانحرافات مقابل الخطة"
+},
+"swc8R3": {
+"en": "Model credit losses, funding costs, and margin drivers by cohort",
+"ar": "نمذجة خسائر الائتمان وتكاليف التمويل ومحرّكات الهامش لكل شريحة"
+},
+"swc8R4": {
+"en": "Run the annual plan and quarterly reforecasts with commercial and risk teams",
+"ar": "قيادة الخطة السنوية وإعادة التوقّع الربعية مع الفرق التجارية وفرق المخاطر"
+},
+"swc8Q1": {
+"en": "6 or more years in FP and A, ideally fintech or payments",
+"ar": "6 سنوات أو أكثر في التخطيط والتحليل المالي، ويفضّل في التقنية المالية أو المدفوعات"
+},
+"swc8Q2": {
+"en": "Strong SQL and Power BI on large transaction data sets",
+"ar": "إتقان SQL وPower BI للتعامل مع بيانات معاملات كبيرة"
+},
+"swc8Q3": {
+"en": "IFRS knowledge; SOCPA, CMA, or CFA a plus",
+"ar": "معرفة بمعايير IFRS، ويفضّل SOCPA أو CMA أو CFA"
+},
+"swc8Q4": {
+"en": "Comfortable working fully remote with distributed teams",
+"ar": "جاهزية للعمل عن بُعد بالكامل مع فرق موزّعة"
+},
+"swc8About": {
+"en": "Tabby is a buy now pay later fintech headquartered in Riyadh and one of the largest fintechs in the region, serving more than 15 million shoppers across the Gulf.",
+"ar": "تابي شركة تقنية مالية للدفع الآجل مقرّها الرياض، ومن أكبر شركات التقنية المالية في المنطقة بأكثر من 15 مليون متسوّق في الخليج."
+},
+"swc8Role": {
+"en": "You will own unit economics and cohort models across markets, build the monthly reporting pack in Power BI, and work fully remote with finance, data, and risk teams.",
+"ar": "ستملك اقتصاديات الوحدة ونماذج شرائح العملاء عبر الأسواق، وتبني التقارير الإدارية الشهرية على Power BI، وتعمل عن بُعد بالكامل مع فرق المالية والبيانات والمخاطر."
+}
+}

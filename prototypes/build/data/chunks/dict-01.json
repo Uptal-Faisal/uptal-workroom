@@ -1,0 +1,602 @@
+{
+"msaFabT": {
+"en": "Musaed",
+"ar": "مساعد"
+},
+"pmBack": {
+"en": "Back",
+"ar": "رجوع"
+},
+"pmBackCards": {
+"en": "Payment methods",
+"ar": "طرق الدفع"
+},
+"pmH": {
+"en": "Payment methods",
+"ar": "طرق الدفع"
+},
+"pmSub": {
+"en": "Used for your subscription, top-ups, and advisor sessions.",
+"ar": "تُستخدم لاشتراكك، وشحن الطلبات، وجلسات المستشارين."
+},
+"pmAdd": {
+"en": "Add a card",
+"ar": "أضف بطاقة"
+},
+"pmDefault": {
+"en": "Default",
+"ar": "الأساسية"
+},
+"pmExpires": {
+"en": "Expires",
+"ar": "تنتهي"
+},
+"pmEndingT": {
+"en": "{b} ending {n}",
+"ar": "{b} تنتهي بـ{n}"
+},
+"pmSetDefault": {
+"en": "Make it my default",
+"ar": "خلّها الأساسية"
+},
+"pmRemove": {
+"en": "Remove this card",
+"ar": "احذف هذه البطاقة"
+},
+"pmWalletsH": {
+"en": "Wallets",
+"ar": "المحافظ"
+},
+"pmApple": {
+"en": "Apple Pay",
+"ar": "Apple Pay"
+},
+"pmAppleS": {
+"en": "Available on this device",
+"ar": "متاحة على هذا الجهاز"
+},
+"pmNote": {
+"en": "Cards are stored with our payment provider. Uptal never sees the full number. Tabby and Tamara pay in 4 cover plan payments only; top-ups and advisor sessions use a card or Apple Pay.",
+"ar": "البطاقات محفوظة عند مزوّد الدفع. وUptal ما يشوف الرقم كامل أبداً. التقسيط على 4 مع تابي وتمارا لدفعات الباقة بس، أما رصيد الطلبات الإضافي وجلسات المستشارين فبالبطاقة أو Apple Pay."
+},
+"pmNone": {
+"en": "No cards saved yet.",
+"ar": "لا توجد بطاقات محفوظة حتى الآن."
+},
+"pmNoneShort": {
+"en": "No card saved",
+"ar": "لا توجد بطاقة محفوظة"
+},
+"pmDelH": {
+"en": "Remove this card",
+"ar": "احذف هذه البطاقة"
+},
+"pmDelS": {
+"en": "You can add it again anytime.",
+"ar": "يمكنك إضافتها مرة أخرى متى ما تبي."
+},
+"pmDelDefault": {
+"en": "This is your default card. {n} becomes your default instead.",
+"ar": "هذه بطاقتك الأساسية، و{n} تصبح الأساسية بدلاً منها."
+},
+"pmDelYes": {
+"en": "Yes, remove it",
+"ar": "إيه، احذفها"
+},
+"caH": {
+"en": "Add a card",
+"ar": "أضف بطاقة"
+},
+"caSub": {
+"en": "mada, Visa or Mastercard.",
+"ar": "مدى أو Visa أو Mastercard."
+},
+"caCta": {
+"en": "Save card",
+"ar": "احفظ البطاقة"
+},
+"caMakeDef": {
+"en": "Make this my default payment method",
+"ar": "خلّها طريقة الدفع الأساسية"
+},
+"tPmAdded": {
+"en": "Card saved",
+"ar": "انحفظت البطاقة"
+},
+"tPmRemoved": {
+"en": "Card removed",
+"ar": "انحذفت البطاقة"
+},
+"tPmRemovedDef": {
+"en": "Card removed, your other card is now the default",
+"ar": "انحذفت البطاقة، وبطاقتك الثانية صارت الأساسية"
+},
+"tPmDefault": {
+"en": "Default payment method updated",
+"ar": "تحدّثت طريقة الدفع الأساسية"
+},
+"tPmLast": {
+"en": "This is your only card and your subscription is active. Add another card first, then remove this one.",
+"ar": "هذه بطاقتك الوحيدة واشتراكك فعّال. أضف بطاقة أخرى أولاً، ثم احذف هذه."
+},
+"lensCards": {
+"en": "A card is easy to add and just as easy to remove, because a payment method that feels like a trap is one people hesitate to enter. The only removal we block is the one that would silently break a live subscription, and we say so plainly.",
+"ar": "إضافة البطاقة سهلة وحذفها بالسهولة نفسها، لأن طريقة الدفع التي تبدو فخاً يتردد الناس في إدخالها. والحذف الوحيد الذي نمنعه هو الذي يكسر اشتراكاً فعّالاً دون أن تدري، ونقول ذلك بصراحة."
+},
+"ckEy": {
+"en": "Activate Auto-Apply",
+"ar": "فعّل التقديم التلقائي"
+},
+"ckPer": {
+"en": "/ monthly",
+"ar": "/ شهريًا"
+},
+"ckBillS": {
+"en": "Billed monthly",
+"ar": "فوترة شهرية"
+},
+"ckVat": {
+"en": "VAT included · Cancel anytime, no commitment",
+"ar": "شامل ضريبة القيمة المضافة · ألغِ في أي وقت، دون التزام"
+},
+"ckApple": {
+"en": "Pay",
+"ar": "ادفع"
+},
+"ckOr": {
+"en": "or pay by card",
+"ar": "أو ادفع بالبطاقة"
+},
+"ckCardNo": {
+"en": "Card number",
+"ar": "رقم البطاقة"
+},
+"ckCardPh": {
+"en": "1234 1234 1234 1234",
+"ar": "1234 1234 1234 1234"
+},
+"ckCardName": {
+"en": "Cardholder name",
+"ar": "اسم حامل البطاقة"
+},
+"ckCardNamePh": {
+"en": "Name on the card",
+"ar": "الاسم على البطاقة"
+},
+"ckExp": {
+"en": "Expiry date",
+"ar": "تاريخ الانتهاء"
+},
+"ckExpPh": {
+"en": "MM / YY",
+"ar": "MM / YY"
+},
+"ckCvv": {
+"en": "Security code",
+"ar": "رمز الأمان"
+},
+"ckCvvPh": {
+"en": "123",
+"ar": "123"
+},
+"ckDisc": {
+"en": "Have a discount code?",
+"ar": "لديك رمز خصم؟"
+},
+"ckDiscPh": {
+"en": "Enter your code",
+"ar": "اكتب رمز الخصم"
+},
+"ckAgreeA": {
+"en": "I agree to the",
+"ar": "أوافق على"
+},
+"ckAgreeT": {
+"en": "Terms and Conditions",
+"ar": "الشروط والأحكام"
+},
+"ckAgreeB": {
+"en": "and the",
+"ar": "وعلى"
+},
+"ckAgreeP": {
+"en": "Privacy Policy",
+"ar": "سياسة الخصوصية"
+},
+"ckCtaA": {
+"en": "Pay",
+"ar": "ادفع"
+},
+"ckSecure": {
+"en": "Secure payment, encrypted end to end",
+"ar": "دفع آمن ومشفّر"
+},
+"ckRenew2": {
+"en": "Renews monthly at SAR 399. Cancel anytime before the next billing date.",
+"ar": "يتجدّد شهريًا بـ SAR 399. ألغِ في أي وقت قبل تاريخ الفوترة التالي."
+},
+"ckTrusted": {
+"en": "Trusted by candidates worldwide",
+"ar": "موثوق من مرشّحين في مختلف أنحاء العالم"
+},
+"tCkApple": {
+"en": "Apple Pay would open here",
+"ar": "هنا تفتح Apple Pay"
+},
+"tCkTerms": {
+"en": "Opening the Terms and Conditions",
+"ar": "نفتح الشروط والأحكام"
+},
+"tCkPriv": {
+"en": "Opening the Privacy Policy",
+"ar": "نفتح سياسة الخصوصية"
+},
+"lensWall": {
+"en": "Value before price, then a default that advises. The pile of work is stated first, the price once and per month, and the middle option is pre-selected so the default persuades while its neighbours make it feel chosen rather than imposed. Nothing is struck through.",
+"ar": "القيمة قبل السعر، ثم خيار افتراضي ينصح. كومة العمل تُذكر أولاً، والسعر مرة واحدة وبالشهر، والخيار الأوسط محدد مسبقاً ليكون الافتراضي هو المقنع، وجيرانه يجعلونه يبدو اختياراً لا فرضاً. لا شيء مشطوب."
+},
+"wlEy": {
+"en": "Setup complete",
+"ar": "أكمل الإعدادات"
+},
+"wlH": {
+"en": "We found 38 roles that fit you.",
+"ar": "لقينا لك 38 وظيفة تناسبك."
+},
+"wlSub": {
+"en": "Read against your CV from 1,240 live postings in your cities. Start your plan to see them and let the applying begin.",
+"ar": "قرأناها على سيرتك من 1,240 إعلان مباشر في مدنك. ابدأ باقتك لتراها ويبدأ التقديم."
+},
+"wlMore": {
+"en": "and 35 more waiting for you",
+"ar": "و 35 غيرها تنتظرك"
+},
+"wlCta": {
+"en": "Start applying",
+"ar": "ابدأ التقديم"
+},
+"wlTrust": {
+"en": "Your card is charged only when you tap pay on the next screen.",
+"ar": "لا يُخصم من بطاقتك شيء إلا عندما تضغط ادفع في الشاشة القادمة."
+},
+"sdCtaHp": {
+"en": "Finish setting up",
+"ar": "أكمل الإعداد"
+},
+"sdAltHp": {
+"en": "Rather pick roles yourself? Swipe your matches",
+"ar": "تفضّل تختار بنفسك؟ اسحب وظائفك"
+},
+"mlCoRw": {
+"en": "Rewaa",
+"ar": "رِوّاء"
+},
+"mlCoUp": {
+"en": "Uptal",
+"ar": "Uptal"
+},
+"mlR1": {
+"en": "Head of Finance",
+"ar": "رئيس الإدارة المالية"
+},
+"mlR2": {
+"en": "Finance Manager",
+"ar": "مدير مالي"
+},
+"mlH": {
+"en": "Mail",
+"ar": "البريد"
+},
+"mlBack": {
+"en": "Mail",
+"ar": "البريد"
+},
+"mlAddrS": {
+"en": "We apply from this address, so every employer reply lands here.",
+"ar": "نقدّم لك من هذا العنوان، فكل رد من جهة العمل يجيك هنا."
+},
+"mlFAll": {
+"en": "All",
+"ar": "الكل"
+},
+"mlFAct": {
+"en": "Needs you",
+"ar": "يحتاجك"
+},
+"mlFIv": {
+"en": "Interviews",
+"ar": "المقابلات"
+},
+"mlFOf": {
+"en": "Offers",
+"ar": "العروض"
+},
+"mlFAp": {
+"en": "Acknowledged",
+"ar": "تم الرد"
+},
+"mlFOt": {
+"en": "Other",
+"ar": "الباقي"
+},
+"mlNeeds": {
+"en": "Needs you",
+"ar": "يحتاجك"
+},
+"mlDone": {
+"en": "Replied",
+"ar": "رديت"
+},
+"mlEmpty": {
+"en": "Nothing in this folder yet.",
+"ar": "لا يوجد شيء في هذا المجلد حتى الآن."
+},
+"mlEmptyFree": {
+"en": "Employer mail starts arriving once your plan starts and we apply for you.",
+"ar": "بريد جهات العمل يبدأ يوصلك أول ما تبدأ باقتك ونقدّم لك."
+},
+"lensMail": {
+"en": "Everything an employer sends is kept, but only what needs a decision becomes a notification. The mailbox is the archive, the bell is the short list, and every action a reply would require is answerable in one tap here.",
+"ar": "كل ما ترسله جهة العمل يُحفظ، لكن ما يحتاج قراراً وحده يصبح تنبيهاً. البريد هو الأرشيف، والجرس هو القائمة القصيرة، وكل إجراء كان يحتاج رداً يمكنك تنفيذه هنا بضغطة واحدة."
+},
+"ntSub": {
+"en": "Only what an employer is waiting on you for. Everything else sits in Mail.",
+"ar": "ما تنتظرك فيه جهة العمل فقط. وكل ما عدا ذلك يبقى في البريد."
+},
+"ntClear": {
+"en": "You are all caught up. Nothing is waiting on you.",
+"ar": "أنجزت كل شيء. لا شيء ينتظرك."
+},
+"ntGoMail": {
+"en": "Open Mail",
+"ar": "افتح البريد"
+},
+"ntAllT": {
+"en": "Everything else is in Mail",
+"ar": "كل ما عدا ذلك في البريد"
+},
+"ntAllS": {
+"en": "Application confirmations, status changes, and anything that needs nothing from you",
+"ar": "تأكيدات التقديم، وتحديثات الحالة، وكل ما لا يحتاج منك شيئاً"
+},
+"lensNotif": {
+"en": "A notification is a claim on attention, so it is spent only where a human decision is genuinely required. Everything else waits quietly in Mail, which is why the badge here can be trusted.",
+"ar": "التنبيه سحب من انتباهك، فلا نصرفه إلا حين يكون هناك قرار يحتاج إنساناً فعلاً. وما عدا ذلك ينتظر بهدوء في البريد، ولهذا يمكنك الوثوق بالرقم هنا."
+},
+"mlPickT": {
+"en": "Pick a time",
+"ar": "اختر وقت"
+},
+"mlConfirm": {
+"en": "Confirm this time",
+"ar": "أكّد هذا الوقت"
+},
+"mlPropose": {
+"en": "Propose another time",
+"ar": "اقترح وقت ثاني"
+},
+"mlPractice": {
+"en": "Practice this interview first",
+"ar": "تدرب على هذه المقابلة أولاً"
+},
+"mlConfirmed": {
+"en": "Confirmed",
+"ar": "مؤكّدة"
+},
+"mlNoAct": {
+"en": "Nothing needed from you on this one.",
+"ar": "لا يحتاج منك شيء في هذه."
+},
+"mlOfferT": {
+"en": "The offer",
+"ar": "العرض"
+},
+"mlOfferPay": {
+"en": "Monthly",
+"ar": "الراتب الشهري"
+},
+"mlOfferStart": {
+"en": "Start date",
+"ar": "تاريخ المباشرة"
+},
+"mlAccept": {
+"en": "Accept the offer",
+"ar": "اقبل العرض"
+},
+"mlNegotiate": {
+"en": "Get help negotiating",
+"ar": "ساعدني في التفاوض"
+},
+"mlDecline": {
+"en": "Decline this offer",
+"ar": "اعتذر عن هذا العرض"
+},
+"mlQT": {
+"en": "They asked",
+"ar": "سألوك"
+},
+"mlDraft": {
+"en": "Drafted from your CV",
+"ar": "كتبناه من سيرتك"
+},
+"mlSend": {
+"en": "Send reply",
+"ar": "أرسل الرد"
+},
+"mlRewrite": {
+"en": "Rewrite it",
+"ar": "أعد كتابته"
+},
+"mlDocT": {
+"en": "They need two documents",
+"ar": "يحتاجون منك مستندين"
+},
+"mlUpload": {
+"en": "Upload",
+"ar": "ارفع"
+},
+"mlUploaded": {
+"en": "Attached",
+"ar": "مرفق"
+},
+"mlSendDocs": {
+"en": "Send documents",
+"ar": "أرسل المستندات"
+},
+"mlAssessT": {
+"en": "Online assessment",
+"ar": "اختبار إلكتروني"
+},
+"mlAssessLen": {
+"en": "Takes about",
+"ar": "ياخذ حوالي"
+},
+"mlMin": {
+"en": "minutes",
+"ar": "دقيقة"
+},
+"mlAssessDue": {
+"en": "Due",
+"ar": "آخر موعد"
+},
+"mlOpenAssess": {
+"en": "Open the assessment",
+"ar": "افتح الاختبار"
+},
+"mlHandled": {
+"en": "Handled",
+"ar": "خلصت"
+},
+"mlAfterConfirm": {
+"en": "Thursday 10:00 is confirmed and in your calendar. Rewaa has been told.",
+"ar": "الخميس 10:00 تأكّد وانضاف لتقويمك. ورِوّاء وصلهم الخبر."
+},
+"mlAfterAccept": {
+"en": "Tabby has your acceptance. We will keep the rest of your applications running until you tell us you have started.",
+"ar": "Tabby وصلهم قبولك. ونُبقي باقي طلباتك فعّالة حتى تخبرنا بمباشرتك."
+},
+"mlAfterReply": {
+"en": "Your reply is with stc. We will tell you the moment they come back.",
+"ar": "ردك وصل stc. وأول ما يردون نخبرك."
+},
+"mlAfterDocs": {
+"en": "Both documents are with Almarai. Nothing else is needed from you.",
+"ar": "المستندان وصلا إلى المراعي. ولا يحتاج منك شيء آخر."
+},
+"mlS1": {
+"en": "Thursday 10:00",
+"ar": "الخميس 10:00"
+},
+"mlS2": {
+"en": "Thursday 14:00",
+"ar": "الخميس 14:00"
+},
+"mlS3": {
+"en": "Sunday 11:00",
+"ar": "الأحد 11:00"
+},
+"mlStart2": {
+"en": "1 October",
+"ar": "1 أكتوبر"
+},
+"mlDue4": {
+"en": "They need these before Sunday.",
+"ar": "يحتاجونها قبل الأحد."
+},
+"mlDue5": {
+"en": "In 3 days",
+"ar": "خلال 3 أيام"
+},
+"mlConf11": {
+"en": "Tuesday 09:30 at the Bupa Arabia office in Riyadh. It is in your calendar.",
+"ar": "الثلاثاء 09:30 في مكتب بوبا العربية بالرياض. وهي في تقويمك."
+},
+"tMlConfirm": {
+"en": "Time confirmed and added to your calendar",
+"ar": "تأكّد الوقت وانضاف لتقويمك"
+},
+"tMlAccept": {
+"en": "Offer accepted, congratulations",
+"ar": "انقبل العرض، ألف مبروك"
+},
+"tMlReply": {
+"en": "Reply sent",
+"ar": "انرسل الرد"
+},
+"tMlDocs": {
+"en": "Documents sent",
+"ar": "انرسلت المستندات"
+},
+"tMlUpload": {
+"en": "Attached from your files",
+"ar": "انرفق من ملفاتك"
+},
+"tMlRewrite": {
+"en": "Rewritten in a different tone",
+"ar": "أعدنا كتابته بنبرة مختلفة"
+},
+"tMlPropose": {
+"en": "We asked them for other times",
+"ar": "طلبنا منهم أوقات ثانية"
+},
+"tMlDecline": {
+"en": "Declined, politely and on your behalf",
+"ar": "اعتذرنا نيابة عنك، وبكل لطف"
+},
+"tMlAssess": {
+"en": "Opening the assessment",
+"ar": "نفتح الاختبار"
+},
+"m1s": {
+"en": "Interview invitation, Head of Finance",
+"ar": "دعوة مقابلة، رئيس الإدارة المالية"
+},
+"m2s": {
+"en": "Your offer from Tabby",
+"ar": "عرضك الوظيفي من Tabby"
+},
+"m3s": {
+"en": "One question before we move forward",
+"ar": "سؤال واحد قبل الخطوة التالية"
+},
+"m4s": {
+"en": "Two documents needed for your application",
+"ar": "مستندان مطلوبان لإكمال طلبك"
+},
+"m5s": {
+"en": "Numerical reasoning assessment",
+"ar": "اختبار الاستدلال العددي"
+},
+"m11s": {
+"en": "Your interview is confirmed",
+"ar": "تم تأكيد موعد مقابلتك"
+},
+"m6s": {
+"en": "We received your application",
+"ar": "استلمنا طلبك"
+},
+"m7s": {
+"en": "Application received, Project Finance Analyst",
+"ar": "تم استلام طلبك، محلّل مالي للمشاريع"
+},
+"m10s": {
+"en": "Thanks for applying to Mobily",
+"ar": "شكراً لتقديمك في موبايلي"
+},
+"m8s": {
+"en": "Your application moved to screening",
+"ar": "طلبك انتقل إلى مرحلة الفرز"
+},
+"m9s": {
+"en": "An update on your application",
+"ar": "تحديث بخصوص طلبك"
+},
+"m0s": {
+"en": "Welcome to your Uptal mailbox",
+"ar": "أهلاً في بريدك في Uptal"
+},
+"m1b1": {
+"en": "Thank you for applying to the Head of Finance role. We reviewed your CV and would like to meet you.",
+"ar": "شكراً لتقديمك على وظيفة رئيس الإدارة المالية. اطّلعنا على سيرتك الذاتية ونودّ مقابلتك."
+}
+}

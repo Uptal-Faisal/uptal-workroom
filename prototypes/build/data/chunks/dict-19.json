@@ -1,0 +1,602 @@
+{
+"qaAnsPill": {
+"en": "Answer",
+"ar": "جاوب"
+},
+"qaFWait": {
+"en": "Waiting",
+"ar": "بانتظارك"
+},
+"qaAprT": {
+"en": "paused 02:41",
+"ar": "متوقف 02:41"
+},
+"qaAprSent": {
+"en": "just now",
+"ar": "الآن"
+},
+"qaPrT": {
+"en": "Answers we reuse",
+"ar": "إجابات نعيد استخدامها"
+},
+"qaPrS": {
+"en": "{n} saved",
+"ar": "{n} محفوظة"
+},
+"qaPrS1": {
+"en": "1 saved",
+"ar": "إجابة واحدة محفوظة"
+},
+"qaNfT": {
+"en": "Questions from employers",
+"ar": "أسئلة من جهات العمل"
+},
+"qaNfS": {
+"en": "Email and push, the moment an application is paused",
+"ar": "بريد وتنبيه، لحظة توقف أي طلب"
+},
+"qaLBackTop": {
+"en": "Home",
+"ar": "الرئيسية"
+},
+"qaBackGen": {
+"en": "Back",
+"ar": "رجوع"
+},
+"qaLH": {
+"en": "Waiting on your answers",
+"ar": "بانتظار إجاباتك"
+},
+"qaLSub": {
+"en": "Auto-Apply paused these last night. Each takes about a minute, and nothing goes out until you answer.",
+"ar": "التقديم التلقائي أوقف هذه الطلبات في آخر جولة. كل واحدة تستغرق دقيقة تقريباً، ولا يُرسل شيء قبل إجابتك."
+},
+"qaLMeta": {
+"en": "{n} questions · about a minute",
+"ar": "{n} أسئلة · دقيقة تقريباً"
+},
+"qaLAns": {
+"en": "Answer",
+"ar": "جاوب"
+},
+"qaLSkip": {
+"en": "Skip this application",
+"ar": "تخطى هذا الطلب"
+},
+"qaLEmptyT": {
+"en": "Nothing is waiting on you",
+"ar": "لا شيء ينتظرك"
+},
+"qaLEmptyS": {
+"en": "When a form asks something only you can answer, it lands here and in your mail.",
+"ar": "عندما يسأل نموذج عن شيء لا يعرفه غيرك، يصلك هنا وفي بريدك."
+},
+"qaLBack": {
+"en": "Back to Home",
+"ar": "رجوع للرئيسية"
+},
+"qaIH": {
+"en": "{co} asks {n} things we cannot answer for you",
+"ar": "عند {co} {n} أسئلة ما نقدر نجاوبها عنك"
+},
+"qaIS": {
+"en": "We already filled {f} of {t} from your CV and profile.",
+"ar": "عبّينا {f} من {t} من سيرتك الذاتية وملفك."
+},
+"qaIMin": {
+"en": "About a minute",
+"ar": "دقيقة تقريباً"
+},
+"qaICta": {
+"en": "Answer now",
+"ar": "أجب الآن"
+},
+"qaISkip": {
+"en": "Skip this application",
+"ar": "تخطى هذا الطلب"
+},
+"qaTagCv": {
+"en": "Not on your CV",
+"ar": "ليست في سيرتك"
+},
+"qaTagChoice": {
+"en": "Pick one",
+"ar": "اختيار واحد"
+},
+"qaTagNum": {
+"en": "A number",
+"ar": "رقم"
+},
+"qaTagText": {
+"en": "2 or 3 sentences",
+"ar": "جملتين أو ثلاث"
+},
+"qaTagYesNo": {
+"en": "Yes or no",
+"ar": "نعم أو لا"
+},
+"qaProg": {
+"en": "Question {i} of {n}",
+"ar": "السؤال {i} من {n}"
+},
+"qaWhy": {
+"en": "Why they ask",
+"ar": "ليش يسألون"
+},
+"qaRemT": {
+"en": "Remember this answer for next time",
+"ar": "احفظ هذه الإجابة للمرة القادمة"
+},
+"qaRemS": {
+"en": "We will use it on future forms without asking.",
+"ar": "سنستخدمها في النماذج القادمة دون أن نسألك."
+},
+"qaRemOffS": {
+"en": "Specific to {co}, so we will not reuse it unless you switch this on.",
+"ar": "خاصة بطلب {co}، فلن نعيد استخدامها إلا إذا فعّلتها."
+},
+"qaRemOffGen": {
+"en": "We will ask you again next time.",
+"ar": "لن نحفظها، وسنسألك المرة القادمة."
+},
+"qaTxtPh": {
+"en": "Two or three sentences in your own words, or tap Draft it for me.",
+"ar": "جملتين أو ثلاث بالإنجليزي وبكلماتك، أو اضغط «اكتبها لي»."
+},
+"qaCont": {
+"en": "Continue",
+"ar": "التالي"
+},
+"qaReview": {
+"en": "Review answers",
+"ar": "راجع الإجابات"
+},
+"qaSaveBack": {
+"en": "Save and review",
+"ar": "احفظ وراجع"
+},
+"qaBack": {
+"en": "Back",
+"ar": "رجوع"
+},
+"qaHintPick": {
+"en": "Pick an answer to continue",
+"ar": "اختر إجابة للمتابعة"
+},
+"qaHintNum": {
+"en": "Enter an amount to continue",
+"ar": "اكتب المبلغ للمتابعة"
+},
+"qaHintText": {
+"en": "Write at least 20 characters to continue",
+"ar": "اكتب 20 حرفاً على الأقل للمتابعة"
+},
+"qaHintTextLeft": {
+"en": "{n} more characters to continue",
+"ar": "باقي {n} حرفاً للمتابعة"
+},
+"qaSugg": {
+"en": "Use {v} ¤",
+"ar": "استخدم {v} ¤"
+},
+"qaSuggWhy": {
+"en": "Inside the 34 to 41k band for your role and above your 26,000 ¤ floor.",
+"ar": "داخل نطاق 34 إلى 41 ألف لوظيفتك وفوق حدك الأدنى 26,000 ¤."
+},
+"qaNumUnit": {
+"en": "¤ a month",
+"ar": "¤ شهرياً"
+},
+"qaBelowFloor": {
+"en": "Below your 26,000 ¤ floor. You can still send it.",
+"ar": "أقل من حدك الأدنى 26,000 ¤. يمكنك إرساله على أي حال."
+},
+"qaDraft": {
+"en": "Draft it for me",
+"ar": "اكتبها لي"
+},
+"qaRedraft": {
+"en": "Draft again",
+"ar": "مسودة جديدة"
+},
+"qaCount": {
+"en": "{n} / {max}",
+"ar": "{n} / {max}"
+},
+"qaFormEn": {
+"en": "Employer forms are in English.",
+"ar": "نماذج جهات العمل بالإنجليزي."
+},
+"qaDraftNote": {
+"en": "Written from your profile. Edit anything.",
+"ar": "مكتوبة من ملفك. عدّل أي شيء."
+},
+"qaQ1a": {
+"en": "Are you willing to relocate to Ras Al Khair? Housing allowance is included.",
+"ar": "هل أنت على استعداد للانتقال إلى رأس الخير؟ بدل السكن مشمول."
+},
+"qaW1a": {
+"en": "The role is on site in the Eastern Province.",
+"ar": "الوظيفة حضورية في المنطقة الشرقية."
+},
+"qaO1a1": {
+"en": "Yes",
+"ar": "نعم"
+},
+"qaO1a2": {
+"en": "No",
+"ar": "لا"
+},
+"qaO1a3": {
+"en": "Open to discuss",
+"ar": "قابل للنقاش"
+},
+"qaQ1b": {
+"en": "Do you hold SOCPA membership?",
+"ar": "هل تحمل عضوية الهيئة السعودية للمراجعين والمحاسبين (SOCPA)؟"
+},
+"qaW1b": {
+"en": "Maaden lists it as preferred for senior finance roles.",
+"ar": "معادن تذكرها كميزة مفضّلة للوظائف المالية العليا."
+},
+"qaO1b1": {
+"en": "Yes, active member",
+"ar": "نعم، عضوية سارية"
+},
+"qaO1b2": {
+"en": "In progress",
+"ar": "قيد الإجراء"
+},
+"qaO1b3": {
+"en": "No",
+"ar": "لا"
+},
+"qaQ1c": {
+"en": "Are you related to any current Maaden employee?",
+"ar": "هل تربطك صلة قرابة بأي موظف حالي في معادن؟"
+},
+"qaW1c": {
+"en": "A standard conflict-of-interest question.",
+"ar": "سؤال اعتيادي عن تعارض المصالح."
+},
+"qaYes": {
+"en": "Yes",
+"ar": "نعم"
+},
+"qaNo": {
+"en": "No",
+"ar": "لا"
+},
+"qaQ2a": {
+"en": "What is your expected monthly salary?",
+"ar": "ما الراتب الشهري المتوقع؟"
+},
+"qaW2a": {
+"en": "Riyad Bank screens on this before the first call.",
+"ar": "بنك الرياض يستخدم هذا السؤال للفرز قبل أول اتصال."
+},
+"qaQ2b": {
+"en": "Have you worked in a SAMA-regulated institution?",
+"ar": "هل سبق أن عملت في مؤسسة خاضعة لإشراف البنك المركزي السعودي (ساما)؟"
+},
+"qaW2b": {
+"en": "Banks in Saudi Arabia are supervised by SAMA, so prior exposure is asked early.",
+"ar": "البنوك في السعودية تحت إشراف ساما، فيسألون عن الخبرة بدري."
+},
+"qaO2b2": {
+"en": "Some exposure",
+"ar": "خبرة جزئية"
+},
+"qaQ2c": {
+"en": "Why do you want to join Riyad Bank?",
+"ar": "لماذا ترغب في الانضمام إلى بنك الرياض؟"
+},
+"qaW2c": {
+"en": "A short motivation, 2 or 3 sentences.",
+"ar": "دوافعك باختصار، جملتين أو ثلاث."
+},
+"qaD2c": {
+"en": "I have spent eight years in financial analysis in Riyadh, the last four owning the monthly close and the FP&A cycle on SAP under IFRS. Riyad Bank is where I want to bring that experience next. An FP&A Manager role in a bank that is investing in its planning function is exactly the step I have been working toward, and I would be proud to build it with your team.",
+"ar": "I have spent eight years in financial analysis in Riyadh, the last four owning the monthly close and the FP&A cycle on SAP under IFRS. Riyad Bank is where I want to bring that experience next. An FP&A Manager role in a bank that is investing in its planning function is exactly the step I have been working toward, and I would be proud to build it with your team."
+},
+"qaBQ1": {
+"en": "What is your notice period?",
+"ar": "ما مدة الإشعار المطلوبة قبل مباشرة العمل؟"
+},
+"qaBO1a": {
+"en": "Available immediately",
+"ar": "متاح فوراً"
+},
+"qaBO1b": {
+"en": "30 days",
+"ar": "30 يوماً"
+},
+"qaBO1c": {
+"en": "60 days",
+"ar": "60 يوماً"
+},
+"qaBO1d": {
+"en": "90 days",
+"ar": "90 يوماً"
+},
+"qaBQ2": {
+"en": "Which languages do you work in?",
+"ar": "ما اللغات التي تعمل بها؟"
+},
+"qaBO2a": {
+"en": "Arabic",
+"ar": "العربية"
+},
+"qaBO2b": {
+"en": "English",
+"ar": "الإنجليزية"
+},
+"qaBO2c": {
+"en": "Arabic and English",
+"ar": "العربية والإنجليزية"
+},
+"qaBQ3": {
+"en": "Are you authorised to work in Saudi Arabia?",
+"ar": "هل لديك تصريح عمل في المملكة العربية السعودية؟"
+},
+"qaBO3a": {
+"en": "Saudi national",
+"ar": "مواطن سعودي"
+},
+"qaBO3b": {
+"en": "Iqama holder",
+"ar": "حامل إقامة"
+},
+"qaBO3c": {
+"en": "Need sponsorship",
+"ar": "بحاجة إلى كفالة"
+},
+"qaBQ4": {
+"en": "How much travel are you willing to do?",
+"ar": "ما نسبة السفر التي تقبلها؟"
+},
+"qaBO4a": {
+"en": "None",
+"ar": "لا سفر"
+},
+"qaBO4b": {
+"en": "Up to 25 percent",
+"ar": "حتى 25 بالمئة"
+},
+"qaBO4c": {
+"en": "Up to 50 percent",
+"ar": "حتى 50 بالمئة"
+},
+"qaBO4d": {
+"en": "More than half",
+"ar": "أكثر من النصف"
+},
+"qaBQ5": {
+"en": "Where are you currently based?",
+"ar": "أين تقيم حالياً؟"
+},
+"qaBO5a": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"qaBO5b": {
+"en": "Jeddah",
+"ar": "جدة"
+},
+"qaBO5c": {
+"en": "Dammam",
+"ar": "الدمام"
+},
+"qaBO5d": {
+"en": "Outside Saudi Arabia",
+"ar": "خارج السعودية"
+},
+"qaBBack": {
+"en": "Preferences",
+"ar": "الإعدادات"
+},
+"qaBH": {
+"en": "Answers we reuse",
+"ar": "إجابات نعيد استخدامها"
+},
+"qaBS": {
+"en": "Auto-Apply uses these on future forms without asking. Employers only see what you approved.",
+"ar": "التقديم التلقائي يستخدمها في النماذج القادمة دون أن يسألك. جهات العمل لا ترى إلا ما وافقت عليه."
+},
+"qaBEdit": {
+"en": "Edit",
+"ar": "عدّل"
+},
+"qaBRem": {
+"en": "Remove",
+"ar": "احذف"
+},
+"qaBEmpty": {
+"en": "Nothing saved yet. Switch on Remember while answering and it lands here.",
+"ar": "لا يوجد شيء محفوظ حتى الآن. فعّل \"احفظ\" أثناء الإجابة وستجدها هنا."
+},
+"qaBFrom": {
+"en": "From the {co} form",
+"ar": "من نموذج {co}"
+},
+"qaBSeed": {
+"en": "From your profile",
+"ar": "من ملفك"
+},
+"qaTRem": {
+"en": "Removed. Auto-Apply will ask you next time.",
+"ar": "تم الحذف. التقديم التلقائي سيسألك المرة القادمة."
+},
+"qaTUndo": {
+"en": "Undo",
+"ar": "تراجع"
+},
+"qaTSaved": {
+"en": "Answer updated",
+"ar": "تم تحديث الإجابة"
+},
+"qaEH": {
+"en": "Edit this answer",
+"ar": "عدّل هذه الإجابة"
+},
+"qaESave": {
+"en": "Save",
+"ar": "احفظ"
+},
+"qaECancel": {
+"en": "Cancel",
+"ar": "إلغاء"
+},
+"qaRH": {
+"en": "Check your answers",
+"ar": "راجع إجاباتك"
+},
+"qaRS": {
+"en": "Read your {n} answers once. Edit any of them before you send.",
+"ar": "اقرأ إجاباتك الـ{n} مرة واحدة. عدّل أياً منها قبل الإرسال."
+},
+"qaREdit": {
+"en": "Edit",
+"ar": "عدّل"
+},
+"qaRRem": {
+"en": "Saved for next time",
+"ar": "محفوظة للمرة القادمة"
+},
+"qaRCv": {
+"en": "Goes out with your CV, exactly as uploaded",
+"ar": "يُرسل مع سيرتك الذاتية كما رفعتها"
+},
+"qaRCvBtn": {
+"en": "CV",
+"ar": "CV"
+},
+"qaRCount": {
+"en": "Counts as 1 of your 300 ({n} after this).",
+"ar": "يُحتسب 1 من الـ300 ({n} بعد هذا)."
+},
+"qaRSend": {
+"en": "Send my application",
+"ar": "أرسل طلبي"
+},
+"qaRBack": {
+"en": "Back",
+"ar": "رجوع"
+},
+"qaDH": {
+"en": "Sent to {co} at {t}",
+"ar": "أرسلناه إلى {co} الساعة {t}"
+},
+"qaDS": {
+"en": "You answered {n} questions in {s}. {k} saved for next time.",
+"ar": "أجبت على {n} أسئلة في {s}. حفظنا {k} للمرة القادمة."
+},
+"qaDS0": {
+"en": "You answered {n} questions in {s}. Nothing saved, as you chose.",
+"ar": "جاوبت على {n} أسئلة في {s}. ما حفظنا شي، مثل ما اخترت."
+},
+"qaSec1": {
+"en": "1 second",
+"ar": "ثانية واحدة"
+},
+"qaSec2": {
+"en": "2 seconds",
+"ar": "ثانيتين"
+},
+"qaSecFew": {
+"en": "{s} seconds",
+"ar": "{s} ثواني"
+},
+"qaSecN": {
+"en": "{s} seconds",
+"ar": "{s} ثانية"
+},
+"qaDCount": {
+"en": "Application {u} of 300 this month",
+"ar": "الطلب {u} من 300 هذا الشهر"
+},
+"qaDNextT": {
+"en": "Next: {co}",
+"ar": "التالي: {co}"
+},
+"qaDNextS": {
+"en": "{role} · {n} questions · about a minute",
+"ar": "{role} · {n} أسئلة · دقيقة تقريباً"
+},
+"qaDNextCta": {
+"en": "Answer {co}'s {n} questions",
+"ar": "جاوب على أسئلة {co} الـ{n}"
+},
+"qaDHome": {
+"en": "Back to Home",
+"ar": "رجوع للرئيسية"
+},
+"qaDAll": {
+"en": "That was the last one. Auto-Apply carries on from here.",
+"ar": "هذا كان الأخير. التقديم التلقائي يواصل من هنا."
+},
+"qaSkH": {
+"en": "Skip the {co} application?",
+"ar": "تتخطى طلب {co}؟"
+},
+"qaSkS": {
+"en": "We will not apply to this role and it does not count toward your 300.",
+"ar": "لن نقدّم على هذه الوظيفة ولن تُحتسب من الـ300."
+},
+"qaSkKeep": {
+"en": "Keep it",
+"ar": "خلّه"
+},
+"qaSkDo": {
+"en": "Skip it",
+"ar": "تخطاه"
+},
+"qaTSkip": {
+"en": "Skipped the {co} application",
+"ar": "تخطيت طلب {co}"
+},
+"swsQH": {
+"en": "You used all 300 for this month",
+"ar": "استخدمت الـ300 كلها هذا الشهر"
+},
+"swsQS": {
+"en": "Auto-Apply and manual swipes pause until your month resets on 27 September. Nothing is lost: your matches keep stacking up and go out the moment you have room.",
+"ar": "التقديم التلقائي والتقديم اليدوي متوقفان حتى يتجدد شهرك يوم 27 سبتمبر. ولا يضيع شيء: وظائفك المطابقة تتجمع وتُرسل أول ما يتوفر لديك مجال."
+},
+"swsQNote": {
+"en": "All 300 are out working for you. The bar refills on 27 September.",
+"ar": "الـ300 كلها طلعت تشتغل لك. الشريط يمتلي من جديد يوم 27 سبتمبر."
+},
+"swsPacks": {
+"en": "Add applications today",
+"ar": "زوّد طلباتك اليوم"
+},
+"swsQCta": {
+"en": "Top up and keep applying",
+"ar": "عبّي رصيدك وكمّل التقديم"
+},
+"swsQApps": {
+"en": "See my applications",
+"ar": "شوف طلباتي"
+},
+"swsQWhat": {
+"en": "What counts toward the 300?",
+"ar": "ما يُحتسب من الـ300؟"
+},
+"swsDlgH": {
+"en": "What counts toward the 300",
+"ar": "ما يُحتسب من الـ300"
+},
+"swsDlgP1": {
+"en": "Auto-Apply and the roles you apply to by hand share the same 300 a month.",
+"ar": "التقديم التلقائي والوظائف التي تقدّم عليها بنفسك يُحتسبان من نفس الـ300 شهرياً."
+},
+"swsDlgP2": {
+"en": "A top-up adds to this month only. Whatever is left of it is lost when your month resets on 27 September.",
+"ar": "الرصيد الإضافي يُضاف لهذا الشهر فقط. وما يتبقى منه يسقط عند تجديد شهرك يوم 27 سبتمبر."
+},
+"swsDlgOk": {
+"en": "Got it",
+"ar": "تمام"
+}
+}

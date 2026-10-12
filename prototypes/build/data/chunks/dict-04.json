@@ -1,0 +1,602 @@
+{
+"blSub": {
+"en": "We will never apply to these employers. We added your current one.",
+"ar": "ما راح نقدّم أبد لهذي الجهات. أضفنا جهة عملك الحالية."
+},
+"blCur": {
+"en": "Your current employer",
+"ar": "جهة عملك الحالية"
+},
+"blSub2": {
+"en": "A subsidiary we detected",
+"ar": "شركة تابعة رصدناها"
+},
+"blAdd": {
+"en": "Add another employer to block",
+"ar": "أضف جهة أخرى للحظر"
+},
+"blNote": {
+"en": "Recruiters only see the CV we send, and never know that AI applied on your behalf.",
+"ar": "مسؤولو التوظيف يرون فقط السيرة الذاتية التي نرسلها، ولا يعرفون أن الذكاء الاصطناعي قدّم بالنيابة عنك."
+},
+"blCta": {
+"en": "Continue",
+"ar": "أكمل"
+},
+"lensBlock": {
+"en": "We seed the do-not-apply list with the current employer from the CV, so a discreet job seeker is protected by default instead of having to remember.",
+"ar": "نُدرج جهة العمل الحالية من السيرة في قائمة عدم التقديم تلقائياً، فالباحث المتكتّم محمي افتراضياً دون أن يحتاج إلى تذكّر ذلك."
+},
+"setup3": {
+"en": "Step 2 of 3",
+"ar": "الخطوة 2 من 3"
+},
+"cvH": {
+"en": "Your CV",
+"ar": "سيرتك الذاتية"
+},
+"cvSub": {
+"en": "This is the CV employers receive, exactly as you uploaded it. Fix anything before it goes out.",
+"ar": "هذه السيرة التي تصل جهات العمل، كما رفعتها بالضبط. صحّح أي شيء قبل إرسالها."
+},
+"cvLeg": {
+"en": "Highlighted = your strongest lines, the ones matching engines look for",
+"ar": "المظلّل = أقوى سطورك، وهي ما تبحث عنه محرّكات المطابقة"
+},
+"cvEdit": {
+"en": "Edit before approving",
+"ar": "عدّل قبل الاعتماد"
+},
+"cvCta": {
+"en": "Approve and use this",
+"ar": "اعتمدها واستخدمها"
+},
+"lensCv": {
+"en": "The user sees the exact CV employers will receive before anything goes out. Approving and lightly editing it makes it theirs, so they value it and stay.",
+"ar": "يرى المستخدم السيرة نفسها التي ستصل جهات العمل قبل أن يُرسل أي شيء. اعتمادها وتعديلها البسيط يجعلها ملكه، فيقدّرها ويبقى."
+},
+"setup3b": {
+"en": "Step 3 of 3",
+"ar": "الخطوة 3 من 3"
+},
+"auH": {
+"en": "Applying and alerts",
+"ar": "التقديم والتنبيهات"
+},
+"auSub": {
+"en": "Set once. Change anytime in Settings.",
+"ar": "اضبطها مرة واحدة. غيّرها متى ما تبي من الإعدادات."
+},
+"au1": {
+"en": "Apply to up to 300 roles a month",
+"ar": "قدّم علي 300 وظيفة بالشهر كحد أقصى"
+},
+"au1s": {
+"en": "Only to roles you genuinely fit",
+"ar": "فقط على الوظائف التي تناسبك فعلاً"
+},
+"au2": {
+"en": "Ping me for interviews and replies",
+"ar": "نبّهني للمقابلات والردود"
+},
+"au2s": {
+"en": "The moments that need you",
+"ar": "اللحظات التي تحتاجك"
+},
+"au3": {
+"en": "Daily activity summary",
+"ar": "ملخّص نشاط يومي"
+},
+"au3s": {
+"en": "A simple recap of what is happening",
+"ar": "خلاصة بسيطة لما يحدث"
+},
+"au4": {
+"en": "Notify me for every single application",
+"ar": "نبّهني لكل تقديم"
+},
+"au4s": {
+"en": "Most people leave this off",
+"ar": "أغلب الناس يخلّونه مطفّي"
+},
+"auCta": {
+"en": "Activate my account and start applying",
+"ar": "فعّل حسابي وابدأ التقديم"
+},
+"lensAuto": {
+"en": "Pace and alerts arrive on sensible defaults, so a user who changes nothing still gets the best setup. We only ask to be pinged when something needs a human.",
+"ar": "الوتيرة والتنبيهات تأتي بإعدادات منطقية، فمن لا يغيّر شيئاً يبقى لديه أفضل إعداد. ولا ننبّهك إلا حين يحتاج الأمر إلى إنسان."
+},
+"lvH": {
+"en": "Your account is on.",
+"ar": "حسابك مفعّل."
+},
+"lvSub": {
+"en": "It is already applying. Here is what is going out right now.",
+"ar": "بدأ التقديم بالفعل. هذه الطلبات الخارجة الآن."
+},
+"lvNow": {
+"en": "now",
+"ar": "الآن"
+},
+"lvNow2": {
+"en": "now",
+"ar": "الآن"
+},
+"lvVow": {
+"en": "We do not stop until you are hired.",
+"ar": "ما نوقّف إلى ما تتوظّف."
+},
+"lvCta": {
+"en": "Go to my dashboard",
+"ar": "روح للوحة التحكم"
+},
+"lensLive": {
+"en": "Setup ends on a high: Auto-Apply visibly starts within seconds, so the memory of onboarding is momentum, not a form.",
+"ar": "الإعداد ينتهي على نقطة عالية: التقديم التلقائي يبدأ فعلياً خلال ثوانٍ، فتبقى ذاكرة الإعداد زخماً لا نموذجاً."
+},
+"hOn": {
+"en": "Applying",
+"ar": "يقدّم"
+},
+"hHi": {
+"en": "Good morning, Noura.",
+"ar": "صباح الخير نورة."
+},
+"hWhile": {
+"en": "Auto-Apply activity",
+"ar": "نشاط التقديم التلقائي"
+},
+"hAppliedA": {
+"en": "Applied to ",
+"ar": "قدّمنا لك على "
+},
+"hAppliedB": {
+"en": " new roles for you",
+"ar": " وظائف جديدة"
+},
+"hScanned": {
+"en": "search results",
+"ar": "نتائج البحث"
+},
+"hMatched": {
+"en": "matches",
+"ar": "نتائج التطابق"
+},
+"hApplied": {
+"en": "applied",
+"ar": "تم التقديم"
+},
+"hPath": {
+"en": "Your path to hired",
+"ar": "طريقك للتوظيف"
+},
+"hLive": {
+"en": "live",
+"ar": "مباشر"
+},
+"pApplied": {
+"en": "Applications",
+"ar": "التقديم"
+},
+"pViewed": {
+"en": "Views",
+"ar": "المشاهدات"
+},
+"pScreen": {
+"en": "Screening",
+"ar": "الفرز"
+},
+"pIv": {
+"en": "Interviews",
+"ar": "المقابلات"
+},
+"pOffer": {
+"en": "Offers",
+"ar": "العروض الوظيفية"
+},
+"hQuota": {
+"en": "This month",
+"ar": "هذا الشهر"
+},
+"hSaved": {
+"en": "hours of form-filling saved, lifetime",
+"ar": "ساعة تعبئة نماذج موفّرة، إجمالاً"
+},
+"hActivity": {
+"en": "Latest",
+"ar": "الأحدث"
+},
+"hTopup": {
+"en": "Used your month early? Top up anytime",
+"ar": "خلّصت شهرك بدري؟ عبّي رصيدك في أي وقت"
+},
+"prPace": {
+"en": "Daily application pace",
+"ar": "وتيرة التقديم اليومية"
+},
+"prPaceS": {
+"en": "Up to 10 applications a day",
+"ar": "لين 10 طلبات باليوم"
+},
+"paBack": {
+"en": "Preferences",
+"ar": "التفضيلات"
+},
+"paceH": {
+"en": "How many jobs a day",
+"ar": "كم وظيفة باليوم"
+},
+"paceSub": {
+"en": "Auto-Apply never applies past your daily limit. Change it whenever you like.",
+"ar": "التقديم التلقائي لا يتجاوز حدك اليومي. غيّره متى ما تبي."
+},
+"paUnit": {
+"en": "applications a day",
+"ar": "طلبات باليوم"
+},
+"paLastA": {
+"en": "At this pace, your 300 monthly applications last about",
+"ar": "على هذه الوتيرة، رصيدك الشهري 300 طلب يكفيك تقريباً"
+},
+"paLastB": {
+"en": "days",
+"ar": "يوم"
+},
+"paL1": {
+"en": "Steady",
+"ar": "متوازن"
+},
+"paL2": {
+"en": "Accelerated",
+"ar": "أسرع"
+},
+"paL3": {
+"en": "Full speed",
+"ar": "السرعة الكاملة"
+},
+"paNoteT": {
+"en": "A lower pace makes us pickier, not slower",
+"ar": "الوتيرة الأقل تجعلنا أكثر انتقائية، لا أبطأ"
+},
+"paNote": {
+"en": "We spend your applications on the strongest matches first, whatever pace you choose.",
+"ar": "نصرف طلباتك على أقوى التطابقات أولاً، أي وتيرة اخترت."
+},
+"paMost": {
+"en": "Your plan includes 300 a month. At 10 a day they cover every single day.",
+"ar": "باقتك تشمل 300 طلب بالشهر. على 10 باليوم تغطي كل أيام الشهر."
+},
+"paceCta": {
+"en": "Save my pace",
+"ar": "احفظ الوتيرة"
+},
+"tPace": {
+"en": "Pace saved. It applies from the next run.",
+"ar": "حُفظت الوتيرة. تسري من الجولة القادمة."
+},
+"lensPace": {
+"en": "A member who holds the throttle trusts the engine. Pace is a setting they own, not a limit we impose, and the screen is honest about what a lower pace trades away.",
+"ar": "العضو الذي يمسك السرعة يثق بالمحرك أكثر. الوتيرة إعداد يملكه العضو، لا حد نفرضه، والشاشة صريحة في ما تخسره مع الوتيرة الأقل."
+},
+"auPace": {
+"en": "How many roles a day",
+"ar": "كم وظيفة باليوم"
+},
+"auPaceS": {
+"en": "Start at 10 a day and your whole month is covered. Go faster anytime in Preferences.",
+"ar": "ابدأ بـ 10 يومياً وشهرك كله مغطى. سرّعها متى ما تبي من التفضيلات."
+},
+"plnTopup": {
+"en": "Top up applications",
+"ar": "عبّي رصيد طلبات"
+},
+"plnTopupS": {
+"en": "Extra applications for this subscription month",
+"ar": "طلبات إضافية لشهر اشتراكك الحالي"
+},
+"tuBack": {
+"en": "Back",
+"ar": "رجوع"
+},
+"tuH": {
+"en": "Top up your applications",
+"ar": "عبّي رصيد طلباتك"
+},
+"tuSub": {
+"en": "Your plan quota is spent. Keep applying today instead of waiting for the reset.",
+"ar": "رصيد باقتك انتهى. واصل التقديم اليوم بدل انتظار التجديد."
+},
+"tuUsedS": {
+"en": "Every application in your plan is out working for you. Your quota resets on the 12th.",
+"ar": "كل طلبات باقتك طلعت تشتغل لك. رصيدك يتجدد يوم 12."
+},
+"tuPick": {
+"en": "Choose your pack",
+"ar": "اختر باقتك"
+},
+"tuApps": {
+"en": "applications",
+"ar": "طلب"
+},
+"tu1s": {
+"en": "About a week of applying at a steady pace",
+"ar": "تقريباً أسبوع تقديم على الوتيرة المتوازنة"
+},
+"tu2s": {
+"en": "About two weeks at a steady pace",
+"ar": "تقريباً أسبوعين على الوتيرة المتوازنة"
+},
+"tu3s": {
+"en": "About a month at a steady pace",
+"ar": "تقريباً شهر على الوتيرة المتوازنة"
+},
+"tuPop": {
+"en": "Most popular",
+"ar": "الأكثر اختياراً"
+},
+"tuBest": {
+"en": "Best value",
+"ar": "أفضل قيمة"
+},
+"tuNote": {
+"en": "Top-up applications are used after your monthly quota and expire at the end of your subscription month.",
+"ar": "طلبات التعبئة تُستخدم بعد رصيدك الشهري وتنتهي بنهاية شهر اشتراكك."
+},
+"tuPayT": {
+"en": "Payment",
+"ar": "الدفع"
+},
+"tuCtaA": {
+"en": "Add",
+"ar": "أضف"
+},
+"tuCtaB": {
+"en": "applications for",
+"ar": "طلب بـ"
+},
+"tTopup": {
+"en": "Payment confirmed. Your balance is topped up.",
+"ar": "تم الدفع. انعبّى رصيدك."
+},
+"lensTopup": {
+"en": "Hitting the cap is peak motivation, not a wall. The member buys momentum in two taps, the packs anchor against the plan price, and the full bar shows exactly why this moment matters.",
+"ar": "لحظة نفاد الرصيد قمة الحماس، لا جدار. العضو يشتري الاستمرارية بضغطتين، والباقات ترسو على سعر الباقة، والشريط الممتلئ يوضح لماذا هذه اللحظة مهمة."
+},
+"tdH": {
+"en": "Your top up is live.",
+"ar": "رصيدك انعبّى."
+},
+"tdSub": {
+"en": "100 extra applications, active now. Auto-Apply is already using them.",
+"ar": "100 طلب إضافي، فعّالة الآن. التقديم التلقائي بدأ يستخدمها."
+},
+"lensTopupDone": {
+"en": "The purchase ends on motion, not a receipt. The very next thing the member sees is their new balance already being spent on real roles.",
+"ar": "الشراء ينتهي بحركة، لا بإيصال. أول شيء يراه العضو رصيده الجديد وهو يعمل على وظائف حقيقية."
+},
+"swMoreT": {
+"en": "Want a bigger deck tomorrow",
+"ar": "تبي مجموعة أكبر غداً"
+},
+"swMoreS": {
+"en": "Your deck follows your preferences. Broaden them and more roles qualify for you.",
+"ar": "وظائفك تمشي على تفضيلاتك. وسّعها وبتتأهل لك وظائف أكثر."
+},
+"swSg1": {
+"en": "Add a city or go remote",
+"ar": "أضف مدينة أو عن بُعد"
+},
+"swSg1s": {
+"en": "You currently match roles in Riyadh and Jeddah",
+"ar": "حالياً تطابق وظائف في الرياض وجدة"
+},
+"swSg2": {
+"en": "Add a nearby role title",
+"ar": "أضف مسمى وظيفي قريب"
+},
+"swSg2s": {
+"en": "Senior Financial Analyst would widen your matches",
+"ar": "محلل مالي أول بيوسّع تطابقاتك"
+},
+"swSg3": {
+"en": "Review your salary floor",
+"ar": "راجع حدك الأدنى للراتب"
+},
+"swSg3s": {
+"en": "A small change can unlock many more roles",
+"ar": "تغيير بسيط يفتح لك وظائف أكثر بكثير"
+},
+"swMoreCta": {
+"en": "Broaden my preferences",
+"ar": "وسّع تفضيلاتي"
+},
+"swTailorT": {
+"en": "Tailor my CV to each job",
+"ar": "خصّص سيرتي لكل وظيفة"
+},
+"swTailorS": {
+"en": "Add CV Tailoring to have the AI rewrite your CV for each job before applying.",
+"ar": "أضف تخصيص السيرة الذاتية ليعيد الذكاء الاصطناعي كتابة سيرتك لكل وظيفة قبل التقديم."
+},
+"swPass": {
+"en": "Pass",
+"ar": "غير مهتم"
+},
+"swLaterBtn": {
+"en": "Later",
+"ar": "تخطى"
+},
+"swApply": {
+"en": "Apply",
+"ar": "قدّم"
+},
+"tPass": {
+"en": "Passed. Saved in Your swipes.",
+"ar": "تم الرفض. محفوظة عندك، ويمكنك التقديم عليها."
+},
+"tLater": {
+"en": "Saved for later. It will come back at the end of this deck.",
+"ar": "حُفظت لوقت لاحق. تعود لك في آخر هذه المجموعة."
+},
+"tAppliedBase": {
+"en": "Applied with your CV",
+"ar": "قدّمنا بسيرتك الذاتية"
+},
+"swLater": {
+"en": "saved for later, back tomorrow",
+"ar": "محفوظة لوقت لاحق، تعود غداً"
+},
+"pfH": {
+"en": "About you",
+"ar": "عنك"
+},
+"pfSub": {
+"en": "Employer application forms ask for these. Answer once and we fill them on every application.",
+"ar": "نماذج جهات العمل تسأل عن هذه المعلومات. أجب مرة واحدة ونعبئها في كل طلب."
+},
+"pfStatus": {
+"en": "Employment status",
+"ar": "الحالة الوظيفية"
+},
+"pfEmployed": {
+"en": "Employed",
+"ar": "موظف"
+},
+"pfUnemployed": {
+"en": "Unemployed",
+"ar": "غير موظف"
+},
+"pfBasics": {
+"en": "Basics",
+"ar": "الأساسيات"
+},
+"pfNat": {
+"en": "Nationality",
+"ar": "الجنسية"
+},
+"pfNatSA": {
+"en": "🇸🇦 Saudi",
+"ar": "🇸🇦 سعودية"
+},
+"pfNatGCC": {
+"en": "GCC",
+"ar": "خليجية"
+},
+"pfNatOther": {
+"en": "Other",
+"ar": "أخرى"
+},
+"pfNatEG": {
+"en": "🇪🇬 Egyptian",
+"ar": "🇪🇬 مصرية"
+},
+"pfNatJO": {
+"en": "🇯🇴 Jordanian",
+"ar": "🇯🇴 أردنية"
+},
+"pfNatSY": {
+"en": "🇸🇾 Syrian",
+"ar": "🇸🇾 سورية"
+},
+"pfNatYE": {
+"en": "🇾🇪 Yemeni",
+"ar": "🇾🇪 يمنية"
+},
+"pfNatSD": {
+"en": "🇸🇩 Sudanese",
+"ar": "🇸🇩 سودانية"
+},
+"pfNatPK": {
+"en": "🇵🇰 Pakistani",
+"ar": "🇵🇰 باكستانية"
+},
+"pfNatIN": {
+"en": "🇮🇳 Indian",
+"ar": "🇮🇳 هندية"
+},
+"pfNatPH": {
+"en": "🇵🇭 Filipino",
+"ar": "🇵🇭 فلبينية"
+},
+"pfCoSA": {
+"en": "🇸🇦 Saudi Arabia",
+"ar": "🇸🇦 السعودية"
+},
+"pfCoAE": {
+"en": "🇦🇪 United Arab Emirates",
+"ar": "🇦🇪 الإمارات"
+},
+"pfCoKW": {
+"en": "🇰🇼 Kuwait",
+"ar": "🇰🇼 الكويت"
+},
+"pfCoQA": {
+"en": "🇶🇦 Qatar",
+"ar": "🇶🇦 قطر"
+},
+"pfCoBH": {
+"en": "🇧🇭 Bahrain",
+"ar": "🇧🇭 البحرين"
+},
+"pfCoOM": {
+"en": "🇴🇲 Oman",
+"ar": "🇴🇲 عُمان"
+},
+"pfCoJO": {
+"en": "🇯🇴 Jordan",
+"ar": "🇯🇴 الأردن"
+},
+"pfCoEG": {
+"en": "🇪🇬 Egypt",
+"ar": "🇪🇬 مصر"
+},
+"pfGender": {
+"en": "Gender",
+"ar": "الجنس"
+},
+"pfFemale": {
+"en": "Female",
+"ar": "أنثى"
+},
+"pfMale": {
+"en": "Male",
+"ar": "ذكر"
+},
+"pfLoc": {
+"en": "Where you live now",
+"ar": "مكان إقامتك الحالي"
+},
+"pfCountry": {
+"en": "Country",
+"ar": "الدولة"
+},
+"pfCity": {
+"en": "City",
+"ar": "المدينة"
+},
+"pfSalary": {
+"en": "Salary, SAR a month",
+"ar": "الراتب، ريال بالشهر"
+},
+"pfSalCur": {
+"en": "Current",
+"ar": "الحالي"
+},
+"pfSalExp": {
+"en": "Expected",
+"ar": "المتوقع"
+},
+"pfSalHint": {
+"en": "Your expected salary sits right in the market range for your role, 34-41k.",
+"ar": "راتبك المتوقع داخل نطاق السوق لدورك، 34-41 ألف."
+},
+"pfCta": {
+"en": "Continue",
+"ar": "أكمل"
+},
+"lensProfile": {
+"en": "Employers ask the same questions on every portal. Answered once here, they are filled on every application after, and each field arrives prefilled so confirming beats typing.",
+"ar": "جهات العمل تسأل الأسئلة نفسها في كل بوابة. أجبت عنها مرة واحدة هنا فتُعبّأ في كل طلب بعدها، وكل حقل يصل جاهزاً فالتأكيد أسرع من الكتابة."
+}
+}

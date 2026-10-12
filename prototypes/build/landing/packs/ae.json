@@ -1,0 +1,302 @@
+{
+  "_about": "Uptal Auto-Apply landing page content pack: United Arab Emirates. Schema: see ../README.md. All string values are HTML fragments (escape & as &amp;). {{token}} expands to a value from `stats`; a stat with placeholder:true renders in the amber .ph placeholder style.",
+  "pack_version": 1,
+
+  "country": {
+    "code": "AE",
+    "name": { "en": "United Arab Emirates", "ar": "الإمارات العربية المتحدة" }
+  },
+
+  "title": {
+    "en": "Uptal Auto-Apply · Apply to Jobs Automatically in the UAE",
+    "ar": "منصة أبتال Uptal | التقديم التلقائي على الوظائف في الإمارات"
+  },
+  "meta_description": "Drop your CV once. Uptal's AI tailors it to every role that fits you and applies on your behalf across the UAE, every day.",
+
+  "app_link": "Uptal_AutoApply_v6_MultiMarket.html?persona=AE",
+
+  "flag_svg": "<svg viewBox=\"0 0 8 6\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\"><rect width=\"8\" height=\"2\" fill=\"#00732f\"/><rect y=\"2\" width=\"8\" height=\"2\" fill=\"#ffffff\"/><rect y=\"4\" width=\"8\" height=\"2\" fill=\"#000000\"/><rect width=\"2\" height=\"6\" fill=\"#ff0000\"/></svg>",
+
+  "placeholder_tooltip": {
+    "en": "Placeholder: replace with real UAE data",
+    "ar": "قيمة مؤقتة: تُستبدل ببيانات الإمارات الفعلية (Placeholder)"
+  },
+
+  "stats": {
+    "jobs_total": {
+      "en": "60K+", "ar": "60K+", "placeholder": true,
+      "where": "Hero live card, big number (\"jobs in the UAE\")",
+      "replace_with": "Live count of active UAE job postings in the jobs index that Uptal can apply to (KSA page shows 95K+)."
+    },
+    "new_week": {
+      "en": "17,000+", "ar": "+17,000", "placeholder": true,
+      "where": "Hero live card, green chip (\"new this week\")",
+      "replace_with": "Number of new UAE postings ingested in the last 7 days (KSA page shows 26,859+)."
+    },
+    "orgs": {
+      "en": "3,600", "ar": "3,600", "placeholder": true,
+      "where": "\"Where we apply\" band headline (\"We apply to more than N organizations\")",
+      "replace_with": "Distinct UAE employers Uptal has applied to or can apply to, de-duplicated across sources (KSA page shows 5,700)."
+    },
+    "new_jobs": {
+      "en": "20K+", "ar": "20 ألف", "placeholder": true,
+      "where": "How it works, step 2 (\"Up to 300 applications a month from N new jobs\")",
+      "replace_with": "New UAE jobs per month feeding the matcher (KSA page shows 30K+). Arabic form is written out (\"20 ألف\")."
+    },
+    "more_roles": {
+      "en": "345", "ar": "345", "placeholder": true,
+      "where": "Tailoring card, \"Plus N more, each tailored for you\"",
+      "replace_with": "A typical number of matched UAE roles for one CV (median from the UAE matcher), or keep as an illustrative figure (KSA page shows 546)."
+    },
+    "candidates": {
+      "en": "1,500+", "ar": "1,500", "placeholder": true,
+      "where": "Testimonials header (\"Trusted by N candidates across the Gulf\")",
+      "replace_with": "Total Uptal candidates across the Gulf (KSA + UAE). KSA alone showed 1,542+, so 1,500+ is a safe floor; replace with the live total."
+    },
+    "countries": {
+      "en": "40", "ar": "٤٠", "placeholder": true,
+      "where": "FAQ \"Is the service for Emiratis only?\" (\"subscribers from more than N countries\")",
+      "replace_with": "Number of countries/nationalities among current subscribers (KSA page says more than 40)."
+    }
+  },
+
+  "text": {
+    "en": {
+      "badge": "Now in the UAE",
+      "hero_eyebrow": "AI Auto-Apply · UAE",
+      "hero_lead": "Drop your CV once. Our AI reads your qualifications and applies on your behalf to <strong>only the roles you actually fit</strong>, across all seven emirates, every single day. You just take the interviews.",
+      "live_big": "{{jobs_total}}",
+      "live_unit": "jobs in the UAE",
+      "live_today": "{{new_week}} new this week",
+      "live_sub": "New jobs added across the UAE, every day",
+      "board_meta": "Across all 7 emirates",
+      "tb_h2": "We apply to more than <span class=\"tb-num\">{{orgs}}</span> organizations",
+      "tb_sub": "Government and semi-government entities, multinationals, banks, free-zone companies, healthcare, retail, aviation and more, across the UAE.",
+      "how_step2": "Our AI rewrites your CV uniquely for each role, matching its exact keywords, then submits it across the UAE's major job boards. Up to 300 applications a month from {{new_jobs}} new jobs.",
+      "cv_city": "Dubai",
+      "more_txt": "Plus <b>{{more_roles}}</b> more, each tailored for you",
+      "card_note": "Example roles and employers, shown for illustration.",
+      "ft_types": "Government, private, free zone and more",
+      "testi_eyebrow": "From our members in Saudi Arabia",
+      "testi_trust": "Trusted by <b>{{candidates}}</b> candidates across the Gulf, and now open to job seekers in the UAE."
+    },
+    "ar": {
+      "badge": "متاح الآن في الإمارات",
+      "hero_eyebrow": "تقديم تلقائي بالذكاء الاصطناعي · الإمارات",
+      "hero_lead": "ارفع سيرتك الذاتية مرة وحدة، والذكاء الاصطناعي يقرأ مؤهلاتك وخبراتك ويقدّم لك <strong>على الوظائف اللي تناسبك</strong> كل يوم، في كل إمارات الدولة. وأنت بس تجهّز نفسك للمقابلات.",
+      "live_big": "{{jobs_total}}",
+      "live_unit": "وظيفة نشطة في الإمارات الآن",
+      "live_today": "{{new_week}} وظيفة جديدة هذا الأسبوع",
+      "live_sub": "وظائف جديدة تُضاف كل يوم في كل أنحاء الإمارات",
+      "board_meta": "في كل الإمارات السبع",
+      "tb_h2": "نقدّم على أكثر من <span class=\"tb-num\">{{orgs}}</span> جهة عمل",
+      "tb_sub": "جهات حكومية وشبه حكومية، وشركات عالمية، وبنوك، وشركات المناطق الحرة، وقطاع صحي، وتجزئة، وطيران وغيرها، في كل أنحاء الإمارات.",
+      "how_step2": "يعيد الذكاء الاصطناعي كتابة سيرتك الذاتية بشكل دقيق واحترافي لكل وظيفة، بحيث يطابق كلماتها المفتاحية، ثم يقدّم لك عليها في أهم مواقع التوظيف في الإمارات: حتى 300 وظيفة شهريًا من بين أكثر من {{new_jobs}} وظيفة جديدة.",
+      "cv_city": "دبي",
+      "more_txt": "و<b>{{more_roles}}</b> وظيفة أخرى، كلها مُخصّصة لك",
+      "card_note": "الوظائف وجهات العمل المعروضة أمثلة للتوضيح فقط.",
+      "ft_types": "حكومي، خاص، مناطق حرة وغيرها",
+      "testi_eyebrow": "من مشتركينا في السعودية",
+      "testi_trust": "موثوق من <b>أكثر من {{candidates}}</b> مرشّح في الخليج، والحين صار متاح للباحثين عن عمل في الإمارات."
+    }
+  },
+
+  "sector_tags": {
+    "en": [
+      { "label": "Government", "on": true },
+      { "label": "Semi-gov", "on": true },
+      { "label": "Multinationals", "on": true },
+      { "label": "Private" },
+      { "label": "Free zone" },
+      { "label": "Startups" },
+      { "label": "SMEs" }
+    ],
+    "ar": [
+      { "label": "حكومي", "on": true },
+      { "label": "شبه حكومي", "on": true },
+      { "label": "شركات عالمية", "on": true },
+      { "label": "قطاع خاص" },
+      { "label": "مناطق حرة" },
+      { "label": "شركات ناشئة" },
+      { "label": "منشآت صغيرة" }
+    ]
+  },
+
+  "targeting": {
+    "cities": {
+      "en": [
+        { "label": "Dubai", "on": true },
+        { "label": "Abu Dhabi", "on": true },
+        { "label": "Sharjah" },
+        { "label": "Remote" }
+      ],
+      "ar": [
+        { "label": "دبي", "on": true },
+        { "label": "أبوظبي", "on": true },
+        { "label": "الشارقة" },
+        { "label": "عن بُعد" }
+      ]
+    },
+    "company_types": {
+      "en": [
+        { "label": "Government", "on": true },
+        { "label": "Semi-gov", "on": true },
+        { "label": "Multinationals" },
+        { "label": "Private" },
+        { "label": "Free zone" },
+        { "label": "Startups" }
+      ],
+      "ar": [
+        { "label": "حكومي", "on": true },
+        { "label": "شبه حكومي", "on": true },
+        { "label": "شركات عالمية" },
+        { "label": "قطاع خاص" },
+        { "label": "مناطق حرة" },
+        { "label": "شركات ناشئة" }
+      ]
+    }
+  },
+
+  "tailoring": {
+    "rows": [
+      {
+        "mono": "AD",
+        "title": { "en": "Director, Operations", "ar": "مدير العمليات" },
+        "sub": { "en": "Energy · Abu Dhabi", "ar": "الطاقة · أبوظبي" },
+        "keywords": ["HSE", "Reliability", "Turnaround"],
+        "fit": 97
+      },
+      {
+        "mono": "du",
+        "title": { "en": "VP, Strategy", "ar": "نائب الرئيس للاستراتيجية" },
+        "sub": { "en": "Telecom · Dubai", "ar": "الاتصالات · دبي" },
+        "keywords": ["M&amp;A", "Digital", "Transformation"],
+        "fit": 94
+      }
+    ],
+    "more_monos": ["E", "F", "D"]
+  },
+
+  "employers": {
+    "_note": "Typeset wordmarks (not logos) for the 'Where we apply' marquee. style: title | caps | lower. s: optional size multiplier. sub: optional second line in small caps. label: optional full name for screen readers when name+sub is not the full name.",
+    "rows": [
+      [
+        { "name": "Emirates" },
+        { "name": "ADNOC", "style": "caps" },
+        { "name": "Emirates NBD" },
+        { "name": "e&amp;", "style": "lower", "s": 1.45, "label": "e&amp;" },
+        { "name": "Emaar", "style": "caps" },
+        { "name": "DP World", "style": "caps" },
+        { "name": "Mubadala" },
+        { "name": "Majid Al Futtaim" },
+        { "name": "careem", "style": "lower", "s": 1.15, "label": "Careem" },
+        { "name": "Cleveland Clinic", "sub": "Abu Dhabi" },
+        { "name": "First Abu Dhabi Bank" },
+        { "name": "Masdar", "style": "caps" },
+        { "name": "noon", "style": "lower", "s": 1.3 },
+        { "name": "flydubai", "style": "lower", "s": 1.1 },
+        { "name": "G42", "style": "caps", "s": 1.15 }
+      ],
+      [
+        { "name": "Etihad", "sub": "Airways" },
+        { "name": "ENOC", "style": "caps" },
+        { "name": "ADCB", "style": "caps" },
+        { "name": "du", "style": "lower", "s": 1.5 },
+        { "name": "Aldar", "style": "caps" },
+        { "name": "Dubai Holding" },
+        { "name": "Al-Futtaim" },
+        { "name": "talabat", "style": "lower", "s": 1.15 },
+        { "name": "Mediclinic", "sub": "Middle East" },
+        { "name": "Mashreq" },
+        { "name": "EGA", "style": "caps", "s": 1.1, "label": "Emirates Global Aluminium (EGA)" },
+        { "name": "Aster", "sub": "Hospitals &amp; Clinics" },
+        { "name": "Dubai Islamic Bank" },
+        { "name": "Air Arabia" },
+        { "name": "PwC", "sub": "Middle East", "s": 1.1 }
+      ]
+    ],
+    "note": {
+      "en": "Example employers, shown for illustration.",
+      "ar": "أمثلة على جهات العمل، للتوضيح فقط."
+    }
+  },
+
+  "faq": {
+    "en": [
+      { "q": "How does Uptal apply to jobs for me?",
+        "a": "Tell us your target roles and cities once, and Uptal tailors a fresh CV for each opening and submits the application under your name, automatically, every day. You stay hands-free while the applications go out." },
+      { "q": "Is it really hands-free, or do I have to manage it?",
+        "a": "It's genuinely hands-free. After your one-time setup, Uptal applies for you automatically every day, with no logins, no copy-pasting, and no forms to fill. You only step in when an interview lands in your inbox." },
+      { "q": "Do I choose which jobs and companies I apply to?",
+        "a": "Always. You set your cities, target roles, and the kinds of companies you want, and Uptal applies only to openings that match, never the rest. You stay in control the whole way." },
+      { "q": "Do I need to rewrite my CV first?",
+        "a": "No rewriting on your end. Upload your CV once and Uptal rebuilds a uniquely tailored version for every job, mirroring the wording recruiters and applicant tracking systems look for." },
+      { "q": "Where does Uptal apply for me?",
+        "a": "Across every major source of jobs in the UAE, refreshed daily, so you reach new openings the day they go live. You set the cities and company types, from government and semi-government to free-zone companies, and Uptal only applies where it fits you." },
+      { "q": "When will I see results?",
+        "a": "Applying starts from day one of your subscription. Response timing is up to the employer advertising the role, not up to Uptal, so we cannot promise a result or a date.\nSome candidates start receiving replies from recruiters within the first two weeks. A reply can be an interview invitation or a rejection.\nWhat speeds this up: widen your preferences across job titles, cities and sectors. The more roles that match you, the more applications go out and the better your chances of an interview." },
+      { "q": "Will recruiters know an AI applied for me?",
+        "a": "Each application goes out as a polished, professional submission in your name, with a CV genuinely tailored to that role. Recruiters simply see a strong, relevant candidate, which is exactly what you are." },
+      { "q": "I'm currently employed. Can my search stay private?",
+        "a": "Absolutely. Your search runs quietly in the background, and applications go only to employers you've approved, so you can explore new roles without broadcasting that you're looking." },
+      { "q": "Which seniority levels and industries do you cover?",
+        "a": "From early-career to senior and leadership roles, across most industries in the UAE, from government and semi-government entities to multinationals and free-zone companies. You define the level and fields you want, and Uptal matches accordingly." },
+      { "q": "Is Uptal available across the whole UAE?",
+        "a": "Yes. We're built for job seekers throughout the country, applying to roles in whichever cities you choose: Dubai, Abu Dhabi, Sharjah, Ajman, Al Ain, Ras Al Khaimah, Fujairah or Umm Al Quwain." },
+      { "q": "What happens after an application is sent?",
+        "a": "Your tailored application lands with the employer, and any recruiter replies or interview invitations come straight to you. The conversation is entirely yours, while Uptal keeps applying to fresh roles in the background." },
+      { "q": "Can I pause or cancel anytime?",
+        "a": "Yes. Pause whenever you need a break and pick up right where you left off, or cancel at any time with no commitment. You're never locked in." },
+      { "q": "How does the platform work?",
+        "a": "You upload your CV, the AI analyses it and identifies the roles that fit you. It then prepares a version of your CV tailored to each role and applies on your behalf, and it keeps searching and applying for as long as your subscription is active. You can track every application from your account." },
+      { "q": "Can I choose which jobs the AI applies to?",
+        "a": "Yes. You have two modes and you can switch between them any time from your account:\n• Auto-apply on: the system applies to the roles that fit you directly, without checking with you on each one.\n• Auto-apply off: matching roles are shown to you one at a time. Swipe right to apply, swipe left to skip." },
+      { "q": "Does Uptal guarantee a job?",
+        "a": "No. Uptal does not guarantee a job, a job offer, or an interview. What Uptal does guarantee is that it keeps searching for suitable roles and applying to them with a CV tailored to each one." },
+      { "q": "Is the service for Emiratis only?",
+        "a": "No. The service is open to all nationalities looking to work in the UAE, whether you're already in the country or applying from abroad. We currently have subscribers from more than {{countries}} countries. The roles we apply to are roles in the UAE market, and the hiring decision always rests with the employer.\nUnder the UAE's Emiratisation programme, some private-sector roles are prioritised for UAE nationals, and some government roles are open to UAE nationals only. Uptal only applies where you're eligible." },
+      { "q": "How is my account created?",
+        "a": "As soon as you upload your CV, the AI creates an account using the email listed on it. The account is activated once your payment is complete." },
+      { "q": "What do I do if the email on my CV is wrong?",
+        "a": "Contact support and open a ticket. The team will correct the email and activate your account within a maximum of two working days (Monday to Friday)." }
+    ],
+    "ar": [
+      { "q": "كيف يقدّم أبتال للوظائف بدالي؟",
+        "a": "حدد الوظائف والمدن اللي تبيها، وأبتال يكتب لك سيرة ذاتية جديدة لكل وظيفة ويقدّم باسمك كل يوم." },
+      { "q": "فعلًا بدون متابعة، ولا لازم أتابعه؟",
+        "a": "بعد ما تجهّز حسابك مرة وحدة، يقدّم لك النظام يوميًا وبشكل تلقائي على كل الوظائف اللي تناسب خبراتك. ما تسوي شي إلا لمّا توصلك مقابلة على إيميلك." },
+      { "q": "مين اللي يختار وين يقدّم الذكاء الاصطناعي على الوظائف والشركات؟",
+        "a": "أنت تحدد كل شي: المدينة ونوع الشركات اللي تبيها، وأبتال يقدّم حسب اختيارك على الوظائف اللي تناسبك. عندك تحكم كامل من البداية للنهاية." },
+      { "q": "لازم أعيد كتابة سيرتي الذاتية أول؟",
+        "a": "لا، لا تشيل هم. ارفع سيرتك الذاتية المحدثة مرة وحدة، وأبتال يبني نسخة مخصّصة لكل وظيفة، تحاكي الصيغة اللي يدوّر عليها مسؤولين التوظيف وأنظمة فرز المتقدّمين (ATS)." },
+      { "q": "وين يقدّم لي أبتال؟",
+        "a": "يقدّم لك أبتال على كل الوظائف المتاحة والمناسبة لخبراتك في الإمارات، ويبحث كل يوم عن وظائف جديدة تناسبك ويقدّم لك عليها أول ما تنزل. أنت تحدّد المدن وأنواع الشركات، من الجهات الحكومية وشبه الحكومية إلى شركات المناطق الحرة، وأبتال يقدّم على اللي يناسبك." },
+      { "q": "متى أشوف النتائج؟",
+        "a": "التقديم يبدأ من أول يوم من اشتراكك. توقيت الردود يرجع للجهة المعلنة عن الوظيفة، مو لمنصة أبتال، فما نقدر نضمن نتيجة ولا موعد.\nبعض المرشّحين يبدأون يستقبلون ردود من مسؤولي التوظيف خلال أول أسبوعين، والرد ممكن يكون دعوة مقابلة أو اعتذار.\nاللي يسرّع النتائج: وسّع تفضيلاتك في المسميات الوظيفية والمدن والقطاعات. كل ما زادت الوظائف المناسبة لك، زادت التقديمات وزادت فرص المقابلة." },
+      { "q": "مسؤولين التوظيف يعرفون إن الذكاء الاصطناعي قدّم عني؟",
+        "a": "كل تقديم يطلع باسمك بشكل احترافي ومرتّب، وبسيرة ذاتية مخصّصة فعلًا للوظيفة. مسؤول التوظيف يشوف مرشّح قوي ومناسب." },
+      { "q": "أنا موظّف حاليًا. هل بحثي عن وظائف والتقديم عليها يكون بشكل سرّي؟",
+        "a": "أكيد. الطلبات تروح فقط للجهات اللي وافقت عليها واخترتها." },
+      { "q": "شو مستويات الخبرة والقطاعات اللي تغطّونها؟",
+        "a": "من حديثي التخرج إلى الوظائف العليا والقيادية، في أغلب القطاعات في الإمارات، من الجهات الحكومية وشبه الحكومية إلى الشركات العالمية وشركات المناطق الحرة. أنت تحدّد اللي تبيه، وأبتال يقدّم على هذا الأساس." },
+      { "q": "أبتال متوفّر في كل الإمارات؟",
+        "a": "نعم. نقدّم لك على الوظائف في المدن اللي تختارها في كل أنحاء الدولة: دبي، أبوظبي، الشارقة، عجمان، العين، رأس الخيمة، الفجيرة، وأم القيوين." },
+      { "q": "شو يصير بعد ما يتم التقديم؟",
+        "a": "بعد التقديم على جهة العمل، أي ردود أو دعوات مقابلات تجيك مباشرة على إيميلك وكأنك قدمت بنفسك. ويستمر أبتال بالتقديم على الوظائف الجديدة اللي تناسبك بشكل يومي." },
+      { "q": "أقدر أوقف الاشتراك بشكل مؤقّت أو ألغي الاشتراك في أي وقت؟",
+        "a": "نعم. تقدر توقّفه بشكل مؤقّت وقت ما تبي وترجع تفعل الاشتراك وقت ما تحتاجه، أو تلغي الاشتراك في أي وقت بدون التزام." },
+      { "q": "ما هي آلية عمل المنصة؟",
+        "a": "ترفع سيرتك الذاتية، والذكاء الاصطناعي يحللها ويحدد الوظائف المناسبة لك، بعدها يجهّز نسخة من سيرتك مخصصة لكل وظيفة ويقدّم عليها نيابةً عنك، ويستمر في البحث والتقديم طول فترة اشتراكك. وتقدر تتابع كل وظيفة تم التقديم عليها من حسابك." },
+      { "q": "هل أقدر أختار الوظائف اللي يقدّم لي عليها الذكاء الاصطناعي؟",
+        "a": "نعم. عندك وضعين وتقدر تبدّل بينهم في أي وقت من حسابك:\n• التقديم التلقائي مفعّل: النظام يقدّم على الوظائف المناسبة لك مباشرة، بدون ما يرجع لك في كل وظيفة.\n• التقديم التلقائي معطل: الوظائف المناسبة تظهر لك وحدة وحدة، تسحب يمين عشان يقدّم عليها، وتسحب يسار عشان يتخطاها." },
+      { "q": "هل يضمن لك أبتال وظيفة؟",
+        "a": "منصة أبتال لا تضمن الحصول على وظيفة أو على عرض وظيفي أو على مقابلة شخصية. الضمان اللي تقدّمه منصة أبتال هو الاستمرار في البحث عن الوظائف المناسبة والتقديم عليها بسيرة ذاتية مخصصة لكل وظيفة." },
+      { "q": "هل الخدمة للمواطنين الإماراتيين فقط؟",
+        "a": "لا، الخدمة متاحة لجميع الجنسيات الراغبة في العمل في الإمارات، سواء كنت داخل الدولة أو خارجها. حالياً عندنا مشتركين من أكثر من {{countries}} دولة. الوظائف اللي نقدّم عليها هي وظائف داخل سوق العمل الإماراتي، وقرار التوظيف يعود لصاحب العمل.\nضمن برنامج التوطين في الإمارات، بعض وظائف القطاع الخاص تكون الأولوية فيها للمواطنين، وبعض الوظائف الحكومية مخصّصة للمواطنين فقط. وأبتال يقدّم لك بس على الوظائف اللي تنطبق عليك شروطها." },
+      { "q": "كيف يتم إنشاء الحساب؟",
+        "a": "بمجرد رفع السيرة الذاتية يقوم الذكاء الاصطناعي بإنشاء حسابك باستخدام إيميلك المسجل في السيرة الذاتية، ويتم تفعيل الحساب بعد إكمال عملية الدفع." },
+      { "q": "شو أسوي إذا إيميلي اللي في السيرة الذاتية كان خطأ؟",
+        "a": "تقدر تتواصل مع الدعم الفني وتفتح تذكرة، وراح يقوم الفريق بتعديل الإيميل وتفعيل الحساب خلال مدة أقصاها يومين عمل (من الاثنين إلى الجمعة)." }
+    ]
+  }
+}

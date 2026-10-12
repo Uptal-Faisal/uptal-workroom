@@ -1,0 +1,602 @@
+{
+"otSub2": {
+"en": ". It expires in 10 minutes.",
+"ar": ". ينتهي خلال 10 دقايق."
+},
+"otChange": {
+"en": "Wrong email? Change it",
+"ar": "البريد غلط؟ غيّره"
+},
+"otNo": {
+"en": "Did not get it?",
+"ar": "ما وصلك؟"
+},
+"otResend": {
+"en": "Resend code",
+"ar": "أعد إرسال الرمز"
+},
+"otIn": {
+"en": "in",
+"ar": "خلال"
+},
+"otSec": {
+"en": "s",
+"ar": " ث"
+},
+"otChecking": {
+"en": "Checking your code",
+"ar": "نتحقق من الرمز"
+},
+"otOk": {
+"en": "You are in",
+"ar": "دخلت"
+},
+"otSentT": {
+"en": "Code sent. Check your inbox.",
+"ar": "انرسل الرمز. افحص بريدك"
+},
+"lensOtp": {
+"en": "One code is the whole ceremony. We say exactly where it went, a wrong email is fixable in one tap, and resend unlocks after 30 seconds, no dead ends.",
+"ar": "كل الاحتكاك رمز واحد. نقول لك وين انرسل بالضبط، والبريد الغلط يتصحح بضغطة، وإعادة الإرسال تفتح بعد 30 ثانية."
+},
+"acSignin": {
+"en": "Sign in",
+"ar": "الدخول"
+},
+"acEmailT": {
+"en": "Login email",
+"ar": "بريد الدخول"
+},
+"emShT": {
+"en": "Change your login email",
+"ar": "غيّر بريد الدخول"
+},
+"emShS": {
+"en": "We will send a code to the new address to confirm it before it becomes your sign in email.",
+"ar": "نرسل رمز تأكيد للعنوان الجديد قبل أن يصبح بريد دخولك."
+},
+"emShCta": {
+"en": "Save and send confirmation",
+"ar": "احفظ وأرسل التأكيد"
+},
+"emSent": {
+"en": "Confirmation code sent to your new email",
+"ar": "انرسل رمز التأكيد لبريدك الجديد"
+},
+"lgNoAcct": {
+"en": "No account for this email yet. Upload your CV and we create one for you.",
+"ar": "لا يوجد حساب لهذا البريد بعد. ارفع سيرتك وننشئ لك حساباً تلقائياً"
+},
+"emSame": {
+"en": "That is already your login email",
+"ar": "هذا هو بريد دخولك الحالي"
+},
+"cvvUp": {
+"en": "Upload a new CV",
+"ar": "ارفع سيرة جديدة"
+},
+"cvvUpS": {
+"en": "New experience or the wrong file? Replace it in a minute",
+"ar": "خبرة جديدة أو ملف غلط؟ بدّلها في دقيقة"
+},
+"cvvEdS": {
+"en": "Fix wording or add a new achievement",
+"ar": "صحّح صياغة أو أضف إنجاز جديد"
+},
+"cvvDlS": {
+"en": "A clean copy of your CV",
+"ar": "نسخة نظيفة من سيرتك الذاتية"
+},
+"cvvNote": {
+"en": "Changes apply from your next application. Applications already sent keep the version they went out with.",
+"ar": "التغييرات تسري من تقديمك القادم. الوظائف التي قدّمنا عليها تبقى بالنسخة التي أُرسلت بها."
+},
+"cvvSubNew": {
+"en": "This is the CV employers receive, exactly as you saved it. Updated just now.",
+"ar": "هذه السيرة التي تصل جهات العمل، كما حفظتها بالضبط. حُدّثت الآن."
+},
+"pr5sNew": {
+"en": "Updated just now",
+"ar": "حُدّثت الآن"
+},
+"cvEditDone": {
+"en": "Done editing",
+"ar": "خلصت التعديل"
+},
+"cvWrong": {
+"en": "Uploaded the wrong file? Replace it",
+"ar": "رفعت الملف الغلط؟ بدّله"
+},
+"cveBack": {
+"en": "Your CV",
+"ar": "سيرتك"
+},
+"cveH": {
+"en": "Edit your CV",
+"ar": "عدّل سيرتك الذاتية"
+},
+"cveSub": {
+"en": "Change anything. Employers receive it exactly as you save it.",
+"ar": "غيّر ما تبي. جهات العمل تستلمها كما تحفظها بالضبط."
+},
+"cveHint": {
+"en": "Tap any line and type.",
+"ar": "اضغط أي سطر وعدّله مباشرة."
+},
+"cveTip": {
+"en": "Keep the numbers. A line like \"cut reporting time by 30%\" gets more recruiter replies than any adjective.",
+"ar": "احتفظ بالأرقام. سطر مثل \"قلّصت وقت التقارير بنسبة 30٪\" يجلب ردوداً من مسؤولي التوظيف أكثر من أي وصف."
+},
+"cveCta": {
+"en": "Save changes",
+"ar": "احفظ التعديلات"
+},
+"lensCvEdit": {
+"en": "Every edit deepens ownership. A CV the user helped write is one they trust us to send, and one more thing they built that they would lose by leaving.",
+"ar": "كل تعديل يعمّق التملّك. سيرة شارك المستخدم في كتابتها يثق بإرسالنا لها، وشيء إضافي بناه بنفسه يخسره لو غادر."
+},
+"cvuBack": {
+"en": "Your CV",
+"ar": "سيرتك"
+},
+"cvuH": {
+"en": "Upload a new CV",
+"ar": "ارفع سيرة جديدة"
+},
+"cvuSub": {
+"en": "PDF or Word, up to 10 MB. We read it and re-tune your matches.",
+"ar": "PDF أو Word حتى 10 MB. نقرأها ونعيد ضبط مطابقاتك."
+},
+"cvuDrop": {
+"en": "Choose a file",
+"ar": "اختر ملف"
+},
+"cvuDropS": {
+"en": "or drop it here",
+"ar": "أو اسحبه هنا"
+},
+"cvuPickedS": {
+"en": "Ready to read",
+"ar": "جاهز للقراءة"
+},
+"cvuCta": {
+"en": "Read my new CV",
+"ar": "اقرأ سيرتي الجديدة"
+},
+"cvuEditLink": {
+"en": "Only fixing a line or two? Edit your current CV instead",
+"ar": "تعديلات بسيطة بس؟ عدّل سيرتك الحالية بدالها"
+},
+"cvuTrust": {
+"en": "This is the file employers receive, exactly as you save it. Nothing goes out until you approve what we found.",
+"ar": "هذا الملف هو ما تستلمه جهات العمل، كما تحفظه بالضبط. ولا يُرسل شيء قبل أن تعتمد ما وجدناه."
+},
+"lensCvUp": {
+"en": "One file from the user, two jobs done by us: re-read and re-tune. Replacing a CV feels like a minute of work, not starting over.",
+"ar": "ملف واحد من المستخدم ومهمتان علينا: نقرأ من جديد، ونعيد الضبط. تبديل السيرة يصبح دقيقة عمل، لا بداية من الصفر."
+},
+"cvpH": {
+"en": "Reading your new CV",
+"ar": "نقرأ سيرتك الجديدة"
+},
+"cvpS1": {
+"en": "Reading the file",
+"ar": "نقرأ الملف"
+},
+"cvpS2": {
+"en": "Finding what is new",
+"ar": "نحدد الجديد فيها"
+},
+"cvpS3": {
+"en": "Re-tuning your matches",
+"ar": "نعيد ضبط مطابقاتك"
+},
+"cvpS4": {
+"en": "Preparing what changed",
+"ar": "نجهّز ما تغيّر"
+},
+"cvpNote": {
+"en": "Takes about a minute. You can leave, we will notify you when it is ready.",
+"ar": "تأخذ حوالي دقيقة. يمكنك الخروج، وسننبهك عند جاهزيتها."
+},
+"cvrBack": {
+"en": "Your CV",
+"ar": "سيرتك"
+},
+"cvrH": {
+"en": "Here is what we found",
+"ar": "هذا ما وجدناه"
+},
+"cvrSub": {
+"en": "Your new CV against your old one. Nothing changes until you approve.",
+"ar": "سيرتك الجديدة مقابل القديمة. لا يتغير شيء إلا بعد موافقتك."
+},
+"cvrNewT": {
+"en": "What is new",
+"ar": "ما الجديد"
+},
+"cvrD1": {
+"en": "Promotion to Senior Financial Analyst",
+"ar": "ترقية إلى محلل مالي أول"
+},
+"cvrD1s": {
+"en": "Acme Financial, January 2026",
+"ar": "أكمي فاينانشال، يناير 2026"
+},
+"cvrD2": {
+"en": "New skill: Power BI dashboards",
+"ar": "مهارة جديدة: لوحات Power BI"
+},
+"cvrD2s": {
+"en": "Found in your skills and summary",
+"ar": "وجدناها في مهاراتك وملخصك"
+},
+"cvrD3": {
+"en": "You now lead a team of 3 analysts",
+"ar": "صرت تقود فريق من 3 محللين"
+},
+"cvrD3s": {
+"en": "Found at the top of your experience",
+"ar": "وجدناها في أعلى خبراتك"
+},
+"cvrPaperT": {
+"en": "Your new CV",
+"ar": "سيرتك الذاتية الجديدة"
+},
+"cvrLeg": {
+"en": "Highlighted = new since your last CV",
+"ar": "المظلّل = جديد عن سيرتك السابقة"
+},
+"cvrRaise": {
+"en": "Raise your salary floor to 34,000 ¤",
+"ar": "ارفع حد راتبك إلى 34,000 ¤"
+},
+"cvrRaiseS": {
+"en": "Senior Financial Analyst roles in Riyadh pay 38-45k ¤",
+"ar": "وظيفة محلل مالي أول في الرياض تدفع 38-45 ألف ¤"
+},
+"cvrNote": {
+"en": "Applications already sent keep the CV they went out with. Every new application uses this one.",
+"ar": "الوظائف التي تم التقديم عليها تبقى بالسيرة التي أُرسلت معها. وكل تقديم جديد يستخدم هذه."
+},
+"cvrCta": {
+"en": "Use this CV from now on",
+"ar": "استخدم هذه السيرة من الآن"
+},
+"cvrKeep": {
+"en": "Keep my current CV",
+"ar": "أبقِ سيرتي الحالية"
+},
+"pr3wNew": {
+"en": "Market 38-45k",
+"ar": "السوق 38-45 ألف"
+},
+"ytWarnNew": {
+"en": "Market is 38-45k, see why",
+"ar": "السوق 38-45 ألف، شوف ليش"
+},
+"lensCvRev": {
+"en": "We surface what improved and pre-tune Auto-Apply to match, so the user confirms instead of rebuilding. The new CV already feels like theirs.",
+"ar": "نبرز ما تحسّن ونضبط التقديم التلقائي عليه مسبقاً، فيؤكّد المستخدم بدل أن يعيد البناء. والسيرة الجديدة تبدو منذ البداية ملكه."
+},
+"tCvSaved": {
+"en": "Saved. Auto-Apply uses this from the next application.",
+"ar": "انحفظت. التقديم التلقائي يستخدمها من التقديم القادم."
+},
+"tCvNew": {
+"en": "Auto-Apply now applies with your new CV.",
+"ar": "التقديم التلقائي يقدّم الآن بسيرتك الجديدة."
+},
+"tCvDlB": {
+"en": "Downloading your CV",
+"ar": "ننزّل سيرتك الذاتية"
+},
+"uhHi": {
+"en": "Good morning, Noura.",
+"ar": "صباح الخير نورة."
+},
+"uhMileT": {
+"en": "Interview confirmed, Thursday 10:00.",
+"ar": "المقابلة مؤكدة، الخميس 10:00."
+},
+"uhMileS": {
+"en": "Head of Finance at Rewaa. You did the hard part, now walk in ready.",
+"ar": "رئيس الإدارة المالية في رِوّاء. أنجزت الجزء الصعب، والآن ادخل وأنت جاهز."
+},
+"uhPrep": {
+"en": "Prep with an advisor",
+"ar": "جهّز نفسك مع مستشار"
+},
+"uhAi": {
+"en": "Practice with AI first",
+"ar": "تدرّب مع الذكاء الاصطناعي أولاً"
+},
+"uhBooked": {
+"en": "Wednesday 19:00 · Interview prep with Layla Al-Otaibi",
+"ar": "الأربعاء 19:00 · تحضير مقابلة مع ليلى العتيبي"
+},
+"uhView": {
+"en": "View",
+"ar": "التفاصيل"
+},
+"uhOfferH": {
+"en": "Landed a job or got an offer?",
+"ar": "حصلت على وظيفة أو عرض؟"
+},
+"uhOfferYes": {
+"en": "I got an offer",
+"ar": "حصلت على عرض"
+},
+"uhHiredYes": {
+"en": "I got hired",
+"ar": "توظّفت"
+},
+"uhGrowT": {
+"en": "Get interview-ready with an advisor",
+"ar": "جهّز نفسك للمقابلة مع مستشار"
+},
+"uhGrowS": {
+"en": "Interview prep, negotiation, and CV review with vetted experts",
+"ar": "تحضير مقابلات، تفاوض، ومراجعة سيرة مع مختصين معتمدين"
+},
+"uhActivity": {
+"en": "Latest",
+"ar": "الأحدث"
+},
+"uhF1": {
+"en": "Recruiter viewed your application",
+"ar": "مسؤول توظيف شاف طلبك"
+},
+"uhF1s": {
+"en": "stc · Riyadh",
+"ar": "stc · الرياض"
+},
+"uhF2": {
+"en": "Applied",
+"ar": "تم التقديم"
+},
+"uhF2s": {
+"en": "Senior Financial Analyst · Aramco",
+"ar": "محلل مالي أول · أرامكو"
+},
+"uhNew": {
+"en": "new",
+"ar": "جديد"
+},
+"uhStub": {
+"en": "This demo focuses on Advisors. The rest of the app is stubbed here.",
+"ar": "هذا العرض يركّز على المستشارين. باقي التطبيق هنا مجرد نماذج."
+},
+"uhAiH": {
+"en": "Two ways to prepare",
+"ar": "طريقتان للتحضير"
+},
+"uhAiSub": {
+"en": "Both get you ready for Thursday. They do different jobs.",
+"ar": "الطريقتان تجهّزانك للخميس، وكل واحدة لها دور مختلف."
+},
+"uhAiT1": {
+"en": "AI practice",
+"ar": "التدريب مع الذكاء الاصطناعي"
+},
+"uhAiPer": {
+"en": "per session",
+"ar": "للجلسة"
+},
+"uhAiS1": {
+"en": "Instant, with unlimited retakes, any hour of the night. It lives in the main Uptal app.",
+"ar": "فوري، وبإعادات غير محدودة، وفي أي ساعة من الليل. موجود في تطبيق أبتال الرئيسي."
+},
+"uhAiT2": {
+"en": "Human advisor",
+"ar": "مستشار بشري"
+},
+"uhAiPer2": {
+"en": "per session",
+"ar": "للجلسة"
+},
+"uhAiS2": {
+"en": "A real ex-panelist, tailored to Rewaa, with a written follow-up after the call. Your 15% perk applies at checkout.",
+"ar": "خبير حقيقي جلس في لجان المقابلات، يفصّل الجلسة على رِوّاء، وتوصلك متابعة مكتوبة بعد المكالمة. وخصمك 15٪ ينطبق عند الدفع."
+},
+"uhAiCta": {
+"en": "Book the human prep",
+"ar": "احجز الجلسة مع المستشار"
+},
+"uhAiLater": {
+"en": "Maybe later",
+"ar": "ربما لاحقاً"
+},
+"hubH": {
+"en": "Advisors",
+"ar": "المستشارين"
+},
+"lensAdvisors": {
+"en": "Vetted humans for the moments the AI cannot handle. You pay per session, and the subscriber perk makes the membership feel like it keeps giving.",
+"ar": "خبراء بشر معتمدون للحظات التي لا يقدر عليها الذكاء الاصطناعي. الدفع لكل جلسة على حدة، وميزة المشترك تجعل العضوية تعطيك أكثر."
+},
+"hubApproved": {
+"en": "Hand-picked and approved by Uptal",
+"ar": "مختارين ومعتمدين من Uptal"
+},
+"hubSub": {
+"en": "Book a human expert for the exact help you need. You only pay for the sessions you book.",
+"ar": "احجز خبيراً بشرياً للمساعدة التي تحتاجها بالضبط. لا تدفع إلا مقابل الجلسات التي تحجزها."
+},
+"hubPerkT": {
+"en": "Your Auto-Apply perk",
+"ar": "ميزتك من التقديم التلقائي"
+},
+"hubPerkS": {
+"en": "15% off every single session while your subscription is active.",
+"ar": "خصم 15٪ على كل جلسة مفردة ما دام اشتراكك فعّالاً."
+},
+"hubExK": {
+"en": "Executive",
+"ar": "للتنفيذيين"
+},
+"hubExT": {
+"en": "Executive 1-1 coaching",
+"ar": "تدريب تنفيذي فردي 1-1"
+},
+"hubExS": {
+"en": "For Head, Director and VP roles. A dedicated coach, month by month.",
+"ar": "لأدوار رئيس إدارة ومدير ونائب رئيس. مدرّب مخصص معك، شهراً بشهر."
+},
+"hubNeed": {
+"en": "What do you need help with?",
+"ar": "في ماذا تحتاج مساعدة؟"
+},
+"hubS1": {
+"en": "Interview preparation",
+"ar": "التحضير للمقابلات الشخصية"
+},
+"hubS2": {
+"en": "Offer negotiation",
+"ar": "التفاوض على العروض الوظيفية"
+},
+"hubS3": {
+"en": "CV and LinkedIn review",
+"ar": "مراجعة السيرة الذاتية ولينكدإن"
+},
+"hubS4": {
+"en": "HR and career consultation",
+"ar": "استشارة موارد بشرية ومهنية"
+},
+"hubS5": {
+"en": "Career strategy",
+"ar": "استراتيجية المسيرة المهنية"
+},
+"hubS6": {
+"en": "Government and giga-project track",
+"ar": "مسار الحكومة والمشاريع العملاقة"
+},
+"hubS7": {
+"en": "Know your market salary",
+"ar": "اعرف راتبك في السوق"
+},
+"hubS8": {
+"en": "Certification roadmap",
+"ar": "خطة الشهادات المهنية"
+},
+"hubS9": {
+"en": "Start strong in a new role",
+"ar": "ابدأ بقوة في وظيفتك الجديدة"
+},
+"hubFeatured": {
+"en": "Featured advisor",
+"ar": "مستشار مميز"
+},
+"hubSeeAll": {
+"en": "See all",
+"ar": "الكل"
+},
+"hubSpec1": {
+"en": "Interview coach, ex-HR Director",
+"ar": "مدرّبة مقابلات، مديرة موارد بشرية سابقة"
+},
+"hubFrom": {
+"en": "from",
+"ar": "من"
+},
+"hubPerHr": {
+"en": "per hour",
+"ar": "في الساعة"
+},
+"hubResp": {
+"en": "Replies in under 2 hours · Arabic and English",
+"ar": "ترد خلال أقل من ساعتين · عربي وإنجليزي"
+},
+"hubHowH": {
+"en": "How it works",
+"ar": "كيف تشتغل"
+},
+"hubHow1": {
+"en": "Pick an advisor and a time",
+"ar": "اختر مستشار ووقت"
+},
+"hubHow1s": {
+"en": "Real calendars. A free slot books instantly.",
+"ar": "تقاويم حقيقية. أي موعد فاضي ينحجز فوراً."
+},
+"hubHow2": {
+"en": "Pay for that session only",
+"ar": "ادفع على الجلسة نفسها فقط"
+},
+"hubHow2s": {
+"en": "Your 15% subscriber perk is applied at checkout.",
+"ar": "خصمك 15٪ كمشترك ينطبق عند الدفع."
+},
+"hubHow3": {
+"en": "Meet on a video call",
+"ar": "قابل مستشارك بمكالمة فيديو"
+},
+"hubHow3s": {
+"en": "Then get a written follow-up from your advisor.",
+"ar": "وبعدها توصلك متابعة مكتوبة من مستشارك."
+},
+"hubTrust": {
+"en": "Every advisor is approved by Uptal. Money back if a session does not happen.",
+"ar": "كل مستشار معتمد من Uptal. وفلوسك ترجع لك إذا الجلسة ما صارت."
+},
+"hubSessT": {
+"en": "Your sessions",
+"ar": "جلساتك"
+},
+"hubSessS": {
+"en": "1 upcoming · Wednesday 19:00",
+"ar": "1 قادمة · الأربعاء 19:00"
+},
+"alBack": {
+"en": "Advisors",
+"ar": "المستشارون"
+},
+"alH": {
+"en": "Advisors",
+"ar": "المستشارون"
+},
+"alApproved": {
+"en": "Hand-picked and approved by Uptal",
+"ar": "مختارون بعناية ومعتمدون من أبتال"
+},
+"lensAdvisorsList": {
+"en": "A short vetted list reads as a shortlist, not a marketplace flood. Seven approved names beat seventy unknowns, and rating plus reply speed decide the order.",
+"ar": "قائمة قصيرة ومعتمدة تُقرأ كترشيح، لا كسوق مفتوح. سبعة أسماء موثوقة أقوى من سبعين مجهولاً، والترتيب على التقييم وسرعة الرد."
+},
+"alFor": {
+"en": "Advisors for",
+"ar": "مستشارون لـ"
+},
+"alShowAll": {
+"en": "Show all",
+"ar": "عرض الكل"
+},
+"alSearchPh": {
+"en": "Search by name or specialty",
+"ar": "ابحث بالاسم أو التخصص"
+},
+"alSorted": {
+"en": "Sorted by rating and response time.",
+"ar": "مرتّبين حسب التقييم وسرعة الرد."
+},
+"alSortPre": {
+"en": "Sorted by",
+"ar": "مرتّبين حسب"
+},
+"alSortR": {
+"en": "Rating and reply speed",
+"ar": "التقييم وسرعة الرد"
+},
+"alSortPL": {
+"en": "Price, low to high",
+"ar": "السعر من الأقل إلى الأعلى"
+},
+"alSortPH": {
+"en": "Price, high to low",
+"ar": "السعر من الأعلى إلى الأقل"
+},
+"alEmptyS": {
+"en": "No advisors match your search. Clear it or pick another specialty.",
+"ar": "لا يوجد مستشار يطابق بحثك. امسح البحث أو اختر تخصصاً آخر."
+}
+}

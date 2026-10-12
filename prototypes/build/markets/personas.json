@@ -1,0 +1,609 @@
+[
+ {
+  "id": "SA",
+  "res": "SA",
+  "targets": [
+   "SA"
+  ],
+  "gender": "f",
+  "nat": "SA",
+  "group": "gcc",
+  "city": "Riyadh",
+  "arv": "gulf",
+  "label": "🇸🇦 Noura Al-Amri · Riyadh",
+  "f": {}
+ },
+ {
+  "id": "AE",
+  "res": "AE",
+  "targets": [
+   "AE"
+  ],
+  "gender": "m",
+  "nat": "EG",
+  "group": "gcc",
+  "city": "Dubai",
+  "arv": "gulf",
+  "label": " Ahmed Mansour · Dubai",
+  "f": {
+   "first": "Ahmed",
+   "last": "Mansour",
+   "full": "Ahmed Mansour",
+   "initials": "AM"
+  }
+ },
+ {
+  "id": "QA",
+  "res": "QA",
+  "targets": [
+   "QA"
+  ],
+  "gender": "f",
+  "nat": "QA",
+  "group": "gcc",
+  "city": "Doha",
+  "arv": "gulf",
+  "label": " Maryam Al-Kuwari · Doha",
+  "f": {
+   "first": "Maryam",
+   "last": "Al-Kuwari",
+   "full": "Maryam Al-Kuwari",
+   "initials": "MK"
+  }
+ },
+ {
+  "id": "KW",
+  "res": "KW",
+  "targets": [
+   "KW"
+  ],
+  "gender": "m",
+  "nat": "KW",
+  "group": "gcc",
+  "city": "Kuwait City",
+  "arv": "gulf",
+  "label": " Abdullah Al-Mutawa · Kuwait City",
+  "f": {
+   "first": "Abdullah",
+   "last": "Al-Mutawa",
+   "full": "Abdullah Al-Mutawa",
+   "initials": "AM"
+  }
+ },
+ {
+  "id": "BH",
+  "res": "BH",
+  "targets": [
+   "BH"
+  ],
+  "gender": "f",
+  "nat": "BH",
+  "group": "gcc",
+  "city": "Manama",
+  "arv": "gulf",
+  "label": " Fatema Al-Sayed · Manama",
+  "f": {
+   "first": "Fatema",
+   "last": "Al-Sayed",
+   "full": "Fatema Al-Sayed",
+   "initials": "FS"
+  }
+ },
+ {
+  "id": "OM",
+  "res": "OM",
+  "targets": [
+   "OM"
+  ],
+  "gender": "m",
+  "nat": "OM",
+  "group": "gcc",
+  "city": "Muscat",
+  "arv": "gulf",
+  "label": " Salim Al-Busaidi · Muscat",
+  "f": {
+   "first": "Salim",
+   "last": "Al-Busaidi",
+   "full": "Salim Al-Busaidi",
+   "initials": "SB"
+  }
+ },
+ {
+  "id": "US",
+  "res": "US",
+  "targets": [
+   "US"
+  ],
+  "gender": "f",
+  "nat": "US",
+  "group": "na",
+  "city": "New York",
+  "arv": "neutral",
+  "label": " Jessica Morales · New York",
+  "f": {
+   "first": "Jessica",
+   "last": "Morales",
+   "full": "Jessica Morales",
+   "initials": "JM"
+  }
+ },
+ {
+  "id": "CA",
+  "res": "CA",
+  "targets": [
+   "CA"
+  ],
+  "gender": "m",
+  "nat": "CA",
+  "group": "na",
+  "city": "Toronto",
+  "arv": "neutral",
+  "label": " Arjun Mehta · Toronto",
+  "f": {
+   "first": "Arjun",
+   "last": "Mehta",
+   "full": "Arjun Mehta",
+   "initials": "AM"
+  }
+ },
+ {
+  "id": "GB",
+  "res": "GB",
+  "targets": [
+   "GB"
+  ],
+  "gender": "f",
+  "nat": "GB",
+  "group": "uk",
+  "city": "London",
+  "arv": "neutral",
+  "label": " Sophie Carter · London",
+  "f": {
+   "first": "Sophie",
+   "last": "Carter",
+   "full": "Sophie Carter",
+   "initials": "SC"
+  }
+ },
+ {
+  "id": "IE",
+  "res": "IE",
+  "targets": [
+   "IE"
+  ],
+  "gender": "m",
+  "nat": "IE",
+  "group": "uk",
+  "city": "Dublin",
+  "arv": "neutral",
+  "label": " Ciarán Byrne · Dublin",
+  "f": {
+   "first": "Ciarán",
+   "last": "Byrne",
+   "full": "Ciarán Byrne",
+   "initials": "CB"
+  }
+ },
+ {
+  "id": "DE",
+  "res": "DE",
+  "targets": [
+   "DE"
+  ],
+  "gender": "f",
+  "nat": "DE",
+  "group": "eu",
+  "city": "Frankfurt",
+  "arv": "neutral",
+  "label": " Lena Hoffmann · Frankfurt",
+  "f": {
+   "first": "Lena",
+   "last": "Hoffmann",
+   "full": "Lena Hoffmann",
+   "initials": "LH"
+  }
+ },
+ {
+  "id": "FR",
+  "res": "FR",
+  "targets": [
+   "FR"
+  ],
+  "gender": "m",
+  "nat": "FR",
+  "group": "eu",
+  "city": "Paris",
+  "arv": "neutral",
+  "label": " Julien Moreau · Paris",
+  "f": {
+   "first": "Julien",
+   "last": "Moreau",
+   "full": "Julien Moreau",
+   "initials": "JM"
+  }
+ },
+ {
+  "id": "NL",
+  "res": "NL",
+  "targets": [
+   "NL"
+  ],
+  "gender": "f",
+  "nat": "NL",
+  "group": "eu",
+  "city": "Amsterdam",
+  "arv": "neutral",
+  "label": " Sanne de Vries · Amsterdam",
+  "f": {
+   "first": "Sanne",
+   "last": "de Vries",
+   "full": "Sanne de Vries",
+   "initials": "SV"
+  }
+ },
+ {
+  "id": "BE",
+  "res": "BE",
+  "targets": [
+   "BE"
+  ],
+  "gender": "m",
+  "nat": "BE",
+  "group": "eu",
+  "city": "Brussels",
+  "arv": "neutral",
+  "label": " Thomas Peeters · Brussels",
+  "f": {
+   "first": "Thomas",
+   "last": "Peeters",
+   "full": "Thomas Peeters",
+   "initials": "TP"
+  }
+ },
+ {
+  "id": "ES",
+  "res": "ES",
+  "targets": [
+   "ES"
+  ],
+  "gender": "f",
+  "nat": "ES",
+  "group": "eu",
+  "city": "Madrid",
+  "arv": "neutral",
+  "label": " Lucía Fernández · Madrid",
+  "f": {
+   "first": "Lucía",
+   "last": "Fernández",
+   "full": "Lucía Fernández",
+   "initials": "LF"
+  }
+ },
+ {
+  "id": "IT",
+  "res": "IT",
+  "targets": [
+   "IT"
+  ],
+  "gender": "m",
+  "nat": "IT",
+  "group": "eu",
+  "city": "Milan",
+  "arv": "neutral",
+  "label": " Marco Bianchi · Milan",
+  "f": {
+   "first": "Marco",
+   "last": "Bianchi",
+   "full": "Marco Bianchi",
+   "initials": "MB"
+  }
+ },
+ {
+  "id": "PL",
+  "res": "PL",
+  "targets": [
+   "PL"
+  ],
+  "gender": "f",
+  "nat": "PL",
+  "group": "eu",
+  "city": "Warsaw",
+  "arv": "neutral",
+  "label": " Katarzyna Nowak · Warsaw",
+  "f": {
+   "first": "Katarzyna",
+   "last": "Nowak",
+   "full": "Katarzyna Nowak",
+   "initials": "KN"
+  }
+ },
+ {
+  "id": "SE",
+  "res": "SE",
+  "targets": [
+   "SE"
+  ],
+  "gender": "m",
+  "nat": "SE",
+  "group": "eu",
+  "city": "Stockholm",
+  "arv": "neutral",
+  "label": " Erik Lindqvist · Stockholm",
+  "f": {
+   "first": "Erik",
+   "last": "Lindqvist",
+   "full": "Erik Lindqvist",
+   "initials": "EL"
+  }
+ },
+ {
+  "id": "CH",
+  "res": "CH",
+  "targets": [
+   "CH"
+  ],
+  "gender": "f",
+  "nat": "CH",
+  "group": "eu",
+  "city": "Zurich",
+  "arv": "neutral",
+  "label": " Laura Meier · Zurich",
+  "f": {
+   "first": "Laura",
+   "last": "Meier",
+   "full": "Laura Meier",
+   "initials": "LM"
+  }
+ },
+ {
+  "id": "AU",
+  "res": "AU",
+  "targets": [
+   "AU"
+  ],
+  "gender": "m",
+  "nat": "AU",
+  "group": "au",
+  "city": "Sydney",
+  "arv": "neutral",
+  "label": " James Nguyen · Sydney",
+  "f": {
+   "first": "James",
+   "last": "Nguyen",
+   "full": "James Nguyen",
+   "initials": "JN"
+  }
+ },
+ {
+  "id": "EG",
+  "res": "EG",
+  "targets": [
+   "EG"
+  ],
+  "gender": "f",
+  "nat": "EG",
+  "group": "naf",
+  "city": "Cairo",
+  "arv": "neutral",
+  "label": " Mariam Hassan · Cairo",
+  "f": {
+   "first": "Mariam",
+   "last": "Hassan",
+   "full": "Mariam Hassan",
+   "initials": "MH"
+  }
+ },
+ {
+  "id": "MA",
+  "res": "MA",
+  "targets": [
+   "MA"
+  ],
+  "gender": "m",
+  "nat": "MA",
+  "group": "naf",
+  "city": "Casablanca",
+  "arv": "neutral",
+  "label": " Youssef El Amrani · Casablanca",
+  "f": {
+   "first": "Youssef",
+   "last": "El Amrani",
+   "full": "Youssef El Amrani",
+   "initials": "YA"
+  }
+ },
+ {
+  "id": "TN",
+  "res": "TN",
+  "targets": [
+   "TN"
+  ],
+  "gender": "f",
+  "nat": "TN",
+  "group": "naf",
+  "city": "Tunis",
+  "arv": "neutral",
+  "label": " Amira Ben Salah · Tunis",
+  "f": {
+   "first": "Amira",
+   "last": "Ben Salah",
+   "full": "Amira Ben Salah",
+   "initials": "AS"
+  }
+ },
+ {
+  "id": "DZ",
+  "res": "DZ",
+  "targets": [
+   "DZ"
+  ],
+  "gender": "m",
+  "nat": "DZ",
+  "group": "naf",
+  "city": "Algiers",
+  "arv": "neutral",
+  "label": " Karim Benali · Algiers",
+  "f": {
+   "first": "Karim",
+   "last": "Benali",
+   "full": "Karim Benali",
+   "initials": "KB"
+  }
+ },
+ {
+  "id": "LY",
+  "res": "LY",
+  "targets": [
+   "LY"
+  ],
+  "gender": "f",
+  "nat": "LY",
+  "group": "naf",
+  "city": "Tripoli",
+  "arv": "neutral",
+  "label": " Huda El-Mabrouk · Tripoli",
+  "f": {
+   "first": "Huda",
+   "last": "El-Mabrouk",
+   "full": "Huda El-Mabrouk",
+   "initials": "HM"
+  }
+ },
+ {
+  "id": "JO",
+  "res": "JO",
+  "targets": [
+   "JO"
+  ],
+  "gender": "m",
+  "nat": "JO",
+  "group": "lev",
+  "city": "Amman",
+  "arv": "neutral",
+  "label": " Khaled Haddad · Amman",
+  "f": {
+   "first": "Khaled",
+   "last": "Haddad",
+   "full": "Khaled Haddad",
+   "initials": "KH"
+  }
+ },
+ {
+  "id": "LB",
+  "res": "LB",
+  "targets": [
+   "LB"
+  ],
+  "gender": "f",
+  "nat": "LB",
+  "group": "lev",
+  "city": "Beirut",
+  "arv": "neutral",
+  "label": " Nour Khoury · Beirut",
+  "f": {
+   "first": "Nour",
+   "last": "Khoury",
+   "full": "Nour Khoury",
+   "initials": "NK"
+  }
+ },
+ {
+  "id": "IQ",
+  "res": "IQ",
+  "targets": [
+   "IQ"
+  ],
+  "gender": "m",
+  "nat": "IQ",
+  "group": "lev",
+  "city": "Baghdad",
+  "arv": "neutral",
+  "label": " Ali Al-Jubouri · Baghdad",
+  "f": {
+   "first": "Ali",
+   "last": "Al-Jubouri",
+   "full": "Ali Al-Jubouri",
+   "initials": "AJ"
+  }
+ },
+ {
+  "id": "X-EG-GCC",
+  "res": "EG",
+  "targets": [
+   "SA",
+   "AE"
+  ],
+  "gender": "m",
+  "nat": "EG",
+  "group": "x",
+  "city": "Cairo",
+  "arv": "neutral",
+  "label": "🌐→🇸🇦 Hassan Mahmoud · Cairo",
+  "f": {
+   "first": "Hassan",
+   "last": "Mahmoud",
+   "full": "Hassan Mahmoud",
+   "initials": "HM"
+  }
+ },
+ {
+  "id": "X-IN-GCC",
+  "res": "INTL",
+  "targets": [
+   "AE",
+   "QA"
+  ],
+  "gender": "f",
+  "nat": "IN",
+  "group": "x",
+  "city": "Bengaluru",
+  "arv": "neutral",
+  "label": "🌐→ Priya Nair · Bengaluru",
+  "f": {
+   "first": "Priya",
+   "last": "Nair",
+   "full": "Priya Nair",
+   "initials": "PN"
+  }
+ },
+ {
+  "id": "X-JO-AE",
+  "res": "AE",
+  "targets": [
+   "AE",
+   "SA"
+  ],
+  "gender": "m",
+  "nat": "JO",
+  "group": "x",
+  "city": "Dubai",
+  "arv": "gulf",
+  "label": "🌐→🇸🇦 Rami Saleh · Dubai",
+  "f": {
+   "first": "Rami",
+   "last": "Saleh",
+   "full": "Rami Saleh",
+   "initials": "RS"
+  }
+ },
+ {
+  "id": "X-MA-FR",
+  "res": "MA",
+  "targets": [
+   "FR",
+   "BE"
+  ],
+  "gender": "f",
+  "nat": "MA",
+  "group": "x",
+  "city": "Casablanca",
+  "arv": "neutral",
+  "label": "🌐→ Salma Idrissi · Casablanca",
+  "f": {
+   "first": "Salma",
+   "last": "Idrissi",
+   "full": "Salma Idrissi",
+   "initials": "SI"
+  }
+ }
+]

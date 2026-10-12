@@ -1,0 +1,602 @@
+{
+"lensReport": {
+"en": "The paid hour leaves an artifact she owns and keeps. The free reply and the concrete fixes give first, so the next booking feels like the natural return.",
+"ar": "الساعة المدفوعة تترك أثراً يملكه العميل ويرجع له. الرد المجاني والتصحيحات الملموسة تعطي أولاً، فالحجز القادم يجي كرد طبيعي."
+},
+"rpBack": {
+"en": "Sessions",
+"ar": "الجلسات"
+},
+"rpH": {
+"en": "Your session follow-up",
+"ar": "متابعة جلستك"
+},
+"rpSub": {
+"en": "Interview prep · Wednesday · written by Layla Al-Otaibi",
+"ar": "التحضير للمقابلة · الأربعاء · كتبتها ليلى العتيبي"
+},
+"rpBand": {
+"en": "Ready for Thursday. Two fixes below make it comfortable.",
+"ar": "جاهزة ليوم الخميس. تصحيحان تحت يخلّونها مريحة."
+},
+"rpW": {
+"en": "What worked",
+"ar": "ما نجح"
+},
+"rpW1": {
+"en": "Numbers-first answers",
+"ar": "إجابات تبدأ بالأرقام"
+},
+"rpW1s": {
+"en": "You open with the figure, and the panel leans in.",
+"ar": "تفتحين بالرقم مباشرة، وهذا ما يجعل اللجنة تنتبه."
+},
+"rpW2": {
+"en": "Calm, steady pace",
+"ar": "إيقاع هادئ وثابت"
+},
+"rpW2s": {
+"en": "You never rushed, even on the hard follow-ups.",
+"ar": "ما تعجّلتي حتى في أسئلة المتابعة الصعبة."
+},
+"rpW3": {
+"en": "Strong ownership of the close story",
+"ar": "تمكّن واضح من قصة الإقفال"
+},
+"rpW3s": {
+"en": "You ran that process end to end, and it shows.",
+"ar": "أدرتي العملية من أولها لآخرها، وهذا باين."
+},
+"rpF": {
+"en": "Fix before Thursday",
+"ar": "صحّحيها قبل الخميس"
+},
+"rpF1": {
+"en": "Lead with the close result",
+"ar": "ابدئي بنتيجة الإقفال"
+},
+"rpF1s": {
+"en": "Nine days to five. Make it your first sentence, not your last.",
+"ar": "من 9 أيام إلى 5. اجعليها جملتك الأولى، لا الأخيرة."
+},
+"rpF2": {
+"en": "STAR the variance answer",
+"ar": "رتّبي إجابة الانحرافات بطريقة STAR"
+},
+"rpF2s": {
+"en": "Situation first, one sentence, then the action and the result.",
+"ar": "الموقف أولاً بجملة وحدة، بعدها الإجراء ثم النتيجة."
+},
+"rpF3": {
+"en": "Prepare two questions for the panel",
+"ar": "جهّزي سؤالين للجنة"
+},
+"rpF3s": {
+"en": "About the first 90 days. It shows you already see yourself in the role.",
+"ar": "عن أول 90 يوماً. يُظهر أنك ترين نفسك في الدور فعلاً."
+},
+"rpA": {
+"en": "Your action list",
+"ar": "قائمة مهامك"
+},
+"rpA1": {
+"en": "Rehearse the close story twice",
+"ar": "تدرّبي على قصة الإقفال مرتين"
+},
+"rpA1s": {
+"en": "Out loud, tonight and tomorrow morning.",
+"ar": "بصوت عالٍ، الليلة وصباح الغد."
+},
+"rpA2": {
+"en": "Rewrite the variance answer",
+"ar": "أعيدي كتابة إجابة الانحرافات"
+},
+"rpA2s": {
+"en": "Use the STAR order from the note above.",
+"ar": "بنفس ترتيب STAR الموضح فوق."
+},
+"rpA3": {
+"en": "Send Layla your two panel questions tonight",
+"ar": "أرسلي لليلى سؤالي اللجنة الليلة"
+},
+"rpA3s": {
+"en": "She replies before your interview, free.",
+"ar": "ترد عليك قبل مقابلتك، بدون رسوم."
+},
+"rpMl": {
+"en": "SAY IT LIKE THIS",
+"ar": "قوليها هكذا"
+},
+"rpMs": {
+"en": "\"When I took over, month-end close ran 9 days. I rebuilt the checklist and automated three reconciliations, and we now close in 5. The board sees the numbers two days earlier.\"",
+"ar": "\"عندما استلمت الإقفال الشهري كان يستغرق 9 أيام. أعدت بناء قائمة المهام وأتمتّت ثلاث تسويات، والآن نقفل في 5 أيام. والإدارة ترى الأرقام قبل بيومين.\""
+},
+"rpN": {
+"en": "Next step",
+"ar": "الخطوة القادمة"
+},
+"rpP1": {
+"en": "Final run tomorrow evening",
+"ar": "جولة أخيرة مساء الغد"
+},
+"rpP1s": {
+"en": "30 minutes before the panel, half session",
+"ar": "نص جلسة، 30 دقيقة قبل موعد اللجنة"
+},
+"rpPack": {
+"en": "Book the Interview-ready pack, 549 ¤",
+"ar": "احجز باقة الجاهزية للمقابلة، 549 ¤"
+},
+"rpPdf": {
+"en": "Download as PDF",
+"ar": "حمّل التقرير PDF"
+},
+"tRpPdf": {
+"en": "Saved to your files as PDF.",
+"ar": "انحفظ في ملفاتك بصيغة PDF."
+},
+"rpDocFor": {
+"en": "Prepared for Noura Al-Amri",
+"ar": "أعدّت لنورة العمري"
+},
+"rpDocFoot": {
+"en": "Uptal Advisors · uptal.com",
+"ar": "مستشارو أبتال · uptal.com"
+},
+"hubMsgT": {
+"en": "Messages",
+"ar": "الرسائل"
+},
+"hubMsgS": {
+"en": "Chat with advisors before you book",
+"ar": "راسل المستشارين قبل الحجز"
+},
+"swh1Title": {
+"en": "Credit Analyst, Corporate Banking",
+"ar": "محلّل ائتمان، الخدمات المصرفية للشركات"
+},
+"swh1Co": {
+"en": "Riyad Bank",
+"ar": "بنك الرياض"
+},
+"swh1City": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"swh1Exp": {
+"en": "4 to 7 years",
+"ar": "من 4 إلى 7 سنوات"
+},
+"swh1Post": {
+"en": "5 days ago",
+"ar": "قبل 5 أيام"
+},
+"swh1About": {
+"en": "Riyad Bank is one of the largest banks in Saudi Arabia, listed on Tadawul and headquartered in Riyadh, serving retail, corporate, and institutional clients.",
+"ar": "بنك الرياض من أكبر البنوك في المملكة، مدرج في تداول ومقرّه الرياض، ويخدم عملاء الأفراد والشركات والمؤسسات."
+},
+"swh1Role": {
+"en": "You will assess the creditworthiness of large corporate borrowers, preparing credit applications and annual reviews for approval by the corporate credit committee.",
+"ar": "ستقيّم الجدارة الائتمانية لكبار المقترضين من الشركات، وتعدّ طلبات الائتمان والمراجعات السنوية لاعتمادها من لجنة ائتمان الشركات."
+},
+"swh1R1": {
+"en": "Analyze financial statements, cash flows, and projections of corporate borrowers",
+"ar": "تحليل القوائم المالية والتدفقات النقدية والتوقّعات للمقترضين من الشركات"
+},
+"swh1R2": {
+"en": "Prepare credit applications and annual reviews for new and existing facilities",
+"ar": "إعداد طلبات الائتمان والمراجعات السنوية للتسهيلات الجديدة والقائمة"
+},
+"swh1R3": {
+"en": "Assign internal risk ratings and recommend facility structures and covenants",
+"ar": "تحديد تصنيفات المخاطر الداخلية والتوصية بهياكل التسهيلات والتعهدات"
+},
+"swh1R4": {
+"en": "Monitor the portfolio for early warning signs and covenant breaches",
+"ar": "متابعة المحفظة لرصد مؤشرات الإنذار المبكر والإخلال بالتعهدات"
+},
+"swh1Q1": {
+"en": "4 to 7 years in corporate credit or financial analysis, FP and A background also considered",
+"ar": "من 4 إلى 7 سنوات في ائتمان الشركات أو التحليل المالي، وتُقبل أيضاً خلفية التخطيط والتحليل المالي"
+},
+"swh1Q2": {
+"en": "Solid grasp of IFRS financial statements and cash flow modeling in Excel",
+"ar": "إلمام قوي بالقوائم المالية وفق IFRS ونمذجة التدفقات النقدية على Excel"
+},
+"swh1Q3": {
+"en": "Bachelor in Finance, Accounting, or Economics; CFA or a credit certification a plus",
+"ar": "بكالوريوس مالية أو محاسبة أو اقتصاد، ويفضّل CFA أو شهادة مهنية في الائتمان"
+},
+"swh1Q4": {
+"en": "Able to write clear credit memos and defend recommendations before the committee",
+"ar": "قدرة على كتابة مذكّرات ائتمان واضحة والدفاع عن التوصيات أمام اللجنة"
+},
+"swh1O1": {
+"en": "Annual performance bonus",
+"ar": "مكافأة أداء سنوية"
+},
+"swh1O2": {
+"en": "Medical cover for you and your dependents",
+"ar": "تأمين طبي لك ولمن تعول"
+},
+"swh1O3": {
+"en": "Preferential rates on staff loans and financing",
+"ar": "أسعار تفضيلية على قروض الموظفين وتمويلهم"
+},
+"swh2Title": {
+"en": "FP&A Analyst",
+"ar": "محلّل تخطيط وتحليل مالي"
+},
+"swh2Co": {
+"en": "flynas",
+"ar": "طيران ناس"
+},
+"swh2City": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"swh2Exp": {
+"en": "3 to 6 years",
+"ar": "من 3 إلى 6 سنوات"
+},
+"swh2Post": {
+"en": "4 days ago",
+"ar": "قبل 4 أيام"
+},
+"swh2About": {
+"en": "flynas is a Saudi low-cost airline headquartered in Riyadh, listed on Tadawul, with an all-Airbus fleet of A320 family narrowbodies and A330neo widebodies serving more than 70 destinations.",
+"ar": "طيران ناس شركة طيران اقتصادي سعودية مقرّها الرياض ومدرجة في تداول، ويخدم أسطولها من طائرات إيرباص، من عائلة A320 ذات الممر الواحد وA330neo عريضة البدن، أكثر من 70 وجهة."
+},
+"swh2Role": {
+"en": "You will build route profitability, fuel, and fleet cost models for the network, own the monthly forecast, and present findings to the head of financial planning.",
+"ar": "ستبني نماذج ربحية المسارات وتكاليف الوقود والأسطول للشبكة، وتتولّى التوقّعات الشهرية، وتعرض النتائج على رئيس التخطيط المالي."
+},
+"swh2R1": {
+"en": "Model route profitability using load factor, yield, and cost per seat drivers",
+"ar": "نمذجة ربحية المسارات استناداً إلى معامل الحمولة والعائد وتكلفة المقعد"
+},
+"swh2R2": {
+"en": "Maintain fuel and fleet cost models covering fuel price, lease, and maintenance assumptions",
+"ar": "تحديث نماذج تكاليف الوقود والأسطول بما يشمل افتراضات سعر الوقود والإيجار والصيانة"
+},
+"swh2R3": {
+"en": "Own the monthly forecast and variance analysis against budget with commentary for management",
+"ar": "إدارة التوقّعات الشهرية وتحليل الانحراف مقابل الموازنة مع التعليقات للإدارة"
+},
+"swh2R4": {
+"en": "Support network planning with business cases for new routes and fleet decisions",
+"ar": "دعم تخطيط الشبكة بدراسات جدوى للمسارات الجديدة وقرارات الأسطول"
+},
+"swh2Q1": {
+"en": "3 to 6 years in FP and A or financial analysis, airline or transport a plus",
+"ar": "من 3 إلى 6 سنوات في التخطيط المالي أو التحليل المالي، ويفضّل خبرة في الطيران أو النقل"
+},
+"swh2Q2": {
+"en": "Strong Excel financial modeling; SAP or Oracle experience preferred",
+"ar": "نمذجة مالية قوية على Excel، ويفضّل خبرة SAP أو Oracle"
+},
+"swh2Q3": {
+"en": "Bachelor in Finance, Accounting, or Economics; CMA or SOCPA a plus",
+"ar": "بكالوريوس مالية أو محاسبة أو اقتصاد، ويفضّل CMA أو SOCPA"
+},
+"swh2Q4": {
+"en": "Comfortable with large operational datasets and tight monthly deadlines",
+"ar": "قدرة على التعامل مع بيانات تشغيلية ضخمة والالتزام بمواعيد شهرية ضيّقة"
+},
+"swh2O1": {
+"en": "Annual performance bonus",
+"ar": "مكافأة أداء سنوية"
+},
+"swh2O2": {
+"en": "Medical insurance for you and your family",
+"ar": "تأمين طبي لك ولأسرتك"
+},
+"swh2O3": {
+"en": "Free and discounted flights for you and your family",
+"ar": "تذاكر طيران مجانية ومخفّضة لك ولأسرتك"
+},
+"swh3Title": {
+"en": "Financial Controller",
+"ar": "مراقب مالي"
+},
+"swh3Co": {
+"en": "Salla",
+"ar": "سلة"
+},
+"swh3City": {
+"en": "Makkah",
+"ar": "مكة"
+},
+"swh3Exp": {
+"en": "7 to 10 years",
+"ar": "من 7 إلى 10 سنوات"
+},
+"swh3Post": {
+"en": "6 days ago",
+"ar": "قبل 6 أيام"
+},
+"swh3About": {
+"en": "Salla is a Saudi e-commerce platform headquartered in Makkah that lets tens of thousands of merchants build and run their own online stores.",
+"ar": "سلة منصة تجارة إلكترونية سعودية مقرّها مكة، تتيح لعشرات الآلاف من التجّار إنشاء متاجرهم الإلكترونية وإدارتها."
+},
+"swh3Role": {
+"en": "You will own the monthly close, IFRS reporting, and cash management for the group, leading a small accounting team and reporting to the CFO.",
+"ar": "ستتولّى الإقفال الشهري وتقارير IFRS وإدارة النقد على مستوى المجموعة، وتقود فريقاً محاسبياً صغيراً وتتبع إدارياً للمدير المالي التنفيذي."
+},
+"swh3R1": {
+"en": "Lead the monthly and annual close and deliver IFRS financial statements on a fixed calendar",
+"ar": "قيادة الإقفال الشهري والسنوي وإصدار القوائم المالية وفق معايير IFRS ضمن جدول زمني ثابت"
+},
+"swh3R2": {
+"en": "Own cash forecasting, merchant payout reconciliations, and banking relationships",
+"ar": "إدارة توقّعات النقد وتسويات مدفوعات التجّار والعلاقات المصرفية"
+},
+"swh3R3": {
+"en": "Manage the external audit, internal controls, and ZATCA zakat and VAT filings",
+"ar": "إدارة المراجعة الخارجية والرقابة الداخلية وإقرارات الزكاة وضريبة القيمة المضافة لدى هيئة الزكاة والضريبة والجمارك"
+},
+"swh3R4": {
+"en": "Build accounting policies and system controls that scale with merchant and transaction growth",
+"ar": "بناء سياسات محاسبية وضوابط في الأنظمة تواكب نمو التجّار والمعاملات"
+},
+"swh3Q1": {
+"en": "7 to 10 years in financial control, accounting, or FP and A with IFRS reporting",
+"ar": "من 7 إلى 10 سنوات في الرقابة المالية أو المحاسبة أو التخطيط والتحليل المالي مع خبرة في تقارير IFRS"
+},
+"swh3Q2": {
+"en": "Strong IFRS knowledge; SOCPA, CPA, or ACCA preferred",
+"ar": "معرفة قوية بمعايير IFRS، ويفضّل SOCPA أو CPA أو ACCA"
+},
+"swh3Q3": {
+"en": "Hands-on experience with an ERP such as SAP or Oracle NetSuite",
+"ar": "خبرة عملية في نظام ERP مثل SAP أو Oracle NetSuite"
+},
+"swh3Q4": {
+"en": "Experienced with high-volume transaction data and payment reconciliations",
+"ar": "خبرة في التعامل مع أحجام كبيرة من بيانات المعاملات وتسويات المدفوعات"
+},
+"swh3O1": {
+"en": "Employee stock option plan",
+"ar": "خطة خيارات أسهم للموظفين"
+},
+"swh3O2": {
+"en": "Medical cover for you and your family",
+"ar": "تأمين طبي لك ولأسرتك"
+},
+"swh3O3": {
+"en": "Flexible hybrid work based in Makkah",
+"ar": "عمل هجين مرن في مكة"
+},
+"swh4Title": {
+"en": "Senior Financial Analyst",
+"ar": "محلّل مالي أول"
+},
+"swh4Co": {
+"en": "Tawuniya",
+"ar": "التعاونية"
+},
+"swh4City": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"swh4Exp": {
+"en": "5 to 8 years",
+"ar": "من 5 إلى 8 سنوات"
+},
+"swh4Post": {
+"en": "Yesterday",
+"ar": "أمس"
+},
+"swh4About": {
+"en": "Tawuniya is one of Saudi Arabia's largest insurers, listed on Tadawul and headquartered in Riyadh, covering health, motor, and property insurance for individuals and businesses.",
+"ar": "التعاونية من أكبر شركات التأمين في المملكة، مدرجة في تداول ومقرّها الرياض، وتغطي التأمين الصحي وتأمين المركبات والممتلكات للأفراد والشركات."
+},
+"swh4Role": {
+"en": "You will lead the budgeting cycle and monthly variance analysis for an insurance business line and support IFRS 17 reporting, partnering with actuarial and underwriting teams and reporting to the business line finance director.",
+"ar": "ستقود دورة الموازنة وتحليل الانحرافات الشهري لأحد قطاعات أعمال التأمين، وتدعم تقارير IFRS 17، وتعمل مع الفريق الاكتواري وفريق الاكتتاب وترفع تقاريرك إلى المدير المالي لقطاع الأعمال."
+},
+"swh4R1": {
+"en": "Lead the annual budgeting cycle and quarterly reforecasts for an insurance business line",
+"ar": "قيادة دورة الموازنة السنوية وإعادة التوقّع الربعية لأحد قطاعات أعمال التأمين"
+},
+"swh4R2": {
+"en": "Prepare monthly variance analysis against budget and brief senior management on the drivers",
+"ar": "إعداد تحليل الانحرافات الشهري مقابل الموازنة وإطلاع الإدارة العليا على أسبابها"
+},
+"swh4R3": {
+"en": "Support IFRS 17 reporting with analysis of contract groups and reconciliations to the general ledger",
+"ar": "دعم تقارير IFRS 17 من خلال تحليل مجموعات العقود ومطابقتها بدفتر الأستاذ العام"
+},
+"swh4R4": {
+"en": "Work with actuarial and underwriting teams on premium, claims, and expense drivers",
+"ar": "العمل مع الفريق الاكتواري وفريق الاكتتاب على محرّكات الأقساط والمطالبات والمصروفات"
+},
+"swh4Q1": {
+"en": "5 to 8 years in financial analysis or FP and A, insurance or financial services a plus",
+"ar": "من 5 إلى 8 سنوات في التحليل المالي أو التخطيط المالي، ويفضّل خبرة في التأمين أو الخدمات المالية"
+},
+"swh4Q2": {
+"en": "Working knowledge of IFRS; IFRS 17 exposure preferred",
+"ar": "معرفة عملية بمعايير IFRS، ويفضّل الإلمام بالمعيار IFRS 17"
+},
+"swh4Q3": {
+"en": "Advanced Excel financial modeling; SAP or a similar ERP preferred",
+"ar": "نمذجة مالية متقدّمة على Excel، ويفضّل خبرة SAP أو نظام ERP مماثل"
+},
+"swh4Q4": {
+"en": "Bachelor in Finance or Accounting; SOCPA, CMA, or CPA a plus",
+"ar": "بكالوريوس مالية أو محاسبة، ويفضّل SOCPA أو CMA أو CPA"
+},
+"swh4O1": {
+"en": "Annual bonus linked to company and individual results",
+"ar": "مكافأة سنوية مرتبطة بنتائج الشركة والأداء الفردي"
+},
+"swh4O2": {
+"en": "Medical cover for you and your dependents",
+"ar": "تأمين طبي لك ولمن تعول"
+},
+"swh4O3": {
+"en": "Staff discounts on motor and home insurance",
+"ar": "خصومات للموظفين على تأمين المركبات والمنازل"
+},
+"swh5Title": {
+"en": "Financial Planning Analyst",
+"ar": "محلّل تخطيط مالي"
+},
+"swh5Co": {
+"en": "Saudia",
+"ar": "السعودية"
+},
+"swh5City": {
+"en": "Jeddah",
+"ar": "جدة"
+},
+"swh5Exp": {
+"en": "4 to 7 years",
+"ar": "من 4 إلى 7 سنوات"
+},
+"swh5Post": {
+"en": "3 days ago",
+"ar": "قبل 3 أيام"
+},
+"swh5About": {
+"en": "Saudia is the national carrier of Saudi Arabia, headquartered in Jeddah and a member of the SkyTeam alliance, flying to destinations across four continents.",
+"ar": "الخطوط السعودية هي الناقل الوطني للمملكة، ومقرّها جدة، وهي عضو في تحالف سكاي تيم وتسيّر رحلاتها إلى وجهات في أربع قارات."
+},
+"swh5Role": {
+"en": "You will consolidate the annual budget and quarterly forecasts across Saudia's business units, working in SAP with divisional finance teams and reporting to the group planning and budgeting manager.",
+"ar": "ستتولّى توحيد الموازنة السنوية والتوقّعات الربعية على مستوى وحدات أعمال السعودية، وتعمل على SAP مع الفرق المالية في القطاعات وترفع تقاريرك إلى مدير التخطيط والموازنات في المجموعة."
+},
+"swh5R1": {
+"en": "Consolidate annual budget submissions from business units into the group plan",
+"ar": "توحيد مقترحات الموازنة السنوية من وحدات الأعمال ضمن خطة المجموعة"
+},
+"swh5R2": {
+"en": "Build quarterly reforecasts reflecting capacity, load factor, and fuel price assumptions",
+"ar": "إعداد التوقّعات الربعية المحدّثة بما يعكس افتراضات السعة ومعامل الحمولة وأسعار الوقود"
+},
+"swh5R3": {
+"en": "Maintain planning templates and master data in SAP and reconcile submissions to actuals",
+"ar": "إدارة قوالب التخطيط والبيانات الرئيسية في SAP ومطابقة المقترحات مع الأرقام الفعلية"
+},
+"swh5R4": {
+"en": "Prepare the monthly planning pack with variance commentary for the executive committee",
+"ar": "إعداد ملف التخطيط الشهري مع تعليقات على الانحرافات للجنة التنفيذية"
+},
+"swh5Q1": {
+"en": "4 to 7 years in budgeting and consolidation or FP and A; experience at an airline or transport group preferred",
+"ar": "من 4 إلى 7 سنوات في إعداد الموازنات والتوحيد أو التخطيط والتحليل المالي، ويفضّل خبرة لدى شركة طيران أو مجموعة نقل"
+},
+"swh5Q2": {
+"en": "Hands-on SAP experience in budgeting and consolidation; BPC a plus",
+"ar": "خبرة عملية على SAP في إعداد الموازنة والتوحيد، ويفضّل خبرة BPC"
+},
+"swh5Q3": {
+"en": "Bachelor in Finance or Accounting; CMA or SOCPA preferred",
+"ar": "بكالوريوس مالية أو محاسبة، ويفضّل CMA أو SOCPA"
+},
+"swh5Q4": {
+"en": "Able to chase and reconcile inputs from many business units against a fixed planning calendar",
+"ar": "قدرة على متابعة مدخلات وحدات الأعمال المتعدّدة ومطابقتها ضمن جدول تخطيط ثابت"
+},
+"swh5O1": {
+"en": "Staff travel privileges for you and your family",
+"ar": "مزايا سفر الموظفين لك ولعائلتك"
+},
+"swh5O2": {
+"en": "Health insurance for you and your dependents",
+"ar": "تأمين صحي لك ولمن تعول"
+},
+"swh5O3": {
+"en": "Housing and transport allowances",
+"ar": "بدل سكن ونقل"
+},
+"swh6Title": {
+"en": "Cost Analyst, Manufacturing",
+"ar": "محلّل تكاليف التصنيع"
+},
+"swh6Co": {
+"en": "Lucid",
+"ar": "لوسيد"
+},
+"swh6City": {
+"en": "King Abdullah Economic City",
+"ar": "مدينة الملك عبدالله الاقتصادية"
+},
+"swh6Exp": {
+"en": "4 to 7 years",
+"ar": "من 4 إلى 7 سنوات"
+},
+"swh6Post": {
+"en": "2 weeks ago",
+"ar": "قبل أسبوعين"
+},
+"swh6About": {
+"en": "Lucid is an electric vehicle maker majority-owned by the Public Investment Fund, and its plant in King Abdullah Economic City is its first assembly facility outside the United States.",
+"ar": "لوسيد شركة لصناعة السيارات الكهربائية يملك صندوق الاستثمارات العامة غالبية أسهمها، ومصنعها في مدينة الملك عبدالله الاقتصادية هو أول منشأة تجميع لها خارج الولايات المتحدة."
+},
+"swh6Role": {
+"en": "You will own product costing and standard cost maintenance for the KAEC assembly plant, analyzing monthly manufacturing variances and partnering with plant operations and supply chain on cost reduction.",
+"ar": "ستتولّى احتساب تكاليف المنتجات وتحديث التكاليف المعيارية لمصنع التجميع في مدينة الملك عبدالله الاقتصادية، وتحلّل انحرافات التصنيع الشهرية وتعمل مع عمليات المصنع وسلسلة الإمداد على خفض التكاليف."
+},
+"swh6R1": {
+"en": "Maintain standard costs for vehicles, subassemblies, and imported kits at the plant",
+"ar": "تحديث التكاليف المعيارية للمركبات والتجميعات الفرعية ومجموعات الأجزاء المستوردة في المصنع"
+},
+"swh6R2": {
+"en": "Analyze monthly plant variances across material, labor, and overhead and explain the drivers to plant leadership",
+"ar": "تحليل انحرافات المصنع الشهرية في المواد والعمالة والتكاليف غير المباشرة وشرح أسبابها لقيادة المصنع"
+},
+"swh6R3": {
+"en": "Partner with plant operations and supply chain on cost reduction and localization initiatives",
+"ar": "العمل مع عمليات المصنع وسلسلة الإمداد على مبادرات خفض التكاليف والتوطين"
+},
+"swh6R4": {
+"en": "Support inventory valuation, cycle counts, and the monthly close for the plant",
+"ar": "دعم تقييم المخزون والجرد الدوري والإقفال الشهري للمصنع"
+},
+"swh6Q1": {
+"en": "4 to 7 years in cost accounting or FP and A; prior work in a plant or automotive environment preferred",
+"ar": "من 4 إلى 7 سنوات في محاسبة التكاليف أو التخطيط والتحليل المالي، ويفضّل خبرة سابقة في بيئة مصنع أو قطاع السيارات"
+},
+"swh6Q2": {
+"en": "Advanced Excel; SAP CO or a similar product costing module preferred",
+"ar": "مستوى متقدّم في Excel، ويفضّل خبرة SAP CO أو وحدة مماثلة لاحتساب تكاليف المنتجات"
+},
+"swh6Q3": {
+"en": "Bachelor in Accounting or Finance; CMA or SOCPA a plus",
+"ar": "بكالوريوس محاسبة أو مالية، ويفضّل CMA أو SOCPA"
+},
+"swh6Q4": {
+"en": "Comfortable working on the shop floor with engineers and production teams",
+"ar": "استعداد للعمل في صالة الإنتاج مع المهندسين وفرق الإنتاج"
+},
+"swh6O1": {
+"en": "Relocation and housing support in King Abdullah Economic City",
+"ar": "دعم انتقال وسكن في مدينة الملك عبدالله الاقتصادية"
+},
+"swh6O2": {
+"en": "Comprehensive health insurance for you and your dependents",
+"ar": "تأمين صحي شامل لك ولمن تعول"
+},
+"swh6O3": {
+"en": "Restricted stock units in a Nasdaq-listed company",
+"ar": "وحدات أسهم مقيّدة في شركة مدرجة في ناسداك"
+},
+"swh7Title": {
+"en": "Budget Analyst",
+"ar": "محلّل موازنة"
+},
+"swh7Co": {
+"en": "Dr. Sulaiman Al Habib",
+"ar": "د. سليمان الحبيب"
+},
+"swh7City": {
+"en": "Riyadh",
+"ar": "الرياض"
+},
+"swh7Exp": {
+"en": "5 to 8 years",
+"ar": "من 5 إلى 8 سنوات"
+}
+}

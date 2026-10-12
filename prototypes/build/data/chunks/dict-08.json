@@ -1,0 +1,602 @@
+{
+"nfBack": {
+"en": "You",
+"ar": "حسابي"
+},
+"nfH": {
+"en": "Notifications",
+"ar": "التنبيهات"
+},
+"nfSub": {
+"en": "We keep it calm. Turn on only what matters to you.",
+"ar": "نبقيها هادئة. فعّل ما يهمّك فقط."
+},
+"nf1": {
+"en": "Interviews and replies",
+"ar": "المقابلات والردود"
+},
+"nf1s": {
+"en": "The moments that need you",
+"ar": "اللحظات التي تحتاجك"
+},
+"nf2": {
+"en": "Daily activity summary",
+"ar": "ملخّص النشاط اليومي"
+},
+"nf2s": {
+"en": "One calm recap",
+"ar": "خلاصة هادئة"
+},
+"nf3": {
+"en": "Every application",
+"ar": "كل تقديم"
+},
+"nf3s": {
+"en": "Most people leave this off",
+"ar": "أغلب الناس يخلّونه مطفّي"
+},
+"nf4": {
+"en": "Market and salary updates",
+"ar": "تحديثات السوق والرواتب"
+},
+"nf4s": {
+"en": "When your market moves",
+"ar": "لما يتحرّك سوقك"
+},
+"nf5": {
+"en": "Interview practice reminders",
+"ar": "تذكيرات التدريب على المقابلات"
+},
+"nf5s": {
+"en": "Before a real interview",
+"ar": "قبل المقابلة الحقيقية"
+},
+"nf6": {
+"en": "WhatsApp updates",
+"ar": "تحديثات واتساب"
+},
+"nf6s": {
+"en": "Get the important ones on WhatsApp",
+"ar": "خذ المهم على الواتساب"
+},
+"rfBack": {
+"en": "You",
+"ar": "حسابي"
+},
+"rfK": {
+"en": "Refer and earn",
+"ar": "إهدِ واكسب"
+},
+"rfH": {
+"en": "Give 10% off, get 10% off",
+"ar": "اعطِ خصم 10٪، واحصل على خصم 10٪"
+},
+"rfSub": {
+"en": "Every friend who subscribes gives you 10% off your next renewal.",
+"ar": "كل صديق يشترك يعطيك خصم 10٪ على تجديدك القادم."
+},
+"rfCopy": {
+"en": "Copy",
+"ar": "نسخ"
+},
+"rfS1": {
+"en": "invited",
+"ar": "دعوة"
+},
+"rfS2": {
+"en": "joined",
+"ar": "اشترك"
+},
+"rfS3": {
+"en": "off next month",
+"ar": "خصم للشهر القادم"
+},
+"rfHow": {
+"en": "How it works",
+"ar": "كيف يشتغل"
+},
+"rf1": {
+"en": "Share your personal link",
+"ar": "شارك الرابط الخاص فيك"
+},
+"rf2": {
+"en": "They get 10% off their first month",
+"ar": "ياخذون خصم 10٪ على أول شهر"
+},
+"rf3": {
+"en": "You get 10% off your next renewal, added automatically",
+"ar": "تاخذ خصم 10٪ على تجديدك القادم، يضاف تلقائياً"
+},
+"acBack": {
+"en": "You",
+"ar": "حسابي"
+},
+"acH": {
+"en": "Account and support",
+"ar": "الحساب والدعم"
+},
+"acLang": {
+"en": "Language",
+"ar": "اللغة"
+},
+"acSupport": {
+"en": "Support",
+"ar": "الدعم"
+},
+"acHelp": {
+"en": "Chat with support on WhatsApp",
+"ar": "تواصل مع الدعم على الواتساب"
+},
+"acHelpS": {
+"en": "We usually reply within an hour",
+"ar": "عادة نرد خلال ساعة"
+},
+"acFaq": {
+"en": "Common questions",
+"ar": "الأسئلة الشائعة"
+},
+"acLegal": {
+"en": "Legal",
+"ar": "قانوني"
+},
+"acPriv": {
+"en": "Privacy policy",
+"ar": "سياسة الخصوصية"
+},
+"acTerms": {
+"en": "Terms of service",
+"ar": "شروط الخدمة"
+},
+"acRefund": {
+"en": "Refund policy",
+"ar": "سياسة الاسترداد"
+},
+"acData": {
+"en": "Your data",
+"ar": "بياناتك"
+},
+"acDownload": {
+"en": "Download my data",
+"ar": "نزّل بياناتي"
+},
+"acDownloadS": {
+"en": "A copy of everything, under PDPL",
+"ar": "نسخة من كل شي، حسب نظام حماية البيانات"
+},
+"acDelete": {
+"en": "Delete my account",
+"ar": "احذف حسابي"
+},
+"acSignout": {
+"en": "Sign out",
+"ar": "تسجيل الخروج"
+},
+"prRefer": {
+"en": "Refer and earn",
+"ar": "اهدِ واكسب"
+},
+"prReferS": {
+"en": "Give 10% off, get 10% off",
+"ar": "اعطِ خصم 10٪، واحصل على خصم 10٪"
+},
+"hStreakA": {
+"en": "Finding matching roles and applying for you every day, day",
+"ar": "نبحث عن وظائف تناسبك ونقدّم لك كل يوم، اليوم"
+},
+"hMileT": {
+"en": "You just passed 200 applications",
+"ar": "تجاوزت 200 تقديم"
+},
+"hMileS": {
+"en": "Every one sent with your CV",
+"ar": "كل واحد أُرسل بسيرتك الذاتية"
+},
+"hEndow": {
+"en": "Your Auto-Apply achievements",
+"ar": "إنجازات التقديم التلقائي"
+},
+"hE1": {
+"en": "applications",
+"ar": "تقديم"
+},
+"hE2": {
+"en": "roles matched for you",
+"ar": "وظيفة مناسبة لك"
+},
+"hE3": {
+"en": "CVs sent",
+"ar": "سيرة ذاتية أُرسلت"
+},
+"hDelta": {
+"en": "Nothing new since your last visit. The AI is still watching.",
+"ar": "لا جديد منذ آخر زيارة. الذكاء الاصطناعي ما زال يراقب."
+},
+"hDeltaCalm": {
+"en": "Nothing new since your last check. Auto-Apply is still watching.",
+"ar": "لا جديد منذ آخر زيارة. التقديم التلقائي لا يزال يراقب."
+},
+"hNew": {
+"en": "new",
+"ar": "جديد"
+},
+"hAdvanced": {
+"en": "2 roles moved to the next stage this week",
+"ar": "وظيفتين انتقلوا للمرحلة التالية هالأسبوع"
+},
+"hrRefer": {
+"en": "Know someone looking for a job",
+"ar": "تعرف أحد يدوّر وظيفة"
+},
+"hrReferS": {
+"en": "Give them 10% off and take 10% off your next renewal",
+"ar": "عطه خصم 10٪ وخذ خصم 10٪ على تجديدك القادم"
+},
+"rfReward": {
+"en": "Sara joined, 10% off your next month",
+"ar": "سارة اشتركت، خصم 10٪ على شهرك القادم"
+},
+"rfRewardS": {
+"en": "The discount is added to your subscription automatically",
+"ar": "تم إضافة الخصم لاشتراكك تلقائياً"
+},
+"rfCopied": {
+"en": "Copied",
+"ar": "اننسخ"
+},
+"cvvLib": {
+"en": "CVs sent",
+"ar": "سيرة ذاتية أُرسلت"
+},
+"cvvLibS": {
+"en": "Sent exactly as you uploaded",
+"ar": "أُرسلت كما رفعتها بالضبط"
+},
+"tRemind": {
+"en": "Reminder set for Wednesday 10:00",
+"ar": "انضبط تذكير الأربعاء 10:00"
+},
+"tCopy": {
+"en": "Link copied",
+"ar": "اننسخ الرابط"
+},
+"tSkillAdd": {
+"en": "Added to your profile",
+"ar": "أُضيفت لملفك"
+},
+"tBlockAdd": {
+"en": "Employer blocked",
+"ar": "انحظرت الجهة"
+},
+"tBlockRemove": {
+"en": "Removed from your blocklist",
+"ar": "انشالت من قائمة الحظر"
+},
+"tDownload": {
+"en": "We are preparing your file and will email it",
+"ar": "نجهّز ملفك ونرسله لك بالبريد"
+},
+"tDelete": {
+"en": "Deleting an account needs a confirmation step, nothing is deleted yet",
+"ar": "حذف الحساب يحتاج خطوة تأكيد، ولم يُحذف شيء"
+},
+"tLite": {
+"en": "You are now on Auto-Apply Lite",
+"ar": "صرت على التقديم التلقائي لايت"
+},
+"tWhats": {
+"en": "Opening WhatsApp support",
+"ar": "نفتح دعم واتساب"
+},
+"tFaq": {
+"en": "Opening common questions",
+"ar": "نفتح الأسئلة الشائعة"
+},
+"tLegal": {
+"en": "Opening the document",
+"ar": "نفتح المستند"
+},
+"apBackPipe": {
+"en": "Pipeline",
+"ar": "المسار"
+},
+"apShowing": {
+"en": "Showing",
+"ar": "يعرض"
+},
+"apOf": {
+"en": "of",
+"ar": "من"
+},
+"apShowingAll": {
+"en": "Showing 214 of 214",
+"ar": "يعرض 214 من 214"
+},
+"apSearchPh": {
+"en": "Search company or title",
+"ar": "ابحث بالشركة أو المسمى"
+},
+"apSortRecent": {
+"en": "Recent",
+"ar": "الأحدث"
+},
+"apSortStatus": {
+"en": "Status",
+"ar": "الحالة"
+},
+"apSortCompany": {
+"en": "Company A to Z",
+"ar": "الشركة أ-ي"
+},
+"apSortCity": {
+"en": "City",
+"ar": "المدينة"
+},
+"apSortTitle": {
+"en": "Job title",
+"ar": "المسمى"
+},
+"asUpd": {
+"en": "Heard back? Update it",
+"ar": "وصلك رد؟ حدّثها"
+},
+"asGotIv": {
+"en": "Got an interview",
+"ar": "حصلت على مقابلة"
+},
+"asGotJob": {
+"en": "Got the job",
+"ar": "حصلت على الوظيفة"
+},
+"asGotRej": {
+"en": "Rejected",
+"ar": "مرفوض"
+},
+"asGotNone": {
+"en": "No reply yet",
+"ar": "لا يوجد رد"
+},
+"asNext": {
+"en": "Next step",
+"ar": "الخطوة القادمة"
+},
+"asStepPh": {
+"en": "e.g. Prep for the panel, send a thank-you note",
+"ar": "مثال: جهّز للجنة، أرسل رسالة شكر"
+},
+"asToday": {
+"en": "Today",
+"ar": "اليوم"
+},
+"asTom": {
+"en": "Tomorrow",
+"ar": "غداً"
+},
+"asWeek": {
+"en": "This week",
+"ar": "هذا الأسبوع"
+},
+"asRemind": {
+"en": "Remind me in the app",
+"ar": "ذكّرني في التطبيق"
+},
+"asNotes": {
+"en": "Private notes",
+"ar": "ملاحظات خاصة"
+},
+"asNotePh": {
+"en": "Notes only you can see",
+"ar": "ملاحظات لا يراها غيرك"
+},
+"asNoteSave": {
+"en": "Save note",
+"ar": "احفظ الملاحظة"
+},
+"asPriv": {
+"en": "Only you can see this. We never send notes to employers.",
+"ar": "ما يشوفها إلا أنت. ما نرسل ملاحظاتك لجهات العمل."
+},
+"shH": {
+"en": "Update this application",
+"ar": "حدّث هذا الطلب"
+},
+"shIv": {
+"en": "I got an interview",
+"ar": "حصلت مقابلة"
+},
+"shJob": {
+"en": "I got the job",
+"ar": "حصلت الوظيفة"
+},
+"shScr": {
+"en": "In screening",
+"ar": "في الفرز"
+},
+"shRej": {
+"en": "Not moving forward",
+"ar": "لا تكمل"
+},
+"shNone": {
+"en": "No response yet",
+"ar": "لا يوجد رد حتى الآن"
+},
+"hNudge": {
+"en": "Did stc reach out after viewing your application?",
+"ar": "stc تواصلوا معك بعد ما شافوا تقديمك؟"
+},
+"hNudgeYes": {
+"en": "Yes, I got an interview",
+"ar": "إي، حصلت على مقابلة"
+},
+"hNudgeNo": {
+"en": "Nothing yet",
+"ar": "لا شيء حتى الآن"
+},
+"plUpd": {
+"en": "Update a status",
+"ar": "حدّث الحالة"
+},
+"rptBack": {
+"en": "Pipeline",
+"ar": "المسار"
+},
+"lensReport2": {
+"en": "Auto-Apply sees up to a recruiter view, but not the user inbox. One-tap updates keep the pipeline true and route a real interview or offer into the celebration it deserves.",
+"ar": "التقديم التلقائي يرى حتى مشاهدة مسؤول التوظيف، لكن ليس صندوق بريدك. التحديثات بضغطة تجعل المسار صادقاً وتوصّل المقابلة أو العرض إلى الاحتفال الذي يستحقه."
+},
+"rptH": {
+"en": "What happened with the role we applied to",
+"ar": "ما حدث مع الوظيفة التي قدمنا عليها"
+},
+"rptSub": {
+"en": "We can see when a recruiter opens your application, but we cannot see your inbox. Tell us what happened next.",
+"ar": "يمكننا معرفة وقت فتح مسؤول التوظيف لطلبك، لكن لا يمكننا الاطلاع على بريدك. أخبرنا ما حدث بعدها."
+},
+"rpt1": {
+"en": "I got an interview",
+"ar": "حصلت على مقابلة"
+},
+"rpt2": {
+"en": "I got the job",
+"ar": "حصلت على الوظيفة"
+},
+"rpt3": {
+"en": "Not moving forward",
+"ar": "لا تكمل"
+},
+"rpt4": {
+"en": "No response yet",
+"ar": "ما جاني رد إلى الآن"
+},
+"rptFoot": {
+"en": "We never change your application count. Only what happens next.",
+"ar": "لا نغيّر عدد طلباتك أبداً. فقط ما يحدث بعدها."
+},
+"ivwH": {
+"en": "That is a real interview.",
+"ar": "هذه مقابلة حقيقية."
+},
+"ivwSub": {
+"en": "",
+"ar": ""
+},
+"ivwCta": {
+"en": "Practice this interview, 149 ¤",
+"ar": "تدرب على هذه المقابلة، 149 ¤"
+},
+"ivwBack": {
+"en": "Back to my pipeline",
+"ar": "ارجع للمسار"
+},
+"swH": {
+"en": "Swipe to apply",
+"ar": "اسحب للتقديم"
+},
+"swSub": {
+"en": "Manual mode. Swipe right to apply, left to pass. Not sure? Skip it and decide later.",
+"ar": "الوضع اليدوي. اسحب يميناً للتقديم، ويساراً للرفض. غير متأكد؟ تخطّها وقرّر لاحقاً."
+},
+"swDone": {
+"en": "That is your matches for today.",
+"ar": "هذه وظائف اليوم."
+},
+"swDoneS": {
+"en": "Come back tomorrow for fresh roles, or switch on Auto-Apply anytime.",
+"ar": "ارجع غداً لوظائف جديدة، أو فعّل التقديم التلقائي في أي وقت."
+},
+"auSwipe": {
+"en": "Rather pick roles yourself? Try manual swipe",
+"ar": "تفضّل تختار بنفسك؟ جرّب السحب اليدوي"
+},
+"prSwipe": {
+"en": "Prefer to pick yourself?",
+"ar": "تفضّل تختار بنفسك؟"
+},
+"prSwipeS": {
+"en": "Switch to manual swipe mode",
+"ar": "حوّل لوضع السحب اليدوي"
+},
+"st_iv": {
+"en": "Interview",
+"ar": "مقابلة"
+},
+"st_scr": {
+"en": "Screening",
+"ar": "فرز"
+},
+"st_vw": {
+"en": "Viewed",
+"ar": "شوهد"
+},
+"st_ap": {
+"en": "Applied",
+"ar": "قُدِّم"
+},
+"st_rej": {
+"en": "Not moving forward",
+"ar": "لا تكمل"
+},
+"tStatusUpd": {
+"en": "Status updated",
+"ar": "انحدّثت الحالة"
+},
+"tStatusJob": {
+"en": "Congratulations on the job",
+"ar": "مبروك الوظيفة"
+},
+"tRej": {
+"en": "Updated. On to the next one",
+"ar": "تم التحديث. إلى التالي"
+},
+"tNoResp": {
+"en": "Noted. We will keep an eye out",
+"ar": "تم التسجيل. سنتابعها"
+},
+"tPinned": {
+"en": "Pinned to the top",
+"ar": "ثُبّتت فوق"
+},
+"tUnpin": {
+"en": "Unpinned",
+"ar": "انشالت"
+},
+"tRemindSet": {
+"en": "Reminder set in the app",
+"ar": "انضبط تذكير في التطبيق"
+},
+"tNoteSaved": {
+"en": "Note saved",
+"ar": "انحفظت الملاحظة"
+},
+"tApplied2": {
+"en": "Applied",
+"ar": "قدّمنا"
+},
+"apH": {
+"en": "All applications",
+"ar": "كل الطلبات"
+},
+"apTotal": {
+"en": "applied",
+"ar": "طلب"
+},
+"apAll": {
+"en": "All",
+"ar": "الكل"
+},
+"apLoad": {
+"en": "Load 202 more",
+"ar": "حمّل 202 أكثر"
+},
+"apNote": {
+"en": "Every application goes out with your uploaded CV.",
+"ar": "كل طلب يُرسل بسيرتك الذاتية كما رفعتها."
+},
+"fromcvS": {
+"en": "CV",
+"ar": "السيرة"
+},
+"rFA": {
+"en": "Financial Analyst",
+"ar": "محلل مالي"
+}
+}

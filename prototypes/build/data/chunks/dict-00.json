@@ -1,0 +1,602 @@
+{
+"pfNManPh": {
+"en": "45",
+"ar": "45"
+},
+"pfUnitDays": {
+"en": "days",
+"ar": "يوم"
+},
+"phT": {
+"en": "Professional photo",
+"ar": "صورة شخصية احترافية"
+},
+"phOpt": {
+"en": "optional",
+"ar": "اختياري"
+},
+"phHint": {
+"en": "A clear headshot on a plain background",
+"ar": "صورة واضحة للوجه على خلفية سادة"
+},
+"phHint2": {
+"en": "Some employers in Saudi ask for one. You can add it any time.",
+"ar": "بعض جهات العمل في السعودية تطلبها. يمكنك إضافتها في أي وقت."
+},
+"phAdd": {
+"en": "Upload a photo",
+"ar": "ارفع صورة"
+},
+"phReplace": {
+"en": "Replace",
+"ar": "استبدلها"
+},
+"phFileName": {
+"en": "headshot.jpg",
+"ar": "headshot.jpg"
+},
+"phFileMeta": {
+"en": "Added to your profile. It goes out only where an employer asks for a photo.",
+"ar": "انضافت لملفك. وما تُرسل إلا لما تطلب جهة العمل صورة."
+},
+"tPhAdded": {
+"en": "Photo added",
+"ar": "انضافت الصورة"
+},
+"tPhRemoved": {
+"en": "Photo removed",
+"ar": "انحذفت الصورة"
+},
+"abEy": {
+"en": "Last step",
+"ar": "آخر خطوة"
+},
+"abH": {
+"en": "The first impression employers get of you",
+"ar": "الانطباع الأول عنك لدى جهات العمل"
+},
+"abSub": {
+"en": "Written by AI from what is in your CV. You can rewrite it yourself.",
+"ar": "كتبت بالذكاء الاصطناعي من معلومات سيرتك الذاتية. يمكنك إعادة كتابتها بنفسك."
+},
+"abCta": {
+"en": "Looks right, continue",
+"ar": "تمام، أكمل"
+},
+"abNote": {
+"en": "You can change this and everything else about you later in Settings.",
+"ar": "يمكنك تغييرها وتغيير كل شيء عنك لاحقاً من الإعدادات."
+},
+"pfSaveChanges": {
+"en": "Save changes",
+"ar": "احفظ التغييرات"
+},
+"prAbout": {
+"en": "About you",
+"ar": "نبذة عنك"
+},
+"prAboutS": {
+"en": "Your summary, notice period, and the rest",
+"ar": "ملخصك، وفترة الإشعار، وباقي بياناتك"
+},
+"pfBio": {
+"en": "About you",
+"ar": "نبذة عنك"
+},
+"pfBioText": {
+"en": "Financial Analyst with 8 years in Riyadh. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in Riyadh, Jeddah, or remote.",
+"ar": "محللة مالية بخبرة 8 سنوات في الرياض. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات التي قلّصت وقت التقارير بالثلث. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في الرياض أو جدة أو عن بُعد."
+},
+"pfBioS": {
+"en": "Tap the text to edit it. Employers read this first, and it goes out on every application.",
+"ar": "اضغط على النص لتعديله. جهات العمل تقرأه أولاً، ويُرسل مع كل طلب."
+},
+"pfVisaPick": {
+"en": "Choose your status",
+"ar": "اختر حالتك"
+},
+"pfReqNoteN": {
+"en": "{n} things left before you continue.",
+"ar": "باقي {n} أشياء قبل ما تكمل."
+},
+"pfImmT": {
+"en": "You can start immediately",
+"ar": "يمكنك المباشرة فوراً"
+},
+"pfImmS": {
+"en": "Not being in a role is an advantage here. We say available immediately on every application, which employers filter for.",
+"ar": "عدم وجودك على رأس العمل ميزة هنا. نكتب متاح للمباشرة فوراً في كل طلب، وجهات العمل تصفّي عليها."
+},
+"pfSalaryU": {
+"en": "Expected salary, SAR a month",
+"ar": "الراتب المتوقع، ريال بالشهر"
+},
+"pfNotice": {
+"en": "Notice period",
+"ar": "فترة الإشعار"
+},
+"pfNoticeS": {
+"en": "Employers ask this first. It is the one thing your CV does not say.",
+"ar": "أول شيء يسألون عنه. وهو الشيء الوحيد الذي لا تذكره سيرتك."
+},
+"pfEng": {
+"en": "English level",
+"ar": "مستوى الإنجليزية"
+},
+"pfEngBasic": {
+"en": "Basic",
+"ar": "أساسي"
+},
+"pfEngInt": {
+"en": "Intermediate",
+"ar": "متوسط"
+},
+"pfEngAdv": {
+"en": "Advanced",
+"ar": "متقدم"
+},
+"pfEngFluent": {
+"en": "Full professional",
+"ar": "إتقان كامل"
+},
+"pfEngS": {
+"en": "Your CV is written in English and cites IFRS work, so we set this to Advanced.",
+"ar": "سيرتك مكتوبة بالإنجليزية وتذكر أعمال IFRS، لذلك حدّدناه متقدم."
+},
+"pfVisa": {
+"en": "Visa and Iqama status",
+"ar": "الإقامة والتأشيرة"
+},
+"pfVisaSaudi": {
+"en": "Saudi national",
+"ar": "مواطن سعودي"
+},
+"pfVisaPrem": {
+"en": "Premium residency",
+"ar": "إقامة مميزة"
+},
+"pfVisaTrans": {
+"en": "Iqama, transferable",
+"ar": "إقامة قابلة للنقل"
+},
+"pfVisaNon": {
+"en": "Iqama, not transferable",
+"ar": "إقامة غير قابلة للنقل"
+},
+"pfVisaGcc": {
+"en": "GCC national",
+"ar": "مواطن خليجي"
+},
+"pfVisaNeed": {
+"en": "Needs a new visa",
+"ar": "يحتاج تأشيرة جديدة"
+},
+"pfVisaS": {
+"en": "Your CV does not say this, and employers filter on it before anything else.",
+"ar": "سيرتك لا تذكر هذه المعلومة، وجهات العمل تصفّي عليها قبل أي شيء آخر."
+},
+"pfReq": {
+"en": "required",
+"ar": "مطلوب"
+},
+"pfEdited": {
+"en": "edited by you",
+"ar": "عدّلته أنت"
+},
+"pfFillT": {
+"en": "We wrote this from your CV",
+"ar": "كتبناها لك من سيرتك"
+},
+"pfFillS": {
+"en": "Check it and change anything that is not right. Whatever you leave stands, and we fill it on every application after this.",
+"ar": "راجعها وغيّر أي شيء غير صحيح. وما تتركه يظل كما هو، ونعبّئه لك في كل طلب بعدها."
+},
+"pfReqNoteT": {
+"en": "One thing left before you continue.",
+"ar": "بقي شيء واحد قبل أن تكمل."
+},
+"msaHistH": {
+"en": "Your chats",
+"ar": "محادثاتك"
+},
+"msaHistS": {
+"en": "Everything you and Musaed have discussed",
+"ar": "كل ما ناقشتِه مع مساعد"
+},
+"msaSearchPh": {
+"en": "Search your chats",
+"ar": "ابحثي في محادثاتك"
+},
+"msaNoConvos": {
+"en": "No chats yet. Ask Musaed something.",
+"ar": "لا توجد محادثات بعد. اسألي مساعد شيئاً."
+},
+"msaNoHits": {
+"en": "Nothing matches that search.",
+"ar": "لا يوجد ما يطابق هذا البحث."
+},
+"msaUntitled": {
+"en": "New chat",
+"ar": "محادثة جديدة"
+},
+"msaToday": {
+"en": "Today",
+"ar": "اليوم"
+},
+"msaYest": {
+"en": "Yesterday",
+"ar": "أمس"
+},
+"msaEarlier": {
+"en": "Earlier",
+"ar": "أقدم"
+},
+"msaConvOpenT": {
+"en": "Open this chat",
+"ar": "افتحي هذه المحادثة"
+},
+"msaConvRenameT": {
+"en": "Rename",
+"ar": "إعادة تسمية"
+},
+"msaConvDelT": {
+"en": "Delete this chat",
+"ar": "احذفي هذه المحادثة"
+},
+"msaRenameP": {
+"en": "Rename this chat",
+"ar": "أعيدي تسمية المحادثة"
+},
+"msaCopy": {
+"en": "Copy",
+"ar": "نسخ"
+},
+"msaRetry": {
+"en": "Try again",
+"ar": "جرّب مرة أخرى"
+},
+"msaStop": {
+"en": "Stop",
+"ar": "إيقاف"
+},
+"msaAttH": {
+"en": "Attach something",
+"ar": "أرفقي شيئاً"
+},
+"msaAttS": {
+"en": "Musaed reads it and answers against it. It stays inside your account.",
+"ar": "يقرأه مساعد ويجيب بناءً عليه. ويبقى داخل حسابك."
+},
+"msaAtt_jd": {
+"en": "A job description",
+"ar": "وصف وظيفي"
+},
+"msaAtt_offer": {
+"en": "An offer letter",
+"ar": "خطاب عرض"
+},
+"msaAtt_contract": {
+"en": "An employment contract",
+"ar": "عقد عمل"
+},
+"msaAtt_cv": {
+"en": "My CV",
+"ar": "سيرتي الذاتية"
+},
+"tMsaCopied": {
+"en": "Answer copied",
+"ar": "تم نسخ الإجابة"
+},
+"tMsaUp": {
+"en": "Thanks, noted",
+"ar": "شكراً، سجّلتها"
+},
+"tMsaDown": {
+"en": "Noted, I will try a different angle",
+"ar": "سجّلتها، سأجرب زاوية مختلفة"
+},
+"tMsaStopped": {
+"en": "Stopped",
+"ar": "تم الإيقاف"
+},
+"tMsaDeleted": {
+"en": "Chat deleted",
+"ar": "انحذفت المحادثة"
+},
+"prInd": {
+"en": "Industries",
+"ar": "القطاعات"
+},
+"prIndAll": {
+"en": "All industries",
+"ar": "كل القطاعات"
+},
+"ind_fintech": {
+"en": "Fintech",
+"ar": "التقنية المالية"
+},
+"ind_banking": {
+"en": "Banking",
+"ar": "البنوك"
+},
+"mpH": {
+"en": "What Musaed can do",
+"ar": "ما الذي يستطيع مساعد فعله"
+},
+"mpSub": {
+"en": "He acts on your account only at the level you set here. Ask means he proposes and waits for you.",
+"ar": "يتصرف في حسابك بالمستوى الذي تحددينه هنا فقط. \"يسأل\" تعني أنه يقترح وينتظر موافقتك."
+},
+"mpOff": {
+"en": "Off",
+"ar": "متوقف"
+},
+"mpAsk": {
+"en": "Ask",
+"ar": "يسأل"
+},
+"mpAuto": {
+"en": "Auto",
+"ar": "تلقائي"
+},
+"mpTargetT": {
+"en": "Targeting",
+"ar": "الاستهداف"
+},
+"mpTargetS": {
+"en": "Job titles, cities, and industries to focus on",
+"ar": "المسميات الوظيفية والمدن والقطاعات التي يركز عليها"
+},
+"mpFilterT": {
+"en": "Filters",
+"ar": "عوامل التصفية"
+},
+"mpFilterS": {
+"en": "Salary floor and the do-not-apply list",
+"ar": "الحد الأدنى للراتب وقائمة عدم التقديم"
+},
+"mpPaceT": {
+"en": "Daily pace",
+"ar": "الوتيرة اليومية"
+},
+"mpPaceS": {
+"en": "How many applications go out each day",
+"ar": "عدد الطلبات التي تُرسل كل يوم"
+},
+"mpAutoT": {
+"en": "Pause and resume Auto-Apply",
+"ar": "إيقاف التقديم التلقائي واستئنافه"
+},
+"mpAutoS": {
+"en": "Stopping and restarting the applying itself",
+"ar": "إيقاف التقديم نفسه ثم تفعيله من جديد"
+},
+"mpApplyT": {
+"en": "Applying to a specific role",
+"ar": "التقديم على وظيفة بعينها"
+},
+"mpApplyS": {
+"en": "Sending or skipping one application on your behalf",
+"ar": "إرسال طلب واحد أو تخطيه نيابة عنك"
+},
+"mpNeverH": {
+"en": "What Musaed never does",
+"ar": "ما لا يفعله مساعد أبداً"
+},
+"mpNever1": {
+"en": "Pay for anything",
+"ar": "الدفع مقابل أي شيء"
+},
+"mpNever1s": {
+"en": "He can line up a course, a session or a top up so it is one tap away. You enter the card and confirm it yourself, every time.",
+"ar": "يستطيع تجهيز الدورة أو الجلسة أو الرصيد الإضافي بحيث تكون على بُعد ضغطة واحدة. أما البطاقة والتأكيد فمنك أنتِ، في كل مرة."
+},
+"mpNever2": {
+"en": "Change or cancel your subscription",
+"ar": "تغيير اشتراكك أو إلغاؤه"
+},
+"mpNever2s": {
+"en": "Your subscription is yours to manage. It is handled in Settings.",
+"ar": "اشتراكك تديرينه أنتِ. ويُدار من الإعدادات."
+},
+"mpNeverNote": {
+"en": "These two are not settings. There is no switch that turns them on.",
+"ar": "هذان ليسا إعدادين. لا يوجد زر يفعّلهما."
+},
+"lensMsaPerms": {
+"en": "Every action Musaed can take is listed here with the level you chose, so nothing happens off-screen. The two things he can never do are shown as facts rather than switches, because a permission you could grant is a permission you could grant by accident.",
+"ar": "كل إجراء يستطيع مساعد تنفيذه مذكور هنا بالمستوى الذي اخترتِه، فلا يحدث شيء بعيداً عن عينك. أما الأمران اللذان لا يفعلهما أبداً فمعروضان كحقيقة لا كمفتاح، لأن الصلاحية التي يمكن منحها يمكن منحها بالخطأ."
+},
+"msaActDo": {
+"en": "Do it",
+"ar": "نفّذ"
+},
+"msaActNot": {
+"en": "Not now",
+"ar": "ليس الآن"
+},
+"msaActUndo": {
+"en": "Undo this",
+"ar": "تراجع عن هذا"
+},
+"msaActSkipped": {
+"en": "Left as it was",
+"ar": "تُرك كما كان"
+},
+"msaActAuto": {
+"en": "Done automatically, because you set this to Auto.",
+"ar": "نُفّذ تلقائياً، لأنك ضبطتِ هذا على تلقائي."
+},
+"msaActOffT": {
+"en": "You have this switched off",
+"ar": "هذا متوقف لديك"
+},
+"msaActOffS": {
+"en": "I can talk it through, but I cannot change it until you allow it.",
+"ar": "أستطيع مناقشته معك، لكني لا أستطيع تغييره حتى تسمحي لي."
+},
+"msaActPerms": {
+"en": "Open Musaed's permissions",
+"ar": "افتحي صلاحيات مساعد"
+},
+"msaDenyTag": {
+"en": "Something I never do",
+"ar": "أمر لا أفعله أبداً"
+},
+"msaDenyBuyT": {
+"en": "I do not pay for anything",
+"ar": "لا أدفع مقابل أي شيء"
+},
+"msaDenyCancelT": {
+"en": "I do not change subscriptions",
+"ar": "لا أغيّر الاشتراكات"
+},
+"msaPermsRow": {
+"en": "Musaed's permissions",
+"ar": "صلاحيات مساعد"
+},
+"msaPermsRowS": {
+"en": "What he may change on your account",
+"ar": "ما الذي يجوز له تغييره في حسابك"
+},
+"tMsaDone": {
+"en": "Done, your account is updated",
+"ar": "تم، حسابك محدّث"
+},
+"tMsaUndone": {
+"en": "Reverted",
+"ar": "رجعناه"
+},
+"tMsaPerm": {
+"en": "Permission updated",
+"ar": "تم تحديث الصلاحية"
+},
+"prBlockedN": {
+"en": "{n} employers",
+"ar": "{n} جهة عمل"
+},
+"prPaceTpl": {
+"en": "Up to {n} applications a day",
+"ar": "حتى {n} طلبات في اليوم"
+},
+"hPaused": {
+"en": "Paused",
+"ar": "متوقف"
+},
+"msaName": {
+"en": "Musaed",
+"ar": "مساعد"
+},
+"msaRole": {
+"en": "Your HR assistant",
+"ar": "مساعدك في الموارد البشرية"
+},
+"msaPh": {
+"en": "Ask Musaed anything about your job hunt",
+"ar": "اسأل مساعد أي شيء عن بحثك عن وظيفة"
+},
+"msaHi": {
+"en": "Hello Noura.",
+"ar": "أهلاً نورة."
+},
+"msaIntro": {
+"en": "I know your CV, your targets, and everything Auto-Apply has done for you. Ask me about your search, salaries, Saudi labour law, interviews, or where your career goes next.",
+"ar": "أعرف سيرتك الذاتية، وأهدافك، وكل ما قام به التقديم التلقائي من أجلك. اسأليني عن بحثك، أو الرواتب، أو نظام العمل السعودي، أو المقابلات، أو الخطوة القادمة في مسارك."
+},
+"msaKnowT": {
+"en": "What I already know about you",
+"ar": "ما أعرفه عنك"
+},
+"msaKnowList": {
+"en": "Financial Analyst, Riyadh|214 applications sent|Interview at Rewaa, Thursday|Offer from Tabby, 33,000|Salary floor 26,000|IFRS and SAP on your CV",
+"ar": "محللة مالية، الرياض|214 طلب مقدَّم|مقابلة في رِوّاء، الخميس|عرض من Tabby، 33,000|الحد الأدنى للراتب 26,000|IFRS وSAP في سيرتك"
+},
+"msaUpTag": {
+"en": "Suggested next step",
+"ar": "خطوة مقترحة"
+},
+"msaUpCta": {
+"en": "See details",
+"ar": "شوف التفاصيل"
+},
+"msaUpPractice": {
+"en": "Practice Interview",
+"ar": "مقابلة تجريبية"
+},
+"msaUpAdvisor": {
+"en": "Interview coach",
+"ar": "مدرب مقابلات"
+},
+"msaUpNego": {
+"en": "Negotiation advisor",
+"ar": "مستشار تفاوض"
+},
+"msaUpCourse": {
+"en": "Uptal Learn",
+"ar": "Uptal Learn"
+},
+"msaUpExec": {
+"en": "Executive coaching",
+"ar": "تدريب تنفيذي"
+},
+"msaFallback": {
+"en": "I can help with that. Here is where I have the most for you right now.",
+"ar": "يمكنني مساعدتك في هذا. وهذه المواضيع التي لديّ فيها أكثر ما يفيدك الآن."
+},
+"msaMemH": {
+"en": "What Musaed remembers",
+"ar": "ما يتذكره مساعد"
+},
+"msaMemS": {
+"en": "He builds this from your CV, your targets, and what Auto-Apply does for you. It is private to you.",
+"ar": "يبنيه من سيرتك الذاتية وأهدافك ومما يقوم به التقديم التلقائي لك. وهو خاص بك وحدك."
+},
+"msaMemItems": {
+"en": "Your role and market::Financial Analyst in Riyadh, paid 26,000 ¤ against a market band of 34,000 to 41,000|Your evidence::IFRS reporting and budgeting on SAP, the monthly close for a 40-person function, forecasts that cut reporting time by a third|Your live pipeline::214 applications, 5 views, 2 in screening, the Rewaa interview on Thursday, an offer from Tabby|Your settings::Salary floor 26,000 ¤, 10 applications a day, Riyadh, Jeddah and Remote|What you keep asking about::Salary benchmarking and how to handle the two offers on the table",
+"ar": "وظيفتك والسوق::محللة مالية في الرياض، راتبك 26,000 ¤ مقابل نطاق سوق من 34,000 إلى 41,000|أدلتك::تقارير IFRS والموازنة على SAP، والإقفال الشهري لإدارة من 40 شخصاً، وتوقعات قلّصت وقت التقارير بالثلث|مسارك الحالي::214 طلباً، و5 مشاهدات، و2 في الفرز، ومقابلة رِوّاء الخميس، وعرض من Tabby|إعداداتك::الحد الأدنى للراتب 26,000 ¤، و10 طلبات يومياً، والرياض وجدة وعن بُعد|ما تسألين عنه كثيراً::مقارنة الرواتب وكيفية التعامل مع العرضين المطروحين"
+},
+"msaPkH": {
+"en": "You are out of messages today",
+"ar": "خلصت رسائلك اليوم"
+},
+"msaPkS": {
+"en": "Your daily messages reset tomorrow. Add more to keep going now.",
+"ar": "رسائلك اليومية تتجدد غداً. أضيفي المزيد للمتابعة الآن."
+},
+"msaPkMsgs": {
+"en": "messages",
+"ar": "رسالة"
+},
+"msaPk1s": {
+"en": "About two more days of heavy use",
+"ar": "تكفي يومين تقريباً من الاستخدام الكثيف"
+},
+"msaPk2s": {
+"en": "About a week, most popular",
+"ar": "تكفي أسبوعاً تقريباً، الأكثر طلباً"
+},
+"msaPk3s": {
+"en": "About a month, best value",
+"ar": "تكفي شهراً تقريباً، الأفضل قيمة"
+},
+"msaPkNote": {
+"en": "Extra messages never expire and are used only after your daily allowance runs out.",
+"ar": "الرسائل الإضافية لا تنتهي صلاحيتها، وتُستخدم فقط بعد نفاد رصيدك اليومي."
+},
+"msaPkCta": {
+"en": "Add",
+"ar": "أضف"
+},
+"msaPkFor": {
+"en": "messages for",
+"ar": "رسالة مقابل"
+},
+"tMsaPack": {
+"en": "Messages added, keep going",
+"ar": "انضافت الرسائل، كملي"
+},
+"pwTitleMusaed": {
+"en": "Keep talking to Musaed.",
+"ar": "كملي كلامك مع مساعد."
+}
+}
