@@ -1,0 +1,865 @@
+{
+ "code": "SA",
+ "flag": "🇸🇦",
+ "name": {
+  "en": "Saudi Arabia",
+  "ar": "السعودية",
+  "fr": "Arabie saoudite"
+ },
+ "short": {
+  "en": "Saudi Arabia",
+  "ar": "السعودية",
+  "fr": "l'Arabie saoudite"
+ },
+ "in": {
+  "en": "in Saudi Arabia",
+  "ar": "في السعودية",
+  "fr": "en Arabie saoudite"
+ },
+ "dem": {
+  "en": "Saudi",
+  "ar": "سعودي",
+  "arf": "سعودية",
+  "fr": "saoudien",
+  "frf": "saoudienne"
+ },
+ "nationals": {
+  "en": "Saudi nationals",
+  "ar": "المواطنين السعوديين",
+  "fr": "ressortissants saoudiens"
+ },
+ "region": "gcc",
+ "workweek": "sun-thu",
+ "cities": [
+  {
+   "id": "riyadh",
+   "en": "Riyadh",
+   "ar": "الرياض",
+   "fr": "Riyad",
+   "metro": {
+    "en": "Riyadh covers the capital and its suburbs, including KAFD and Diriyah.",
+    "ar": "الرياض تشمل العاصمة وضواحيها، ومنها مركز الملك عبدالله المالي والدرعية.",
+    "fr": "Riyad couvre la capitale et sa banlieue, dont le KAFD et Diriyah."
+   }
+  },
+  {
+   "id": "jeddah",
+   "en": "Jeddah",
+   "ar": "جدة",
+   "fr": "Djeddah",
+   "metro": {
+    "en": "Jeddah covers Greater Jeddah, including Obhur.",
+    "ar": "جدة تشمل جدة الكبرى، ومنها أبحر.",
+    "fr": "Djeddah couvre le Grand Djeddah, dont Obhur."
+   }
+  },
+  {
+   "id": "dammam",
+   "en": "Dammam",
+   "ar": "الدمام",
+   "fr": "Dammam",
+   "metro": {
+    "en": "Dammam covers Dhahran, Qatif and the rest of the Dammam metro area. Al Khobar is listed on its own.",
+    "ar": "الدمام تشمل الظهران والقطيف وباقي حاضرة الدمام. والخبر لها خيار مستقل.",
+    "fr": "Dammam couvre Dhahran, Qatif et le reste de l'agglomération. Khobar est proposée à part."
+   }
+  },
+  {
+   "id": "khobar",
+   "en": "Al Khobar",
+   "ar": "الخبر",
+   "fr": "Khobar",
+   "metro": {
+    "en": "Al Khobar covers the city and Thuqbah, next to Dhahran.",
+    "ar": "الخبر تشمل المدينة والثقبة، بجوار الظهران.",
+    "fr": "Khobar couvre la ville et Thuqbah, à côté de Dhahran."
+   }
+  },
+  {
+   "id": "mecca",
+   "en": "Mecca",
+   "ar": "مكة",
+   "fr": "La Mecque",
+   "metro": {
+    "en": "Mecca covers Makkah city and its suburbs.",
+    "ar": "مكة تشمل مكة المكرمة وضواحيها.",
+    "fr": "La Mecque couvre la ville et sa périphérie."
+   }
+  },
+  {
+   "id": "medina",
+   "en": "Medina",
+   "ar": "المدينة المنورة",
+   "fr": "Médine",
+   "metro": {
+    "en": "Medina covers the city and its suburbs.",
+    "ar": "المدينة المنورة تشمل المدينة وضواحيها.",
+    "fr": "Médine couvre la ville et sa périphérie."
+   }
+  },
+  {
+   "id": "abha",
+   "en": "Abha",
+   "ar": "أبها",
+   "fr": "Abha",
+   "metro": {
+    "en": "Abha covers the city and its suburbs in Asir.",
+    "ar": "أبها تشمل المدينة وضواحيها في منطقة عسير.",
+    "fr": "Abha couvre la ville et sa périphérie, dans la région d'Asir."
+   }
+  }
+ ],
+ "employers": [
+  {
+   "id": "aramco",
+   "en": "Aramco",
+   "ar": "أرامكو",
+   "fr": "Aramco",
+   "sector": "energy",
+   "archetype": "national energy champion (HQ Dhahran)",
+   "city": "dammam",
+   "logo": {
+    "bg": "#00A3E0",
+    "fg": "#FFFFFF",
+    "mono": "A"
+   }
+  },
+  {
+   "id": "sabic",
+   "en": "SABIC",
+   "ar": "سابك",
+   "fr": "SABIC",
+   "sector": "industrial",
+   "archetype": "petrochemicals major",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#0055A5",
+    "fg": "#FFFFFF",
+    "mono": "SB"
+   }
+  },
+  {
+   "id": "maaden",
+   "en": "Ma'aden",
+   "ar": "معادن",
+   "fr": "Ma'aden",
+   "sector": "mining",
+   "archetype": "national mining champion",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#A6762A",
+    "fg": "#FFFFFF",
+    "mono": "MA"
+   }
+  },
+  {
+   "id": "snb",
+   "en": "SNB",
+   "ar": "البنك الأهلي السعودي",
+   "fr": "SNB",
+   "sector": "bank",
+   "archetype": "largest bank",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#00857C",
+    "fg": "#FFFFFF",
+    "mono": "SNB"
+   }
+  },
+  {
+   "id": "alrajhi",
+   "en": "Al Rajhi Bank",
+   "ar": "مصرف الراجحي",
+   "fr": "Al Rajhi Bank",
+   "sector": "bank",
+   "archetype": "Islamic bank, largest by assets",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#0035AD",
+    "fg": "#FFFFFF",
+    "mono": "AR"
+   }
+  },
+  {
+   "id": "riyadbank",
+   "en": "Riyad Bank",
+   "ar": "بنك الرياض",
+   "fr": "Riyad Bank",
+   "sector": "bank",
+   "archetype": "major listed bank",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#0B5FA5",
+    "fg": "#FFFFFF",
+    "mono": "RB"
+   }
+  },
+  {
+   "id": "stc",
+   "en": "stc",
+   "ar": "stc",
+   "fr": "stc",
+   "sector": "telecom",
+   "archetype": "telecom #1",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#4F008C",
+    "fg": "#FFFFFF",
+    "mono": "stc"
+   }
+  },
+  {
+   "id": "mobily",
+   "en": "Mobily",
+   "ar": "موبايلي",
+   "fr": "Mobily",
+   "sector": "telecom",
+   "archetype": "telecom #2",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#0099D8",
+    "fg": "#FFFFFF",
+    "mono": "M"
+   }
+  },
+  {
+   "id": "pif",
+   "en": "PIF",
+   "ar": "صندوق الاستثمارات العامة",
+   "fr": "PIF",
+   "sector": "sovereign",
+   "archetype": "sovereign wealth fund",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#006D5B",
+    "fg": "#FFFFFF",
+    "mono": "PIF"
+   }
+  },
+  {
+   "id": "tadawul",
+   "en": "Saudi Tadawul Group",
+   "ar": "مجموعة تداول السعودية",
+   "fr": "Saudi Tadawul Group",
+   "sector": "exchange",
+   "archetype": "stock exchange group",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#0E7C61",
+    "fg": "#FFFFFF",
+    "mono": "STG"
+   }
+  },
+  {
+   "id": "kpmg",
+   "en": "KPMG",
+   "ar": "KPMG",
+   "fr": "KPMG",
+   "sector": "consulting",
+   "archetype": "big-4 firm",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#00338D",
+    "fg": "#FFFFFF",
+    "mono": "KPMG"
+   }
+  },
+  {
+   "id": "almarai",
+   "en": "Almarai",
+   "ar": "المراعي",
+   "fr": "Almarai",
+   "sector": "fmcg",
+   "archetype": "consumer/FMCG major",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#0067B1",
+    "fg": "#FFFFFF",
+    "mono": "AM"
+   }
+  },
+  {
+   "id": "jarir",
+   "en": "Jarir Bookstore",
+   "ar": "مكتبة جرير",
+   "fr": "Jarir Bookstore",
+   "sector": "retail",
+   "archetype": "national retailer",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#E2231A",
+    "fg": "#FFFFFF",
+    "mono": "JR"
+   }
+  },
+  {
+   "id": "saudia",
+   "en": "Saudia",
+   "ar": "السعودية",
+   "fr": "Saudia",
+   "sector": "airline",
+   "archetype": "national airline",
+   "city": "jeddah",
+   "logo": {
+    "bg": "#00704A",
+    "fg": "#FFFFFF",
+    "mono": "SV"
+   }
+  },
+  {
+   "id": "habib",
+   "en": "Dr. Sulaiman Al Habib",
+   "ar": "د. سليمان الحبيب",
+   "fr": "Dr Sulaiman Al Habib",
+   "sector": "healthcare",
+   "archetype": "private hospital group",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#0098A6",
+    "fg": "#FFFFFF",
+    "mono": "HMG"
+   }
+  },
+  {
+   "id": "tawuniya",
+   "en": "Tawuniya",
+   "ar": "التعاونية",
+   "fr": "Tawuniya",
+   "sector": "insurance",
+   "archetype": "insurer",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#00467F",
+    "fg": "#FFFFFF",
+    "mono": "TW"
+   }
+  },
+  {
+   "id": "bupa",
+   "en": "Bupa Arabia",
+   "ar": "بوبا العربية",
+   "fr": "Bupa Arabia",
+   "sector": "insurance",
+   "archetype": "health insurer",
+   "city": "jeddah",
+   "logo": {
+    "bg": "#0079C8",
+    "fg": "#FFFFFF",
+    "mono": "bupa"
+   }
+  },
+  {
+   "id": "salla",
+   "en": "Salla",
+   "ar": "سلة",
+   "fr": "Salla",
+   "sector": "tech",
+   "archetype": "e-commerce platform scale-up",
+   "city": "mecca",
+   "logo": {
+    "bg": "#004956",
+    "fg": "#BAF3E6",
+    "mono": "S"
+   }
+  },
+  {
+   "id": "rewaa",
+   "en": "Rewaa",
+   "ar": "رِوّاء",
+   "fr": "Rewaa",
+   "sector": "tech",
+   "archetype": "retail SaaS scale-up",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#5B3FD9",
+    "fg": "#FFFFFF",
+    "mono": "R"
+   }
+  },
+  {
+   "id": "tabby",
+   "en": "Tabby",
+   "ar": "تابي",
+   "fr": "Tabby",
+   "sector": "fintech",
+   "archetype": "BNPL fintech",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#3EEDBF",
+    "fg": "#000000",
+    "mono": "t"
+   }
+  },
+  {
+   "id": "jahez",
+   "en": "Jahez",
+   "ar": "جاهز",
+   "fr": "Jahez",
+   "sector": "ecommerce",
+   "archetype": "food-delivery app",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#E3152B",
+    "fg": "#FFFFFF",
+    "mono": "J"
+   }
+  },
+  {
+   "id": "neom",
+   "en": "NEOM",
+   "ar": "نيوم",
+   "fr": "NEOM",
+   "sector": "realestate",
+   "archetype": "giga-project developer (site in Tabuk Province, corporate office in Riyadh)",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#111111",
+    "fg": "#FFFFFF",
+    "mono": "NM"
+   }
+  },
+  {
+   "id": "qiddiya",
+   "en": "Qiddiya",
+   "ar": "القدية",
+   "fr": "Qiddiya",
+   "sector": "realestate",
+   "archetype": "giga-project developer",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#3D2A7D",
+    "fg": "#FFFFFF",
+    "mono": "Q"
+   }
+  },
+  {
+   "id": "sec",
+   "en": "Saudi Electricity",
+   "ar": "السعودية للكهرباء",
+   "fr": "Saudi Electricity",
+   "sector": "government",
+   "archetype": "semi-government utility",
+   "city": "riyadh",
+   "logo": {
+    "bg": "#0071BC",
+    "fg": "#FFFFFF",
+    "mono": "SEC"
+   }
+  }
+ ],
+ "sal": {
+  "per": "month",
+  "f": 1.0,
+  "basis": "Reference market. Saudi pay is quoted per month as a package (basic + housing + transport). v5 sets Noura at 26,000 SAR/month in Riyadh with a market band of 34,000-41,000 for her role and 38-45k for Senior Financial Analyst; f = 1 by definition. Aggregators (ZenHR 2025: Financial Analyst median 15k, Finance Manager median 25k, max 40k) sit lower, so the v5 band reads as the upper end: total package for an 8-year Saudi at a large Riyadh employer (banks, PIF companies, Aramco). See SA.sources.md."
+ },
+ "tax": {
+  "incl": true,
+  "rate": 15,
+  "label": {
+   "en": "VAT included",
+   "ar": "شامل ضريبة القيمة المضافة",
+   "fr": "TVA incluse"
+  }
+ },
+ "pay": {
+  "wallets": [
+   "apple"
+  ],
+  "methods": [
+   {
+    "id": "card",
+    "label": {
+     "en": "Card",
+     "ar": "بطاقة",
+     "fr": "Carte"
+    },
+    "sub": {
+     "en": "mada, Visa, Mastercard",
+     "ar": "مدى، فيزا، ماستركارد",
+     "fr": "mada, Visa, Mastercard"
+    },
+    "brands": [
+     "mada",
+     "visa",
+     "mc"
+    ]
+   }
+  ],
+  "bnpl": [
+   {
+    "id": "tabby",
+    "name": "Tabby",
+    "label": {
+     "en": "Tabby",
+     "ar": "تابي",
+     "fr": "Tabby"
+    },
+    "installments": 4,
+    "terms": [
+     4,
+     12
+    ],
+    "sub": {
+     "en": "Pay in 4, interest-free",
+     "ar": "قسّمها على 4 بدون فوائد",
+     "fr": "Payez en 4 fois sans frais"
+    }
+   },
+   {
+    "id": "tamara",
+    "name": "Tamara",
+    "label": {
+     "en": "Tamara",
+     "ar": "تمارا",
+     "fr": "Tamara"
+    },
+    "installments": 4,
+    "terms": [
+     4,
+     12
+    ],
+    "sub": {
+     "en": "Pay in 4, interest-free",
+     "ar": "قسّمها على 4 بدون فوائد",
+     "fr": "Payez en 4 fois sans frais"
+    }
+   }
+  ],
+  "localCardBrand": "mada"
+ },
+ "phone": {
+  "cc": "+966",
+  "ex": "+966 55 123 4567"
+ },
+ "rights": {
+  "q": {
+   "en": "Your right to work in Saudi Arabia",
+   "ar": "أهليتك للعمل في السعودية",
+   "fr": "Votre droit de travailler en Arabie saoudite"
+  },
+  "opts": [
+   {
+    "en": "Iqama, transferable",
+    "ar": "إقامة قابلة للنقل",
+    "fr": "Iqama transférable",
+    "sub": {
+     "en": "You can move to a new employer through Qiwa",
+     "ar": "تقدر تنتقل لجهة عمل جديدة عن طريق قوى",
+     "fr": "Vous pouvez changer d'employeur via Qiwa"
+    }
+   },
+   {
+    "en": "Iqama, not transferable",
+    "ar": "إقامة غير قابلة للنقل",
+    "fr": "Iqama non transférable",
+    "sub": {
+     "en": "Moving needs your current employer's consent",
+     "ar": "الانتقال يحتاج موافقة جهة عملك الحالية",
+     "fr": "Un changement nécessite l'accord de votre employeur actuel"
+    }
+   },
+   {
+    "en": "Premium residency",
+    "ar": "إقامة مميزة",
+    "fr": "Résidence premium",
+    "sub": {
+     "en": "Work for any employer, no sponsor needed",
+     "ar": "تشتغل عند أي جهة بدون كفيل",
+     "fr": "Vous travaillez pour tout employeur, sans parrainage"
+    }
+   },
+   {
+    "en": "GCC national",
+    "ar": "مواطن خليجي",
+    "fr": "Ressortissant du CCG",
+    "sub": {
+     "en": "UAE, Qatar, Kuwait, Bahrain or Oman. No visa needed",
+     "ar": "الإمارات أو قطر أو الكويت أو البحرين أو عُمان. ما تحتاج تأشيرة",
+     "fr": "Émirats, Qatar, Koweït, Bahreïn ou Oman. Aucun visa requis"
+    }
+   },
+   {
+    "en": "Needs a new visa",
+    "ar": "يحتاج تأشيرة جديدة",
+    "fr": "Besoin d'un nouveau visa",
+    "sub": {
+     "en": "Your new employer sponsors the work visa and Iqama",
+     "ar": "جهة العمل الجديدة تكفل تأشيرة العمل والإقامة",
+     "fr": "Le nouvel employeur parraine le visa de travail et l'iqama"
+    }
+   }
+  ],
+  "autoFor": [
+   "SA",
+   "AE",
+   "QA",
+   "KW",
+   "BH",
+   "OM"
+  ],
+  "autoText": {
+   "en": "Saudi and other GCC citizens can work in Saudi Arabia without a work visa.",
+   "ar": "المواطنون السعوديون والخليجيون يقدرون يعملون في السعودية بدون تأشيرة عمل.",
+   "fr": "Les citoyens saoudiens et des autres pays du CCG peuvent travailler en Arabie saoudite sans visa de travail."
+  },
+  "rule": {
+   "en": "We skip roles open to Saudi nationals only, and if you need a new visa, roles that can't sponsor one.",
+   "ar": "نتخطّى الوظائف المخصّصة للسعوديين فقط، وإذا تحتاج تأشيرة جديدة نتخطّى الوظائف اللي ما تقدر تكفلك.",
+   "fr": "Nous écartons les postes réservés aux ressortissants saoudiens et, si vous avez besoin d'un nouveau visa, ceux qui ne peuvent pas vous parrainer."
+  }
+ },
+ "nationalisation": {
+  "name": {
+   "en": "Saudization (Nitaqat)",
+   "ar": "السعودة (نطاقات)",
+   "fr": "Saoudisation (Nitaqat)"
+  },
+  "desc": {
+   "en": "Under Nitaqat, private employers must keep a set share of Saudi staff. Accounting roles have their own quota at firms with five or more accountants: 40% Saudi from October 2025, rising each year to 70% by 2028. Saudi and GCC nationals count toward it.",
+   "ar": "بموجب نطاقات، لازم تحافظ منشآت القطاع الخاص على نسبة محددة من الموظفين السعوديين. ومهن المحاسبة لها نسبة خاصة في المنشآت اللي فيها 5 محاسبين أو أكثر: 40% سعوديين من أكتوبر 2025، وترتفع كل سنة إلى 70% بحلول 2028. والمواطن السعودي والخليجي يُحسب ضمنها.",
+   "fr": "Avec Nitaqat, les employeurs privés doivent maintenir une part fixe de salariés saoudiens. Les métiers de la comptabilité ont leur propre quota dans les entreprises comptant au moins cinq comptables : 40 % de Saoudiens depuis octobre 2025, puis une hausse chaque année jusqu'à 70 % en 2028. Les ressortissants saoudiens et du CCG sont pris en compte."
+  }
+ },
+ "sensitive": {
+  "photo": "optional",
+  "gender": "ask",
+  "dob": "none",
+  "nationality": "ask",
+  "marital": "none",
+  "notes": "Photo: common on Saudi CVs and some employers ask for one, so it is optional (v5: 'Some employers in Saudi ask for one') and only sent where a form asks. Gender: Saudi forms routinely require it (and some roles are gender-specific), v5 asks it. Nationality: drives Saudization counting, Iqama/visa status and Jadarat eligibility, v5 asks it. DOB and marital status often appear on Gulf CVs and on some portals but are not needed for matching; v5 does not collect them, so we leave them off (conservative, PDPL data-minimisation)."
+ },
+ "legal": {
+  "law": "Personal Data Protection Law (PDPL), Royal Decree M/19 of 1443H as amended, enforced by SDAIA",
+  "privacy": {
+   "en": "Your data is handled under Saudi Arabia's Personal Data Protection Law (PDPL). Download or delete it anytime.",
+   "ar": "نتعامل مع بياناتك حسب نظام حماية البيانات الشخصية في السعودية. تقدر تنزّلها أو تحذفها في أي وقت.",
+   "fr": "Vos données sont traitées conformément à la loi saoudienne sur la protection des données personnelles (PDPL). Téléchargez-les ou supprimez-les à tout moment."
+  },
+  "renewal": {
+   "en": "Your plan renews automatically at the same price, charged to the same method. Cancel anytime before the renewal date and you are not charged again.",
+   "ar": "باقتك تتجدّد تلقائياً بنفس السعر ومن نفس طريقة الدفع. ألغِ في أي وقت قبل تاريخ التجديد ولن يُخصم منك شيء مرة أخرى.",
+   "fr": "Votre abonnement se renouvelle automatiquement au même prix, avec le même moyen de paiement. Résiliez à tout moment avant la date de renouvellement et vous ne serez plus débité."
+  }
+ },
+ "boards": [
+  "LinkedIn",
+  "Bayt",
+  "Jadarat",
+  "Indeed",
+  "GulfTalent",
+  "Naukrigulf"
+ ],
+ "lang2": {
+  "en": "Arabic",
+  "ar": "العربية",
+  "fr": "arabe"
+ },
+ "certs": [
+  {
+   "id": "socpa",
+   "en": "SOCPA",
+   "ar": "SOCPA",
+   "fr": "SOCPA"
+  },
+  {
+   "id": "cma",
+   "en": "CMA",
+   "ar": "CMA",
+   "fr": "CMA"
+  },
+  {
+   "id": "cfa",
+   "en": "CFA",
+   "ar": "CFA",
+   "fr": "CFA"
+  },
+  {
+   "id": "cpa",
+   "en": "CPA",
+   "ar": "CPA",
+   "fr": "CPA"
+  }
+ ],
+ "unis": [
+  {
+   "id": "ksu",
+   "en": "King Saud University",
+   "ar": "جامعة الملك سعود",
+   "fr": "Université du Roi-Saoud"
+  },
+  {
+   "id": "kau",
+   "en": "King Abdulaziz University",
+   "ar": "جامعة الملك عبدالعزيز",
+   "fr": "Université du Roi-Abdelaziz"
+  },
+  {
+   "id": "kfupm",
+   "en": "King Fahd University of Petroleum and Minerals",
+   "ar": "جامعة الملك فهد للبترول والمعادن",
+   "fr": "Université du Roi-Fahd du pétrole et des minéraux"
+  }
+ ],
+ "govPlatforms": [
+  {
+   "id": "qiwa",
+   "en": "Qiwa",
+   "ar": "قوى",
+   "fr": "Qiwa",
+   "use": {
+    "en": "Job offers, employment contracts and Iqama transfers",
+    "ar": "العروض الوظيفية وعقود العمل ونقل الخدمات",
+    "fr": "Offres d'emploi, contrats de travail et transferts d'iqama"
+   }
+  },
+  {
+   "id": "gosi",
+   "en": "GOSI",
+   "ar": "التأمينات الاجتماعية",
+   "fr": "GOSI",
+   "use": {
+    "en": "Your official employment and salary record",
+    "ar": "سجلك الرسمي للعمل والأجر",
+    "fr": "Votre historique officiel d'emploi et de salaire"
+   }
+  }
+ ],
+ "persona": {
+  "first": "Noura",
+  "last": "Al-Amri",
+  "gender": "f",
+  "nat": "SA",
+  "city": "riyadh",
+  "nameAr": {
+   "first": "نورة",
+   "last": "العمري"
+  },
+  "email": "noura.alamri@email.com",
+  "phone": "+966 55 123 4567",
+  "title": {
+   "en": "Financial Analyst",
+   "ar": "محللة مالية",
+   "fr": "Analyste financière"
+  },
+  "years": 8,
+  "employer": {
+   "en": "Acme Financial",
+   "ar": "Acme Financial",
+   "fr": "Acme Financial"
+  },
+  "employer2": {
+   "en": "Acme Capital",
+   "ar": "Acme Capital",
+   "fr": "Acme Capital"
+  },
+  "degree": {
+   "en": "BSc Accounting",
+   "ar": "بكالوريوس محاسبة",
+   "fr": "Licence en comptabilité"
+  },
+  "uni": "ksu",
+  "cert": "socpa",
+  "tools": "SAP, Excel",
+  "bio": {
+   "en": "Financial Analyst with 8 years in Riyadh. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in Riyadh, Jeddah, or remote.",
+   "ar": "محللة مالية بخبرة 8 سنوات في الرياض. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات التي قلّصت وقت التقارير بالثلث. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في الرياض أو جدة أو عن بُعد.",
+   "fr": "Analyste financière avec 8 ans d'expérience à Riyad. Je pilote le reporting IFRS et le budget sur SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre délai de reporting. Je recherche un poste d'analyste financière senior ou en FP&A à Riyad, à Djeddah ou en télétravail."
+  }
+ },
+ "people": [
+  {
+   "first": "Danah",
+   "last": "Al-Sulaiman",
+   "gender": "f",
+   "ar": {
+    "first": "دانة",
+    "last": "السليمان"
+   }
+  },
+  {
+   "first": "Yazeed",
+   "last": "Al-Bassam",
+   "gender": "m",
+   "ar": {
+    "first": "يزيد",
+    "last": "البسام"
+   }
+  },
+  {
+   "first": "Ghadah",
+   "last": "Al-Faraj",
+   "gender": "f",
+   "ar": {
+    "first": "غادة",
+    "last": "الفرج"
+   }
+  },
+  {
+   "first": "Meshal",
+   "last": "Al-Mutlaq",
+   "gender": "m",
+   "ar": {
+    "first": "مشعل",
+    "last": "المطلق"
+   }
+  },
+  {
+   "first": "Rawan",
+   "last": "Al-Juhani",
+   "gender": "f",
+   "ar": {
+    "first": "روان",
+    "last": "الجهني"
+   }
+  },
+  {
+   "first": "Saad",
+   "last": "Al-Hamdan",
+   "gender": "m",
+   "ar": {
+    "first": "سعد",
+    "last": "الحمدان"
+   }
+  },
+  {
+   "first": "Layla",
+   "last": "Al-Otaibi",
+   "gender": "f",
+   "ar": {
+    "first": "ليلى",
+    "last": "العتيبي"
+   }
+  },
+  {
+   "first": "Faisal",
+   "last": "Al-Qahtani",
+   "gender": "m",
+   "ar": {
+    "first": "فيصل",
+    "last": "القحطاني"
+   }
+  },
+  {
+   "first": "Asma",
+   "last": "Kurdi",
+   "gender": "f",
+   "ar": {
+    "first": "أسماء",
+    "last": "كردي"
+   }
+  },
+  {
+   "first": "Abdulrahman",
+   "last": "Al-Shehri",
+   "gender": "m",
+   "ar": {
+    "first": "عبدالرحمن",
+    "last": "الشهري"
+   }
+  }
+ ],
+ "culture": {
+  "notes": "Work week Sunday to Thursday (Friday-Saturday weekend since 2013); interviews and deadlines in copy should use Sun-Thu days (v5 does). Salaries are quoted per month, as a package: basic plus housing and transport allowances; offers often show basic and total separately. Government pays on the 27th of the Gregorian month; private employers usually pay around month end. Notice: the amended Labour Law (in force February 2025) sets 30 days for an employee ending an indefinite contract and 60 days for the employer; many professional contracts still state 60 days, and v5 has Noura on 60 days. Non-Saudis on indefinite contracts are treated as on renewable one-year fixed terms; an expat moving via Qiwa after a year of service can face a 90-day notice unless the employer shortens it. CVs: 1-2 pages, English (an Arabic version helps for semi-government roles), with a personal block (nationality, Iqama or visa status, sometimes photo and date of birth). Cover letters are rarely required; portals ask short motivation and screening questions instead (e.g. SOCPA membership, SAMA experience, relocation). Employers verify history against GOSI and ask for National ID or Iqama, degree and certificates at offer stage. Jadarat is the national platform for Saudi job seekers and the main route into government and semi-government roles."
+ },
+ "noticeDays": 60
+}

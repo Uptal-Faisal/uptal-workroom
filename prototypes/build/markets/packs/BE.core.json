@@ -1,0 +1,815 @@
+{
+ "code": "BE",
+ "flag": "🇧🇪",
+ "name": {
+  "en": "Belgium",
+  "ar": "بلجيكا",
+  "fr": "Belgique"
+ },
+ "short": {
+  "en": "Belgium",
+  "ar": "بلجيكا",
+  "fr": "la Belgique"
+ },
+ "in": {
+  "en": "in Belgium",
+  "ar": "في بلجيكا",
+  "fr": "en Belgique"
+ },
+ "dem": {
+  "en": "Belgian",
+  "ar": "بلجيكي",
+  "arf": "بلجيكية",
+  "fr": "belge",
+  "frf": "belge"
+ },
+ "nationals": {
+  "en": "Belgian citizens",
+  "ar": "المواطنون البلجيكيون",
+  "fr": "citoyens belges"
+ },
+ "region": "eu",
+ "workweek": "mon-fri",
+ "cities": [
+  {
+   "id": "brussels",
+   "en": "Brussels",
+   "ar": "بروكسل",
+   "fr": "Bruxelles",
+   "metro": {
+    "en": "Brussels covers the 19 communes of the Brussels-Capital Region plus the airport and ring offices (Zaventem, Diegem, Machelen, Vilvoorde, Halle).",
+    "ar": "تشمل بروكسل البلديات التسع عشرة لمنطقة بروكسل العاصمة، إضافة إلى منطقة مطار زافنتم ومكاتب الضواحي المحيطة بالعاصمة.",
+    "fr": "Bruxelles couvre les 19 communes de la Région de Bruxelles-Capitale, ainsi que l'aéroport et les bureaux de la périphérie (Zaventem, Diegem, Machelen, Vilvorde, Hal)."
+   }
+  },
+  {
+   "id": "antwerp",
+   "en": "Antwerp",
+   "ar": "أنتويرب",
+   "fr": "Anvers",
+   "metro": {
+    "en": "Antwerp covers the city and port area, plus Mechelen and the rest of the province.",
+    "ar": "تشمل أنتويرب المدينة ومنطقة الميناء، إضافة إلى مدينة ميخلن وبقية المقاطعة.",
+    "fr": "Anvers couvre la ville et la zone portuaire, ainsi que Malines et le reste de la province."
+   }
+  },
+  {
+   "id": "ghent",
+   "en": "Ghent",
+   "ar": "غنت",
+   "fr": "Gand",
+   "metro": {
+    "en": "Ghent covers the city, the port area and the nearby business parks.",
+    "ar": "تشمل غنت المدينة ومنطقة الميناء ومجمعات الأعمال المجاورة.",
+    "fr": "Gand couvre la ville, la zone portuaire et les parcs d'affaires voisins."
+   }
+  },
+  {
+   "id": "leuven",
+   "en": "Leuven",
+   "ar": "لوفان",
+   "fr": "Louvain",
+   "metro": {
+    "en": "Leuven covers the city and the Flemish Brabant towns along the E40 towards Brussels.",
+    "ar": "تشمل لوفان المدينة وبلدات برابانت الفلامندية على امتداد الطريق E40 باتجاه بروكسل.",
+    "fr": "Louvain couvre la ville et les communes du Brabant flamand le long de l'E40 vers Bruxelles."
+   }
+  },
+  {
+   "id": "louvain-la-neuve",
+   "en": "Louvain-la-Neuve",
+   "ar": "لوفان لا نوف",
+   "fr": "Louvain-la-Neuve",
+   "metro": {
+    "en": "Louvain-la-Neuve covers Walloon Brabant, including Wavre, Ottignies, La Hulpe and Braine-l'Alleud.",
+    "ar": "تشمل لوفان لا نوف بقية مقاطعة برابانت الوالونية جنوب بروكسل.",
+    "fr": "Louvain-la-Neuve couvre le Brabant wallon, dont Wavre, Ottignies, La Hulpe et Braine-l'Alleud."
+   }
+  },
+  {
+   "id": "liege",
+   "en": "Liège",
+   "ar": "لييج",
+   "fr": "Liège",
+   "metro": {
+    "en": "Liège covers the city and its suburbs.",
+    "ar": "تشمل لييج المدينة وضواحيها.",
+    "fr": "Liège couvre la ville et sa périphérie."
+   }
+  },
+  {
+   "id": "kortrijk",
+   "en": "Kortrijk",
+   "ar": "كورتريك",
+   "fr": "Courtrai",
+   "metro": {
+    "en": "Kortrijk covers the city and the surrounding south of West Flanders.",
+    "ar": "تشمل كورتريك المدينة والمنطقة المحيطة بها في جنوب فلاندرز الغربية.",
+    "fr": "Courtrai couvre la ville et le sud de la Flandre-Occidentale."
+   }
+  }
+ ],
+ "employers": [
+  {
+   "id": "bnpparibasfortis",
+   "en": "BNP Paribas Fortis",
+   "ar": "بي إن بي باريبا فورتيس",
+   "fr": "BNP Paribas Fortis",
+   "sector": "bank",
+   "archetype": "largest bank, part of BNP Paribas",
+   "city": "brussels",
+   "logo": {
+    "bg": "#00915A",
+    "fg": "#FFFFFF",
+    "mono": "BNP"
+   }
+  },
+  {
+   "id": "kbc",
+   "en": "KBC",
+   "ar": "كي بي سي",
+   "fr": "KBC",
+   "sector": "bank",
+   "archetype": "bank-insurer group HQ",
+   "city": "brussels",
+   "logo": {
+    "bg": "#0097DB",
+    "fg": "#FFFFFF",
+    "mono": "KBC"
+   }
+  },
+  {
+   "id": "belfius",
+   "en": "Belfius",
+   "ar": "بلفيوس",
+   "fr": "Belfius",
+   "sector": "bank",
+   "archetype": "state-owned bank",
+   "city": "brussels",
+   "logo": {
+    "bg": "#C30045",
+    "fg": "#FFFFFF",
+    "mono": "B"
+   }
+  },
+  {
+   "id": "aginsurance",
+   "en": "AG Insurance",
+   "ar": "إيه جي للتأمين",
+   "fr": "AG Insurance",
+   "sector": "insurer",
+   "archetype": "largest insurer",
+   "city": "brussels",
+   "logo": {
+    "bg": "#0055A4",
+    "fg": "#FFFFFF",
+    "mono": "AG"
+   }
+  },
+  {
+   "id": "euroclear",
+   "en": "Euroclear",
+   "ar": "يوروكلير",
+   "fr": "Euroclear",
+   "sector": "financial-infrastructure",
+   "archetype": "global securities settlement HQ",
+   "city": "brussels",
+   "logo": {
+    "bg": "#00205B",
+    "fg": "#FFFFFF",
+    "mono": "EC"
+   }
+  },
+  {
+   "id": "euronext",
+   "en": "Euronext Brussels",
+   "ar": "يورونكست بروكسل",
+   "fr": "Euronext Bruxelles",
+   "sector": "exchange",
+   "archetype": "stock exchange",
+   "city": "brussels",
+   "logo": {
+    "bg": "#008D7F",
+    "fg": "#FFFFFF",
+    "mono": "ENX"
+   }
+  },
+  {
+   "id": "nbb",
+   "en": "National Bank of Belgium",
+   "ar": "البنك الوطني البلجيكي",
+   "fr": "Banque nationale de Belgique",
+   "sector": "central-bank",
+   "archetype": "central bank (public body)",
+   "city": "brussels",
+   "logo": {
+    "bg": "#1B365D",
+    "fg": "#F2C14E",
+    "mono": "NBB"
+   }
+  },
+  {
+   "id": "sfpim",
+   "en": "SFPIM",
+   "ar": "الشركة الاتحادية للمساهمات والاستثمار (SFPIM)",
+   "fr": "SFPIM",
+   "sector": "sovereign",
+   "archetype": "federal sovereign investment holding",
+   "city": "brussels",
+   "logo": {
+    "bg": "#3E4A89",
+    "fg": "#FFFFFF",
+    "mono": "SFPI"
+   }
+  },
+  {
+   "id": "engie",
+   "en": "ENGIE Belgium",
+   "ar": "إنجي بلجيكا",
+   "fr": "ENGIE Belgique",
+   "sector": "energy",
+   "archetype": "national power champion (Electrabel)",
+   "city": "brussels",
+   "logo": {
+    "bg": "#00AAFF",
+    "fg": "#FFFFFF",
+    "mono": "E"
+   }
+  },
+  {
+   "id": "proximus",
+   "en": "Proximus",
+   "ar": "بروكسيموس",
+   "fr": "Proximus",
+   "sector": "telecom",
+   "archetype": "telecom #1, state majority-owned",
+   "city": "brussels",
+   "logo": {
+    "bg": "#5C2D91",
+    "fg": "#FFFFFF",
+    "mono": "P"
+   }
+  },
+  {
+   "id": "telenet",
+   "en": "Telenet",
+   "ar": "تيلينت",
+   "fr": "Telenet",
+   "sector": "telecom",
+   "archetype": "telecom #2, cable and mobile (HQ Mechelen)",
+   "city": "antwerp",
+   "logo": {
+    "bg": "#FFC421",
+    "fg": "#000000",
+    "mono": "T"
+   }
+  },
+  {
+   "id": "orange",
+   "en": "Orange Belgium",
+   "ar": "أورانج بلجيكا",
+   "fr": "Orange Belgium",
+   "sector": "telecom",
+   "archetype": "mobile and broadband operator",
+   "city": "brussels",
+   "logo": {
+    "bg": "#FF7900",
+    "fg": "#FFFFFF",
+    "mono": "O"
+   }
+  },
+  {
+   "id": "abinbev",
+   "en": "AB InBev",
+   "ar": "إيه بي إنبيف",
+   "fr": "AB InBev",
+   "sector": "fmcg",
+   "archetype": "global brewer HQ",
+   "city": "leuven",
+   "logo": {
+    "bg": "#1D1D1B",
+    "fg": "#E8B53A",
+    "mono": "ABI"
+   }
+  },
+  {
+   "id": "colruyt",
+   "en": "Colruyt Group",
+   "ar": "مجموعة كولرويت",
+   "fr": "Colruyt Group",
+   "sector": "retail",
+   "archetype": "largest supermarket group (HQ Halle)",
+   "city": "brussels",
+   "logo": {
+    "bg": "#EE7203",
+    "fg": "#FFFFFF",
+    "mono": "CG"
+   }
+  },
+  {
+   "id": "coolblue",
+   "en": "Coolblue",
+   "ar": "كولبلو",
+   "fr": "Coolblue",
+   "sector": "e-commerce",
+   "archetype": "online retailer and app (Belgian entity in Antwerp)",
+   "city": "antwerp",
+   "logo": {
+    "bg": "#0090E3",
+    "fg": "#FFFFFF",
+    "mono": "CB"
+   }
+  },
+  {
+   "id": "brusselsairlines",
+   "en": "Brussels Airlines",
+   "ar": "بروكسل إيرلاينز",
+   "fr": "Brussels Airlines",
+   "sector": "airline",
+   "archetype": "national carrier, Lufthansa Group",
+   "city": "brussels",
+   "logo": {
+    "bg": "#00215B",
+    "fg": "#FFFFFF",
+    "mono": "SN"
+   }
+  },
+  {
+   "id": "uzgent",
+   "en": "Ghent University Hospital",
+   "ar": "مستشفى غنت الجامعي",
+   "fr": "Hôpital universitaire de Gand",
+   "sector": "hospital",
+   "archetype": "university hospital",
+   "city": "ghent",
+   "logo": {
+    "bg": "#1E64C8",
+    "fg": "#FFFFFF",
+    "mono": "UZG"
+   }
+  },
+  {
+   "id": "odoo",
+   "en": "Odoo",
+   "ar": "أودو",
+   "fr": "Odoo",
+   "sector": "tech",
+   "archetype": "tech scale-up (business software)",
+   "city": "louvain-la-neuve",
+   "logo": {
+    "bg": "#714B67",
+    "fg": "#FFFFFF",
+    "mono": "O"
+   }
+  },
+  {
+   "id": "worldline",
+   "en": "Worldline",
+   "ar": "وورلدلاين",
+   "fr": "Worldline",
+   "sector": "fintech",
+   "archetype": "payments processor",
+   "city": "brussels",
+   "logo": {
+    "bg": "#46BEAA",
+    "fg": "#0B2D3A",
+    "mono": "WL"
+   }
+  },
+  {
+   "id": "deloitte",
+   "en": "Deloitte Belgium",
+   "ar": "ديلويت بلجيكا",
+   "fr": "Deloitte Belgique",
+   "sector": "big4",
+   "archetype": "big-4 professional services (Brussels Airport)",
+   "city": "brussels",
+   "logo": {
+    "bg": "#000000",
+    "fg": "#86BC25",
+    "mono": "D"
+   }
+  },
+  {
+   "id": "umicore",
+   "en": "Umicore",
+   "ar": "يوميكور",
+   "fr": "Umicore",
+   "sector": "industrial",
+   "archetype": "materials and metals group (ex-mining)",
+   "city": "brussels",
+   "logo": {
+    "bg": "#0072BC",
+    "fg": "#FFFFFF",
+    "mono": "U"
+   }
+  },
+  {
+   "id": "ucb",
+   "en": "UCB",
+   "ar": "يو سي بي",
+   "fr": "UCB",
+   "sector": "pharma",
+   "archetype": "biopharma HQ",
+   "city": "brussels",
+   "logo": {
+    "bg": "#0057A8",
+    "fg": "#FFFFFF",
+    "mono": "UCB"
+   }
+  },
+  {
+   "id": "besix",
+   "en": "BESIX",
+   "ar": "بيسيكس",
+   "fr": "BESIX",
+   "sector": "real-estate",
+   "archetype": "construction and real-estate developer",
+   "city": "brussels",
+   "logo": {
+    "bg": "#003E7E",
+    "fg": "#FFFFFF",
+    "mono": "BX"
+   }
+  },
+  {
+   "id": "portantwerpbruges",
+   "en": "Port of Antwerp-Bruges",
+   "ar": "ميناء أنتويرب-بروج",
+   "fr": "Port d'Anvers-Bruges",
+   "sector": "government",
+   "archetype": "public port authority",
+   "city": "antwerp",
+   "logo": {
+    "bg": "#003B5C",
+    "fg": "#FFFFFF",
+    "mono": "PAB"
+   }
+  }
+ ],
+ "sectorsCovered": "energy: ENGIE Belgium (Electrabel); largest banks: BNP Paribas Fortis, KBC, Belfius; Islamic bank: n/a in Belgium; telecoms: Proximus (#1), Telenet (#2 by revenue), Orange Belgium (#2 in mobile); sovereign: SFPIM; big-4: Deloitte; FMCG: AB InBev; retailer: Colruyt Group; airline: Brussels Airlines; hospital: Ghent University Hospital; insurer: AG Insurance; tech scale-up: Odoo; fintech: Worldline; e-commerce app: Coolblue; real estate: BESIX; stock exchange: Euronext Brussels; industrial: Umicore; government/semi-government: National Bank of Belgium, Port of Antwerp-Bruges; plus Euroclear (market infrastructure) and UCB (pharma)",
+ "sal": {
+  "per": "month",
+  "f": 0.192,
+  "basis": "Belgians quote pay as gross per month. An experienced (8-year) Financial Analyst in Brussels earns about EUR 5,000 gross a month base: Robert Half's Brussels Financial/Business Analyst page shows P25-P75 EUR 4,073-6,100 a month (median 4,835); Brussels Corporate Finance Analyst median 5,469, P75 6,714. f = 5,000 / 26,000 = 0.192, so Noura's 34,000 expectation maps to about EUR 6,530 a month for a Senior FA / FP&A seat. Annual cash is about 13.92 x monthly (13th month + double holiday pay), on top of meal vouchers, group insurance and often a company car."
+ },
+ "tax": {
+  "incl": true,
+  "rate": 21,
+  "label": {
+   "en": "VAT included",
+   "ar": "شامل ضريبة القيمة المضافة",
+   "fr": "TVA incluse"
+  }
+ },
+ "pay": {
+  "wallets": [
+   "apple",
+   "google"
+  ],
+  "methods": [
+   {
+    "id": "bancontact",
+    "label": {
+     "en": "Bancontact",
+     "ar": "Bancontact",
+     "fr": "Bancontact"
+    },
+    "sub": {
+     "en": "Bancontact card or app. Renewals by SEPA direct debit.",
+     "ar": "بطاقة Bancontact أو تطبيقه، ويتم التجديد عبر الخصم المباشر SEPA.",
+     "fr": "Carte ou appli Bancontact. Renouvellements par domiciliation SEPA."
+    },
+    "brands": [
+     "bancontact"
+    ]
+   },
+   {
+    "id": "card",
+    "label": {
+     "en": "Card",
+     "ar": "بطاقة",
+     "fr": "Carte"
+    },
+    "sub": {
+     "en": "Visa, Mastercard, Amex",
+     "ar": "فيزا، ماستركارد، أمريكان إكسبريس",
+     "fr": "Visa, Mastercard, Amex"
+    },
+    "brands": [
+     "visa",
+     "mc",
+     "amex"
+    ]
+   },
+   {
+    "id": "paypal",
+    "label": {
+     "en": "PayPal",
+     "ar": "PayPal",
+     "fr": "PayPal"
+    },
+    "sub": {
+     "en": "Pay with your PayPal account",
+     "ar": "ادفع باستخدام حسابك في PayPal",
+     "fr": "Payez avec votre compte PayPal"
+    }
+   }
+  ],
+  "bnpl": [],
+  "localCardBrand": "Bancontact"
+ },
+ "phone": {
+  "cc": "+32",
+  "ex": "+32 470 12 34 56"
+ },
+ "rights": {
+  "q": {
+   "en": "Your right to work in Belgium",
+   "ar": "حقك في العمل في بلجيكا",
+   "fr": "Votre droit de travailler en Belgique"
+  },
+  "opts": [
+   {
+    "en": "Belgian, EU, EEA or Swiss citizen",
+    "ar": "جنسية بلجيكية أو من الاتحاد الأوروبي أو المنطقة الاقتصادية الأوروبية أو سويسرا",
+    "fr": "Nationalité belge, de l'UE, de l'EEE ou suisse",
+    "sub": {
+     "en": "No work permit needed",
+     "ar": "لا تحتاج إلى تصريح عمل",
+     "fr": "Aucun permis de travail requis"
+    }
+   },
+   {
+    "en": "Residence card marked \"labour market: unlimited\"",
+    "ar": "بطاقة إقامة مكتوب عليها «سوق العمل: غير محدود»",
+    "fr": "Titre de séjour avec la mention « marché du travail : illimité »",
+    "sub": {
+     "en": "For example long-term resident, family member or refugee",
+     "ar": "مثل الإقامة الطويلة الأمد أو الإقامة العائلية أو صفة اللاجئ",
+     "fr": "Par exemple résident de longue durée, membre de la famille ou réfugié"
+    }
+   },
+   {
+    "en": "Search year after graduating in Belgium",
+    "ar": "سنة البحث عن عمل بعد التخرج في بلجيكا",
+    "fr": "Année de recherche après vos études en Belgique",
+    "sub": {
+     "en": "12 months, any employer, no permit needed",
+     "ar": "12 شهراً، لدى أي جهة عمل، دون تصريح",
+     "fr": "12 mois, tout employeur, sans permis"
+    }
+   },
+   {
+    "en": "Single permit",
+    "ar": "التصريح الموحد (إقامة وعمل)",
+    "fr": "Permis unique",
+    "sub": {
+     "en": "Tied to your employer; changing jobs may need a new permit",
+     "ar": "مرتبط بجهة عملك، وقد يتطلب تغيير الوظيفة تصريحاً جديداً",
+     "fr": "Lié à votre employeur ; changer d'emploi peut exiger un nouveau permis"
+    }
+   },
+   {
+    "en": "EU Blue Card",
+    "ar": "البطاقة الزرقاء الأوروبية",
+    "fr": "Carte bleue européenne",
+    "sub": {
+     "en": "Highly qualified roles above the regional salary threshold",
+     "ar": "للوظائف عالية التأهيل التي يتجاوز راتبها الحد الأدنى المحدد في الإقليم",
+     "fr": "Postes hautement qualifiés au-dessus du seuil salarial régional"
+    }
+   },
+   {
+    "en": "I'll need a work permit",
+    "ar": "سأحتاج إلى تصريح عمل",
+    "fr": "J'aurai besoin d'un permis de travail",
+    "sub": {
+     "en": "Your employer applies for a single permit for you",
+     "ar": "تتقدّم جهة العمل بطلب التصريح الموحد نيابةً عنك",
+     "fr": "Votre employeur demande un permis unique pour vous"
+    }
+   }
+  ],
+  "autoFor": [
+   "BE",
+   "AT",
+   "BG",
+   "HR",
+   "CY",
+   "CZ",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "DE",
+   "GR",
+   "HU",
+   "IE",
+   "IT",
+   "LV",
+   "LT",
+   "LU",
+   "MT",
+   "NL",
+   "PL",
+   "PT",
+   "RO",
+   "SK",
+   "SI",
+   "ES",
+   "SE",
+   "IS",
+   "LI",
+   "NO",
+   "CH"
+  ],
+  "autoText": {
+   "en": "EU, EEA and Swiss citizens can work in Belgium without a work permit.",
+   "ar": "يمكن لمواطني الاتحاد الأوروبي والمنطقة الاقتصادية الأوروبية وسويسرا العمل في بلجيكا دون تصريح عمل.",
+   "fr": "Les ressortissants de l'UE, de l'EEE et de la Suisse peuvent travailler en Belgique sans permis de travail."
+  },
+  "rule": {
+   "en": "If you need a permit, we skip Belgian jobs that say they can't sponsor one.",
+   "ar": "إذا كنت تحتاج إلى تصريح عمل، نتجاوز الوظائف في بلجيكا التي تذكر أنها لا تستطيع التكفّل به.",
+   "fr": "Si vous avez besoin d'un permis, nous écartons les offres en Belgique qui précisent ne pas pouvoir en demander un."
+  }
+ },
+ "nationalisation": null,
+ "sensitive": {
+  "photo": "optional",
+  "gender": "none",
+  "dob": "none",
+  "nationality": "none",
+  "marital": "none",
+  "notes": "Belgian anti-discrimination law (Anti-Discrimination Act and Gender Act of 10 May 2007, Anti-Racism Act of 30 July 1981) bars selection on age, sex, civil status, nationality, origin and other criteria, and Brussels and Flemish authorities run hiring discrimination tests. A photo still appears on many Belgian CVs, so it is optional and never required. Application forms do not normally ask for gender, date of birth, nationality or marital status; the right-to-work card covers work authorisation. The one thing Belgian applications do ask is language levels (Dutch / French / English)."
+ },
+ "legal": {
+  "law": "GDPR + Belgian Data Protection Act of 30 July 2018",
+  "privacy": {
+   "en": "Your data is protected under the GDPR and Belgium's Data Protection Act of 30 July 2018, and your CV only goes to employers you apply to.",
+   "ar": "بياناتك محمية بموجب اللائحة الأوروبية العامة لحماية البيانات (GDPR) والقانون البلجيكي لحماية البيانات الصادر في 30 يوليو 2018، ولا تُرسل سيرتك الذاتية إلا إلى جهات العمل التي تتقدّم إليها.",
+   "fr": "Vos données sont protégées par le RGPD et la loi belge du 30 juillet 2018 relative à la protection des données, et votre CV n'est transmis qu'aux employeurs auprès desquels vous postulez."
+  },
+  "renewal": {
+   "en": "Your plan renews automatically at the end of each period until you cancel, which you can do anytime in Settings. Under EU and Belgian consumer law, you can withdraw within 14 days of subscribing.",
+   "ar": "يتجدد اشتراكك تلقائياً في نهاية كل فترة إلى أن تلغيه، ويمكنك الإلغاء في أي وقت من الإعدادات. ووفقاً لقانون حماية المستهلك الأوروبي والبلجيكي، يحق لك الانسحاب خلال 14 يوماً من تاريخ الاشتراك.",
+   "fr": "Votre abonnement se renouvelle automatiquement à la fin de chaque période jusqu'à sa résiliation, possible à tout moment dans les Paramètres. Conformément au droit européen et belge de la consommation, vous disposez de 14 jours pour vous rétracter après la souscription."
+  }
+ },
+ "boards": [
+  "LinkedIn",
+  "Indeed",
+  "Jobat",
+  "StepStone",
+  "VDAB",
+  "Actiris",
+  "Le Forem"
+ ],
+ "lang2": {
+  "en": "Dutch",
+  "ar": "الهولندية",
+  "fr": "néerlandais"
+ },
+ "certs": [
+  {
+   "id": "cfa",
+   "en": "CFA",
+   "ar": "CFA (محلل مالي معتمد)",
+   "fr": "CFA"
+  },
+  {
+   "id": "itaa",
+   "en": "ITAA Certified Accountant",
+   "ar": "محاسب معتمد من ITAA",
+   "fr": "Expert-comptable certifié ITAA"
+  },
+  {
+   "id": "ibr-ire",
+   "en": "IBR-IRE Registered Auditor",
+   "ar": "مدقق حسابات معتمد (IBR-IRE)",
+   "fr": "Réviseur d'entreprises (IRE)"
+  },
+  {
+   "id": "acca",
+   "en": "ACCA",
+   "ar": "ACCA",
+   "fr": "ACCA"
+  }
+ ],
+ "unis": [
+  {
+   "id": "kuleuven",
+   "en": "KU Leuven",
+   "ar": "جامعة لوفان الكاثوليكية (KU Leuven)",
+   "fr": "KU Leuven"
+  },
+  {
+   "id": "solvay",
+   "en": "Solvay Brussels School (ULB)",
+   "ar": "كلية سولفاي بروكسل للاقتصاد والإدارة (ULB)",
+   "fr": "Solvay Brussels School (ULB)"
+  },
+  {
+   "id": "ugent",
+   "en": "Ghent University",
+   "ar": "جامعة غنت",
+   "fr": "Université de Gand"
+  }
+ ],
+ "govPlatforms": [],
+ "persona": {
+  "first": "Thomas",
+  "last": "Peeters",
+  "gender": "m",
+  "nat": "BE",
+  "city": "brussels",
+  "email": "thomas.peeters@email.com",
+  "phone": "+32 470 12 34 56",
+  "title": {
+   "en": "Financial Analyst",
+   "ar": "محلل مالي",
+   "fr": "Analyste financier"
+  },
+  "years": 8,
+  "employer": {
+   "en": "Acme Benelux",
+   "ar": "أكمي بنلوكس",
+   "fr": "Acme Benelux"
+  },
+  "employer2": {
+   "en": "Acme Capital Belgium",
+   "ar": "أكمي كابيتال بلجيكا",
+   "fr": "Acme Capital Belgique"
+  },
+  "degree": {
+   "en": "Master in Business Economics (Finance)",
+   "ar": "ماجستير في اقتصاد الأعمال (تخصص مالية)",
+   "fr": "Master en sciences économiques appliquées (finance)"
+  },
+  "uni": "kuleuven",
+  "cert": "cfa",
+  "tools": "SAP S/4HANA, Excel, Power BI",
+  "bio": {
+   "en": "Financial Analyst with 8 years in Brussels. I lead IFRS and Belgian GAAP reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I work in Dutch, French and English, and I am looking for a Senior Financial Analyst or FP&A role in Brussels, Antwerp, or hybrid.",
+   "ar": "محلل مالي بخبرة 8 سنوات في بروكسل. أقود إعداد التقارير وفق معايير IFRS والمعايير المحاسبية البلجيكية، وإعداد الموازنات على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أعمل بالهولندية والفرنسية والإنجليزية، وأبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي في بروكسل أو أنتويرب أو بنظام العمل الهجين.",
+   "fr": "Analyste financier avec 8 ans d'expérience à Bruxelles. Je pilote le reporting IFRS et en normes comptables belges ainsi que le budget sur SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une direction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting. Je travaille en néerlandais, en français et en anglais, et je recherche un poste de Senior Financial Analyst ou en FP&A à Bruxelles, à Anvers ou en mode hybride."
+  }
+ },
+ "people": [
+  {
+   "first": "Lotte",
+   "last": "Janssens",
+   "gender": "f"
+  },
+  {
+   "first": "Pieter",
+   "last": "Maes",
+   "gender": "m"
+  },
+  {
+   "first": "Julie",
+   "last": "Dubois",
+   "gender": "f"
+  },
+  {
+   "first": "Nicolas",
+   "last": "Lambert",
+   "gender": "m"
+  },
+  {
+   "first": "Sarah",
+   "last": "Claes",
+   "gender": "f"
+  },
+  {
+   "first": "Maxime",
+   "last": "Dupont",
+   "gender": "m"
+  },
+  {
+   "first": "Elise",
+   "last": "Willems",
+   "gender": "f"
+  },
+  {
+   "first": "Wouter",
+   "last": "Jacobs",
+   "gender": "m"
+  },
+  {
+   "first": "Yasmine",
+   "last": "El Amrani",
+   "gender": "f"
+  },
+  {
+   "first": "Arnaud",
+   "last": "Lemaire",
+   "gender": "m"
+  }
+ ],
+ "culture": {
+  "notes": "Mon-Fri, 38-hour week; hybrid with 2-3 office days is common in Brussels. Pay is discussed as gross per month and paid monthly, usually at month end; packages add a 13th month and double holiday pay (about 13.92 monthly salaries a year), meal vouchers, group and hospitalisation insurance, and often a company car or mobility budget. Statutory resignation notice depends on seniority with the current employer: 1 week under 3 months up to a 13-week maximum at 8+ years (6 weeks at 2-4 years, 9 weeks at 5-6 years); employers usually wait it out or negotiate an earlier exit. CV: 1-2 pages, a languages section with levels for Dutch, French and English is expected, photo optional, no date of birth or marital status needed. A short cover letter (lettre de motivation / motivatiebrief) is commonly expected. Apply in the language of the ad: Dutch in Flanders, French in Wallonia, French, Dutch or English in Brussels; bilingual FR/NL is often a hiring criterion in Brussels."
+ },
+ "noticeDays": 60
+}

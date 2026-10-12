@@ -1,0 +1,172 @@
+{
+ "code": "GB",
+ "flag": "🇬🇧",
+ "name": {"en": "United Kingdom", "ar": "المملكة المتحدة", "fr": "Royaume-Uni"},
+ "short": {"en": "the UK", "ar": "المملكة المتحدة", "fr": "le Royaume-Uni"},
+ "in": {"en": "in the UK", "ar": "في المملكة المتحدة", "fr": "au Royaume-Uni"},
+ "dem": {"en": "British", "ar": "بريطاني", "arf": "بريطانية", "fr": "britannique", "frf": "britannique"},
+ "nationals": {"en": "British citizens", "ar": "المواطنون البريطانيون", "fr": "citoyens britanniques"},
+ "region": "uk",
+ "workweek": "mon-fri",
+ "cities": [
+  {"id": "london", "en": "London", "ar": "لندن", "fr": "Londres",
+   "metro": {"en": "London covers Greater London and nearby commuter towns such as Welwyn Garden City.", "ar": "تشمل لندن منطقة لندن الكبرى والبلدات القريبة التي يتنقل منها الموظفون يومياً، مثل ويلوين غاردن سيتي.", "fr": "Londres comprend le Grand Londres et les villes proches de la grande banlieue, comme Welwyn Garden City."}},
+  {"id": "manchester", "en": "Manchester", "ar": "مانشستر", "fr": "Manchester",
+   "metro": {"en": "Manchester covers Greater Manchester, including Salford and Trafford.", "ar": "تشمل مانشستر منطقة مانشستر الكبرى، بما فيها سالفورد وترافورد.", "fr": "Manchester comprend le Grand Manchester, dont Salford et Trafford."}},
+  {"id": "birmingham", "en": "Birmingham", "ar": "برمنغهام", "fr": "Birmingham",
+   "metro": {"en": "Birmingham covers the West Midlands, including Coventry and Solihull.", "ar": "تشمل برمنغهام منطقة ويست ميدلاندز، بما فيها كوفنتري وسوليهل.", "fr": "Birmingham comprend les West Midlands, dont Coventry et Solihull."}},
+  {"id": "edinburgh", "en": "Edinburgh", "ar": "إدنبرة", "fr": "Édimbourg",
+   "metro": {"en": "Edinburgh covers the city and the Lothians.", "ar": "تشمل إدنبرة المدينة ومنطقة لوثيان المحيطة بها.", "fr": "Édimbourg comprend la ville et les Lothians."}},
+  {"id": "leeds", "en": "Leeds", "ar": "ليدز", "fr": "Leeds",
+   "metro": {"en": "Leeds covers West Yorkshire, including Bradford and Wakefield.", "ar": "تشمل ليدز منطقة غرب يوركشاير، بما فيها برادفورد وويكفيلد.", "fr": "Leeds comprend le Yorkshire de l'Ouest, dont Bradford et Wakefield."}},
+  {"id": "glasgow", "en": "Glasgow", "ar": "غلاسكو", "fr": "Glasgow",
+   "metro": {"en": "Glasgow covers the city and Greater Glasgow.", "ar": "تشمل غلاسكو المدينة ومنطقة غلاسكو الكبرى.", "fr": "Glasgow comprend la ville et l'agglomération du Grand Glasgow."}},
+  {"id": "bristol", "en": "Bristol", "ar": "بريستول", "fr": "Bristol",
+   "metro": {"en": "Bristol covers the city, South Gloucestershire and Bath.", "ar": "تشمل بريستول المدينة وجنوب غلوسترشير وباث.", "fr": "Bristol comprend la ville, le South Gloucestershire et Bath."}},
+  {"id": "reading", "en": "Reading", "ar": "ريدينغ", "fr": "Reading",
+   "metro": {"en": "Reading covers the Thames Valley, including Slough and Newbury.", "ar": "تشمل ريدينغ منطقة وادي التيمز، بما فيها سلاو ونيوبري.", "fr": "Reading comprend la vallée de la Tamise, dont Slough et Newbury."}}
+ ],
+ "employers": [
+  {"id": "hsbc", "en": "HSBC", "ar": "إتش إس بي سي", "fr": "HSBC", "sector": "bank", "archetype": "global bank HQ", "city": "london",
+   "logo": {"bg": "#DB0011", "fg": "#FFFFFF", "mono": "HSBC"}},
+  {"id": "barclays", "en": "Barclays", "ar": "باركليز", "fr": "Barclays", "sector": "bank", "archetype": "universal bank, Canary Wharf HQ", "city": "london",
+   "logo": {"bg": "#00AEEF", "fg": "#FFFFFF", "mono": "B"}},
+  {"id": "lloyds", "en": "Lloyds Banking Group", "ar": "مجموعة لويدز المصرفية", "fr": "Lloyds Banking Group", "sector": "bank", "archetype": "largest UK retail bank", "city": "london",
+   "logo": {"bg": "#006A4D", "fg": "#FFFFFF", "mono": "LBG"}},
+  {"id": "natwest", "en": "NatWest Group", "ar": "مجموعة نات وست", "fr": "NatWest Group", "sector": "bank", "archetype": "big UK high-street bank, Edinburgh HQ", "city": "edinburgh",
+   "logo": {"bg": "#5A287D", "fg": "#FFFFFF", "mono": "NW"}},
+  {"id": "bp", "en": "BP", "ar": "بي بي", "fr": "BP", "sector": "energy", "archetype": "energy major HQ", "city": "london",
+   "logo": {"bg": "#009B3A", "fg": "#FFE600", "mono": "bp"}},
+  {"id": "shell", "en": "Shell", "ar": "شل", "fr": "Shell", "sector": "energy", "archetype": "energy major HQ", "city": "london",
+   "logo": {"bg": "#FFD500", "fg": "#DD1D21", "mono": "S"}},
+  {"id": "bt", "en": "BT Group", "ar": "مجموعة بي تي", "fr": "BT Group", "sector": "telecom", "archetype": "telecoms #1 (BT, EE, Openreach)", "city": "london",
+   "logo": {"bg": "#5514B4", "fg": "#FFFFFF", "mono": "BT"}},
+  {"id": "vmo2", "en": "Virgin Media O2", "ar": "فيرجن ميديا أو 2", "fr": "Virgin Media O2", "sector": "telecom", "archetype": "telecoms #2, mobile and broadband", "city": "reading",
+   "logo": {"bg": "#0019A5", "fg": "#FFFFFF", "mono": "VMO2"}},
+  {"id": "deloitte", "en": "Deloitte", "ar": "ديلويت", "fr": "Deloitte", "sector": "professional-services", "archetype": "big-4 firm", "city": "london",
+   "logo": {"bg": "#000000", "fg": "#86BC25", "mono": "D"}},
+  {"id": "unilever", "en": "Unilever", "ar": "يونيليفر", "fr": "Unilever", "sector": "fmcg", "archetype": "consumer goods major HQ", "city": "london",
+   "logo": {"bg": "#1F36C7", "fg": "#FFFFFF", "mono": "U"}},
+  {"id": "tesco", "en": "Tesco", "ar": "تيسكو", "fr": "Tesco", "sector": "retail", "archetype": "largest UK retailer, Welwyn Garden City HQ", "city": "london",
+   "logo": {"bg": "#00539F", "fg": "#FFFFFF", "mono": "T"}},
+  {"id": "ba", "en": "British Airways", "ar": "الخطوط الجوية البريطانية", "fr": "British Airways", "sector": "airline", "archetype": "flag carrier (IAG), Heathrow HQ", "city": "london",
+   "logo": {"bg": "#01295F", "fg": "#FFFFFF", "mono": "BA"}},
+  {"id": "spire", "en": "Spire Healthcare", "ar": "سباير هيلثكير", "fr": "Spire Healthcare", "sector": "healthcare", "archetype": "private hospital group", "city": "london",
+   "logo": {"bg": "#00788A", "fg": "#FFFFFF", "mono": "SP"}},
+  {"id": "aviva", "en": "Aviva", "ar": "أفيفا", "fr": "Aviva", "sector": "insurance", "archetype": "leading UK insurer", "city": "london",
+   "logo": {"bg": "#FFD900", "fg": "#004FB6", "mono": "AV"}},
+  {"id": "octopus", "en": "Octopus Energy", "ar": "أوكتوبس إنرجي", "fr": "Octopus Energy", "sector": "tech", "archetype": "energy-tech scale-up", "city": "london",
+   "logo": {"bg": "#180048", "fg": "#F050F8", "mono": "OE"}},
+  {"id": "revolut", "en": "Revolut", "ar": "ريفولوت", "fr": "Revolut", "sector": "fintech", "archetype": "fintech HQ", "city": "london",
+   "logo": {"bg": "#191C1F", "fg": "#FFFFFF", "mono": "R"}},
+  {"id": "deliveroo", "en": "Deliveroo", "ar": "ديليفرو", "fr": "Deliveroo", "sector": "delivery", "archetype": "food-delivery app (DoorDash)", "city": "london",
+   "logo": {"bg": "#00CCBC", "fg": "#FFFFFF", "mono": "roo"}},
+  {"id": "landsec", "en": "Landsec", "ar": "لاندسك", "fr": "Landsec", "sector": "real-estate", "archetype": "commercial property developer", "city": "london",
+   "logo": {"bg": "#00205B", "fg": "#FFFFFF", "mono": "LS"}},
+  {"id": "lseg", "en": "London Stock Exchange Group", "ar": "مجموعة بورصة لندن", "fr": "London Stock Exchange Group", "sector": "exchange", "archetype": "stock exchange and data group", "city": "london",
+   "logo": {"bg": "#001EFF", "fg": "#FFFFFF", "mono": "LSEG"}},
+  {"id": "riotinto", "en": "Rio Tinto", "ar": "ريو تينتو", "fr": "Rio Tinto", "sector": "mining", "archetype": "mining major HQ", "city": "london",
+   "logo": {"bg": "#E60D2E", "fg": "#FFFFFF", "mono": "RT"}},
+  {"id": "jlr", "en": "Jaguar Land Rover", "ar": "جاكوار لاند روفر", "fr": "Jaguar Land Rover", "sector": "industrial", "archetype": "car maker (Tata Motors), Coventry HQ", "city": "birmingham",
+   "logo": {"bg": "#1A1A1A", "fg": "#FFFFFF", "mono": "JLR"}},
+  {"id": "nwf", "en": "National Wealth Fund", "ar": "صندوق الثروة الوطني", "fr": "National Wealth Fund", "sector": "public-investment", "archetype": "state-owned public investment body, Leeds HQ", "city": "leeds",
+   "logo": {"bg": "#00594F", "fg": "#FFFFFF", "mono": "NWF"}},
+  {"id": "boe", "en": "Bank of England", "ar": "بنك إنجلترا", "fr": "Banque d'Angleterre", "sector": "government", "archetype": "central bank (public body)", "city": "london",
+   "logo": {"bg": "#0F2B46", "fg": "#FFFFFF", "mono": "BoE"}},
+  {"id": "coop", "en": "Co-op", "ar": "كو-أوب", "fr": "Co-op", "sector": "retail", "archetype": "member-owned retail and services group", "city": "manchester",
+   "logo": {"bg": "#00B1E7", "fg": "#FFFFFF", "mono": "Co"}}
+ ],
+ "sal": {"per": "year", "f": 0.2,
+  "basis": "Senior Financial Analyst / FP&A, 8 yrs, London, base salary (bonus excluded). Robert Half 2026 guide, FP&A Analyst, Greater London: P25 £60.5k, median £68.5k, P75 £78.5k. Learnsignal 2026: senior financial analyst (4-7 yrs) median £62k; senior FP&A analyst median £68k. Payscale London senior financial analyst average about £54.5k (all experience levels). Hays London listing Aug 2025: £60-65k. Chosen current base of about £62.5k a year (£5,200 a month); f = 5,200 / 26,000 = 0.20. Noura's 34,000 SAR expectation maps to about £81.5k, near the Robert Half P75, which suits an ACCA-qualified 8-year analyst aiming for a senior FP&A role."},
+ "tax": {"incl": true, "rate": 20, "label": {"en": "VAT included", "ar": "شامل ضريبة القيمة المضافة", "fr": "TVA incluse"}},
+ "pay": {
+  "wallets": ["apple", "google"],
+  "methods": [
+   {"id": "card", "label": {"en": "Card", "ar": "بطاقة", "fr": "Carte"}, "sub": {"en": "Visa, Mastercard, Amex", "ar": "فيزا، ماستركارد، أمريكان إكسبريس", "fr": "Visa, Mastercard, Amex"}, "brands": ["visa", "mc", "amex"]},
+   {"id": "paypal", "label": {"en": "PayPal", "ar": "PayPal", "fr": "PayPal"}, "sub": {"en": "Pay with your PayPal account", "ar": "ادفع من حسابك في PayPal", "fr": "Payez avec votre compte PayPal"}}
+  ],
+  "bnpl": [
+   {"id": "klarna", "name": "Klarna", "installments": 3, "sub": {"en": "Pay in 3, interest-free. Renewals are charged in full.", "ar": "ادفع على 3 دفعات بلا فوائد. يُحصَّل التجديد كاملاً.", "fr": "Payez en 3 fois sans frais. Les renouvellements sont prélevés en une fois."}}
+  ],
+  "localCardBrand": null
+ },
+ "phone": {"cc": "+44", "ex": "+44 7700 900 123"},
+ "rights": {
+  "q": {"en": "Your right to work in the UK", "ar": "حقك في العمل في المملكة المتحدة", "fr": "Votre droit de travailler au Royaume-Uni"},
+  "opts": [
+   {"en": "British or Irish citizen", "ar": "الجنسية البريطانية أو الأيرلندية", "fr": "Citoyenneté britannique ou irlandaise",
+    "sub": {"en": "No visa or share code needed", "ar": "لا حاجة إلى تأشيرة أو رمز مشاركة", "fr": "Ni visa ni code de partage nécessaire"}},
+   {"en": "Settled status or indefinite leave to remain", "ar": "وضع الإقامة المستقرة (Settled) أو الإذن بالبقاء لأجل غير محدد (ILR)", "fr": "Settled status ou titre de séjour permanent (ILR)",
+    "sub": {"en": "EU Settlement Scheme settled status, ILR or right of abode", "ar": "الوضع المستقر ضمن برنامج تسوية أوضاع مواطني الاتحاد الأوروبي، أو ILR، أو حق الإقامة الدائمة", "fr": "Settled status de l'EU Settlement Scheme, ILR ou droit de résidence permanent"}},
+   {"en": "Pre-settled status", "ar": "وضع الإقامة المؤقتة (Pre-settled)", "fr": "Pre-settled status",
+    "sub": {"en": "EU Settlement Scheme, you can work for any employer", "ar": "ضمن برنامج تسوية أوضاع مواطني الاتحاد الأوروبي، ويتيح العمل لدى أي جهة عمل", "fr": "EU Settlement Scheme : vous pouvez travailler pour n'importe quel employeur"}},
+   {"en": "A visa that lets me work for any employer", "ar": "تأشيرة تتيح لي العمل لدى أي جهة عمل", "fr": "Un visa qui me permet de travailler pour n'importe quel employeur",
+    "sub": {"en": "e.g. Graduate, High Potential Individual, Youth Mobility or family visa", "ar": "مثل تأشيرة الخريجين أو الأفراد ذوي الإمكانات العالية أو تنقّل الشباب أو التأشيرة العائلية", "fr": "Par ex. visa Graduate, High Potential Individual, Youth Mobility ou visa familial"}},
+   {"en": "I need visa sponsorship", "ar": "أحتاج إلى رعاية تأشيرة", "fr": "J'ai besoin d'un parrainage de visa",
+    "sub": {"en": "Skilled Worker visa, including a change of sponsor", "ar": "تأشيرة العامل الماهر (Skilled Worker)، بما في ذلك تغيير الجهة الراعية", "fr": "Visa Skilled Worker, y compris un changement de sponsor"}}
+  ],
+  "autoFor": ["GB", "IE"],
+  "autoText": {"en": "British and Irish citizens can work in the UK without a visa.", "ar": "يحق للمواطنين البريطانيين والأيرلنديين العمل في المملكة المتحدة دون تأشيرة.", "fr": "Les citoyens britanniques et irlandais peuvent travailler au Royaume-Uni sans visa."},
+  "rule": {"en": "If you need sponsorship, we skip UK jobs that say they can't sponsor and favour employers with a sponsor licence.", "ar": "إذا كنت بحاجة إلى رعاية تأشيرة، نتجاوز الوظائف في المملكة المتحدة التي تذكر أنها لا تقدّم الرعاية، ونعطي الأولوية لجهات العمل الحاصلة على ترخيص رعاية.", "fr": "Si vous avez besoin d'un parrainage, nous écartons les offres au Royaume-Uni qui indiquent ne pas pouvoir parrainer et privilégions les employeurs titulaires d'une licence de sponsor."}
+ },
+ "nationalisation": null,
+ "sensitive": {
+  "photo": "avoid",
+  "gender": "none",
+  "dob": "none",
+  "nationality": "none",
+  "marital": "none",
+  "notes": "UK CVs and application forms leave out photo, date of birth, nationality and marital status; the Equality Act 2010 protects age, sex, race (incl. nationality), and marriage and civil partnership, so asking invites bias claims. Right to work is checked separately (passport, or share code for everyone else) and is covered by the rights card, not a nationality field. Many ATS forms add a voluntary equal-opportunities monitoring section (gender, ethnicity, disability, age band) that is kept apart from selection and always allows 'Prefer not to say'; it is not required, so we do not ask. If the product later wants to fill these forms, 'eeo' is the closest mode."
+ },
+ "legal": {
+  "law": "UK GDPR + Data Protection Act 2018",
+  "privacy": {"en": "Your data is protected under UK GDPR and the Data Protection Act 2018, and you can download or delete it any time.", "ar": "بياناتك محمية بموجب اللائحة العامة لحماية البيانات في المملكة المتحدة (UK GDPR) وقانون حماية البيانات لعام 2018، ويمكنك تنزيلها أو حذفها في أي وقت.", "fr": "Vos données sont protégées par le UK GDPR et le Data Protection Act 2018, et vous pouvez les télécharger ou les supprimer à tout moment."},
+  "renewal": {"en": "Renews automatically until you cancel, which you can do any time in Settings. Under UK consumer law you can cancel within 14 days of buying for a refund, minus any service already provided.", "ar": "يتجدد الاشتراك تلقائياً حتى تلغيه، ويمكنك الإلغاء في أي وقت من الإعدادات. وبموجب قانون حماية المستهلك في المملكة المتحدة، يحق لك الإلغاء خلال 14 يوماً من الشراء واسترداد المبلغ بعد خصم قيمة ما قُدِّم من الخدمة.", "fr": "Renouvellement automatique jusqu'à résiliation, possible à tout moment depuis les Réglages. Selon le droit britannique de la consommation, vous pouvez annuler sous 14 jours après l'achat et être remboursé, déduction faite du service déjà fourni."}
+ },
+ "boards": ["LinkedIn", "Indeed", "Reed", "Totaljobs", "CV-Library", "eFinancialCareers"],
+ "lang2": null,
+ "certs": [
+  {"id": "acca", "en": "ACCA", "ar": "ACCA", "fr": "ACCA"},
+  {"id": "cima", "en": "CIMA (CGMA)", "ar": "CIMA (CGMA)", "fr": "CIMA (CGMA)"},
+  {"id": "aca", "en": "ICAEW ACA", "ar": "ACA (ICAEW)", "fr": "ACA (ICAEW)"},
+  {"id": "cfa", "en": "CFA", "ar": "CFA", "fr": "CFA"}
+ ],
+ "unis": [
+  {"id": "lse", "en": "London School of Economics", "ar": "كلية لندن للاقتصاد", "fr": "London School of Economics (LSE)"},
+  {"id": "warwick", "en": "University of Warwick", "ar": "جامعة وارويك", "fr": "Université de Warwick"},
+  {"id": "manchester", "en": "University of Manchester", "ar": "جامعة مانشستر", "fr": "Université de Manchester"}
+ ],
+ "govPlatforms": [],
+ "persona": {
+  "first": "Sophie", "last": "Carter", "gender": "f", "nat": "GB", "city": "london",
+  "email": "sophie.carter@email.com", "phone": "+44 7700 900 123",
+  "title": {"en": "Financial Analyst", "ar": "محللة مالية", "fr": "Analyste financière"},
+  "years": 8,
+  "employer": {"en": "Kestrel Vale Group", "ar": "مجموعة كيستريل فيل", "fr": "Kestrel Vale Group"},
+  "employer2": {"en": "Kestrel Vale Foods", "ar": "كيستريل فيل للأغذية", "fr": "Kestrel Vale Foods"},
+  "degree": {"en": "BSc Accounting and Finance", "ar": "بكالوريوس العلوم في المحاسبة والمالية", "fr": "Licence (BSc) en comptabilité et finance"},
+  "uni": "lse", "cert": "acca",
+  "tools": "SAP, Excel, Power BI",
+  "bio": {
+   "en": "Financial Analyst with 8 years in London. I lead IFRS and FRS 102 reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I am looking for a Senior Financial Analyst or FP&A role in London or hybrid.",
+   "ar": "محللة مالية بخبرة 8 سنوات في لندن. أقود إعداد التقارير وفق المعايير الدولية IFRS والمعيار البريطاني FRS 102 وإعداد الموازنات على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي خفّضت وقت إعداد التقارير بمقدار الثلث، وأبحث عن دور محللة مالية أولى أو في التخطيط والتحليل المالي (FP&A) في لندن أو بنظام العمل الهجين.",
+   "fr": "Analyste financière avec 8 ans d'expérience à Londres. Je pilote le reporting IFRS et FRS 102 et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je recherche un poste d'analyste financière senior ou en FP&A à Londres ou en hybride."
+  }
+ },
+ "people": [
+  {"first": "Emma", "last": "Walsh", "gender": "f"},
+  {"first": "Oliver", "last": "Bennett", "gender": "m"},
+  {"first": "Priya", "last": "Shah", "gender": "f"},
+  {"first": "Tom", "last": "Gallagher", "gender": "m"},
+  {"first": "Hannah", "last": "Clarke", "gender": "f"},
+  {"first": "Daniel", "last": "Okafor", "gender": "m"},
+  {"first": "Charlotte", "last": "Hughes", "gender": "f"},
+  {"first": "Rhys", "last": "Morgan", "gender": "m"},
+  {"first": "Aisha", "last": "Rahman", "gender": "f"},
+  {"first": "Callum", "last": "Fraser", "gender": "m"}
+ ],
+ "culture": {
+  "notes": "Work week Mon-Fri, about 37.5 hours; hybrid (2-3 office days) is the norm for London finance roles. Salaries are quoted gross per year, often 'plus bonus and benefits' (workplace pension auto-enrolment is standard). Pay is monthly, usually on the last working day or a fixed date around the 25th-28th. Notice is contractual: typically 1 month for analysts, 3 months for managers and at Big-4 firms and banks (the statutory minimum for an employee who resigns is only 1 week), and recruiters ask for it up front. CVs: 2 A4 pages, reverse-chronological, short personal profile at the top, no photo, date of birth, marital status or nationality; references are taken after an offer, so 'references available on request' is not needed. Cover letters are optional on most ATS and LinkedIn applications, but the public sector expects a supporting statement (Civil Service Success Profiles, competency-based). Qualification status ('ACCA/CIMA/ACA qualified' or 'part-qualified') is a standard screening question. Specialist agencies (Hays, Robert Half, Michael Page, Morgan McKinley) fill a large share of FP&A roles. A right-to-work check (passport or share code) happens before day one."
+ },
+ "noticeDays": 30
+}

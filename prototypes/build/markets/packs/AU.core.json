@@ -1,0 +1,172 @@
+{
+ "code": "AU",
+ "flag": "🇦🇺",
+ "name": {"en": "Australia", "ar": "أستراليا", "fr": "Australie"},
+ "short": {"en": "Australia", "ar": "أستراليا", "fr": "l'Australie"},
+ "in": {"en": "in Australia", "ar": "في أستراليا", "fr": "en Australie"},
+ "dem": {"en": "Australian", "ar": "أسترالي", "arf": "أسترالية", "fr": "australien", "frf": "australienne"},
+ "nationals": {"en": "Australian citizens", "ar": "المواطنون الأستراليون", "fr": "citoyens australiens"},
+ "region": "au",
+ "workweek": "mon-fri",
+ "cities": [
+  {"id": "sydney", "en": "Sydney", "ar": "سيدني", "fr": "Sydney",
+   "metro": {"en": "Sydney covers Greater Sydney, including the CBD, North Sydney, Macquarie Park, Parramatta and Norwest.", "ar": "تشمل سيدني منطقة سيدني الكبرى، بما فيها وسط المدينة ونورث سيدني وماكواري بارك وباراماتا ونورويست.", "fr": "Sydney comprend le Grand Sydney, dont le centre-ville (CBD), North Sydney, Macquarie Park, Parramatta et Norwest."}},
+  {"id": "melbourne", "en": "Melbourne", "ar": "ملبورن", "fr": "Melbourne",
+   "metro": {"en": "Melbourne covers Greater Melbourne, including the CBD, Docklands, Southbank and the inner suburbs.", "ar": "تشمل ملبورن منطقة ملبورن الكبرى، بما فيها وسط المدينة ودوكلاندز وساوثبانك والضواحي القريبة من المركز.", "fr": "Melbourne comprend le Grand Melbourne, dont le centre-ville (CBD), Docklands, Southbank et la proche banlieue."}},
+  {"id": "brisbane", "en": "Brisbane", "ar": "بريسبان", "fr": "Brisbane",
+   "metro": {"en": "Brisbane covers Greater Brisbane, including Ipswich, Logan and the Moreton Bay area.", "ar": "تشمل بريسبان منطقة بريسبان الكبرى، بما فيها إبسويتش ولوغان ومنطقة خليج موريتون.", "fr": "Brisbane comprend le Grand Brisbane, dont Ipswich, Logan et la région de Moreton Bay."}},
+  {"id": "perth", "en": "Perth", "ar": "بيرث", "fr": "Perth",
+   "metro": {"en": "Perth covers the Perth metropolitan area, including West Perth, Fremantle and Joondalup.", "ar": "تشمل بيرث منطقة بيرث الحضرية، بما فيها ويست بيرث وفريمانتل وجوندالب.", "fr": "Perth comprend l'agglomération de Perth, dont West Perth, Fremantle et Joondalup."}},
+  {"id": "adelaide", "en": "Adelaide", "ar": "أديلايد", "fr": "Adélaïde",
+   "metro": {"en": "Adelaide covers Greater Adelaide, including Port Adelaide and the Adelaide Hills.", "ar": "تشمل أديلايد منطقة أديلايد الكبرى، بما فيها بورت أديلايد وتلال أديلايد.", "fr": "Adélaïde comprend le Grand Adélaïde, dont Port Adelaide et les Adelaide Hills."}},
+  {"id": "canberra", "en": "Canberra", "ar": "كانبرا", "fr": "Canberra",
+   "metro": {"en": "Canberra covers the ACT and nearby Queanbeyan.", "ar": "تشمل كانبرا إقليم العاصمة الأسترالية ومدينة كوينبيان المجاورة.", "fr": "Canberra comprend le Territoire de la capitale australienne et la ville voisine de Queanbeyan."}},
+  {"id": "goldcoast", "en": "Gold Coast", "ar": "غولد كوست", "fr": "Gold Coast",
+   "metro": {"en": "Gold Coast covers the city from Coomera to Coolangatta, plus Tweed Heads.", "ar": "تشمل غولد كوست المدينة من كوميرا إلى كولانغاتا، إضافةً إلى تويد هيدز.", "fr": "Gold Coast comprend la ville, de Coomera à Coolangatta, ainsi que Tweed Heads."}},
+  {"id": "newcastle", "en": "Newcastle", "ar": "نيوكاسل", "fr": "Newcastle",
+   "metro": {"en": "Newcastle covers the city, Lake Macquarie and the Lower Hunter.", "ar": "تشمل نيوكاسل المدينة وبحيرة ماكواري ومنطقة هانتر السفلى.", "fr": "Newcastle comprend la ville, Lake Macquarie et la basse vallée de la Hunter."}}
+ ],
+ "employers": [
+  {"id": "cba", "en": "Commonwealth Bank", "ar": "بنك الكومنولث", "fr": "Commonwealth Bank", "sector": "bank", "archetype": "largest Australian bank (CommBank), Sydney HQ", "city": "sydney",
+   "logo": {"bg": "#FFCC00", "fg": "#000000", "mono": "CBA"}},
+  {"id": "westpac", "en": "Westpac", "ar": "ويستباك", "fr": "Westpac", "sector": "bank", "archetype": "big-four bank, Australia's oldest, Sydney HQ", "city": "sydney",
+   "logo": {"bg": "#DA1710", "fg": "#FFFFFF", "mono": "W"}},
+  {"id": "nab", "en": "NAB", "ar": "بنك أستراليا الوطني", "fr": "NAB", "sector": "bank", "archetype": "big-four bank, business-banking leader, Melbourne HQ", "city": "melbourne",
+   "logo": {"bg": "#C20000", "fg": "#FFFFFF", "mono": "nab"}},
+  {"id": "anz", "en": "ANZ", "ar": "بنك إيه إن زد", "fr": "ANZ", "sector": "bank", "archetype": "big-four bank, Melbourne HQ", "city": "melbourne",
+   "logo": {"bg": "#004165", "fg": "#FFFFFF", "mono": "ANZ"}},
+  {"id": "macquarie", "en": "Macquarie Group", "ar": "مجموعة ماكواري", "fr": "Macquarie Group", "sector": "bank", "archetype": "global investment bank and asset manager, Sydney HQ", "city": "sydney",
+   "logo": {"bg": "#000000", "fg": "#FFFFFF", "mono": "MQ"}},
+  {"id": "bhp", "en": "BHP", "ar": "بي إتش بي", "fr": "BHP", "sector": "mining", "archetype": "world's largest listed miner, Melbourne HQ", "city": "melbourne",
+   "logo": {"bg": "#E65400", "fg": "#FFFFFF", "mono": "BHP"}},
+  {"id": "woodside", "en": "Woodside Energy", "ar": "وودسايد إنرجي", "fr": "Woodside Energy", "sector": "energy", "archetype": "national energy champion, largest Australian oil and LNG producer, Perth HQ", "city": "perth",
+   "logo": {"bg": "#002F5F", "fg": "#FFFFFF", "mono": "WDS"}},
+  {"id": "fortescue", "en": "Fortescue", "ar": "فورتسكيو", "fr": "Fortescue", "sector": "mining", "archetype": "iron-ore major and green-energy group, Perth HQ", "city": "perth",
+   "logo": {"bg": "#002B49", "fg": "#FFFFFF", "mono": "FMG"}},
+  {"id": "telstra", "en": "Telstra", "ar": "تيلسترا", "fr": "Telstra", "sector": "telecom", "archetype": "telecoms #1, Melbourne HQ", "city": "melbourne",
+   "logo": {"bg": "#0064D2", "fg": "#FFFFFF", "mono": "T"}},
+  {"id": "optus", "en": "Optus", "ar": "أوبتس", "fr": "Optus", "sector": "telecom", "archetype": "telecoms #2 (Singtel), Sydney HQ", "city": "sydney",
+   "logo": {"bg": "#00616B", "fg": "#FFD100", "mono": "O"}},
+  {"id": "futurefund", "en": "Future Fund", "ar": "صندوق المستقبل الأسترالي", "fr": "Future Fund", "sector": "sovereign", "archetype": "Australia's sovereign wealth fund, Melbourne HQ", "city": "melbourne",
+   "logo": {"bg": "#0A2A4A", "fg": "#FFFFFF", "mono": "FF"}},
+  {"id": "deloitte", "en": "Deloitte", "ar": "ديلويت", "fr": "Deloitte", "sector": "big4", "archetype": "big-4 firm", "city": "sydney",
+   "logo": {"bg": "#000000", "fg": "#86BC25", "mono": "D"}},
+  {"id": "twe", "en": "Treasury Wine Estates", "ar": "تريجري واين إستيتس", "fr": "Treasury Wine Estates", "sector": "fmcg", "archetype": "global wine company (Penfolds), Melbourne HQ", "city": "melbourne",
+   "logo": {"bg": "#5A1E2D", "fg": "#FFFFFF", "mono": "TWE"}},
+  {"id": "woolworths", "en": "Woolworths Group", "ar": "مجموعة وولوورثس", "fr": "Woolworths Group", "sector": "retail", "archetype": "largest supermarket group, Sydney (Bella Vista) HQ", "city": "sydney",
+   "logo": {"bg": "#178841", "fg": "#FFFFFF", "mono": "W"}},
+  {"id": "wesfarmers", "en": "Wesfarmers", "ar": "ويسفارمرز", "fr": "Wesfarmers", "sector": "retail", "archetype": "retail conglomerate (Bunnings, Kmart, Officeworks), Perth HQ", "city": "perth",
+   "logo": {"bg": "#00573F", "fg": "#FFFFFF", "mono": "WES"}},
+  {"id": "qantas", "en": "Qantas", "ar": "كوانتاس", "fr": "Qantas", "sector": "airline", "archetype": "flag carrier, Sydney (Mascot) HQ", "city": "sydney",
+   "logo": {"bg": "#E0001B", "fg": "#FFFFFF", "mono": "Q"}},
+  {"id": "ramsay", "en": "Ramsay Health Care", "ar": "رامزي هيلث كير", "fr": "Ramsay Health Care", "sector": "healthcare", "archetype": "largest private hospital group, Sydney HQ", "city": "sydney",
+   "logo": {"bg": "#003B71", "fg": "#FFFFFF", "mono": "RHC"}},
+  {"id": "suncorp", "en": "Suncorp Group", "ar": "مجموعة سنكورب", "fr": "Suncorp Group", "sector": "insurance", "archetype": "major general insurer (AAMI, GIO), Brisbane HQ", "city": "brisbane",
+   "logo": {"bg": "#006A65", "fg": "#FFD100", "mono": "SUN"}},
+  {"id": "canva", "en": "Canva", "ar": "كانفا", "fr": "Canva", "sector": "tech", "archetype": "design-software scale-up, Sydney HQ", "city": "sydney",
+   "logo": {"bg": "#7D2AE8", "fg": "#FFFFFF", "mono": "C"}},
+  {"id": "zip", "en": "Zip Co", "ar": "زيب كو", "fr": "Zip Co", "sector": "fintech", "archetype": "ASX-listed buy-now-pay-later fintech, Sydney HQ", "city": "sydney",
+   "logo": {"bg": "#1A0826", "fg": "#AA8FFF", "mono": "zip"}},
+  {"id": "kogan", "en": "Kogan.com", "ar": "كوغان دوت كوم", "fr": "Kogan.com", "sector": "ecommerce", "archetype": "ASX-listed online retailer and marketplace, Melbourne HQ", "city": "melbourne",
+   "logo": {"bg": "#D71920", "fg": "#FFFFFF", "mono": "K"}},
+  {"id": "lendlease", "en": "Lendlease", "ar": "ليندليس", "fr": "Lendlease", "sector": "realestate", "archetype": "property and urban-regeneration developer, Sydney (Barangaroo) HQ", "city": "sydney",
+   "logo": {"bg": "#1D1D1B", "fg": "#FFFFFF", "mono": "LL"}},
+  {"id": "asx", "en": "ASX", "ar": "بورصة الأوراق المالية الأسترالية", "fr": "ASX", "sector": "exchange", "archetype": "Australian Securities Exchange, Sydney HQ", "city": "sydney",
+   "logo": {"bg": "#002A54", "fg": "#FFFFFF", "mono": "ASX"}},
+  {"id": "rba", "en": "Reserve Bank of Australia", "ar": "بنك الاحتياطي الأسترالي", "fr": "Banque de réserve d'Australie", "sector": "government", "archetype": "central bank (public body), Sydney HQ", "city": "sydney",
+   "logo": {"bg": "#1B3A5C", "fg": "#FFFFFF", "mono": "RBA"}}
+ ],
+ "sal": {"per": "year", "f": 0.4167,
+  "basis": "Senior Financial Analyst / FP&A, 8 yrs, Sydney, base salary excluding the 12% superannuation guarantee (bonus excluded). Robert Half 2026 guide, Senior Financial Analyst, Sydney: about A$136,250-163,500 with a median of A$141,700 (search-result summary; page blocked). Morgan McKinley 2026, Sydney: Senior FP&A Analyst average A$130k (A$120-140k), Senior Financial Analyst average A$130k, FP&A Analyst A$100-130k. Employment Hero 2026: financial analysts nationally median A$120k, up to about A$149k for senior staff. Chosen current base of A$130,000 a year (A$10,833 a month); f = 10,833 / 26,000 = 0.4167. Noura's 34,000 SAR expectation maps to about A$170k, just above the Robert Half top figure, which suits a CPA-qualified 8-year analyst moving into a senior FP&A or FP&A lead role. Australian pay is quoted per year, usually as base + super."},
+ "tax": {"incl": true, "rate": 10, "label": {"en": "GST included", "ar": "شامل ضريبة السلع والخدمات", "fr": "GST incluse"}},
+ "pay": {
+  "wallets": ["apple", "google"],
+  "methods": [
+   {"id": "card", "label": {"en": "Card", "ar": "بطاقة", "fr": "Carte"}, "sub": {"en": "Visa, Mastercard, Amex (credit or debit)", "ar": "فيزا، ماستركارد، أمريكان إكسبريس (ائتمان أو خصم مباشر)", "fr": "Visa, Mastercard, Amex (crédit ou débit)"}, "brands": ["visa", "mc", "amex"]},
+   {"id": "paypal", "label": {"en": "PayPal", "ar": "PayPal", "fr": "PayPal"}, "sub": {"en": "Pay with your PayPal account", "ar": "ادفع من حسابك في PayPal", "fr": "Payez avec votre compte PayPal"}}
+  ],
+  "bnpl": [
+   {"id": "afterpay", "name": "Afterpay", "installments": 4, "sub": {"en": "Pay in 4 fortnightly instalments, interest-free. Renewals are charged to a card or PayPal.", "ar": "ادفع على 4 دفعات كل أسبوعين بلا فوائد. يُحصَّل التجديد من بطاقة أو من PayPal.", "fr": "Payez en 4 fois, toutes les deux semaines, sans intérêts. Les renouvellements sont prélevés sur une carte ou via PayPal."}}
+  ],
+  "localCardBrand": null
+ },
+ "phone": {"cc": "+61", "ex": "+61 491 570 156"},
+ "rights": {
+  "q": {"en": "Your right to work in Australia", "ar": "حقك في العمل في أستراليا", "fr": "Votre droit de travailler en Australie"},
+  "opts": [
+   {"en": "Australian or New Zealand citizen", "ar": "الجنسية الأسترالية أو النيوزيلندية", "fr": "Citoyenneté australienne ou néo-zélandaise",
+    "sub": {"en": "No sponsorship needed. New Zealanders get a Special Category visa on arrival", "ar": "لا حاجة إلى رعاية تأشيرة، ويحصل النيوزيلنديون على تأشيرة الفئة الخاصة (Special Category) عند الوصول", "fr": "Aucun parrainage nécessaire ; les Néo-Zélandais reçoivent un visa Special Category à l'arrivée"}},
+   {"en": "Permanent resident", "ar": "الإقامة الدائمة", "fr": "Résidence permanente",
+    "sub": {"en": "Any permanent visa, e.g. skilled (189, 190, 186) or partner (100, 801)", "ar": "أي تأشيرة دائمة، مثل تأشيرات المهارات (189 أو 190 أو 186) أو تأشيرة الشريك (100 أو 801)", "fr": "Tout visa permanent, par ex. visa qualifié (189, 190, 186) ou visa de partenaire (100, 801)"}},
+   {"en": "A temporary visa with full work rights", "ar": "تأشيرة مؤقتة بحقوق عمل كاملة", "fr": "Un visa temporaire avec un droit de travail complet",
+    "sub": {"en": "e.g. Temporary Graduate (485), partner (820, 309) or a bridging visa with full work rights", "ar": "مثل تأشيرة الخريجين المؤقتة (485) أو تأشيرة الشريك (820 أو 309) أو تأشيرة انتقالية (Bridging) بحقوق عمل كاملة", "fr": "Par ex. Temporary Graduate (485), visa de partenaire (820, 309) ou bridging visa avec droit de travail complet"}},
+   {"en": "A visa with limited work rights", "ar": "تأشيرة بحقوق عمل محدودة", "fr": "Un visa avec un droit de travail limité",
+    "sub": {"en": "e.g. Student (500), up to 48 hours a fortnight in term, or Working Holiday (417, 462), up to 6 months per employer", "ar": "مثل تأشيرة الطالب (500) بحد أقصى 48 ساعة كل أسبوعين خلال الفصل الدراسي، أو تأشيرة عطلة العمل (417 أو 462) بحد أقصى 6 أشهر لدى كل صاحب عمل", "fr": "Par ex. visa étudiant (500), 48 heures par quinzaine au maximum pendant les cours, ou Working Holiday (417, 462), 6 mois au maximum par employeur"}},
+   {"en": "I need employer sponsorship", "ar": "أحتاج إلى رعاية تأشيرة من صاحب العمل", "fr": "J'ai besoin d'un parrainage de visa par l'employeur",
+    "sub": {"en": "Skills in Demand visa (subclass 482, formerly TSS), including a change of sponsor", "ar": "تأشيرة المهارات المطلوبة (Skills in Demand، الفئة 482، التي حلّت محل TSS)، بما في ذلك تغيير الجهة الراعية", "fr": "Visa Skills in Demand (sous-classe 482, ex-TSS), y compris un changement de sponsor"}}
+  ],
+  "autoFor": ["AU", "NZ"],
+  "autoText": {"en": "Australian and New Zealand citizens can work in Australia without employer sponsorship.", "ar": "يحق للمواطنين الأستراليين والنيوزيلنديين العمل في أستراليا دون رعاية تأشيرة من صاحب العمل.", "fr": "Les citoyens australiens et néo-zélandais peuvent travailler en Australie sans parrainage d'un employeur."},
+  "rule": {"en": "If you need sponsorship or have limited work rights, we skip Australian jobs that ask for full work rights or permanent residency and favour employers that sponsor. Without Australian citizenship, we also skip roles that require it, such as most federal public service jobs.", "ar": "إذا كنت تحتاج إلى رعاية تأشيرة أو كانت حقوقك في العمل محدودة، نتجاوز الوظائف في أستراليا التي تشترط حقوق عمل كاملة أو إقامة دائمة، ونعطي الأولوية لجهات العمل التي تقدّم الرعاية. ولغير حاملي الجنسية الأسترالية، نتجاوز أيضاً الوظائف التي تشترطها، مثل معظم وظائف الخدمة العامة الاتحادية.", "fr": "Si vous avez besoin d'un parrainage ou si votre droit de travailler est limité, nous écartons les offres en Australie qui exigent un droit de travail complet ou la résidence permanente, et privilégions les employeurs qui parrainent. Sans la nationalité australienne, nous écartons aussi les postes qui l'exigent, comme la plupart des emplois de la fonction publique fédérale."}
+ },
+ "nationalisation": null,
+ "sensitive": {
+  "photo": "avoid",
+  "gender": "none",
+  "dob": "none",
+  "nationality": "none",
+  "marital": "none",
+  "notes": "Australian resumes and SEEK/ATS applications leave out photo, date of birth, marital status and nationality. The Fair Work Act 2009 (s351) and the federal Sex, Age and Racial Discrimination Acts, plus state laws such as the NSW Anti-Discrimination Act 1977, protect sex, age, race, national extraction and marital status, so employers avoid collecting them at application stage. Work rights are asked as a screening question instead (SEEK's standard 'right to work in Australia' question) and handled by the rights card. Some employer forms add a voluntary diversity section (gender, Aboriginal and Torres Strait Islander identity, disability) that always allows 'Prefer not to say'; it is optional, so we do not ask. Citizenship is a genuine requirement only for most federal public service and security-cleared roles, which the rights rule covers."
+ },
+ "legal": {
+  "law": "Privacy Act 1988 (Cth) and the Australian Privacy Principles; Australian Consumer Law",
+  "privacy": {"en": "Your data is protected under Australia's Privacy Act 1988 and the Australian Privacy Principles, and you can download or delete it any time.", "ar": "بياناتك محمية بموجب قانون الخصوصية الأسترالي لعام 1988 ومبادئ الخصوصية الأسترالية، ويمكنك تنزيلها أو حذفها في أي وقت.", "fr": "Vos données sont protégées par le Privacy Act 1988 australien et les Australian Privacy Principles, et vous pouvez les télécharger ou les supprimer à tout moment."},
+  "renewal": {"en": "Your plan renews automatically at the same price until you cancel. Cancel online any time in Settings, and we email you before a 4- or 12-month plan renews. Your rights under the Australian Consumer Law are not affected.", "ar": "تتجدد باقتك تلقائياً بالسعر نفسه حتى تلغيها. يمكنك الإلغاء عبر الإنترنت في أي وقت من الإعدادات، ونرسل لك رسالة بالبريد الإلكتروني قبل تجديد باقة الأربعة أشهر أو الاثني عشر شهراً. ولا يمسّ ذلك حقوقك بموجب قانون المستهلك الأسترالي.", "fr": "Votre formule se renouvelle automatiquement au même prix jusqu'à résiliation. Résiliez en ligne à tout moment dans les Paramètres ; nous vous prévenons par e-mail avant le renouvellement d'une formule de 4 ou 12 mois. Vos droits au titre de l'Australian Consumer Law ne sont pas affectés."}
+ },
+ "boards": ["SEEK", "LinkedIn", "Indeed", "Jora", "eFinancialCareers"],
+ "lang2": null,
+ "certs": [
+  {"id": "cpa", "en": "CPA (CPA Australia)", "ar": "CPA (CPA Australia)", "fr": "CPA (CPA Australia)"},
+  {"id": "ca", "en": "CA (CA ANZ)", "ar": "CA (CA ANZ)", "fr": "CA (CA ANZ)"},
+  {"id": "cfa", "en": "CFA", "ar": "CFA", "fr": "CFA"},
+  {"id": "cima", "en": "CIMA (CGMA)", "ar": "CIMA (CGMA)", "fr": "CIMA (CGMA)"}
+ ],
+ "unis": [
+  {"id": "unsw", "en": "UNSW Sydney", "ar": "جامعة نيو ساوث ويلز", "fr": "Université de Nouvelle-Galles du Sud (UNSW Sydney)"},
+  {"id": "usyd", "en": "University of Sydney", "ar": "جامعة سيدني", "fr": "Université de Sydney"},
+  {"id": "unimelb", "en": "University of Melbourne", "ar": "جامعة ملبورن", "fr": "Université de Melbourne"}
+ ],
+ "govPlatforms": [],
+ "persona": {
+  "first": "James", "last": "Nguyen", "gender": "m", "nat": "AU", "city": "sydney",
+  "email": "james.nguyen@email.com", "phone": "+61 491 570 156",
+  "title": {"en": "Financial Analyst", "ar": "محلل مالي", "fr": "Analyste financier"},
+  "years": 8,
+  "employer": {"en": "Southerly Reach Group", "ar": "مجموعة ساذرلي ريتش", "fr": "Southerly Reach Group"},
+  "employer2": {"en": "Southerly Reach Logistics", "ar": "ساذرلي ريتش للخدمات اللوجستية", "fr": "Southerly Reach Logistics"},
+  "degree": {"en": "Bachelor of Commerce (Accounting and Finance)", "ar": "بكالوريوس التجارة (المحاسبة والمالية)", "fr": "Licence (Bachelor of Commerce) en comptabilité et finance"},
+  "uni": "unsw", "cert": "cpa",
+  "tools": "SAP, Excel, Power BI",
+  "bio": {
+   "en": "Financial Analyst with 8 years in Sydney. I lead AASB (IFRS) reporting and the July-June budget cycle on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I am looking for a Senior Financial Analyst or FP&A role in Sydney or hybrid.",
+   "ar": "محلل مالي بخبرة 8 سنوات في سيدني. أقود إعداد التقارير وفق المعايير المحاسبية الأسترالية (AASB) المتوافقة مع IFRS ودورة الموازنة للسنة المالية من يوليو إلى يونيو على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي خفّضت وقت إعداد التقارير بمقدار الثلث، وأبحث عن دور محلل مالي أول أو في التخطيط والتحليل المالي (FP&A) في سيدني أو بنظام العمل الهجين.",
+   "fr": "Analyste financier avec 8 ans d'expérience à Sydney. Je pilote le reporting AASB (IFRS) et le cycle budgétaire de l'exercice juillet-juin sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je recherche un poste d'analyste financier senior ou en FP&A à Sydney ou en hybride."
+  }
+ },
+ "people": [
+  {"first": "Sarah", "last": "Mitchell", "gender": "f"},
+  {"first": "Lachlan", "last": "Murray", "gender": "m"},
+  {"first": "Emily", "last": "Chen", "gender": "f"},
+  {"first": "Josh", "last": "Papadopoulos", "gender": "m"},
+  {"first": "Chloe", "last": "Thompson", "gender": "f"},
+  {"first": "Raj", "last": "Patel", "gender": "m"},
+  {"first": "Olivia", "last": "Kelly", "gender": "f"},
+  {"first": "Daniel", "last": "Rossi", "gender": "m"},
+  {"first": "Mia", "last": "Tran", "gender": "f"},
+  {"first": "Tom", "last": "Fitzgerald", "gender": "m"}
+ ],
+ "culture": {
+  "notes": "Work week Mon-Fri, 38 ordinary hours under the National Employment Standards; hybrid (2-3 office days) is common for Sydney and Melbourne finance roles, though the big banks have pushed for more office days. The financial year runs 1 July to 30 June, so budget season is roughly March-June and EOFY close is a busy period for FP&A. Salaries are quoted per year, either as base + super (12% superannuation guarantee since 1 July 2025) or as a total package including super, so always say which; SEEK asks for an expected annual base salary. Pay is fortnightly or monthly. Notice is set by the contract: 4 weeks is standard for analysts, 4-8 weeks for managers (the NES minimum an employer must give is 1-4 weeks by length of service). Resumes: 2-3 pages, reverse-chronological, a short career summary at the top, no photo, date of birth, marital status or nationality; two referees (usually recent managers) are checked before an offer, and 'Referees available on request' is the usual line. A tailored cover letter is still expected by many employers and SEEK lets you attach one; public sector roles ask for a statement or 'pitch' against the selection criteria. Common screening questions: right to work, expected salary, notice period, CPA/CA status, and willingness to do a police (and for banks, credit) check. Specialist agencies (Hays, Robert Half, Michael Page, Robert Walters, Morgan McKinley) fill a large share of FP&A roles."
+ },
+ "noticeDays": 28
+}

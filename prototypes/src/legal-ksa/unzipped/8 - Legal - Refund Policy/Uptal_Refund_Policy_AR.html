@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>سياسة الاسترداد | أبتال</title>
+<meta name="description" content="سياسة الاسترداد في أبتال تشمل البحث عن الكفاءات والتقديم التلقائي وتحسين السيرة الذاتية. خدمات رقمية بوصول فوري، نهائية وغير قابلة للاسترداد، مع استثناءات محدودة." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --oxford:#061430; --electric:#0028DB; --persian:#353CD8; --flash:#4CEA63;
+    --ink:#0E1726; --slate:#54607A; --muted:#7A8399;
+    --line:#E7EAF2; --line-soft:#EEF1F8;
+    --bg:#FFFFFF; --bg-soft:#F6F8FC; --mint:#EAFBF0; --mint-line:#BFEFCF;
+    --radius:18px; --maxw:1120px;
+    --shadow:0 1px 2px rgba(6,20,48,.04), 0 12px 34px -18px rgba(6,20,48,.20);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:'IBM Plex Sans Arabic',system-ui,-apple-system,'Segoe UI',Tahoma,'Geeza Pro',sans-serif;
+    font-size:17px; line-height:1.85; -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:var(--persian); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .en{font-family:'Inter',system-ui,sans-serif; direction:ltr; unicode-bidi:isolate}
+  .skip{position:absolute;right:-999px;top:auto}
+  .skip:focus{right:16px;top:16px;background:#fff;padding:10px 14px;border-radius:10px;z-index:100;box-shadow:var(--shadow)}
+
+  /* ---------- Header ---------- */
+  header.site{
+    position:sticky; top:0; z-index:40;
+    background:rgba(255,255,255,.86); backdrop-filter:saturate(160%) blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .bar{
+    max-width:var(--maxw); margin:0 auto; padding:14px 22px;
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+  }
+  .brand{display:inline-flex; align-items:center; gap:10px; color:var(--oxford); font-weight:700; font-size:19px}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--flash);box-shadow:0 0 0 4px rgba(76,234,99,.18)}
+  .brand span.sub{color:var(--muted); font-weight:600; font-size:15px}
+  .langswitch{
+    display:inline-flex; align-items:center; gap:8px; font-weight:600; font-size:14px;
+    color:var(--oxford); border:1px solid var(--line); padding:8px 14px; border-radius:999px; background:#fff;
+    font-family:'Inter',system-ui,sans-serif; direction:ltr;
+  }
+  .langswitch:hover{border-color:var(--persian); text-decoration:none}
+
+  /* ---------- Hero ---------- */
+  main{display:block}
+  .hero{max-width:var(--maxw); margin:0 auto; padding:56px 22px 8px}
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:9px; font-size:13.5px; font-weight:700;
+    color:var(--persian); background:#EEF0FF; border:1px solid #DDE1FF; padding:7px 15px; border-radius:999px;
+  }
+  .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--persian)}
+  h1{font-size:clamp(34px,6vw,52px); line-height:1.14; margin:20px 0 14px; color:var(--oxford)}
+  .lede{font-size:clamp(17px,2.4vw,19px); color:var(--slate); max-width:66ch; margin:0}
+  .meta{display:flex; flex-wrap:wrap; gap:10px 26px; margin-top:22px; color:var(--muted); font-size:14.5px; font-weight:500}
+  .meta b{color:var(--ink); font-weight:600}
+
+  /* ---------- Scope cards ---------- */
+  .scope{max-width:var(--maxw); margin:30px auto 0; padding:0 22px}
+  .scope-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
+  .card{
+    background:var(--bg-soft); border:1px solid var(--line); border-radius:var(--radius); padding:20px 20px 18px;
+    display:flex; flex-direction:column; gap:10px;
+  }
+  .card h3{margin:0; font-size:19px; color:var(--oxford)}
+  .card .aud{font-size:14px; font-weight:600; color:var(--persian)}
+  .card p{margin:0; font-size:14.5px; color:var(--slate); line-height:1.7}
+  .chip{
+    align-self:flex-start; margin-top:2px; font-size:12.5px; font-weight:700;
+    padding:5px 12px; border-radius:999px; background:#fff; border:1px solid var(--line-soft); color:var(--ink);
+  }
+  .chip.mono{background:var(--mint); border-color:var(--mint-line); color:#0B6B39}
+
+  /* ---------- Layout ---------- */
+  .wrap{max-width:var(--maxw); margin:44px auto 0; padding:0 22px 80px; display:grid; grid-template-columns:1fr; gap:36px}
+  nav.toc{display:none}
+  nav.toc h4{margin:0 0 12px; font-size:13px; letter-spacing:.02em; color:var(--muted); font-weight:700}
+  nav.toc ol{list-style:none; margin:0; padding:0; counter-reset:toc}
+  nav.toc li{counter-increment:toc; margin:0}
+  nav.toc a{display:flex; gap:10px; padding:7px 10px; border-radius:10px; color:var(--slate); font-size:14.5px; font-weight:500; line-height:1.5}
+  nav.toc a::before{content:counter(toc); color:var(--muted); font-weight:700; font-variant-numeric:tabular-nums; min-width:16px}
+  nav.toc a:hover{background:var(--bg-soft); color:var(--oxford); text-decoration:none}
+
+  article{min-width:0}
+  section{padding:26px 0; border-top:1px solid var(--line-soft); scroll-margin-top:90px}
+  section:first-of-type{border-top:none; padding-top:8px}
+  h2{font-size:clamp(22px,3.4vw,27px); color:var(--oxford); margin:0 0 14px; display:flex; align-items:baseline; gap:12px}
+  h2 .num{
+    font-size:14px; font-weight:800; color:var(--persian); background:#EEF0FF; border:1px solid #DDE1FF;
+    border-radius:8px; padding:3px 9px; line-height:1; flex:none; position:relative; top:-2px;
+    font-variant-numeric:tabular-nums; font-family:'Inter',sans-serif;
+  }
+  h3.sub{font-size:19px; color:var(--oxford); margin:22px 0 8px}
+  h3.sub .n{font-family:'Inter',sans-serif; direction:ltr; unicode-bidi:isolate}
+  p{margin:0 0 14px}
+  article ul{margin:6px 0 16px; padding-right:0; list-style:none}
+  article ul li{position:relative; padding-right:26px; margin:9px 0; color:var(--ink)}
+  article ul li::before{content:""; position:absolute; right:6px; top:13px; width:7px; height:7px; border-radius:2px; background:var(--flash); box-shadow:0 0 0 3px rgba(76,234,99,.16)}
+  .audience-tag{
+    display:inline-flex; align-items:center; gap:8px; font-size:13.5px; font-weight:600; color:var(--slate);
+    background:var(--bg-soft); border:1px solid var(--line); border-radius:999px; padding:6px 14px; margin:0 0 16px;
+  }
+  .audience-tag b{color:var(--oxford)}
+
+  .callout{
+    background:var(--mint); border:1px solid var(--mint-line); border-radius:14px; padding:16px 18px; margin:18px 0;
+    color:#0B4A2A; font-size:16px;
+  }
+  .callout strong{color:#0B6B39}
+  .note{
+    background:var(--bg-soft); border:1px solid var(--line); border-right:3px solid var(--persian);
+    border-radius:12px; padding:15px 18px; margin:18px 0; color:var(--slate); font-size:15.5px;
+  }
+  .note strong{color:var(--oxford)}
+  .lastline{color:var(--muted); font-size:14px; margin-top:6px}
+  a.mail{font-weight:600}
+
+  /* ---------- Footer ---------- */
+  footer.site{border-top:1px solid var(--line); background:var(--bg-soft)}
+  .foot{max-width:var(--maxw); margin:0 auto; padding:34px 22px; display:flex; flex-wrap:wrap; gap:18px 40px; align-items:center; justify-content:space-between}
+  .foot .brand{color:var(--oxford)}
+  .foot nav{display:flex; flex-wrap:wrap; gap:8px 22px}
+  .foot nav a{color:var(--slate); font-size:14.5px; font-weight:500}
+  .foot .copy{width:100%; color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding-top:16px; margin-top:4px}
+
+  /* ---------- Desktop sticky TOC ---------- */
+  @media (min-width:1024px){
+    .wrap{grid-template-columns:250px 1fr; gap:52px}
+    nav.toc{display:block}
+    nav.toc .inner{position:sticky; top:96px}
+  }
+  @media (max-width:720px){
+    .scope-grid{grid-template-columns:1fr}
+    .hero{padding-top:40px}
+    body{font-size:16.5px}
+  }
+
+  /* ---------- Print ---------- */
+  @media print{
+    header.site,footer.site,nav.toc,.langswitch,.scope{display:none !important}
+    .wrap{grid-template-columns:1fr; margin:0; padding:0}
+    body{font-size:12pt}
+    section{page-break-inside:avoid; border-top:1px solid #ccc}
+    a{color:#000; text-decoration:none}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">تخطَّ إلى السياسة</a>
+
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="https://uptal.com" aria-label="أبتال">
+      <span class="dot" aria-hidden="true"></span> أبتال <span class="sub">قانوني</span>
+    </a>
+    <a class="langswitch" href="Uptal_Refund_Policy_EN.html" lang="en" hreflang="en" dir="ltr">English</a>
+  </div>
+</header>
+
+<main id="content">
+  <div class="hero">
+    <span class="eyebrow"><span class="dot" aria-hidden="true"></span> سياسة الاسترداد</span>
+    <h1>سياسة الاسترداد</h1>
+    <p class="lede">توضّح هذه السياسة كيفية عمل المدفوعات والإلغاء والاسترداد عبر جميع منتجات أبتال: البحث عن الكفاءات لأصحاب العمل، والتقديم التلقائي وتحسين السيرة الذاتية للباحثين عن عمل.</p>
+    <div class="meta">
+      <span><b>تاريخ السريان:</b> 5 يوليو 2026</span>
+      <span><b>آخر تحديث:</b> 5 يوليو 2026</span>
+      <span><b>المزوّد:</b> أبتال، المملكة العربية السعودية</span>
+    </div>
+  </div>
+
+  <div class="scope" aria-label="المنتجات المشمولة بهذه السياسة">
+    <div class="scope-grid">
+      <div class="card">
+        <h3>البحث عن الكفاءات</h3>
+        <span class="aud">لأصحاب العمل وجهات التوظيف</span>
+        <p>اشتراك متجدّد. خطتا <span class="en">Professional</span> و<span class="en">Executive Pro</span> مع عمليات فتح شهرية لملفات المرشحين.</p>
+        <span class="chip">نهائي وغير قابل للاسترداد</span>
+      </div>
+      <div class="card">
+        <h3>التقديم التلقائي</h3>
+        <span class="aud">للباحثين عن عمل</span>
+        <p>اشتراك متجدّد. يخصّص الذكاء الاصطناعي سيرتك الذاتية ويقدّم على الوظائف المناسبة نيابةً عنك. يمكنك الإلغاء أو الإيقاف المؤقت في أي وقت.</p>
+        <span class="chip">نهائي وغير قابل للاسترداد</span>
+      </div>
+      <div class="card">
+        <h3>تحسين السيرة الذاتية</h3>
+        <span class="aud">للباحثين عن عمل</span>
+        <p>شراء لمرة واحدة. سيرة ذاتية مُحسّنة ومعاد صياغتها تُنجَز بالكامل من جانبنا خصيصًا لك.</p>
+        <span class="chip">نهائي وغير قابل للاسترداد · مع إتاحة مراجعات</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <nav class="toc" aria-label="في هذه الصفحة">
+      <div class="inner">
+        <h4>في هذه الصفحة</h4>
+        <ol>
+          <li><a href="#overview">نظرة عامة والنطاق</a></li>
+          <li><a href="#general">خدمات رقمية، ووصول فوري، واستهلاك</a></li>
+          <li><a href="#talent-search">البحث عن الكفاءات</a></li>
+          <li><a href="#auto-apply">التقديم التلقائي</a></li>
+          <li><a href="#cv-enhancer">تحسين السيرة الذاتية</a></li>
+          <li><a href="#pricing">الأسعار والضرائب</a></li>
+          <li><a href="#availability">توافر الخدمة والانقطاعات</a></li>
+          <li><a href="#exceptions">الاستثناءات</a></li>
+          <li><a href="#chargebacks">ردّ المدفوعات والنزاعات</a></li>
+          <li><a href="#governing-law">القانون الحاكم</a></li>
+          <li><a href="#contact">معلومات التواصل</a></li>
+          <li><a href="#updates">تحديثات السياسة</a></li>
+        </ol>
+      </div>
+    </nav>
+
+    <article>
+      <section id="overview">
+        <h2><span class="num">1</span> نظرة عامة والنطاق</h2>
+        <p>تحكم سياسة الاسترداد هذه جميع عمليات الشراء التي تتم عبر أبتال، وذلك عبر المنتجات التالية:</p>
+        <ul>
+          <li><b>البحث عن الكفاءات</b> (<span class="en">Uptal Talent Search</span>): خطط اشتراك لأصحاب العمل وجهات التوظيف (<span class="en">Professional</span> و<span class="en">Executive Pro</span>). <a href="https://uptal.com/talent-search" class="en">uptal.com/talent-search</a></li>
+          <li><b>التقديم التلقائي</b> (<span class="en">Uptal Auto-Apply</span>): خدمة اشتراك للباحثين عن عمل تطابقك مع الوظائف وتخصّص سيرتك الذاتية وتقدّم الطلبات نيابةً عنك. <a href="https://uptal.com/auto-apply" class="en">uptal.com/auto-apply</a></li>
+          <li><b>تحسين السيرة الذاتية</b> (<span class="en">Uptal CV Enhancer</span>): خدمة لمرة واحدة تُنجَز بالكامل من جانبنا لتحسين سيرتك الذاتية وإعادة صياغتها.</li>
+        </ul>
+        <p>بمجرد اشتراكك في أي منتج من منتجات أبتال أو شرائه أو استخدامه، فإنك تقرّ بموافقتك على الشروط الواردة في هذه السياسة. وتظهر الشروط الخاصة بكل منتج ضمن قسم ذلك المنتج (الأقسام من 3 إلى 5). أما الشروط العامة الواردة في الأقسام من 6 إلى 12 فتنطبق على جميع مشتريات أبتال. وتُقرأ هذه السياسة جنبًا إلى جنب مع <a href="https://uptal.com/terms-and-conditions">الشروط والأحكام</a> و<a href="https://uptal.com/privacy-policy">سياسة الخصوصية</a> الخاصة بنا.</p>
+        <div class="note"><strong>حقوقك النظامية.</strong> لا تحدّ هذه السياسة أو تستثني أي حق يكفله لك نظام التجارة الإلكترونية أو نظام حماية المستهلك أو أي نظام سعودي إلزامي لا يمكن التنازل عنه بالاتفاق. وحيثما لم تُقدَّم الخدمة، أو كانت معيبة جوهريًا، أو لم تطابق ما هو موصوف، تظلّ محتفظًا بحقك في سبل الانتصاف التي تقرّها تلك الأنظمة.</div>
+      </section>
+
+      <section id="general">
+        <h2><span class="num">2</span> خدمات رقمية، ووصول فوري، واستهلاك</h2>
+        <p>جميع منتجات أبتال هي خدمات رقمية تُسلَّم وتُستهلَك فور الشراء:</p>
+        <ul>
+          <li>يمنح <b>البحث عن الكفاءات</b> وصولاً فوريًا وغير مقيّد إلى المنصة وبيانات المرشحين.</li>
+          <li>يبدأ <b>التقديم التلقائي</b> في مطابقتك مع الوظائف وتقديم الطلبات نيابةً عنك بمجرد تفعيل اشتراكك، ويستمر طوال فترة الفوترة.</li>
+          <li>يبدأ العمل في <b>تحسين السيرة الذاتية</b> بمجرد تقديم طلبك، مُنتِجًا مُخرَجًا رقميًا أُنشئ خصيصًا لك.</li>
+        </ul>
+        <p>ولأنك تحصل على وصول فوري وتبدأ كل خدمة بالعمل لصالحك بمجرد الدفع، يُعامَل شراؤك على أنه مُستخدَم، بالكامل أو تدريجيًا، منذ تلك اللحظة. وهذا هو الأساس لشروط الاسترداد الواردة أدناه. وعند الشراء، فإنك توافق صراحةً على أن تبدأ أبتال الخدمة فورًا، وتقرّ بأن ذلك يؤثّر، بقدر ما قُدِّم من الخدمة فعليًا، في أي حق نظامي في التراجع.</p>
+      </section>
+
+      <section id="talent-search">
+        <h2><span class="num">3</span> البحث عن الكفاءات <span class="en">(Uptal Talent Search)</span></h2>
+        <span class="audience-tag"><b>ينطبق على:</b> أصحاب العمل وجهات التوظيف على خطتَي <span class="en">Professional</span> و<span class="en">Executive Pro</span></span>
+
+        <h3 class="sub"><span class="n">3.1</span> طبيعة الخدمة: وصول فوري واستهلاك</h3>
+        <p>البحث عن الكفاءات من أبتال خدمة رقمية تُسلَّم وتُتاح للاستخدام منذ لحظة الشراء. عند إتمام الدفع بنجاح، يحصل المشترك على وصول فوري وغير مقيّد إلى كامل ميزات المنصة، بما في ذلك البحث والتصفية وفتح ملفات المرشحين (في حدود مخصّص خطتك الشهري من عمليات الفتح؛ انظر القسم 3.4). ولأن الوصول يُمنَح فورًا وتظل المنصة متاحة للاستخدام طوال فترة الفوترة، تُعدّ الخدمة مُستخدَمة من نقطة الشراء وتدريجيًا مع استهلاك عمليات الفتح.</p>
+
+        <h3 class="sub"><span class="n">3.2</span> سياسة عدم الاسترداد</h3>
+        <p>جميع المدفوعات المسدَّدة مقابل اشتراكات البحث عن الكفاءات نهائية وغير قابلة للاسترداد. وينطبق ذلك على جميع دورات الفوترة، بما في ذلك الخطط الشهرية والربع سنوية والسنوية. وبمجرد معالجة دفعة الاشتراك، لن تُصدَر أي مبالغ مستردة أو أرصدة أو استبدالات إلا وفق ما هو مبيَّن في القسم 8 (الاستثناءات) أو وفقًا لأنظمة المملكة العربية السعودية السارية، بما في ذلك على سبيل المثال لا الحصر:</p>
+        <ul>
+          <li>الاستخدام الجزئي أو عدم الاستخدام للاشتراك خلال فترة الفوترة</li>
+          <li>عمليات فتح الملفات غير المستخدمة في نهاية دورة الفوترة</li>
+          <li>عدم الرضا عن نتائج البحث أو ملفات المرشحين أو جودة البيانات</li>
+          <li>عدم إلغاء الاشتراك قبل دورة الفوترة التالية</li>
+          <li>تغيّر احتياجات التوظيف أو إعادة هيكلة الشركة أو خطط التوظيف</li>
+          <li>المشكلات التقنية من جانب المشترك (مثل توافق المتصفح أو الاتصال بالإنترنت)</li>
+          <li>عمليات الشراء المكرّرة أو غير المقصودة، باستثناء رسم مكرّر ناتج عن خطأ مُتحقَّق منه في نظام الفوترة (انظر القسم 8)</li>
+        </ul>
+
+        <h3 class="sub"><span class="n">3.3</span> فوترة الاشتراك وإلغاؤه</h3>
+        <p>تُفوتَر اشتراكات البحث عن الكفاءات على أساس متجدّد وفقًا لمدة الخطة المختارة (شهرية أو ربع سنوية أو سنوية). وأبرز شروط الفوترة:</p>
+        <ul>
+          <li>تتجدّد الاشتراكات تلقائيًا في نهاية كل دورة فوترة ما لم تُلغَ قبل التجديد.</li>
+          <li>يسري الإلغاء في نهاية فترة الفوترة الحالية، وتحتفظ بالوصول إلى الخدمة حتى انتهاء فترتك المدفوعة.</li>
+          <li>لا تُصدَر مبالغ مستردة تناسبية عن الإلغاءات التي تتم في منتصف الدورة.</li>
+          <li>الرجوع من <span class="en">Executive Pro</span> إلى <span class="en">Professional</span> لا يمنح المشترك الحق في استرداد فرق سعر الخطة.</li>
+          <li>يمكنك الإلغاء في أي وقت من إعدادات حسابك في أبتال، أو عبر التواصل مع <a href="mailto:support@uptal.com" class="mail en">support@uptal.com</a>.</li>
+        </ul>
+
+        <h3 class="sub"><span class="n">3.4</span> عمليات فتح الملفات</h3>
+        <p>تتضمّن كل خطة اشتراك عددًا محدّدًا من عمليات فتح ملفات المرشحين شهريًا (100 لخطة <span class="en">Professional</span> و500 لخطة <span class="en">Executive Pro</span>). ولا تُرحَّل عمليات الفتح غير المستخدمة إلى فترات الفوترة اللاحقة، وهي غير قابلة للاسترداد. ولن يُقدَّم أي تعويض أو رصيد عن عمليات الفتح غير المستخدمة.</p>
+      </section>
+
+      <section id="auto-apply">
+        <h2><span class="num">4</span> التقديم التلقائي <span class="en">(Uptal Auto-Apply)</span></h2>
+        <span class="audience-tag"><b>ينطبق على:</b> الباحثين عن عمل المشتركين في التقديم التلقائي</span>
+
+        <h3 class="sub"><span class="n">4.1</span> طبيعة الخدمة</h3>
+        <p>التقديم التلقائي من أبتال اشتراك متجدّد. بمجرد تفعيل اشتراكك، يبدأ الذكاء الاصطناعي في أبتال فورًا بمطابقتك مع الوظائف وتخصيص سيرتك الذاتية لكل وظيفة وتقديم الطلبات نيابةً عنك. وهي خدمة تُسلَّم باستمرار وتُستهلَك مع تقديم الطلبات طوال فترة الفوترة.</p>
+
+        <h3 class="sub"><span class="n">4.2</span> سياسة عدم الاسترداد</h3>
+        <p>جميع المدفوعات المسدَّدة مقابل اشتراكات التقديم التلقائي نهائية وغير قابلة للاسترداد. وبمجرد معالجة الدفعة، لن تُصدَر أي مبالغ مستردة أو أرصدة أو استبدالات إلا وفق ما هو مبيَّن في القسم 8 (الاستثناءات) أو وفقًا لأنظمة المملكة العربية السعودية السارية، بما في ذلك على سبيل المثال لا الحصر:</p>
+        <ul>
+          <li>الاستخدام الجزئي أو عدم الاستخدام للاشتراك خلال فترة الفوترة</li>
+          <li>عدد الوظائف المطابَقة أو الطلبات المخصَّصة أو المقدَّمة خلال الفترة</li>
+          <li>عدم الرضا عن المطابقات أو السير الذاتية المخصَّصة أو ردود أصحاب العمل أو نتائج المقابلات</li>
+          <li>عدم التوظيف أو الترشيح أو تلقّي أي تواصل من صاحب عمل (انظر القسم 4.5)</li>
+          <li>عدم الإلغاء أو الإيقاف المؤقت قبل تجديدك التالي</li>
+          <li>الخصومات الترويجية أو خصومات الفترة الأولى المطبَّقة على اشتراكك</li>
+          <li>المشكلات التقنية على جهازك أو اتصالك بالإنترنت</li>
+          <li>عمليات الشراء المكرّرة أو غير المقصودة، باستثناء رسم مكرّر ناتج عن خطأ مُتحقَّق منه في نظام الفوترة (انظر القسم 8)</li>
+        </ul>
+
+        <h3 class="sub"><span class="n">4.3</span> فوترة الاشتراك وإلغاؤه</h3>
+        <p>يُفوتَر التقديم التلقائي على أساس متجدّد وفقًا للخطة التي تختارها عند الدفع. ويظهر لك السعر المطبَّق عليك قبل الدفع. وأبرز شروط الفوترة:</p>
+        <ul>
+          <li>يتجدّد اشتراكك تلقائيًا في نهاية كل دورة فوترة ما لم يُلغَ قبل التجديد.</li>
+          <li>يمكنك الإلغاء في أي وقت من إعدادات حسابك في أبتال، أو عبر التواصل مع <a href="mailto:support@uptal.com" class="mail en">support@uptal.com</a>. ويسري الإلغاء في نهاية فترتك المدفوعة الحالية، وتحتفظ بالوصول حتى ذلك الحين.</li>
+          <li>لا تُصدَر مبالغ مستردة تناسبية أو جزئية عن الإلغاءات التي تتم في منتصف الدورة.</li>
+        </ul>
+
+        <h3 class="sub"><span class="n">4.4</span> إيقاف اشتراكك مؤقتًا</h3>
+        <p>كبديل عن الإلغاء، يمكنك إيقاف اشتراكك في التقديم التلقائي مؤقتًا لمدة تصل إلى ثلاثة أشهر في المرة الواحدة. ويؤدي الإيقاف المؤقت إلى تعليق كل من طلباتك وفوترتك للفترة المحدّدة، وهو ليس استردادًا لأي مبلغ سبق دفعه. ويُستأنف اشتراكك تلقائيًا في نهاية فترة الإيقاف ما لم تقم بالإلغاء.</p>
+
+        <h3 class="sub"><span class="n">4.5</span> عدم ضمان نتائج التوظيف</h3>
+        <div class="callout"><strong>يقدّم التقديم التلقائي الطلبات نيابةً عنك، لكنه لا يضمن مقابلات أو عروض عمل أو توظيفًا.</strong> فقرارات التوظيف تُتَّخذ من قبل أصحاب العمل وحدهم. وغياب أي رد أو مقابلة أو عرض عمل ليس سببًا للاسترداد.</div>
+      </section>
+
+      <section id="cv-enhancer">
+        <h2><span class="num">5</span> تحسين السيرة الذاتية <span class="en">(Uptal CV Enhancer)</span></h2>
+        <span class="audience-tag"><b>ينطبق على:</b> الباحثين عن عمل الذين يشترون طلب تحسين السيرة الذاتية</span>
+
+        <h3 class="sub"><span class="n">5.1</span> طبيعة الخدمة</h3>
+        <p>تحسين السيرة الذاتية من أبتال خدمة رقمية لمرة واحدة تُنجَز بالكامل من جانبنا. عند تقديم طلبك، تقوم أبتال بتحسين سيرتك الذاتية وإعادة صياغتها لإنتاج مُخرَج رقمي مخصَّص أُنشئ خصيصًا لك. ويبدأ فريقنا العمل فور تقديم طلبك.</p>
+
+        <h3 class="sub"><span class="n">5.2</span> سياسة عدم الاسترداد</h3>
+        <p>نظرًا لأن خدمة تحسين السيرة الذاتية تُنتِج مُخرَجًا رقميًا مخصَّصًا أُعِدّ خصيصًا لك، فإن جميع المبيعات نهائية وغير قابلة للاسترداد منذ لحظة الشراء. ولن تُصدَر أي مبالغ مستردة أو أرصدة أو استبدالات بعد الشراء إلا وفق ما هو مبيَّن في القسم 8 (الاستثناءات) أو وفقًا لأنظمة المملكة العربية السعودية السارية، بما في ذلك على سبيل المثال لا الحصر:</p>
+        <ul>
+          <li>عدم الرضا عن أسلوب الكتابة أو الصياغة أو التنسيق أو التصميم، وهي أمور تقديرية بطبيعتها</li>
+          <li>عدم تحقيق السيرة الذاتية المُحسّنة لمقابلات أو عروض أو توظيف</li>
+          <li>تغيير الرأي بعد الشراء</li>
+          <li>المعلومات غير الدقيقة أو غير المكتملة أو المفقودة التي قدّمتها</li>
+          <li>المشكلات التقنية على جهازك أو اتصالك بالإنترنت</li>
+        </ul>
+
+        <h3 class="sub"><span class="n">5.3</span> المراجعات بدلاً من الاسترداد</h3>
+        <div class="callout">إذا لم تكن راضيًا عن سيرتك الذاتية المُحسّنة، فإن الحل الذي نقدّمه هو <strong>المراجعات وليس الاسترداد</strong>. تواصل معنا عبر <a href="mailto:support@uptal.com" class="mail en">support@uptal.com</a> وسنعمل معك على تعديل سيرتك الذاتية بما يتوافق مع الخدمة التي اشتريتها. وإذا كانت السيرة الذاتية المُسلَّمة لا تطابق جوهريًا الخدمة الموصوفة وتعذّر على المراجعات معالجة ذلك، تظلّ محتفظًا بحقك في سبل الانتصاف المتاحة بموجب أنظمة المملكة العربية السعودية السارية.</div>
+
+      </section>
+
+      <section id="pricing">
+        <h2><span class="num">6</span> الأسعار والضرائب</h2>
+        <p>جميع الأسعار المعروضة على أبتال لا تشمل ضريبة القيمة المضافة (<span class="en">VAT</span>). وتُضاف ضريبة القيمة المضافة المطبَّقة (بنسبة 15% حاليًا) عند الدفع وفقًا للأنظمة الضريبية في المملكة العربية السعودية، وتُصدَر فاتورة ضريبية نظامية عن كل عملية دفع. ويجوز لأبتال تعديل الأسعار في أي وقت دون إشعار مسبق. والسعر المعروض عند الدفع، أو السعر المطبَّق عند تجديدك، هو السعر الساري لتلك العملية. والأسعار الترويجية والمخفَّضة غير قابلة للاسترداد.</p>
+      </section>
+
+      <section id="availability">
+        <h2><span class="num">7</span> توافر الخدمة والانقطاعات</h2>
+        <p>تسعى أبتال إلى الحفاظ على وصول متواصل إلى خدماتها. ومع ذلك، قد تحدث انقطاعات مؤقتة في الخدمة بسبب الصيانة المجدولة أو ترقيات النظام أو مشكلات تقنية غير متوقعة. ولا تمنحك انقطاعات الخدمة الحق في أي مبالغ مستردة أو أرصدة فوترة.</p>
+      </section>
+
+      <section id="exceptions">
+        <h2><span class="num">8</span> الاستثناءات</h2>
+        <p>وفيما عدا حقوقك النظامية بموجب أنظمة المملكة العربية السعودية السارية، لا يُنظَر في الاسترداد إلا في الحالات التالية، وهي تنطبق على جميع منتجات أبتال:</p>
+        <ul>
+          <li>يُسترَد أي رسم مكرّر ناتج عن خطأ مُتحقَّق منه في نظام الفوترة من جانب أبتال.</li>
+          <li>يُسترَد أي رسم غير مصرّح به، بما في ذلك الرسم الناتج عن اختراق أمني مؤكَّد لحسابك في أبتال، متى ثبت بعد إجراء التحقيق اللازم أنه غير مصرّح به.</li>
+        </ul>
+        <p>لطلب استرداد لإحدى الحالتين أعلاه، تواصل مع <a href="mailto:support@uptal.com" class="mail en">support@uptal.com</a> خلال سبعة (7) أيام تقويمية من الرسم. وتنطبق مهلة السبعة أيام هذه على هذه الطلبات ولا تحدّ من أي حق يكفله لك النظام السعودي الإلزامي. وتُصدَر عمليات الاسترداد المعتمَدة إلى وسيلة الدفع الأصلية، عادةً خلال 10 أيام عمل.</p>
+      </section>
+
+      <section id="chargebacks">
+        <h2><span class="num">9</span> ردّ المدفوعات والنزاعات</h2>
+        <p>إذا كان لديك أي استفسار يتعلق بالفوترة، فيُرجى التواصل مع <a href="mailto:support@uptal.com" class="mail en">support@uptal.com</a> أولًا حتى نتمكن من حلّه مباشرةً؛ فهذه في الغالبية العظمى من الحالات أسرع طريقة لمعالجة أي مسألة تتعلق بالفوترة. وإذا قُدِّم طلب ردّ مدفوعات أو نزاع لدى بنكك أو مزوّد الدفع قبل التواصل معنا، فقد نوقف وصولك إلى المنتج المعني ريثما نُجري التحقيق. وحيثما تبيّن أن الرسم محلّ النزاع صحيح، فقد نستردّ المبلغ المستحق مع أي تكاليف معقولة وموثّقة.</p>
+      </section>
+
+      <section id="governing-law">
+        <h2><span class="num">10</span> القانون الحاكم</h2>
+        <p>تخضع سياسة الاسترداد هذه لأنظمة المملكة العربية السعودية وتُفسَّر وفقًا لها. ويخضع أي نزاع ينشأ بموجب هذه السياسة للاختصاص القضائي الحصري للمحاكم المختصة في مدينة الرياض بالمملكة العربية السعودية.</p>
+      </section>
+
+      <section id="contact">
+        <h2><span class="num">11</span> معلومات التواصل</h2>
+        <p>للاستفسارات المتعلقة بالفوترة أو طلبات المراجعة أو للإبلاغ عن خطأ في الفوترة، يُرجى التواصل معنا عبر <a href="mailto:support@uptal.com" class="mail en">support@uptal.com</a>.</p>
+      </section>
+
+      <section id="updates">
+        <h2><span class="num">12</span> تحديثات السياسة</h2>
+        <p>تحتفظ أبتال بالحق في تحديث سياسة الاسترداد هذه أو تعديلها في أي وقت. وتُنشَر التغييرات على موقع أبتال وتسري فور نشرها. ويُعدّ استمرارك في استخدام أي منتج من منتجات أبتال بعد نشر التغييرات قبولًا للسياسة المعدَّلة.</p>
+        <p class="lastline">آخر تحديث لسياسة الاسترداد هذه في 5 يوليو 2026.</p>
+      </section>
+    </article>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="foot">
+    <a class="brand" href="https://uptal.com"><span class="dot" aria-hidden="true"></span> أبتال</a>
+    <nav aria-label="روابط قانونية">
+      <a href="https://uptal.com/terms-and-conditions">الشروط والأحكام</a>
+      <a href="https://uptal.com/privacy-policy">سياسة الخصوصية</a>
+      <a href="https://uptal.com/refund-policy">سياسة الاسترداد</a>
+      <a href="https://uptal.com/contact-us">تواصل معنا</a>
+    </nav>
+    <!-- TODO before publishing: per the Saudi E-Commerce Law merchant-disclosure requirement, add the full legal entity name, Commercial Registration (CR) number and/or Maroof registration number, and a registered business address here. -->
+    <div class="copy">حقوق النشر © 2026 أبتال. جميع الحقوق محفوظة.</div>
+  </div>
+</footer>
+</body>
+</html>

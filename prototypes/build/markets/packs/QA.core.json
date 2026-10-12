@@ -1,0 +1,902 @@
+{
+ "code": "QA",
+ "flag": "🇶🇦",
+ "name": {
+  "en": "Qatar",
+  "ar": "قطر",
+  "fr": "Qatar"
+ },
+ "short": {
+  "en": "Qatar",
+  "ar": "قطر",
+  "fr": "le Qatar"
+ },
+ "in": {
+  "en": "in Qatar",
+  "ar": "في قطر",
+  "fr": "au Qatar"
+ },
+ "dem": {
+  "en": "Qatari",
+  "ar": "قطري",
+  "arf": "قطرية",
+  "fr": "qatarien",
+  "frf": "qatarienne"
+ },
+ "nationals": {
+  "en": "Qatari nationals",
+  "ar": "المواطنون القطريون",
+  "fr": "ressortissants qatariens"
+ },
+ "region": "gcc",
+ "workweek": "sun-thu",
+ "cities": [
+  {
+   "id": "doha",
+   "en": "Doha",
+   "ar": "الدوحة",
+   "fr": "Doha",
+   "metro": {
+    "en": "Doha covers West Bay, the Corniche, Msheireb, Al Sadd and Old Airport.",
+    "ar": "الدوحة تشمل الدفنة (الخليج الغربي)، والكورنيش، ومشيرب، والسد، والمطار القديم.",
+    "fr": "Doha couvre West Bay, la Corniche, Msheireb, Al Sadd et Old Airport."
+   }
+  },
+  {
+   "id": "lusail",
+   "en": "Lusail",
+   "ar": "لوسيل",
+   "fr": "Lusail",
+   "metro": {
+    "en": "Lusail covers Marina District, Lusail Boulevard and Energy City.",
+    "ar": "لوسيل تشمل حي المارينا، وبوليفارد لوسيل، ومدينة الطاقة.",
+    "fr": "Lusail couvre le Marina District, le boulevard de Lusail et Energy City."
+   }
+  },
+  {
+   "id": "alrayyan",
+   "en": "Al Rayyan",
+   "ar": "الريان",
+   "fr": "Al Rayyan",
+   "metro": {
+    "en": "Al Rayyan covers Education City, Al Gharrafa and Aspire Zone.",
+    "ar": "الريان تشمل المدينة التعليمية، والغرافة، ومنطقة أسباير.",
+    "fr": "Al Rayyan couvre Education City, Al Gharrafa et l'Aspire Zone."
+   }
+  },
+  {
+   "id": "alwakrah",
+   "en": "Al Wakrah",
+   "ar": "الوكرة",
+   "fr": "Al Wakrah",
+   "metro": {
+    "en": "Al Wakrah covers the city, Al Wukair and the Hamad Port area.",
+    "ar": "الوكرة تشمل المدينة، والوكير، ومنطقة ميناء حمد.",
+    "fr": "Al Wakrah couvre la ville, Al Wukair et la zone du port Hamad."
+   }
+  },
+  {
+   "id": "raslaffan",
+   "en": "Ras Laffan",
+   "ar": "راس لفان",
+   "fr": "Ras Laffan",
+   "metro": {
+    "en": "Ras Laffan Industrial City, about 80 km north of Doha, is the hub of Qatar's LNG industry.",
+    "ar": "مدينة راس لفان الصناعية، على بعد 80 كم تقريباً شمال الدوحة، هي مركز صناعة الغاز الطبيعي المسال في قطر.",
+    "fr": "La ville industrielle de Ras Laffan, à environ 80 km au nord de Doha, est le cœur de l'industrie qatarienne du GNL."
+   }
+  },
+  {
+   "id": "mesaieed",
+   "en": "Mesaieed",
+   "ar": "مسيعيد",
+   "fr": "Mesaieed",
+   "metro": {
+    "en": "Mesaieed Industrial City, south of Al Wakrah, hosts fertiliser, petrochemical and steel plants.",
+    "ar": "مدينة مسيعيد الصناعية، جنوب الوكرة، تضم مصانع الأسمدة والبتروكيماويات والحديد والصلب.",
+    "fr": "La ville industrielle de Mesaieed, au sud d'Al Wakrah, accueille des usines d'engrais, de pétrochimie et d'acier."
+   }
+  },
+  {
+   "id": "alkhor",
+   "en": "Al Khor",
+   "ar": "الخور",
+   "fr": "Al Khor",
+   "metro": {
+    "en": "Al Khor covers the city and Al Khor Community, home to many Ras Laffan staff.",
+    "ar": "الخور تشمل المدينة ومجمّع الخور السكني، حيث يسكن كثير من موظفي راس لفان.",
+    "fr": "Al Khor couvre la ville et Al Khor Community, où vivent de nombreux salariés de Ras Laffan."
+   }
+  }
+ ],
+ "employers": [
+  {
+   "id": "qatarenergy",
+   "en": "QatarEnergy",
+   "ar": "قطر للطاقة",
+   "fr": "QatarEnergy",
+   "sector": "energy",
+   "archetype": "national energy champion",
+   "city": "doha",
+   "logo": {
+    "bg": "#7C1034",
+    "fg": "#FFFFFF",
+    "mono": "QE"
+   }
+  },
+  {
+   "id": "qelng",
+   "en": "QatarEnergy LNG",
+   "ar": "قطر للطاقة للغاز الطبيعي المسال",
+   "fr": "QatarEnergy LNG",
+   "sector": "energy",
+   "archetype": "LNG producer (operations at Ras Laffan)",
+   "city": "doha",
+   "logo": {
+    "bg": "#9B2242",
+    "fg": "#FFFFFF",
+    "mono": "LNG"
+   }
+  },
+  {
+   "id": "qnb",
+   "en": "QNB",
+   "ar": "بنك قطر الوطني",
+   "fr": "QNB",
+   "sector": "bank",
+   "archetype": "largest bank (group HQ)",
+   "city": "doha",
+   "logo": {
+    "bg": "#5E2366",
+    "fg": "#FFFFFF",
+    "mono": "QNB"
+   }
+  },
+  {
+   "id": "qib",
+   "en": "Qatar Islamic Bank",
+   "ar": "مصرف قطر الإسلامي",
+   "fr": "Qatar Islamic Bank",
+   "sector": "bank",
+   "archetype": "largest Islamic bank",
+   "city": "doha",
+   "logo": {
+    "bg": "#00508F",
+    "fg": "#FFFFFF",
+    "mono": "QIB"
+   }
+  },
+  {
+   "id": "cbq",
+   "en": "Commercial Bank",
+   "ar": "البنك التجاري",
+   "fr": "Commercial Bank",
+   "sector": "bank",
+   "archetype": "major commercial bank",
+   "city": "doha",
+   "logo": {
+    "bg": "#C8102E",
+    "fg": "#FFFFFF",
+    "mono": "CB"
+   }
+  },
+  {
+   "id": "mar",
+   "en": "Masraf Al Rayan",
+   "ar": "مصرف الريان",
+   "fr": "Masraf Al Rayan",
+   "sector": "bank",
+   "archetype": "major Islamic bank",
+   "city": "doha",
+   "logo": {
+    "bg": "#6A1B4D",
+    "fg": "#FFFFFF",
+    "mono": "MAR"
+   }
+  },
+  {
+   "id": "ooredoo",
+   "en": "Ooredoo",
+   "ar": "Ooredoo",
+   "fr": "Ooredoo",
+   "sector": "telecom",
+   "archetype": "telecom #1 (group HQ)",
+   "city": "doha",
+   "logo": {
+    "bg": "#ED1C24",
+    "fg": "#FFFFFF",
+    "mono": "O"
+   }
+  },
+  {
+   "id": "vodafone",
+   "en": "Vodafone Qatar",
+   "ar": "فودافون قطر",
+   "fr": "Vodafone Qatar",
+   "sector": "telecom",
+   "archetype": "telecom #2",
+   "city": "doha",
+   "logo": {
+    "bg": "#E60000",
+    "fg": "#FFFFFF",
+    "mono": "V"
+   }
+  },
+  {
+   "id": "qia",
+   "en": "Qatar Investment Authority",
+   "ar": "جهاز قطر للاستثمار",
+   "fr": "Qatar Investment Authority",
+   "sector": "sovereign",
+   "archetype": "sovereign wealth fund",
+   "city": "doha",
+   "logo": {
+    "bg": "#14365D",
+    "fg": "#FFFFFF",
+    "mono": "QIA"
+   }
+  },
+  {
+   "id": "kpmg",
+   "en": "KPMG Qatar",
+   "ar": "كي بي إم جي قطر",
+   "fr": "KPMG Qatar",
+   "sector": "consulting",
+   "archetype": "big-4 firm",
+   "city": "doha",
+   "logo": {
+    "bg": "#00338D",
+    "fg": "#FFFFFF",
+    "mono": "KPMG"
+   }
+  },
+  {
+   "id": "baladna",
+   "en": "Baladna",
+   "ar": "بلدنا",
+   "fr": "Baladna",
+   "sector": "fmcg",
+   "archetype": "dairy and food major",
+   "city": "alkhor",
+   "logo": {
+    "bg": "#005EB8",
+    "fg": "#FFFFFF",
+    "mono": "B"
+   }
+  },
+  {
+   "id": "almeera",
+   "en": "Al Meera",
+   "ar": "الميرة",
+   "fr": "Al Meera",
+   "sector": "retail",
+   "archetype": "supermarket chain",
+   "city": "doha",
+   "logo": {
+    "bg": "#008C45",
+    "fg": "#FFFFFF",
+    "mono": "AM"
+   }
+  },
+  {
+   "id": "qatarairways",
+   "en": "Qatar Airways",
+   "ar": "الخطوط الجوية القطرية",
+   "fr": "Qatar Airways",
+   "sector": "airline",
+   "archetype": "national airline",
+   "city": "doha",
+   "logo": {
+    "bg": "#5C0632",
+    "fg": "#FFFFFF",
+    "mono": "QR"
+   }
+  },
+  {
+   "id": "hmc",
+   "en": "Hamad Medical Corporation",
+   "ar": "مؤسسة حمد الطبية",
+   "fr": "Hamad Medical Corporation",
+   "sector": "healthcare",
+   "archetype": "public hospital group",
+   "city": "doha",
+   "logo": {
+    "bg": "#00758D",
+    "fg": "#FFFFFF",
+    "mono": "HMC"
+   }
+  },
+  {
+   "id": "qic",
+   "en": "QIC",
+   "ar": "قطر للتأمين",
+   "fr": "QIC",
+   "sector": "insurance",
+   "archetype": "largest insurer",
+   "city": "doha",
+   "logo": {
+    "bg": "#002F6C",
+    "fg": "#FFFFFF",
+    "mono": "QIC"
+   }
+  },
+  {
+   "id": "snoonu",
+   "en": "Snoonu",
+   "ar": "سنونو",
+   "fr": "Snoonu",
+   "sector": "tech",
+   "archetype": "tech scale-up (super app)",
+   "city": "doha",
+   "logo": {
+    "bg": "#E30613",
+    "fg": "#FFFFFF",
+    "mono": "S"
+   }
+  },
+  {
+   "id": "skipcash",
+   "en": "SkipCash",
+   "ar": "سكيب كاش",
+   "fr": "SkipCash",
+   "sector": "fintech",
+   "archetype": "payments fintech",
+   "city": "doha",
+   "logo": {
+    "bg": "#2D2A8C",
+    "fg": "#FFFFFF",
+    "mono": "SC"
+   }
+  },
+  {
+   "id": "talabat",
+   "en": "talabat",
+   "ar": "طلبات",
+   "fr": "talabat",
+   "sector": "ecommerce",
+   "archetype": "food-delivery app",
+   "city": "doha",
+   "logo": {
+    "bg": "#FF5A00",
+    "fg": "#FFFFFF",
+    "mono": "t"
+   }
+  },
+  {
+   "id": "qataridiar",
+   "en": "Qatari Diar",
+   "ar": "الديار القطرية",
+   "fr": "Qatari Diar",
+   "sector": "realestate",
+   "archetype": "master developer (Lusail City)",
+   "city": "lusail",
+   "logo": {
+    "bg": "#1F3A5F",
+    "fg": "#C9A86A",
+    "mono": "QD"
+   }
+  },
+  {
+   "id": "udc",
+   "en": "United Development Company",
+   "ar": "الشركة المتحدة للتنمية",
+   "fr": "United Development Company",
+   "sector": "realestate",
+   "archetype": "developer (The Pearl-Qatar)",
+   "city": "doha",
+   "logo": {
+    "bg": "#00467F",
+    "fg": "#FFFFFF",
+    "mono": "UDC"
+   }
+  },
+  {
+   "id": "qse",
+   "en": "Qatar Stock Exchange",
+   "ar": "بورصة قطر",
+   "fr": "Qatar Stock Exchange",
+   "sector": "exchange",
+   "archetype": "stock exchange",
+   "city": "doha",
+   "logo": {
+    "bg": "#003A70",
+    "fg": "#FFFFFF",
+    "mono": "QSE"
+   }
+  },
+  {
+   "id": "qafco",
+   "en": "QAFCO",
+   "ar": "قافكو",
+   "fr": "QAFCO",
+   "sector": "industrial",
+   "archetype": "industrial (fertilisers)",
+   "city": "mesaieed",
+   "logo": {
+    "bg": "#00703C",
+    "fg": "#FFFFFF",
+    "mono": "QAF"
+   }
+  },
+  {
+   "id": "qf",
+   "en": "Qatar Foundation",
+   "ar": "مؤسسة قطر",
+   "fr": "Qatar Foundation",
+   "sector": "government",
+   "archetype": "semi-government (education and research)",
+   "city": "alrayyan",
+   "logo": {
+    "bg": "#00837E",
+    "fg": "#FFFFFF",
+    "mono": "QF"
+   }
+  },
+  {
+   "id": "kahramaa",
+   "en": "Kahramaa",
+   "ar": "كهرماء",
+   "fr": "Kahramaa",
+   "sector": "government",
+   "archetype": "government utility",
+   "city": "doha",
+   "logo": {
+    "bg": "#0067A5",
+    "fg": "#FFFFFF",
+    "mono": "KM"
+   }
+  }
+ ],
+ "sectorsCovered": {
+  "energy": [
+   "qatarenergy",
+   "qelng"
+  ],
+  "largestBanks": [
+   "qnb",
+   "qib",
+   "cbq"
+  ],
+  "islamicBank": [
+   "qib",
+   "mar"
+  ],
+  "telecom1": [
+   "ooredoo"
+  ],
+  "telecom2": [
+   "vodafone"
+  ],
+  "sovereign": [
+   "qia"
+  ],
+  "big4": [
+   "kpmg"
+  ],
+  "fmcg": [
+   "baladna"
+  ],
+  "retailer": [
+   "almeera"
+  ],
+  "airline": [
+   "qatarairways"
+  ],
+  "hospitalGroup": [
+   "hmc"
+  ],
+  "insurer": [
+   "qic"
+  ],
+  "techScaleup": [
+   "snoonu"
+  ],
+  "fintech": [
+   "skipcash"
+  ],
+  "deliveryApp": [
+   "talabat"
+  ],
+  "realEstate": [
+   "qataridiar",
+   "udc"
+  ],
+  "stockExchange": [
+   "qse"
+  ],
+  "industrial": [
+   "qafco"
+  ],
+  "government": [
+   "qf",
+   "kahramaa"
+  ]
+ },
+ "sal": {
+  "per": "month",
+  "f": 0.9,
+  "basis": "Qatar pay is quoted monthly, tax-free, as a total package (basic + housing + transport; Qataris in government and semi-government grades also get a social allowance). Senior Financial Analyst / Senior FP&A, ~8 yrs, Doha: roughly QAR 22-32k a month for expats at large employers and QAR 35-50k for Qatari nationals at banks and state companies (recalled from regional salary guides; web research was unavailable for this run, so not re-verified). Maryam is Qatari, so the band leans to the top of the expat range / bottom of the national range. f = 0.9 maps the v5 Riyadh band 34-41k SAR to QAR 30.6-36.9k, so Maryam earns ~QAR 23,400 and expects ~30,600. QAR and SAR are near par (both USD-pegged, 1 SAR = 0.971 QAR). Plausible range for f: 0.8-1.05."
+ },
+ "tax": {
+  "incl": true,
+  "rate": 0,
+  "label": {
+   "en": "No VAT in Qatar",
+   "ar": "ما فيه ضريبة قيمة مضافة في قطر",
+   "fr": "Pas de TVA au Qatar"
+  }
+ },
+ "pay": {
+  "wallets": [
+   "apple",
+   "google"
+  ],
+  "methods": [
+   {
+    "id": "card",
+    "label": {
+     "en": "Card",
+     "ar": "بطاقة",
+     "fr": "Carte"
+    },
+    "sub": {
+     "en": "Visa, Mastercard, Amex",
+     "ar": "Visa أو Mastercard أو Amex",
+     "fr": "Visa, Mastercard, Amex"
+    },
+    "brands": [
+     "visa",
+     "mc",
+     "amex"
+    ]
+   }
+  ],
+  "bnpl": [],
+  "localCardBrand": null
+ },
+ "phone": {
+  "cc": "+974",
+  "ex": "+974 5512 3456"
+ },
+ "rights": {
+  "q": {
+   "en": "Your right to work in Qatar",
+   "ar": "أهليتك للعمل في قطر",
+   "fr": "Votre droit de travailler au Qatar"
+  },
+  "opts": [
+   {
+    "en": "Qatari or GCC national",
+    "ar": "مواطن قطري أو خليجي",
+    "fr": "Ressortissant qatarien ou du CCG",
+    "sub": {
+     "en": "No visa or sponsor needed",
+     "ar": "ما تحتاج تأشيرة ولا كفيل",
+     "fr": "Aucun visa ni parrainage nécessaire"
+    }
+   },
+   {
+    "en": "Residence permit through my employer",
+    "ar": "إقامة عمل عن طريق جهة عملي",
+    "fr": "Permis de séjour via mon employeur",
+    "sub": {
+     "en": "You can change jobs after giving notice, with no NOC. Your new employer takes over your permit.",
+     "ar": "تقدر تغيّر شغلك بعد الإشعار وبدون شهادة عدم ممانعة، وجهة العمل الجديدة تنقل إقامتك عليها.",
+     "fr": "Vous pouvez changer d'emploi après un préavis, sans NOC. Votre nouvel employeur reprend votre permis."
+    }
+   },
+   {
+    "en": "Family-sponsored residence",
+    "ar": "إقامة على كفالة العائلة",
+    "fr": "Résidence parrainée par la famille",
+    "sub": {
+     "en": "Sponsored by a spouse or parent. Your employer gets you a work permit from the Ministry of Labour.",
+     "ar": "على كفالة الزوج أو أحد الوالدين، وجهة العمل تطلّع لك تصريح عمل من وزارة العمل.",
+     "fr": "Parrainée par votre conjoint ou un parent. Votre employeur obtient pour vous un permis de travail auprès du ministère du Travail."
+    }
+   },
+   {
+    "en": "Permanent residency",
+    "ar": "إقامة دائمة",
+    "fr": "Résidence permanente",
+    "sub": {
+     "en": "No sponsor needed. You can work for any employer.",
+     "ar": "ما تحتاج كفيل، وتقدر تشتغل عند أي جهة.",
+     "fr": "Aucun parrain nécessaire. Vous pouvez travailler pour tout employeur."
+    }
+   },
+   {
+    "en": "I need an employer to sponsor my visa",
+    "ar": "أحتاج جهة عمل تكفل تأشيرتي",
+    "fr": "J'ai besoin qu'un employeur parraine mon visa",
+    "sub": {
+     "en": "You are outside Qatar or on a visit visa.",
+     "ar": "أنت برّا قطر أو على تأشيرة زيارة.",
+     "fr": "Vous êtes hors du Qatar ou avec un visa de visite."
+    }
+   }
+  ],
+  "autoFor": [
+   "QA",
+   "SA",
+   "AE",
+   "KW",
+   "BH",
+   "OM"
+  ],
+  "autoText": {
+   "en": "Qatari and GCC nationals can work in Qatar without visa sponsorship.",
+   "ar": "مواطنو قطر ودول الخليج يقدرون يشتغلون في قطر بدون كفالة تأشيرة.",
+   "fr": "Les ressortissants qatariens et du CCG peuvent travailler au Qatar sans parrainage de visa."
+  },
+  "rule": {
+   "en": "We skip Qatari-only roles unless you are Qatari. If your visa is through an employer or you need one, we also skip roles that ask for a family-sponsored visa.",
+   "ar": "نتخطّى الوظائف المخصّصة للقطريين إلا إذا كانت جنسيتك قطرية. وإذا إقامتك عن طريق جهة عمل أو تحتاج تأشيرة، نتخطّى بعد الوظائف اللي تطلب إقامة على كفالة العائلة.",
+   "fr": "Nous écartons les postes réservés aux Qatariens si vous n'avez pas cette nationalité. Si votre visa dépend d'un employeur ou si vous avez besoin d'un visa, nous écartons aussi les offres qui exigent une résidence parrainée par la famille."
+  }
+ },
+ "nationalisation": {
+  "name": {
+   "en": "Qatarization",
+   "ar": "التقطير",
+   "fr": "Qatarisation"
+  },
+  "desc": {
+   "en": "Qatari nationals, then children of Qatari mothers, get priority in hiring, and a 2024 law lets the Ministry of Labour set Qatari targets for private-sector jobs. We only apply to roles marked Qatari nationals only if you are Qatari.",
+   "ar": "الأولوية في التوظيف للقطريين ثم أبناء القطريات، وقانون توطين الوظائف في القطاع الخاص (2024) يخلّي وزارة العمل تحدد نسب القطريين في الوظائف. وما نقدّم على الوظائف المخصصة للقطريين إلا إذا كانت جنسيتك قطرية.",
+   "fr": "Les ressortissants qatariens, puis les enfants de mère qatarienne, sont prioritaires à l'embauche, et une loi de 2024 permet au ministère du Travail de fixer des objectifs de Qatariens dans les emplois du secteur privé. Nous ne postulons aux offres réservées aux ressortissants qatariens que si vous avez la nationalité qatarienne."
+  }
+ },
+ "sensitive": {
+  "photo": "optional",
+  "gender": "ask",
+  "dob": "ask",
+  "nationality": "ask",
+  "marital": "none",
+  "notes": "Photo: common on Qatari CVs and on regional boards (Bayt, GulfTalent), but not needed for ATS uploads; we offer it and never require it. Gender, date of birth and nationality are standard fields on Qatari application forms (state companies, the national airline, HMC, banks) and on Bayt/GulfTalent profiles; nationality also drives Qatarization and visa handling, and recruiters expect QID or visa status on the CV. Marital status often appears on Gulf CVs (and family sponsorship matters for some expat applicants) but it is not needed for matching, so we do not ask (conservative, PDPPL data minimisation). Qatar's Constitution (Art. 35) bars discrimination on sex, origin, language or religion and the Labour Law requires equal pay for women, but there is no detailed private-hiring anti-discrimination code, so we set our own rule: never filter on gender or age, only on work rights and Qatari-only postings."
+ },
+ "legal": {
+  "law": "Qatar PDPPL (Law No. 13 of 2016 on Personal Data Privacy Protection); the QFC Data Protection Regulations 2021 apply in the Qatar Financial Centre",
+  "privacy": {
+   "en": "Your data is protected under Qatar's Personal Data Privacy Protection Law (Law No. 13 of 2016). We never share it without your consent.",
+   "ar": "بياناتك محمية بموجب قانون حماية خصوصية البيانات الشخصية في قطر، وما نشاركها بدون موافقتك.",
+   "fr": "Vos données sont protégées par la loi qatarienne sur la protection de la vie privée et des données personnelles (loi n° 13 de 2016). Nous ne les partageons jamais sans votre accord."
+  },
+  "renewal": {
+   "en": "Your plan renews automatically at the same price. Cancel anytime before the renewal date and you are not charged again.",
+   "ar": "باقتك تتجدد تلقائياً بنفس السعر. ألغِ في أي وقت قبل تاريخ التجديد وما ينخصم منك شي مرة ثانية.",
+   "fr": "Votre abonnement se renouvelle automatiquement au même prix. Résiliez à tout moment avant la date de renouvellement et vous ne serez plus prélevé."
+  }
+ },
+ "boards": [
+  "LinkedIn",
+  "Bayt",
+  "GulfTalent",
+  "Naukrigulf",
+  "Indeed"
+ ],
+ "lang2": {
+  "en": "Arabic",
+  "ar": "العربية",
+  "fr": "arabe"
+ },
+ "certs": [
+  {
+   "id": "cma",
+   "en": "CMA",
+   "ar": "CMA",
+   "fr": "CMA"
+  },
+  {
+   "id": "acca",
+   "en": "ACCA",
+   "ar": "ACCA",
+   "fr": "ACCA"
+  },
+  {
+   "id": "cfa",
+   "en": "CFA",
+   "ar": "CFA",
+   "fr": "CFA"
+  },
+  {
+   "id": "cpa",
+   "en": "CPA",
+   "ar": "CPA",
+   "fr": "CPA"
+  }
+ ],
+ "unis": [
+  {
+   "id": "qu",
+   "en": "Qatar University",
+   "ar": "جامعة قطر",
+   "fr": "Université du Qatar"
+  },
+  {
+   "id": "cmuq",
+   "en": "Carnegie Mellon University in Qatar",
+   "ar": "جامعة كارنيجي ميلون في قطر",
+   "fr": "Université Carnegie-Mellon au Qatar"
+  },
+  {
+   "id": "hbku",
+   "en": "Hamad Bin Khalifa University",
+   "ar": "جامعة حمد بن خليفة",
+   "fr": "Université Hamad bin Khalifa"
+  }
+ ],
+ "govPlatforms": [
+  {
+   "id": "mol",
+   "en": "Ministry of Labour",
+   "ar": "وزارة العمل",
+   "fr": "ministère du Travail",
+   "use": {
+    "en": "Work permits, contracts and job changes",
+    "ar": "تصاريح العمل والعقود وتغيير جهة العمل",
+    "fr": "Permis de travail, contrats et changements d'employeur"
+   }
+  },
+  {
+   "id": "metrash",
+   "en": "Metrash",
+   "ar": "مطراش",
+   "fr": "Metrash",
+   "use": {
+    "en": "Your residence permit (QID) and visa services",
+    "ar": "خدمات الإقامة والبطاقة الشخصية والتأشيرات",
+    "fr": "Votre permis de séjour (QID) et vos démarches de visa"
+   }
+  },
+  {
+   "id": "kawader",
+   "en": "Kawader",
+   "ar": "كوادر",
+   "fr": "Kawader",
+   "use": {
+    "en": "National job platform for Qataris in the private sector",
+    "ar": "المنصة الوطنية لتوظيف القطريين في القطاع الخاص",
+    "fr": "Plateforme nationale d'emploi des Qatariens dans le secteur privé"
+   }
+  }
+ ],
+ "persona": {
+  "first": "Maryam",
+  "last": "Al-Kuwari",
+  "gender": "f",
+  "nat": "QA",
+  "city": "doha",
+  "ar": {
+   "first": "مريم",
+   "last": "الكواري"
+  },
+  "email": "maryam.alkuwari@email.com",
+  "phone": "+974 5512 3456",
+  "title": {
+   "en": "Financial Analyst",
+   "ar": "محللة مالية",
+   "fr": "Analyste financière"
+  },
+  "years": 8,
+  "employer": {
+   "en": "Zekreet Holding",
+   "ar": "زكريت القابضة",
+   "fr": "Zekreet Holding"
+  },
+  "employer2": {
+   "en": "Zekreet Trading",
+   "ar": "زكريت للتجارة",
+   "fr": "Zekreet Trading"
+  },
+  "degree": {
+   "en": "BSc Accounting",
+   "ar": "بكالوريوس محاسبة",
+   "fr": "Licence en comptabilité"
+  },
+  "uni": "qu",
+  "cert": "cma",
+  "tools": "SAP, Excel, Power BI",
+  "bio": {
+   "en": "Financial Analyst with 8 years in Doha. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I present our results to the board in Arabic and English. I am looking for a Senior Financial Analyst or FP&A role in Doha, Lusail, or remote.",
+   "ar": "محللة مالية بخبرة 8 سنوات في الدوحة. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات التي قلّصت وقت التقارير بالثلث، وأعرض نتائجنا على مجلس الإدارة بالعربية والإنجليزية. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في الدوحة أو لوسيل أو عن بُعد.",
+   "fr": "Analyste financière avec 8 ans d'expérience à Doha. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre délai de reporting, et je présente nos résultats au conseil d'administration en arabe et en anglais. Je recherche un poste d'analyste financière senior ou en FP&A à Doha, à Lusail ou en télétravail."
+  }
+ },
+ "people": [
+  {
+   "first": "Noora",
+   "last": "Al-Sulaiti",
+   "gender": "f",
+   "ar": {
+    "first": "نورة",
+    "last": "السليطي"
+   }
+  },
+  {
+   "first": "Hamad",
+   "last": "Al-Mannai",
+   "gender": "m",
+   "ar": {
+    "first": "حمد",
+    "last": "المناعي"
+   }
+  },
+  {
+   "first": "Aisha",
+   "last": "Al-Mohannadi",
+   "gender": "f",
+   "ar": {
+    "first": "عائشة",
+    "last": "المهندي"
+   }
+  },
+  {
+   "first": "Khalifa",
+   "last": "Al-Kaabi",
+   "gender": "m",
+   "ar": {
+    "first": "خليفة",
+    "last": "الكعبي"
+   }
+  },
+  {
+   "first": "Sara",
+   "last": "Al-Emadi",
+   "gender": "f",
+   "ar": {
+    "first": "سارة",
+    "last": "العمادي"
+   }
+  },
+  {
+   "first": "Abdulrahman",
+   "last": "Al-Marri",
+   "gender": "m",
+   "ar": {
+    "first": "عبدالرحمن",
+    "last": "المري"
+   }
+  },
+  {
+   "first": "Hala",
+   "last": "Nasr",
+   "gender": "f",
+   "ar": {
+    "first": "هالة",
+    "last": "نصر"
+   }
+  },
+  {
+   "first": "Ramesh",
+   "last": "Iyer",
+   "gender": "m",
+   "ar": {
+    "first": "راميش",
+    "last": "أيير"
+   }
+  },
+  {
+   "first": "Maria",
+   "last": "Santos",
+   "gender": "f",
+   "ar": {
+    "first": "ماريا",
+    "last": "سانتوس"
+   }
+  },
+  {
+   "first": "Mark",
+   "last": "Davies",
+   "gender": "m",
+   "ar": {
+    "first": "مارك",
+    "last": "ديفيز"
+   }
+  }
+ ],
+ "culture": {
+  "notes": "Work week Sun-Thu (Friday-Saturday weekend); government works roughly 7:00-14:00 and some private firms add a Saturday half-day, so interviews and deadlines in copy should use Sun-Thu days. Salaries are quoted monthly, tax-free, as a package (basic + housing + transport; Qataris in government and semi-government grades also get a social allowance) and paid monthly through the Wage Protection System (WPS). Notice under Labour Law 14/2004 as amended by Law 18/2020: 1 month if service is 2 years or less, 2 months if more, both for resigning to change jobs and for employer termination; senior contracts may state longer. Since 2020 expats no longer need an NOC or exit permit to change jobs or leave the country. Qataris in government follow the Civil HR Law instead. CVs: 2 pages, English (an Arabic version helps for government and semi-government roles), with a personal block (nationality, QID or visa status, often date of birth and photo). Cover letters are rarely required; portals ask screening questions instead. Arabic is valued and often required for Qatari-only and government-facing roles; English is the working language in business. During Ramadan, working hours are capped at 36 a week (6 a day). Many bank, energy and semi-government finance roles are Qatari-only or Qatari-preferred. Recruiters and hiring managers are a mix of Qataris and expats (Arab, South Asian, Filipino, Western)."
+ },
+ "noticeDays": 60
+}

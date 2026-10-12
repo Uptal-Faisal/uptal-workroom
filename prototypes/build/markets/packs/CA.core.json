@@ -1,0 +1,125 @@
+{
+ "code": "CA",
+ "flag": "🇨🇦",
+ "name":  {"en":"Canada","ar":"كندا","fr":"Canada"},
+ "short": {"en":"Canada","ar":"كندا","fr":"le Canada"},
+ "in":    {"en":"in Canada","ar":"في كندا","fr":"au Canada"},
+ "dem":   {"en":"Canadian","ar":"كندي","arf":"كندية","fr":"canadien","frf":"canadienne"},
+ "nationals": {"en":"Canadian citizens","ar":"المواطنون الكنديون","fr":"citoyens canadiens"},
+ "region": "na",
+ "workweek": "mon-fri",
+ "cities": [
+  {"id":"toronto","en":"Toronto","ar":"تورونتو","fr":"Toronto","metro":{"en":"Toronto covers the Greater Toronto Area, including Mississauga, Brampton, Markham, Vaughan and Oakville.","ar":"تشمل تورونتو منطقة تورونتو الكبرى، بما فيها ميسيساغا وبرامبتون وماركهام وفون وأوكفيل.","fr":"Toronto couvre le Grand Toronto, y compris Mississauga, Brampton, Markham, Vaughan et Oakville."}},
+  {"id":"montreal","en":"Montreal","ar":"مونتريال","fr":"Montréal","metro":{"en":"Montreal covers Greater Montreal, including Laval and Longueuil.","ar":"تشمل مونتريال منطقة مونتريال الكبرى، بما فيها لافال ولونغوي.","fr":"Montréal couvre le Grand Montréal, y compris Laval et Longueuil."}},
+  {"id":"vancouver","en":"Vancouver","ar":"فانكوفر","fr":"Vancouver","metro":{"en":"Vancouver covers Metro Vancouver, including Burnaby, Richmond and Surrey.","ar":"تشمل فانكوفر منطقة فانكوفر الكبرى، بما فيها بورنابي وريتشموند وساري.","fr":"Vancouver couvre le Grand Vancouver, y compris Burnaby, Richmond et Surrey."}},
+  {"id":"calgary","en":"Calgary","ar":"كالغاري","fr":"Calgary","metro":{"en":"Calgary covers the Calgary region, including Airdrie and Cochrane.","ar":"تشمل كالغاري منطقة كالغاري، بما فيها إيردري وكوكرين.","fr":"Calgary couvre la région de Calgary, y compris Airdrie et Cochrane."}},
+  {"id":"ottawa","en":"Ottawa","ar":"أوتاوا","fr":"Ottawa","metro":{"en":"Ottawa covers Ottawa–Gatineau, including Kanata and Gatineau across the river in Quebec.","ar":"تشمل أوتاوا منطقة أوتاوا-غاتينو، بما فيها كاناتا وغاتينو على الضفة المقابلة من النهر في كيبيك.","fr":"Ottawa couvre la région d'Ottawa-Gatineau, y compris Kanata et Gatineau, de l'autre côté de la rivière, au Québec."}},
+  {"id":"edmonton","en":"Edmonton","ar":"إدمونتون","fr":"Edmonton","metro":{"en":"Edmonton covers the Edmonton region, including St. Albert and Sherwood Park.","ar":"تشمل إدمونتون منطقتها الحضرية، بما فيها سانت ألبرت وشيروود بارك.","fr":"Edmonton couvre la région d'Edmonton, y compris St. Albert et Sherwood Park."}},
+  {"id":"kitchener-waterloo","en":"Kitchener-Waterloo","ar":"كيتشنر-واترلو","fr":"Kitchener-Waterloo","metro":{"en":"Kitchener-Waterloo covers Waterloo Region, including Kitchener, Waterloo and Cambridge.","ar":"تشمل كيتشنر-واترلو منطقة واترلو، بما فيها كيتشنر وواترلو وكامبريدج.","fr":"Kitchener-Waterloo couvre la région de Waterloo, y compris Kitchener, Waterloo et Cambridge."}},
+  {"id":"winnipeg","en":"Winnipeg","ar":"وينيبيغ","fr":"Winnipeg","metro":{"en":"Winnipeg covers the Winnipeg metro area.","ar":"تشمل وينيبيغ منطقتها الحضرية.","fr":"Winnipeg couvre son agglomération."}}
+ ],
+ "employers": [
+  {"id":"rbc","en":"RBC","ar":"آر بي سي","fr":"RBC Banque Royale","sector":"bank","archetype":"largest Canadian bank, HQ","city":"toronto","logo":{"bg":"#005DAA","fg":"#FFD200","mono":"RBC"}},
+  {"id":"td","en":"TD Bank Group","ar":"مجموعة تي دي المصرفية","fr":"Groupe Banque TD","sector":"bank","archetype":"#2 Canadian bank, HQ","city":"toronto","logo":{"bg":"#008A00","fg":"#FFFFFF","mono":"TD"}},
+  {"id":"scotiabank","en":"Scotiabank","ar":"سكوتيابنك","fr":"Banque Scotia","sector":"bank","archetype":"big-five bank, global HQ","city":"toronto","logo":{"bg":"#EC111A","fg":"#FFFFFF","mono":"BNS"}},
+  {"id":"bmo","en":"BMO","ar":"بي إم أو","fr":"BMO Groupe financier","sector":"bank","archetype":"big-five bank, operating HQ","city":"toronto","logo":{"bg":"#0079C1","fg":"#FFFFFF","mono":"BMO"}},
+  {"id":"atb","en":"ATB Financial","ar":"إيه تي بي فاينانشال","fr":"ATB Financial","sector":"bank","archetype":"Alberta Crown-owned financial institution","city":"edmonton","logo":{"bg":"#0072CE","fg":"#FFFFFF","mono":"ATB"}},
+  {"id":"cpp-investments","en":"CPP Investments","ar":"سي بي بي للاستثمارات","fr":"Investissements RPC","sector":"investment","archetype":"national pension fund (public investment body)","city":"toronto","logo":{"bg":"#002F5F","fg":"#FFFFFF","mono":"CPP"}},
+  {"id":"suncor","en":"Suncor Energy","ar":"سنكور للطاقة","fr":"Suncor Énergie","sector":"energy","archetype":"integrated energy champion (oil sands), HQ","city":"calgary","logo":{"bg":"#C8102E","fg":"#FFC72C","mono":"SU"}},
+  {"id":"bell","en":"Bell (BCE)","ar":"بيل (BCE)","fr":"Bell (BCE)","sector":"telecom","archetype":"telecom #1 by revenue, HQ","city":"montreal","logo":{"bg":"#00549A","fg":"#FFFFFF","mono":"Bell"}},
+  {"id":"rogers","en":"Rogers","ar":"روجرز","fr":"Rogers","sector":"telecom","archetype":"telecom #2, largest wireless carrier, HQ","city":"toronto","logo":{"bg":"#DA291C","fg":"#FFFFFF","mono":"R"}},
+  {"id":"kpmg","en":"KPMG","ar":"كي بي إم جي","fr":"KPMG","sector":"consulting","archetype":"Big 4 firm, Canadian HQ","city":"toronto","logo":{"bg":"#00338D","fg":"#FFFFFF","mono":"KPMG"}},
+  {"id":"maple-leaf","en":"Maple Leaf Foods","ar":"ميبل ليف فودز","fr":"Aliments Maple Leaf","sector":"fmcg","archetype":"consumer foods major, HQ (Mississauga)","city":"toronto","logo":{"bg":"#D6001C","fg":"#FFFFFF","mono":"MLF"}},
+  {"id":"loblaw","en":"Loblaw Companies","ar":"شركات لوبلو","fr":"Les Compagnies Loblaw","sector":"retail","archetype":"largest food and pharmacy retailer, HQ (Brampton)","city":"toronto","logo":{"bg":"#EF4135","fg":"#FFFFFF","mono":"L"}},
+  {"id":"air-canada","en":"Air Canada","ar":"إير كندا","fr":"Air Canada","sector":"airline","archetype":"flag carrier, HQ","city":"montreal","logo":{"bg":"#D22630","fg":"#FFFFFF","mono":"AC"}},
+  {"id":"uhn","en":"University Health Network","ar":"شبكة الصحة الجامعية (UHN)","fr":"University Health Network","sector":"healthcare","archetype":"largest hospital group (Toronto General, Princess Margaret)","city":"toronto","logo":{"bg":"#003B71","fg":"#FFFFFF","mono":"UHN"}},
+  {"id":"manulife","en":"Manulife","ar":"مانيولايف","fr":"Manuvie","sector":"insurance","archetype":"insurer HQ","city":"toronto","logo":{"bg":"#00A758","fg":"#FFFFFF","mono":"MFC"}},
+  {"id":"shopify","en":"Shopify","ar":"شوبيفاي","fr":"Shopify","sector":"tech","archetype":"e-commerce platform, Canadian tech champion","city":"ottawa","logo":{"bg":"#008060","fg":"#FFFFFF","mono":"S"}},
+  {"id":"clio","en":"Clio","ar":"كليو","fr":"Clio","sector":"tech","archetype":"tech scale-up (legal software), HQ (Burnaby)","city":"vancouver","logo":{"bg":"#0070E0","fg":"#FFFFFF","mono":"C"}},
+  {"id":"wealthsimple","en":"Wealthsimple","ar":"ويلث سيمبل","fr":"Wealthsimple","sector":"fintech","archetype":"fintech HQ","city":"toronto","logo":{"bg":"#1A1A1A","fg":"#FFFFFF","mono":"W"}},
+  {"id":"skip","en":"SkipTheDishes","ar":"سكيب ذا ديشز","fr":"SkipTheDishes","sector":"ecommerce","archetype":"food-delivery app HQ","city":"winnipeg","logo":{"bg":"#FF8000","fg":"#FFFFFF","mono":"Skip"}},
+  {"id":"brookfield","en":"Brookfield","ar":"بروكفيلد","fr":"Brookfield","sector":"realestate","archetype":"real-estate and alternative asset manager HQ","city":"toronto","logo":{"bg":"#002B49","fg":"#FFFFFF","mono":"BN"}},
+  {"id":"tmx","en":"TMX Group","ar":"مجموعة تي إم إكس","fr":"Groupe TMX","sector":"exchange","archetype":"stock exchange operator (TSX), HQ","city":"toronto","logo":{"bg":"#1C3D6E","fg":"#FFFFFF","mono":"TMX"}},
+  {"id":"barrick","en":"Barrick","ar":"باريك","fr":"Barrick","sector":"mining","archetype":"gold and copper miner HQ","city":"toronto","logo":{"bg":"#8C6D2C","fg":"#FFFFFF","mono":"B"}},
+  {"id":"cn","en":"CN","ar":"سي إن (السكك الحديدية الوطنية الكندية)","fr":"CN","sector":"industrial","archetype":"national railway, HQ","city":"montreal","logo":{"bg":"#E31837","fg":"#FFFFFF","mono":"CN"}},
+  {"id":"bank-of-canada","en":"Bank of Canada","ar":"بنك كندا","fr":"Banque du Canada","sector":"government","archetype":"central bank (public body)","city":"ottawa","logo":{"bg":"#1B3A6B","fg":"#FFFFFF","mono":"BoC"}}
+ ],
+ "sectorsCovered": "energy champion: Suncor Energy; largest banks: RBC, TD, Scotiabank (plus BMO and Alberta's Crown-owned ATB Financial); Islamic bank: not relevant in Canada; telecoms #1/#2: Bell (BCE), Rogers; public investment body: CPP Investments; Big 4: KPMG; FMCG: Maple Leaf Foods; retailer: Loblaw; airline: Air Canada; hospital group: University Health Network; insurer: Manulife; tech scale-up: Clio; fintech: Wealthsimple; food delivery: SkipTheDishes; real-estate developer: Brookfield; stock exchange: TMX Group; mining: Barrick; industrial: CN; government body: Bank of Canada; also Shopify",
+ "sal": {"per":"year","f":0.3205,"basis":"Senior Financial Analyst / FP&A, 8 yrs, Toronto, base salary (bonus excluded). Live salary sources could not be reached from this environment, so this rests on pre-2026 references (Robert Half and Hays Canada guides, Glassdoor/Indeed Toronto data) as recalled: Toronto senior financial analysts roughly CA$85k-115k, senior FP&A analysts in a similar band, FP&A managers roughly CA$115k-140k; a CPA-qualified 8-year analyst sits in the upper half. Chosen base CA$100,000 a year = CA$8,333 a month; f = 8,333 / 26,000 = 0.3205, so 26,000 SAR maps to CA$100k a year and Noura's 34,000 SAR expectation to about CA$131k (FP&A manager territory). Canadian pay is quoted annually. Verify against the current Robert Half Canada guide before launch."},
+ "tax":   {"incl":false,"rate":13,"label":{"en":"Plus applicable taxes","ar":"تُضاف الضرائب المطبّقة حسب المقاطعة","fr":"Taxes applicables en sus"}},
+ "pay": {
+  "wallets": ["apple","google"],
+  "methods": [
+   {"id":"card","label":{"en":"Card","ar":"بطاقة","fr":"Carte"},"sub":{"en":"Visa, Mastercard, Amex, incl. Visa Debit and Debit Mastercard","ar":"Visa وMastercard وAmex، بما فيها بطاقات Visa Debit وDebit Mastercard","fr":"Visa, Mastercard, Amex, y compris Visa Débit et Mastercard Débit"},"brands":["visa","mc","amex"]},
+   {"id":"paypal","label":{"en":"PayPal","ar":"PayPal","fr":"PayPal"},"sub":{"en":"Pay with your PayPal account","ar":"ادفع من حسابك في PayPal","fr":"Payez avec votre compte PayPal"}}
+  ],
+  "bnpl": [],
+  "localCardBrand": null
+ },
+ "phone": {"cc":"+1","ex":"+1 416 555 0147"},
+ "rights": {
+  "q": {"en":"Your right to work in Canada","ar":"حقك في العمل في كندا","fr":"Votre droit de travailler au Canada"},
+  "opts": [
+   {"en":"Canadian citizen","ar":"الجنسية الكندية","fr":"Citoyenneté canadienne","sub":{"en":"No work permit needed","ar":"لا حاجة إلى تصريح عمل","fr":"Aucun permis de travail nécessaire"}},
+   {"en":"Permanent resident","ar":"الإقامة الدائمة","fr":"Résidence permanente","sub":{"en":"Work for any employer, no permit needed","ar":"يمكنك العمل لدى أي جهة عمل دون تصريح","fr":"Tout employeur, sans permis de travail"}},
+   {"en":"Open work permit","ar":"تصريح عمل مفتوح","fr":"Permis de travail ouvert","sub":{"en":"e.g. post-graduation (PGWP), spousal or working holiday; any employer until it expires","ar":"مثل تصريح العمل بعد التخرج (PGWP) أو تصريح الزوج أو الزوجة أو تصريح عطلة العمل، ويتيح العمل لدى أي جهة عمل حتى انتهاء صلاحيته","fr":"Par ex. permis postdiplôme (PTPD), permis de conjoint ou vacances-travail (EIC) : tout employeur jusqu'à son expiration"}},
+   {"en":"Employer-specific work permit","ar":"تصريح عمل مرتبط بصاحب عمل محدد","fr":"Permis de travail lié à un employeur","sub":{"en":"e.g. LMIA-based, CUSMA or intra-company transfer; a new employer needs a new permit for you","ar":"مثل التصريح المستند إلى تقييم أثر سوق العمل (LMIA) أو اتفاقية CUSMA أو النقل داخل الشركة، ويحتاج صاحب العمل الجديد إلى تصريح جديد لك","fr":"Par ex. avec EIMT, au titre de l'ACEUM ou mutation intra-entreprise : un nouvel employeur doit obtenir un nouveau permis pour vous"}},
+   {"en":"I need a work permit","ar":"أحتاج إلى تصريح عمل","fr":"J'ai besoin d'un permis de travail","sub":{"en":"An employer usually needs an LMIA before you can apply","ar":"عادةً ما يحتاج صاحب العمل إلى تقييم أثر سوق العمل (LMIA) قبل أن تتقدّم بطلب التصريح","fr":"L'employeur doit généralement obtenir une EIMT avant votre demande de permis"}}
+  ],
+  "autoFor": ["CA"],
+  "autoText": {"en":"Canadian citizens can work in Canada without a work permit.","ar":"يحق للمواطنين الكنديين العمل في كندا دون تصريح عمل.","fr":"Les citoyens canadiens peuvent travailler au Canada sans permis de travail."},
+  "rule": {"en":"Without Canadian citizenship or permanent residency, we skip jobs in Canada that require either. If you need a new work permit, we also skip jobs that say they can't sponsor.","ar":"إذا لم تكن مواطناً كندياً أو مقيماً دائماً، نتخطى الوظائف في كندا التي تشترط ذلك. وإذا كنت بحاجة إلى تصريح عمل جديد، نتخطى أيضاً الوظائف التي تذكر أنها لا توفر الرعاية.","fr":"Sans la citoyenneté canadienne ou la résidence permanente, nous écartons les offres au Canada qui exigent l'une ou l'autre. Si vous avez besoin d'un nouveau permis de travail, nous écartons aussi celles qui indiquent ne pas pouvoir vous parrainer."}
+ },
+ "nationalisation": null,
+ "sensitive": {
+  "photo": "avoid",
+  "gender": "eeo",
+  "dob": "none",
+  "nationality": "none",
+  "marital": "none",
+  "notes": "Canadian human rights codes (Canadian Human Rights Act; Ontario Human Rights Code and its employment-application guidance) treat age, sex, marital and family status, place of origin and citizenship as protected grounds, so applications do not ask for a photo, date of birth, marital status, nationality or place of birth. They ask 'Are you legally eligible to work in Canada?' and often 'Will you now or in the future require sponsorship / a work permit?'. Gender, Indigenous identity, disability and visible-minority/racialized status appear only as voluntary employment-equity self-identification (Employment Equity Act for federally regulated employers such as banks, telecoms, airlines and railways, and the Federal Contractors Program), always with a 'prefer not to answer' option; we treat this like US EEO and default to declining unless the user chooses otherwise. SIN is collected only after hire. Ontario employers with 25+ employees must, from 1 Jan 2026, put a pay range in public postings, say whether AI is used in screening, not require 'Canadian experience', and say whether the vacancy exists; BC also bans pay-history questions."
+ },
+ "legal": {
+  "law": "PIPEDA; Quebec Law 25; Alberta and BC PIPA",
+  "privacy": {"en":"We protect your data under Canada's privacy law (PIPEDA) and Quebec's Law 25, and you can download or delete it anytime.","ar":"نحمي بياناتك وفق قانون الخصوصية الكندي (PIPEDA) وقانون كيبيك رقم 25، ويمكنك تنزيلها أو حذفها في أي وقت.","fr":"Vos données sont protégées conformément à la loi canadienne sur la protection des renseignements personnels (LPRPDE) et à la Loi 25 du Québec, et vous pouvez les télécharger ou les supprimer à tout moment."},
+  "renewal": {"en":"Your plan renews automatically at the same price, plus applicable taxes, until you cancel. Cancel online anytime in Settings, and we email you before a 4- or 12-month plan renews.","ar":"تتجدد باقتك تلقائياً بالسعر نفسه، مع الضرائب المطبّقة، حتى تلغيها. يمكنك الإلغاء عبر الإنترنت في أي وقت من الإعدادات، ونرسل إليك بريداً إلكترونياً قبل تجديد باقة الأشهر الأربعة أو الاثني عشر شهراً.","fr":"Votre abonnement se renouvelle automatiquement au même prix, taxes applicables en sus, jusqu'à sa résiliation. Résiliez en ligne à tout moment dans les Paramètres ; nous vous prévenons par e-mail avant le renouvellement d'une formule de 4 ou 12 mois."}
+ },
+ "boards": ["LinkedIn","Indeed","Glassdoor","Job Bank","eFinancialCareers"],
+ "lang2": {"en":"French","ar":"الفرنسية","fr":"français"},
+ "certs": [
+  {"id":"cpa","en":"CPA","ar":"CPA","fr":"CPA"},
+  {"id":"cfa","en":"CFA","ar":"CFA","fr":"CFA"},
+  {"id":"fpac","en":"FPAC","ar":"FPAC","fr":"FPAC"}
+ ],
+ "unis": [
+  {"id":"uoft","en":"University of Toronto","ar":"جامعة تورونتو","fr":"Université de Toronto"},
+  {"id":"waterloo","en":"University of Waterloo","ar":"جامعة واترلو","fr":"Université de Waterloo"},
+  {"id":"mcgill","en":"McGill University","ar":"جامعة ماكغيل","fr":"Université McGill"}
+ ],
+ "govPlatforms": [],
+ "persona": {
+  "first":"Arjun","last":"Mehta","gender":"m","nat":"CA","city":"toronto",
+  "email":"arjun.mehta@email.com","phone":"+1 416 555 0147",
+  "title":{"en":"Financial Analyst","ar":"محلل مالي","fr":"Analyste financier"},
+  "years":8,
+  "employer":{"en":"Northmere Holdings","ar":"نورثمير القابضة","fr":"Northmere Holdings"},
+  "employer2":{"en":"Northmere Logistics","ar":"نورثمير للخدمات اللوجستية","fr":"Northmere Logistique"},
+  "degree":{"en":"Bachelor of Accounting and Financial Management (BAFM)","ar":"بكالوريوس المحاسبة والإدارة المالية (BAFM)","fr":"Licence en comptabilité et gestion financière (BAFM)"}, "uni":"waterloo", "cert":"cpa",
+  "tools":"SAP, Excel, Power BI",
+  "bio":{"en":"Financial Analyst with 8 years in Toronto. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I am looking for a Senior Financial Analyst or FP&A role in Toronto or hybrid across the GTA.","ar":"محلل مالي بخبرة 8 سنوات في تورونتو. أقود إعداد التقارير وفق المعايير الدولية IFRS وإعداد الموازنات على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي خفّضت وقت إعداد التقارير بمقدار الثلث، وأبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي (FP&A) في تورونتو أو بنظام العمل الهجين في منطقة تورونتو الكبرى.","fr":"Analyste financier avec 8 ans d'expérience à Toronto. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je recherche un poste d'analyste financier senior ou en FP&A à Toronto ou en hybride dans le Grand Toronto."}
+ },
+ "people": [
+  {"first":"Sarah","last":"Tremblay","gender":"f"},
+  {"first":"Daniel","last":"Nguyen","gender":"m"},
+  {"first":"Jennifer","last":"MacDonald","gender":"f"},
+  {"first":"Ryan","last":"Chen","gender":"m"},
+  {"first":"Julie","last":"Gagnon","gender":"f"},
+  {"first":"Harjit","last":"Sandhu","gender":"m"},
+  {"first":"Megan","last":"Campbell","gender":"f"},
+  {"first":"Kevin","last":"Li","gender":"m"},
+  {"first":"Olivia","last":"Roy","gender":"f"},
+  {"first":"Jason","last":"Wilson","gender":"m"}
+ ],
+ "culture": {"notes":"Mon–Fri work week. Two weeks' notice is the norm when resigning (senior finance roles sometimes give 3–4 weeks); there is no statutory employee notice in most provinces. Salaried staff are usually paid bi-weekly or semi-monthly. Pay is discussed as an annual base salary, often plus a bonus; Ontario (employers with 25+ staff, from 1 Jan 2026), BC, PEI and Newfoundland and Labrador require pay ranges in job ads. The CV is called a resume: 2 pages for 8 years of experience, reverse-chronological, quantified achievements, no photo, date of birth, marital status, nationality or SIN (city and province is enough). Cover letters are asked for more often than in the US, especially at federal and public-sector employers, but are optional at most large private employers. Ontario postings can no longer require 'Canadian experience'. French matters for roles in Montreal and Quebec (Charter of the French Language) and for bilingual federal roles in Ottawa; elsewhere it is usually 'an asset'. Applications go through ATS portals (Workday, SuccessFactors, Taleo) with screening questions on work eligibility and sponsorship; banks run background and credit checks after an offer."},
+ "noticeDays": 14
+}

@@ -1,0 +1,131 @@
+{
+ "code": "DZ",
+ "flag": "🇩🇿",
+ "name":  {"en":"Algeria","ar":"الجزائر","fr":"Algérie"},
+ "short": {"en":"Algeria","ar":"الجزائر","fr":"l'Algérie"},
+ "in":    {"en":"in Algeria","ar":"في الجزائر","fr":"en Algérie"},
+ "dem":   {"en":"Algerian","ar":"جزائري","arf":"جزائرية","fr":"algérien","frf":"algérienne"},
+ "nationals": {"en":"Algerian citizens","ar":"المواطنون الجزائريون","fr":"les ressortissants algériens"},
+ "region": "naf",
+ "workweek": "sun-thu",
+ "cities": [
+  {"id":"algiers","en":"Algiers","ar":"الجزائر العاصمة","fr":"Alger","metro":{"en":"Algiers covers the wilaya of Algiers, including Hydra, Bab Ezzouar, Dely Ibrahim and Rouiba.","ar":"تشمل الجزائر العاصمة ولاية الجزائر، ومنها حيدرة وباب الزوار ودالي إبراهيم والرويبة.","fr":"Alger couvre la wilaya d'Alger, dont Hydra, Bab Ezzouar, Dely Ibrahim et Rouiba."}},
+  {"id":"oran","en":"Oran","ar":"وهران","fr":"Oran","metro":{"en":"Oran includes Es Senia, Bir El Djir and the Arzew industrial zone.","ar":"تشمل وهران السانية وبئر الجير والمنطقة الصناعية بأرزيو.","fr":"Oran inclut Es Senia, Bir El Djir et la zone industrielle d'Arzew."}},
+  {"id":"constantine","en":"Constantine","ar":"قسنطينة","fr":"Constantine","metro":{"en":"Constantine includes the new town of Ali Mendjeli and El Khroub.","ar":"تشمل قسنطينة المدينة الجديدة علي منجلي والخروب.","fr":"Constantine inclut la ville nouvelle Ali Mendjeli et El Khroub."}},
+  {"id":"setif","en":"Setif","ar":"سطيف","fr":"Sétif","metro":{"en":"Setif includes El Eulma.","ar":"تشمل سطيف العلمة.","fr":"Sétif inclut El Eulma."}},
+  {"id":"annaba","en":"Annaba","ar":"عنابة","fr":"Annaba","metro":{"en":"Annaba includes El Bouni and El Hadjar.","ar":"تشمل عنابة البوني والحجار.","fr":"Annaba inclut El Bouni et El Hadjar."}},
+  {"id":"bejaia","en":"Bejaia","ar":"بجاية","fr":"Béjaïa","metro":{"en":"Bejaia includes the port area and Akbou.","ar":"تشمل بجاية منطقة الميناء وأقبو.","fr":"Béjaïa inclut la zone portuaire et Akbou."}},
+  {"id":"blida","en":"Blida","ar":"البليدة","fr":"Blida","metro":{"en":"Blida includes Boufarik and Ouled Yaich.","ar":"تشمل البليدة بوفاريك وأولاد يعيش.","fr":"Blida inclut Boufarik et Ouled Yaïch."}},
+  {"id":"hassimessaoud","en":"Hassi Messaoud","ar":"حاسي مسعود","fr":"Hassi Messaoud","metro":{"en":"Hassi Messaoud covers the oil-field bases and the town around them.","ar":"تشمل حاسي مسعود قواعد الحقول النفطية والمدينة المحيطة بها.","fr":"Hassi Messaoud couvre les bases pétrolières et la ville qui les entoure."}}
+ ],
+ "employers": [
+  {"id":"sonatrach","en":"Sonatrach","ar":"سوناطراك","fr":"Sonatrach","sector":"energy","archetype":"national champion: oil and gas","city":"algiers","logo":{"bg":"#F7941D","fg":"#FFFFFF","mono":"SH"}},
+  {"id":"sonelgaz","en":"Sonelgaz","ar":"سونلغاز","fr":"Sonelgaz","sector":"energy","archetype":"national electricity and gas utility group","city":"algiers","logo":{"bg":"#005BAA","fg":"#FFFFFF","mono":"SGZ"}},
+  {"id":"bea","en":"Banque Extérieure d'Algérie (BEA)","ar":"البنك الخارجي الجزائري","fr":"Banque Extérieure d'Algérie (BEA)","sector":"bank","archetype":"largest state bank, energy-sector banker","city":"algiers","logo":{"bg":"#00573F","fg":"#FFFFFF","mono":"BEA"}},
+  {"id":"bna","en":"Banque Nationale d'Algérie (BNA)","ar":"البنك الوطني الجزائري","fr":"Banque Nationale d'Algérie (BNA)","sector":"bank","archetype":"major state bank","city":"algiers","logo":{"bg":"#00843D","fg":"#FFFFFF","mono":"BNA"}},
+  {"id":"cpa","en":"Crédit Populaire d'Algérie (CPA)","ar":"القرض الشعبي الجزائري","fr":"Crédit Populaire d'Algérie (CPA)","sector":"bank","archetype":"state bank listed on the Algiers exchange","city":"algiers","logo":{"bg":"#003E7E","fg":"#FFFFFF","mono":"CPA"}},
+  {"id":"sga","en":"Société Générale Algérie","ar":"سوسيتي جنرال الجزائر","fr":"Société Générale Algérie","sector":"bank","archetype":"largest foreign-owned bank","city":"algiers","logo":{"bg":"#E60028","fg":"#FFFFFF","mono":"SG"}},
+  {"id":"albaraka","en":"Al Baraka Bank Algeria","ar":"بنك البركة الجزائري","fr":"Banque Al Baraka d'Algérie","sector":"islamic-bank","archetype":"first and leading Islamic bank","city":"algiers","logo":{"bg":"#8B1E3F","fg":"#F2C14E","mono":"ABA"}},
+  {"id":"mobilis","en":"Mobilis","ar":"موبيليس","fr":"Mobilis","sector":"telecom","archetype":"telecoms #1 (state-owned)","city":"algiers","logo":{"bg":"#00A651","fg":"#FFFFFF","mono":"M"}},
+  {"id":"djezzy","en":"Djezzy","ar":"جازي","fr":"Djezzy","sector":"telecom","archetype":"telecoms #2","city":"algiers","logo":{"bg":"#E3001B","fg":"#FFFFFF","mono":"DJ"}},
+  {"id":"ooredoo","en":"Ooredoo Algeria","ar":"أوريدو الجزائر","fr":"Ooredoo Algérie","sector":"telecom","archetype":"telecoms #3, Qatari-owned","city":"algiers","logo":{"bg":"#ED1C24","fg":"#FFFFFF","mono":"O"}},
+  {"id":"kpmg","en":"KPMG Algeria","ar":"كي بي إم جي الجزائر","fr":"KPMG Algérie","sector":"big4","archetype":"Big Four firm","city":"algiers","logo":{"bg":"#00338D","fg":"#FFFFFF","mono":"KPMG"}},
+  {"id":"cevital","en":"Cevital","ar":"سيفيتال","fr":"Cevital","sector":"fmcg","archetype":"largest private group: sugar, edible oils and agri-food","city":"bejaia","logo":{"bg":"#C8102E","fg":"#FFFFFF","mono":"CEV"}},
+  {"id":"ardis","en":"Ardis","ar":"أرديس","fr":"Ardis","sector":"retail","archetype":"hypermarket chain","city":"algiers","logo":{"bg":"#E2001A","fg":"#FFFFFF","mono":"AR"}},
+  {"id":"airalgerie","en":"Air Algérie","ar":"الخطوط الجوية الجزائرية","fr":"Air Algérie","sector":"airline","archetype":"national airline","city":"algiers","logo":{"bg":"#C8102E","fg":"#FFFFFF","mono":"AH"}},
+  {"id":"saidal","en":"Saidal Group","ar":"مجمع صيدال","fr":"Groupe Saidal","sector":"pharma","archetype":"listed state pharmaceutical group","city":"algiers","logo":{"bg":"#0072BC","fg":"#FFFFFF","mono":"SDL"}},
+  {"id":"saa","en":"SAA (Société Nationale d'Assurance)","ar":"الشركة الوطنية للتأمين","fr":"SAA (Société nationale d'assurance)","sector":"insurance","archetype":"largest insurer","city":"algiers","logo":{"bg":"#0055A5","fg":"#FFFFFF","mono":"SAA"}},
+  {"id":"yassir","en":"Yassir","ar":"يسير","fr":"Yassir","sector":"tech","archetype":"super-app scale-up: ride-hailing, delivery, payments","city":"algiers","logo":{"bg":"#5B21B6","fg":"#FFFFFF","mono":"Y"}},
+  {"id":"satim","en":"SATIM","ar":"ساتيم","fr":"SATIM","sector":"fintech","archetype":"interbank card and e-payment processor","city":"algiers","logo":{"bg":"#0A4C8C","fg":"#FFFFFF","mono":"ST"}},
+  {"id":"ouedkniss","en":"Ouedkniss","ar":"واد كنيس","fr":"Ouedkniss","sector":"ecommerce","archetype":"largest online marketplace and classifieds","city":"algiers","logo":{"bg":"#0E7C86","fg":"#FFFFFF","mono":"OK"}},
+  {"id":"cosider","en":"Cosider Group","ar":"مجمع كوسيدار","fr":"Groupe Cosider","sector":"real-estate","archetype":"largest public construction and property group","city":"algiers","logo":{"bg":"#F39200","fg":"#FFFFFF","mono":"COS"}},
+  {"id":"sgbv","en":"Algiers Stock Exchange","ar":"بورصة الجزائر","fr":"Bourse d'Alger","sector":"exchange","archetype":"stock exchange","city":"algiers","logo":{"bg":"#003B71","fg":"#FFFFFF","mono":"SGBV"}},
+  {"id":"tosyali","en":"Tosyali Algeria","ar":"توسيالي الجزائر","fr":"Tosyali Algérie","sector":"industrial","archetype":"integrated steel complex","city":"oran","logo":{"bg":"#003DA5","fg":"#FFFFFF","mono":"TOS"}},
+  {"id":"bankofalgeria","en":"Bank of Algeria","ar":"بنك الجزائر","fr":"Banque d'Algérie","sector":"government","archetype":"central bank","city":"algiers","logo":{"bg":"#0B5D3B","fg":"#C9A43B","mono":"BA"}},
+  {"id":"algerieposte","en":"Algérie Poste","ar":"بريد الجزائر","fr":"Algérie Poste","sector":"government","archetype":"public postal and financial-services operator","city":"algiers","logo":{"bg":"#FFCC00","fg":"#003A70","mono":"AP"}}
+ ],
+ "sal": {"per":"month","f":7.69,"basis":"Senior Financial Analyst / FP&A (contrôleur de gestion or analyste financier senior), 8 yrs, Algiers: estimated 150,000-250,000 DZD gross a month (roughly 105,000-165,000 DZD net after 9% CNAS and IRG), lower in state-owned groups and higher in multinationals, telecoms and oil services. Midpoint about 200,000 DZD gross, so f = 200,000 / 26,000 = 7.69 (expected 34,000 x f = about 261,000 DZD, the multinational senior band). Pay is quoted per month and usually net in Algeria; this figure is gross. Estimate only: no salary survey could be checked this session (see sources.md)."},
+ "tax":   {"incl":true,"rate":19,"label":{"en":"VAT included","ar":"شامل الرسم على القيمة المضافة","fr":"TVA incluse"}},
+ "pay": {
+  "wallets": [],
+  "methods": [
+   {"id":"card","label":{"en":"CIB or Edahabia card","ar":"بطاقة CIB أو الذهبية","fr":"Carte CIB ou Edahabia"},"sub":{"en":"Bank CIB card or Algérie Poste Edahabia card, paid in dinars","ar":"بطاقة CIB البنكية أو البطاقة الذهبية من بريد الجزائر، والدفع بالدينار","fr":"Carte bancaire CIB ou carte Edahabia d'Algérie Poste, paiement en dinars"},"brands":["cib","edahabia"]},
+   {"id":"intlcard","label":{"en":"International card","ar":"بطاقة دولية","fr":"Carte internationale"},"sub":{"en":"Visa or Mastercard, including cards issued abroad","ar":"فيزا أو ماستركارد، بما فيها البطاقات الصادرة في الخارج","fr":"Visa ou Mastercard, y compris les cartes émises à l'étranger"},"brands":["visa","mc"]}
+  ],
+  "bnpl": [],
+  "localCardBrand": "CIB"
+ },
+ "phone": {"cc":"+213","ex":"+213 555 12 34 56"},
+ "rights": {
+  "q": {"en":"Your right to work in Algeria","ar":"حقك في العمل في الجزائر","fr":"Votre droit de travailler en Algérie"},
+  "opts": [
+   {"en":"Algerian citizen","ar":"أحمل الجنسية الجزائرية","fr":"De nationalité algérienne","sub":{"en":"Including dual nationals. No work permit needed","ar":"بمن في ذلك مزدوجو الجنسية، دون حاجة إلى رخصة عمل","fr":"Y compris les binationaux. Aucun permis de travail requis"}},
+   {"en":"Foreign national with a valid Algerian work permit","ar":"أجنبي يحمل رخصة عمل جزائرية سارية","fr":"Ressortissant(e) étranger(ère) titulaire d'un permis de travail algérien valide","sub":{"en":"The permit is tied to one employer and post, so a new employer applies for a new one","ar":"ترتبط الرخصة بصاحب عمل ومنصب محددين، لذا يطلب صاحب العمل الجديد رخصة جديدة","fr":"Le permis est lié à un employeur et à un poste : un nouvel employeur en demande un nouveau"}},
+   {"en":"Foreign national exempt from the work permit","ar":"أجنبي معفى من رخصة العمل","fr":"Ressortissant(e) étranger(ère) dispensé(e) du permis de travail","sub":{"en":"For example under a bilateral agreement; your employer still declares your hiring to the employment services","ar":"مثلًا بموجب اتفاقية ثنائية، ويبقى على صاحب العمل التصريح بتوظيفك لدى مصالح التشغيل","fr":"Par exemple en vertu d'une convention bilatérale ; votre employeur déclare tout de même votre recrutement aux services de l'emploi"}},
+   {"en":"I need an employer to apply for my work permit","ar":"أحتاج إلى صاحب عمل يتولى طلب رخصة عملي","fr":"J'ai besoin qu'un employeur demande mon permis de travail","sub":{"en":"Granted only when no Algerian candidate is available; allow several weeks to a few months","ar":"لا تُمنح إلا عند عدم توفر مرشح جزائري، وقد يستغرق ذلك من بضعة أسابيع إلى بضعة أشهر","fr":"Accordé seulement en l'absence de candidat algérien ; comptez de quelques semaines à quelques mois"}}
+  ],
+  "autoFor": ["DZ"],
+  "autoText": {"en":"Algerian citizens can work in Algeria without a work permit.","ar":"يمكن للمواطنين الجزائريين العمل في الجزائر دون رخصة عمل.","fr":"Les ressortissants algériens peuvent travailler en Algérie sans permis de travail."},
+  "rule": {"en":"If you need a work permit, we skip jobs open only to Algerian nationals, such as civil-service posts.","ar":"إذا كنت تحتاج إلى رخصة عمل، نتجاوز الوظائف المخصصة للمواطنين الجزائريين فقط، مثل مناصب الوظيفة العمومية.","fr":"Si vous avez besoin d'un permis de travail, nous écartons les offres réservées aux ressortissants algériens, comme les postes de la fonction publique."}
+ },
+ "nationalisation": {
+  "name": {"en":"Priority to Algerian workers","ar":"أولوية تشغيل الجزائريين","fr":"Priorité à l'emploi des Algériens"},
+  "desc": {"en":"An employer can hire a foreign national only for a post that needs at least technician-level qualifications and that no Algerian candidate can fill; the employment services then issue a work permit for that post. Civil-service posts are reserved for Algerian citizens.","ar":"لا يمكن لصاحب العمل توظيف أجنبي إلا في منصب يتطلب مؤهلًا لا يقل عن مستوى تقني ولا يتوفر له مرشح جزائري، ثم تمنح مصالح التشغيل رخصة العمل لذلك المنصب. وتبقى مناصب الوظيفة العمومية مخصصة للمواطنين الجزائريين.","fr":"Un employeur ne peut recruter un étranger que pour un poste exigeant au moins une qualification de technicien et qu'aucun candidat algérien ne peut occuper ; les services de l'emploi délivrent alors un permis de travail pour ce poste. Les postes de la fonction publique sont réservés aux ressortissants algériens."}
+ },
+ "sensitive": {
+  "photo": "optional",
+  "gender": "none",
+  "dob": "ask",
+  "nationality": "ask",
+  "marital": "none",
+  "notes": "Algerian CVs follow the French format (usually in French) with an état civil block: date and place of birth, nationality and often marital status, plus, for men, military-service status (situation vis-à-vis du service national: accompli, dispensé or sursitaire), which many employers ask about. We ask date of birth and nationality because they are standard there, and nationality drives the work-permit rules. A photo is frequent but not required, so it is optional. We never ask marital status or gender: Law 90-11 art. 17 bars discrimination on sex and marital status (and age; see sources.md on dob). Arabic and French copy use the persona's known gender. Military-service status has no field in this schema; flag it for the CV builder."
+ },
+ "legal": {
+  "law": "Law No. 18-07 of 10 June 2018 on personal data protection (regulator: ANPDP)",
+  "privacy": {"en":"Your data is protected under Algeria's Law 18-07 on personal data protection, overseen by the ANPDP.","ar":"بياناتك محمية بموجب القانون الجزائري رقم 18-07 المتعلق بحماية الأشخاص الطبيعيين في مجال معالجة المعطيات ذات الطابع الشخصي، تحت رقابة السلطة الوطنية لحماية المعطيات ذات الطابع الشخصي.","fr":"Vos données sont protégées par la loi algérienne n° 18-07 relative à la protection des données à caractère personnel, sous le contrôle de l'ANPDP."},
+  "renewal": {"en":"Your plan renews at the end of each period at the price shown. We remind you before each renewal, and you can cancel anytime in Settings.","ar":"يتجدد اشتراكك في نهاية كل فترة بالسعر المعروض. نذكّرك قبل كل تجديد، ويمكنك الإلغاء في أي وقت من الإعدادات.","fr":"Votre abonnement se renouvelle à la fin de chaque période, au prix indiqué. Nous vous prévenons avant chaque renouvellement, et vous pouvez le résilier à tout moment dans les Paramètres."}
+ },
+ "boards": ["LinkedIn","Emploitic","Emploi Partner","Ouedkniss Emploi","ANEM (Wassit)"],
+ "lang2": {"en":"French","ar":"الفرنسية","fr":"français"},
+ "certs": [
+  {"id":"cfa","en":"CFA","ar":"CFA","fr":"CFA"},
+  {"id":"acca","en":"ACCA","ar":"ACCA","fr":"ACCA"},
+  {"id":"onec","en":"Algerian Chartered Accountant (ONEC)","ar":"خبير محاسب (المصف الوطني للخبراء المحاسبين)","fr":"Expert-comptable (ONEC)"},
+  {"id":"cma","en":"CMA","ar":"CMA","fr":"CMA"}
+ ],
+ "unis": [
+  {"id":"esc","en":"Higher School of Commerce (ESC), Kolea","ar":"المدرسة العليا للتجارة (القليعة)","fr":"École supérieure de commerce (ESC) de Koléa"},
+  {"id":"ehec","en":"EHEC Algiers (School of Higher Commercial Studies)","ar":"مدرسة الدراسات التجارية العليا (EHEC)","fr":"École des hautes études commerciales (EHEC) d'Alger"},
+  {"id":"alger3","en":"University of Algiers 3","ar":"جامعة الجزائر 3","fr":"Université d'Alger 3"}
+ ],
+ "govPlatforms": ["ANEM (Wassit)","CNAS"],
+ "persona": {
+  "first":"Karim","last":"Benali","gender":"m","nat":"DZ","city":"algiers",
+  "email":"karim.benali@email.com","phone":"+213 555 12 34 56",
+  "title":{"en":"Financial Analyst","ar":"محلل مالي","fr":"Analyste financier"},
+  "years":8,
+  "employer":{"en":"Hodnis Group","ar":"مجموعة هودنيس","fr":"Groupe Hodnis"},
+  "employer2":{"en":"Hodnis Distribution","ar":"هودنيس للتوزيع","fr":"Hodnis Distribution"},
+  "degree":{"en":"Master's in Finance and Accounting","ar":"ماستر في المالية والمحاسبة","fr":"Master Finance et Comptabilité"}, "uni":"esc", "cert":"cfa",
+  "tools":"SAP, Sage, Excel, Power BI",
+  "bio":{
+   "en":"Financial Analyst with 8 years in Algiers. I lead SCF and IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person finance function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in Algiers, Oran or remote.",
+   "ar":"محلل مالي بخبرة 8 سنوات في الجزائر العاصمة. أقود إعداد التقارير المالية وفق النظام المحاسبي المالي (SCF) والمعايير الدولية (IFRS) وإعداد الميزانيات على نظام SAP لعدة وحدات أعمال، وأتولى الإقفال الشهري لفريق مالي من 40 شخصًا. بنيتُ نماذج التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أبحث عن منصب محلل مالي أول أو في التخطيط والتحليل المالي (FP&A) في الجزائر العاصمة أو وهران أو عن بُعد.",
+   "fr":"Analyste financier avec 8 ans d'expérience à Alger. Je pilote le reporting SCF et IFRS ainsi que le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction finance de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting. Je recherche un poste d'analyste financier senior ou en FP&A à Alger, à Oran ou en télétravail."
+  }
+ },
+ "people": [
+  {"first":"Amel","last":"Hamidi","gender":"f"},
+  {"first":"Yacine","last":"Belkacem","gender":"m"},
+  {"first":"Lina","last":"Mansouri","gender":"f"},
+  {"first":"Amine","last":"Haddad","gender":"m"},
+  {"first":"Nesrine","last":"Bouzid","gender":"f"},
+  {"first":"Sofiane","last":"Khelifi","gender":"m"},
+  {"first":"Meriem","last":"Saadi","gender":"f"},
+  {"first":"Riad","last":"Cherif","gender":"m"},
+  {"first":"Imene","last":"Djebbar","gender":"f"},
+  {"first":"Mourad","last":"Aït Ouali","gender":"m"}
+ ],
+ "culture": {"notes":"Work week Sunday to Thursday (weekend Friday-Saturday since August 2009), 40 hours, with shorter hours during Ramadan. Business and CV language is mostly French; Arabic is used by public bodies, and English is rising in multinationals and tech. CVs run 1-2 pages with an état civil block (date and place of birth, nationality, often marital status) and, for men, military-service status; a photo is frequent. A lettre de motivation is commonly expected. Salaries are discussed per month and usually net. Payday is monthly, and many groups pay performance bonuses (PRI/PRC) and some a 13th month. Notice on resignation is set by the collective agreement or the contract (Law 90-11 art. 68): typically 1 month, up to 3 months for senior cadres. Public-sector hiring is by concours open to Algerian nationals."},
+ "noticeDays": 30
+}

@@ -1,0 +1,126 @@
+{
+ "code": "US",
+ "flag": "🇺🇸",
+ "name":  {"en":"United States","ar":"الولايات المتحدة","fr":"États-Unis"},
+ "short": {"en":"the US","ar":"الولايات المتحدة","fr":"les États-Unis"},
+ "in":    {"en":"in the US","ar":"في الولايات المتحدة","fr":"aux États-Unis"},
+ "dem":   {"en":"American","ar":"أمريكي","arf":"أمريكية","fr":"américain","frf":"américaine"},
+ "nationals": {"en":"US citizens","ar":"المواطنون الأمريكيون","fr":"citoyens américains"},
+ "region": "na",
+ "workweek": "mon-fri",
+ "cities": [
+  {"id":"new-york","en":"New York","ar":"نيويورك","fr":"New York","metro":{"en":"New York covers the metro area, including Jersey City, Long Island and Westchester.","ar":"تشمل نيويورك المنطقة الحضرية كلها، بما فيها جيرسي سيتي ولونغ آيلاند وويستتشستر.","fr":"New York couvre toute l'agglomération, y compris Jersey City, Long Island et le comté de Westchester."}},
+  {"id":"boston","en":"Boston","ar":"بوسطن","fr":"Boston","metro":{"en":"Boston covers Greater Boston, including Cambridge and Framingham.","ar":"تشمل بوسطن منطقة بوسطن الكبرى، بما فيها كامبريدج وفرامنغهام.","fr":"Boston couvre le Grand Boston, y compris Cambridge et Framingham."}},
+  {"id":"chicago","en":"Chicago","ar":"شيكاغو","fr":"Chicago","metro":{"en":"Chicago covers Chicagoland, including the suburbs.","ar":"تشمل شيكاغو منطقة شيكاغو الكبرى وضواحيها.","fr":"Chicago couvre l'agglomération de Chicago et sa banlieue."}},
+  {"id":"los-angeles","en":"Los Angeles","ar":"لوس أنجلوس","fr":"Los Angeles","metro":{"en":"Los Angeles covers Greater Los Angeles, including Burbank, Santa Monica and Orange County.","ar":"تشمل لوس أنجلوس منطقة لوس أنجلوس الكبرى، بما فيها بوربانك وسانتا مونيكا ومقاطعة أورانج.","fr":"Los Angeles couvre le Grand Los Angeles, y compris Burbank, Santa Monica et le comté d'Orange."}},
+  {"id":"dallas","en":"Dallas","ar":"دالاس","fr":"Dallas","metro":{"en":"Dallas covers Dallas–Fort Worth, including Irving, Plano and Fort Worth.","ar":"تشمل دالاس منطقة دالاس فورت وورث، بما فيها إرفينغ وبلانو وفورت وورث.","fr":"Dallas couvre l'agglomération de Dallas–Fort Worth, y compris Irving, Plano et Fort Worth."}},
+  {"id":"san-francisco","en":"San Francisco","ar":"سان فرانسيسكو","fr":"San Francisco","metro":{"en":"San Francisco covers the Bay Area, including Oakland and Silicon Valley.","ar":"تشمل سان فرانسيسكو منطقة الخليج، بما فيها أوكلاند ووادي السيليكون.","fr":"San Francisco couvre la baie de San Francisco, y compris Oakland et la Silicon Valley."}},
+  {"id":"charlotte","en":"Charlotte","ar":"شارلوت","fr":"Charlotte","metro":{"en":"Charlotte covers the Charlotte metro area, including nearby South Carolina.","ar":"تشمل شارلوت منطقتها الحضرية، بما فيها الأجزاء القريبة من ساوث كارولاينا.","fr":"Charlotte couvre son agglomération, y compris la partie voisine de la Caroline du Sud."}},
+  {"id":"houston","en":"Houston","ar":"هيوستن","fr":"Houston","metro":{"en":"Houston covers Greater Houston, including Spring and The Woodlands.","ar":"تشمل هيوستن منطقة هيوستن الكبرى، بما فيها سبرينغ وذا وودلاندز.","fr":"Houston couvre le Grand Houston, y compris Spring et The Woodlands."}}
+ ],
+ "employers": [
+  {"id":"jpmorgan","en":"JPMorgan Chase","ar":"جيه بي مورغان تشيس","fr":"JPMorgan Chase","sector":"bank","archetype":"largest US bank, global HQ","city":"new-york","logo":{"bg":"#117ACA","fg":"#FFFFFF","mono":"JPM"}},
+  {"id":"bofa","en":"Bank of America","ar":"بنك أوف أمريكا","fr":"Bank of America","sector":"bank","archetype":"#2 US bank, HQ","city":"charlotte","logo":{"bg":"#012169","fg":"#FFFFFF","mono":"BofA"}},
+  {"id":"citi","en":"Citi","ar":"سيتي","fr":"Citi","sector":"bank","archetype":"global bank HQ","city":"new-york","logo":{"bg":"#056DAE","fg":"#FFFFFF","mono":"Citi"}},
+  {"id":"goldman","en":"Goldman Sachs","ar":"غولدمان ساكس","fr":"Goldman Sachs","sector":"bank","archetype":"investment bank HQ","city":"new-york","logo":{"bg":"#7399C6","fg":"#FFFFFF","mono":"GS"}},
+  {"id":"blackrock","en":"BlackRock","ar":"بلاك روك","fr":"BlackRock","sector":"investment","archetype":"largest asset manager, HQ","city":"new-york","logo":{"bg":"#000000","fg":"#FFFFFF","mono":"BLK"}},
+  {"id":"exxonmobil","en":"ExxonMobil","ar":"إكسون موبيل","fr":"ExxonMobil","sector":"energy","archetype":"energy national champion, HQ","city":"houston","logo":{"bg":"#ED1B2D","fg":"#FFFFFF","mono":"XOM"}},
+  {"id":"verizon","en":"Verizon","ar":"فيرايزون","fr":"Verizon","sector":"telecom","archetype":"telecom #1, HQ","city":"new-york","logo":{"bg":"#EE0000","fg":"#FFFFFF","mono":"VZ"}},
+  {"id":"att","en":"AT&T","ar":"إيه تي آند تي","fr":"AT&T","sector":"telecom","archetype":"telecom #2, HQ","city":"dallas","logo":{"bg":"#009FDB","fg":"#FFFFFF","mono":"AT&T"}},
+  {"id":"deloitte","en":"Deloitte","ar":"ديلويت","fr":"Deloitte","sector":"consulting","archetype":"Big 4 firm, US HQ","city":"new-york","logo":{"bg":"#000000","fg":"#86BC25","mono":"D"}},
+  {"id":"pepsico","en":"PepsiCo","ar":"بيبسيكو","fr":"PepsiCo","sector":"fmcg","archetype":"consumer/FMCG major, HQ","city":"new-york","logo":{"bg":"#004B93","fg":"#FFFFFF","mono":"PEP"}},
+  {"id":"tjx","en":"TJX Companies","ar":"تي جيه إكس","fr":"TJX Companies","sector":"retail","archetype":"retailer HQ (TJ Maxx, Marshalls)","city":"boston","logo":{"bg":"#A6192E","fg":"#FFFFFF","mono":"TJX"}},
+  {"id":"united","en":"United Airlines","ar":"يونايتد إيرلاينز","fr":"United Airlines","sector":"airline","archetype":"airline HQ","city":"chicago","logo":{"bg":"#002244","fg":"#FFFFFF","mono":"UA"}},
+  {"id":"mgb","en":"Mass General Brigham","ar":"ماس جنرال بريغهام","fr":"Mass General Brigham","sector":"healthcare","archetype":"hospital group","city":"boston","logo":{"bg":"#003A70","fg":"#FFFFFF","mono":"MGB"}},
+  {"id":"metlife","en":"MetLife","ar":"ميتلايف","fr":"MetLife","sector":"insurance","archetype":"insurer HQ","city":"new-york","logo":{"bg":"#0090DA","fg":"#FFFFFF","mono":"MET"}},
+  {"id":"databricks","en":"Databricks","ar":"داتابريكس","fr":"Databricks","sector":"tech","archetype":"tech scale-up (data and AI)","city":"san-francisco","logo":{"bg":"#FF3621","fg":"#FFFFFF","mono":"DB"}},
+  {"id":"stripe","en":"Stripe","ar":"سترايب","fr":"Stripe","sector":"fintech","archetype":"fintech HQ","city":"san-francisco","logo":{"bg":"#635BFF","fg":"#FFFFFF","mono":"S"}},
+  {"id":"doordash","en":"DoorDash","ar":"دورداش","fr":"DoorDash","sector":"ecommerce","archetype":"food-delivery app HQ","city":"san-francisco","logo":{"bg":"#FF3008","fg":"#FFFFFF","mono":"DD"}},
+  {"id":"related","en":"Related Companies","ar":"ريليتد كومبانيز","fr":"Related Companies","sector":"realestate","archetype":"real-estate developer (Hudson Yards)","city":"new-york","logo":{"bg":"#1A1A1A","fg":"#FFFFFF","mono":"R"}},
+  {"id":"nasdaq","en":"Nasdaq","ar":"ناسداك","fr":"Nasdaq","sector":"exchange","archetype":"stock exchange HQ","city":"new-york","logo":{"bg":"#0092BC","fg":"#FFFFFF","mono":"NDAQ"}},
+  {"id":"caterpillar","en":"Caterpillar","ar":"كاتربيلر","fr":"Caterpillar","sector":"industrial","archetype":"industrial and mining equipment HQ","city":"dallas","logo":{"bg":"#FFCD11","fg":"#000000","mono":"CAT"}},
+  {"id":"nyfed","en":"Federal Reserve Bank of New York","ar":"بنك الاحتياطي الفيدرالي في نيويورك","fr":"Banque de réserve fédérale de New York","sector":"government","archetype":"central bank (public body)","city":"new-york","logo":{"bg":"#1C3F6E","fg":"#FFFFFF","mono":"FRB"}},
+  {"id":"google","en":"Google","ar":"غوغل","fr":"Google","sector":"tech","archetype":"big tech HQ","city":"san-francisco","logo":{"bg":"#4285F4","fg":"#FFFFFF","mono":"G"}},
+  {"id":"pfizer","en":"Pfizer","ar":"فايزر","fr":"Pfizer","sector":"pharma","archetype":"pharma major HQ","city":"new-york","logo":{"bg":"#0093D0","fg":"#FFFFFF","mono":"PFE"}},
+  {"id":"disney","en":"The Walt Disney Company","ar":"شركة والت ديزني","fr":"The Walt Disney Company","sector":"media","archetype":"media and entertainment HQ","city":"los-angeles","logo":{"bg":"#113CCF","fg":"#FFFFFF","mono":"DIS"}}
+ ],
+ "sectorsCovered": "energy champion: ExxonMobil; largest banks: JPMorgan Chase, Bank of America, Citi (plus Goldman Sachs); Islamic bank: not relevant in the US; telecoms #1/#2: Verizon, AT&T; sovereign fund: none in the US, BlackRock as the largest investor; Big 4: Deloitte; FMCG: PepsiCo; retailer: TJX; airline: United; hospital group: Mass General Brigham; insurer: MetLife; tech scale-up: Databricks; fintech: Stripe; food delivery: DoorDash; real-estate developer: Related Companies; stock exchange: Nasdaq; industrial/mining: Caterpillar; government body: Federal Reserve Bank of New York; also Google, Pfizer, Disney",
+ "sal": {"per":"year","f":0.4327,"basis":"Senior Financial Analyst / FP&A, 8 yrs, New York base salary (bonus excluded). Robert Half NYC projections: Senior Financial Analyst ~$117.7k / $144.7k / $160.7k (low/mid/high), Senior FP&A Analyst ~$101.7k / $126.6k / $146.4k; BLS OEWS-based NYC FP&A median ~$129k. Chosen market pay $135,000 a year = $11,250 a month; f = 11250 / 26000 = 0.4327, so 26,000 SAR maps to $135k a year and 34,000 SAR to ~$177k a year. US pay is quoted annually."},
+ "tax":   {"incl":false,"rate":8.875,"label":{"en":"Plus applicable sales tax","ar":"تُضاف ضريبة المبيعات حسب الولاية","fr":"Taxe de vente applicable en sus"}},
+ "pay": {
+  "wallets": ["apple","google"],
+  "methods": [
+   {"id":"card","label":{"en":"Card","ar":"بطاقة","fr":"Carte"},"sub":{"en":"Visa, Mastercard, Amex, Discover","ar":"Visa وMastercard وAmex وDiscover","fr":"Visa, Mastercard, Amex, Discover"},"brands":["visa","mc","amex","discover"]},
+   {"id":"paypal","label":{"en":"PayPal","ar":"PayPal","fr":"PayPal"},"sub":{"en":"Pay with your PayPal account","ar":"ادفع من حسابك في PayPal","fr":"Payez avec votre compte PayPal"}}
+  ],
+  "bnpl": [],
+  "localCardBrand": null
+ },
+ "phone": {"cc":"+1","ex":"+1 212 555 0147"},
+ "rights": {
+  "q": {"en":"Your right to work in the US","ar":"حقك في العمل في الولايات المتحدة","fr":"Votre droit de travailler aux États-Unis"},
+  "opts": [
+   {"en":"US citizen or national","ar":"الجنسية الأمريكية","fr":"Citoyenneté américaine","sub":{"en":"No visa or sponsorship needed","ar":"للمواطنين والرعايا الأمريكيين، دون تأشيرة أو رعاية","fr":"Ou statut de US national. Ni visa ni parrainage nécessaire"}},
+   {"en":"Green card holder (permanent resident)","ar":"البطاقة الخضراء (إقامة دائمة)","fr":"Carte verte (résidence permanente)","sub":{"en":"Work for any employer, no sponsorship needed","ar":"العمل لدى أي صاحب عمل دون رعاية","fr":"Tout employeur, sans parrainage"}},
+   {"en":"Work permit (EAD), e.g. OPT, H-4 EAD or TPS","ar":"تصريح عمل (EAD)، مثل OPT أو H-4 EAD أو TPS","fr":"Autorisation de travail (EAD) : OPT, H-4 EAD, TPS…","sub":{"en":"Authorized now; you may need sponsorship later","ar":"العمل مسموح الآن، وقد تلزم رعاية تأشيرة لاحقاً","fr":"Vous pouvez travailler aujourd'hui ; un parrainage pourra être nécessaire plus tard"}},
+   {"en":"Employer-tied visa (H-1B, L-1, TN, E-3, O-1)","ar":"تأشيرة مرتبطة بصاحب العمل (H-1B أو L-1 أو TN أو E-3 أو O-1)","fr":"Visa lié à un employeur (H-1B, L-1, TN, E-3, O-1)","sub":{"en":"A new employer has to file for you, e.g. an H-1B transfer","ar":"على صاحب العمل الجديد تقديم طلب باسمك، مثل نقل H-1B","fr":"Le nouvel employeur doit déposer une demande pour vous, par ex. un transfert de H-1B"}},
+   {"en":"Need visa sponsorship","ar":"بحاجة إلى رعاية تأشيرة","fr":"Besoin d'un parrainage de visa","sub":{"en":"For example, a new H-1B petition","ar":"مثل طلب H-1B جديد","fr":"Par ex. une nouvelle demande H-1B"}}
+  ],
+  "autoFor": ["US"],
+  "autoText": {"en":"US citizens can work in the US without a visa or sponsorship.","ar":"يحق للمواطنين الأمريكيين العمل في الولايات المتحدة دون تأشيرة أو رعاية.","fr":"Les citoyens américains peuvent travailler aux États-Unis sans visa ni parrainage."},
+  "rule": {"en":"If you need sponsorship now or in the future, we skip US jobs that say they can't sponsor. Without US citizenship, we also skip roles that require it or a security clearance.","ar":"إذا احتجت إلى رعاية تأشيرة الآن أو مستقبلاً، نتخطى الوظائف في الولايات المتحدة التي تذكر أنها لا توفر الرعاية. ولغير حاملي الجنسية الأمريكية، نتخطى أيضاً الوظائف التي تشترطها أو تشترط تصريحاً أمنياً.","fr":"Si vous avez besoin d'un parrainage de visa, maintenant ou plus tard, nous écartons les offres américaines qui indiquent ne pas parrainer. Sans la nationalité américaine, nous écartons aussi les postes qui l'exigent ou qui demandent une habilitation de sécurité."}
+ },
+ "nationalisation": null,
+ "sensitive": {
+  "photo": "avoid",
+  "gender": "eeo",
+  "dob": "none",
+  "nationality": "none",
+  "marital": "none",
+  "notes": "US applications do not ask for a photo, date of birth, marital status or nationality (Title VII, ADEA, and the INA anti-discrimination rule on citizenship status); they ask 'Are you legally authorized to work in the US?' and 'Will you now or in the future require sponsorship?'. Gender, race/ethnicity, veteran and disability questions appear only as voluntary EEO self-identification (EEO-1 data, VEVRAA, Section 503 form CC-305), always with a 'decline to answer' option; we default to declining unless the user chooses otherwise. NYC and NY State ban salary-history questions and require pay ranges in job ads; the NYC Fair Chance Act defers criminal-history questions until after a conditional offer."
+ },
+ "legal": {
+  "law": "CCPA/CPRA and other US state privacy laws; NY SHIELD Act",
+  "privacy": {"en":"We protect your data under US state privacy laws, including California's CCPA and New York's SHIELD Act, and you can download or delete it anytime.","ar":"نحمي بياناتك وفق قوانين الخصوصية في الولايات الأمريكية، ومنها قانون CCPA في كاليفورنيا وقانون SHIELD في نيويورك، ويمكنك تنزيلها أو حذفها في أي وقت.","fr":"Vos données sont protégées conformément aux lois américaines sur la vie privée, dont le CCPA californien et le SHIELD Act de New York, et vous pouvez les télécharger ou les supprimer à tout moment."},
+  "renewal": {"en":"Your plan renews automatically at the same price until you cancel. Cancel online anytime in Settings, and we email you before a 4- or 12-month plan renews.","ar":"تتجدد باقتك تلقائياً بالسعر نفسه حتى إلغائها. يمكنك الإلغاء عبر الإنترنت في أي وقت من الإعدادات، ونرسل لك بريداً إلكترونياً قبل تجديد باقة الأربعة أشهر أو الاثني عشر شهراً.","fr":"Votre abonnement se renouvelle automatiquement au même prix jusqu'à résiliation. Résiliez en ligne à tout moment dans les Paramètres ; nous vous prévenons par e-mail avant le renouvellement d'une formule de 4 ou 12 mois."}
+ },
+ "boards": ["LinkedIn","Indeed","Glassdoor","ZipRecruiter","eFinancialCareers"],
+ "lang2": null,
+ "certs": [
+  {"id":"cpa","en":"CPA","ar":"CPA","fr":"CPA"},
+  {"id":"cfa","en":"CFA","ar":"CFA","fr":"CFA"},
+  {"id":"cma","en":"CMA","ar":"CMA","fr":"CMA"},
+  {"id":"fpac","en":"FPAC","ar":"FPAC","fr":"FPAC"}
+ ],
+ "unis": [
+  {"id":"nyu","en":"NYU Stern School of Business","ar":"كلية ستيرن للأعمال في جامعة نيويورك","fr":"NYU Stern School of Business"},
+  {"id":"wharton","en":"Wharton School, University of Pennsylvania","ar":"كلية وارتون في جامعة بنسلفانيا","fr":"Wharton School (université de Pennsylvanie)"},
+  {"id":"baruch","en":"Baruch College, CUNY","ar":"كلية باروخ، جامعة مدينة نيويورك","fr":"Baruch College (CUNY)"}
+ ],
+ "govPlatforms": [],
+ "persona": {
+  "first":"Jessica","last":"Morales","gender":"f","nat":"US","city":"new-york",
+  "email":"jessica.morales@email.com","phone":"+1 212 555 0147",
+  "title":{"en":"Financial Analyst","ar":"محللة مالية","fr":"Analyste financière"},
+  "years":8,
+  "employer":{"en":"Acme Financial","ar":"أكمي فاينانشال","fr":"Acme Financial"},
+  "employer2":{"en":"Acme Capital","ar":"أكمي كابيتال","fr":"Acme Capital"},
+  "degree":{"en":"BBA in Accountancy","ar":"بكالوريوس إدارة الأعمال في المحاسبة","fr":"BBA en comptabilité"}, "uni":"baruch", "cert":"cpa",
+  "tools":"SAP, Excel, Power BI",
+  "bio":{"en":"Financial Analyst with 8 years in New York. I lead US GAAP reporting and budgeting on SAP across business units, own the monthly close for a 40-person function, and built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in New York, Boston, or remote.","ar":"محللة مالية بخبرة 8 سنوات في نيويورك. أقود إعداد التقارير وفق US GAAP والموازنة على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً، وبنيت التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي في نيويورك أو بوسطن أو عن بُعد.","fr":"Analyste financière avec 8 ans d'expérience à New York. Je pilote le reporting US GAAP et le budget sur SAP pour plusieurs business units, je suis responsable de la clôture mensuelle d'une équipe de 40 personnes, et j'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting. Je recherche un poste d'analyste financière senior ou en FP&A à New York, à Boston ou en télétravail."}
+ },
+ "people": [
+  {"first":"Emily","last":"Johnson","gender":"f"},
+  {"first":"Michael","last":"Chen","gender":"m"},
+  {"first":"Ashley","last":"Williams","gender":"f"},
+  {"first":"David","last":"Rodriguez","gender":"m"},
+  {"first":"Sarah","last":"Goldberg","gender":"f"},
+  {"first":"Marcus","last":"Thompson","gender":"m"},
+  {"first":"Priya","last":"Patel","gender":"f"},
+  {"first":"Kevin","last":"O'Brien","gender":"m"},
+  {"first":"Lauren","last":"Kim","gender":"f"},
+  {"first":"Brian","last":"Miller","gender":"m"}
+ ],
+ "culture": {"notes":"Mon–Fri work week; most employment is at-will. Two weeks' notice is the norm (senior finance roles sometimes give 3–4 weeks). Salaried staff are usually paid bi-weekly or semi-monthly. Pay is discussed as an annual base salary, often plus a bonus; NYC/NYS, California, Colorado, Washington, Illinois and other states require pay ranges in job ads. The CV is called a resume: 1–2 pages for 8 years of experience, reverse-chronological, quantified achievements, no photo, date of birth, marital status, nationality or full address (city and state is enough). Cover letters are optional at most large employers but some postings ask for one. Applications go through ATS portals (Workday, Greenhouse, iCIMS) with screening questions on work authorization and sponsorship; references and background checks come after an offer."},
+ "noticeDays": 14
+}

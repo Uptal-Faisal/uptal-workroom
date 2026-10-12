@@ -1,0 +1,131 @@
+{
+ "code": "MA",
+ "flag": "🇲🇦",
+ "name":  {"en":"Morocco","ar":"المغرب","fr":"Maroc"},
+ "short": {"en":"Morocco","ar":"المغرب","fr":"le Maroc"},
+ "in":    {"en":"in Morocco","ar":"في المغرب","fr":"au Maroc"},
+ "dem":   {"en":"Moroccan","ar":"مغربي","arf":"مغربية","fr":"marocain","frf":"marocaine"},
+ "nationals": {"en":"Moroccan citizens","ar":"المواطنون المغاربة","fr":"les ressortissants marocains"},
+ "region": "naf",
+ "workweek": "mon-fri",
+ "cities": [
+  {"id":"casablanca","en":"Casablanca","ar":"الدار البيضاء","fr":"Casablanca","metro":{"en":"Casablanca includes Mohammedia, Bouskoura and Nouaceur.","ar":"تشمل الدار البيضاء المحمدية وبوسكورة والنواصر.","fr":"Casablanca inclut Mohammedia, Bouskoura et Nouaceur."}},
+  {"id":"rabat","en":"Rabat","ar":"الرباط","fr":"Rabat","metro":{"en":"Rabat includes Salé, Témara and Skhirat.","ar":"تشمل الرباط سلا وتمارة والصخيرات.","fr":"Rabat inclut Salé, Témara et Skhirat."}},
+  {"id":"tangier","en":"Tangier","ar":"طنجة","fr":"Tanger","metro":{"en":"Tangier includes the Tanger Med port zone and Tanger Automotive City.","ar":"تشمل طنجة منطقة ميناء طنجة المتوسط ومدينة طنجة للسيارات.","fr":"Tanger inclut la zone portuaire de Tanger Med et Tanger Automotive City."}},
+  {"id":"marrakech","en":"Marrakesh","ar":"مراكش","fr":"Marrakech","metro":{"en":"Marrakesh includes Tamansourt and the city's outskirts.","ar":"تشمل مراكش تامنصورت وضواحي المدينة.","fr":"Marrakech inclut Tamansourt et la périphérie de la ville."}},
+  {"id":"fes","en":"Fez","ar":"فاس","fr":"Fès","metro":{"en":"Fez covers the city and its suburbs.","ar":"تشمل فاس المدينة وضواحيها.","fr":"Fès couvre la ville et sa périphérie."}},
+  {"id":"agadir","en":"Agadir","ar":"أكادير","fr":"Agadir","metro":{"en":"Agadir includes Inezgane and Aït Melloul.","ar":"تشمل أكادير إنزكان وأيت ملول.","fr":"Agadir inclut Inezgane et Aït Melloul."}},
+  {"id":"kenitra","en":"Kenitra","ar":"القنيطرة","fr":"Kénitra","metro":{"en":"Kenitra includes the Atlantic Free Zone.","ar":"تشمل القنيطرة المنطقة الحرة الأطلسية.","fr":"Kénitra inclut l'Atlantic Free Zone."}}
+ ],
+ "employers": [
+  {"id":"ocp","en":"OCP Group","ar":"مجموعة OCP","fr":"Groupe OCP","sector":"mining","archetype":"national champion: phosphates and fertilisers","city":"casablanca","logo":{"bg":"#5DA632","fg":"#FFFFFF","mono":"OCP"}},
+  {"id":"attijariwafa","en":"Attijariwafa bank","ar":"التجاري وفا بنك","fr":"Attijariwafa bank","sector":"bank","archetype":"largest bank, pan-African group HQ","city":"casablanca","logo":{"bg":"#F4A71D","fg":"#3D2314","mono":"AWB"}},
+  {"id":"bcp","en":"Banque Populaire (BCP Group)","ar":"البنك الشعبي","fr":"Banque Populaire (Groupe BCP)","sector":"bank","archetype":"major cooperative banking group","city":"casablanca","logo":{"bg":"#8C4A1F","fg":"#FFFFFF","mono":"BCP"}},
+  {"id":"boa","en":"Bank of Africa","ar":"بنك أفريقيا","fr":"Bank of Africa","sector":"bank","archetype":"pan-African bank HQ","city":"casablanca","logo":{"bg":"#00539B","fg":"#FFFFFF","mono":"BOA"}},
+  {"id":"cih","en":"CIH Bank","ar":"CIH بنك","fr":"CIH Bank","sector":"bank","archetype":"retail and digital bank","city":"casablanca","logo":{"bg":"#F07D00","fg":"#FFFFFF","mono":"CIH"}},
+  {"id":"assafa","en":"Bank Assafa","ar":"بنك الصفاء","fr":"Bank Assafa","sector":"islamic-bank","archetype":"leading participative (Islamic) bank","city":"casablanca","logo":{"bg":"#006C5B","fg":"#FFFFFF","mono":"BA"}},
+  {"id":"iam","en":"Maroc Telecom","ar":"اتصالات المغرب","fr":"Maroc Telecom","sector":"telecom","archetype":"telecoms #1","city":"rabat","logo":{"bg":"#0066B3","fg":"#FFFFFF","mono":"IAM"}},
+  {"id":"orange","en":"Orange Morocco","ar":"أورنج المغرب","fr":"Orange Maroc","sector":"telecom","archetype":"telecoms #2","city":"casablanca","logo":{"bg":"#FF7900","fg":"#000000","mono":"O"}},
+  {"id":"cdg","en":"CDG (Caisse de Dépôt et de Gestion)","ar":"صندوق الإيداع والتدبير","fr":"CDG (Caisse de Dépôt et de Gestion)","sector":"public-investment","archetype":"state investment institution","city":"rabat","logo":{"bg":"#0B2D5B","fg":"#FFFFFF","mono":"CDG"}},
+  {"id":"deloitte","en":"Deloitte Morocco","ar":"ديلويت المغرب","fr":"Deloitte Maroc","sector":"big4","archetype":"Big Four firm","city":"casablanca","logo":{"bg":"#000000","fg":"#86BC25","mono":"D"}},
+  {"id":"cosumar","en":"Cosumar","ar":"كوسومار","fr":"Cosumar","sector":"fmcg","archetype":"sugar and food FMCG major","city":"casablanca","logo":{"bg":"#0057A0","fg":"#FFFFFF","mono":"COS"}},
+  {"id":"marjane","en":"Marjane Group","ar":"مجموعة مرجان","fr":"Groupe Marjane","sector":"retail","archetype":"largest hypermarket chain","city":"casablanca","logo":{"bg":"#005BAC","fg":"#FFFFFF","mono":"M"}},
+  {"id":"ram","en":"Royal Air Maroc","ar":"الخطوط الملكية المغربية","fr":"Royal Air Maroc","sector":"airline","archetype":"national airline","city":"casablanca","logo":{"bg":"#C1272D","fg":"#FFFFFF","mono":"RAM"}},
+  {"id":"akdital","en":"Akdital","ar":"أكديتال","fr":"Akdital","sector":"healthcare","archetype":"private hospital group","city":"casablanca","logo":{"bg":"#0A8AA0","fg":"#FFFFFF","mono":"AK"}},
+  {"id":"wafa","en":"Wafa Assurance","ar":"وفا للتأمين","fr":"Wafa Assurance","sector":"insurance","archetype":"leading insurer","city":"casablanca","logo":{"bg":"#E9A23B","fg":"#3D2314","mono":"WA"}},
+  {"id":"chari","en":"Chari","ar":"شاري","fr":"Chari","sector":"tech","archetype":"B2B e-commerce scale-up","city":"casablanca","logo":{"bg":"#3B1F8F","fg":"#FFFFFF","mono":"CH"}},
+  {"id":"cashplus","en":"Cash Plus","ar":"كاش بلوس","fr":"Cash Plus","sector":"fintech","archetype":"listed payments and transfer network","city":"casablanca","logo":{"bg":"#FFD100","fg":"#1D3A8A","mono":"C+"}},
+  {"id":"glovo","en":"Glovo Morocco","ar":"غلوفو المغرب","fr":"Glovo Maroc","sector":"delivery","archetype":"food-delivery app","city":"casablanca","logo":{"bg":"#FFC244","fg":"#00A082","mono":"G"}},
+  {"id":"tangermed","en":"Tanger Med","ar":"طنجة المتوسط","fr":"Tanger Med","sector":"logistics","archetype":"port and industrial-zone giga-project","city":"tangier","logo":{"bg":"#004A8F","fg":"#FFFFFF","mono":"TM"}},
+  {"id":"addoha","en":"Addoha Group","ar":"مجموعة الضحى","fr":"Groupe Addoha","sector":"real-estate","archetype":"listed property developer","city":"casablanca","logo":{"bg":"#00813E","fg":"#FFFFFF","mono":"AD"}},
+  {"id":"bvc","en":"Casablanca Stock Exchange","ar":"بورصة الدار البيضاء","fr":"Bourse de Casablanca","sector":"exchange","archetype":"stock exchange","city":"casablanca","logo":{"bg":"#002F6C","fg":"#FFFFFF","mono":"BVC"}},
+  {"id":"managem","en":"Managem","ar":"مناجم","fr":"Managem","sector":"mining","archetype":"mining group (gold, copper, cobalt)","city":"casablanca","logo":{"bg":"#1B4F8C","fg":"#FFFFFF","mono":"MNG"}},
+  {"id":"renault","en":"Renault Group Morocco","ar":"مجموعة رونو المغرب","fr":"Renault Group Maroc","sector":"industrial","archetype":"automotive manufacturer","city":"tangier","logo":{"bg":"#EFDF00","fg":"#000000","mono":"R"}},
+  {"id":"bam","en":"Bank Al-Maghrib","ar":"بنك المغرب","fr":"Bank Al-Maghrib","sector":"government","archetype":"central bank","city":"rabat","logo":{"bg":"#1E3A6E","fg":"#C9A43B","mono":"BAM"}}
+ ],
+ "sal": {"per":"month","f":0.846,"basis":"Senior Financial Analyst / FP&A (contrôleur de gestion confirmé/senior), 8 yrs, Casablanca: about 18,000-28,000 MAD gross a month (Jobsquare 2026 guides; HRMCO gives 200,000-260,000 MAD a year for 6-10 yrs). Midpoint about 22,000 MAD gross a month, so f = 22,000 / 26,000 = 0.846 (expected 34,000 x f = about 28,800 MAD, top of the senior band). Moroccan pay is quoted per month, often net in negotiation; a 13th month is common in large groups."},
+ "tax":   {"incl":true,"rate":20,"label":{"en":"VAT included","ar":"شامل الضريبة على القيمة المضافة","fr":"TVA incluse"}},
+ "pay": {
+  "wallets": ["apple","google"],
+  "methods": [
+   {"id":"card","label":{"en":"Card","ar":"بطاقة بنكية","fr":"Carte bancaire"},"sub":{"en":"Visa, Mastercard (online payments enabled)","ar":"فيزا، ماستركارد (مع تفعيل الدفع عبر الإنترنت)","fr":"Visa, Mastercard (paiement en ligne activé)"},"brands":["visa","mc"]},
+   {"id":"paypal","label":{"en":"PayPal","ar":"PayPal","fr":"PayPal"},"sub":{"en":"Pay with your PayPal account","ar":"ادفع بحسابك في PayPal","fr":"Payez avec votre compte PayPal"}}
+  ],
+  "bnpl": [],
+  "localCardBrand": null
+ },
+ "phone": {"cc":"+212","ex":"+212 6 12 34 56 78"},
+ "rights": {
+  "q": {"en":"Your right to work in Morocco","ar":"حقك في العمل في المغرب","fr":"Votre droit de travailler au Maroc"},
+  "opts": [
+   {"en":"Moroccan citizen","ar":"أحمل الجنسية المغربية","fr":"De nationalité marocaine","sub":{"en":"No work authorisation needed","ar":"لا حاجة إلى إذن عمل","fr":"Aucune autorisation de travail requise"}},
+   {"en":"Spouse of a Moroccan citizen","ar":"زوج أو زوجة مواطن مغربي","fr":"Conjoint(e) d'un(e) ressortissant(e) marocain(e)","sub":{"en":"No ANAPEC check; your employer still has your contract approved","ar":"معفى من شهادة أنابيك، ويبقى على صاحب العمل التأشير على عقدك","fr":"Dispense d'attestation ANAPEC ; votre contrat doit tout de même être visé"}},
+   {"en":"Algerian, Tunisian or Senegalese citizen","ar":"من الجنسية الجزائرية أو التونسية أو السنغالية","fr":"Ressortissant(e) algérien(ne), tunisien(ne) ou sénégalais(e)","sub":{"en":"No ANAPEC check under bilateral agreements; your contract is still approved","ar":"معفى من شهادة أنابيك بموجب اتفاقيات ثنائية، مع ضرورة التأشير على العقد","fr":"Dispense d'attestation ANAPEC (conventions bilatérales) ; contrat à faire viser"}},
+   {"en":"Other foreign national living in Morocco with a residence card","ar":"أجنبي مقيم في المغرب ببطاقة إقامة","fr":"Autre ressortissant(e) étranger(ère) résidant au Maroc (carte de séjour)","sub":{"en":"Each new employer has your contract approved, usually with an ANAPEC certificate","ar":"يحتاج كل صاحب عمل جديد إلى التأشير على عقدك، وعادةً إلى شهادة من أنابيك","fr":"Chaque nouvel employeur fait viser votre contrat, généralement avec une attestation ANAPEC"}},
+   {"en":"I need an employer to arrange my work authorisation","ar":"أحتاج إلى صاحب عمل يتولى استخراج إذن عملي","fr":"J'ai besoin qu'un employeur obtienne mon autorisation de travail","sub":{"en":"ANAPEC certificate plus a contract visa through TAECHIR; allow several weeks to a few months","ar":"شهادة أنابيك وتأشيرة عقد العمل عبر منصة تأشير، وقد يستغرق ذلك من بضعة أسابيع إلى بضعة أشهر","fr":"Attestation ANAPEC et visa du contrat via TAECHIR ; comptez de quelques semaines à quelques mois"}}
+  ],
+  "autoFor": ["MA"],
+  "autoText": {"en":"Moroccan citizens can work in Morocco without a work permit.","ar":"يمكن للمواطنين المغاربة العمل في المغرب دون إذن عمل.","fr":"Les ressortissants marocains peuvent travailler au Maroc sans autorisation de travail."},
+  "rule": {"en":"If you need a work authorisation, we skip jobs open only to Moroccan nationals, such as civil-service posts.","ar":"إذا كنت تحتاج إلى إذن عمل، نتجاوز الوظائف المخصصة للمواطنين المغاربة فقط، مثل وظائف الوظيفة العمومية.","fr":"Si vous avez besoin d'une autorisation de travail, nous écartons les offres réservées aux ressortissants marocains, comme les postes de la fonction publique."}
+ },
+ "nationalisation": {
+  "name": {"en":"National preference (ANAPEC)","ar":"الأفضلية الوطنية (أنابيك)","fr":"Préférence nationale (ANAPEC)"},
+  "desc": {"en":"Before hiring a foreign national, an employer usually needs an ANAPEC certificate showing no suitable Moroccan candidate was found, then a Ministry of Employment visa on the contract. Civil-service posts are reserved for Moroccan citizens.","ar":"قبل توظيف أجنبي، يحتاج صاحب العمل عادةً إلى شهادة من الوكالة الوطنية لإنعاش التشغيل والكفاءات (أنابيك) تثبت عدم توفر مرشح مغربي مناسب، ثم إلى تأشيرة الوزارة المكلفة بالتشغيل على عقد العمل. وتبقى وظائف الوظيفة العمومية مخصصة للمواطنين المغاربة.","fr":"Avant d'embaucher un étranger, l'employeur doit en général obtenir une attestation de l'ANAPEC confirmant l'absence de candidat marocain adéquat, puis faire viser le contrat par le ministère chargé de l'Emploi. Les postes de la fonction publique sont réservés aux ressortissants marocains."}
+ },
+ "sensitive": {
+  "photo": "common",
+  "gender": "none",
+  "dob": "ask",
+  "nationality": "ask",
+  "marital": "none",
+  "notes": "Moroccan CVs (usually in French) normally carry a passport-style photo, and date of birth or age and nationality are still commonly listed; nationality also drives the ANAPEC / contract-visa rules. Marital status (situation familiale) is traditional but increasingly dropped and is a protected ground under Labour Code art. 9, so we never ask. Gender: some portals show a civilité (M./Mme) field, but it is not a CV norm, so we do not ask; Arabic/French copy uses the persona's known gender."
+ },
+ "legal": {
+  "law": "Law No. 09-08 on personal data protection (CNDP)",
+  "privacy": {"en":"Your data is protected under Moroccan Law 09-08, overseen by the CNDP.","ar":"بياناتك محمية بموجب القانون المغربي رقم 09-08، تحت رقابة اللجنة الوطنية لمراقبة حماية المعطيات ذات الطابع الشخصي (CNDP).","fr":"Vos données sont protégées par la loi marocaine n° 09-08, sous le contrôle de la CNDP."},
+  "renewal": {"en":"Your plan renews automatically at the end of each period at the price shown. Cancel anytime in Settings before the renewal date.","ar":"يتجدد اشتراكك تلقائيًا في نهاية كل فترة بالسعر المعروض. يمكنك الإلغاء في أي وقت من الإعدادات قبل تاريخ التجديد.","fr":"Votre abonnement se renouvelle automatiquement à la fin de chaque période, au prix indiqué. Vous pouvez le résilier à tout moment dans les Paramètres avant la date de renouvellement."}
+ },
+ "boards": ["LinkedIn","ReKrute","Emploi.ma","Indeed","Bayt"],
+ "lang2": {"en":"French","ar":"الفرنسية","fr":"français"},
+ "certs": [
+  {"id":"cfa","en":"CFA","ar":"CFA","fr":"CFA"},
+  {"id":"dnec","en":"Moroccan Chartered Accountant (DNEC)","ar":"خبير محاسب (DNEC)","fr":"Expert-comptable (DNEC)"},
+  {"id":"acca","en":"ACCA","ar":"ACCA","fr":"ACCA"},
+  {"id":"cma","en":"CMA","ar":"CMA","fr":"CMA"}
+ ],
+ "unis": [
+  {"id":"iscae","en":"ISCAE Casablanca","ar":"المعهد العالي للتجارة وإدارة المقاولات (ISCAE)","fr":"ISCAE Casablanca"},
+  {"id":"encg","en":"ENCG Settat","ar":"المدرسة الوطنية للتجارة والتسيير بسطات","fr":"ENCG Settat"},
+  {"id":"aui","en":"Al Akhawayn University","ar":"جامعة الأخوين","fr":"Université Al Akhawayn"}
+ ],
+ "govPlatforms": ["ANAPEC","TAECHIR","CNSS","Emploi-public.ma"],
+ "persona": {
+  "first":"Youssef","last":"El Amrani","gender":"m","nat":"MA","city":"casablanca",
+  "email":"youssef.elamrani@email.com","phone":"+212 6 12 34 56 78",
+  "title":{"en":"Financial Analyst","ar":"محلل مالي","fr":"Analyste financier"},
+  "years":8,
+  "employer":{"en":"Arganis Group","ar":"مجموعة أرغانيس","fr":"Groupe Arganis"},
+  "employer2":{"en":"Arganis Distribution","ar":"أرغانيس للتوزيع","fr":"Arganis Distribution"},
+  "degree":{"en":"Master's in Finance and Accounting","ar":"ماستر في المالية والمحاسبة","fr":"Master Finance et Comptabilité"}, "uni":"iscae", "cert":"cfa",
+  "tools":"SAP, Sage, Excel, Power BI",
+  "bio":{
+   "en":"Financial Analyst with 8 years in Casablanca. I lead IFRS and Moroccan GAAP (CGNC) reporting and budgeting on SAP across business units and own the monthly close for a 40-person finance function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in Casablanca, Rabat or remote.",
+   "ar":"محلل مالي بخبرة 8 سنوات في الدار البيضاء. أقود إعداد التقارير المالية وفق المعايير الدولية (IFRS) والمدونة العامة للتطبيع المحاسبي (CGNC) وإعداد الميزانيات على نظام SAP لعدة وحدات أعمال، وأتولى الإقفال الشهري لفريق مالي من 40 شخصًا. بنيتُ نماذج التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أبحث عن منصب محلل مالي أول أو في التخطيط والتحليل المالي (FP&A) في الدار البيضاء أو الرباط أو عن بُعد.",
+   "fr":"Analyste financier avec 8 ans d'expérience à Casablanca. Je pilote le reporting IFRS et CGNC ainsi que le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction finance de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting. Je recherche un poste d'analyste financier senior ou en FP&A à Casablanca, à Rabat ou en télétravail."
+  }
+ },
+ "people": [
+  {"first":"Nadia","last":"Bennani","gender":"f"},
+  {"first":"Mehdi","last":"Alaoui","gender":"m"},
+  {"first":"Imane","last":"Tazi","gender":"f"},
+  {"first":"Omar","last":"Berrada","gender":"m"},
+  {"first":"Kenza","last":"Benjelloun","gender":"f"},
+  {"first":"Hamza","last":"El Idrissi","gender":"m"},
+  {"first":"Sara","last":"Chraibi","gender":"f"},
+  {"first":"Anas","last":"Lahlou","gender":"m"},
+  {"first":"Meryem","last":"Sqalli","gender":"f"},
+  {"first":"Yassine","last":"Ouazzani","gender":"m"}
+ ],
+ "culture": {"notes":"Work week Monday to Friday (some industrial and retail sites also work Saturday morning); longer Friday lunch break for prayer and shorter hours during Ramadan. Business and CV language is French (Arabic and English also used; English rising in multinationals and offshoring). CVs run 1-2 pages, usually with a photo, date of birth and nationality. A short cover letter (lettre de motivation) in French is still commonly expected. Salaries are discussed per month, often net; a 13th month is common in large groups; payday is end of month. Statutory notice for managers (cadres) under decree 2-04-469: 1 month under 1 year of service, 2 months for 1-5 years, 3 months over 5 years; contracts and collective agreements can set longer. For an 8-year cadre, 3 months is typical."},
+ "noticeDays": 90
+}

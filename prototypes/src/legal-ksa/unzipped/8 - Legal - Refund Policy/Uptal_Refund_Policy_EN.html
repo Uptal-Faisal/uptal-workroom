@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Refund Policy | Uptal</title>
+<meta name="description" content="Uptal Refund Policy covering Talent Search, Auto-Apply, and CV Enhancer. Digital services with immediate access, final and non-refundable, with limited exceptions." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --oxford:#061430; --electric:#0028DB; --persian:#353CD8; --flash:#4CEA63;
+    --ink:#0E1726; --slate:#54607A; --muted:#7A8399;
+    --line:#E7EAF2; --line-soft:#EEF1F8;
+    --bg:#FFFFFF; --bg-soft:#F6F8FC; --mint:#EAFBF0; --mint-line:#BFEFCF;
+    --radius:18px; --maxw:1120px;
+    --shadow:0 1px 2px rgba(6,20,48,.04), 0 12px 34px -18px rgba(6,20,48,.20);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:'Switzer','Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+    font-size:17px; line-height:1.7; -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:var(--persian); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .skip{position:absolute;left:-999px;top:auto}
+  .skip:focus{left:16px;top:16px;background:#fff;padding:10px 14px;border-radius:10px;z-index:100;box-shadow:var(--shadow)}
+
+  /* ---------- Header ---------- */
+  header.site{
+    position:sticky; top:0; z-index:40;
+    background:rgba(255,255,255,.86); backdrop-filter:saturate(160%) blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .bar{
+    max-width:var(--maxw); margin:0 auto; padding:14px 22px;
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+  }
+  .brand{display:inline-flex; align-items:center; gap:10px; color:var(--oxford); font-weight:800; letter-spacing:.12em; font-size:15px}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--flash);box-shadow:0 0 0 4px rgba(76,234,99,.18)}
+  .brand span.sub{color:var(--muted); font-weight:600; letter-spacing:.02em}
+  .langswitch{
+    display:inline-flex; align-items:center; gap:8px; font-weight:600; font-size:14px;
+    color:var(--oxford); border:1px solid var(--line); padding:8px 14px; border-radius:999px; background:#fff;
+  }
+  .langswitch:hover{border-color:var(--persian); text-decoration:none}
+
+  /* ---------- Hero ---------- */
+  main{display:block}
+  .hero{
+    max-width:var(--maxw); margin:0 auto; padding:56px 22px 8px;
+  }
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:9px; font-size:12.5px; font-weight:700;
+    letter-spacing:.16em; text-transform:uppercase; color:var(--persian);
+    background:#EEF0FF; border:1px solid #DDE1FF; padding:7px 13px; border-radius:999px;
+  }
+  .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--persian)}
+  h1{font-size:clamp(34px,6vw,52px); line-height:1.06; letter-spacing:-.02em; margin:20px 0 14px; color:var(--oxford)}
+  .lede{font-size:clamp(17px,2.4vw,19px); color:var(--slate); max-width:70ch; margin:0}
+  .meta{display:flex; flex-wrap:wrap; gap:10px 22px; margin-top:22px; color:var(--muted); font-size:14.5px; font-weight:500}
+  .meta b{color:var(--ink); font-weight:600}
+
+  /* ---------- Scope cards ---------- */
+  .scope{max-width:var(--maxw); margin:30px auto 0; padding:0 22px}
+  .scope-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
+  .card{
+    background:var(--bg-soft); border:1px solid var(--line); border-radius:var(--radius); padding:20px 20px 18px;
+    display:flex; flex-direction:column; gap:10px;
+  }
+  .card h3{margin:0; font-size:18px; color:var(--oxford); letter-spacing:-.01em}
+  .card .aud{font-size:13.5px; font-weight:600; color:var(--persian)}
+  .card p{margin:0; font-size:14px; color:var(--slate); line-height:1.55}
+  .chip{
+    align-self:flex-start; margin-top:2px; font-size:12px; font-weight:700; letter-spacing:.02em;
+    padding:5px 11px; border-radius:999px; background:#fff; border:1px solid var(--line-soft); color:var(--ink);
+  }
+  .chip.mono{background:var(--mint); border-color:var(--mint-line); color:#0B6B39}
+
+  /* ---------- Layout: TOC + article ---------- */
+  .wrap{max-width:var(--maxw); margin:44px auto 0; padding:0 22px 80px; display:grid; grid-template-columns:1fr; gap:36px}
+  nav.toc{display:none}
+  nav.toc h4{margin:0 0 12px; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted)}
+  nav.toc ol{list-style:none; margin:0; padding:0; counter-reset:toc}
+  nav.toc li{counter-increment:toc; margin:0}
+  nav.toc a{
+    display:flex; gap:10px; padding:7px 10px; border-radius:10px; color:var(--slate); font-size:14px; font-weight:500; line-height:1.35;
+  }
+  nav.toc a::before{content:counter(toc); color:var(--muted); font-weight:700; font-variant-numeric:tabular-nums; min-width:16px}
+  nav.toc a:hover{background:var(--bg-soft); color:var(--oxford); text-decoration:none}
+
+  article{min-width:0}
+  section{padding:26px 0; border-top:1px solid var(--line-soft); scroll-margin-top:90px}
+  section:first-of-type{border-top:none; padding-top:8px}
+  h2{
+    font-size:clamp(22px,3.4vw,27px); letter-spacing:-.015em; color:var(--oxford);
+    margin:0 0 14px; display:flex; align-items:baseline; gap:12px;
+  }
+  h2 .num{
+    font-size:14px; font-weight:800; color:var(--persian); background:#EEF0FF; border:1px solid #DDE1FF;
+    border-radius:8px; padding:3px 9px; line-height:1; flex:none; position:relative; top:-2px; font-variant-numeric:tabular-nums;
+  }
+  h3.sub{font-size:18px; color:var(--oxford); margin:22px 0 8px; letter-spacing:-.01em}
+  p{margin:0 0 14px}
+  article ul{margin:6px 0 16px; padding-left:0; list-style:none}
+  article ul li{position:relative; padding-left:26px; margin:9px 0; color:var(--ink)}
+  article ul li::before{content:""; position:absolute; left:6px; top:11px; width:7px; height:7px; border-radius:2px; background:var(--flash); box-shadow:0 0 0 3px rgba(76,234,99,.16)}
+  .audience-tag{
+    display:inline-flex; align-items:center; gap:8px; font-size:13px; font-weight:600; color:var(--slate);
+    background:var(--bg-soft); border:1px solid var(--line); border-radius:999px; padding:6px 13px; margin:0 0 16px;
+  }
+  .audience-tag b{color:var(--oxford)}
+
+  .callout{
+    background:var(--mint); border:1px solid var(--mint-line); border-radius:14px; padding:16px 18px; margin:18px 0;
+    color:#0B4A2A; font-size:15.5px;
+  }
+  .callout strong{color:#0B6B39}
+  .note{
+    background:var(--bg-soft); border:1px solid var(--line); border-left:3px solid var(--persian);
+    border-radius:12px; padding:15px 18px; margin:18px 0; color:var(--slate); font-size:15px;
+  }
+  .note strong{color:var(--oxford)}
+
+  .lastline{color:var(--muted); font-size:14px; margin-top:6px}
+  a.mail{font-weight:600}
+
+  /* ---------- Footer ---------- */
+  footer.site{border-top:1px solid var(--line); background:var(--bg-soft)}
+  .foot{max-width:var(--maxw); margin:0 auto; padding:34px 22px; display:flex; flex-wrap:wrap; gap:18px 40px; align-items:center; justify-content:space-between}
+  .foot .brand{color:var(--oxford)}
+  .foot nav{display:flex; flex-wrap:wrap; gap:8px 22px}
+  .foot nav a{color:var(--slate); font-size:14px; font-weight:500}
+  .foot .copy{width:100%; color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding-top:16px; margin-top:4px}
+
+  /* ---------- Desktop: sticky TOC ---------- */
+  @media (min-width:1024px){
+    .wrap{grid-template-columns:250px 1fr; gap:52px}
+    nav.toc{display:block}
+    nav.toc .inner{position:sticky; top:96px}
+  }
+  @media (max-width:720px){
+    .scope-grid{grid-template-columns:1fr}
+    .hero{padding-top:40px}
+    body{font-size:16.5px}
+  }
+
+  /* ---------- Print ---------- */
+  @media print{
+    header.site,footer.site,nav.toc,.langswitch,.scope{display:none !important}
+    .wrap{grid-template-columns:1fr; margin:0; padding:0}
+    body{font-size:12pt}
+    section{page-break-inside:avoid; border-top:1px solid #ccc}
+    a{color:#000; text-decoration:none}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to policy</a>
+
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="https://uptal.com" aria-label="Uptal home">
+      <span class="dot" aria-hidden="true"></span> UPTAL <span class="sub">Legal</span>
+    </a>
+    <a class="langswitch" href="Uptal_Refund_Policy_AR.html" lang="ar" hreflang="ar" dir="rtl">العربية</a>
+  </div>
+</header>
+
+<main id="content">
+  <div class="hero">
+    <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Refund Policy</span>
+    <h1>Refund Policy</h1>
+    <p class="lede">This policy explains how payments, cancellations, and refunds work across every Uptal product: Talent Search for employers, and Auto-Apply and CV Enhancer for job seekers.</p>
+    <div class="meta">
+      <span><b>Effective date:</b> July 5, 2026</span>
+      <span><b>Last updated:</b> July 5, 2026</span>
+      <span><b>Provider:</b> Uptal, Kingdom of Saudi Arabia</span>
+    </div>
+  </div>
+
+  <div class="scope" aria-label="Products covered by this policy">
+    <div class="scope-grid">
+      <div class="card">
+        <h3>Talent Search</h3>
+        <span class="aud">For employers &amp; recruiters</span>
+        <p>Recurring subscription. Professional &amp; Executive Pro plans with monthly candidate profile unlocks.</p>
+        <span class="chip">Final &amp; non-refundable</span>
+      </div>
+      <div class="card">
+        <h3>Auto-Apply</h3>
+        <span class="aud">For job seekers</span>
+        <p>Recurring subscription. Our AI tailors your CV and applies to matching jobs for you. Cancel or pause anytime.</p>
+        <span class="chip">Final &amp; non-refundable</span>
+      </div>
+      <div class="card">
+        <h3>CV Enhancer</h3>
+        <span class="aud">For job seekers</span>
+        <p>One-time purchase. A done-for-you enhanced, rewritten CV prepared specifically for you.</p>
+        <span class="chip">Final &amp; non-refundable · revisions offered</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <nav class="toc" aria-label="On this page">
+      <div class="inner">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#overview">Overview &amp; scope</a></li>
+          <li><a href="#general">Digital services, immediate access &amp; consumption</a></li>
+          <li><a href="#talent-search">Uptal Talent Search</a></li>
+          <li><a href="#auto-apply">Uptal Auto-Apply</a></li>
+          <li><a href="#cv-enhancer">Uptal CV Enhancer</a></li>
+          <li><a href="#pricing">Pricing &amp; taxes</a></li>
+          <li><a href="#availability">Service availability &amp; disruptions</a></li>
+          <li><a href="#exceptions">Exceptions</a></li>
+          <li><a href="#chargebacks">Chargebacks &amp; disputes</a></li>
+          <li><a href="#governing-law">Governing law</a></li>
+          <li><a href="#contact">Contact information</a></li>
+          <li><a href="#updates">Policy updates</a></li>
+        </ol>
+      </div>
+    </nav>
+
+    <article>
+      <section id="overview">
+        <h2><span class="num">1</span> Overview &amp; scope</h2>
+        <p>This Refund Policy governs all purchases made through Uptal across the following products:</p>
+        <ul>
+          <li><b>Uptal Talent Search</b>: subscription plans for employers and recruiters (Professional and Executive Pro). <a href="https://uptal.com/talent-search">uptal.com/talent-search</a></li>
+          <li><b>Uptal Auto-Apply</b>: a subscription service for job seekers that matches you to roles, tailors your CV, and submits applications on your behalf. <a href="https://uptal.com/auto-apply">uptal.com/auto-apply</a></li>
+          <li><b>Uptal CV Enhancer</b>: a one-time, done-for-you service that enhances and rewrites your CV.</li>
+        </ul>
+        <p>By subscribing to, purchasing, or using any Uptal product, you acknowledge and agree to the terms set out in this policy. Terms that apply to a specific product appear in that product's section (Sections 3 to 5). The general terms in Sections 6 to 12 apply to all Uptal purchases. This policy should be read together with our <a href="https://uptal.com/terms-and-conditions">Terms &amp; Conditions</a> and <a href="https://uptal.com/privacy-policy">Privacy Policy</a>.</p>
+        <div class="note"><strong>Your statutory rights.</strong> Nothing in this policy limits or excludes any right you may have under the Saudi E-Commerce Law, the Consumer Protection Law, or other mandatory Saudi law that cannot be waived by agreement. Where a service is not delivered, is materially defective, or does not conform to what was described, you remain entitled to the remedies those laws provide.</div>
+      </section>
+
+      <section id="general">
+        <h2><span class="num">2</span> Digital services, immediate access &amp; consumption</h2>
+        <p>All Uptal products are digital services that are delivered and consumed immediately upon purchase:</p>
+        <ul>
+          <li><b>Talent Search</b> grants instant, unrestricted access to the platform and its candidate data.</li>
+          <li><b>Auto-Apply</b> begins matching you to roles and submitting applications on your behalf as soon as your subscription is active, and continues throughout your billing period.</li>
+          <li><b>CV Enhancer</b> work begins as soon as your order is placed, producing a digital deliverable created specifically for you.</li>
+        </ul>
+        <p>Because you get immediate access and each service starts working for you as soon as you pay, your purchase is treated as used, fully or progressively, from that moment. This is the basis for the refund terms below. When you purchase, you expressly consent to Uptal beginning the service immediately and acknowledge that, to the extent the service has already been provided, this affects any statutory right to withdraw.</p>
+      </section>
+
+      <section id="talent-search">
+        <h2><span class="num">3</span> Uptal Talent Search</h2>
+        <span class="audience-tag"><b>Applies to:</b> employers &amp; recruiters on Professional and Executive Pro plans</span>
+
+        <h3 class="sub">3.1 Nature of service: immediate access &amp; consumption</h3>
+        <p>Uptal Talent Search is a digital service that is delivered and put to use from the moment of purchase. Upon successful payment, the subscriber receives immediate, unrestricted access to the platform's full feature set, including the ability to search, filter, and unlock candidate profiles (subject to your plan's monthly unlock allowance; see Section 3.4). Because access is granted instantly and the platform is available for use throughout the billing period, the service is considered used from the point of purchase and progressively as unlocks are consumed.</p>
+
+        <h3 class="sub">3.2 No-refund policy</h3>
+        <p>All payments made for Uptal Talent Search subscriptions are final and non-refundable. This applies to all billing cycles, including monthly, quarterly, and annual plans. Once a subscription payment has been processed, no refunds, credits, or exchanges will be issued except as set out in Section 8 (Exceptions) or as required by applicable Saudi law, including but not limited to:</p>
+        <ul>
+          <li>Partial use or non-use of the subscription during the billing period</li>
+          <li>Unused profile unlocks at the end of a billing cycle</li>
+          <li>Dissatisfaction with search results, candidate profiles, or data quality</li>
+          <li>Failure to cancel the subscription before the next billing cycle</li>
+          <li>Changes in hiring needs, company restructuring, or staffing plans</li>
+          <li>Technical issues on the subscriber's end (for example, browser compatibility or internet access)</li>
+          <li>Duplicate or accidental purchases, except a duplicate charge caused by a verified billing-system error (see Section 8)</li>
+        </ul>
+
+        <h3 class="sub">3.3 Subscription billing &amp; cancellation</h3>
+        <p>Uptal Talent Search subscriptions are billed on a recurring basis according to the selected plan duration (monthly, quarterly, or annual). Key billing terms:</p>
+        <ul>
+          <li>Subscriptions auto-renew at the end of each billing cycle unless cancelled before renewal.</li>
+          <li>Cancellation takes effect at the end of the current billing period. You retain access to the service until your paid period expires.</li>
+          <li>No prorated refunds are issued for cancellations made mid-cycle.</li>
+          <li>Downgrading from Executive Pro to Professional does not entitle the subscriber to a refund for the difference in plan pricing.</li>
+          <li>You can cancel at any time from your Uptal account settings, or by contacting <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a>.</li>
+        </ul>
+
+        <h3 class="sub">3.4 Profile unlocks</h3>
+        <p>Each subscription plan includes a set number of profile unlocks per month (100 for Professional, 500 for Executive Pro). Unused profile unlocks do not roll over to subsequent billing periods and are non-refundable. No compensation or credits will be provided for unused unlocks.</p>
+      </section>
+
+      <section id="auto-apply">
+        <h2><span class="num">4</span> Uptal Auto-Apply</h2>
+        <span class="audience-tag"><b>Applies to:</b> job seekers subscribed to Auto-Apply</span>
+
+        <h3 class="sub">4.1 Nature of service</h3>
+        <p>Uptal Auto-Apply is a recurring subscription. Once your subscription is active, Uptal's AI immediately begins matching you to roles, tailoring your CV for each role, and submitting applications on your behalf. This service is delivered continuously and consumed as applications are submitted throughout your billing period.</p>
+
+        <h3 class="sub">4.2 No-refund policy</h3>
+        <p>All payments made for Auto-Apply subscriptions are final and non-refundable. Once a payment has been processed, no refunds, credits, or exchanges will be issued except as set out in Section 8 (Exceptions) or as required by applicable Saudi law, including but not limited to:</p>
+        <ul>
+          <li>Partial use or non-use of the subscription during the billing period</li>
+          <li>The number of roles matched, or applications tailored or submitted, during the period</li>
+          <li>Dissatisfaction with matches, tailored CVs, employer responses, or interview outcomes</li>
+          <li>Not being hired, shortlisted, or contacted by an employer (see Section 4.5)</li>
+          <li>Failure to cancel or pause before your next renewal</li>
+          <li>Promotional or first-period discounts already applied to your subscription</li>
+          <li>Technical issues on your own device or internet connection</li>
+          <li>Duplicate or accidental purchases, except a duplicate charge caused by a verified billing-system error (see Section 8)</li>
+        </ul>
+
+        <h3 class="sub">4.3 Subscription billing &amp; cancellation</h3>
+        <p>Auto-Apply is billed on a recurring basis according to the plan you select at checkout. The price that applies to you is shown before you pay. Key billing terms:</p>
+        <ul>
+          <li>Your subscription auto-renews at the end of each billing cycle unless cancelled before renewal.</li>
+          <li>You may cancel at any time from your Uptal account settings, or by contacting <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a>. Cancellation takes effect at the end of your current paid period, and you keep access until then.</li>
+          <li>No prorated or partial refunds are issued for cancellations made mid-cycle.</li>
+        </ul>
+
+        <h3 class="sub">4.4 Pausing your subscription</h3>
+        <p>As an alternative to cancelling, you may pause your Auto-Apply subscription for up to three months at a time. Pausing suspends both your applications and your billing for the selected period; it is not a refund of any amount already paid. Your subscription resumes automatically at the end of the pause unless you cancel.</p>
+
+        <h3 class="sub">4.5 No guarantee of employment outcomes</h3>
+        <div class="callout"><strong>Auto-Apply submits applications on your behalf; it does not guarantee interviews, offers, or employment.</strong> Hiring decisions are made solely by employers. The absence of a response, interview, or job offer is not a basis for a refund.</div>
+      </section>
+
+      <section id="cv-enhancer">
+        <h2><span class="num">5</span> Uptal CV Enhancer</h2>
+        <span class="audience-tag"><b>Applies to:</b> job seekers who purchase a CV Enhancer order</span>
+
+        <h3 class="sub">5.1 Nature of service</h3>
+        <p>Uptal CV Enhancer is a one-time, done-for-you digital service. When you place an order, Uptal enhances and rewrites your CV to produce a personalized digital deliverable created specifically for you. Our team begins work as soon as you place your order.</p>
+
+        <h3 class="sub">5.2 No-refund policy</h3>
+        <p>Because the CV Enhancer produces a custom digital deliverable prepared specifically for you, all sales are final and non-refundable from the moment of purchase. No refunds, credits, or exchanges will be issued after purchase except as set out in Section 8 (Exceptions) or as required by applicable Saudi law, including but not limited to:</p>
+        <ul>
+          <li>Dissatisfaction with the writing style, wording, formatting, or design, which are inherently subjective</li>
+          <li>The enhanced CV not resulting in interviews, offers, or employment</li>
+          <li>Change of mind after purchase</li>
+          <li>Inaccurate, incomplete, or missing information that you provided</li>
+          <li>Technical issues on your own device or internet connection</li>
+        </ul>
+
+        <h3 class="sub">5.3 Revisions instead of refunds</h3>
+        <div class="callout">If you are not satisfied with your enhanced CV, the remedy we provide is <strong>revisions, not a refund</strong>. Contact <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a> and we will work with you to adjust your CV in line with the service you purchased. If the delivered CV materially fails to match the service described and revisions cannot resolve this, you remain entitled to the remedies available under applicable Saudi law.</div>
+
+      </section>
+
+      <section id="pricing">
+        <h2><span class="num">6</span> Pricing &amp; taxes</h2>
+        <p>All prices displayed on Uptal are exclusive of Value Added Tax (VAT). Applicable VAT (currently 15%) is added at checkout in accordance with Saudi Arabian tax regulations, and a VAT-compliant tax invoice is issued for each charge. Uptal may modify pricing at any time without prior notice. The price displayed at checkout, or the price applied at your renewal, is the price in effect for that charge. Promotional and discounted prices are non-refundable.</p>
+      </section>
+
+      <section id="availability">
+        <h2><span class="num">7</span> Service availability &amp; disruptions</h2>
+        <p>Uptal strives to maintain uninterrupted access to its services. However, temporary service disruptions may occur due to scheduled maintenance, system upgrades, or unforeseen technical issues. Service disruptions do not entitle you to refunds or billing credits.</p>
+      </section>
+
+      <section id="exceptions">
+        <h2><span class="num">8</span> Exceptions</h2>
+        <p>Apart from your statutory rights under applicable Saudi law, refunds are considered only in the following cases, and these apply across all Uptal products:</p>
+        <ul>
+          <li>A duplicate charge caused by a verified billing-system error on Uptal's side will be refunded.</li>
+          <li>An unauthorized charge, including one resulting from a confirmed security breach of your Uptal account, will be refunded once the charge is confirmed as unauthorized following investigation.</li>
+        </ul>
+        <p>To request a refund for one of the situations above, contact <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a> within seven (7) calendar days of the charge. This seven-day window applies to these requests and does not limit any right you have under mandatory Saudi law. Approved refunds are issued to the original payment method, typically within 10 business days.</p>
+      </section>
+
+      <section id="chargebacks">
+        <h2><span class="num">9</span> Chargebacks &amp; disputes</h2>
+        <p>If you have a billing concern, please contact <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a> first so that we can resolve it directly; this is almost always the fastest way to fix a billing issue. If a chargeback or payment dispute is filed with your bank or payment provider before contacting us, we may suspend access to the affected product while we investigate. Where a disputed charge is found to be valid, we may recover the amount owed together with any reasonable, documented costs.</p>
+      </section>
+
+      <section id="governing-law">
+        <h2><span class="num">10</span> Governing law</h2>
+        <p>This Refund Policy is governed by and construed in accordance with the laws of the Kingdom of Saudi Arabia. Any dispute arising under this policy is subject to the exclusive jurisdiction of the competent courts in Riyadh, Saudi Arabia.</p>
+      </section>
+
+      <section id="contact">
+        <h2><span class="num">11</span> Contact information</h2>
+        <p>For billing inquiries, revision requests, or to report a billing error, please contact us at <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a>.</p>
+      </section>
+
+      <section id="updates">
+        <h2><span class="num">12</span> Policy updates</h2>
+        <p>Uptal reserves the right to update or modify this Refund Policy at any time. Changes are posted on the Uptal website and take effect immediately upon publication. Your continued use of any Uptal product after changes are posted constitutes acceptance of the revised policy.</p>
+        <p class="lastline">This Refund Policy was last updated on July 5, 2026.</p>
+      </section>
+    </article>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="foot">
+    <a class="brand" href="https://uptal.com"><span class="dot" aria-hidden="true"></span> UPTAL</a>
+    <nav aria-label="Legal">
+      <a href="https://uptal.com/terms-and-conditions">Terms &amp; Conditions</a>
+      <a href="https://uptal.com/privacy-policy">Privacy Policy</a>
+      <a href="https://uptal.com/refund-policy">Refund Policy</a>
+      <a href="https://uptal.com/contact-us">Contact Us</a>
+    </nav>
+    <!-- TODO before publishing: per the Saudi E-Commerce Law merchant-disclosure requirement, add the full legal entity name, Commercial Registration (CR) number and/or Maroof registration number, and a registered business address here. -->
+    <div class="copy">Copyright © 2026 Uptal. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>

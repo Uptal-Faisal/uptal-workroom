@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Terms &amp; Conditions | Uptal</title>
+<meta name="description" content="Uptal Terms and Conditions covering Talent Search, Auto-Apply, CV Enhancer, interviews and assessments. Payments, acceptable use, PDPL, data custodianship, and KSA governing law." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --oxford:#061430; --electric:#0028DB; --persian:#353CD8; --flash:#4CEA63;
+    --ink:#0E1726; --slate:#54607A; --muted:#7A8399;
+    --line:#E7EAF2; --line-soft:#EEF1F8;
+    --bg:#FFFFFF; --bg-soft:#F6F8FC; --mint:#EAFBF0; --mint-line:#BFEFCF;
+    --radius:18px; --maxw:1120px;
+    --shadow:0 1px 2px rgba(6,20,48,.04), 0 12px 34px -18px rgba(6,20,48,.20);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:'Switzer','Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+    font-size:17px; line-height:1.7; -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:var(--persian); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .skip{position:absolute;left:-999px;top:auto}
+  .skip:focus{left:16px;top:16px;background:#fff;padding:10px 14px;border-radius:10px;z-index:100;box-shadow:var(--shadow)}
+
+  header.site{
+    position:sticky; top:0; z-index:40;
+    background:rgba(255,255,255,.86); backdrop-filter:saturate(160%) blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .bar{
+    max-width:var(--maxw); margin:0 auto; padding:14px 22px;
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+  }
+  .brand{display:inline-flex; align-items:center; gap:10px; color:var(--oxford); font-weight:800; letter-spacing:.12em; font-size:15px}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--flash);box-shadow:0 0 0 4px rgba(76,234,99,.18)}
+  .brand span.sub{color:var(--muted); font-weight:600; letter-spacing:.02em}
+  .langswitch{
+    display:inline-flex; align-items:center; gap:8px; font-weight:600; font-size:14px;
+    color:var(--oxford); border:1px solid var(--line); padding:8px 14px; border-radius:999px; background:#fff;
+  }
+  .langswitch:hover{border-color:var(--persian); text-decoration:none}
+
+  main{display:block}
+  .hero{max-width:var(--maxw); margin:0 auto; padding:56px 22px 8px}
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:9px; font-size:12.5px; font-weight:700;
+    letter-spacing:.16em; text-transform:uppercase; color:var(--persian);
+    background:#EEF0FF; border:1px solid #DDE1FF; padding:7px 13px; border-radius:999px;
+  }
+  .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--persian)}
+  h1{font-size:clamp(34px,6vw,52px); line-height:1.06; letter-spacing:-.02em; margin:20px 0 14px; color:var(--oxford)}
+  .lede{font-size:clamp(17px,2.4vw,19px); color:var(--slate); max-width:70ch; margin:0}
+  .meta{display:flex; flex-wrap:wrap; gap:10px 22px; margin-top:22px; color:var(--muted); font-size:14.5px; font-weight:500}
+  .meta b{color:var(--ink); font-weight:600}
+
+  .wrap{max-width:var(--maxw); margin:44px auto 0; padding:0 22px 80px; display:grid; grid-template-columns:1fr; gap:36px}
+  nav.toc{display:none}
+  nav.toc h4{margin:0 0 12px; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted)}
+  nav.toc ol{list-style:none; margin:0; padding:0; counter-reset:toc}
+  nav.toc li{counter-increment:toc; margin:0}
+  nav.toc a{display:flex; gap:10px; padding:6px 10px; border-radius:10px; color:var(--slate); font-size:13.5px; font-weight:500; line-height:1.35}
+  nav.toc a::before{content:counter(toc); color:var(--muted); font-weight:700; font-variant-numeric:tabular-nums; min-width:16px}
+  nav.toc a:hover{background:var(--bg-soft); color:var(--oxford); text-decoration:none}
+
+  article{min-width:0}
+  section{padding:26px 0; border-top:1px solid var(--line-soft); scroll-margin-top:90px}
+  section:first-of-type{border-top:none; padding-top:8px}
+  h2{
+    font-size:clamp(22px,3.4vw,27px); letter-spacing:-.015em; color:var(--oxford);
+    margin:0 0 14px; display:flex; align-items:baseline; gap:12px;
+  }
+  h2 .num{
+    font-size:14px; font-weight:800; color:var(--persian); background:#EEF0FF; border:1px solid #DDE1FF;
+    border-radius:8px; padding:3px 9px; line-height:1; flex:none; position:relative; top:-2px; font-variant-numeric:tabular-nums;
+  }
+  h3.sub{font-size:18px; color:var(--oxford); margin:22px 0 8px; letter-spacing:-.01em}
+  p{margin:0 0 14px}
+  article ul{margin:6px 0 16px; padding-left:0; list-style:none}
+  article ul li{position:relative; padding-left:26px; margin:9px 0; color:var(--ink)}
+  article ul li::before{content:""; position:absolute; left:6px; top:11px; width:7px; height:7px; border-radius:2px; background:var(--flash); box-shadow:0 0 0 3px rgba(76,234,99,.16)}
+
+  .callout{
+    background:var(--mint); border:1px solid var(--mint-line); border-radius:14px; padding:16px 18px; margin:18px 0;
+    color:#0B4A2A; font-size:15.5px;
+  }
+  .callout strong{color:#0B6B39}
+  .note{
+    background:var(--bg-soft); border:1px solid var(--line); border-left:3px solid var(--persian);
+    border-radius:12px; padding:15px 18px; margin:18px 0; color:var(--slate); font-size:15px;
+  }
+  .note strong{color:var(--oxford)}
+  .caps{font-size:15px; color:var(--slate)}
+  .lastline{color:var(--muted); font-size:14px; margin-top:6px}
+  a.mail{font-weight:600}
+
+  footer.site{border-top:1px solid var(--line); background:var(--bg-soft)}
+  .foot{max-width:var(--maxw); margin:0 auto; padding:34px 22px; display:flex; flex-wrap:wrap; gap:18px 40px; align-items:center; justify-content:space-between}
+  .foot .brand{color:var(--oxford)}
+  .foot nav{display:flex; flex-wrap:wrap; gap:8px 22px}
+  .foot nav a{color:var(--slate); font-size:14px; font-weight:500}
+  .foot .copy{width:100%; color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding-top:16px; margin-top:4px}
+
+  @media (min-width:1024px){
+    .wrap{grid-template-columns:250px 1fr; gap:52px}
+    nav.toc{display:block}
+    nav.toc .inner{position:sticky; top:96px; max-height:calc(100vh - 120px); overflow-y:auto}
+  }
+  @media (max-width:720px){
+    .hero{padding-top:40px}
+    body{font-size:16.5px}
+  }
+  @media print{
+    header.site,footer.site,nav.toc,.langswitch{display:none !important}
+    .wrap{grid-template-columns:1fr; margin:0; padding:0}
+    body{font-size:12pt}
+    section{page-break-inside:avoid; border-top:1px solid #ccc}
+    a{color:#000; text-decoration:none}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to terms</a>
+
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="https://uptal.com" aria-label="Uptal home">
+      <span class="dot" aria-hidden="true"></span> UPTAL <span class="sub">Legal</span>
+    </a>
+    <a class="langswitch" href="Uptal_Terms_AR.html" lang="ar" hreflang="ar" dir="rtl">العربية</a>
+  </div>
+</header>
+
+<main id="content">
+  <div class="hero">
+    <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Terms &amp; Conditions</span>
+    <h1>Terms &amp; Conditions</h1>
+    <p class="lede">These Terms govern your use of the Uptal website, platform, and all Uptal services: Talent Search, interviews and assessments for employers, and Auto-Apply and CV Enhancer for job seekers.</p>
+    <div class="meta">
+      <span><b>Effective date:</b> July 5, 2026</span>
+      <span><b>Last updated:</b> July 5, 2026</span>
+      <span><b>Provider:</b> Uptal, Kingdom of Saudi Arabia</span>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <nav class="toc" aria-label="On this page">
+      <div class="inner">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#acceptance">Acceptance of these Terms</a></li>
+          <li><a href="#definitions">Definitions</a></li>
+          <li><a href="#eligibility">Eligibility</a></li>
+          <li><a href="#services">Our services</a></li>
+          <li><a href="#accounts">User accounts</a></li>
+          <li><a href="#payments">Payments, subscriptions &amp; refunds</a></li>
+          <li><a href="#jobseekers">Job seeker services: Auto-Apply &amp; CV Enhancer</a></li>
+          <li><a href="#acceptable-use">Acceptable use &amp; prohibited activities</a></li>
+          <li><a href="#ip">Intellectual property &amp; licenses</a></li>
+          <li><a href="#privacy">Privacy &amp; PDPL compliance</a></li>
+          <li><a href="#custodianship">Data custodianship &amp; platform outputs</a></li>
+          <li><a href="#analytics">Usage data &amp; analytics</a></li>
+          <li><a href="#thirdparty">Third-party services</a></li>
+          <li><a href="#termination">Suspension &amp; termination</a></li>
+          <li><a href="#disclaimers">Disclaimer of warranties</a></li>
+          <li><a href="#liability">Limitation of liability</a></li>
+          <li><a href="#indemnification">Indemnification</a></li>
+          <li><a href="#affiliate">Affiliate program</a></li>
+          <li><a href="#law">Governing law &amp; jurisdiction</a></li>
+          <li><a href="#changes">Changes to these Terms</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ol>
+      </div>
+    </nav>
+
+    <article>
+      <section id="acceptance">
+        <h2><span class="num">1</span> Acceptance of these Terms</h2>
+        <p>Welcome to Uptal. These Terms and Conditions ("Terms") govern your access to and use of the Uptal website, platform, applications, and all services we provide (collectively, the "Services"). By accessing or using any part of the Services, you agree to be bound by these Terms. If you do not agree to these Terms, you may not use the Services.</p>
+        <p>These Terms should be read together with our <a href="https://uptal.com/privacy-policy">Privacy Policy</a> and our <a href="https://uptal.com/refund-policy">Refund Policy</a>, both of which are incorporated into these Terms by reference.</p>
+        <div class="note"><strong>Your statutory rights.</strong> Nothing in these Terms limits or excludes any right you have under the Saudi E-Commerce Law, the Consumer Protection framework, the Personal Data Protection Law (PDPL), or any other mandatory Saudi law that cannot be waived by agreement.</div>
+      </section>
+
+      <section id="definitions">
+        <h2><span class="num">2</span> Definitions</h2>
+        <ul>
+          <li>"Uptal", "we", "our", or "us" refers to Uptal Company, Kingdom of Saudi Arabia.</li>
+          <li>"Services" means all products and services provided by Uptal, including the Website, Talent Search, Auto-Apply, CV Enhancer, interviews, assessments, and recruitment management software.</li>
+          <li>"Website" means the website located at <a href="https://uptal.com">https://uptal.com</a> and any related Uptal websites or applications.</li>
+          <li>"Subscriber" or "Customer" means an employer, recruiter, or hiring manager using the Services for recruitment purposes.</li>
+          <li>"Job Seeker" means an individual using Auto-Apply, CV Enhancer, or any candidate-facing Uptal service.</li>
+          <li>"Candidate" means an individual whose profile, CV, interview, or assessment is accessible through the Services.</li>
+          <li>"User", "you", or "your" refers to any individual or entity using the Services or Website.</li>
+        </ul>
+      </section>
+
+      <section id="eligibility">
+        <h2><span class="num">3</span> Eligibility</h2>
+        <p>By using our Services, you represent and warrant that you are at least 18 years old and have the legal capacity to enter into these Terms. If you are using the Services on behalf of a company or organization, you represent and warrant that you are authorized to bind that entity to these Terms.</p>
+      </section>
+
+      <section id="services">
+        <h2><span class="num">4</span> Our services</h2>
+        <h3 class="sub">4.1 For employers and recruiters</h3>
+        <ul>
+          <li><b>Talent Search</b>: subscription plans (Professional and Executive Pro) providing access to search, filter, and unlock verified candidate profiles, subject to your plan's monthly unlock allowance.</li>
+          <li><b>Interviews &amp; assessments</b>: AI-powered self-recorded interviews, technical assessments, and psychometric assessments that help companies screen candidates.</li>
+          <li><b>Recruitment management</b>: tools for managing job postings, applicants, and hiring pipelines.</li>
+        </ul>
+        <h3 class="sub">4.2 For job seekers</h3>
+        <ul>
+          <li><b>Auto-Apply</b>: a recurring subscription in which Uptal's AI matches you to roles, tailors your CV for each role, and submits job applications on your behalf, according to the preferences you set.</li>
+          <li><b>CV Enhancer</b>: a one-time, done-for-you service that enhances and rewrites your CV into a personalized digital deliverable.</li>
+        </ul>
+        <p>Uptal may add, modify, or discontinue features or services at any time. You may use the Services only for lawful purposes and in accordance with these Terms.</p>
+      </section>
+
+      <section id="accounts">
+        <h2><span class="num">5</span> User accounts</h2>
+        <p>To access certain features, you may need to register for an account. When you register, you agree to:</p>
+        <ul>
+          <li>Provide accurate, current, and complete information as prompted by the registration form.</li>
+          <li>Maintain and promptly update your information to keep it accurate, current, and complete.</li>
+          <li>Keep your login credentials confidential and not disclose them to anyone else.</li>
+          <li>Be responsible for all activities that occur under your account.</li>
+        </ul>
+        <p>You must notify us promptly at <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a> if you suspect any unauthorized use of your account.</p>
+      </section>
+
+      <section id="payments">
+        <h2><span class="num">6</span> Payments, subscriptions &amp; refunds</h2>
+        <h3 class="sub">6.1 Fees and billing</h3>
+        <p>Certain Services require payment of fees. By using any paid Service, you agree to pay all applicable fees and charges, including applicable taxes. Subscriptions (including Talent Search and Auto-Apply) are billed on a recurring basis and auto-renew at the end of each billing cycle unless cancelled before renewal. Cancellation takes effect at the end of the current billing period; you retain access until your paid period expires. You can cancel at any time from your account settings or by contacting <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a>.</p>
+        <h3 class="sub">6.2 No refunds</h3>
+        <div class="callout"><strong>All payments for all Uptal Services are final and non-refundable.</strong> Uptal's Services are digital services with immediate access and are treated as used from the moment of purchase. Refunds are considered only in the limited cases set out in our <a href="https://uptal.com/refund-policy">Refund Policy</a> (verified billing errors and confirmed unauthorized charges) or where required by applicable Saudi law.</div>
+        <h3 class="sub">6.3 Pricing, VAT &amp; price changes</h3>
+        <p>All prices are exclusive of Value Added Tax (VAT). Applicable VAT (currently 15%) is added at checkout, and a VAT-compliant tax invoice is issued for each charge. Uptal may modify pricing at any time without prior notice. The price displayed at checkout, or the then-current price for your plan as published on the Website at the time of renewal, is the price in effect for that charge.</p>
+        <h3 class="sub">6.4 Free trials</h3>
+        <p>Uptal may offer free trials or free features at its discretion. Free trials convert to paid subscriptions only where clearly disclosed before you provide payment details. Uptal may modify or withdraw free offerings at any time.</p>
+        <h3 class="sub">6.5 Chargebacks</h3>
+        <p>If you have a billing concern, contact <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a> first so we can resolve it directly. If a chargeback or payment dispute is filed before contacting us, we may suspend access to the affected Service while we investigate, and where the disputed charge is found valid, we may recover the amount owed together with reasonable, documented costs.</p>
+      </section>
+
+      <section id="jobseekers">
+        <h2><span class="num">7</span> Job seeker services: Auto-Apply &amp; CV Enhancer</h2>
+        <h3 class="sub">7.1 Your authorization to Uptal</h3>
+        <p>By subscribing to Auto-Apply, you expressly authorize Uptal to, on your behalf and according to the preferences you set: identify job openings matching your profile; prepare tailored versions of your CV for specific roles; and submit job applications, including your tailored CV, your application details, and the personal data they contain, to employers and job platforms, including employers located outside the Kingdom of Saudi Arabia where your preferences target such roles. You may adjust your targeting preferences, pause, or cancel at any time from your account.</p>
+        <h3 class="sub">7.2 Your responsibilities</h3>
+        <ul>
+          <li>You warrant that the information in your CV and profile is truthful, accurate, and up to date. Tailored CVs are generated from the information you provide; you are responsible for its accuracy.</li>
+          <li>You confirm you have the right to seek employment in the locations you target.</li>
+          <li>You will review your account regularly and keep your preferences current.</li>
+        </ul>
+        <h3 class="sub">7.3 No employment guarantee</h3>
+        <div class="callout"><strong>Uptal does not guarantee interviews, offers, or employment.</strong> Auto-Apply submits applications and CV Enhancer improves your CV; hiring decisions are made solely by employers. Application volumes, match counts, and response rates vary and are not guaranteed.</div>
+        <h3 class="sub">7.4 CV Enhancer deliverables</h3>
+        <p>CV Enhancer produces a personalized digital deliverable based on the information you provide. If you are not satisfied, the remedy we provide is revisions in line with the service you purchased, not a refund, as set out in the <a href="https://uptal.com/refund-policy">Refund Policy</a>.</p>
+      </section>
+
+      <section id="acceptable-use">
+        <h2><span class="num">8</span> Acceptable use &amp; prohibited activities</h2>
+        <h3 class="sub">8.1 General prohibitions</h3>
+        <p>You agree not to use the Services:</p>
+        <ul>
+          <li>In any way that violates any applicable Saudi Arabian or international law or regulation.</li>
+          <li>To engage in conduct that restricts or inhibits anyone's use or enjoyment of the Services, or that may harm, or create liability for, Uptal or any user of the Services.</li>
+          <li>In any manner that could disable, overburden, damage, or impair the Services or interfere with any other party's use of the Services.</li>
+          <li>To submit false, misleading, or fraudulent information, including in CVs, profiles, or job applications.</li>
+        </ul>
+        <h3 class="sub">8.2 Prohibited technical activities</h3>
+        <p>You agree not to engage in any activity that compromises, interferes with, or attempts to circumvent the intended use, security, or operation of the Services. Prohibited activities include, but are not limited to:</p>
+        <ul>
+          <li><b>Unauthorized API access</b>: accessing or attempting to access the Services or any API using tools such as Postman, cURL, scripts, custom clients, browser extensions, or any other method not expressly authorized by Uptal.</li>
+          <li><b>Scraping and data harvesting</b>: downloading, extracting, exporting, mining, indexing, or otherwise collecting data from the Services manually or through automated means, including bots, crawlers, or spiders.</li>
+          <li><b>Reverse engineering</b>: attempting to decompile, disassemble, reverse engineer, or otherwise derive the source code, architecture, models, scoring logic, or algorithms used by Uptal, including its AI or evaluation mechanisms.</li>
+          <li><b>Bypassing security or limits</b>: circumventing, disabling, or interfering with authentication, authorization, rate limits, usage quotas, monitoring, or any security or technical protection measures.</li>
+          <li><b>Unauthorized security testing</b>: performing penetration testing, vulnerability scanning, load testing, or similar testing without prior written approval from Uptal.</li>
+        </ul>
+        <p>Any such activity constitutes a material breach of these Terms and may also constitute a violation of the Saudi Anti-Cyber Crime Law and applicable data protection and intellectual property laws.</p>
+      </section>
+
+      <section id="ip">
+        <h2><span class="num">9</span> Intellectual property &amp; licenses</h2>
+        <h3 class="sub">9.1 Uptal property</h3>
+        <p>All content and materials provided on or through the Services, including text, graphics, logos, icons, images, audio and video clips, data compilations, software, algorithms, and user interface designs, are the property of Uptal or its licensors and are protected by Saudi Arabian and international copyright and intellectual property laws.</p>
+        <h3 class="sub">9.2 Your license to use the Services</h3>
+        <p>Uptal grants you a limited, non-exclusive, non-transferable, revocable license to access and use the Services for your internal business purposes (Subscribers) or your personal, non-commercial job search (Job Seekers). This license does not include any right to reproduce, modify, distribute, publicly display, or create derivative works from our content except as expressly permitted in writing by Uptal.</p>
+        <h3 class="sub">9.3 Your content</h3>
+        <p>You retain ownership of the content you submit to the Services, including your CV. By submitting content, you grant Uptal a worldwide, non-exclusive, royalty-free license to host, store, process, adapt, and transmit that content as needed to provide the Services, including generating tailored versions of your CV and submitting them to employers on your instructions (Auto-Apply), and producing your enhanced CV (CV Enhancer).</p>
+      </section>
+
+      <section id="privacy">
+        <h2><span class="num">10</span> Privacy &amp; PDPL compliance</h2>
+        <p>Your use of the Services is also governed by our <a href="https://uptal.com/privacy-policy">Privacy Policy</a>, which explains how we collect, use, and disclose personal data. By using the Services, you acknowledge that your personal data will be processed as described in the Privacy Policy, on the legal bases set out there, in compliance with the Saudi Personal Data Protection Law (PDPL) and its Implementing Regulations.</p>
+      </section>
+
+      <section id="custodianship">
+        <h2><span class="num">11</span> Data custodianship &amp; platform outputs</h2>
+        <div class="note"><strong>Important:</strong> under the PDPL, personal data is subject to data subject rights and lawful processing obligations. These Terms clarify rights and responsibilities; they do not transfer ownership of personal data.</div>
+        <h3 class="sub">11.1 Candidate data and custodianship</h3>
+        <ul>
+          <li>Personal data relating to Candidates is not owned by Customers, and Customers do not acquire any ownership, property, or proprietary rights in Candidate personal data by virtue of using the Services.</li>
+          <li>Candidates retain their rights as data subjects under applicable data protection laws.</li>
+          <li>Uptal acts as a lawful custodian of Candidate personal data and processes such data strictly in accordance with applicable law, our Privacy Policy, and documented service purposes.</li>
+          <li>Nothing in these Terms shall be interpreted as transferring ownership of personal data to any party.</li>
+        </ul>
+        <h3 class="sub">11.2 Platform outputs and derived data</h3>
+        <p>Unless explicitly stated otherwise in a written agreement, Uptal retains all rights, title, and interest in platform-generated outputs and derived data, including AI-generated assessments, scores, evaluations, reports, structured insights, tailored-CV formatting and structure, usage data, system logs, aggregated and anonymized data, and improvements derived from platform usage. Such derived data may be used to operate, secure, and improve the Services.</p>
+        <h3 class="sub">11.3 License to access data</h3>
+        <p>Customers are granted a limited, non-exclusive, non-transferable, revocable license to access data and outputs solely through the Services and strictly for internal business purposes. No right is granted to export, resell, sublicense, scrape, or reuse data outside the Services unless expressly authorized in writing by Uptal.</p>
+      </section>
+
+      <section id="analytics">
+        <h2><span class="num">12</span> Usage data &amp; analytics</h2>
+        <p>Uptal may collect and process technical and usage data to operate, secure, troubleshoot, analyze, and improve the platform. This may include traffic and usage analytics, session recordings and interaction data, and device, browser, IP, and performance metrics. Such data is processed in accordance with the PDPL and our Privacy Policy.</p>
+      </section>
+
+      <section id="thirdparty">
+        <h2><span class="num">13</span> Third-party services</h2>
+        <p>The Services may rely on or link to third-party services, including payment processors, cloud hosting providers, and employer or job-platform systems to which applications are submitted. Uptal is not responsible for the content, policies, or practices of third-party services. Payment card data is processed by our third-party payment processor and is not stored on Uptal servers.</p>
+      </section>
+
+      <section id="termination">
+        <h2><span class="num">14</span> Suspension &amp; termination</h2>
+        <p>We may suspend or terminate your access to the Services, in whole or in part, at any time, with or without notice, if: (i) you violate these Terms; (ii) your use poses a security, legal, or operational risk; or (iii) required by law or a regulatory authority. Upon termination, your right to use the Services immediately ceases. Provisions of these Terms that by their nature should survive termination (including intellectual property, disclaimers, limitation of liability, and governing law) remain in effect. Termination does not entitle you to any refund, except where required by applicable Saudi law.</p>
+      </section>
+
+      <section id="disclaimers">
+        <h2><span class="num">15</span> Disclaimer of warranties</h2>
+        <p class="caps">THE SERVICES AND WEBSITE ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED. WITHOUT LIMITING THE FOREGOING, UPTAL EXPRESSLY DISCLAIMS ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE.</p>
+        <p>Uptal does not warrant that the Services will be uninterrupted, error-free, secure, or free of harmful components, that candidate data or job matches will be complete or accurate, or that use of the Services will result in hires (for Subscribers) or interviews, offers, or employment (for Job Seekers).</p>
+      </section>
+
+      <section id="liability">
+        <h2><span class="num">16</span> Limitation of liability</h2>
+        <p>To the maximum extent permitted by law, in no event shall Uptal be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of profits or revenues, loss of employment opportunities, or any loss of data, use, goodwill, or other intangible losses, arising out of or in connection with your use of the Services or Website.</p>
+        <p>To the extent permitted by law, Uptal's total aggregate liability arising out of or relating to these Terms or your use of the Services shall not exceed the amount you have paid to Uptal for the Services during the twelve (12) months immediately preceding the event giving rise to the claim.</p>
+      </section>
+
+      <section id="indemnification">
+        <h2><span class="num">17</span> Indemnification</h2>
+        <p>You agree to indemnify, defend, and hold harmless Uptal, its officers, directors, employees, agents, licensors, and suppliers from and against any and all claims, liabilities, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising out of or in any way connected with your use of the Services or Website, your violation of these Terms, the content you submit (including inaccurate CV or profile information), or your violation of any rights of another person or entity.</p>
+      </section>
+
+      <section id="affiliate">
+        <h2><span class="num">18</span> Affiliate program</h2>
+        <p>Uptal operates an affiliate program under which approved affiliates earn a commission of 10% of the total purchase price for each new customer referred through their unique referral link who completes a purchase. Commissions are paid monthly through the affiliate's Uptal account. Affiliates must have an active Uptal account and agree not to: send spam or unsolicited referral links; promote Uptal in a deceptive or misleading way; or use Uptal's branding or intellectual property without permission. Either party may terminate affiliate participation at any time, with or without cause. Uptal may update affiliate terms, commission rates, and eligibility at any time.</p>
+      </section>
+
+      <section id="law">
+        <h2><span class="num">19</span> Governing law &amp; jurisdiction</h2>
+        <p>These Terms shall be governed by and construed in accordance with the laws of the Kingdom of Saudi Arabia, without giving effect to any principles of conflicts of law. You agree that any action arising out of or relating to these Terms or your use of the Services shall be filed only in the courts located in Riyadh, Saudi Arabia, and you hereby consent and submit to the jurisdiction of such courts.</p>
+      </section>
+
+      <section id="changes">
+        <h2><span class="num">20</span> Changes to these Terms</h2>
+        <p>Uptal reserves the right to modify or update these Terms at any time. Updated Terms are posted on the Website and take effect immediately upon publication. Your continued use of the Services after any changes constitutes your acceptance of the updated Terms. If you do not agree to the updated Terms, you must stop using the Services.</p>
+      </section>
+
+      <section id="contact">
+        <h2><span class="num">21</span> Contact</h2>
+        <p>If you have any questions about these Terms, please contact us at <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a>.</p>
+        <p class="lastline">These Terms constitute the entire agreement between you and Uptal with respect to the Services and supersede all prior or contemporaneous communications and proposals, whether oral or written. Last updated July 5, 2026.</p>
+      </section>
+    </article>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="foot">
+    <a class="brand" href="https://uptal.com"><span class="dot" aria-hidden="true"></span> UPTAL</a>
+    <nav aria-label="Legal">
+      <a href="https://uptal.com/terms-and-conditions">Terms &amp; Conditions</a>
+      <a href="https://uptal.com/privacy-policy">Privacy Policy</a>
+      <a href="https://uptal.com/refund-policy">Refund Policy</a>
+      <a href="https://uptal.com/contact-us">Contact Us</a>
+    </nav>
+    <!-- TODO before publishing: per the Saudi E-Commerce Law merchant-disclosure requirement, add the full legal entity name, Commercial Registration (CR) number and/or Maroof registration number, and a registered business address here. -->
+    <div class="copy">Copyright © 2026 Uptal. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>

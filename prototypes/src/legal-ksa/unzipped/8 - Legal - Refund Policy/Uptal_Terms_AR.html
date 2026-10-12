@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>الشروط والأحكام | أبتال</title>
+<meta name="description" content="الشروط والأحكام في أبتال تشمل البحث عن الكفاءات والتقديم التلقائي وتحسين السيرة الذاتية والمقابلات والتقييمات. المدفوعات، الاستخدام المقبول، حماية البيانات الشخصية، والقانون السعودي الحاكم." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --oxford:#061430; --electric:#0028DB; --persian:#353CD8; --flash:#4CEA63;
+    --ink:#0E1726; --slate:#54607A; --muted:#7A8399;
+    --line:#E7EAF2; --line-soft:#EEF1F8;
+    --bg:#FFFFFF; --bg-soft:#F6F8FC; --mint:#EAFBF0; --mint-line:#BFEFCF;
+    --radius:18px; --maxw:1120px;
+    --shadow:0 1px 2px rgba(6,20,48,.04), 0 12px 34px -18px rgba(6,20,48,.20);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:'IBM Plex Sans Arabic',system-ui,-apple-system,'Segoe UI',Tahoma,'Geeza Pro',sans-serif;
+    font-size:17px; line-height:1.85; -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:var(--persian); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .en{font-family:'Inter',system-ui,sans-serif; direction:ltr; unicode-bidi:isolate}
+  .skip{position:absolute;right:-999px;top:auto}
+  .skip:focus{right:16px;top:16px;background:#fff;padding:10px 14px;border-radius:10px;z-index:100;box-shadow:var(--shadow)}
+
+  header.site{
+    position:sticky; top:0; z-index:40;
+    background:rgba(255,255,255,.86); backdrop-filter:saturate(160%) blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .bar{
+    max-width:var(--maxw); margin:0 auto; padding:14px 22px;
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+  }
+  .brand{display:inline-flex; align-items:center; gap:10px; color:var(--oxford); font-weight:700; font-size:19px}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--flash);box-shadow:0 0 0 4px rgba(76,234,99,.18)}
+  .brand span.sub{color:var(--muted); font-weight:600; font-size:15px}
+  .langswitch{
+    display:inline-flex; align-items:center; gap:8px; font-weight:600; font-size:14px;
+    color:var(--oxford); border:1px solid var(--line); padding:8px 14px; border-radius:999px; background:#fff;
+    font-family:'Inter',system-ui,sans-serif; direction:ltr;
+  }
+  .langswitch:hover{border-color:var(--persian); text-decoration:none}
+
+  main{display:block}
+  .hero{max-width:var(--maxw); margin:0 auto; padding:56px 22px 8px}
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:9px; font-size:13.5px; font-weight:700;
+    color:var(--persian); background:#EEF0FF; border:1px solid #DDE1FF; padding:7px 15px; border-radius:999px;
+  }
+  .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--persian)}
+  h1{font-size:clamp(34px,6vw,52px); line-height:1.14; margin:20px 0 14px; color:var(--oxford)}
+  .lede{font-size:clamp(17px,2.4vw,19px); color:var(--slate); max-width:66ch; margin:0}
+  .meta{display:flex; flex-wrap:wrap; gap:10px 26px; margin-top:22px; color:var(--muted); font-size:14.5px; font-weight:500}
+  .meta b{color:var(--ink); font-weight:600}
+
+  .wrap{max-width:var(--maxw); margin:44px auto 0; padding:0 22px 80px; display:grid; grid-template-columns:1fr; gap:36px}
+  nav.toc{display:none}
+  nav.toc h4{margin:0 0 12px; font-size:13px; letter-spacing:.02em; color:var(--muted); font-weight:700}
+  nav.toc ol{list-style:none; margin:0; padding:0; counter-reset:toc}
+  nav.toc li{counter-increment:toc; margin:0}
+  nav.toc a{display:flex; gap:10px; padding:6px 10px; border-radius:10px; color:var(--slate); font-size:14px; font-weight:500; line-height:1.5}
+  nav.toc a::before{content:counter(toc); color:var(--muted); font-weight:700; font-variant-numeric:tabular-nums; min-width:16px}
+  nav.toc a:hover{background:var(--bg-soft); color:var(--oxford); text-decoration:none}
+
+  article{min-width:0}
+  section{padding:26px 0; border-top:1px solid var(--line-soft); scroll-margin-top:90px}
+  section:first-of-type{border-top:none; padding-top:8px}
+  h2{font-size:clamp(22px,3.4vw,27px); color:var(--oxford); margin:0 0 14px; display:flex; align-items:baseline; gap:12px}
+  h2 .num{
+    font-size:14px; font-weight:800; color:var(--persian); background:#EEF0FF; border:1px solid #DDE1FF;
+    border-radius:8px; padding:3px 9px; line-height:1; flex:none; position:relative; top:-2px;
+    font-variant-numeric:tabular-nums; font-family:'Inter',sans-serif;
+  }
+  h3.sub{font-size:19px; color:var(--oxford); margin:22px 0 8px}
+  h3.sub .n{font-family:'Inter',sans-serif; direction:ltr; unicode-bidi:isolate}
+  p{margin:0 0 14px}
+  article ul{margin:6px 0 16px; padding-right:0; list-style:none}
+  article ul li{position:relative; padding-right:26px; margin:9px 0; color:var(--ink)}
+  article ul li::before{content:""; position:absolute; right:6px; top:13px; width:7px; height:7px; border-radius:2px; background:var(--flash); box-shadow:0 0 0 3px rgba(76,234,99,.16)}
+
+  .callout{
+    background:var(--mint); border:1px solid var(--mint-line); border-radius:14px; padding:16px 18px; margin:18px 0;
+    color:#0B4A2A; font-size:16px;
+  }
+  .callout strong{color:#0B6B39}
+  .note{
+    background:var(--bg-soft); border:1px solid var(--line); border-right:3px solid var(--persian);
+    border-radius:12px; padding:15px 18px; margin:18px 0; color:var(--slate); font-size:15.5px;
+  }
+  .note strong{color:var(--oxford)}
+  .lastline{color:var(--muted); font-size:14px; margin-top:6px}
+  a.mail{font-weight:600}
+
+  footer.site{border-top:1px solid var(--line); background:var(--bg-soft)}
+  .foot{max-width:var(--maxw); margin:0 auto; padding:34px 22px; display:flex; flex-wrap:wrap; gap:18px 40px; align-items:center; justify-content:space-between}
+  .foot .brand{color:var(--oxford)}
+  .foot nav{display:flex; flex-wrap:wrap; gap:8px 22px}
+  .foot nav a{color:var(--slate); font-size:14.5px; font-weight:500}
+  .foot .copy{width:100%; color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding-top:16px; margin-top:4px}
+
+  @media (min-width:1024px){
+    .wrap{grid-template-columns:250px 1fr; gap:52px}
+    nav.toc{display:block}
+    nav.toc .inner{position:sticky; top:96px; max-height:calc(100vh - 120px); overflow-y:auto}
+  }
+  @media (max-width:720px){
+    .hero{padding-top:40px}
+    body{font-size:16.5px}
+  }
+  @media print{
+    header.site,footer.site,nav.toc,.langswitch{display:none !important}
+    .wrap{grid-template-columns:1fr; margin:0; padding:0}
+    body{font-size:12pt}
+    section{page-break-inside:avoid; border-top:1px solid #ccc}
+    a{color:#000; text-decoration:none}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">تخطَّ إلى الشروط</a>
+
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="https://uptal.com" aria-label="أبتال">
+      <span class="dot" aria-hidden="true"></span> أبتال <span class="sub">قانوني</span>
+    </a>
+    <a class="langswitch" href="Uptal_Terms_EN.html" lang="en" hreflang="en" dir="ltr">English</a>
+  </div>
+</header>
+
+<main id="content">
+  <div class="hero">
+    <span class="eyebrow"><span class="dot" aria-hidden="true"></span> الشروط والأحكام</span>
+    <h1>الشروط والأحكام</h1>
+    <p class="lede">تحكم هذه الشروط استخدامك لموقع أبتال ومنصتها وجميع خدماتها: البحث عن الكفاءات والمقابلات والتقييمات لأصحاب العمل، والتقديم التلقائي وتحسين السيرة الذاتية للباحثين عن عمل.</p>
+    <div class="meta">
+      <span><b>تاريخ السريان:</b> 5 يوليو 2026</span>
+      <span><b>آخر تحديث:</b> 5 يوليو 2026</span>
+      <span><b>المزوّد:</b> أبتال، المملكة العربية السعودية</span>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <nav class="toc" aria-label="في هذه الصفحة">
+      <div class="inner">
+        <h4>في هذه الصفحة</h4>
+        <ol>
+          <li><a href="#acceptance">قبول هذه الشروط</a></li>
+          <li><a href="#definitions">التعريفات</a></li>
+          <li><a href="#eligibility">الأهلية</a></li>
+          <li><a href="#services">خدماتنا</a></li>
+          <li><a href="#accounts">حسابات المستخدمين</a></li>
+          <li><a href="#payments">المدفوعات والاشتراكات والاسترداد</a></li>
+          <li><a href="#jobseekers">خدمات الباحثين عن عمل: التقديم التلقائي وتحسين السيرة الذاتية</a></li>
+          <li><a href="#acceptable-use">الاستخدام المقبول والأنشطة المحظورة</a></li>
+          <li><a href="#ip">الملكية الفكرية والتراخيص</a></li>
+          <li><a href="#privacy">الخصوصية وحماية البيانات الشخصية</a></li>
+          <li><a href="#custodianship">حفظ البيانات ومخرجات المنصة</a></li>
+          <li><a href="#analytics">بيانات الاستخدام والتحليلات</a></li>
+          <li><a href="#thirdparty">خدمات الأطراف الثالثة</a></li>
+          <li><a href="#termination">التعليق والإنهاء</a></li>
+          <li><a href="#disclaimers">إخلاء المسؤولية عن الضمانات</a></li>
+          <li><a href="#liability">حدود المسؤولية</a></li>
+          <li><a href="#indemnification">التعويض</a></li>
+          <li><a href="#affiliate">برنامج التسويق بالعمولة</a></li>
+          <li><a href="#law">القانون الحاكم والاختصاص القضائي</a></li>
+          <li><a href="#changes">التغييرات على هذه الشروط</a></li>
+          <li><a href="#contact">التواصل</a></li>
+        </ol>
+      </div>
+    </nav>
+
+    <article>
+      <section id="acceptance">
+        <h2><span class="num">1</span> قبول هذه الشروط</h2>
+        <p>مرحبًا بك في أبتال. تحكم هذه الشروط والأحكام ("الشروط") وصولك إلى موقع أبتال ومنصتها وتطبيقاتها وجميع الخدمات التي نقدّمها (يُشار إليها مجتمعةً بـ"الخدمات") واستخدامك لها. وبوصولك إلى أي جزء من الخدمات أو استخدامك له، فإنك توافق على الالتزام بهذه الشروط. وإذا لم توافق على هذه الشروط، فلا يجوز لك استخدام الخدمات.</p>
+        <p>تُقرأ هذه الشروط جنبًا إلى جنب مع <a href="https://uptal.com/privacy-policy">سياسة الخصوصية</a> و<a href="https://uptal.com/refund-policy">سياسة الاسترداد</a> الخاصتين بنا، وكلتاهما مدمجتان في هذه الشروط بالإشارة إليهما.</p>
+        <div class="note"><strong>حقوقك النظامية.</strong> لا تحدّ هذه الشروط أو تستثني أي حق يكفله لك نظام التجارة الإلكترونية أو نظام حماية المستهلك أو نظام حماية البيانات الشخصية أو أي نظام سعودي إلزامي لا يمكن التنازل عنه بالاتفاق.</div>
+      </section>
+
+      <section id="definitions">
+        <h2><span class="num">2</span> التعريفات</h2>
+        <ul>
+          <li>"أبتال" أو "نحن" أو "لنا" تشير إلى شركة أبتال، المملكة العربية السعودية.</li>
+          <li>"الخدمات" تعني جميع المنتجات والخدمات التي تقدّمها أبتال، بما في ذلك الموقع الإلكتروني والبحث عن الكفاءات والتقديم التلقائي وتحسين السيرة الذاتية والمقابلات والتقييمات وبرمجيات إدارة التوظيف.</li>
+          <li>"الموقع الإلكتروني" يعني الموقع المتاح على <a href="https://uptal.com" class="en">https://uptal.com</a> وأي مواقع أو تطبيقات مرتبطة به تابعة لأبتال.</li>
+          <li>"المشترك" أو "العميل" يعني صاحب عمل أو جهة توظيف أو مسؤول توظيف يستخدم الخدمات لأغراض التوظيف.</li>
+          <li>"الباحث عن عمل" يعني أي فرد يستخدم التقديم التلقائي أو تحسين السيرة الذاتية أو أي خدمة من خدمات أبتال الموجّهة للمرشحين.</li>
+          <li>"المرشح" يعني أي فرد يكون ملفه أو سيرته الذاتية أو مقابلته أو تقييمه متاحًا عبر الخدمات.</li>
+          <li>"المستخدم" أو "أنت" تشير إلى أي فرد أو كيان يستخدم الخدمات أو الموقع الإلكتروني.</li>
+        </ul>
+      </section>
+
+      <section id="eligibility">
+        <h2><span class="num">3</span> الأهلية</h2>
+        <p>باستخدامك خدماتنا، فإنك تقرّ وتضمن أن عمرك 18 عامًا على الأقل وأنك تتمتع بالأهلية القانونية لإبرام هذه الشروط. وإذا كنت تستخدم الخدمات نيابةً عن شركة أو منظمة، فإنك تقرّ وتضمن أنك مخوَّل بإلزام ذلك الكيان بهذه الشروط.</p>
+      </section>
+
+      <section id="services">
+        <h2><span class="num">4</span> خدماتنا</h2>
+        <h3 class="sub"><span class="n">4.1</span> لأصحاب العمل وجهات التوظيف</h3>
+        <ul>
+          <li><b>البحث عن الكفاءات</b>: خطط اشتراك (<span class="en">Professional</span> و<span class="en">Executive Pro</span>) توفّر إمكانية البحث والتصفية وفتح ملفات مرشحين موثَّقة، في حدود مخصّص خطتك الشهري من عمليات الفتح.</li>
+          <li><b>المقابلات والتقييمات</b>: مقابلات مسجّلة ذاتيًا مدعومة بالذكاء الاصطناعي وتقييمات تقنية وتقييمات نفسية قياسية (سيكومترية) تساعد الشركات على فرز المرشحين.</li>
+          <li><b>إدارة التوظيف</b>: أدوات لإدارة الإعلانات الوظيفية والمتقدمين ومسارات التوظيف.</li>
+        </ul>
+        <h3 class="sub"><span class="n">4.2</span> للباحثين عن عمل</h3>
+        <ul>
+          <li><b>التقديم التلقائي</b>: اشتراك متجدّد يقوم فيه الذكاء الاصطناعي في أبتال بمطابقتك مع الوظائف وتخصيص سيرتك الذاتية لكل وظيفة وتقديم طلبات التوظيف نيابةً عنك، وفقًا للتفضيلات التي تحدّدها.</li>
+          <li><b>تحسين السيرة الذاتية</b>: خدمة لمرة واحدة تُنجَز بالكامل من جانبنا لتحسين سيرتك الذاتية وإعادة صياغتها في مُخرَج رقمي مخصَّص.</li>
+        </ul>
+        <p>يجوز لأبتال إضافة ميزات أو خدمات أو تعديلها أو إيقافها في أي وقت. ولا يجوز لك استخدام الخدمات إلا للأغراض المشروعة ووفقًا لهذه الشروط.</p>
+      </section>
+
+      <section id="accounts">
+        <h2><span class="num">5</span> حسابات المستخدمين</h2>
+        <p>قد يتطلّب الوصول إلى بعض الميزات التسجيل للحصول على حساب. وعند التسجيل، فإنك توافق على:</p>
+        <ul>
+          <li>تقديم معلومات دقيقة وحديثة وكاملة وفقًا لما يطلبه نموذج التسجيل.</li>
+          <li>الحفاظ على معلوماتك وتحديثها فورًا لتبقى دقيقة وحديثة وكاملة.</li>
+          <li>الحفاظ على سرية بيانات الدخول الخاصة بك وعدم الإفصاح عنها لأي شخص آخر.</li>
+          <li>تحمّل المسؤولية عن جميع الأنشطة التي تتم عبر حسابك.</li>
+        </ul>
+        <p>يجب عليك إخطارنا فورًا عبر <a href="mailto:support@uptal.com" class="mail en">support@uptal.com</a> إذا اشتبهت في أي استخدام غير مصرّح به لحسابك.</p>
+      </section>
+
+      <section id="payments">
+        <h2><span class="num">6</span> المدفوعات والاشتراكات والاسترداد</h2>
+        <h3 class="sub"><span class="n">6.1</span> الرسوم والفوترة</h3>
+        <p>تتطلّب بعض الخدمات دفع رسوم. وباستخدامك أي خدمة مدفوعة، فإنك توافق على دفع جميع الرسوم والمصاريف المطبَّقة، بما في ذلك الضرائب السارية. وتُفوتَر الاشتراكات (بما فيها البحث عن الكفاءات والتقديم التلقائي) على أساس متجدّد وتتجدّد تلقائيًا في نهاية كل دورة فوترة ما لم تُلغَ قبل التجديد. ويسري الإلغاء في نهاية فترة الفوترة الحالية، وتحتفظ بالوصول حتى انتهاء فترتك المدفوعة. ويمكنك الإلغاء في أي وقت من إعدادات حسابك أو عبر التواصل مع <a href="mailto:support@uptal.com" class="mail en">support@uptal.com</a>.</p>
+        <h3 class="sub"><span class="n">6.2</span> عدم الاسترداد</h3>
+        <div class="callout"><strong>جميع المدفوعات مقابل جميع خدمات أبتال نهائية وغير قابلة للاسترداد.</strong> فخدمات أبتال خدمات رقمية بوصول فوري وتُعامَل على أنها مُستخدَمة منذ لحظة الشراء. ولا يُنظَر في الاسترداد إلا في الحالات المحدودة المبيَّنة في <a href="https://uptal.com/refund-policy">سياسة الاسترداد</a> (أخطاء الفوترة المُتحقَّق منها والرسوم غير المصرّح بها المؤكَّدة) أو حيثما تقتضي أنظمة المملكة العربية السعودية السارية ذلك.</div>
+        <h3 class="sub"><span class="n">6.3</span> الأسعار وضريبة القيمة المضافة وتغييراتها</h3>
+        <p>جميع الأسعار لا تشمل ضريبة القيمة المضافة (<span class="en">VAT</span>). وتُضاف ضريبة القيمة المضافة المطبَّقة (بنسبة 15% حاليًا) عند الدفع، وتُصدَر فاتورة ضريبية نظامية عن كل عملية دفع. ويجوز لأبتال تعديل الأسعار في أي وقت دون إشعار مسبق. والسعر المعروض عند الدفع، أو السعر الحالي لخطتك كما هو منشور على الموقع الإلكتروني وقت التجديد، هو السعر الساري لتلك العملية.</p>
+        <h3 class="sub"><span class="n">6.4</span> الفترات التجريبية المجانية</h3>
+        <p>يجوز لأبتال تقديم فترات تجريبية أو ميزات مجانية وفق تقديرها. ولا تتحوّل الفترات التجريبية المجانية إلى اشتراكات مدفوعة إلا حيثما يُفصَح عن ذلك بوضوح قبل تقديمك بيانات الدفع. ويجوز لأبتال تعديل العروض المجانية أو سحبها في أي وقت.</p>
+        <h3 class="sub"><span class="n">6.5</span> ردّ المدفوعات</h3>
+        <p>إذا كان لديك أي استفسار يتعلق بالفوترة، فتواصل مع <a href="mailto:support@uptal.com" class="mail en">support@uptal.com</a> أولًا حتى نتمكن من حلّه مباشرةً. وإذا قُدِّم طلب ردّ مدفوعات أو نزاع قبل التواصل معنا، فقد نوقف وصولك إلى الخدمة المعنية ريثما نُجري التحقّق، وحيثما تبيّن أن الرسم محلّ النزاع صحيح، فقد نستردّ المبلغ المستحق مع أي تكاليف معقولة وموثّقة.</p>
+      </section>
+
+      <section id="jobseekers">
+        <h2><span class="num">7</span> خدمات الباحثين عن عمل: التقديم التلقائي وتحسين السيرة الذاتية</h2>
+        <h3 class="sub"><span class="n">7.1</span> تفويضك لأبتال</h3>
+        <p>باشتراكك في التقديم التلقائي، فإنك تفوّض أبتال صراحةً بأن تقوم، نيابةً عنك ووفقًا للتفضيلات التي تحدّدها، بما يلي: تحديد الوظائف الشاغرة المطابقة لملفك؛ وإعداد نسخ مخصَّصة من سيرتك الذاتية لوظائف محدّدة؛ وتقديم طلبات التوظيف، بما فيها سيرتك الذاتية المخصَّصة وبيانات طلبك وما تتضمنه من بيانات شخصية، إلى أصحاب العمل ومنصات التوظيف، بما في ذلك أصحاب العمل خارج المملكة العربية السعودية حيثما استهدفت تفضيلاتك تلك الوظائف. ويمكنك تعديل تفضيلات الاستهداف أو الإيقاف المؤقت أو الإلغاء في أي وقت من حسابك.</p>
+        <h3 class="sub"><span class="n">7.2</span> مسؤولياتك</h3>
+        <ul>
+          <li>تضمن أن المعلومات الواردة في سيرتك الذاتية وملفك صحيحة ودقيقة وحديثة. فالسير الذاتية المخصَّصة تُنشأ من المعلومات التي تقدّمها، وأنت مسؤول عن دقتها.</li>
+          <li>تؤكّد أن لديك الحق في السعي للعمل في المواقع التي تستهدفها.</li>
+          <li>تراجع حسابك بانتظام وتُبقي تفضيلاتك محدَّثة.</li>
+        </ul>
+        <h3 class="sub"><span class="n">7.3</span> عدم ضمان التوظيف</h3>
+        <div class="callout"><strong>لا تضمن أبتال مقابلات أو عروض عمل أو توظيفًا.</strong> فالتقديم التلقائي يقدّم الطلبات، وتحسين السيرة الذاتية يطوّر سيرتك الذاتية؛ أما قرارات التوظيف فتُتَّخذ من قبل أصحاب العمل وحدهم. وتتفاوت أعداد الطلبات وأعداد المطابقات ومعدلات الاستجابة وليست مضمونة.</div>
+        <h3 class="sub"><span class="n">7.4</span> مُخرَجات تحسين السيرة الذاتية</h3>
+        <p>تُنتِج خدمة تحسين السيرة الذاتية مُخرَجًا رقميًا مخصَّصًا بناءً على المعلومات التي تقدّمها. وإذا لم تكن راضيًا، فإن الحل الذي نقدّمه هو المراجعات بما يتوافق مع الخدمة التي اشتريتها، وليس الاسترداد، وفقًا لما هو مبيَّن في <a href="https://uptal.com/refund-policy">سياسة الاسترداد</a>.</p>
+      </section>
+
+      <section id="acceptable-use">
+        <h2><span class="num">8</span> الاستخدام المقبول والأنشطة المحظورة</h2>
+        <h3 class="sub"><span class="n">8.1</span> محظورات عامة</h3>
+        <p>توافق على عدم استخدام الخدمات:</p>
+        <ul>
+          <li>بأي طريقة تنتهك أي نظام أو لائحة سارية في المملكة العربية السعودية أو دوليًا.</li>
+          <li>للانخراط في أي سلوك يقيّد استخدام أي شخص للخدمات أو استمتاعه بها، أو قد يضرّ بأبتال أو بمستخدمي الخدمات، أو يعرّضهم للمسؤولية.</li>
+          <li>بأي طريقة قد تعطّل الخدمات أو تثقلها أو تتلفها أو تضعفها، أو تتداخل مع استخدام أي طرف آخر للخدمات.</li>
+          <li>لتقديم معلومات كاذبة أو مضلّلة أو احتيالية، بما في ذلك في السير الذاتية أو الملفات أو طلبات التوظيف.</li>
+        </ul>
+        <h3 class="sub"><span class="n">8.2</span> الأنشطة التقنية المحظورة</h3>
+        <p>توافق على عدم الانخراط في أي نشاط يمسّ بالاستخدام المقصود للخدمات أو أمنها أو تشغيلها، أو يتداخل مع أي من ذلك، أو يحاول الالتفاف عليه. وتشمل الأنشطة المحظورة، على سبيل المثال لا الحصر:</p>
+        <ul>
+          <li><b>الوصول غير المصرّح به إلى واجهات البرمجة</b>: الوصول أو محاولة الوصول إلى الخدمات أو أي واجهة برمجة تطبيقات (<span class="en">API</span>) باستخدام أدوات مثل <span class="en">Postman</span> أو <span class="en">cURL</span> أو النصوص البرمجية أو العملاء المخصَّصين أو إضافات المتصفح أو أي وسيلة أخرى لم تصرّح بها أبتال صراحةً.</li>
+          <li><b>الاستخلاص وجمع البيانات</b>: تنزيل البيانات من الخدمات أو استخراجها أو تصديرها أو التنقيب فيها أو فهرستها أو جمعها بأي شكل آخر، يدويًا أو بوسائل آلية، بما في ذلك الروبوتات أو الزواحف أو العناكب.</li>
+          <li><b>الهندسة العكسية</b>: محاولة فك الترجمة البرمجية للخدمات أو فك تجميعها أو إجراء هندسة عكسية لها، أو استخلاص الشيفرة المصدرية أو البنية أو النماذج أو منطق احتساب الدرجات أو الخوارزميات التي تستخدمها أبتال بأي طريقة أخرى، بما في ذلك آليات الذكاء الاصطناعي والتقييم.</li>
+          <li><b>تجاوز الأمن أو الحدود</b>: الالتفاف على المصادقة أو التخويل أو حدود المعدلات أو حصص الاستخدام أو المراقبة أو أي تدابير حماية أمنية أو تقنية، أو تعطيلها أو التداخل معها.</li>
+          <li><b>الاختبار الأمني غير المصرّح به</b>: إجراء اختبارات اختراق أو فحص ثغرات أو اختبارات تحميل أو ما يماثلها دون موافقة كتابية مسبقة من أبتال.</li>
+        </ul>
+        <p>يشكّل أي نشاط من هذا القبيل إخلالًا جوهريًا بهذه الشروط، وقد يشكّل أيضًا انتهاكًا لنظام مكافحة الجرائم المعلوماتية السعودي وأنظمة حماية البيانات والملكية الفكرية السارية.</p>
+      </section>
+
+      <section id="ip">
+        <h2><span class="num">9</span> الملكية الفكرية والتراخيص</h2>
+        <h3 class="sub"><span class="n">9.1</span> ملكية أبتال</h3>
+        <p>جميع المحتويات والمواد المقدَّمة على الخدمات أو من خلالها، بما في ذلك النصوص والرسومات والشعارات والأيقونات والصور والمقاطع الصوتية والمرئية وتجميعات البيانات والبرمجيات والخوارزميات وتصاميم واجهات الاستخدام، هي ملك لأبتال أو لمرخِّصيها، ومحمية بموجب أنظمة حقوق النشر والملكية الفكرية السعودية والدولية.</p>
+        <h3 class="sub"><span class="n">9.2</span> ترخيصك لاستخدام الخدمات</h3>
+        <p>تمنحك أبتال ترخيصًا محدودًا وغير حصري وغير قابل للتحويل وقابلًا للإلغاء للوصول إلى الخدمات واستخدامها لأغراض أعمالك الداخلية (للمشتركين) أو لبحثك الشخصي غير التجاري عن عمل (للباحثين عن عمل). ولا يشمل هذا الترخيص أي حق في إعادة إنتاج محتوانا أو تعديله أو توزيعه أو عرضه علنًا أو إنشاء أعمال مشتقة منه إلا بإذن كتابي صريح من أبتال.</p>
+        <h3 class="sub"><span class="n">9.3</span> المحتوى الخاص بك</h3>
+        <p>تحتفظ بملكية المحتوى الذي تقدّمه إلى الخدمات، بما في ذلك سيرتك الذاتية. وبتقديمك المحتوى، فإنك تمنح أبتال ترخيصًا عالميًا وغير حصري وخاليًا من الرسوم لاستضافة ذلك المحتوى وتخزينه ومعالجته وتكييفه ونقله بالقدر اللازم لتقديم الخدمات، بما في ذلك إنشاء نسخ مخصَّصة من سيرتك الذاتية وتقديمها إلى أصحاب العمل بناءً على تعليماتك (التقديم التلقائي)، وإنتاج سيرتك الذاتية المُحسّنة (تحسين السيرة الذاتية).</p>
+      </section>
+
+      <section id="privacy">
+        <h2><span class="num">10</span> الخصوصية وحماية البيانات الشخصية</h2>
+        <p>يخضع استخدامك للخدمات أيضًا لـ<a href="https://uptal.com/privacy-policy">سياسة الخصوصية</a> الخاصة بنا، التي توضّح كيفية جمعنا للبيانات الشخصية واستخدامها والإفصاح عنها. وباستخدامك الخدمات، فإنك تقرّ بأن بياناتك الشخصية ستُعالَج وفقًا لما هو موضّح في سياسة الخصوصية، وبالاستناد إلى الأسس النظامية المبيَّنة فيها، وبما يتوافق مع نظام حماية البيانات الشخصية السعودي ولوائحه التنفيذية.</p>
+      </section>
+
+      <section id="custodianship">
+        <h2><span class="num">11</span> حفظ البيانات ومخرجات المنصة</h2>
+        <div class="note"><strong>مهم:</strong> بموجب نظام حماية البيانات الشخصية، تخضع البيانات الشخصية لحقوق أصحاب البيانات والتزامات المعالجة المشروعة. وتهدف هذه الشروط إلى توضيح الحقوق والمسؤوليات؛ وهي لا تنقل ملكية البيانات الشخصية.</div>
+        <h3 class="sub"><span class="n">11.1</span> بيانات المرشحين وحفظها</h3>
+        <ul>
+          <li>البيانات الشخصية المتعلقة بالمرشحين ليست ملكًا للعملاء، ولا يكتسب العملاء أي حقوق ملكية أو حقوق عينية في البيانات الشخصية للمرشحين بحكم استخدامهم للخدمات.</li>
+          <li>يحتفظ المرشحون بحقوقهم كأصحاب بيانات بموجب أنظمة حماية البيانات السارية.</li>
+          <li>تعمل أبتال بصفتها حافظًا نظاميًا للبيانات الشخصية للمرشحين وتعالج تلك البيانات بدقة وفقًا للأنظمة السارية وسياسة الخصوصية وأغراض الخدمة الموثَّقة.</li>
+          <li>لا يجوز تفسير أي بند في هذه الشروط على أنه ينقل ملكية البيانات الشخصية إلى أي طرف.</li>
+        </ul>
+        <h3 class="sub"><span class="n">11.2</span> مخرجات المنصة والبيانات المشتقة</h3>
+        <p>ما لم يُنَص صراحةً على خلاف ذلك في اتفاقية كتابية، تحتفظ أبتال بجميع الحقوق والملكية والمصالح في المخرجات المولَّدة عبر المنصة والبيانات المشتقة، بما في ذلك التقييمات المولَّدة بالذكاء الاصطناعي والدرجات وعمليات التقويم والتقارير والرؤى المهيكلة وتنسيق وهيكلة السير الذاتية المخصَّصة وبيانات الاستخدام وسجلات النظام والبيانات المجمَّعة والمجهولة الهوية والتحسينات المشتقة من استخدام المنصة. ويجوز استخدام هذه البيانات المشتقة لتشغيل الخدمات وتأمينها وتحسينها.</p>
+        <h3 class="sub"><span class="n">11.3</span> ترخيص الوصول إلى البيانات</h3>
+        <p>يُمنَح العملاء ترخيصًا محدودًا وغير حصري وغير قابل للتحويل وقابلًا للإلغاء للوصول إلى البيانات والمخرجات عبر الخدمات حصرًا ولأغراض الأعمال الداخلية فقط. ولا يُمنَح أي حق في تصدير البيانات أو إعادة بيعها أو ترخيصها من الباطن أو استخلاصها أو إعادة استخدامها خارج الخدمات ما لم تصرّح أبتال بذلك كتابةً.</p>
+      </section>
+
+      <section id="analytics">
+        <h2><span class="num">12</span> بيانات الاستخدام والتحليلات</h2>
+        <p>يجوز لأبتال جمع ومعالجة بيانات تقنية وبيانات استخدام لتشغيل المنصة وتأمينها واستكشاف أخطائها وتحليلها وتحسينها. وقد يشمل ذلك تحليلات الزيارات والاستخدام، وتسجيلات الجلسات وبيانات التفاعل، ومقاييس الجهاز والمتصفح وعنوان <span class="en">IP</span> والأداء. وتُعالَج هذه البيانات وفقًا لنظام حماية البيانات الشخصية وسياسة الخصوصية.</p>
+      </section>
+
+      <section id="thirdparty">
+        <h2><span class="num">13</span> خدمات الأطراف الثالثة</h2>
+        <p>قد تعتمد الخدمات على خدمات أطراف ثالثة أو ترتبط بها، بما في ذلك معالجات الدفع ومزوّدي الاستضافة السحابية وأنظمة أصحاب العمل أو منصات التوظيف التي تُقدَّم إليها الطلبات. وأبتال غير مسؤولة عن محتوى خدمات الأطراف الثالثة أو سياساتها أو ممارساتها. وتُعالَج بيانات بطاقات الدفع بواسطة معالج الدفع التابع لطرف ثالث ولا تُخزَّن على خوادم أبتال.</p>
+      </section>
+
+      <section id="termination">
+        <h2><span class="num">14</span> التعليق والإنهاء</h2>
+        <p>يجوز لنا تعليق وصولك إلى الخدمات أو إنهاؤه، كليًا أو جزئيًا، في أي وقت، بإشعار أو دون إشعار، إذا: (1) أخللت بهذه الشروط؛ أو (2) شكّل استخدامك خطرًا أمنيًا أو قانونيًا أو تشغيليًا؛ أو (3) اقتضى ذلك نظام أو جهة تنظيمية. وعند الإنهاء، يتوقف حقك في استخدام الخدمات فورًا. وتظل البنود التي تقتضي طبيعتها البقاء بعد الإنهاء (بما فيها الملكية الفكرية وإخلاء المسؤولية وحدود المسؤولية والقانون الحاكم) سارية المفعول. ولا يمنحك الإنهاء الحق في أي استرداد، إلا حيثما تقتضي أنظمة المملكة العربية السعودية السارية ذلك.</p>
+      </section>
+
+      <section id="disclaimers">
+        <h2><span class="num">15</span> إخلاء المسؤولية عن الضمانات</h2>
+        <p>تُقدَّم الخدمات والموقع الإلكتروني "كما هي" و"حسب توافرها" دون ضمانات من أي نوع، صريحة كانت أو ضمنية. ودون تقييد لما سبق، تُخلي أبتال مسؤوليتها صراحةً عن أي ضمانات ضمنية تتعلق بالقابلية للتسويق أو الملاءمة لغرض معيّن أو الملكية أو عدم الانتهاك، وأي ضمانات ناشئة عن التعامل أو العرف التجاري.</p>
+        <p>لا تضمن أبتال أن تكون الخدمات دون انقطاع أو خالية من الأخطاء أو آمنة أو خالية من المكوّنات الضارة، ولا أن تكون بيانات المرشحين أو مطابقات الوظائف كاملة أو دقيقة، ولا أن يؤدي استخدام الخدمات إلى تعيينات (للمشتركين) أو مقابلات أو عروض عمل أو توظيف (للباحثين عن عمل).</p>
+      </section>
+
+      <section id="liability">
+        <h2><span class="num">16</span> حدود المسؤولية</h2>
+        <p>إلى أقصى حد يسمح به النظام، لا تتحمّل أبتال بأي حال من الأحوال المسؤولية عن أي أضرار غير مباشرة أو عرضية أو خاصة أو تبعية أو عقابية، أو عن أي خسارة في الأرباح أو الإيرادات أو فرص العمل، أو أي فقدان للبيانات أو الاستخدام أو السمعة التجارية أو غيرها من الخسائر غير الملموسة، الناشئة عن استخدامك للخدمات أو الموقع الإلكتروني أو المرتبطة به.</p>
+        <p>وإلى الحد الذي يسمح به النظام، لا يتجاوز إجمالي مسؤولية أبتال الكلية الناشئة عن هذه الشروط أو استخدامك للخدمات أو المتعلقة بهما المبلغَ الذي دفعته لأبتال مقابل الخدمات خلال الاثني عشر (12) شهرًا السابقة مباشرةً للواقعة المنشئة للمطالبة.</p>
+      </section>
+
+      <section id="indemnification">
+        <h2><span class="num">17</span> التعويض</h2>
+        <p>توافق على تعويض أبتال ومسؤوليها ومديريها وموظفيها ووكلائها ومرخِّصيها ومورّديها والدفاع عنهم وإبراء ذمتهم من أي وجميع المطالبات والمسؤوليات والأضرار والخسائر والتكاليف والمصاريف (بما فيها أتعاب المحاماة المعقولة) الناشئة عن استخدامك للخدمات أو الموقع الإلكتروني أو المرتبطة به بأي شكل، أو إخلالك بهذه الشروط، أو المحتوى الذي تقدّمه (بما في ذلك معلومات السيرة الذاتية أو الملف غير الدقيقة)، أو انتهاكك لأي حقوق لشخص أو كيان آخر.</p>
+      </section>
+
+      <section id="affiliate">
+        <h2><span class="num">18</span> برنامج التسويق بالعمولة</h2>
+        <p>تدير أبتال برنامجًا للتسويق بالعمولة يحصل بموجبه المسوّقون المعتمَدون على عمولة قدرها 10% من إجمالي سعر الشراء عن كل عميل جديد تتم إحالته عبر رابط الإحالة الخاص بهم ويُتمّ عملية شراء. وتُدفَع العمولات شهريًا عبر حساب المسوّق في أبتال. ويجب أن يكون لدى المسوّق حساب نشط في أبتال، ويوافق على عدم: إرسال رسائل مزعجة أو روابط إحالة غير مرغوب فيها؛ أو الترويج لأبتال بطريقة خادعة أو مضلّلة؛ أو استخدام علامة أبتال التجارية أو ملكيتها الفكرية دون إذن. ويجوز لأي من الطرفين إنهاء المشاركة في البرنامج في أي وقت، بسبب أو دون سبب. ويجوز لأبتال تحديث شروط البرنامج ومعدلات العمولة ومعايير الأهلية في أي وقت.</p>
+      </section>
+
+      <section id="law">
+        <h2><span class="num">19</span> القانون الحاكم والاختصاص القضائي</h2>
+        <p>تخضع هذه الشروط لأنظمة المملكة العربية السعودية وتُفسَّر وفقًا لها، دون إعمال أي مبادئ لتنازع القوانين. وتوافق على أن أي دعوى تنشأ عن هذه الشروط أو عن استخدامك للخدمات أو تتعلق بهما تُرفَع حصرًا أمام المحاكم المختصة في مدينة الرياض بالمملكة العربية السعودية، وتقرّ بموجبه بقبولك وخضوعك للاختصاص القضائي لتلك المحاكم.</p>
+      </section>
+
+      <section id="changes">
+        <h2><span class="num">20</span> التغييرات على هذه الشروط</h2>
+        <p>تحتفظ أبتال بالحق في تعديل هذه الشروط أو تحديثها في أي وقت. وتُنشَر الشروط المحدَّثة على الموقع الإلكتروني وتسري فور نشرها. ويُعدّ استمرارك في استخدام الخدمات بعد أي تغييرات قبولًا للشروط المحدَّثة. وإذا لم توافق على الشروط المحدَّثة، فيجب عليك التوقف عن استخدام الخدمات.</p>
+      </section>
+
+      <section id="contact">
+        <h2><span class="num">21</span> التواصل</h2>
+        <p>إذا كانت لديك أي أسئلة حول هذه الشروط، فيُرجى التواصل معنا عبر <a href="mailto:support@uptal.com" class="mail en">support@uptal.com</a>.</p>
+        <p class="lastline">تشكّل هذه الشروط كامل الاتفاق بينك وبين أبتال فيما يتعلق بالخدمات، وتحلّ محل جميع الاتصالات والمقترحات السابقة أو المتزامنة، الشفهية منها والكتابية. آخر تحديث في 5 يوليو 2026.</p>
+      </section>
+    </article>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="foot">
+    <a class="brand" href="https://uptal.com"><span class="dot" aria-hidden="true"></span> أبتال</a>
+    <nav aria-label="روابط قانونية">
+      <a href="https://uptal.com/terms-and-conditions">الشروط والأحكام</a>
+      <a href="https://uptal.com/privacy-policy">سياسة الخصوصية</a>
+      <a href="https://uptal.com/refund-policy">سياسة الاسترداد</a>
+      <a href="https://uptal.com/contact-us">تواصل معنا</a>
+    </nav>
+    <!-- TODO before publishing: per the Saudi E-Commerce Law merchant-disclosure requirement, add the full legal entity name, Commercial Registration (CR) number and/or Maroof registration number, and a registered business address here. -->
+    <div class="copy">حقوق النشر © 2026 أبتال. جميع الحقوق محفوظة.</div>
+  </div>
+</footer>
+</body>
+</html>

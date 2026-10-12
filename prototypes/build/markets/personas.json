@@ -157,12 +157,39 @@
   "group": "uk",
   "city": "London",
   "arv": "neutral",
-  "label": " Sophie Carter · London",
+  "label": "🇬🇧 Sophie Carter · London",
   "f": {
    "first": "Sophie",
    "last": "Carter",
    "full": "Sophie Carter",
-   "initials": "SC"
+   "initials": "SC",
+   "email": "sophie.carter@email.com",
+   "phone": "+44 7700 900 123",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Kestrel Vale Group",
+    "ar": "مجموعة كيستريل فيل",
+    "fr": "Kestrel Vale Group"
+   },
+   "employer2": {
+    "en": "Kestrel Vale Foods",
+    "ar": "كيستريل فيل للأغذية",
+    "fr": "Kestrel Vale Foods"
+   },
+   "degree": {
+    "en": "BSc Accounting and Finance",
+    "ar": "بكالوريوس العلوم في المحاسبة والمالية",
+    "fr": "Licence (BSc) en comptabilité et finance"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in London. I lead IFRS and FRS 102 reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I am looking for a Senior Financial Analyst or FP&A role in London or hybrid.",
+    "ar": "محللة مالية بخبرة 8 سنوات في لندن. أقود إعداد التقارير وفق المعايير الدولية IFRS والمعيار البريطاني FRS 102 وإعداد الموازنات على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي خفّضت وقت إعداد التقارير بمقدار الثلث، وأبحث عن دور محللة مالية أولى أو في التخطيط والتحليل المالي (FP&A) في لندن أو بنظام العمل الهجين.",
+    "fr": "Analyste financière avec 8 ans d'expérience à Londres. Je pilote le reporting IFRS et FRS 102 et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je recherche un poste d'analyste financière senior ou en FP&A à Londres ou en hybride."
+   }
   }
  },
  {

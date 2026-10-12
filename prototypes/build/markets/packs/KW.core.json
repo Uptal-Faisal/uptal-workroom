@@ -1,0 +1,282 @@
+{
+ "code": "KW",
+ "flag": "🇰🇼",
+ "name": {"en": "Kuwait", "ar": "الكويت", "fr": "Koweït"},
+ "short": {"en": "Kuwait", "ar": "الكويت", "fr": "le Koweït"},
+ "in": {"en": "in Kuwait", "ar": "في الكويت", "fr": "au Koweït"},
+ "dem": {"en": "Kuwaiti", "ar": "كويتي", "arf": "كويتية", "fr": "koweïtien", "frf": "koweïtienne"},
+ "nationals": {"en": "Kuwaiti nationals", "ar": "المواطنون الكويتيون", "fr": "ressortissants koweïtiens"},
+ "region": "gcc",
+ "workweek": "sun-thu",
+ "cities": [
+  {
+   "id": "kuwaitcity", "en": "Kuwait City", "ar": "مدينة الكويت", "fr": "Koweït (ville)",
+   "metro": {
+    "en": "Kuwait City covers the Capital Governorate: Sharq, Mirqab, Qibla, Dasman and Shuwaikh.",
+    "ar": "مدينة الكويت تشمل محافظة العاصمة: شرق والمرقاب والقبلة ودسمان والشويخ.",
+    "fr": "Koweït (ville) couvre le gouvernorat de la Capitale : Sharq, Mirqab, Qibla, Dasman et Shuwaikh."
+   }
+  },
+  {
+   "id": "ahmadi", "en": "Ahmadi", "ar": "الأحمدي", "fr": "Al-Ahmadi",
+   "metro": {
+    "en": "Ahmadi covers Ahmadi town, Fahaheel, Mangaf, Mina Al Ahmadi and the Shuaiba industrial area.",
+    "ar": "الأحمدي تشمل مدينة الأحمدي والفحيحيل والمنقف وميناء الأحمدي ومنطقة الشعيبة الصناعية.",
+    "fr": "Al-Ahmadi couvre la ville d'Al-Ahmadi, Fahaheel, Mangaf, Mina al-Ahmadi et la zone industrielle de Shuaiba."
+   }
+  },
+  {
+   "id": "hawalli", "en": "Hawalli", "ar": "حولي", "fr": "Hawalli",
+   "metro": {
+    "en": "Hawalli covers Salmiya, Hawalli, Jabriya, Salwa and Mishref.",
+    "ar": "حولي تشمل السالمية وحولي والجابرية وسلوى ومشرف.",
+    "fr": "Hawalli couvre Salmiya, Hawalli, Jabriya, Salwa et Mishref."
+   }
+  },
+  {
+   "id": "farwaniya", "en": "Farwaniya", "ar": "الفروانية", "fr": "Al-Farwaniya",
+   "metro": {
+    "en": "Farwaniya covers Al Rai, Ardiya, Khaitan, Dajeej and the airport area.",
+    "ar": "الفروانية تشمل الري والعارضية وخيطان والضجيج ومنطقة المطار.",
+    "fr": "Al-Farwaniya couvre Al-Rai, Ardiya, Khaitan, Dajeej et la zone de l'aéroport."
+   }
+  },
+  {
+   "id": "jahra", "en": "Jahra", "ar": "الجهراء", "fr": "Al-Jahra",
+   "metro": {
+    "en": "Jahra covers Jahra city, Sulaibiya and Amghara.",
+    "ar": "الجهراء تشمل مدينة الجهراء والصليبية وأمغرة.",
+    "fr": "Al-Jahra couvre la ville d'Al-Jahra, Sulaibiya et Amghara."
+   }
+  },
+  {
+   "id": "mubarakalkabeer", "en": "Mubarak Al-Kabeer", "ar": "مبارك الكبير", "fr": "Moubarak al-Kabir",
+   "metro": {
+    "en": "Mubarak Al-Kabeer covers Sabah Al-Salem, Qurain, Adan and Messila.",
+    "ar": "مبارك الكبير تشمل صباح السالم والقرين والعدان والمسيلة.",
+    "fr": "Moubarak al-Kabir couvre Sabah al-Salem, Qurain, Adan et Messila."
+   }
+  }
+ ],
+ "employers": [
+  {"id": "kpc", "en": "Kuwait Petroleum Corporation", "ar": "مؤسسة البترول الكويتية", "fr": "Kuwait Petroleum Corporation", "sector": "energy", "archetype": "national oil champion (holding)", "city": "kuwaitcity", "logo": {"bg": "#004A8F", "fg": "#FFFFFF", "mono": "KPC"}},
+  {"id": "koc", "en": "Kuwait Oil Company", "ar": "شركة نفط الكويت", "fr": "Kuwait Oil Company", "sector": "energy", "archetype": "upstream oil producer (KPC group)", "city": "ahmadi", "logo": {"bg": "#006747", "fg": "#FFFFFF", "mono": "KOC"}},
+  {"id": "nbk", "en": "National Bank of Kuwait", "ar": "بنك الكويت الوطني", "fr": "National Bank of Kuwait", "sector": "bank", "archetype": "largest conventional bank", "city": "kuwaitcity", "logo": {"bg": "#00205B", "fg": "#FFFFFF", "mono": "NBK"}},
+  {"id": "kfh", "en": "Kuwait Finance House", "ar": "بيت التمويل الكويتي", "fr": "Kuwait Finance House", "sector": "bank", "archetype": "largest Islamic bank", "city": "kuwaitcity", "logo": {"bg": "#00704A", "fg": "#FFFFFF", "mono": "KFH"}},
+  {"id": "gulfbank", "en": "Gulf Bank", "ar": "بنك الخليج", "fr": "Gulf Bank", "sector": "bank", "archetype": "major commercial bank", "city": "kuwaitcity", "logo": {"bg": "#0B2D71", "fg": "#FFFFFF", "mono": "GB"}},
+  {"id": "boubyan", "en": "Boubyan Bank", "ar": "بنك بوبيان", "fr": "Boubyan Bank", "sector": "bank", "archetype": "Islamic bank (NBK group)", "city": "kuwaitcity", "logo": {"bg": "#5B2B82", "fg": "#FFFFFF", "mono": "BB"}},
+  {"id": "zain", "en": "Zain", "ar": "زين", "fr": "Zain", "sector": "telecom", "archetype": "telecom #1 (group HQ)", "city": "kuwaitcity", "logo": {"bg": "#111111", "fg": "#FFFFFF", "mono": "Z"}},
+  {"id": "stc", "en": "stc Kuwait", "ar": "stc الكويت", "fr": "stc Koweït", "sector": "telecom", "archetype": "telecom #2", "city": "kuwaitcity", "logo": {"bg": "#4F008C", "fg": "#FFFFFF", "mono": "stc"}},
+  {"id": "kia", "en": "Kuwait Investment Authority", "ar": "الهيئة العامة للاستثمار", "fr": "Kuwait Investment Authority", "sector": "sovereign", "archetype": "sovereign wealth fund", "city": "kuwaitcity", "logo": {"bg": "#1F3A5F", "fg": "#FFFFFF", "mono": "KIA"}},
+  {"id": "ey", "en": "EY Kuwait", "ar": "EY الكويت", "fr": "EY Koweït", "sector": "consulting", "archetype": "big-4 firm", "city": "kuwaitcity", "logo": {"bg": "#2E2E38", "fg": "#FFE600", "mono": "EY"}},
+  {"id": "mezzan", "en": "Mezzan Holding", "ar": "ميزان القابضة", "fr": "Mezzan Holding", "sector": "fmcg", "archetype": "food and FMCG major", "city": "farwaniya", "logo": {"bg": "#C8102E", "fg": "#FFFFFF", "mono": "MZ"}},
+  {"id": "alshaya", "en": "Alshaya Group", "ar": "مجموعة الشايع", "fr": "Groupe Alshaya", "sector": "retail", "archetype": "global franchise retailer", "city": "kuwaitcity", "logo": {"bg": "#231F20", "fg": "#FFFFFF", "mono": "AS"}},
+  {"id": "kuwaitairways", "en": "Kuwait Airways", "ar": "الخطوط الجوية الكويتية", "fr": "Kuwait Airways", "sector": "airline", "archetype": "national airline", "city": "farwaniya", "logo": {"bg": "#0B4EA2", "fg": "#FFFFFF", "mono": "KU"}},
+  {"id": "jazeera", "en": "Jazeera Airways", "ar": "طيران الجزيرة", "fr": "Jazeera Airways", "sector": "airline", "archetype": "low-cost airline", "city": "farwaniya", "logo": {"bg": "#002D5A", "fg": "#FFFFFF", "mono": "J9"}},
+  {"id": "darshifa", "en": "Dar Al Shifa Hospital", "ar": "مستشفى دار الشفاء", "fr": "Hôpital Dar Al Shifa", "sector": "healthcare", "archetype": "largest private hospital", "city": "hawalli", "logo": {"bg": "#0071BC", "fg": "#FFFFFF", "mono": "DS"}},
+  {"id": "gig", "en": "Gulf Insurance Group", "ar": "مجموعة الخليج للتأمين", "fr": "Gulf Insurance Group", "sector": "insurance", "archetype": "insurer (regional group HQ)", "city": "kuwaitcity", "logo": {"bg": "#003C71", "fg": "#FFFFFF", "mono": "GIG"}},
+  {"id": "talabat", "en": "talabat", "ar": "طلبات", "fr": "talabat", "sector": "ecommerce", "archetype": "food-delivery app (founded in Kuwait)", "city": "kuwaitcity", "logo": {"bg": "#FF5A00", "fg": "#FFFFFF", "mono": "t"}},
+  {"id": "myfatoorah", "en": "MyFatoorah", "ar": "ماي فاتورة", "fr": "MyFatoorah", "sector": "fintech", "archetype": "payments fintech", "city": "kuwaitcity", "logo": {"bg": "#1F8FCE", "fg": "#FFFFFF", "mono": "MF"}},
+  {"id": "boutiqaat", "en": "Boutiqaat", "ar": "بوتيكات", "fr": "Boutiqaat", "sector": "tech", "archetype": "e-commerce scale-up (beauty)", "city": "kuwaitcity", "logo": {"bg": "#000000", "fg": "#FFFFFF", "mono": "B"}},
+  {"id": "mabanee", "en": "Mabanee", "ar": "شركة المباني", "fr": "Mabanee", "sector": "realestate", "archetype": "mall and mixed-use developer (The Avenues)", "city": "farwaniya", "logo": {"bg": "#2B2A6B", "fg": "#FFFFFF", "mono": "MB"}},
+  {"id": "boursa", "en": "Boursa Kuwait", "ar": "بورصة الكويت", "fr": "Boursa Kuwait", "sector": "exchange", "archetype": "stock exchange", "city": "kuwaitcity", "logo": {"bg": "#0E4C92", "fg": "#FFFFFF", "mono": "BK"}},
+  {"id": "equate", "en": "EQUATE Petrochemical", "ar": "إيكويت للبتروكيماويات", "fr": "EQUATE Petrochemical", "sector": "industrial", "archetype": "industrial (petrochemicals)", "city": "ahmadi", "logo": {"bg": "#005DAA", "fg": "#FFFFFF", "mono": "EQ"}},
+  {"id": "cbk", "en": "Central Bank of Kuwait", "ar": "بنك الكويت المركزي", "fr": "Banque centrale du Koweït", "sector": "government", "archetype": "central bank (regulator)", "city": "kuwaitcity", "logo": {"bg": "#8C6D3F", "fg": "#FFFFFF", "mono": "CBK"}},
+  {"id": "agility", "en": "Agility", "ar": "أجيليتي", "fr": "Agility", "sector": "logistics", "archetype": "logistics group", "city": "jahra", "logo": {"bg": "#00468B", "fg": "#FFFFFF", "mono": "AG"}}
+ ],
+ "sectorsCovered": {
+  "energy": ["kpc", "koc"],
+  "largestBanks": ["kfh", "nbk"],
+  "islamicBank": ["kfh", "boubyan"],
+  "telecom1": ["zain"],
+  "telecom2": ["stc"],
+  "sovereign": ["kia"],
+  "big4": ["ey"],
+  "fmcg": ["mezzan"],
+  "retailer": ["alshaya"],
+  "airline": ["kuwaitairways", "jazeera"],
+  "hospitalGroup": ["darshifa"],
+  "insurer": ["gig"],
+  "techScaleup": ["boutiqaat"],
+  "fintech": ["myfatoorah"],
+  "deliveryApp": ["talabat"],
+  "realEstate": ["mabanee"],
+  "stockExchange": ["boursa"],
+  "industrial": ["equate"],
+  "government": ["cbk"],
+  "extra": ["gulfbank", "agility"]
+ },
+ "sal": {
+  "per": "month",
+  "f": 0.06,
+  "basis": "Kuwaiti pay is quoted monthly in KWD, tax-free (no personal income tax). Estimate, not checked against a 2026 guide in this run (search budget used up, page fetches blocked): Senior Financial Analyst / FP&A, ~8 yrs, Kuwait City, about KWD 1,200-1,800 a month for expats; Kuwaiti nationals at banks, KPC companies and listed groups earn more, about KWD 1,800-2,700 from the employer, before the state's national labour support allowance. f = 0.06 maps Noura's 26,000 SAR to KWD 1,560 (Abdullah's current pay) and the v5 band 34-41k SAR to KWD 2,040-2,460, the middle of the Kuwaiti-national range. At the currency rate alone (1 KWD = ~12.2 SAR) f would be 0.082; Kuwait pays less than Riyadh's top employers for this role, so f is lower. Keep f within 0.05-0.07 when a salary guide is checked."
+ },
+ "tax": {
+  "incl": true,
+  "rate": 0,
+  "label": {"en": "No VAT", "ar": "بدون ضريبة قيمة مضافة", "fr": "Sans TVA"}
+ },
+ "pay": {
+  "wallets": ["apple"],
+  "methods": [
+   {
+    "id": "knet",
+    "label": {"en": "KNET", "ar": "كي نت", "fr": "KNET"},
+    "sub": {"en": "Pay with your Kuwaiti bank card", "ar": "ادفع ببطاقة بنكك الكويتي", "fr": "Payez avec votre carte bancaire koweïtienne"},
+    "brands": ["knet"],
+    "recurring": false
+   },
+   {
+    "id": "card",
+    "label": {"en": "Card", "ar": "بطاقة", "fr": "Carte"},
+    "sub": {"en": "Visa, Mastercard", "ar": "Visa أو Mastercard", "fr": "Visa, Mastercard"},
+    "brands": ["visa", "mc"]
+   }
+  ],
+  "bnpl": [
+   {"id": "tabby", "name": "Tabby", "installments": 4, "sub": {"en": "Pay in 4, interest-free", "ar": "قسّمها على 4 دفعات بدون فوائد", "fr": "Payez en 4 fois sans frais"}},
+   {"id": "tamara", "name": "Tamara", "installments": 4, "sub": {"en": "Pay in 4, interest-free", "ar": "قسّمها على 4 دفعات بدون فوائد", "fr": "Payez en 4 fois sans frais"}}
+  ],
+  "localCardBrand": "KNET"
+ },
+ "phone": {"cc": "+965", "ex": "+965 9012 3456"},
+ "rights": {
+  "q": {"en": "Your right to work in Kuwait", "ar": "أهليتك للعمل في الكويت", "fr": "Votre droit de travailler au Koweït"},
+  "opts": [
+   {
+    "en": "Kuwaiti or GCC national", "ar": "مواطن كويتي أو خليجي", "fr": "Ressortissant koweïtien ou du CCG",
+    "sub": {"en": "No visa or sponsor needed", "ar": "ما تحتاج تأشيرة ولا كفيل", "fr": "Aucun visa ni parrainage nécessaire"}
+   },
+   {
+    "en": "Private-sector work residence (Article 18)", "ar": "إقامة عمل في القطاع الخاص (مادة 18)", "fr": "Résidence de travail dans le secteur privé (article 18)",
+    "sub": {
+     "en": "Your new employer transfers your residence through PAM. A move early in your contract can need your current employer's consent.",
+     "ar": "جهة العمل الجديدة تحوّل إقامتك عن طريق الهيئة العامة للقوى العاملة، والانتقال بدري في العقد ممكن يحتاج موافقة جهة عملك الحالية.",
+     "fr": "Votre nouvel employeur transfère votre résidence via la PAM. Un changement en début de contrat peut nécessiter l'accord de votre employeur actuel."
+    }
+   },
+   {
+    "en": "Government work residence (Article 17)", "ar": "إقامة عمل حكومية (مادة 17)", "fr": "Résidence de travail dans le secteur public (article 17)",
+    "sub": {
+     "en": "Moving to a private employer needs a residence transfer, which is often restricted.",
+     "ar": "الانتقال لجهة عمل خاصة يحتاج تحويل إقامة، وغالباً عليه قيود.",
+     "fr": "Passer chez un employeur privé exige un transfert de résidence, souvent restreint."
+    }
+   },
+   {
+    "en": "Family residence (Article 22)", "ar": "إقامة التحاق بعائل (مادة 22)", "fr": "Résidence familiale (article 22)",
+    "sub": {
+     "en": "On a spouse's or parent's sponsorship. Your employer moves you to a work residence or gets you a work permit.",
+     "ar": "على كفالة الزوج أو أحد الوالدين. جهة العمل تحوّلك لإقامة عمل أو تطلّع لك إذن عمل.",
+     "fr": "Parrainée par votre conjoint ou un parent. Votre employeur la transforme en résidence de travail ou obtient un permis de travail."
+    }
+   },
+   {
+    "en": "I need an employer to sponsor my work visa", "ar": "أحتاج جهة عمل تكفل تأشيرة عملي", "fr": "J'ai besoin qu'un employeur parraine mon visa de travail",
+    "sub": {"en": "You are outside Kuwait or on a visit visa.", "ar": "أنت برّا الكويت أو على تأشيرة زيارة.", "fr": "Vous êtes hors du Koweït ou avec un visa de visite."}
+   }
+  ],
+  "autoFor": ["KW", "SA", "AE", "QA", "BH", "OM"],
+  "autoText": {
+   "en": "Kuwaiti and GCC nationals can work in Kuwait without visa sponsorship.",
+   "ar": "مواطنو الكويت ودول الخليج يقدرون يشتغلون في الكويت بدون كفالة تأشيرة.",
+   "fr": "Les ressortissants koweïtiens et du CCG peuvent travailler au Koweït sans parrainage de visa."
+  },
+  "rule": {
+   "en": "If you need a new work visa, we skip Kuwait jobs that only take candidates already in Kuwait with a transferable residence.",
+   "ar": "إذا تحتاج تأشيرة عمل جديدة، نتخطّى وظائف الكويت اللي تطلب مرشحين داخل الكويت بإقامة قابلة للتحويل.",
+   "fr": "Si vous avez besoin d'un nouveau visa de travail, nous écartons les offres au Koweït réservées aux candidats déjà sur place avec une résidence transférable."
+  }
+ },
+ "nationalisation": {
+  "name": {"en": "Kuwaitization", "ar": "التكويت", "fr": "Koweïtisation"},
+  "desc": {
+   "en": "Private employers must keep a minimum share of Kuwaiti staff, set by sector and highest in banking, and government jobs go to Kuwaitis first. Kuwaitis in the private sector also get a monthly state allowance on top of their salary. We only apply to roles marked Kuwaitis only if you are Kuwaiti.",
+   "ar": "الشركات الخاصة لازم تحافظ على نسبة محددة من الموظفين الكويتيين حسب القطاع، وأعلاها في البنوك، والوظائف الحكومية الأولوية فيها للكويتيين. والكويتي اللي يشتغل في القطاع الخاص ياخذ علاوة دعم عمالة شهرية من الدولة فوق راتبه. وما نقدّم على الوظائف المخصصة للكويتيين إلا إذا كنت كويتي الجنسية.",
+   "fr": "Les employeurs privés doivent maintenir une part minimale de salariés koweïtiens, fixée par secteur et la plus élevée dans la banque, et les emplois publics vont en priorité aux Koweïtiens. Les Koweïtiens du secteur privé reçoivent aussi une allocation mensuelle de l'État en plus de leur salaire. Nous ne postulons aux offres réservées aux Koweïtiens que si vous avez la nationalité koweïtienne."
+  }
+ },
+ "sensitive": {
+  "photo": "optional",
+  "gender": "ask",
+  "dob": "ask",
+  "nationality": "ask",
+  "marital": "none",
+  "notes": "Photo: common on Kuwaiti and Gulf CVs emailed to recruiters, but not needed on ATS portals; we offer it, never require it, and only send it where a form asks. Gender, date of birth and nationality are standard fields on Kuwaiti employer portals (KPC group, banks) and on Bayt and GulfTalent profiles. Nationality also drives Kuwaitization ('Kuwaitis only' adverts), residence-transfer handling and government hiring. Marital status appears on some Kuwaiti CVs and on government forms (allowances depend on it) but is not needed for matching, so we do not ask (conservative). The Civil ID number is collected by employers at offer stage, never by us. Labour Law 6/2010 bans pay discrimination on grounds such as sex, origin, language and religion, so we never filter on gender or age, only on work rights and Kuwaiti-only postings. From general knowledge; not re-verified in this run."
+ },
+ "legal": {
+  "law": "No comprehensive data protection statute; CITRA Data Privacy Protection Regulation (Resolution No. 26 of 2024, replacing No. 42 of 2021) and Electronic Transactions Law No. 20 of 2014; consumer terms under Consumer Protection Law No. 39 of 2014",
+  "privacy": {
+   "en": "Your data is protected under Kuwait's data privacy rules (CITRA's Data Privacy Protection Regulation). We never share it without your consent.",
+   "ar": "بياناتك محمية حسب لائحة حماية خصوصية البيانات في الكويت الصادرة عن هيئة الاتصالات وتقنية المعلومات، وما نشاركها بدون موافقتك.",
+   "fr": "Vos données sont protégées par les règles koweïtiennes sur la vie privée (règlement de la CITRA sur la protection des données). Nous ne les partageons jamais sans votre accord."
+  },
+  "renewal": {
+   "en": "Plans paid by card or Apple Pay renew automatically at the same price; with KNET you renew by paying again. Cancel anytime before the renewal date and you are not charged again.",
+   "ar": "الباقات المدفوعة بالبطاقة أو Apple Pay تتجدد تلقائياً بنفس السعر، ومع كي نت تجدّد بدفعة جديدة. ألغِ في أي وقت قبل تاريخ التجديد وما ينخصم منك شي مرة ثانية.",
+   "fr": "Les abonnements payés par carte ou Apple Pay se renouvellent automatiquement au même prix ; avec KNET, vous renouvelez en payant à nouveau. Résiliez à tout moment avant la date de renouvellement et vous ne serez plus prélevé."
+  }
+ },
+ "boards": ["LinkedIn", "Bayt", "GulfTalent", "Naukrigulf", "Indeed"],
+ "lang2": {"en": "Arabic", "ar": "العربية", "fr": "arabe"},
+ "certs": [
+  {"id": "cpa", "en": "CPA", "ar": "CPA", "fr": "CPA"},
+  {"id": "cma", "en": "CMA", "ar": "CMA", "fr": "CMA"},
+  {"id": "cfa", "en": "CFA", "ar": "CFA", "fr": "CFA"},
+  {"id": "acca", "en": "ACCA", "ar": "ACCA", "fr": "ACCA"}
+ ],
+ "unis": [
+  {"id": "ku", "en": "Kuwait University", "ar": "جامعة الكويت", "fr": "Université du Koweït"},
+  {"id": "gust", "en": "Gulf University for Science and Technology", "ar": "جامعة الخليج للعلوم والتكنولوجيا", "fr": "Université du Golfe pour la science et la technologie"},
+  {"id": "auk", "en": "American University of Kuwait", "ar": "الجامعة الأمريكية في الكويت", "fr": "Université américaine du Koweït"}
+ ],
+ "govPlatforms": [
+  {"id": "csc", "en": "Civil Service Commission", "ar": "ديوان الخدمة المدنية", "fr": "Commission de la fonction publique",
+   "use": {"en": "Registration for government jobs (central employment system)", "ar": "التسجيل في التوظيف الحكومي (نظام التوظيف المركزي)", "fr": "Inscription aux emplois publics (système central de recrutement)"}},
+  {"id": "pifss", "en": "PIFSS", "ar": "التأمينات الاجتماعية", "fr": "PIFSS",
+   "use": {"en": "Kuwaitis' official employment and salary record", "ar": "سجل الكويتيين الرسمي للعمل والراتب", "fr": "Historique officiel d'emploi et de salaire des Koweïtiens"}},
+  {"id": "pam", "en": "PAM", "ar": "الهيئة العامة للقوى العاملة", "fr": "PAM",
+   "use": {"en": "Work permits and residence transfers in the private sector", "ar": "أذونات العمل وتحويل الإقامة في القطاع الخاص", "fr": "Permis de travail et transferts de résidence dans le secteur privé"}},
+  {"id": "sahel", "en": "Sahel", "ar": "سهل", "fr": "Sahel",
+   "use": {"en": "Government e-services app, including work and residence requests", "ar": "تطبيق الخدمات الحكومية، ومنها طلبات العمل والإقامة", "fr": "Application des services publics, dont les démarches de travail et de résidence"}}
+ ],
+ "persona": {
+  "first": "Abdullah",
+  "last": "Al-Mutawa",
+  "gender": "m",
+  "nat": "KW",
+  "city": "kuwaitcity",
+  "ar": {"first": "عبدالله", "last": "المطوع"},
+  "email": "abdullah.almutawa@email.com",
+  "phone": "+965 9012 3456",
+  "title": {"en": "Financial Analyst", "ar": "محلل مالي", "fr": "Analyste financier"},
+  "years": 8,
+  "employer": {"en": "Sadu Holding", "ar": "السدو القابضة", "fr": "Sadu Holding"},
+  "employer2": {"en": "Sadu Real Estate", "ar": "السدو العقارية", "fr": "Sadu Real Estate"},
+  "degree": {"en": "BSc Accounting", "ar": "بكالوريوس محاسبة", "fr": "Licence en comptabilité"},
+  "uni": "ku",
+  "cert": "cpa",
+  "tools": "SAP, Excel, Power BI",
+  "bio": {
+   "en": "Financial Analyst with 8 years in Kuwait City. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I prepare the group's quarterly disclosures for Boursa Kuwait. I am looking for a Senior Financial Analyst or FP&A role in Kuwait City, Ahmadi, or remote.",
+   "ar": "محلل مالي بخبرة 8 سنوات في الكويت. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات اللي قلّصت وقت التقارير بالثلث، وأجهّز الإفصاحات الربعية للمجموعة لبورصة الكويت. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في مدينة الكويت أو الأحمدي أو عن بُعد.",
+   "fr": "Analyste financier avec 8 ans d'expérience à Koweït. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je prépare les publications trimestrielles du groupe pour Boursa Kuwait. Je recherche un poste d'analyste financier senior ou en FP&A à Koweït, à Al-Ahmadi ou en télétravail."
+  }
+ },
+ "people": [
+  {"first": "Dalal", "last": "Al-Kandari", "gender": "f", "ar": {"first": "دلال", "last": "الكندري"}},
+  {"first": "Fahad", "last": "Al-Ajmi", "gender": "m", "ar": {"first": "فهد", "last": "العجمي"}},
+  {"first": "Lulwa", "last": "Al-Roumi", "gender": "f", "ar": {"first": "لولوة", "last": "الرومي"}},
+  {"first": "Bader", "last": "Al-Mutairi", "gender": "m", "ar": {"first": "بدر", "last": "المطيري"}},
+  {"first": "Noor", "last": "Behbehani", "gender": "f", "ar": {"first": "نور", "last": "بهبهاني"}},
+  {"first": "Mishari", "last": "Al-Enezi", "gender": "m", "ar": {"first": "مشاري", "last": "العنزي"}},
+  {"first": "Fajer", "last": "Al-Awadhi", "gender": "f", "ar": {"first": "فجر", "last": "العوضي"}},
+  {"first": "Yousef", "last": "Al-Qattan", "gender": "m", "ar": {"first": "يوسف", "last": "القطان"}},
+  {"first": "Lina", "last": "Khoury", "gender": "f", "ar": {"first": "لينا", "last": "خوري"}},
+  {"first": "Anil", "last": "Varghese", "gender": "m", "ar": {"first": "أنيل", "last": "فارغيز"}}
+ ],
+ "culture": {
+  "notes": "Work week Sunday to Thursday (Friday-Saturday weekend); copy should use Sun-Thu days for interviews and deadlines. Salaries are quoted monthly in KWD, tax-free, and paid monthly; expat offers often split basic pay and allowances (housing, transport). Kuwaitis in the private sector also receive the state's national labour support allowance on top of salary, which is a big reason many prefer private-sector offers that keep them registered. Notice: Labour Law 6/2010 (Art. 44) sets at least 3 months' notice for monthly-paid staff on indefinite contracts, so 90 days is the safe default; employers often waive part of it for a new hire. Ramadan working hours are capped at 36 a week in the private sector. CVs: 2 pages, English (Arabic for government and some semi-government roles), with a personal block: nationality ('Kuwaiti national' up front), residence status and whether it is transferable (Article 18) for expats, often date of birth and a photo. Cover letters are rarely required; portals ask screening questions instead. Many adverts say 'Kuwaitis only' or 'transferable residence only'. Government roles go through the Civil Service Commission's central employment system; private employers verify Kuwaitis' history through PIFSS and expats' through PAM. English is the working language in banks, oil and listed groups; Arabic matters in government. From general knowledge; see KW.sources.md for what still needs verifying."
+ },
+ "noticeDays": 90
+}

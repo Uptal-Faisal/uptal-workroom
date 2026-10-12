@@ -1,0 +1,919 @@
+{
+ "code": "AE",
+ "flag": "🇦🇪",
+ "name": {
+  "en": "United Arab Emirates",
+  "ar": "الإمارات العربية المتحدة",
+  "fr": "Émirats arabes unis"
+ },
+ "short": {
+  "en": "the UAE",
+  "ar": "الإمارات",
+  "fr": "les Émirats arabes unis"
+ },
+ "in": {
+  "en": "in the UAE",
+  "ar": "في الإمارات",
+  "fr": "aux Émirats arabes unis"
+ },
+ "dem": {
+  "en": "Emirati",
+  "ar": "إماراتي",
+  "arf": "إماراتية",
+  "fr": "émirien",
+  "frf": "émirienne"
+ },
+ "nationals": {
+  "en": "UAE nationals",
+  "ar": "المواطنون الإماراتيون",
+  "fr": "ressortissants émiriens"
+ },
+ "region": "gcc",
+ "workweek": "mon-fri",
+ "cities": [
+  {
+   "id": "dubai",
+   "en": "Dubai",
+   "ar": "دبي",
+   "fr": "Dubaï",
+   "metro": {
+    "en": "Dubai covers DIFC, Downtown, Business Bay, Dubai Marina, JLT and Jebel Ali.",
+    "ar": "دبي تشمل مركز دبي المالي العالمي، وداون تاون، والخليج التجاري، ودبي مارينا، وأبراج بحيرات جميرا، وجبل علي.",
+    "fr": "Dubaï couvre le DIFC, Downtown, Business Bay, Dubai Marina, JLT et Jebel Ali."
+   }
+  },
+  {
+   "id": "abudhabi",
+   "en": "Abu Dhabi",
+   "ar": "أبوظبي",
+   "fr": "Abou Dhabi",
+   "metro": {
+    "en": "Abu Dhabi covers the city, ADGM on Al Maryah Island, Al Reem, Yas and Khalifa City.",
+    "ar": "أبوظبي تشمل المدينة، وسوق أبوظبي العالمي في جزيرة الماريه، والريم، وياس، ومدينة خليفة.",
+    "fr": "Abou Dhabi couvre la ville, l'ADGM sur l'île d'Al Maryah, Al Reem, Yas et Khalifa City."
+   }
+  },
+  {
+   "id": "sharjah",
+   "en": "Sharjah",
+   "ar": "الشارقة",
+   "fr": "Charjah",
+   "metro": {
+    "en": "Sharjah covers the city, SAIF Zone, Hamriyah and University City.",
+    "ar": "الشارقة تشمل المدينة، والمنطقة الحرة لمطار الشارقة، والحمرية، والمدينة الجامعية.",
+    "fr": "Charjah couvre la ville, la SAIF Zone, Hamriyah et University City."
+   }
+  },
+  {
+   "id": "rasalkhaimah",
+   "en": "Ras Al Khaimah",
+   "ar": "رأس الخيمة",
+   "fr": "Ras el Khaïmah",
+   "metro": {
+    "en": "Ras Al Khaimah covers the city, Al Hamra and the RAKEZ free zone.",
+    "ar": "رأس الخيمة تشمل المدينة، والحمرا، والمنطقة الاقتصادية لرأس الخيمة (راكز).",
+    "fr": "Ras el Khaïmah couvre la ville, Al Hamra et la zone franche RAKEZ."
+   }
+  },
+  {
+   "id": "alain",
+   "en": "Al Ain",
+   "ar": "العين",
+   "fr": "Al-Aïn",
+   "metro": {
+    "en": "Al Ain is in the Abu Dhabi emirate and covers the city and its industrial areas.",
+    "ar": "العين في إمارة أبوظبي، وتشمل المدينة ومناطقها الصناعية.",
+    "fr": "Al-Aïn se trouve dans l'émirat d'Abou Dhabi et couvre la ville et ses zones industrielles."
+   }
+  },
+  {
+   "id": "ajman",
+   "en": "Ajman",
+   "ar": "عجمان",
+   "fr": "Ajman",
+   "metro": {
+    "en": "Ajman covers the city and Ajman Free Zone.",
+    "ar": "عجمان تشمل المدينة والمنطقة الحرة في عجمان.",
+    "fr": "Ajman couvre la ville et la zone franche d'Ajman."
+   }
+  },
+  {
+   "id": "fujairah",
+   "en": "Fujairah",
+   "ar": "الفجيرة",
+   "fr": "Fujaïrah",
+   "metro": {
+    "en": "Fujairah covers the city and the port area.",
+    "ar": "الفجيرة تشمل المدينة ومنطقة الميناء.",
+    "fr": "Fujaïrah couvre la ville et la zone portuaire."
+   }
+  }
+ ],
+ "employers": [
+  {
+   "id": "adnoc",
+   "en": "ADNOC",
+   "ar": "أدنوك",
+   "fr": "ADNOC",
+   "sector": "energy",
+   "archetype": "national energy champion",
+   "city": "abudhabi",
+   "logo": {
+    "bg": "#0067B1",
+    "fg": "#FFFFFF",
+    "mono": "ADN"
+   }
+  },
+  {
+   "id": "fab",
+   "en": "First Abu Dhabi Bank",
+   "ar": "بنك أبوظبي الأول",
+   "fr": "First Abu Dhabi Bank",
+   "sector": "bank",
+   "archetype": "largest bank",
+   "city": "abudhabi",
+   "logo": {
+    "bg": "#0A2240",
+    "fg": "#FFFFFF",
+    "mono": "FAB"
+   }
+  },
+  {
+   "id": "enbd",
+   "en": "Emirates NBD",
+   "ar": "بنك الإمارات دبي الوطني",
+   "fr": "Emirates NBD",
+   "sector": "bank",
+   "archetype": "largest Dubai bank",
+   "city": "dubai",
+   "logo": {
+    "bg": "#1C2D5A",
+    "fg": "#FFFFFF",
+    "mono": "ENBD"
+   }
+  },
+  {
+   "id": "adcb",
+   "en": "ADCB",
+   "ar": "بنك أبوظبي التجاري",
+   "fr": "ADCB",
+   "sector": "bank",
+   "archetype": "top-3 commercial bank",
+   "city": "abudhabi",
+   "logo": {
+    "bg": "#C8102E",
+    "fg": "#FFFFFF",
+    "mono": "ADCB"
+   }
+  },
+  {
+   "id": "dib",
+   "en": "Dubai Islamic Bank",
+   "ar": "بنك دبي الإسلامي",
+   "fr": "Dubai Islamic Bank",
+   "sector": "bank",
+   "archetype": "largest Islamic bank",
+   "city": "dubai",
+   "logo": {
+    "bg": "#005A3C",
+    "fg": "#FFFFFF",
+    "mono": "DIB"
+   }
+  },
+  {
+   "id": "eand",
+   "en": "e&",
+   "ar": "إي آند",
+   "fr": "e&",
+   "sector": "telecom",
+   "archetype": "telecom #1 (group HQ)",
+   "city": "abudhabi",
+   "logo": {
+    "bg": "#111111",
+    "fg": "#FFFFFF",
+    "mono": "e&"
+   }
+  },
+  {
+   "id": "du",
+   "en": "du",
+   "ar": "دو",
+   "fr": "du",
+   "sector": "telecom",
+   "archetype": "telecom #2",
+   "city": "dubai",
+   "logo": {
+    "bg": "#753BBD",
+    "fg": "#FFFFFF",
+    "mono": "du"
+   }
+  },
+  {
+   "id": "mubadala",
+   "en": "Mubadala",
+   "ar": "مبادلة",
+   "fr": "Mubadala",
+   "sector": "sovereign",
+   "archetype": "sovereign investor",
+   "city": "abudhabi",
+   "logo": {
+    "bg": "#00395D",
+    "fg": "#FFFFFF",
+    "mono": "M"
+   }
+  },
+  {
+   "id": "pwc",
+   "en": "PwC Middle East",
+   "ar": "PwC الشرق الأوسط",
+   "fr": "PwC Moyen-Orient",
+   "sector": "consulting",
+   "archetype": "big-4 firm (regional HQ)",
+   "city": "dubai",
+   "logo": {
+    "bg": "#D04A02",
+    "fg": "#FFFFFF",
+    "mono": "PwC"
+   }
+  },
+  {
+   "id": "agthia",
+   "en": "Agthia Group",
+   "ar": "مجموعة أغذية",
+   "fr": "Groupe Agthia",
+   "sector": "fmcg",
+   "archetype": "food and beverage major",
+   "city": "abudhabi",
+   "logo": {
+    "bg": "#00843D",
+    "fg": "#FFFFFF",
+    "mono": "AG"
+   }
+  },
+  {
+   "id": "maf",
+   "en": "Majid Al Futtaim",
+   "ar": "ماجد الفطيم",
+   "fr": "Majid Al Futtaim",
+   "sector": "retail",
+   "archetype": "retail and malls group (Carrefour franchisee)",
+   "city": "dubai",
+   "logo": {
+    "bg": "#00483A",
+    "fg": "#FFFFFF",
+    "mono": "MAF"
+   }
+  },
+  {
+   "id": "emirates",
+   "en": "Emirates",
+   "ar": "طيران الإمارات",
+   "fr": "Emirates",
+   "sector": "airline",
+   "archetype": "national airline",
+   "city": "dubai",
+   "logo": {
+    "bg": "#D71921",
+    "fg": "#FFFFFF",
+    "mono": "EK"
+   }
+  },
+  {
+   "id": "airarabia",
+   "en": "Air Arabia",
+   "ar": "العربية للطيران",
+   "fr": "Air Arabia",
+   "sector": "airline",
+   "archetype": "low-cost airline",
+   "city": "sharjah",
+   "logo": {
+    "bg": "#E30613",
+    "fg": "#FFFFFF",
+    "mono": "AA"
+   }
+  },
+  {
+   "id": "purehealth",
+   "en": "PureHealth",
+   "ar": "بيورهيلث",
+   "fr": "PureHealth",
+   "sector": "healthcare",
+   "archetype": "hospital group",
+   "city": "abudhabi",
+   "logo": {
+    "bg": "#00857C",
+    "fg": "#FFFFFF",
+    "mono": "PH"
+   }
+  },
+  {
+   "id": "sukoon",
+   "en": "Sukoon Insurance",
+   "ar": "سكون للتأمين",
+   "fr": "Sukoon Insurance",
+   "sector": "insurance",
+   "archetype": "insurer",
+   "city": "dubai",
+   "logo": {
+    "bg": "#004F59",
+    "fg": "#FFFFFF",
+    "mono": "S"
+   }
+  },
+  {
+   "id": "careem",
+   "en": "Careem",
+   "ar": "كريم",
+   "fr": "Careem",
+   "sector": "tech",
+   "archetype": "tech scale-up (super app)",
+   "city": "dubai",
+   "logo": {
+    "bg": "#00A651",
+    "fg": "#FFFFFF",
+    "mono": "C"
+   }
+  },
+  {
+   "id": "network",
+   "en": "Network International",
+   "ar": "نتورك إنترناشيونال",
+   "fr": "Network International",
+   "sector": "fintech",
+   "archetype": "payments fintech",
+   "city": "dubai",
+   "logo": {
+    "bg": "#8C1D40",
+    "fg": "#FFFFFF",
+    "mono": "NI"
+   }
+  },
+  {
+   "id": "talabat",
+   "en": "talabat",
+   "ar": "طلبات",
+   "fr": "talabat",
+   "sector": "ecommerce",
+   "archetype": "food-delivery app",
+   "city": "dubai",
+   "logo": {
+    "bg": "#FF5A00",
+    "fg": "#FFFFFF",
+    "mono": "t"
+   }
+  },
+  {
+   "id": "emaar",
+   "en": "Emaar Properties",
+   "ar": "إعمار العقارية",
+   "fr": "Emaar Properties",
+   "sector": "realestate",
+   "archetype": "master developer",
+   "city": "dubai",
+   "logo": {
+    "bg": "#1D2B4C",
+    "fg": "#C8A96A",
+    "mono": "EM"
+   }
+  },
+  {
+   "id": "aldar",
+   "en": "Aldar Properties",
+   "ar": "الدار العقارية",
+   "fr": "Aldar Properties",
+   "sector": "realestate",
+   "archetype": "master developer",
+   "city": "abudhabi",
+   "logo": {
+    "bg": "#3B2A5C",
+    "fg": "#FFFFFF",
+    "mono": "AL"
+   }
+  },
+  {
+   "id": "adx",
+   "en": "Abu Dhabi Securities Exchange",
+   "ar": "سوق أبوظبي للأوراق المالية",
+   "fr": "Abu Dhabi Securities Exchange",
+   "sector": "exchange",
+   "archetype": "stock exchange",
+   "city": "abudhabi",
+   "logo": {
+    "bg": "#003B71",
+    "fg": "#FFFFFF",
+    "mono": "ADX"
+   }
+  },
+  {
+   "id": "ega",
+   "en": "Emirates Global Aluminium",
+   "ar": "الإمارات العالمية للألمنيوم",
+   "fr": "Emirates Global Aluminium",
+   "sector": "industrial",
+   "archetype": "industrial (aluminium)",
+   "city": "abudhabi",
+   "logo": {
+    "bg": "#005EB8",
+    "fg": "#FFFFFF",
+    "mono": "EGA"
+   }
+  },
+  {
+   "id": "dewa",
+   "en": "DEWA",
+   "ar": "هيئة كهرباء ومياه دبي",
+   "fr": "DEWA",
+   "sector": "government",
+   "archetype": "semi-government utility",
+   "city": "dubai",
+   "logo": {
+    "bg": "#00703C",
+    "fg": "#FFFFFF",
+    "mono": "DEWA"
+   }
+  },
+  {
+   "id": "rakbank",
+   "en": "RAKBANK",
+   "ar": "راك بنك",
+   "fr": "RAKBANK",
+   "sector": "bank",
+   "archetype": "retail and SME bank",
+   "city": "rasalkhaimah",
+   "logo": {
+    "bg": "#D52B1E",
+    "fg": "#FFFFFF",
+    "mono": "RAK"
+   }
+  }
+ ],
+ "sectorsCovered": {
+  "energy": [
+   "adnoc"
+  ],
+  "largestBanks": [
+   "fab",
+   "enbd",
+   "adcb"
+  ],
+  "islamicBank": [
+   "dib"
+  ],
+  "telecom1": [
+   "eand"
+  ],
+  "telecom2": [
+   "du"
+  ],
+  "sovereign": [
+   "mubadala"
+  ],
+  "big4": [
+   "pwc"
+  ],
+  "fmcg": [
+   "agthia"
+  ],
+  "retailer": [
+   "maf"
+  ],
+  "airline": [
+   "emirates",
+   "airarabia"
+  ],
+  "hospitalGroup": [
+   "purehealth"
+  ],
+  "insurer": [
+   "sukoon"
+  ],
+  "techScaleup": [
+   "careem"
+  ],
+  "fintech": [
+   "network"
+  ],
+  "deliveryApp": [
+   "talabat"
+  ],
+  "realEstate": [
+   "emaar",
+   "aldar"
+  ],
+  "stockExchange": [
+   "adx"
+  ],
+  "industrial": [
+   "ega"
+  ],
+  "government": [
+   "dewa"
+  ],
+  "extra": [
+   "rakbank"
+  ]
+ },
+ "sal": {
+  "per": "month",
+  "f": 0.8,
+  "basis": "UAE pay is quoted monthly, tax-free, as a total package (basic + housing + transport). Senior Financial Analyst / Senior FP&A, ~8 yrs, Dubai: about AED 25-32k a month at multinationals and 23-28k at SMEs (JobXDubai 2026 salary pages, updated July 2026); Abu Dhabi runs ~5% lower. f = 0.8 maps the v5 Riyadh band 34-41k SAR to AED 27.2-32.8k (centre of the Dubai MNC range), so Ahmed earns ~AED 20,800 and expects ~27,200. KSA pays a premium over the UAE for the same role, which is why f < 1 even though AED and SAR are near par (both USD-pegged, 1 SAR = 0.979 AED)."
+ },
+ "tax": {
+  "incl": true,
+  "rate": 5,
+  "label": {
+   "en": "VAT included",
+   "ar": "شامل ضريبة القيمة المضافة",
+   "fr": "TVA incluse"
+  }
+ },
+ "pay": {
+  "wallets": [
+   "apple",
+   "google"
+  ],
+  "methods": [
+   {
+    "id": "card",
+    "label": {
+     "en": "Card",
+     "ar": "بطاقة",
+     "fr": "Carte"
+    },
+    "sub": {
+     "en": "Visa, Mastercard, Amex",
+     "ar": "Visa أو Mastercard أو Amex",
+     "fr": "Visa, Mastercard, Amex"
+    },
+    "brands": [
+     "visa",
+     "mc",
+     "amex"
+    ]
+   }
+  ],
+  "bnpl": [
+   {
+    "id": "tabby",
+    "name": "Tabby",
+    "installments": 4,
+    "sub": {
+     "en": "Pay in 4, interest-free",
+     "ar": "قسّمها على 4 دفعات بدون فوائد",
+     "fr": "Payez en 4 fois sans frais"
+    }
+   },
+   {
+    "id": "tamara",
+    "name": "Tamara",
+    "installments": 4,
+    "sub": {
+     "en": "Pay in 4, interest-free",
+     "ar": "قسّمها على 4 دفعات بدون فوائد",
+     "fr": "Payez en 4 fois sans frais"
+    }
+   }
+  ],
+  "localCardBrand": null
+ },
+ "phone": {
+  "cc": "+971",
+  "ex": "+971 50 123 4567"
+ },
+ "rights": {
+  "q": {
+   "en": "Your right to work in the UAE",
+   "ar": "أهليتك للعمل في الإمارات",
+   "fr": "Votre droit de travailler aux Émirats arabes unis"
+  },
+  "opts": [
+   {
+    "en": "UAE or GCC national",
+    "ar": "مواطن إماراتي أو خليجي",
+    "fr": "Ressortissant émirien ou du CCG",
+    "sub": {
+     "en": "No visa or sponsor needed",
+     "ar": "ما تحتاج تأشيرة ولا كفيل",
+     "fr": "Aucun visa ni parrainage nécessaire"
+    }
+   },
+   {
+    "en": "Residence visa through my employer",
+    "ar": "إقامة عمل عن طريق جهة عملي",
+    "fr": "Visa de résident via mon employeur",
+    "sub": {
+     "en": "Your new employer issues a new work permit and visa. No NOC needed in most cases.",
+     "ar": "جهة العمل الجديدة تطلّع لك تصريح عمل وإقامة جديدة، وغالباً بدون شهادة عدم ممانعة.",
+     "fr": "Votre nouvel employeur obtient un nouveau permis de travail et un nouveau visa, sans NOC dans la plupart des cas."
+    }
+   },
+   {
+    "en": "Golden Visa",
+    "ar": "الإقامة الذهبية",
+    "fr": "Golden Visa",
+    "sub": {
+     "en": "Self-sponsored long-term residence. Your employer only adds a work permit.",
+     "ar": "إقامة طويلة بدون كفيل. جهة العمل تضيف تصريح العمل بس.",
+     "fr": "Résidence longue durée sans parrain. Votre employeur ajoute seulement un permis de travail."
+    }
+   },
+   {
+    "en": "Green Visa",
+    "ar": "الإقامة الخضراء",
+    "fr": "Green Visa",
+    "sub": {
+     "en": "Self-sponsored for 5 years. Your employer only adds a work permit.",
+     "ar": "إقامة 5 سنوات بدون كفيل. جهة العمل تضيف تصريح العمل بس.",
+     "fr": "Résidence de 5 ans sans parrain. Votre employeur ajoute seulement un permis de travail."
+    }
+   },
+   {
+    "en": "Family-sponsored residence",
+    "ar": "إقامة على كفالة العائلة",
+    "fr": "Résidence parrainée par la famille",
+    "sub": {
+     "en": "Sponsored by a spouse or parent. Your employer only adds a work permit.",
+     "ar": "على كفالة الزوج أو الزوجة أو أحد الوالدين. جهة العمل تضيف تصريح العمل بس.",
+     "fr": "Parrainée par votre conjoint ou un parent. Votre employeur ajoute seulement un permis de travail."
+    }
+   },
+   {
+    "en": "I need an employer to sponsor my visa",
+    "ar": "أحتاج جهة عمل تكفل تأشيرتي",
+    "fr": "J'ai besoin qu'un employeur parraine mon visa",
+    "sub": {
+     "en": "You are outside the UAE or on a visit visa.",
+     "ar": "أنت برّا الإمارات أو على تأشيرة زيارة.",
+     "fr": "Vous êtes hors des Émirats ou avec un visa de visite."
+    }
+   }
+  ],
+  "autoFor": [
+   "AE",
+   "SA",
+   "KW",
+   "QA",
+   "BH",
+   "OM"
+  ],
+  "autoText": {
+   "en": "UAE and GCC nationals can work in the UAE without visa sponsorship.",
+   "ar": "مواطنو الإمارات ودول الخليج يقدرون يشتغلون في الإمارات بدون كفالة تأشيرة.",
+   "fr": "Les ressortissants émiriens et du CCG peuvent travailler aux Émirats sans parrainage de visa."
+  },
+  "rule": {
+   "en": "If your visa is through an employer or you need one, we skip UAE jobs that ask for your own visa.",
+   "ar": "إذا إقامتك عن طريق جهة عمل أو تحتاج تأشيرة، نتخطّى وظائف الإمارات اللي تطلب إقامة على كفالتك الخاصة.",
+   "fr": "Si votre visa dépend d'un employeur ou si vous avez besoin d'un visa, nous écartons les offres aux Émirats qui exigent votre propre visa."
+  }
+ },
+ "nationalisation": {
+  "name": {
+   "en": "Emiratisation",
+   "ar": "التوطين",
+   "fr": "Émiratisation"
+  },
+  "desc": {
+   "en": "Private companies with 50 or more staff must add Emiratis to skilled roles every year, reaching 10% by the end of 2026. We only apply to roles marked UAE nationals only if you are Emirati.",
+   "ar": "الشركات الخاصة اللي فيها 50 موظف أو أكثر لازم تزيد عدد المواطنين في الوظائف المهارية كل سنة لين توصل 10% نهاية 2026. وما نقدّم على الوظائف المخصصة للمواطنين إلا إذا كنت إماراتي الجنسية.",
+   "fr": "Les entreprises privées de 50 salariés ou plus doivent recruter chaque année des Émiriens sur des postes qualifiés, jusqu'à 10 % fin 2026. Nous ne postulons aux offres réservées aux ressortissants émiriens que si vous avez la nationalité émirienne."
+  }
+ },
+ "sensitive": {
+  "photo": "optional",
+  "gender": "ask",
+  "dob": "ask",
+  "nationality": "ask",
+  "marital": "none",
+  "notes": "Photo: common on CVs emailed to recruiters and on regional boards (Bayt, GulfTalent), but UAE CV guides advise leaving it off ATS uploads (Workday, LinkedIn Easy Apply); we offer it and never require it. Gender, date of birth and nationality are standard fields on UAE application forms and regional boards; nationality also drives visa handling and Emiratisation, and recruiters expect visa status on the CV. Marital status: sources conflict and it is not needed, so we do not ask. Decree-Law 33/2021 bans discrimination on sex, nationality, religion, etc., while treating Emiratisation measures as lawful, so we never filter on gender or age, only on work rights and Emirati-only postings."
+ },
+ "legal": {
+  "law": "UAE PDPL (Federal Decree-Law No. 45 of 2021); DIFC DP Law 2020 and ADGM DP Regulations 2021 apply in those free zones",
+  "privacy": {
+   "en": "Your data is protected under the UAE Personal Data Protection Law (PDPL). We never share it without your consent.",
+   "ar": "بياناتك محمية بموجب قانون حماية البيانات الشخصية في الإمارات، وما نشاركها بدون موافقتك.",
+   "fr": "Vos données sont protégées par la loi émirienne sur la protection des données personnelles (PDPL). Nous ne les partageons jamais sans votre accord."
+  },
+  "renewal": {
+   "en": "Your plan renews automatically at the same price. Cancel anytime before the renewal date and you are not charged again.",
+   "ar": "باقتك تتجدد تلقائياً بنفس السعر. ألغِ في أي وقت قبل تاريخ التجديد وما ينخصم منك شي مرة ثانية.",
+   "fr": "Votre abonnement se renouvelle automatiquement au même prix. Résiliez à tout moment avant la date de renouvellement et vous ne serez plus prélevé."
+  }
+ },
+ "boards": [
+  "LinkedIn",
+  "Bayt",
+  "GulfTalent",
+  "Indeed",
+  "Naukrigulf"
+ ],
+ "lang2": {
+  "en": "Arabic",
+  "ar": "العربية",
+  "fr": "arabe"
+ },
+ "certs": [
+  {
+   "id": "acca",
+   "en": "ACCA",
+   "ar": "ACCA",
+   "fr": "ACCA"
+  },
+  {
+   "id": "cma",
+   "en": "CMA",
+   "ar": "CMA",
+   "fr": "CMA"
+  },
+  {
+   "id": "cfa",
+   "en": "CFA",
+   "ar": "CFA",
+   "fr": "CFA"
+  },
+  {
+   "id": "cpa",
+   "en": "CPA",
+   "ar": "CPA",
+   "fr": "CPA"
+  }
+ ],
+ "unis": [
+  {
+   "id": "aus",
+   "en": "American University of Sharjah",
+   "ar": "الجامعة الأمريكية في الشارقة",
+   "fr": "Université américaine de Charjah"
+  },
+  {
+   "id": "uaeu",
+   "en": "United Arab Emirates University",
+   "ar": "جامعة الإمارات العربية المتحدة",
+   "fr": "Université des Émirats arabes unis"
+  },
+  {
+   "id": "zu",
+   "en": "Zayed University",
+   "ar": "جامعة زايد",
+   "fr": "Université Zayed"
+  }
+ ],
+ "govPlatforms": [
+  {
+   "id": "mohre",
+   "en": "MOHRE",
+   "ar": "وزارة الموارد البشرية والتوطين",
+   "fr": "MOHRE"
+  },
+  {
+   "id": "icp",
+   "en": "ICP",
+   "ar": "الهيئة الاتحادية للهوية والجنسية والجمارك وأمن المنافذ",
+   "fr": "ICP"
+  },
+  {
+   "id": "nafis",
+   "en": "Nafis",
+   "ar": "نافس",
+   "fr": "Nafis"
+  }
+ ],
+ "persona": {
+  "first": "Ahmed",
+  "last": "Mansour",
+  "gender": "m",
+  "nat": "EG",
+  "city": "dubai",
+  "ar": {
+   "first": "أحمد",
+   "last": "منصور"
+  },
+  "email": "ahmed.mansour@email.com",
+  "phone": "+971 50 123 4567",
+  "title": {
+   "en": "Financial Analyst",
+   "ar": "محلل مالي",
+   "fr": "Analyste financier"
+  },
+  "years": 8,
+  "employer": {
+   "en": "Durrah Holding",
+   "ar": "درة القابضة",
+   "fr": "Durrah Holding"
+  },
+  "employer2": {
+   "en": "Durrah Logistics",
+   "ar": "درة للخدمات اللوجستية",
+   "fr": "Durrah Logistics"
+  },
+  "degree": {
+   "en": "BSBA in Accounting",
+   "ar": "بكالوريوس إدارة الأعمال، تخصص محاسبة",
+   "fr": "Licence en administration des affaires, spécialité comptabilité"
+  },
+  "uni": "aus",
+  "cert": "cma",
+  "tools": "SAP, Excel, Power BI",
+  "bio": {
+   "en": "Financial Analyst with 8 years in Dubai. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and got the group ready for UAE Corporate Tax. I am looking for a Senior Financial Analyst or FP&A role in Dubai, Abu Dhabi, or remote.",
+   "ar": "محلل مالي بخبرة 8 سنوات في دبي. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات التي قلّصت وقت التقارير بالثلث، وجهّزت المجموعة لضريبة الشركات في الإمارات. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في دبي أو أبوظبي أو عن بُعد.",
+   "fr": "Analyste financier avec 8 ans d'expérience à Dubaï. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et préparé le groupe à l'impôt sur les sociétés émirien. Je recherche un poste d'analyste financier senior ou en FP&A à Dubaï, à Abou Dhabi ou en télétravail."
+  }
+ },
+ "people": [
+  {
+   "first": "Fatima",
+   "last": "Al Mazrouei",
+   "gender": "f",
+   "ar": {
+    "first": "فاطمة",
+    "last": "المزروعي"
+   }
+  },
+  {
+   "first": "Khalid",
+   "last": "Al Hammadi",
+   "gender": "m",
+   "ar": {
+    "first": "خالد",
+    "last": "الحمادي"
+   }
+  },
+  {
+   "first": "Mariam",
+   "last": "Al Suwaidi",
+   "gender": "f",
+   "ar": {
+    "first": "مريم",
+    "last": "السويدي"
+   }
+  },
+  {
+   "first": "Saeed",
+   "last": "Al Falasi",
+   "gender": "m",
+   "ar": {
+    "first": "سعيد",
+    "last": "الفلاسي"
+   }
+  },
+  {
+   "first": "Hessa",
+   "last": "Al Ketbi",
+   "gender": "f",
+   "ar": {
+    "first": "حصة",
+    "last": "الكتبي"
+   }
+  },
+  {
+   "first": "Omar",
+   "last": "Al Nuaimi",
+   "gender": "m",
+   "ar": {
+    "first": "عمر",
+    "last": "النعيمي"
+   }
+  },
+  {
+   "first": "Rania",
+   "last": "Haddad",
+   "gender": "f",
+   "ar": {
+    "first": "رانيا",
+    "last": "حداد"
+   }
+  },
+  {
+   "first": "Priya",
+   "last": "Menon",
+   "gender": "f",
+   "ar": {
+    "first": "بريا",
+    "last": "مينون"
+   }
+  },
+  {
+   "first": "Karim",
+   "last": "Nasser",
+   "gender": "m",
+   "ar": {
+    "first": "كريم",
+    "last": "ناصر"
+   }
+  },
+  {
+   "first": "Daniel",
+   "last": "Hughes",
+   "gender": "m",
+   "ar": {
+    "first": "دانيال",
+    "last": "هيوز"
+   }
+  }
+ ],
+ "culture": {
+  "notes": "Work week Mon-Fri since 2022 (federal government moved; most private employers followed; Sharjah government runs Mon-Thu). Salaries are quoted monthly, tax-free, as a package (basic + housing + transport allowances) and paid monthly through the Wage Protection System (WPS), usually at month end. Notice: Decree-Law 33/2021 sets 30-90 days by contract; 30 days is most common, senior roles often 60-90; employers like immediate joiners. No NOC is needed to change jobs in most cases; the new employer issues the work permit and visa. CVs: 2 pages, English, visa status and notice period near the top, nationality listed; photo common on emailed CVs but optional; DOB often listed. Cover letters rarely required; a short intro email or LinkedIn message is normal. Arabic is a plus (often 'Arabic speaker preferred'), English is the working language. Ramadan shortens working hours by 2 hours a day in the private sector. Recruiters and hiring managers are a mix of Emiratis and expats (Arab, South Asian, Western)."
+ },
+ "noticeDays": 30
+}

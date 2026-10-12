@@ -1,0 +1,166 @@
+{
+ "code": "IT",
+ "flag": "🇮🇹",
+ "name":  {"en":"Italy","ar":"إيطاليا","fr":"Italie"},
+ "short": {"en":"Italy","ar":"إيطاليا","fr":"l'Italie"},
+ "in":    {"en":"in Italy","ar":"في إيطاليا","fr":"en Italie"},
+ "dem":   {"en":"Italian","ar":"إيطالي","arf":"إيطالية","fr":"italien","frf":"italienne"},
+ "nationals": {"en":"Italian citizens","ar":"المواطنون الإيطاليون","fr":"citoyens italiens"},
+ "region": "eu",
+ "workweek": "mon-fri",
+ "cities": [
+  {"id":"milan","en":"Milan","ar":"ميلانو","fr":"Milan","metro":{
+    "en":"Milan covers the city and its metropolitan area, including the business hubs of Sesto San Giovanni, San Donato Milanese, Assago, Segrate and Pioltello, plus Monza.",
+    "ar":"تشمل ميلانو المدينة ومنطقتها الحضرية، بما في ذلك مراكز الأعمال في سيستو سان جوفاني وسان دوناتو ميلانيزي وأساغو وسيغراتي وبيولتيلو، إضافة إلى مونزا.",
+    "fr":"Milan couvre la ville et sa métropole, y compris les pôles d'affaires de Sesto San Giovanni, San Donato Milanese, Assago, Segrate et Pioltello, ainsi que Monza."}},
+  {"id":"rome","en":"Rome","ar":"روما","fr":"Rome","metro":{
+    "en":"Rome covers Roma Capitale, including the EUR business district, plus Fiumicino and the nearby business parks.",
+    "ar":"تشمل روما بلدية روما العاصمة بما فيها حي الأعمال EUR، إضافة إلى فيوميتشينو ومجمعات الأعمال المجاورة.",
+    "fr":"Rome couvre Roma Capitale, dont le quartier d'affaires de l'EUR, ainsi que Fiumicino et les parcs d'affaires voisins."}},
+  {"id":"turin","en":"Turin","ar":"تورينو","fr":"Turin","metro":{
+    "en":"Turin covers the city and its metropolitan area, including Moncalieri, Collegno, Rivoli and Pino Torinese.",
+    "ar":"تشمل تورينو المدينة ومنطقتها الحضرية، بما في ذلك مونكاليري وكولينيو وريفولي وبينو تورينيزي.",
+    "fr":"Turin couvre la ville et sa métropole, dont Moncalieri, Collegno, Rivoli et Pino Torinese."}},
+  {"id":"bologna","en":"Bologna","ar":"بولونيا","fr":"Bologne","metro":{
+    "en":"Bologna covers the city and its metropolitan area, including Casalecchio di Reno and San Lazzaro di Savena.",
+    "ar":"تشمل بولونيا المدينة ومنطقتها الحضرية، بما في ذلك كازاليكيو دي رينو وسان لاتسارو دي سافينا.",
+    "fr":"Bologne couvre la ville et sa métropole, dont Casalecchio di Reno et San Lazzaro di Savena."}},
+  {"id":"florence","en":"Florence","ar":"فلورنسا","fr":"Florence","metro":{
+    "en":"Florence covers the city plus Scandicci, Sesto Fiorentino and the Prato area.",
+    "ar":"تشمل فلورنسا المدينة إضافة إلى سكانديتشي وسيستو فيورنتينو ومنطقة براتو.",
+    "fr":"Florence couvre la ville ainsi que Scandicci, Sesto Fiorentino et la région de Prato."}},
+  {"id":"verona","en":"Verona","ar":"فيرونا","fr":"Vérone","metro":{
+    "en":"Verona covers the city and its province.",
+    "ar":"تشمل فيرونا المدينة والمقاطعة التابعة لها.",
+    "fr":"Vérone couvre la ville et sa province."}},
+  {"id":"padua","en":"Padua","ar":"بادوفا","fr":"Padoue","metro":{
+    "en":"Padua covers the city and its province, plus nearby Venice-Mestre and Treviso.",
+    "ar":"تشمل بادوفا المدينة والمقاطعة التابعة لها، إضافة إلى منطقتي فينيسيا-ميستري وتريفيزو القريبتين.",
+    "fr":"Padoue couvre la ville et sa province, ainsi que Venise-Mestre et Trévise à proximité."}},
+  {"id":"naples","en":"Naples","ar":"نابولي","fr":"Naples","metro":{
+    "en":"Naples covers the city and its metropolitan area, including the Centro Direzionale business district.",
+    "ar":"تشمل نابولي المدينة ومنطقتها الحضرية، بما في ذلك حي الأعمال Centro Direzionale.",
+    "fr":"Naples couvre la ville et sa métropole, dont le quartier d'affaires du Centro Direzionale."}}
+ ],
+ "employers": [
+  {"id":"eni","en":"Eni","ar":"إيني","fr":"Eni","sector":"energy","archetype":"national energy champion (San Donato Milanese and Rome)","city":"milan","logo":{"bg":"#FFD100","fg":"#000000","mono":"eni"}},
+  {"id":"enel","en":"Enel","ar":"إينيل","fr":"Enel","sector":"energy","archetype":"largest utility HQ","city":"rome","logo":{"bg":"#0047BB","fg":"#FFFFFF","mono":"enel"}},
+  {"id":"intesasanpaolo","en":"Intesa Sanpaolo","ar":"إنتيزا سان باولو","fr":"Intesa Sanpaolo","sector":"bank","archetype":"largest bank (HQ Turin, head-office functions in Milan)","city":"milan","logo":{"bg":"#00843D","fg":"#FFFFFF","mono":"ISP"}},
+  {"id":"unicredit","en":"UniCredit","ar":"يونيكريديت","fr":"UniCredit","sector":"bank","archetype":"pan-European bank HQ","city":"milan","logo":{"bg":"#E2001A","fg":"#FFFFFF","mono":"UC"}},
+  {"id":"bancobpm","en":"Banco BPM","ar":"بانكو بي بي إم","fr":"Banco BPM","sector":"bank","archetype":"third-largest bank HQ","city":"milan","logo":{"bg":"#003A70","fg":"#FFFFFF","mono":"BPM"}},
+  {"id":"generali","en":"Generali","ar":"جنرالي","fr":"Generali","sector":"insurer","archetype":"largest insurer (HQ Trieste, large Milan hub)","city":"milan","logo":{"bg":"#C21B17","fg":"#FFFFFF","mono":"G"}},
+  {"id":"unipol","en":"Unipol","ar":"يونيبول","fr":"Unipol","sector":"insurer","archetype":"insurance group HQ","city":"bologna","logo":{"bg":"#00529B","fg":"#FFFFFF","mono":"U"}},
+  {"id":"tim","en":"TIM","ar":"تيم (TIM)","fr":"TIM","sector":"telecom","archetype":"telecoms #1, former incumbent (Rome and Milan)","city":"rome","logo":{"bg":"#004691","fg":"#FFFFFF","mono":"TIM"}},
+  {"id":"fastwebvodafone","en":"Fastweb + Vodafone","ar":"فاستويب + فودافون","fr":"Fastweb + Vodafone","sector":"telecom","archetype":"telecoms #2 (Swisscom group)","city":"milan","logo":{"bg":"#E60000","fg":"#FFFFFF","mono":"FV"}},
+  {"id":"cdp","en":"Cassa Depositi e Prestiti (CDP)","ar":"كاسا ديبوزيتي إي بريستيتي (CDP)","fr":"Cassa Depositi e Prestiti (CDP)","sector":"sovereign","archetype":"state-owned national promotional and investment institution","city":"rome","logo":{"bg":"#00305E","fg":"#FFFFFF","mono":"CDP"}},
+  {"id":"deloitte","en":"Deloitte Italy","ar":"ديلويت إيطاليا","fr":"Deloitte Italie","sector":"big4","archetype":"big-4 professional services","city":"milan","logo":{"bg":"#000000","fg":"#86BC25","mono":"D"}},
+  {"id":"ferrero","en":"Ferrero","ar":"فيريرو","fr":"Ferrero","sector":"fmcg","archetype":"confectionery FMCG major (Pino Torinese and Alba)","city":"turin","logo":{"bg":"#3D1F12","fg":"#E8C47A","mono":"F"}},
+  {"id":"esselunga","en":"Esselunga","ar":"إسيلونغا","fr":"Esselunga","sector":"retail","archetype":"supermarket chain HQ (Pioltello)","city":"milan","logo":{"bg":"#E30613","fg":"#FFFFFF","mono":"S"}},
+  {"id":"itaairways","en":"ITA Airways","ar":"إيتا إيروايز","fr":"ITA Airways","sector":"airline","archetype":"national airline, part of Lufthansa Group","city":"rome","logo":{"bg":"#0B2A5B","fg":"#FFFFFF","mono":"ITA"}},
+  {"id":"grupposandonato","en":"Gruppo San Donato","ar":"مجموعة سان دوناتو","fr":"Gruppo San Donato","sector":"hospital","archetype":"largest private hospital group","city":"milan","logo":{"bg":"#00539F","fg":"#FFFFFF","mono":"GSD"}},
+  {"id":"bendingspoons","en":"Bending Spoons","ar":"بندينغ سبونز","fr":"Bending Spoons","sector":"tech","archetype":"tech scale-up HQ","city":"milan","logo":{"bg":"#111111","fg":"#FFFFFF","mono":"BS"}},
+  {"id":"nexi","en":"Nexi","ar":"نيكسي","fr":"Nexi","sector":"fintech","archetype":"European paytech HQ","city":"milan","logo":{"bg":"#2B2D8C","fg":"#FFFFFF","mono":"nexi"}},
+  {"id":"amazon","en":"Amazon Italia","ar":"أمازون إيطاليا","fr":"Amazon Italia","sector":"e-commerce","archetype":"e-commerce, Italian HQ","city":"milan","logo":{"bg":"#232F3E","fg":"#FF9900","mono":"a"}},
+  {"id":"webuild","en":"Webuild","ar":"ويبيلد","fr":"Webuild","sector":"real-estate","archetype":"infrastructure and construction group (large projects)","city":"milan","logo":{"bg":"#002D72","fg":"#FFFFFF","mono":"W"}},
+  {"id":"borsaitaliana","en":"Borsa Italiana (Euronext Milan)","ar":"البورصة الإيطالية (Euronext Milan)","fr":"Borsa Italiana (Euronext Milan)","sector":"exchange","archetype":"stock exchange, part of Euronext","city":"milan","logo":{"bg":"#003B5C","fg":"#FFFFFF","mono":"BI"}},
+  {"id":"stellantis","en":"Stellantis","ar":"ستيلانتيس","fr":"Stellantis","sector":"industrial","archetype":"automotive group, Italian operations HQ","city":"turin","logo":{"bg":"#243782","fg":"#FFFFFF","mono":"STLA"}},
+  {"id":"leonardo","en":"Leonardo","ar":"ليوناردو","fr":"Leonardo","sector":"industrial","archetype":"aerospace and defence group HQ","city":"rome","logo":{"bg":"#00274C","fg":"#FFFFFF","mono":"L"}},
+  {"id":"posteitaliane","en":"Poste Italiane","ar":"البريد الإيطالي (Poste Italiane)","fr":"Poste Italiane","sector":"government","archetype":"state-controlled postal, payments and insurance group","city":"rome","logo":{"bg":"#FFCB05","fg":"#00468C","mono":"PI"}},
+  {"id":"gucci","en":"Gucci","ar":"غوتشي","fr":"Gucci","sector":"luxury","archetype":"luxury fashion house HQ (Kering group)","city":"florence","logo":{"bg":"#000000","fg":"#C8A96A","mono":"GG"}}
+ ],
+ "sectorsCovered": "energy: Eni (national champion), Enel; largest banks: Intesa Sanpaolo, UniCredit, Banco BPM; Islamic bank: n/a in Italy; telecoms: TIM (#1), Fastweb + Vodafone (#2 after Swisscom merged them); sovereign/public investment: Cassa Depositi e Prestiti; big-4: Deloitte Italy; FMCG: Ferrero; retailer: Esselunga; airline: ITA Airways; hospital: Gruppo San Donato; insurers: Generali, Unipol; tech scale-up: Bending Spoons; fintech: Nexi; e-commerce: Amazon Italia; real estate / large projects: no giga-project developer in Italy, Webuild (infrastructure) instead; stock exchange: Borsa Italiana (Euronext Milan); industrial: Stellantis, Leonardo (no mining major in Italy); government/semi-government: Poste Italiane (and CDP); plus Gucci (luxury, Florence)",
+ "sal": {"per":"year","f":0.173,"basis":"Italians quote pay as RAL (retribuzione annua lorda, gross a year), so per=year. Benchmarks recalled from the Michael Page, Hays and Robert Walters Italy salary guides (2024-2026 editions) and Glassdoor/JobPricing data, NOT re-verified this session (web access was blocked): Senior Financial Analyst / FP&A analyst with 5-10 years in Milan about EUR 45-60k RAL, FP&A manager about EUR 60-85k. Chosen current base EUR 54,000 RAL (bonus excluded) = EUR 4,500 a month as RAL/12 (it is actually paid in 13 or 14 instalments); f = 4,500 / 26,000 = 0.173, so Noura's 34,000 expectation maps to about EUR 5,880 a month, i.e. about EUR 70.6k RAL, the top of the senior-analyst band and entry FP&A-manager level. Rome and Turin pay roughly 5-10% less than Milan."},
+ "tax":   {"incl":true,"rate":22,"label":{"en":"VAT included","ar":"شامل ضريبة القيمة المضافة","fr":"TVA incluse"}},
+ "pay": {
+  "wallets": ["apple","google"],
+  "methods": [
+   {"id":"card","label":{"en":"Card","ar":"بطاقة","fr":"Carte"},"sub":{"en":"Visa, Mastercard, Amex (debit, credit or prepaid)","ar":"فيزا، ماستركارد، أمريكان إكسبريس (خصم أو ائتمان أو مسبقة الدفع)","fr":"Visa, Mastercard, Amex (débit, crédit ou prépayée)"},"brands":["visa","mc","amex"]},
+   {"id":"paypal","label":{"en":"PayPal","ar":"PayPal","fr":"PayPal"},"sub":{"en":"Pay with your PayPal account","ar":"ادفع باستخدام حسابك في PayPal","fr":"Payez avec votre compte PayPal"}}
+  ],
+  "bnpl": [
+   {"id":"klarna","name":"Klarna","installments":3,"sub":{"en":"Pay in 3, interest-free. Renewals are charged in full.","ar":"ادفع على 3 أقساط بدون فوائد، ويُحصَّل التجديد كاملاً.","fr":"Payez en 3 fois sans intérêts. Les renouvellements sont prélevés en une fois."}}
+  ],
+  "localCardBrand": null
+ },
+ "phone": {"cc":"+39","ex":"+39 347 123 4567"},
+ "rights": {
+  "q": {"en":"Your right to work in Italy","ar":"حقك في العمل في إيطاليا","fr":"Votre droit de travailler en Italie"},
+  "opts": [
+   {"en":"Italian, EU, EEA or Swiss citizen","ar":"جنسية إيطالية أو من الاتحاد الأوروبي أو المنطقة الاقتصادية الأوروبية أو سويسرا","fr":"Nationalité italienne, de l'UE, de l'EEE ou suisse",
+    "sub":{"en":"No work permit needed","ar":"لا تحتاج إلى تصريح عمل","fr":"Aucun permis de travail requis"}},
+   {"en":"EU long-term resident permit","ar":"تصريح الإقامة الأوروبي للمقيمين لفترة طويلة","fr":"Permis de séjour UE de résident de longue durée",
+    "sub":{"en":"Permesso UE per soggiornanti di lungo periodo, any employer","ar":"(Permesso UE per soggiornanti di lungo periodo)، للعمل لدى أي جهة عمل","fr":"Permesso UE per soggiornanti di lungo periodo, tout employeur"}},
+   {"en":"Family or protection residence permit","ar":"تصريح إقامة لأسباب عائلية أو للحماية","fr":"Permis de séjour pour motifs familiaux ou de protection",
+    "sub":{"en":"For example family reasons, refugee status or special protection, any employer","ar":"مثل الأسباب العائلية أو صفة اللاجئ أو الحماية الخاصة، للعمل لدى أي جهة عمل","fr":"Par exemple motifs familiaux, statut de réfugié ou protection spéciale, tout employeur"}},
+   {"en":"Job-search permit after graduating in Italy","ar":"تصريح البحث عن عمل بعد التخرج في إيطاليا","fr":"Permis de recherche d'emploi après vos études en Italie",
+    "sub":{"en":"Up to 12 months, any employer, can be converted into a work permit","ar":"حتى 12 شهراً، لدى أي جهة عمل، ويمكن تحويله إلى تصريح عمل","fr":"Jusqu'à 12 mois, tout employeur, convertible en permis de travail"}},
+   {"en":"Work residence permit (lavoro subordinato)","ar":"تصريح إقامة للعمل (lavoro subordinato)","fr":"Permis de séjour pour travail salarié (lavoro subordinato)",
+    "sub":{"en":"You can change employer; the new one registers your contract","ar":"يمكنك تغيير جهة العمل، وتتولى الجهة الجديدة تسجيل عقدك","fr":"Vous pouvez changer d'employeur ; le nouveau déclare votre contrat"}},
+   {"en":"EU Blue Card (Carta Blu UE)","ar":"البطاقة الزرقاء الأوروبية (Carta Blu UE)","fr":"Carte bleue européenne (Carta Blu UE)",
+    "sub":{"en":"Highly qualified roles above the national salary threshold","ar":"للوظائف عالية التأهيل التي يتجاوز راتبها الحد الأدنى الوطني","fr":"Postes hautement qualifiés au-dessus du seuil salarial national"}},
+   {"en":"I'll need a work permit","ar":"سأحتاج إلى تصريح عمل","fr":"J'aurai besoin d'un permis de travail",
+    "sub":{"en":"Your employer applies for a nulla osta for you, often within yearly quotas","ar":"تتقدّم جهة العمل بطلب إذن العمل (nulla osta) نيابةً عنك، وغالباً ضمن الحصص السنوية","fr":"Votre employeur demande un nulla osta pour vous, souvent dans le cadre des quotas annuels"}}
+  ],
+  "autoFor": ["IT","AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE","IS","LI","NO","CH"],
+  "autoText": {"en":"EU, EEA and Swiss citizens can work in Italy without a work permit.","ar":"يمكن لمواطني الاتحاد الأوروبي والمنطقة الاقتصادية الأوروبية وسويسرا العمل في إيطاليا دون تصريح عمل.","fr":"Les ressortissants de l'UE, de l'EEE et de la Suisse peuvent travailler en Italie sans permis de travail."},
+  "rule": {"en":"If you need a permit, we skip Italian jobs that say they can't sponsor one.","ar":"إذا كنت تحتاج إلى تصريح عمل، نتجاوز الوظائف في إيطاليا التي تذكر أنها لا تستطيع التكفّل به.","fr":"Si vous avez besoin d'un permis, nous écartons les offres en Italie qui précisent ne pas pouvoir en demander un."}
+ },
+ "nationalisation": null,
+ "sensitive": {
+  "photo": "optional",
+  "gender": "none",
+  "dob": "none",
+  "nationality": "none",
+  "marital": "none",
+  "notes": "Italian law limits what recruiters may ask: the Workers' Statute (Law 300/1970, art. 8) bars inquiries into opinions or facts not relevant to aptitude for the job; Legislative Decree 276/2003 art. 10 bars recruitment agencies and other authorised intermediaries from any inquiry or pre-selection based on sex, marital or family status, pregnancy, age, nationality, origin and other grounds, even with the candidate's consent; Legislative Decrees 215/2003 and 216/2003 and the Equal Opportunities Code (198/2006) add anti-discrimination rules, and job ads carry the 'rivolto ad entrambi i sessi' clause. A photo is still common on Italian CVs (Europass has a slot), so it is optional and never required. Date of birth and nationality often appear on Italian CVs by habit, but forms don't need them and asking would clash with art. 10, so we don't ask; the right-to-work card covers work authorisation. Gender and marital status are not asked. Some forms ask about 'categorie protette' (Law 68/1999) status; that is voluntary and left to the user. Italian CVs normally end with a GDPR consent line, which we add."
+ },
+ "legal": {
+  "law": "GDPR + Italian Privacy Code (Legislative Decree 196/2003, as amended by Legislative Decree 101/2018)",
+  "privacy": {"en":"Your data is protected under the GDPR and Italy's Privacy Code (Legislative Decree 196/2003), and your CV only goes to employers you apply to.","ar":"بياناتك محمية بموجب اللائحة الأوروبية العامة لحماية البيانات (GDPR) وقانون حماية البيانات الشخصية الإيطالي (المرسوم التشريعي 196/2003)، ولا تُرسل سيرتك الذاتية إلا إلى جهات العمل التي تتقدّم إليها.","fr":"Vos données sont protégées par le RGPD et le Code italien de la protection des données personnelles (décret législatif 196/2003), et votre CV n'est transmis qu'aux employeurs auprès desquels vous postulez."},
+  "renewal": {"en":"Your plan renews automatically at the end of each period until you cancel, which you can do anytime in Settings. Under the Italian Consumer Code, you can withdraw within 14 days of subscribing.","ar":"يتجدد اشتراكك تلقائياً في نهاية كل فترة إلى أن تلغيه، ويمكنك الإلغاء في أي وقت من الإعدادات. ووفقاً لقانون المستهلك الإيطالي، يحق لك الانسحاب خلال 14 يوماً من تاريخ الاشتراك.","fr":"Votre abonnement se renouvelle automatiquement à la fin de chaque période jusqu'à sa résiliation, possible à tout moment dans les Paramètres. Conformément au Code de la consommation italien, vous disposez de 14 jours pour vous rétracter après la souscription."}
+ },
+ "boards": ["LinkedIn","Indeed","InfoJobs","eFinancialCareers","Michael Page","Hays"],
+ "lang2": {"en":"Italian","ar":"الإيطالية","fr":"italien"},
+ "certs": [
+  {"id":"cfa","en":"CFA","ar":"CFA (محلل مالي معتمد)","fr":"CFA"},
+  {"id":"odcec","en":"Dottore Commercialista (ODCEC)","ar":"محاسب قانوني مسجَّل (Dottore Commercialista)","fr":"Expert-comptable (Dottore Commercialista)"},
+  {"id":"revisore","en":"Statutory Auditor (Revisore Legale)","ar":"مدقق حسابات قانوني (Revisore Legale)","fr":"Commissaire aux comptes (Revisore Legale)"},
+  {"id":"acca","en":"ACCA","ar":"ACCA","fr":"ACCA"}
+ ],
+ "unis": [
+  {"id":"bocconi","en":"Bocconi University","ar":"جامعة بوكوني","fr":"Université Bocconi"},
+  {"id":"cattolica","en":"Università Cattolica del Sacro Cuore","ar":"الجامعة الكاثوليكية للقلب المقدس","fr":"Université catholique du Sacré-Cœur"},
+  {"id":"luiss","en":"LUISS Guido Carli","ar":"جامعة لويس غويدو كارلي","fr":"LUISS Guido Carli"}
+ ],
+ "govPlatforms": [],
+ "persona": {
+  "first":"Marco","last":"Bianchi","gender":"m","nat":"IT","city":"milan",
+  "email":"marco.bianchi@email.com","phone":"+39 347 123 4567",
+  "title":{"en":"Financial Analyst","ar":"محلل مالي","fr":"Analyste financier"},
+  "years":8,
+  "employer":{"en":"Acme Italia","ar":"أكمي إيطاليا","fr":"Acme Italia"},
+  "employer2":{"en":"Acme Servizi Finanziari","ar":"أكمي للخدمات المالية","fr":"Acme Servizi Finanziari"},
+  "degree":{"en":"MSc in Accounting, Financial Management and Control","ar":"ماجستير في المحاسبة والإدارة المالية والرقابة","fr":"Master en comptabilité, gestion financière et contrôle"},
+  "uni":"bocconi","cert":"cfa",
+  "tools":"SAP S/4HANA, CCH Tagetik, Excel, Power BI",
+  "bio":{
+   "en":"Financial Analyst with 8 years in Milan. I lead IFRS and Italian GAAP (OIC) reporting and budgeting on SAP and CCH Tagetik across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I work in Italian and English, and I am looking for a Senior Financial Analyst or FP&A role in Milan, Turin or hybrid.",
+   "ar":"محلل مالي بخبرة 8 سنوات في ميلانو. أقود إعداد التقارير وفق معايير IFRS والمعايير المحاسبية الإيطالية (OIC)، وإعداد الموازنات على SAP وCCH Tagetik عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أعمل بالإيطالية والإنجليزية، وأبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي في ميلانو أو تورينو أو بنظام العمل الهجين.",
+   "fr":"Analyste financier avec 8 ans d'expérience à Milan. Je pilote le reporting en normes IFRS et en normes comptables italiennes (OIC) ainsi que le budget sur SAP et CCH Tagetik pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une direction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting. Je travaille en italien et en anglais, et je recherche un poste de Senior Financial Analyst ou en FP&A à Milan, à Turin ou en mode hybride."
+  }
+ },
+ "people": [
+  {"first":"Giulia","last":"Rossi","gender":"f"},
+  {"first":"Luca","last":"Ferrari","gender":"m"},
+  {"first":"Francesca","last":"Esposito","gender":"f"},
+  {"first":"Alessandro","last":"Colombo","gender":"m"},
+  {"first":"Chiara","last":"Ricci","gender":"f"},
+  {"first":"Matteo","last":"Marino","gender":"m"},
+  {"first":"Sara","last":"Greco","gender":"f"},
+  {"first":"Davide","last":"Conti","gender":"m"},
+  {"first":"Elena","last":"Galli","gender":"f"},
+  {"first":"Andrea","last":"De Luca","gender":"m"}
+ ],
+ "culture": {"notes":"Mon-Fri, 40-hour legal standard week (many CCNLs set 38-40h); hybrid 'smart working' with 2-3 office days is common at large Milan employers. Pay is discussed as RAL (gross a year) and paid monthly, usually at month end or by the 10th of the following month, in 13 instalments (tredicesima in December) or 14 under some CCNLs such as Commercio (quattordicesima in July); packages often add meal vouchers (buoni pasto), welfare credits and an MBO bonus, and job ads often name the CCNL, the level and whether the contract is permanent (tempo indeterminato). 'Categorie protette' (Law 68/1999) ads are reserved for registered candidates with disabilities. Notice (preavviso) is set by the CCNL, level and seniority: roughly 1-3 months for a senior employee or quadro; resignations must be filed online through the Ministry of Labour procedure (dimissioni telematiche). CV: about 2 pages, Europass still common but not required; photo common but optional; date of birth often shown by habit but not needed; the CV ends with a GDPR consent line ('Autorizzo il trattamento dei miei dati personali ai sensi del Regolamento UE 2016/679 e del D.Lgs. 196/2003'), which recruiters expect. A short cover letter (lettera di presentazione) is welcome but rarely mandatory. Italian is the working language; Milan finance roles usually also require English at B2/C1. Recruiters ask for current and expected RAL."},
+ "noticeDays": 60
+}

@@ -54,7 +54,7 @@
       "replace_with": "Total Uptal candidates across the Gulf (KSA + UAE). KSA alone showed 1,542+, so 1,500+ is a safe floor; replace with the live total."
     },
     "countries": {
-      "en": "40", "ar": "٤٠", "placeholder": true,
+      "en": "40", "ar": "40", "placeholder": true,
       "where": "FAQ \"Is the service for Emiratis only?\" (\"subscribers from more than N countries\")",
       "replace_with": "Number of countries/nationalities among current subscribers (KSA page says more than 40)."
     }
@@ -78,7 +78,7 @@
       "card_note": "Example roles and employers, shown for illustration.",
       "ft_types": "Government, private, free zone and more",
       "testi_eyebrow": "From our members in Saudi Arabia",
-      "testi_trust": "Trusted by <b>{{candidates}}</b> candidates across the Gulf, and now open to job seekers in the UAE."
+      "testi_trust": "Trusted by <b>{{candidates}}</b> candidates across the Gulf. Now open in the UAE."
     },
     "ar": {
       "badge": "متاح الآن في الإمارات",
@@ -97,7 +97,7 @@
       "card_note": "الوظائف وجهات العمل المعروضة أمثلة للتوضيح فقط.",
       "ft_types": "حكومي، خاص، مناطق حرة وغيرها",
       "testi_eyebrow": "من مشتركينا في السعودية",
-      "testi_trust": "موثوق من <b>أكثر من {{candidates}}</b> مرشّح في الخليج، والحين صار متاح للباحثين عن عمل في الإمارات."
+      "testi_trust": "موثوق من <b>أكثر من {{candidates}}</b> مرشّح في الخليج، والحين وصلنا الإمارات."
     }
   },
 
@@ -188,10 +188,10 @@
         { "name": "Emaar", "style": "caps" },
         { "name": "DP World", "style": "caps" },
         { "name": "Mubadala" },
-        { "name": "Majid Al Futtaim" },
+        { "name": "Majid Al&nbsp;Futtaim", "label": "Majid Al Futtaim" },
         { "name": "careem", "style": "lower", "s": 1.15, "label": "Careem" },
         { "name": "Cleveland Clinic", "sub": "Abu Dhabi" },
-        { "name": "First Abu Dhabi Bank" },
+        { "name": "First Abu&nbsp;Dhabi&nbsp;Bank", "label": "First Abu Dhabi Bank" },
         { "name": "Masdar", "style": "caps" },
         { "name": "noon", "style": "lower", "s": 1.3 },
         { "name": "flydubai", "style": "lower", "s": 1.1 },
@@ -209,7 +209,7 @@
         { "name": "Mediclinic", "sub": "Middle East" },
         { "name": "Mashreq" },
         { "name": "EGA", "style": "caps", "s": 1.1, "label": "Emirates Global Aluminium (EGA)" },
-        { "name": "Aster", "sub": "Hospitals &amp; Clinics" },
+        { "name": "Aster", "sub": "Healthcare" },
         { "name": "Dubai Islamic Bank" },
         { "name": "Air Arabia" },
         { "name": "PwC", "sub": "Middle East", "s": 1.1 }
@@ -220,6 +220,27 @@
       "ar": "أمثلة على جهات العمل، للتوضيح فقط."
     }
   },
+
+  "review_notes": [
+    { "item": "Testimonials",
+      "note": "Kept verbatim from the KSA page (Saudi members, Saudi cities, Sun-Thu week references), under the label \"From our members in Saudi Arabia\" / \"من مشتركينا في السعودية\". Swap in UAE member reviews (with consent) once there are some; then change `text.*.testi_eyebrow` back to a neutral label." },
+    { "item": "Employer wordmarks",
+      "note": "30 well-known UAE employers set as plain typeset wordmarks (not logos), grayscale, under the note \"Example employers, shown for illustration.\" Confirm legal is comfortable naming them, or replace with employers Uptal has actually applied to. \"Aster\" is used rather than \"Aster DXB\" because that brand name could not be confirmed." },
+    { "item": "Tailoring card",
+      "note": "Monogram tiles (\"AD\", \"du\") and the two example roles (Energy · Abu Dhabi, Telecom · Dubai) are illustrative, as the card note says." },
+    { "item": "Job sources wording",
+      "note": "How it works, step 2: the KSA page says \"submits it across all four boards\". The UAE page says \"across the UAE's major job boards\" because the UAE source list is not confirmed. Once it is, state the real sources or count." },
+    { "item": "App hand-off",
+      "note": "After \"Analysing…\" the page sends visitors to `Uptal_AutoApply_v6_MultiMarket.html?persona=AE` (the Arabic page adds `&lang=ar`). That prototype must sit in the same folder and honour `persona=AE` (and ideally `lang=ar`)." },
+    { "item": "Emiratisation FAQ",
+      "note": "\"Uptal only applies where you're eligible\" assumes the matcher skips roles reserved for UAE nationals when the candidate is not one. Confirm the product does this before launch." },
+    { "item": "Support hours",
+      "note": "The email-fix FAQ now says \"two working days (Monday to Friday)\", the UAE work week. Confirm the support team's SLA covers Mon-Fri for UAE tickets." },
+    { "item": "Coverage claims",
+      "note": "Hero and live card say \"across all seven emirates\". Confirm the UAE job index covers the Northern Emirates (Ajman, Umm Al Quwain, Ras Al Khaimah, Fujairah), not only Dubai, Abu Dhabi and Sharjah." },
+    { "item": "\"Live Data\" label",
+      "note": "The hero card keeps its \"Live Data\" flag while showing placeholder figures. It is only accurate once the stats are wired to the live UAE count." }
+  ],
 
   "faq": {
     "en": [

@@ -11,4 +11,18 @@ Every value below renders on the page in the amber placeholder style (class `ph`
 | `new_jobs` | 20K+ | 20 ألف | How it works, step 2 ("Up to 300 applications a month from N new jobs") (EN ×1 / AR ×1) | New UAE jobs per month feeding the matcher (KSA page shows 30K+). Arabic form is written out ("20 ألف"). |
 | `more_roles` | 345 | 345 | Tailoring card, "Plus N more, each tailored for you" (EN ×1 / AR ×1) | A typical number of matched UAE roles for one CV (median from the UAE matcher), or keep as an illustrative figure (KSA page shows 546). |
 | `candidates` | 1,500+ | 1,500 | Testimonials header ("Trusted by N candidates across the Gulf") (EN ×1 / AR ×1) | Total Uptal candidates across the Gulf (KSA + UAE). KSA alone showed 1,542+, so 1,500+ is a safe floor; replace with the live total. |
-| `countries` | 40 | ٤٠ | FAQ "Is the service for Emiratis only?" ("subscribers from more than N countries") (EN ×1 / AR ×1) | Number of countries/nationalities among current subscribers (KSA page says more than 40). |
+| `countries` | 40 | 40 | FAQ "Is the service for Emiratis only?" ("subscribers from more than N countries") (EN ×1 / AR ×1) | Number of countries/nationalities among current subscribers (KSA page says more than 40). |
+
+## Other content to confirm before launch
+
+These are not marked on the page, but they are stand-ins or judgement calls that need a real answer.
+
+- **Testimonials**: Kept verbatim from the KSA page (Saudi members, Saudi cities, Sun-Thu week references), under the label "From our members in Saudi Arabia" / "من مشتركينا في السعودية". Swap in UAE member reviews (with consent) once there are some; then change `text.*.testi_eyebrow` back to a neutral label.
+- **Employer wordmarks**: 30 well-known UAE employers set as plain typeset wordmarks (not logos), grayscale, under the note "Example employers, shown for illustration." Confirm legal is comfortable naming them, or replace with employers Uptal has actually applied to. "Aster" is used rather than "Aster DXB" because that brand name could not be confirmed.
+- **Tailoring card**: Monogram tiles ("AD", "du") and the two example roles (Energy · Abu Dhabi, Telecom · Dubai) are illustrative, as the card note says.
+- **Job sources wording**: How it works, step 2: the KSA page says "submits it across all four boards". The UAE page says "across the UAE's major job boards" because the UAE source list is not confirmed. Once it is, state the real sources or count.
+- **App hand-off**: After "Analysing…" the page sends visitors to `Uptal_AutoApply_v6_MultiMarket.html?persona=AE` (the Arabic page adds `&lang=ar`). That prototype must sit in the same folder and honour `persona=AE` (and ideally `lang=ar`).
+- **Emiratisation FAQ**: "Uptal only applies where you're eligible" assumes the matcher skips roles reserved for UAE nationals when the candidate is not one. Confirm the product does this before launch.
+- **Support hours**: The email-fix FAQ now says "two working days (Monday to Friday)", the UAE work week. Confirm the support team's SLA covers Mon-Fri for UAE tickets.
+- **Coverage claims**: Hero and live card say "across all seven emirates". Confirm the UAE job index covers the Northern Emirates (Ajman, Umm Al Quwain, Ras Al Khaimah, Fujairah), not only Dubai, Abu Dhabi and Sharjah.
+- **"Live Data" label**: The hero card keeps its "Live Data" flag while showing placeholder figures. It is only accurate once the stats are wired to the live UAE count.

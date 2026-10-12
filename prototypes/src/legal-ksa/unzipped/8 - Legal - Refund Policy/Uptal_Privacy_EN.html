@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Privacy Policy | Uptal</title>
+<meta name="description" content="Uptal Privacy Policy under the Saudi PDPL, covering Talent Search, Auto-Apply, CV Enhancer, interviews and assessments: data we collect, legal bases, purposes, sharing, retention, security, and your rights." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --oxford:#061430; --electric:#0028DB; --persian:#353CD8; --flash:#4CEA63;
+    --ink:#0E1726; --slate:#54607A; --muted:#7A8399;
+    --line:#E7EAF2; --line-soft:#EEF1F8;
+    --bg:#FFFFFF; --bg-soft:#F6F8FC; --mint:#EAFBF0; --mint-line:#BFEFCF;
+    --radius:18px; --maxw:1120px;
+    --shadow:0 1px 2px rgba(6,20,48,.04), 0 12px 34px -18px rgba(6,20,48,.20);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:'Switzer','Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+    font-size:17px; line-height:1.7; -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:var(--persian); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .skip{position:absolute;left:-999px;top:auto}
+  .skip:focus{left:16px;top:16px;background:#fff;padding:10px 14px;border-radius:10px;z-index:100;box-shadow:var(--shadow)}
+
+  header.site{
+    position:sticky; top:0; z-index:40;
+    background:rgba(255,255,255,.86); backdrop-filter:saturate(160%) blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .bar{
+    max-width:var(--maxw); margin:0 auto; padding:14px 22px;
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+  }
+  .brand{display:inline-flex; align-items:center; gap:10px; color:var(--oxford); font-weight:800; letter-spacing:.12em; font-size:15px}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--flash);box-shadow:0 0 0 4px rgba(76,234,99,.18)}
+  .brand span.sub{color:var(--muted); font-weight:600; letter-spacing:.02em}
+  .langswitch{
+    display:inline-flex; align-items:center; gap:8px; font-weight:600; font-size:14px;
+    color:var(--oxford); border:1px solid var(--line); padding:8px 14px; border-radius:999px; background:#fff;
+  }
+  .langswitch:hover{border-color:var(--persian); text-decoration:none}
+
+  main{display:block}
+  .hero{max-width:var(--maxw); margin:0 auto; padding:56px 22px 8px}
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:9px; font-size:12.5px; font-weight:700;
+    letter-spacing:.16em; text-transform:uppercase; color:var(--persian);
+    background:#EEF0FF; border:1px solid #DDE1FF; padding:7px 13px; border-radius:999px;
+  }
+  .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--persian)}
+  h1{font-size:clamp(34px,6vw,52px); line-height:1.06; letter-spacing:-.02em; margin:20px 0 14px; color:var(--oxford)}
+  .lede{font-size:clamp(17px,2.4vw,19px); color:var(--slate); max-width:70ch; margin:0}
+  .meta{display:flex; flex-wrap:wrap; gap:10px 22px; margin-top:22px; color:var(--muted); font-size:14.5px; font-weight:500}
+  .meta b{color:var(--ink); font-weight:600}
+
+  .wrap{max-width:var(--maxw); margin:44px auto 0; padding:0 22px 80px; display:grid; grid-template-columns:1fr; gap:36px}
+  nav.toc{display:none}
+  nav.toc h4{margin:0 0 12px; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted)}
+  nav.toc ol{list-style:none; margin:0; padding:0; counter-reset:toc}
+  nav.toc li{counter-increment:toc; margin:0}
+  nav.toc a{display:flex; gap:10px; padding:6px 10px; border-radius:10px; color:var(--slate); font-size:13.5px; font-weight:500; line-height:1.35}
+  nav.toc a::before{content:counter(toc); color:var(--muted); font-weight:700; font-variant-numeric:tabular-nums; min-width:16px}
+  nav.toc a:hover{background:var(--bg-soft); color:var(--oxford); text-decoration:none}
+
+  article{min-width:0}
+  section{padding:26px 0; border-top:1px solid var(--line-soft); scroll-margin-top:90px}
+  section:first-of-type{border-top:none; padding-top:8px}
+  h2{
+    font-size:clamp(22px,3.4vw,27px); letter-spacing:-.015em; color:var(--oxford);
+    margin:0 0 14px; display:flex; align-items:baseline; gap:12px;
+  }
+  h2 .num{
+    font-size:14px; font-weight:800; color:var(--persian); background:#EEF0FF; border:1px solid #DDE1FF;
+    border-radius:8px; padding:3px 9px; line-height:1; flex:none; position:relative; top:-2px; font-variant-numeric:tabular-nums;
+  }
+  h3.sub{font-size:18px; color:var(--oxford); margin:22px 0 8px; letter-spacing:-.01em}
+  p{margin:0 0 14px}
+  article ul{margin:6px 0 16px; padding-left:0; list-style:none}
+  article ul li{position:relative; padding-left:26px; margin:9px 0; color:var(--ink)}
+  article ul li::before{content:""; position:absolute; left:6px; top:11px; width:7px; height:7px; border-radius:2px; background:var(--flash); box-shadow:0 0 0 3px rgba(76,234,99,.16)}
+
+  .callout{
+    background:var(--mint); border:1px solid var(--mint-line); border-radius:14px; padding:16px 18px; margin:18px 0;
+    color:#0B4A2A; font-size:15.5px;
+  }
+  .callout strong{color:#0B6B39}
+  .note{
+    background:var(--bg-soft); border:1px solid var(--line); border-left:3px solid var(--persian);
+    border-radius:12px; padding:15px 18px; margin:18px 0; color:var(--slate); font-size:15px;
+  }
+  .note strong{color:var(--oxford)}
+  .lastline{color:var(--muted); font-size:14px; margin-top:6px}
+  a.mail{font-weight:600}
+
+  footer.site{border-top:1px solid var(--line); background:var(--bg-soft)}
+  .foot{max-width:var(--maxw); margin:0 auto; padding:34px 22px; display:flex; flex-wrap:wrap; gap:18px 40px; align-items:center; justify-content:space-between}
+  .foot .brand{color:var(--oxford)}
+  .foot nav{display:flex; flex-wrap:wrap; gap:8px 22px}
+  .foot nav a{color:var(--slate); font-size:14px; font-weight:500}
+  .foot .copy{width:100%; color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding-top:16px; margin-top:4px}
+
+  @media (min-width:1024px){
+    .wrap{grid-template-columns:250px 1fr; gap:52px}
+    nav.toc{display:block}
+    nav.toc .inner{position:sticky; top:96px; max-height:calc(100vh - 120px); overflow-y:auto}
+  }
+  @media (max-width:720px){
+    .hero{padding-top:40px}
+    body{font-size:16.5px}
+  }
+  @media print{
+    header.site,footer.site,nav.toc,.langswitch{display:none !important}
+    .wrap{grid-template-columns:1fr; margin:0; padding:0}
+    body{font-size:12pt}
+    section{page-break-inside:avoid; border-top:1px solid #ccc}
+    a{color:#000; text-decoration:none}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to policy</a>
+
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="https://uptal.com" aria-label="Uptal home">
+      <span class="dot" aria-hidden="true"></span> UPTAL <span class="sub">Legal</span>
+    </a>
+    <a class="langswitch" href="Uptal_Privacy_AR.html" lang="ar" hreflang="ar" dir="rtl">العربية</a>
+  </div>
+</header>
+
+<main id="content">
+  <div class="hero">
+    <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Privacy Policy</span>
+    <h1>Privacy Policy</h1>
+    <p class="lede">How Uptal collects, processes, stores, discloses, and protects personal data across all its services: Talent Search, interviews and assessments for employers, and Auto-Apply and CV Enhancer for job seekers.</p>
+    <div class="meta">
+      <span><b>Effective date:</b> July 5, 2026</span>
+      <span><b>Last updated:</b> July 5, 2026</span>
+      <span><b>Applicable law:</b> Personal Data Protection Law (PDPL) of the Kingdom of Saudi Arabia, Royal Decree No. M/19, as amended by Royal Decree No. M/148</span>
+      <span><b>Supervisory authority:</b> Saudi Data and Artificial Intelligence Authority (SDAIA) / National Data Management Office (NDMO)</span>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <nav class="toc" aria-label="On this page">
+      <div class="inner">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#controller">Data controller</a></li>
+          <li><a href="#data-we-collect">Personal data we collect</a></li>
+          <li><a href="#legal-basis">Legal basis for processing</a></li>
+          <li><a href="#purposes">Purposes of processing</a></li>
+          <li><a href="#collection-methods">Data collection methods</a></li>
+          <li><a href="#cookies">Cookies &amp; tracking technologies</a></li>
+          <li><a href="#sharing">Data sharing &amp; disclosure</a></li>
+          <li><a href="#transfers">Cross-border data transfers</a></li>
+          <li><a href="#retention">Data retention</a></li>
+          <li><a href="#security">Data security</a></li>
+          <li><a href="#rights">Your rights under the PDPL</a></li>
+          <li><a href="#sensitive">Sensitive personal data</a></li>
+          <li><a href="#children">Children's data</a></li>
+          <li><a href="#marketing">Direct marketing</a></li>
+          <li><a href="#ai">Automated decision-making &amp; AI</a></li>
+          <li><a href="#thirdparty">Third-party links</a></li>
+          <li><a href="#dpo">Data protection contact</a></li>
+          <li><a href="#complaints">Complaints</a></li>
+          <li><a href="#law">Governing law</a></li>
+          <li><a href="#changes">Changes to this policy</a></li>
+        </ol>
+      </div>
+    </nav>
+
+    <article>
+      <section id="introduction">
+        <h2><span class="num">1</span> Introduction</h2>
+        <p>Uptal ("we", "us", "our") is committed to protecting your personal data and respecting your privacy in full compliance with the Personal Data Protection Law (PDPL) of the Kingdom of Saudi Arabia and its Implementing Regulations. This Privacy Policy explains how we collect, process, store, disclose, and protect personal data when you use the Uptal platform and services, including the recruitment management system, Talent Search, AI-powered interviews, assessments, Auto-Apply, CV Enhancer, and any other services accessible at <a href="https://uptal.com">https://uptal.com</a>.</p>
+        <p>This policy applies to all users of Uptal, including: subscribers (employers, recruiters, and hiring managers); candidates whose profiles are accessible through the platform or who participate in interviews and assessments; and job seekers who use Auto-Apply or CV Enhancer.</p>
+        <p>By accessing or using any Uptal service, you acknowledge that you have read, understood, and agree to the practices described in this Privacy Policy.</p>
+      </section>
+
+      <section id="controller">
+        <h2><span class="num">2</span> Data controller</h2>
+        <!-- TODO before publishing: insert the full legal entity name and registered address here (same details as the footer merchant disclosure); PDPL transparency requires the controller's identity. -->
+        <p>Uptal is the data controller responsible for determining the purposes and means of processing personal data collected through the Uptal platform and services.</p>
+      </section>
+
+      <section id="data-we-collect">
+        <h2><span class="num">3</span> Personal data we collect</h2>
+        <p>We collect and process the following categories of personal data:</p>
+
+        <h3 class="sub">3.1 Subscriber data (employers, recruiters, hiring managers)</h3>
+        <ul>
+          <li><b>Identity data</b>: full name, job title, company name, and national ID or commercial registration number where required.</li>
+          <li><b>Contact data</b>: email address, phone number, and business address.</li>
+          <li><b>Account data</b>: username, password (encrypted), account preferences, and subscription plan details.</li>
+          <li><b>Payment data</b>: billing address, payment method details, and transaction history. Payment card data is processed by our third-party payment processor and is not stored on Uptal servers.</li>
+          <li><b>Usage data</b>: search queries, filters applied, profiles viewed, profiles unlocked, IP address, browser type, device information, session duration, clickstream data, and session recordings and interaction data.</li>
+          <li><b>Service content</b>: interview recordings, candidate resumes, job postings, assessment results, and other content you provide when using our services.</li>
+        </ul>
+
+        <h3 class="sub">3.2 Candidate data (Talent Search)</h3>
+        <p>Uptal provides access to verified candidate profiles sourced from publicly available data, direct candidate submissions, and authorized partner databases. Through Talent Search, candidate data may include:</p>
+        <ul>
+          <li><b>Identity data</b>: full name, nationality, gender, and city of residence.</li>
+          <li><b>Professional data</b>: job title, employer, years of experience, industry, skills, education, certifications, and career history.</li>
+          <li><b>Compensation data</b>: current salary, expected salary, and compensation preferences.</li>
+          <li><b>Contact data</b>: verified email address and phone number (accessible only upon profile unlock by a subscriber).</li>
+          <li><b>Seniority classification</b>: executive-level indicators for C-suite, VP, and director profiles.</li>
+        </ul>
+
+        <h3 class="sub">3.3 Job seeker data (Auto-Apply and CV Enhancer)</h3>
+        <p>When you use Auto-Apply or CV Enhancer, we collect and process:</p>
+        <ul>
+          <li><b>CV and profile data</b>: your CV and its contents, including identity, contact, education, work history, skills, and any other information it contains, together with your job preferences (target roles, cities, company types, and salary expectations).</li>
+          <li><b>Application data</b>: the roles matched to you, the tailored versions of your CV generated for each role, the applications submitted on your behalf, their dates and destinations, and any status information we receive.</li>
+          <li><b>Account and subscription data</b>: username, password (encrypted), preferences, subscription tier, and pause or cancellation history.</li>
+          <li><b>Payment data</b>: billing details and transaction history. Payment card data is processed by our third-party payment processor and is not stored on Uptal servers.</li>
+          <li><b>Communications data</b>: your correspondence with our support team and the notifications we send you.</li>
+        </ul>
+
+        <h3 class="sub">3.4 Interview and assessment data</h3>
+        <p>When candidates participate in interviews or assessments through the Uptal platform, we may additionally collect:</p>
+        <ul>
+          <li><b>Interview recordings</b>: video and audio recordings of interview sessions.</li>
+          <li><b>Assessment responses</b>: answers to technical, psychometric, or competency-based assessments.</li>
+          <li><b>AI-generated analysis</b>: transcripts, evaluation scores, and performance summaries generated by our AI systems.</li>
+        </ul>
+      </section>
+
+      <section id="legal-basis">
+        <h2><span class="num">4</span> Legal basis for processing</h2>
+        <p>In accordance with Article 10 of the PDPL, we process personal data based on one or more of the following lawful bases:</p>
+        <ul>
+          <li><b>Consent</b>: where you have given explicit consent for the processing of your personal data for one or more specific purposes. You may withdraw your consent at any time by contacting us.</li>
+          <li><b>Contractual necessity</b>: where processing is necessary for the performance of a subscription or service agreement to which you are a party, including providing access to the platform, matching and submitting job applications on your behalf (Auto-Apply), producing your enhanced CV (CV Enhancer), and processing payments.</li>
+          <li><b>Legitimate interest</b>: where processing is necessary for our legitimate business interests (for example, fraud prevention, platform security, and service improvement), provided such interests do not override your rights and freedoms. This basis does not apply to the processing of sensitive data.</li>
+          <li><b>Legal obligation</b>: where processing is necessary to comply with applicable laws and regulations of the Kingdom of Saudi Arabia, including tax, anti-money laundering, and regulatory reporting requirements.</li>
+          <li><b>Public interest</b>: where processing is necessary for purposes of public interest as defined under the PDPL.</li>
+        </ul>
+      </section>
+
+      <section id="purposes">
+        <h2><span class="num">5</span> Purposes of processing</h2>
+        <p>We process personal data for the following specific, clear, and explicit purposes:</p>
+        <ul>
+          <li>Providing and operating the Uptal platform and its services, including Talent Search, interviews, assessments, recruitment management, Auto-Apply, and CV Enhancer</li>
+          <li>Creating and managing user accounts</li>
+          <li>Processing payments and issuing invoices</li>
+          <li>Enabling candidate profile search, filtering, ranking, and unlocking</li>
+          <li>Delivering AI-powered candidate matching and ranking results</li>
+          <li>Matching job seekers to suitable roles, generating tailored versions of their CVs, and submitting job applications on their behalf (Auto-Apply)</li>
+          <li>Enhancing and rewriting job seekers' CVs (CV Enhancer)</li>
+          <li>Analyzing and evaluating candidate interviews and assessments</li>
+          <li>Providing hiring recommendations and AI-generated insights</li>
+          <li>Personalizing your experience with Uptal</li>
+          <li>Communicating with users about their accounts, billing, applications, and service updates</li>
+          <li>Sending marketing communications (with opt-out available at any time)</li>
+          <li>Analyzing platform usage to improve our services, features, and user experience</li>
+          <li>Preventing fraud, unauthorized access, and ensuring platform security</li>
+          <li>Complying with legal, regulatory, and governmental obligations under KSA law</li>
+          <li>Responding to data subject requests in accordance with the PDPL</li>
+        </ul>
+      </section>
+
+      <section id="collection-methods">
+        <h2><span class="num">6</span> Data collection methods</h2>
+        <ul>
+          <li><b>Direct collection</b>: information you provide when creating an account, uploading a CV, setting job preferences, subscribing to a plan, placing a CV Enhancer order, or contacting our support team.</li>
+          <li><b>Automated collection</b>: usage data, cookies, and similar tracking technologies collected automatically when you interact with the platform.</li>
+          <li><b>Generated data</b>: data our systems create in the course of providing the services, such as tailored CVs, match results, and AI evaluations.</li>
+          <li><b>Third-party sources</b>: candidate profile data sourced from publicly available professional databases, authorized data partners, and direct candidate submissions.</li>
+        </ul>
+        <p>Where personal data is collected indirectly (not directly from the data subject), we take necessary measures to inform the data subject within thirty (30) days or at the time of first contact, whichever is earlier, in accordance with the PDPL Implementing Regulations.</p>
+      </section>
+
+      <section id="cookies">
+        <h2><span class="num">7</span> Cookies &amp; tracking technologies</h2>
+        <p>We use cookies and similar technologies to enhance your experience and analyze platform usage. These include:</p>
+        <ul>
+          <li><b>Essential cookies</b>: required for platform functionality, authentication, and security. These cannot be disabled.</li>
+          <li><b>Analytics cookies</b>: used to understand how visitors interact with the platform, helping us improve performance and user experience.</li>
+          <li><b>Marketing cookies</b>: used to deliver relevant advertisements and measure campaign effectiveness. These are only placed with your consent.</li>
+        </ul>
+        <p>You may manage your cookie preferences through your browser settings or the cookie consent banner displayed on the platform. Disabling certain cookies may affect platform functionality.</p>
+      </section>
+
+      <section id="sharing">
+        <h2><span class="num">8</span> Data sharing &amp; disclosure</h2>
+        <div class="callout"><strong>We do not sell personal data.</strong></div>
+        <p>We may share personal data with the following categories of recipients, solely for the purposes described in this policy:</p>
+        <ul>
+          <li><b>Employers and job platforms (Auto-Apply)</b>: when Auto-Apply submits an application on your behalf, your application details and tailored CV, including the personal data they contain, are disclosed to the prospective employer or the job platform hosting the role. This disclosure is the core function of the service you subscribe to.</li>
+          <li><b>Subscribers (Talent Search)</b>: candidate contact data (email and phone number) is disclosed to subscribers only upon profile unlock, subject to the subscriber's plan allowance.</li>
+          <li><b>Service providers</b>: third-party providers who assist with payment processing, cloud hosting (Oracle Cloud Infrastructure, Jeddah region), analytics, email delivery, messaging, and customer support. All service providers are contractually bound to protect personal data in accordance with the PDPL.</li>
+          <li><b>Partners and affiliates</b>: we share personal data with our partners and affiliates for marketing purposes only with your prior consent. You may withdraw that consent at any time.</li>
+          <li><b>Legal and regulatory authorities</b>: where disclosure is required by law, regulation, court order, or governmental request issued by competent authorities in the Kingdom of Saudi Arabia.</li>
+          <li><b>Business transfers</b>: in connection with a merger, acquisition, or sale of all or substantially all of our assets, subject to the acquiring entity's obligation to honor this Privacy Policy.</li>
+        </ul>
+        <p>Where the PDPL restricts disclosure, for example where disclosure would threaten national security or the safety of individuals, we apply those restrictions.</p>
+      </section>
+
+      <section id="transfers">
+        <h2><span class="num">9</span> Cross-border data transfers</h2>
+        <p>Uptal primarily stores and processes personal data within the Kingdom of Saudi Arabia on Oracle Cloud Infrastructure (OCI) in the Jeddah region. In the event that personal data needs to be transferred outside the Kingdom (including where an Auto-Apply application is submitted to an employer located outside the Kingdom at your direction), we ensure that:</p>
+        <ul>
+          <li>The transfer serves a specific and legitimate purpose as permitted under the PDPL.</li>
+          <li>The recipient country or entity provides an adequate level of personal data protection, as assessed by SDAIA, or appropriate safeguards are in place.</li>
+          <li>Appropriate transfer mechanisms are used, including Standard Contractual Clauses (SCCs) or Binding Corporate Rules (BCRs) where required.</li>
+          <li>The protections afforded under the PDPL continue to apply to the transferred data.</li>
+        </ul>
+      </section>
+
+      <section id="retention">
+        <h2><span class="num">10</span> Data retention</h2>
+        <p>We retain personal data only for as long as necessary to fulfill the purposes for which it was collected, or as required by applicable law. Our retention practices are as follows:</p>
+        <ul>
+          <li><b>Account data (subscribers and job seekers)</b>: retained for the duration of the active account or subscription and for five (5) years following account closure, as required for record-keeping and legal compliance.</li>
+          <li><b>Payment and transaction data</b>: retained for the minimum period required by Saudi Arabian tax and commercial law.</li>
+          <li><b>Candidate profile data</b>: retained as long as the data remains relevant and accurate, subject to periodic review. Candidates may request deletion at any time.</li>
+          <li><b>CV, application, and tailored-CV data (Auto-Apply and CV Enhancer)</b>: retained for the duration of your account and as needed to evidence the applications submitted on your behalf; you may request deletion at any time, subject to legal record-keeping requirements. Copies of applications already delivered to employers are held by those employers under their own policies.</li>
+          <li><b>Usage and analytics data</b>: retained in anonymized or aggregated form for service improvement purposes.</li>
+          <li><b>Records of processing activities</b>: maintained for the duration of processing activities and for an additional five (5) years thereafter, in accordance with the PDPL Implementing Regulations.</li>
+        </ul>
+        <p>When personal data is no longer needed, we securely destroy or anonymize it such that re-identification of the data subject is not possible.</p>
+      </section>
+
+      <section id="security">
+        <h2><span class="num">11</span> Data security</h2>
+        <p>We implement appropriate technical and organizational measures to protect personal data against unauthorized access, alteration, disclosure, or destruction. These measures include, but are not limited to:</p>
+        <ul>
+          <li>Encryption of personal data in transit (TLS/SSL) and at rest</li>
+          <li>Saudi-hosted infrastructure on Oracle Cloud Infrastructure (OCI), Jeddah region</li>
+          <li>Role-based access controls and multi-factor authentication for internal systems</li>
+          <li>Regular security assessments, vulnerability scanning, and penetration testing</li>
+          <li>Employee data protection training and confidentiality agreements</li>
+          <li>Incident response procedures aligned with NDMO and SDAIA guidelines</li>
+          <li>NDMO-aligned data governance framework</li>
+        </ul>
+        <p>While we take commercially reasonable precautions, no method of electronic transmission or storage is completely secure. In the event of a personal data breach, we will notify SDAIA within seventy-two (72) hours and inform affected data subjects without undue delay, as required by the PDPL.</p>
+      </section>
+
+      <section id="rights">
+        <h2><span class="num">12</span> Your rights under the PDPL</h2>
+        <p>In accordance with the PDPL and its Implementing Regulations, you have the following rights with respect to your personal data:</p>
+        <ul>
+          <li><b>Right to be informed</b>: to know our identity, the purpose for collecting your data, the methods of collection, and with whom your data may be shared.</li>
+          <li><b>Right of access</b>: to request access to the personal data we hold about you and to receive a copy of such data.</li>
+          <li><b>Right to correction</b>: to request correction of any inaccurate, incomplete, or outdated personal data.</li>
+          <li><b>Right to destruction</b>: to request the destruction of your personal data when it is no longer necessary for the purpose for which it was collected, or when you withdraw your consent.</li>
+          <li><b>Right to withdraw consent</b>: to withdraw your consent to processing at any time. Withdrawal does not affect the lawfulness of processing carried out prior to withdrawal, and it does not recall applications already submitted to employers on your instructions.</li>
+          <li><b>Right to restrict processing</b>: to request limitation of processing in certain circumstances and for a limited duration.</li>
+          <li><b>Right to data portability</b>: to obtain your personal data in a structured, commonly used, machine-readable format, and to request transmission to another controller.</li>
+          <li><b>Right to object</b>: to object to processing based on legitimate interest.</li>
+        </ul>
+        <p>To exercise any of these rights, contact us at <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a> or through <a href="https://uptal.com/contact-us">uptal.com/contact-us</a>. We will respond within thirty (30) calendar days. In complex cases, this period may be extended by an additional thirty (30) days, and we will notify you of the extension and the reason for it. We may request identity verification before processing your request.</p>
+      </section>
+
+      <section id="sensitive">
+        <h2><span class="num">13</span> Sensitive personal data</h2>
+        <p>Uptal does not intentionally collect or process sensitive personal data as defined under the PDPL, which includes health data, biometric data, genetic data, data revealing racial or ethnic origin, or criminal records. If your CV contains such information, we recommend removing it before upload. If we become aware that sensitive data has been inadvertently collected, we will promptly take steps to delete it or obtain the required explicit consent.</p>
+      </section>
+
+      <section id="children">
+        <h2><span class="num">14</span> Children's data</h2>
+        <p>Uptal is not intended for individuals under the age of eighteen (18). We do not knowingly collect personal data from minors. If we become aware that we have collected data from a minor, we will take immediate steps to delete such data.</p>
+      </section>
+
+      <section id="marketing">
+        <h2><span class="num">15</span> Direct marketing</h2>
+        <p>We may use your contact data to send you marketing communications about Uptal products, features, and promotions. You may opt out at any time by:</p>
+        <ul>
+          <li>Clicking the unsubscribe link in any marketing email</li>
+          <li>Contacting us at <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a></li>
+          <li>Updating your communication preferences in your account settings</li>
+        </ul>
+        <p>Opting out of marketing communications does not affect transactional or service-related communications (for example, billing notices, application updates, security alerts, and subscription confirmations).</p>
+      </section>
+
+      <section id="ai">
+        <h2><span class="num">16</span> Automated decision-making &amp; AI</h2>
+        <p>Uptal uses artificial intelligence and automated processing across its services, including:</p>
+        <ul>
+          <li>Ranking and matching candidate profiles in Talent Search based on criteria such as skill match, salary fit, seniority level, and role relevance</li>
+          <li>Matching job seekers to roles in Auto-Apply based on their CV and the preferences they set, generating tailored versions of their CV for each role, and submitting applications on their behalf</li>
+          <li>Analyzing and evaluating candidate interview recordings and scoring assessment responses</li>
+          <li>Generating hiring recommendations and AI-generated insights</li>
+        </ul>
+        <p>These automated processes assist recruiters in identifying suitable candidates and assist job seekers in applying at scale. Automated results, including candidate rankings, interview evaluations, assessment scores, and role matches, are recommendations only and do not constitute binding decisions. Hiring decisions remain solely with employers. In Auto-Apply, you control the targeting preferences that drive matching, and you can review your application history, adjust preferences, or pause the service at any time. If you believe an automated process has adversely affected your rights, you may contact us to request a review.</p>
+      </section>
+
+      <section id="thirdparty">
+        <h2><span class="num">17</span> Third-party links</h2>
+        <p>The Uptal platform may contain links to third-party websites or services, including employer sites and job platforms to which applications are submitted. We are not responsible for the privacy practices or content of these third-party sites. We encourage you to review the privacy policies of any third-party service you interact with.</p>
+      </section>
+
+      <section id="dpo">
+        <h2><span class="num">18</span> Data protection contact</h2>
+        <p>In accordance with PDPL requirements, Uptal has designated a point of contact for data protection matters. For any questions, concerns, or requests related to this Privacy Policy or the processing of your personal data, please contact us at <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a>.</p>
+      </section>
+
+      <section id="complaints">
+        <h2><span class="num">19</span> Complaints</h2>
+        <p>If you believe that your personal data has been processed in violation of the PDPL, you have the right to file a complaint with:</p>
+        <ul>
+          <li><b>Uptal</b>: by contacting us at <a href="mailto:support@uptal.com" class="mail">support@uptal.com</a>. We will investigate and respond within thirty (30) days.</li>
+          <li><b>SDAIA</b>: the Saudi Data and Artificial Intelligence Authority, the competent supervisory authority for data protection matters in the Kingdom of Saudi Arabia. Complaints may be submitted through the National Data Governance Platform (NDGP).</li>
+        </ul>
+      </section>
+
+      <section id="law">
+        <h2><span class="num">20</span> Governing law</h2>
+        <p>This Privacy Policy is governed by and construed in accordance with the laws of the Kingdom of Saudi Arabia, including the Personal Data Protection Law (PDPL) and its Implementing Regulations. Any disputes arising under this policy shall be subject to the exclusive jurisdiction of the competent courts in Riyadh, Saudi Arabia.</p>
+      </section>
+
+      <section id="changes">
+        <h2><span class="num">21</span> Changes to this policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or business operations. When we make material changes, we will:</p>
+        <ul>
+          <li>Post the updated policy on our website with a revised effective date</li>
+          <li>Notify active users via email of significant changes</li>
+          <li>Where required by the PDPL, obtain your consent before applying material changes that affect how your personal data is processed</li>
+        </ul>
+        <p>We encourage you to review this Privacy Policy periodically. Except where the PDPL requires us to obtain your consent, your continued use of Uptal after any changes constitutes acceptance of the revised policy.</p>
+        <p class="lastline">This Privacy Policy was last updated on July 5, 2026.</p>
+      </section>
+    </article>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="foot">
+    <a class="brand" href="https://uptal.com"><span class="dot" aria-hidden="true"></span> UPTAL</a>
+    <nav aria-label="Legal">
+      <a href="https://uptal.com/terms-and-conditions">Terms &amp; Conditions</a>
+      <a href="https://uptal.com/privacy-policy">Privacy Policy</a>
+      <a href="https://uptal.com/refund-policy">Refund Policy</a>
+      <a href="https://uptal.com/contact-us">Contact Us</a>
+    </nav>
+    <!-- TODO before publishing: per the Saudi E-Commerce Law merchant-disclosure requirement, add the full legal entity name, Commercial Registration (CR) number and/or Maroof registration number, and a registered business address here. -->
+    <div class="copy">Copyright © 2026 Uptal. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>
