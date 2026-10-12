@@ -1,0 +1,3794 @@
+{
+ "entities": {
+  "p.bio": {
+   "cat": "persona",
+   "en": "Financial Analyst with 8 years in Riyadh. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in Riyadh, Jeddah, or remote.",
+   "ar": "محللة مالية بخبرة 8 سنوات في الرياض. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات التي قلّصت وقت التقارير بالثلث. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في الرياض أو جدة أو عن بُعد.",
+   "arn": "محللة مالية بخبرة 8 سنوات في الرياض. أقود إعداد تقارير IFRS والموازنة على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي في الرياض أو جدة أو عن بُعد.",
+   "fr": "Analyste financière avec 8 ans d'expérience à Riyad. Je pilote le reporting IFRS et le budget sur SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre délai de reporting. Je recherche un poste d'analyste financière senior ou en FP&A à Riyad, à Djeddah ou en télétravail.",
+   "scope": "persona",
+   "archetype": "Whole profile bio (pfBioText; profile and aboutYou .bioedit HTML). v5 EN and AR equal pack SA persona.bio exactly, so the whole key becomes {@p.bio}.",
+   "map": "pack persona.bio (2-4 sentences in the persona's voice: title, 8 years, home city, IFRS or US GAAP, ERP, 40-person close, target cities)",
+   "count": 6,
+   "keys": [
+    "pfBioText",
+    "profile .bioedit",
+    "aboutYou .bioedit"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.cert": {
+   "cat": "persona",
+   "en": "SOCPA",
+   "ar": "SOCPA",
+   "arn": "SOCPA",
+   "fr": "SOCPA",
+   "scope": "persona",
+   "archetype": "The persona's own professional credential at the end of the CV education line ('· SOCPA'). Only that line: SOCPA as an employer requirement or requested document (swc*Q*, mlDoc1, m4b2, mrd4, qaQ1b, mq1b2) is target-market cert.*.",
+   "map": "pack certs[] entry whose id is persona.cert (ACCA, CPA, CMA, DSCG, RC...)",
+   "count": 8,
+   "keys": [
+    "CV.edu L13609",
+    "CV_AR.edu L13611",
+    "cvtOffer .cvt-ln",
+    "cvtStudio .cvt-ln",
+    "cvtSent .cvt-ln"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.city": {
+   "cat": "persona",
+   "en": "Riyadh",
+   "ar": "الرياض",
+   "arn": "الرياض",
+   "fr": "Riyad",
+   "scope": "persona",
+   "archetype": "Where the persona lives and has worked: the CV headline ('Financial Analyst · Riyadh'), experience lines ('8 years in Riyadh', 'across Riyadh business units', 'You led this on SAP in Riyadh'), drafted answers (qaD2c, hmDA1, hmAB1), Musaed memory (msaKnowList, first Riyadh of msaMemItems), the local price anchor 'A human coach in Riyadh' (py1, jpAnchor) and 'job seekers in Riyadh' (hrHiP). NOT the target-market city.riyadh used for jobs, offices, market bands ('Finance roles in Riyadh are up', cvrRaiseS, nt5s, MSAQ 'your Riyadh band') and NOT the seller city inside legal.seller. AR takes prefixes: في {@p.city}, ب{@p.city} (بالرياض).",
+   "map": "the persona's home city name from roster.json city / pack persona.city resolved through the pack cities[] names (Dubai, London, Cairo); for X-* personas the city they live in (Cairo, Bengaluru, Casablanca), not the target's primary city",
+   "count": 95,
+   "keys": [
+    "wr1s",
+    "msaKnowList",
+    "msaMemItems",
+    "swc3W1s",
+    "swc4W1s",
+    "swc7W1s",
+    "swc10W1s",
+    "hmDA1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.degree": {
+   "cat": "persona",
+   "en": "BSc Accounting",
+   "ar": "بكالوريوس محاسبة",
+   "arn": "بكالوريوس في المحاسبة",
+   "fr": "Licence en comptabilité",
+   "scope": "persona",
+   "archetype": "The persona's degree on the CV education line 'BSc Accounting, King Saud University · SOCPA' (cvtOffer / cvtStudio / cvtSent papers, CV.edu L13609, CV_AR.edu L13611). The downloadable CV (buildCV L9383) says 'BSc Finance': a v5 inconsistency, either fix it to {@p.degree} or keep {@p.degree|BSc Finance}.",
+   "map": "pack persona.degree (local degree naming: BSc Accounting and Finance, Bachelor of Commerce, Licence/Master CCA)",
+   "count": 10,
+   "keys": [
+    "CV.edu L13609",
+    "CV_AR.edu L13611",
+    "buildCV L9383",
+    "cvtOffer .cvt-ln",
+    "cvtSent .cvt-ln"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "dict"
+   }
+  },
+  "p.email": {
+   "cat": "persona",
+   "en": "noura.alamri@email.com",
+   "ar": "noura.alamri@email.com",
+   "arn": "noura.alamri@email.com",
+   "fr": "noura.alamri@email.com",
+   "scope": "persona",
+   "archetype": "Login / account email. Not in the dictionaries: HTML values and text (#loginEmail, #otpEmail, acEmailT row, bdN1 row, #emailNew), ACCT_EMAIL (L9491), PV.email fallback (L13192), buildCV meta line (L9370).",
+   "map": "pack persona.email: first.last@email.com in lowercase ASCII, accents and particles dropped (lucia.fernandez@email.com, sanne.devries@email.com); always the reserved demo domain email.com",
+   "count": 12,
+   "keys": [
+    "#loginEmail L4343",
+    "#otpEmail L4360",
+    "acEmailT row L6304",
+    "bdN1 row L7043",
+    "#emailNew L7363",
+    "ACCT_EMAIL L9491",
+    "PV.email L13192",
+    "buildCV L9370"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "stray"
+   }
+  },
+  "p.employer": {
+   "cat": "persona",
+   "en": "Acme Financial",
+   "ar": "Acme Financial",
+   "arn": "Acme Financial",
+   "fr": "Acme Financial",
+   "scope": "persona",
+   "archetype": "The persona's current (fictional) employer: blocklist 'Your current employer' rows (L4627, L6123), cvrD1s 'Acme Financial, January 2026' (AR أكمي فاينانشال: {@p.employer|أكمي فاينانشال}), hmSimBlkAns, the blocklist-demo comment in the hiring-messages module.",
+   "map": "pack persona.employer: a fictional but plausible local company name (never a real employer); keep Latin script in Arabic copy unless the pack gives an Arabic form",
+   "count": 14,
+   "keys": [
+    "cvrD1s",
+    "hmSimBlkAns",
+    "blocklist L4627",
+    "blockEdit L6123"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.employer2": {
+   "cat": "persona",
+   "en": "Acme Capital",
+   "ar": "Acme Capital",
+   "arn": "Acme Capital",
+   "fr": "Acme Capital",
+   "scope": "persona",
+   "archetype": "Subsidiary of the persona's employer that the app auto-blocks: blocklist rows 'A subsidiary we detected', ag4 'Skipped 1 role at Acme Capital', MSAQ do1 (block action labels and answers) and act3 'Blocklist: 2 employers including Acme Capital'.",
+   "map": "pack persona.employer2: a fictional subsidiary of p.employer",
+   "count": 28,
+   "keys": [
+    "ag4",
+    "blocklist L4628",
+    "MSAQ do1",
+    "MSAQ act3"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.file": {
+   "cat": "persona",
+   "en": "Noura_AlAmri",
+   "ar": "Noura_AlAmri",
+   "arn": "Noura_AlAmri",
+   "fr": "Noura_AlAmri",
+   "scope": "persona",
+   "archetype": "CV file-name stem: 'Noura_AlAmri.pdf' (chAttCvF, sdSh1 row, chAttCv row, sessionDetail) and 'Noura_AlAmri_CV_2026.pdf · 412 KB' (#cvPicked). Tokenize as {@p.file}.pdf and {@p.file}_CV_2026.pdf.",
+   "map": "First_Last in ASCII, particles glued without hyphen or space (Sophie_Carter, Sanne_deVries, Youssef_ElAmrani, Ciaran_Byrne); same in every UI language",
+   "count": 5,
+   "keys": [
+    "chAttCvF",
+    "#cvPicked L6190",
+    "sdSh1 row L7098",
+    "chAttCv row L7305"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.first": {
+   "cat": "persona",
+   "en": "Noura",
+   "ar": "نورة",
+   "arn": "نورة",
+   "fr": "Noura",
+   "scope": "persona",
+   "archetype": "Demo user's first name: a common Saudi female first name. Greetings (msaHi, wH1, hHi, uhHi, m0gk 'Hi Noura,'), designer lens notes that name her in the 3rd person. Arabic copy around it addresses her in feminine forms ({@g:} territory, not this id).",
+   "map": "pack persona.first (Latin) and the persona's Arabic-script first name (pack persona.ar / nameAr) in ar and arn; a typical first name for the persona's nationality and gender (roster.json)",
+   "count": 50,
+   "keys": [
+    "msaHi",
+    "wH1",
+    "hHi",
+    "uhHi",
+    "lensSessionDetail",
+    "m0gk",
+    "lensDjT",
+    "lensDjE"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.full": {
+   "cat": "persona",
+   "en": "Noura Al-Amri",
+   "ar": "نورة العمري",
+   "arn": "نورة العمري",
+   "fr": "Noura Al-Amri",
+   "scope": "persona",
+   "archetype": "Full name: sidebar name, mail signatures (rsDraftTx, mrd1-mrd4), report header 'Prepared for' (AR لنورة العمري = ل{@p.full}), CV name on every CV paper (cvView, cvEdit, cvReview, cvtOffer, cvtStudio, cvtSent), cvtailor CV.name / CV.nameAr, coverLetter() signature.",
+   "map": "pack persona first + ' ' + last (Latin); Arabic-script full name in ar/arn",
+   "count": 37,
+   "keys": [
+    "rpDocFor",
+    "rsDraftTx",
+    "mrd1",
+    "mrd2",
+    "mrd3",
+    "mrd4",
+    "sdName",
+    "mlGreet"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.initials": {
+   "cat": "persona",
+   "en": "NA",
+   "ar": "ن",
+   "arn": "ن",
+   "fr": "NA",
+   "scope": "persona",
+   "archetype": "Avatar initials (sdAv). Latin = 2 letters, Arabic = the first letter of the Arabic first name only.",
+   "map": "Latin: first letter of the first name + first letter of the family name after any particle (Al-, El-, de, van: Sanne de Vries -> SV, Youssef El Amrani -> YA); Arabic: first letter of the Arabic first name",
+   "count": 4,
+   "keys": [
+    "sdAv"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.last": {
+   "cat": "persona",
+   "en": "Al-Amri",
+   "ar": "العمري",
+   "arn": "العمري",
+   "fr": "Al-Amri",
+   "scope": "persona",
+   "archetype": "Family name alone. Only in the formal employer salutation mlGreet EN 'Dear Ms. Al-Amri,' and in the HM_NAME_EN / HM_RX.nameAr privacy regexes (code). Write the salutation as 'Dear {@g:Mr.|Ms.} {@p.last},'.",
+   "map": "pack persona.last; Arabic-script family name for ar/arn (keep a leading ال when it is part of the name, e.g. السيد، البوسعيدي)",
+   "count": 3,
+   "keys": [
+    "mlGreet",
+    "HM_NAME_EN L14301",
+    "HM_RX.nameAr L14314"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.li": {
+   "cat": "persona",
+   "en": "linkedin.com/in/noura-alamri",
+   "ar": "linkedin.com/in/noura-alamri",
+   "arn": "linkedin.com/in/noura-alamri",
+   "fr": "linkedin.com/in/noura-alamri",
+   "scope": "persona",
+   "archetype": "LinkedIn profile slug on the downloadable CV contact line (buildCV L9370).",
+   "map": "linkedin.com/in/first-last in lowercase ASCII (linkedin.com/in/sanne-devries)",
+   "count": 2,
+   "keys": [
+    "buildCV L9370"
+   ],
+   "src": {
+    "en": "js",
+    "ar": "js"
+   }
+  },
+  "p.loc": {
+   "cat": "persona",
+   "en": "Riyadh, Saudi Arabia",
+   "ar": "Riyadh, Saudi Arabia",
+   "arn": "الرياض، المملكة العربية السعودية",
+   "fr": "Riyad, Arabie saoudite",
+   "scope": "persona",
+   "archetype": "persona location line in the downloadable CV header (buildCV L9370 'Riyadh, Saudi Arabia · email · LinkedIn'). buildCV always emits an English document whatever the UI language, so the KSA ar literal is the same English string; arn keeps an Arabic rendering for a future AR CV. Persona = residence city + residence country, never target.",
+   "map": "'<p.city>, <residence country name>' as written on a CV contact line (Dubai, United Arab Emirates; Cairo, Egypt)",
+   "count": 2,
+   "keys": [
+    "buildCV L9370"
+   ],
+   "src": {
+    "en": "js",
+    "ar": "js"
+   }
+  },
+  "p.notice": {
+   "cat": "persona",
+   "en": "60 days",
+   "ar": "60 يوماً",
+   "arn": "60 يوماً",
+   "fr": "60 jours",
+   "scope": "persona",
+   "archetype": "The persona's notice period as she states it: hmMB1 'My notice period is 60 days' (both hiring-message variants L14175, L14261), MSAQ law2 '60 days, in writing' and the Tabby start-date clash, seedBank b1 (60 days selected). The option list (qaBO1b-d 30/60/90 days, pfNManPh '45') is a form, not this id.",
+   "map": "the persona's notice period as a phrase, from pack noticeDays and local norms: '1 month' GB, '3 months' DE/NL, '2 weeks' US, '30 days' AE; AR with the right counted-noun form (شهر واحد، شهران، 3 أشهر، أسبوعان)",
+   "count": 6,
+   "keys": [
+    "hmMB1",
+    "MSAQ law2",
+    "seedBank b1 L12501"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.phone": {
+   "cat": "persona",
+   "en": "0551234567",
+   "ar": "0551234567",
+   "arn": "0551234567",
+   "fr": "0551234567",
+   "scope": "persona",
+   "archetype": "the persona's own mobile typed into a screening answer to demo PII blocking (hmSimBlk 'You can reach me on 0551234567.'), national format, no spaces, no country code. The HM_PH detector regexes (+966 / 00966 / 05x) are code and read phone.cc + pack phone formats. [merged phone.loc (B)]",
+   "map": "the pack persona.phone written as a local types it in a chat: national format, no spaces, no country code (GB 07700900123, FR 0612345678, AE 0501234567, US 2125550123); must still match the residence/target phone-detection regexes",
+   "count": 2,
+   "keys": [
+    "hmSimBlk",
+    "HM_PH L14319-14325"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.ref": {
+   "cat": "persona",
+   "en": "uptal.com/r/noura",
+   "ar": "uptal.com/r/noura",
+   "arn": "uptal.com/r/noura",
+   "fr": "uptal.com/r/noura",
+   "scope": "persona",
+   "archetype": "Personal referral link on the refer card (L6274) and in the copy-to-clipboard handler (L8140).",
+   "map": "uptal.com/r/ + the persona's first name in lowercase ASCII (uptal.com/r/sophie, uptal.com/r/ciaran)",
+   "count": 3,
+   "keys": [
+    "refer card L6274",
+    "copyBtn L8140"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "stray"
+   }
+  },
+  "p.title": {
+   "cat": "persona",
+   "en": "Financial Analyst",
+   "ar": "محللة مالية",
+   "arn": "محللة مالية",
+   "fr": "Analyste financière",
+   "scope": "persona",
+   "archetype": "The persona's current job title, gendered in AR/FR: CV headline 'Financial Analyst · Riyadh' (cvView, cvEdit, cvtOffer, cvtSent), msaKnowList / msaMemItems (محللة مالية), wr1s (v5 writes the neutral masculine محلل مالي there: {@p.title|محلل مالي}), MSAQ car1 'the next step up from Financial Analyst'. Target titles (Senior Financial Analyst, FP&A Manager, Head of Finance) are role words, not this id.",
+   "map": "pack persona.title in the persona's gender (AR محلل مالي / محللة مالية, FR Analyste financier / financière)",
+   "count": 20,
+   "keys": [
+    "msaKnowList",
+    "msaMemItems",
+    "wr1s",
+    "cvView .cvpaper",
+    "cvtOffer .cvt-hd",
+    "CV.head L13604",
+    "MSAQ car1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "p.uni": {
+   "cat": "persona",
+   "en": "King Saud University",
+   "ar": "جامعة الملك سعود",
+   "arn": "جامعة الملك سعود",
+   "fr": "Université du Roi-Saoud",
+   "scope": "persona",
+   "archetype": "the persona's own university in CV education lines (CV.edu / CV_AR.edu, buildCV L9383, cvtOffer/cvtStudio/cvtSent .cvt-ln HTML 'BSc Accounting, King Saud University · SOCPA'). v5 never names King Saud University as a target-market fact, so there is no uni.* id. [absorbs uni.ksu (B)]",
+   "map": "pack unis[] entry whose id is persona.uni (a well-known local university with a strong accounting/finance school); for X-* personas a university of their nationality",
+   "count": 10,
+   "keys": [
+    "CV.edu L13609",
+    "CV_AR.edu L13611",
+    "buildCV L9383",
+    "cvtOffer .cvt-ln",
+    "cvtSent .cvt-ln"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "js"
+   }
+  },
+  "ctry.dem": {
+   "cat": "country",
+   "en": "Saudi",
+   "ar": "سعودي",
+   "arn": "سعودي",
+   "fr": "saoudien",
+   "scope": "target",
+   "archetype": "nationality adjective, masculine (EN has no gender: use this id for every EN \"Saudi\" adjective; AR takes ال by agreement: ال{@ctry.dem})",
+   "map": "pack.dem (m): the market's demonym adjective (EN 'Emirati', 'British', 'American'; AR 'إماراتي', 'بريطاني'; FR 'émirien', 'britannique')",
+   "count": 16,
+   "keys": [
+    "msaIntro",
+    "pfNatSA",
+    "cAllHint",
+    "cSheetSub",
+    "cSugLabel",
+    "swc2About",
+    "epR2",
+    "apR2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ctry.demf": {
+   "cat": "country",
+   "en": "Saudi",
+   "ar": "سعودية",
+   "arn": "سعودية",
+   "fr": "saoudienne",
+   "scope": "target",
+   "archetype": "nationality adjective, feminine (AR agreement with feminine nouns and non-human plurals: مدينة سعودية، اللجان السعودية; EN copy never needs it)",
+   "map": "pack.dem.arf / frf: the feminine demonym (AR 'إماراتية', 'بريطانية', 'مصرية'; FR 'émirienne', 'britannique')",
+   "count": 10,
+   "keys": [
+    "pfNatSA",
+    "cSheetSub",
+    "cSugLabel",
+    "swc2About",
+    "epR2",
+    "apR2",
+    "apHuBio",
+    "chT1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ctry.flag": {
+   "cat": "country",
+   "en": "🇸🇦",
+   "ar": "🇸🇦",
+   "arn": "🇸🇦",
+   "fr": "🇸🇦",
+   "scope": "target",
+   "archetype": "flag emoji of the target country (nationality and country pickers)",
+   "map": "pack.flag: the market flag emoji",
+   "count": 4,
+   "keys": [
+    "pfNatSA",
+    "pfCoSA"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ctry.full": {
+   "cat": "country",
+   "en": "Saudi Arabia",
+   "ar": "المملكة العربية السعودية",
+   "arn": "المملكة العربية السعودية",
+   "fr": "le Royaume d'Arabie saoudite",
+   "scope": "target",
+   "archetype": "official long country name. AR-only in v5: qaBQ3 AR 'في المملكة العربية السعودية' where EN says plain 'Saudi Arabia' (v5 EN never uses 'the Kingdom of Saudi Arabia'), so en = the plain in-sentence name. EN tokenizers use {@ctry.n}; AR uses {@ctry.full}.",
+   "map": "AR: the market's formal long name ('دولة الإمارات العربية المتحدة', 'جمهورية مصر العربية', 'المملكة المتحدة'); EN and FR: the standard in-sentence name with its article ('the United Arab Emirates', 'Egypt'; 'les Émirats arabes unis'), because v5 EN uses the plain name in this slot",
+   "count": 1,
+   "keys": [
+    "qaBQ3"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ctry.in": {
+   "cat": "country",
+   "en": "in Saudi Arabia",
+   "ar": "في السعودية",
+   "arn": "في السعودية",
+   "fr": "en Arabie saoudite",
+   "scope": "target",
+   "archetype": "locative phrase \"in <country>\"; needed mainly for French (en/au/aux/à) and new v6 copy. EN/AR v5 may equally be tokenized as \"in {@ctry.n}\" / \"في {@ctry.n}\"",
+   "map": "pack.in: the locative phrase (EN 'in the UK', AR 'في المملكة المتحدة', FR 'au Royaume-Uni', 'aux Émirats arabes unis', 'en France', 'à Bahreïn')",
+   "count": 13,
+   "keys": [
+    "swc10About",
+    "swh1About",
+    "swh7About",
+    "qaW2b",
+    "qaBQ3",
+    "phHint2",
+    "swc4About",
+    "wr2s"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ctry.k": {
+   "cat": "country",
+   "en": "the Kingdom",
+   "ar": "المملكة",
+   "arn": "المملكة",
+   "fr": "le Royaume",
+   "scope": "target",
+   "archetype": "in-sentence back-reference to the country by its state form (\"across the Kingdom\"); AR v5 also uses it where EN says \"Saudi Arabia\"",
+   "map": "monarchies whose locals say it: 'the Kingdom' (BH, MA, JO), 'the Sultanate' (OM), 'the State' only if natural (KW/QA 'the State of …' is rare: prefer the short name); otherwise the short country name = ctry.n (EN 'the UAE', AR 'الإمارات'/'الدولة', 'مصر')",
+   "count": 10,
+   "keys": [
+    "swc10About",
+    "swc2About",
+    "swh7About",
+    "swc9About",
+    "swh1About",
+    "swh4About",
+    "swh5About"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ctry.n": {
+   "cat": "country",
+   "en": "Saudi Arabia",
+   "ar": "السعودية",
+   "arn": "السعودية",
+   "fr": "l'Arabie saoudite",
+   "scope": "target",
+   "archetype": "country name, in-sentence form (with article where the language needs one); EN also takes possessive {@ctry.n}'s",
+   "map": "pack.short: the market's country name as written mid-sentence (EN 'the UK', 'the UAE', 'Qatar'; AR 'المملكة المتحدة', 'الإمارات'; FR with article 'le Royaume-Uni', 'les Émirats arabes unis')",
+   "count": 24,
+   "keys": [
+    "swc4About",
+    "swc9About",
+    "swc10About",
+    "pfCoSA",
+    "cAll",
+    "swh1About",
+    "swh4About",
+    "swh5About"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ctry.natl": {
+   "cat": "country",
+   "en": "Saudi national",
+   "ar": "مواطن سعودي",
+   "arn": "مواطن سعودي",
+   "fr": "ressortissant saoudien",
+   "scope": "target",
+   "archetype": "citizen-status label for a national of the target country (work-rights options)",
+   "map": "the natural singular citizen label (EN 'UAE national', 'British citizen', 'US citizen'; AR 'مواطن إماراتي', 'مواطن بريطاني'; FR 'citoyen britannique', 'ressortissant émirien')",
+   "count": 4,
+   "keys": [
+    "pfVisaSaudi",
+    "qaBO3a"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ctry.s": {
+   "cat": "country",
+   "en": "Saudi",
+   "ar": "السعودية",
+   "arn": "السعودية",
+   "fr": "l'Arabie saoudite",
+   "scope": "target",
+   "archetype": "colloquial short country noun (\"employers in Saudi\", \"across Saudi and the Gulf\")",
+   "map": "the country's short colloquial in-sentence name; usually = ctry.n (EN 'the UAE'/'the Emirates', 'the UK', 'the US', 'Egypt')",
+   "count": 3,
+   "keys": [
+    "phHint2",
+    "wr2s",
+    "djSugE"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "reg.demf": {
+   "cat": "region",
+   "en": "Gulf",
+   "ar": "خليجية",
+   "arn": "خليجية",
+   "fr": "du Golfe",
+   "scope": "target",
+   "archetype": "regional adjective, feminine (AR nationality option pfNatGCC \"خليجية\" for the female persona)",
+   "map": "feminine region adjective (AR 'أوروبية', 'مغاربية'); nationality-picker labels should really come from a generated list with persona-gender forms",
+   "count": 1,
+   "keys": [
+    "pfNatGCC"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "reg.gcc": {
+   "cat": "region",
+   "en": "GCC",
+   "ar": "الخليج",
+   "arn": "دول مجلس التعاون الخليجي",
+   "fr": "CCG",
+   "scope": "target",
+   "archetype": "the GCC bloc (EN 'GCC banks' apNdBio, 'GCC' pfNatGCC, 'GCC national' pfVisaGcc). v5 AR never spells out the bloc: apNdBio AR 'بنوك الخليج', so ar = 'الخليج' (same surface as reg.gulf); pfNatGCC AR is reg.demf. arn carries the formal name for neutral Arabic.",
+   "map": "the bloc whose citizens get free movement into the target: GCC markets 'GCC'; EU/EEA markets and CH 'EU' (AR 'الاتحاد الأوروبي', FR 'UE'); GB 'Irish' and IE 'British' (Common Travel Area); markets with no bloc: the region adjective ('North American', 'Arab', 'Maghreb')",
+   "count": 2,
+   "keys": [
+    "pfNatGCC",
+    "apNdBio"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "reg.gulf": {
+   "cat": "region",
+   "en": "the Gulf",
+   "ar": "الخليج",
+   "arn": "الخليج",
+   "fr": "le Golfe",
+   "scope": "target",
+   "archetype": "wider home region of the market, in-sentence with article (\"across Saudi and the Gulf\", \"40,000 employees across the Gulf\")",
+   "map": "the market's wider region in-sentence, with article where needed (used as '<country> and <region>', so it must not repeat the country): gcc 'the Gulf'/'الخليج'/'le Golfe'; eu and uk 'Europe'/'أوروبا'/'l'Europe'; na 'North America'/'أمريكا الشمالية'/'l'Amérique du Nord'; au 'Asia-Pacific'/'آسيا والمحيط الهادئ'/'l'Asie-Pacifique'; naf 'North Africa'/'شمال أفريقيا'/'l'Afrique du Nord' (MA/TN/DZ FR may say 'le Maghreb'); lev 'the Middle East'/'الشرق الأوسط'/'le Moyen-Orient'",
+   "count": 9,
+   "keys": [
+    "swc8About",
+    "wr2s",
+    "swc1About",
+    "swh7About",
+    "apNdBio"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "reg.natl": {
+   "cat": "region",
+   "en": "GCC national",
+   "ar": "مواطن خليجي",
+   "arn": "مواطن خليجي",
+   "fr": "ressortissant du CCG",
+   "scope": "target",
+   "archetype": "work-rights status of a citizen of another bloc country (free movement)",
+   "map": "citizen of the bloc with free movement into the target: GCC 'GCC national'; EU/EEA/CH 'EU/EEA national' (AR 'مواطن من الاتحاد الأوروبي'); GB/IE 'Irish citizen'/'British citizen' (Common Travel Area); none elsewhere (drop the option)",
+   "count": 2,
+   "keys": [
+    "pfVisaGcc"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.abha": {
+   "cat": "city",
+   "en": "Abha",
+   "ar": "أبها",
+   "arn": "أبها",
+   "fr": "Abha",
+   "scope": "target",
+   "archetype": "city chooser item (pack cities[6], last default chip)",
+   "map": "pack cities[6]; if the pack has only 6 cities, the market's next-largest city",
+   "count": 2,
+   "keys": [
+    "cAbha"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.buraidah": {
+   "cat": "city",
+   "en": "Buraidah",
+   "ar": "بريدة",
+   "arn": "بريدة",
+   "fr": "Buraïda",
+   "scope": "target",
+   "archetype": "\"More cities\" suggestion chip (2nd-tier city)",
+   "map": "the 3rd largest city not in pack cities[]",
+   "count": 2,
+   "keys": [
+    "cSugBuraidah"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.dammam": {
+   "cat": "city",
+   "en": "Dammam",
+   "ar": "الدمام",
+   "arn": "الدمام",
+   "fr": "Dammam",
+   "scope": "target",
+   "archetype": "third city / eastern industrial-energy metro (pack cities[2])",
+   "map": "pack cities[2]",
+   "count": 4,
+   "keys": [
+    "cDammam",
+    "qaBO5c"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.dhahran": {
+   "cat": "city",
+   "en": "Dhahran",
+   "ar": "الظهران",
+   "arn": "الظهران",
+   "fr": "Dhahran",
+   "scope": "target",
+   "archetype": "HQ city of the national oil/energy champion (Aramco job swc3*)",
+   "map": "HQ city of the market's largest national oil/energy employer, else its main energy/industrial hub (AE Abu Dhabi, QA Doha, KW Ahmadi, DZ Algiers, US Houston, GB Aberdeen)",
+   "count": 6,
+   "keys": [
+    "swc3City",
+    "swc3Q4",
+    "swc3About"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.eastprov": {
+   "cat": "city",
+   "en": "Eastern Province",
+   "ar": "المنطقة الشرقية",
+   "arn": "المنطقة الشرقية",
+   "fr": "la Province orientale",
+   "scope": "target",
+   "archetype": "province/region containing the energy/industrial cities (Dhahran, Ras Al Khair); EN article is literal copy (\"the Eastern Province\")",
+   "map": "the province/region/state where city.dhahran's and city.rak's equivalents lie (AE 'Al Dhafra', US 'Texas', AU 'Western Australia'); if the market has no such unit, the city.dhahran equivalent itself",
+   "count": 6,
+   "keys": [
+    "swc3Q4",
+    "swc3O1",
+    "qaW1a"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.hail": {
+   "cat": "city",
+   "en": "Hail",
+   "ar": "حائل",
+   "arn": "حائل",
+   "fr": "Haïl",
+   "scope": "target",
+   "archetype": "\"More cities\" suggestion chip (2nd-tier city)",
+   "map": "the 4th largest city not in pack cities[]",
+   "count": 2,
+   "keys": [
+    "cSugHail"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.jeddah": {
+   "cat": "city",
+   "en": "Jeddah",
+   "ar": "جدة",
+   "arn": "جدة",
+   "fr": "Djeddah",
+   "scope": "target",
+   "archetype": "second commercial city (pack cities[1]); persona target #2; Saudia airline HQ in swh5*",
+   "map": "pack cities[1]: the market's #2 city for finance jobs (AE Abu Dhabi, GB Manchester, US Chicago, FR Lyon, EG Alexandria)",
+   "count": 16,
+   "keys": [
+    "pfBioText",
+    "msaMemItems",
+    "swSg1s",
+    "pr2s",
+    "cJeddah",
+    "swh5City",
+    "swh5About",
+    "qaBO5b"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.jubail": {
+   "cat": "city",
+   "en": "Jubail",
+   "ar": "الجبيل",
+   "arn": "الجبيل",
+   "fr": "Jubail",
+   "scope": "target",
+   "archetype": "\"More cities\" suggestion chip (industrial city)",
+   "map": "an industrial / port city not in pack cities[] (6th suggestion)",
+   "count": 2,
+   "keys": [
+    "cSugJubail"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.kaec": {
+   "cat": "city",
+   "en": "King Abdullah Economic City",
+   "ar": "مدينة الملك عبدالله الاقتصادية",
+   "arn": "مدينة الملك عبدالله الاقتصادية",
+   "fr": "Ville économique du Roi-Abdallah",
+   "scope": "target",
+   "archetype": "special economic zone / new industrial city with a car assembly plant (Lucid job swh6*); EN abbreviation \"KAEC\" in swh6Role (use {@city.kaec|KAEC})",
+   "map": "a special economic / free zone or industrial city outside the main metro where a manufacturer runs a plant (AE KIZAD/Jebel Ali, EG Ain Sokhna, MA Tanger Med, GB Sunderland, US Detroit area)",
+   "count": 8,
+   "keys": [
+    "swh6City",
+    "swh6About",
+    "swh6Role",
+    "swh6O1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.khamis": {
+   "cat": "city",
+   "en": "Khamis Mushait",
+   "ar": "خميس مشيط",
+   "arn": "خميس مشيط",
+   "fr": "Khamis Mushait",
+   "scope": "target",
+   "archetype": "\"More cities\" suggestion chip (2nd-tier city)",
+   "map": "the 2nd largest city not in pack cities[] (suggestion list, order by size)",
+   "count": 2,
+   "keys": [
+    "cSugKhamis"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.khobar": {
+   "cat": "city",
+   "en": "Al Khobar",
+   "ar": "الخبر",
+   "arn": "الخبر",
+   "fr": "Khobar",
+   "scope": "target",
+   "archetype": "city chooser item, satellite business city of the eastern metro (pack cities[3])",
+   "map": "pack cities[3]",
+   "count": 2,
+   "keys": [
+    "cKhobar"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.mecca": {
+   "cat": "city",
+   "en": "Mecca",
+   "ar": "مكة",
+   "arn": "مكة",
+   "fr": "La Mecque",
+   "scope": "target",
+   "archetype": "city chooser item (pack cities[4]); EN v5 spells it \"Makkah\" in the Salla job card swh3* (use {@city.mecca|Makkah} there)",
+   "map": "pack cities[4]; in swh3* the city is the e-commerce employer's HQ, so packs should check the employer city",
+   "count": 8,
+   "keys": [
+    "cMecca",
+    "swh3City",
+    "swh3About",
+    "swh3O3"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.medina": {
+   "cat": "city",
+   "en": "Medina",
+   "ar": "المدينة المنورة",
+   "arn": "المدينة المنورة",
+   "fr": "Médine",
+   "scope": "target",
+   "archetype": "city chooser item (pack cities[5]). AR \"المدينة\" alone means \"the city\": never tokenize it",
+   "map": "pack cities[5]",
+   "count": 2,
+   "keys": [
+    "cMedina"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.nw": {
+   "cat": "city",
+   "en": "northwest Saudi Arabia",
+   "ar": "شمال غرب المملكة",
+   "arn": "شمال غرب المملكة",
+   "fr": "le nord-ouest de l'Arabie saoudite",
+   "scope": "target",
+   "archetype": "phrase locating city.tabuk (NEOM) inside the country",
+   "map": "a short phrase locating city.tabuk's equivalent within the country (EN 'northern England', 'the Northern Emirates'; AR 'شمال إنجلترا'); keep it a direction + country form",
+   "count": 4,
+   "keys": [
+    "swc7Q4",
+    "swc7About"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.rak": {
+   "cat": "city",
+   "en": "Ras Al Khair",
+   "ar": "رأس الخير",
+   "arn": "رأس الخير",
+   "fr": "Ras al-Khair",
+   "scope": "target",
+   "archetype": "remote industrial/mining site needing relocation with a housing allowance (Ma'aden job, Auto-Apply question demo qa*/mq1*)",
+   "map": "a remote industrial, mining or energy site where the market's mining/industrial employer runs a plant and offers relocation (AE Ruwais, OM Duqm, AU Pilbara/Port Hedland, MA Khouribga, GB Teesside)",
+   "count": 8,
+   "keys": [
+    "qaCityRak",
+    "mq1b1",
+    "mq1b2",
+    "qaQ1a"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.riyadh": {
+   "cat": "city",
+   "en": "Riyadh",
+   "ar": "الرياض",
+   "arn": "الرياض",
+   "fr": "Riyad",
+   "scope": "target",
+   "archetype": "capital and #1 finance/FP&A job city of the target market (pack cities[0]); also employer HQ city in job cards",
+   "map": "pack cities[0]: the market's #1 city for finance/FP&A jobs (AE Dubai, QA Doha, GB London, US New York, DE Frankfurt, EG Cairo, MA Casablanca)",
+   "count": 101,
+   "keys": [
+    "cRiyadh",
+    "pr2s",
+    "swSg1s",
+    "nt5s",
+    "cvrRaiseS",
+    "swc1City",
+    "m1b2",
+    "hrHiP"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.tabuk": {
+   "cat": "city",
+   "en": "Tabuk",
+   "ar": "تبوك",
+   "arn": "تبوك",
+   "fr": "Tabouk",
+   "scope": "target",
+   "archetype": "remote regional city: location of the NEOM giga-project job (swc7*, relocation) and a \"More cities\" suggestion chip",
+   "map": "a regional city far from the capital where the market's giga-project / large new development hires (EG New Administrative Capital, OM Duqm), else the largest regional city not in pack cities[]",
+   "count": 6,
+   "keys": [
+    "swc7City",
+    "swc7Q4",
+    "cSugTabuk"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "city.taif": {
+   "cat": "city",
+   "en": "Taif",
+   "ar": "الطائف",
+   "arn": "الطائف",
+   "fr": "Taëf",
+   "scope": "target",
+   "archetype": "\"More cities\" suggestion chip (2nd-tier city)",
+   "map": "the 5th largest city not in pack cities[]",
+   "count": 2,
+   "keys": [
+    "cSugTaif"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.airbus": {
+   "cat": "employer",
+   "en": "Airbus",
+   "ar": "إيرباص",
+   "arn": "إيرباص",
+   "fr": "Airbus",
+   "scope": "target",
+   "archetype": "Aircraft maker named in the co.flynas About sentence (all-Airbus fleet of A320 family and A330neo). Company fact, not a hiring employer.",
+   "map": "the manufacturer of the co.flynas pick's fleet (Airbus or Boeing); the A320/A330neo model names in swh2About must be checked with it",
+   "count": 2,
+   "keys": [
+    "swh2About"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.alinma": {
+   "cat": "employer",
+   "en": "Alinma Bank",
+   "ar": "مصرف الإنماء",
+   "arn": "مصرف الإنماء",
+   "fr": "Alinma Bank",
+   "scope": "target",
+   "archetype": "Employer in the hiring-team demo thread (seedB: Senior Financial Analyst, Riyadh, recruiter wrote 3 weeks ago). Mid-size Islamic bank.",
+   "map": "a mid-size national bank (pack sector=bank or islamic-bank) not used by any other co.* bank id",
+   "count": 4,
+   "keys": [
+    "hmCoB"
+   ],
+   "sector": "bank",
+   "logo": "hmal",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.almarai": {
+   "cat": "employer",
+   "en": "Almarai",
+   "ar": "المراعي",
+   "arn": "المراعي",
+   "fr": "Almarai",
+   "scope": "target",
+   "archetype": "Largest regional food and dairy (FMCG) company. FP&A card swc1, documents mail m4, suggested-employer list. The ال is part of the name.",
+   "map": "the largest national FMCG / food & beverage company (pack sector=fmcg)",
+   "count": 41,
+   "keys": [
+    "swc1Co",
+    "swc1About",
+    "m4sr",
+    "mlAfterDocs"
+   ],
+   "sector": "fmcg",
+   "logo": "am",
+   "dom": "almarai.com",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.alrajhi": {
+   "cat": "employer",
+   "en": "Al Rajhi Bank",
+   "ar": "مصرف الراجحي",
+   "arn": "مصرف الراجحي",
+   "fr": "Al Rajhi Bank",
+   "scope": "target",
+   "archetype": "Largest Islamic bank (world #1 by assets). Card swc6 (Performance Management), recruiter m8.",
+   "map": "the largest Islamic bank (pack sector=islamic-bank); where Islamic banking is marginal, a top-3 retail bank not used for co.snb or co.riyadbank (and drop 'Islamic' from swc6About)",
+   "count": 12,
+   "keys": [
+    "swc6Co",
+    "swc6About",
+    "m8sr"
+   ],
+   "sector": "islamic-bank",
+   "logo": "rj",
+   "dom": "alrajhibank.com.sa",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.aramco": {
+   "cat": "employer",
+   "en": "Aramco",
+   "ar": "أرامكو",
+   "arn": "أرامكو",
+   "fr": "Aramco",
+   "scope": "target",
+   "archetype": "National energy champion (HQ Dhahran). Senior Financial Analyst card swc3 with relocation to the Eastern Province, numerical-reasoning assessment mail m5, dream-employer list.",
+   "map": "the national energy/oil & gas champion (pack sector=energy, rank 1); if the market has none, its largest resources or industrial employer",
+   "count": 46,
+   "keys": [
+    "swc3Co",
+    "swc3About",
+    "m5sn",
+    "uhF2s"
+   ],
+   "sector": "energy",
+   "logo": "ar",
+   "dom": "aramco.com",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.bupa": {
+   "cat": "employer",
+   "en": "Bupa Arabia",
+   "ar": "بوبا العربية",
+   "arn": "بوبا العربية",
+   "fr": "Bupa Arabia",
+   "scope": "target",
+   "archetype": "Largest health insurer (local arm of a global brand, listed). Budgeting Analyst card swc10, in-person interview at its capital-city office (m11b1, mlConf11).",
+   "map": "the largest health insurer (pack sector=insurance, health-focused); else the largest insurer not used for co.tawuniya",
+   "count": 31,
+   "keys": [
+    "swc10Co",
+    "swc10About",
+    "m11b1",
+    "m11sr",
+    "mlConf11"
+   ],
+   "sector": "insurance",
+   "logo": "bu",
+   "dom": "bupa.com.sa",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.flynas": {
+   "cat": "employer",
+   "en": "flynas",
+   "ar": "طيران ناس",
+   "arn": "طيران ناس",
+   "fr": "flynas",
+   "scope": "target",
+   "archetype": "Listed local low-cost airline (all-Airbus fleet). Swipe-history card swh2 (FP&A Analyst). Lower-case brand.",
+   "map": "the leading local low-cost airline (pack sector=airline, LCC); if none, the second-largest airline",
+   "count": 4,
+   "keys": [
+    "swh2Co",
+    "swh2About"
+   ],
+   "sector": "airline",
+   "logo": "fn",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.giga": {
+   "cat": "employer_type",
+   "en": "giga-project",
+   "ar": "مشروع عملاق",
+   "arn": "مشروع عملاق",
+   "fr": "giga-projet",
+   "scope": "target",
+   "archetype": "Employer-type phrase, singular or attributive ('a giga-project', 'giga-project finance roles', 'Government and giga-project track'). KSA-specific term for PIF-backed mega developments.",
+   "map": "the local term for flagship state-backed mega-projects (e.g. 'mega-project', 'major infrastructure project', FR 'grand projet'); where none exist, the closest prestige category such as 'major public project'",
+   "count": 25,
+   "keys": [
+    "swc5About",
+    "swc7About",
+    "swc5Sum",
+    "agLearn",
+    "advS6",
+    "hubS6",
+    "alSpec6",
+    "gwSpec6"
+   ],
+   "sector": "realestate",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.giga.cap": {
+   "cat": "employer_type",
+   "en": "Giga-project",
+   "ar": "المشاريع العملاقة",
+   "arn": "المشاريع العملاقة",
+   "fr": "Giga-projet",
+   "scope": "target",
+   "archetype": "Sentence-initial capitalised form of co.giga (advisor service title apFaS1 'Giga-project application strategy'). English-only variant; the Arabic side of apFaS1 uses co.gigas.",
+   "map": "co.giga term with an initial capital",
+   "count": 1,
+   "keys": [
+    "apFaS1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.gigas": {
+   "cat": "employer_type",
+   "en": "giga-projects",
+   "ar": "المشاريع العملاقة",
+   "arn": "المشاريع العملاقة",
+   "fr": "giga-projets",
+   "scope": "target",
+   "archetype": "Employer-type phrase, plural. Arabic is the definite noun+adjective phrase (ال on both words, so it cannot be split off as a prefix). Indefinite ومشاريع عملاقة in alSpec6 → {@co.gigas|مشاريع عملاقة}; ل-contracted للمشاريع العملاقة in apFaS1 cannot be written ل{@co.gigas} (see notes).",
+   "map": "plural of the co.giga term (definite form in Arabic, e.g. المشاريع الكبرى)",
+   "count": 13,
+   "keys": [
+    "apBio",
+    "epBio",
+    "apNdBio",
+    "advS6",
+    "hubS6",
+    "agLearn",
+    "apFaBio",
+    "apFaS1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.habib": {
+   "cat": "employer",
+   "en": "Dr. Sulaiman Al Habib",
+   "ar": "د. سليمان الحبيب",
+   "arn": "د. سليمان الحبيب",
+   "fr": "Dr Sulaiman Al Habib",
+   "scope": "target",
+   "archetype": "Largest private hospital group (listed). Swipe-history card swh7 (Budget Analyst).",
+   "map": "the largest private hospital / healthcare group (pack sector=healthcare)",
+   "count": 4,
+   "keys": [
+    "swh7Co",
+    "swh7About"
+   ],
+   "sector": "healthcare",
+   "logo": "hb",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.jahez": {
+   "cat": "employer",
+   "en": "Jahez",
+   "ar": "جاهز",
+   "arn": "جاهز",
+   "fr": "Jahez",
+   "scope": "target",
+   "archetype": "Listed local food-delivery tech company. FP&A Lead card swc2, auto-reply mails m6. Arabic جاهز is also the everyday word 'ready' (39 dict hits): tokenize only the listed company keys.",
+   "map": "the #1 local food-delivery / quick-commerce app (pack sector=delivery or ecommerce)",
+   "count": 28,
+   "keys": [
+    "swc2Co",
+    "swc2About",
+    "m6b1",
+    "m6b2",
+    "m6sn"
+   ],
+   "sector": "delivery",
+   "logo": "ja",
+   "dom": "jahez.net",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.lucid": {
+   "cat": "employer",
+   "en": "Lucid",
+   "ar": "لوسيد",
+   "arn": "لوسيد",
+   "fr": "Lucid",
+   "scope": "target",
+   "archetype": "Foreign (US) electric-vehicle maker, majority-owned by PIF, with its first assembly plant outside the US in King Abdullah Economic City. Swipe-history card swh6 (Cost Analyst, Manufacturing).",
+   "map": "a foreign-headquartered manufacturer with a major local plant (pack sector=industrial), ideally state co-invested; different from co.sabic",
+   "count": 4,
+   "keys": [
+    "swh6Co",
+    "swh6About"
+   ],
+   "sector": "industrial",
+   "logo": "lu",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.maaden": {
+   "cat": "employer",
+   "en": "Maaden",
+   "ar": "معادن",
+   "arn": "معادن",
+   "fr": "Maaden",
+   "scope": "target",
+   "archetype": "State-owned mining and metals major with a remote industrial-city site (Ras Al Khair). Employer form that paused on 3 screening questions (relocation with housing allowance, SOCPA membership, conflict of interest). Dict spells it Maaden; inline SUG/LOGO/AR_E maps spell it Ma'aden (use {@co.maaden|Ma'aden} there).",
+   "map": "the national mining/metals/resources champion (pack sector=mining); else the largest industrial employer with a remote plant site",
+   "count": 40,
+   "keys": [
+    "qaCoMd",
+    "aprCoMaaden",
+    "mq1s",
+    "mq1b1",
+    "mq1b2",
+    "qaLogS",
+    "qaQ1c",
+    "qaW1b"
+   ],
+   "sector": "mining",
+   "logo": "md",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.mobily": {
+   "cat": "employer",
+   "en": "Mobily",
+   "ar": "موبايلي",
+   "arn": "موبايلي",
+   "fr": "Mobily",
+   "scope": "target",
+   "archetype": "National #2 telecom operator (listed). Application-received auto-mail m10, Financial Analyst card swc9, suggested-employer list.",
+   "map": "telecom #2 in the pack (main challenger to the co.stc pick)",
+   "count": 33,
+   "keys": [
+    "swc9Co",
+    "swc9About",
+    "m10s",
+    "m10b1",
+    "m10b2",
+    "m10sn"
+   ],
+   "sector": "telecom",
+   "logo": "mo",
+   "dom": "mobily.com.sa",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.nana": {
+   "cat": "employer",
+   "en": "Nana",
+   "ar": "نعناع",
+   "arn": "نعناع",
+   "fr": "Nana",
+   "scope": "target",
+   "archetype": "Online grocery delivery app. Pipeline row 3 (Finance Manager) and MSAQ answers ('screening at stc and at Nana'). Arabic نعناع also means 'mint'.",
+   "map": "a local online grocery / quick-commerce app (pack sector=delivery or ecommerce), different from the co.jahez and co.noon picks",
+   "count": 32,
+   "keys": [
+    "aprCoNana"
+   ],
+   "sector": "delivery",
+   "logo": "na",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.nasdaq": {
+   "cat": "employer",
+   "en": "Nasdaq",
+   "ar": "ناسداك",
+   "arn": "ناسداك",
+   "fr": "Nasdaq",
+   "scope": "target",
+   "archetype": "Foreign stock exchange where co.lucid is listed ('Restricted stock units in a Nasdaq-listed company', swh6O3).",
+   "map": "the exchange where the co.lucid pick is listed; keep Nasdaq when that pick is US-listed",
+   "count": 2,
+   "keys": [
+    "swh6O3"
+   ],
+   "sector": "exchange",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.neom": {
+   "cat": "employer",
+   "en": "NEOM",
+   "ar": "نيوم",
+   "arn": "نيوم",
+   "fr": "NEOM",
+   "scope": "target",
+   "archetype": "Flagship giga-project and dream employer (rejection mail m9, card swc7 in Tabuk, advisor bio 'NEOM-scale programs', advisor review 'NEOM offer'). v5 Arabic m9b1 keeps Latin NEOM (use {@co.neom|NEOM}).",
+   "map": "the market's most prestigious state-backed mega-project or flagship development (pack sector=realestate or public-investment); if none, the most sought-after large employer for senior finance in the pack",
+   "count": 33,
+   "keys": [
+    "swc7Co",
+    "swc7About",
+    "swc7O1",
+    "m9b1",
+    "m9sr",
+    "apFaBio",
+    "apFaR2"
+   ],
+   "sector": "realestate",
+   "logo": "ne",
+   "init": "NM",
+   "dom": "neom.com",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.noon": {
+   "cat": "employer",
+   "en": "noon",
+   "ar": "نون",
+   "arn": "نون",
+   "fr": "noon",
+   "scope": "target",
+   "archetype": "Regional e-commerce marketplace. Pipeline row 10 (Finance Business Partner). Lower-case brand. Arabic نون is also the letter name.",
+   "map": "the leading e-commerce marketplace (pack sector=ecommerce or retail), different from the co.jahez and co.nana picks",
+   "count": 10,
+   "keys": [
+    "aprCoNoon"
+   ],
+   "sector": "ecommerce",
+   "logo": "nn",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.pif": {
+   "cat": "employer",
+   "en": "PIF",
+   "ar": "صندوق الاستثمارات العامة",
+   "arn": "صندوق الاستثمارات العامة",
+   "fr": "PIF",
+   "scope": "target",
+   "archetype": "Sovereign wealth fund, short form (acronym in EN). Dream employer #1 (VP Finance push), advisor credential 'ex-PIF', 'PIF-owned giga-project'. Arabic has no acronym: full name in most keys, short صندوق الاستثمارات in alSpec6 and Latin PIF in drPushP (use {@co.pif|...} escape hatch for both).",
+   "map": "the market's sovereign wealth / national public investment fund (pack sector=sovereign or public-investment) in its usual short form or acronym (e.g. ADIA/Mubadala, QIA, KIA, NWF, Bpifrance, CDG); else the largest state investment or public pension body",
+   "count": 27,
+   "keys": [
+    "drPushP",
+    "alSpec6",
+    "gwSpec6",
+    "apFaBio",
+    "swc5About"
+   ],
+   "sector": "sovereign",
+   "init": "PIF",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.pif.n": {
+   "cat": "employer",
+   "en": "Public Investment Fund",
+   "ar": "صندوق الاستثمارات العامة",
+   "arn": "صندوق الاستثمارات العامة",
+   "fr": "Fonds public d'investissement",
+   "scope": "target",
+   "archetype": "Sovereign wealth fund, full name (backer of NEOM, majority owner of Lucid).",
+   "map": "full official name of the co.pif pick",
+   "count": 4,
+   "keys": [
+    "swc7About",
+    "swh6About"
+   ],
+   "sector": "sovereign",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.qiddiya": {
+   "cat": "employer",
+   "en": "Qiddiya",
+   "ar": "القدية",
+   "arn": "القدية",
+   "fr": "Qiddiya",
+   "scope": "target",
+   "archetype": "PIF-owned giga-project (entertainment, sports and culture city at the edge of the capital). Project Finance Analyst card swc5, auto-mail m7, Auto-Apply learning note (agLearn). ال is part of the name.",
+   "map": "a flagship state-backed mega-project / real-estate developer (pack sector=realestate) different from the co.neom pick; else the largest real-estate developer",
+   "count": 18,
+   "keys": [
+    "swc5Co",
+    "swc5About",
+    "m7sn",
+    "m7b2",
+    "agLearn"
+   ],
+   "sector": "realestate",
+   "logo": "qd",
+   "dom": "qiddiya.com",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.rewaa": {
+   "cat": "employer",
+   "en": "Rewaa",
+   "ar": "رِوّاء",
+   "arn": "رِوّاء",
+   "fr": "Rewaa",
+   "scope": "target",
+   "archetype": "Hero interviewing employer: a local high-growth retail-tech SaaS scale-up in the primary city. Head of Finance interview Thursday 10:00, recruiter mail m1, practice-interview target (PIQ), MSAQ answers. The most frequent employer in the app.",
+   "map": "a well-known local tech/SaaS scale-up (pack sector=tech) headquartered in the market's primary city, credible for a Head of Finance hire; must differ from co.tabby, co.salla and co.jahez picks",
+   "count": 188,
+   "keys": [
+    "mlCoRw",
+    "hNeedT",
+    "pkWinS",
+    "recRole",
+    "m1sr",
+    "chM1",
+    "bsWarn",
+    "chAttJd"
+   ],
+   "sector": "tech",
+   "logo": "rw",
+   "dom": "rewaa.com",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.riyadbank": {
+   "cat": "employer",
+   "en": "Riyad Bank",
+   "ar": "بنك الرياض",
+   "arn": "بنك الرياض",
+   "fr": "Riyad Bank",
+   "scope": "target",
+   "archetype": "Major listed bank headquartered in the capital. Second employer form (expected salary, SAMA experience, motivation; QA.apps q2), swipe-history card swh1 (Credit Analyst). Arabic name contains the city الرياض: tokenize the whole name, never the city inside it.",
+   "map": "a top-3 national bank (pack sector=bank) not used for co.snb, co.alrajhi or co.alinma",
+   "count": 25,
+   "keys": [
+    "qaCoRb",
+    "qaQ2c",
+    "qaW2a",
+    "qaLogS",
+    "qaD2c",
+    "mq1b4",
+    "swh1Co",
+    "swh1About"
+   ],
+   "sector": "bank",
+   "logo": "rb",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.sabic": {
+   "cat": "employer",
+   "en": "SABIC",
+   "ar": "سابك",
+   "arn": "سابك",
+   "fr": "SABIC",
+   "scope": "target",
+   "archetype": "Petrochemicals / industrial major. Appears only in the inline suggested-employer list (SUG.employers, AR_E, INIT 'SB'), not in the dictionary. Inline only: SUG.employers, AR_E, INIT.",
+   "map": "the largest chemicals / manufacturing / industrial employer (pack sector=industrial), not the co.aramco or co.maaden pick",
+   "count": 6,
+   "keys": [],
+   "sector": "industrial",
+   "init": "SB",
+   "src": {
+    "en": "js",
+    "ar": "js"
+   }
+  },
+  "co.salla": {
+   "cat": "employer",
+   "en": "Salla",
+   "ar": "سلة",
+   "arn": "سلة",
+   "fr": "Salla",
+   "scope": "target",
+   "archetype": "E-commerce enabling platform headquartered in Makkah (not the capital). Swipe-history card swh3 (Financial Controller). Arabic سلة also means 'basket'.",
+   "map": "a local e-commerce platform / marketplace-tech scale-up (pack sector=tech or ecommerce), ideally headquartered outside the primary city; different from co.rewaa",
+   "count": 4,
+   "keys": [
+    "swh3Co",
+    "swh3About"
+   ],
+   "sector": "tech",
+   "logo": "sl",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.saudia": {
+   "cat": "employer",
+   "en": "Saudia",
+   "ar": "السعودية",
+   "arn": "السعودية",
+   "fr": "Saudia",
+   "scope": "target",
+   "archetype": "National flag-carrier airline (HQ Jeddah, SkyTeam member). Swipe-history card swh5. Arabic brand السعودية is identical to the country short name: tokenize only swh5Co/swh5Role, never ctry.s there; swh5About uses the long form الخطوط السعودية (use {@co.saudia|الخطوط السعودية}).",
+   "map": "the national flag-carrier airline (pack sector=airline, flag carrier)",
+   "count": 6,
+   "keys": [
+    "swh5Co",
+    "swh5Role",
+    "swh5About"
+   ],
+   "sector": "airline",
+   "logo": "sa",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.semigov": {
+   "cat": "employer_type",
+   "en": "Semi-government",
+   "ar": "شبه حكومي",
+   "arn": "شبه حكومي",
+   "fr": "Parapublic",
+   "scope": "target",
+   "archetype": "Employer-type filter chip (tSemi, ytSemi; also in the inline employer-type lists next to Government / Private / Multinationals / Startups, which stay generic).",
+   "map": "the local label for state-owned or government-linked companies (e.g. AE/QA 'Semi-government', GB 'Public corporations', US 'Public authorities', FR 'Entreprises publiques', MA/TN/DZ 'Établissements publics')",
+   "count": 8,
+   "keys": [
+    "tSemi",
+    "ytSemi"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.skyteam": {
+   "cat": "employer",
+   "en": "SkyTeam",
+   "ar": "سكاي تيم",
+   "arn": "سكاي تيم",
+   "fr": "SkyTeam",
+   "scope": "target",
+   "archetype": "Global airline alliance named in the co.saudia About sentence (swh5About). Company fact, not a hiring employer.",
+   "map": "the global airline alliance of the co.saudia pick (SkyTeam, Star Alliance or oneworld); if that carrier is in none, swh5About needs a per-market rewrite",
+   "count": 2,
+   "keys": [
+    "swh5About"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.snb": {
+   "cat": "employer",
+   "en": "SNB",
+   "ar": "البنك الأهلي السعودي",
+   "arn": "البنك الأهلي السعودي",
+   "fr": "SNB",
+   "scope": "target",
+   "archetype": "Largest bank by assets. Drives the CV Tailoring sample (Senior Financial Analyst at SNB, Riyadh, 92% match) and a pipeline row (Treasury Analyst, Jeddah). aprCoSnb uses the short Arabic form البنك الأهلي (use {@co.snb|البنك الأهلي}); the full form contains السعودي, which must not be tokenized as ctry.dem.",
+   "map": "the largest bank by assets (pack sector=bank, rank 1), its usual short name or acronym",
+   "count": 34,
+   "keys": [
+    "cvtBaRole",
+    "cvtPrevRowS",
+    "aprCoSnb"
+   ],
+   "sector": "bank",
+   "logo": "sn",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.stc": {
+   "cat": "employer",
+   "en": "stc",
+   "ar": "stc",
+   "arn": "stc",
+   "fr": "stc",
+   "scope": "target",
+   "archetype": "National #1 telecom group (state-linked, listed). Its recruiter viewed the application (hNudge), FP&A Lead / Financial Planning Analyst card swc4, dream-employer list (PIF, Aramco, NEOM, stc), sentCtxFor() fallback.",
+   "map": "telecom #1 in the pack (largest operator by revenue/subscribers, usually the incumbent)",
+   "count": 113,
+   "keys": [
+    "swc4Co",
+    "swc4About",
+    "hNudge",
+    "mlAfterReply",
+    "m3sr",
+    "nt3s",
+    "as3s",
+    "uhF1s"
+   ],
+   "sector": "telecom",
+   "logo": "st",
+   "dom": "stc.com.sa",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.tabby": {
+   "cat": "employer",
+   "en": "Tabby",
+   "ar": "تابي",
+   "arn": "تابي",
+   "fr": "Tabby",
+   "scope": "target",
+   "archetype": "Employer that made the job offer (Finance Manager, fully remote, 33,000 a month): regional BNPL fintech headquartered in the primary city. Separate slot from pay.tabby (the BNPL payment method in checkout/plan copy). v5 Arabic writes this employer as Latin 'Tabby' in m2s, mlAfterAccept, msaKnowList, msaMemItems (use {@co.tabby|Tabby}) and as تابي in swc8Co, swc8About, m2sr.",
+   "map": "the market's best-known fintech scale-up (pack sector=fintech) that plausibly hires remote FP&A; independent of the residence BNPL brand; must differ from co.rewaa",
+   "count": 215,
+   "keys": [
+    "swc8Co",
+    "swc8About",
+    "m2s",
+    "m2sr",
+    "mlAfterAccept",
+    "msaKnowList",
+    "msaMemItems"
+   ],
+   "sector": "fintech",
+   "logo": "tb",
+   "dom": "tabby.ai",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.tadawul": {
+   "cat": "employer",
+   "en": "Tadawul",
+   "ar": "تداول",
+   "arn": "تداول",
+   "fr": "Tadawul",
+   "scope": "target",
+   "archetype": "National stock exchange, as used in 'listed on Tadawul' / مدرجة في تداول inside 7 employer About sentences. Arabic تداول is also 'trading': tokenize only after مدرج/مدرجة في.",
+   "map": "the national stock exchange's short name as used in 'listed on X' (e.g. ADX or DFM, QSE, Boursa Kuwait, LSE, NYSE/Nasdaq, Euronext Paris, Bourse de Casablanca, EGX); must be where the mapped employers are actually listed",
+   "count": 14,
+   "keys": [
+    "swc4About",
+    "swc9About",
+    "swc10About",
+    "swh1About",
+    "swh2About",
+    "swh4About",
+    "swh7About"
+   ],
+   "sector": "exchange",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "co.tawuniya": {
+   "cat": "employer",
+   "en": "Tawuniya",
+   "ar": "التعاونية",
+   "arn": "التعاونية",
+   "fr": "Tawuniya",
+   "scope": "target",
+   "archetype": "Large listed multi-line insurer (health, motor, property). Swipe-history card swh4, suggested-employer list.",
+   "map": "a large multi-line insurer (pack sector=insurance), different from the co.bupa pick",
+   "count": 10,
+   "keys": [
+    "swh4Co",
+    "swh4About"
+   ],
+   "sector": "insurance",
+   "logo": "tw",
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.asma": {
+   "cat": "person_contact",
+   "en": "Asma Kurdi",
+   "ar": "أسماء كردي",
+   "arn": "أسماء كردي",
+   "fr": "Asma Kurdi",
+   "scope": "target",
+   "archetype": "female recruiter, full name in a mail signature; Recruitment at Bupa Arabia (m11); AR title in m*sr is feminine",
+   "map": "a female recruiter's full name typical locally (first + family name; pack.people, gender f)",
+   "count": 2,
+   "keys": [
+    "m11sn"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.danah": {
+   "cat": "person_contact",
+   "en": "Danah Al-Sulaiman",
+   "ar": "دانة السليمان",
+   "arn": "دانة السليمان",
+   "fr": "Danah Al-Sulaiman",
+   "scope": "target",
+   "archetype": "female recruiter, full name in a mail signature; Talent Acquisition at Rewaa (m1); AR title in m*sr is feminine",
+   "map": "a female recruiter's full name typical locally (first + family name; pack.people, gender f)",
+   "count": 2,
+   "keys": [
+    "m1sn"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.ghadah": {
+   "cat": "person_contact",
+   "en": "Ghadah Al-Faraj",
+   "ar": "غادة الفرج",
+   "arn": "غادة الفرج",
+   "fr": "Ghadah Al-Faraj",
+   "scope": "target",
+   "archetype": "female recruiter, full name in a mail signature; Talent Acquisition at stc (m3); AR title in m*sr is feminine",
+   "map": "a female recruiter's full name typical locally (first + family name; pack.people, gender f)",
+   "count": 2,
+   "keys": [
+    "m3sn"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.meshal": {
+   "cat": "person_contact",
+   "en": "Meshal Al-Mutlaq",
+   "ar": "مشعل المطلق",
+   "arn": "مشعل المطلق",
+   "fr": "Meshal Al-Mutlaq",
+   "scope": "target",
+   "archetype": "male recruiter, full name in a mail signature; Recruitment at Almarai (m4); AR title in m*sr is masculine",
+   "map": "a male recruiter's full name typical locally (first + family name; pack.people, gender m)",
+   "count": 2,
+   "keys": [
+    "m4sn"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rawan": {
+   "cat": "person_contact",
+   "en": "Rawan Al-Juhani",
+   "ar": "روان الجهني",
+   "arn": "روان الجهني",
+   "fr": "Rawan Al-Juhani",
+   "scope": "target",
+   "archetype": "female recruiter, full name in a mail signature; Talent Acquisition at NEOM (m9); AR title in m*sr is feminine",
+   "map": "a female recruiter's full name typical locally (first + family name; pack.people, gender f)",
+   "count": 2,
+   "keys": [
+    "m9sn"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.ref": {
+   "cat": "person_contact",
+   "en": "Sara",
+   "ar": "سارة",
+   "arn": "سارة",
+   "fr": "Sara",
+   "scope": "target",
+   "archetype": "female friend the persona referred, who just subscribed (\"Sara joined, 10% off\"; AR verb اشتركت is feminine)",
+   "map": "a common female first name typical locally (not one of the advisors)",
+   "count": 4,
+   "keys": [
+    "rfRewardFreeT",
+    "rfReward"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.abdullah": {
+   "cat": "person_contact",
+   "en": "Abdullah",
+   "ar": "عبدالله",
+   "arn": "عبدالله",
+   "fr": "Abdullah",
+   "scope": "target",
+   "archetype": "male client who left a review on Layla's advisor profile; shown as \"Abdullah, <job title>\" (AR title agrees: masculine)",
+   "map": "a male first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apRn2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.amal": {
+   "cat": "person_contact",
+   "en": "Amal",
+   "ar": "أمل",
+   "arn": "أمل",
+   "fr": "Amal",
+   "scope": "target",
+   "archetype": "female client who left a review on Huda's advisor profile; shown as \"Amal, <job title>\" (AR title agrees: feminine)",
+   "map": "a female first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apHuRn1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.bader": {
+   "cat": "person_contact",
+   "en": "Bader",
+   "ar": "بدر",
+   "arn": "بدر",
+   "fr": "Bader",
+   "scope": "target",
+   "archetype": "male client who left a review on Faisal's advisor profile; shown as \"Bader, <job title>\" (AR title agrees: masculine)",
+   "map": "a male first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apFaRn2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.dana": {
+   "cat": "person_contact",
+   "en": "Dana",
+   "ar": "دانة",
+   "arn": "دانة",
+   "fr": "Dana",
+   "scope": "target",
+   "archetype": "female client who left a review on Omar's advisor profile; shown as \"Dana, <job title>\" (AR title agrees: feminine)",
+   "map": "a female first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apOmRn2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.ghada": {
+   "cat": "person_contact",
+   "en": "Ghada",
+   "ar": "غادة",
+   "arn": "غادة",
+   "fr": "Ghada",
+   "scope": "target",
+   "archetype": "female client who left a review on Faisal's advisor profile; shown as \"Ghada, <job title>\" (AR title agrees: feminine)",
+   "map": "a female first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apFaRn1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.lama": {
+   "cat": "person_contact",
+   "en": "Lama",
+   "ar": "لمى",
+   "arn": "لمى",
+   "fr": "Lama",
+   "scope": "target",
+   "archetype": "female client who left a review on Khalid's advisor profile; shown as \"Lama, <job title>\" (AR title agrees: feminine)",
+   "map": "a female first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apKhRn2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.lubna": {
+   "cat": "person_contact",
+   "en": "Lubna",
+   "ar": "لبنى",
+   "arn": "لبنى",
+   "fr": "Lubna",
+   "scope": "target",
+   "archetype": "female client who left a review on Nadia's advisor profile; shown as \"Lubna, <job title>\" (AR title agrees: feminine)",
+   "map": "a female first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apNdRn2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.majed": {
+   "cat": "person_contact",
+   "en": "Majed",
+   "ar": "ماجد",
+   "arn": "ماجد",
+   "fr": "Majed",
+   "scope": "target",
+   "archetype": "male client who left a review on Nadia's advisor profile; shown as \"Majed, <job title>\" (AR title agrees: masculine)",
+   "map": "a male first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apNdRn1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.mishal": {
+   "cat": "person_contact",
+   "en": "Mishal",
+   "ar": "مشعل",
+   "arn": "مشعل",
+   "fr": "Mishal",
+   "scope": "target",
+   "archetype": "male client who left a review on Omar's advisor profile; shown as \"Mishal, <job title>\" (AR title agrees: masculine)",
+   "map": "a male first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apOmRn1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.noor": {
+   "cat": "person_contact",
+   "en": "Noor",
+   "ar": "نور",
+   "arn": "نور",
+   "fr": "Noor",
+   "scope": "target",
+   "archetype": "female client who left a review on Sara's advisor profile; shown as \"Noor, <job title>\" (AR title agrees: feminine)",
+   "map": "a female first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apSaRn1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.reem": {
+   "cat": "person_contact",
+   "en": "Reem",
+   "ar": "ريم",
+   "arn": "ريم",
+   "fr": "Reem",
+   "scope": "target",
+   "archetype": "female client who left a review on Layla's advisor profile; shown as \"Reem, <job title>\" (AR title agrees: feminine)",
+   "map": "a female first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apRn1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.salem": {
+   "cat": "person_contact",
+   "en": "Salem",
+   "ar": "سالم",
+   "arn": "سالم",
+   "fr": "Salem",
+   "scope": "target",
+   "archetype": "male client who left a review on Sara's advisor profile; shown as \"Salem, <job title>\" (AR title agrees: masculine)",
+   "map": "a male first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apSaRn2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.turki": {
+   "cat": "person_contact",
+   "en": "Turki",
+   "ar": "تركي",
+   "arn": "تركي",
+   "fr": "Turki",
+   "scope": "target",
+   "archetype": "male client who left a review on Khalid's advisor profile; shown as \"Turki, <job title>\" (AR title agrees: masculine)",
+   "map": "a male first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apKhRn1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.rv.yousef": {
+   "cat": "person_contact",
+   "en": "Yousef",
+   "ar": "يوسف",
+   "arn": "يوسف",
+   "fr": "Yousef",
+   "scope": "target",
+   "archetype": "male client who left a review on Huda's advisor profile; shown as \"Yousef, <job title>\" (AR title agrees: masculine)",
+   "map": "a male first name typical locally (different from the other reviewers and advisors)",
+   "count": 2,
+   "keys": [
+    "apHuRn2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.saad": {
+   "cat": "person_contact",
+   "en": "Saad Al-Hamdan",
+   "ar": "سعد الحمدان",
+   "arn": "سعد الحمدان",
+   "fr": "Saad Al-Hamdan",
+   "scope": "target",
+   "archetype": "male recruiter, full name in a mail signature; Recruitment at Al Rajhi Bank (m8); AR title in m*sr is masculine",
+   "map": "a male recruiter's full name typical locally (first + family name; pack.people, gender m)",
+   "count": 2,
+   "keys": [
+    "m8sn"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "ppl.yazeed": {
+   "cat": "person_contact",
+   "en": "Yazeed Al-Bassam",
+   "ar": "يزيد البسام",
+   "arn": "يزيد البسام",
+   "fr": "Yazeed Al-Bassam",
+   "scope": "target",
+   "archetype": "male recruiter, full name in a mail signature; Head of People at Tabby (m2); AR title in m*sr is masculine",
+   "map": "a male recruiter's full name typical locally (first + family name; pack.people, gender m)",
+   "count": 2,
+   "keys": [
+    "m2sn"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "adv.faisal": {
+   "cat": "person_advisor",
+   "en": "Faisal",
+   "ar": "فيصل",
+   "arn": "فيصل",
+   "fr": "Faisal",
+   "scope": "target",
+   "archetype": "Uptal advisor first name (male government and giga-project hiring, ex-PIF); AR copy around it is masculine",
+   "map": "a male first name typical locally for a public-sector talent leader (gender fixed by the copy); must match adv.faisal.full and adv.faisal.ini",
+   "count": 2,
+   "keys": [
+    "apNmFaisal"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "adv.faisal.full": {
+   "cat": "person_advisor",
+   "en": "Faisal Al-Harbi",
+   "ar": "فيصل الحربي",
+   "arn": "فيصل الحربي",
+   "fr": "Faisal Al-Harbi",
+   "scope": "target",
+   "archetype": "Uptal advisor full name (male government and giga-project hiring, ex-PIF)",
+   "map": "the same advisor's full name typical locally (first = adv.faisal; keep a Dr. title only where the market uses it on professional profiles)",
+   "count": 1,
+   "keys": [
+    "stray:advisorsList",
+    "js:ADV.faisal.name",
+    "js:BKARN"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "js"
+   }
+  },
+  "adv.faisal.ini": {
+   "cat": "person_advisor",
+   "en": "FH",
+   "ar": "FH",
+   "arn": "FH",
+   "fr": "FH",
+   "scope": "target",
+   "archetype": "avatar initials of the advisor (Latin letters in both languages)",
+   "map": "initials of adv.faisal.full: first-name initial + family-name initial, skipping particles such as Al-/El-/de/van (v5 exception: LA for Layla Al-Otaibi)",
+   "count": 1,
+   "keys": [
+    "stray:advisorsList",
+    "js:ADV.faisal.ini"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "stray"
+   }
+  },
+  "adv.huda": {
+   "cat": "person_advisor",
+   "en": "Huda",
+   "ar": "هدى",
+   "arn": "هدى",
+   "fr": "Huda",
+   "scope": "target",
+   "archetype": "Uptal advisor first name (female HR and career consultant, SHRM-SCP); AR copy around it is feminine",
+   "map": "a female first name typical locally for a HR consultant (gender fixed by the copy); must match adv.huda.full and adv.huda.ini",
+   "count": 2,
+   "keys": [
+    "apNmHuda"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "adv.huda.full": {
+   "cat": "person_advisor",
+   "en": "Huda Al-Ghamdi",
+   "ar": "هدى الغامدي",
+   "arn": "هدى الغامدي",
+   "fr": "Huda Al-Ghamdi",
+   "scope": "target",
+   "archetype": "Uptal advisor full name (female HR and career consultant, SHRM-SCP)",
+   "map": "the same advisor's full name typical locally (first = adv.huda; keep a Dr. title only where the market uses it on professional profiles)",
+   "count": 1,
+   "keys": [
+    "stray:advisorsList",
+    "js:ADV.huda.name",
+    "js:BKARN"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "js"
+   }
+  },
+  "adv.huda.ini": {
+   "cat": "person_advisor",
+   "en": "HG",
+   "ar": "HG",
+   "arn": "HG",
+   "fr": "HG",
+   "scope": "target",
+   "archetype": "avatar initials of the advisor (Latin letters in both languages)",
+   "map": "initials of adv.huda.full: first-name initial + family-name initial, skipping particles such as Al-/El-/de/van (v5 exception: LA for Layla Al-Otaibi)",
+   "count": 1,
+   "keys": [
+    "stray:advisorsList",
+    "js:ADV.huda.ini"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "stray"
+   }
+  },
+  "adv.khalid": {
+   "cat": "person_advisor",
+   "en": "Khalid",
+   "ar": "خالد",
+   "arn": "خالد",
+   "fr": "Khalid",
+   "scope": "target",
+   "archetype": "Uptal advisor first name (male finance career strategist, ex-CFO); AR copy around it is masculine",
+   "map": "a male first name typical locally for a senior ex-CFO mentor (gender fixed by the copy); must match adv.khalid.full and adv.khalid.ini",
+   "count": 2,
+   "keys": [
+    "apNmKhalid"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "adv.khalid.full": {
+   "cat": "person_advisor",
+   "en": "Khalid Al-Dossary",
+   "ar": "خالد الدوسري",
+   "arn": "خالد الدوسري",
+   "fr": "Khalid Al-Dossary",
+   "scope": "target",
+   "archetype": "Uptal advisor full name (male finance career strategist, ex-CFO)",
+   "map": "the same advisor's full name typical locally (first = adv.khalid; keep a Dr. title only where the market uses it on professional profiles)",
+   "count": 3,
+   "keys": [
+    "stray:advisorsList",
+    "stray:executive",
+    "stray:None",
+    "js:ADV.khalid.name",
+    "js:BKARN"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "js"
+   }
+  },
+  "adv.khalid.ini": {
+   "cat": "person_advisor",
+   "en": "KD",
+   "ar": "KD",
+   "arn": "KD",
+   "fr": "KD",
+   "scope": "target",
+   "archetype": "avatar initials of the advisor (Latin letters in both languages)",
+   "map": "initials of adv.khalid.full: first-name initial + family-name initial, skipping particles such as Al-/El-/de/van (v5 exception: LA for Layla Al-Otaibi)",
+   "count": 2,
+   "keys": [
+    "stray:advisorsList",
+    "stray:executive",
+    "js:ADV.khalid.ini"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "stray"
+   }
+  },
+  "adv.layla": {
+   "cat": "person_advisor",
+   "en": "Layla",
+   "ar": "ليلى",
+   "arn": "ليلى",
+   "fr": "Layla",
+   "scope": "target",
+   "archetype": "Uptal advisor first name (female interview coach, ex-HR Director (the demo booking advisor)); AR copy around it is feminine",
+   "map": "a female first name typical locally for a interview coach (gender fixed by the copy); must match adv.layla.full and adv.layla.ini",
+   "count": 34,
+   "keys": [
+    "epReviews",
+    "apRevH",
+    "apMsg",
+    "apNmLayla",
+    "sdBig",
+    "sdSharedH",
+    "sdShTglS",
+    "sdP1s"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "adv.layla.full": {
+   "cat": "person_advisor",
+   "en": "Layla Al-Otaibi",
+   "ar": "ليلى العتيبي",
+   "arn": "ليلى العتيبي",
+   "fr": "Layla Al-Otaibi",
+   "scope": "target",
+   "archetype": "Uptal advisor full name (female interview coach, ex-HR Director (the demo booking advisor))",
+   "map": "the same advisor's full name typical locally (first = adv.layla; keep a Dr. title only where the market uses it on professional profiles)",
+   "count": 22,
+   "keys": [
+    "uhBooked",
+    "ssUp1",
+    "ssPast1",
+    "rcSeller",
+    "clWho",
+    "rpSub",
+    "stray:advisors",
+    "stray:advisorsList"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "adv.layla.ini": {
+   "cat": "person_advisor",
+   "en": "LA",
+   "ar": "LA",
+   "arn": "LA",
+   "fr": "LA",
+   "scope": "target",
+   "archetype": "avatar initials of the advisor (Latin letters in both languages)",
+   "map": "initials of adv.layla.full: first-name initial + family-name initial, skipping particles such as Al-/El-/de/van (v5 exception: LA for Layla Al-Otaibi)",
+   "count": 9,
+   "keys": [
+    "stray:advisors",
+    "stray:advisorsList",
+    "stray:advisor",
+    "stray:chat",
+    "stray:bookType",
+    "stray:sessions",
+    "stray:call",
+    "js:ADV.layla.ini"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "stray"
+   }
+  },
+  "adv.nadia": {
+   "cat": "person_advisor",
+   "en": "Nadia",
+   "ar": "نادية",
+   "arn": "نادية",
+   "fr": "Nadia",
+   "scope": "target",
+   "archetype": "Uptal advisor first name (female executive coach, board advisor, ex-strategy partner (has the Dr. title)); AR copy around it is feminine",
+   "map": "a female first name typical locally for a executive coach (gender fixed by the copy); must match adv.nadia.full and adv.nadia.ini",
+   "count": 4,
+   "keys": [
+    "apNmNadia",
+    "apNdR1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "adv.nadia.full": {
+   "cat": "person_advisor",
+   "en": "Dr. Nadia Al-Rashid",
+   "ar": "Dr. Nadia Al-Rashid",
+   "arn": "د. نادية الراشد",
+   "fr": "Dr Nadia Al-Rashid",
+   "scope": "target",
+   "archetype": "advisor Dr. Nadia Al-Rashid, executive coach (female). v5 AR shows the Latin name: BKARN has no Nadia entry and ADV.nadia.name / the stray HTML are Latin, so ar keeps the v5 literal; arn carries the Arabic spelling for v6.",
+   "map": "the same advisor's full name typical locally (first = adv.nadia; keep a Dr. title only where the market uses it on professional profiles)",
+   "count": 3,
+   "keys": [
+    "stray:advisorsList",
+    "stray:executive",
+    "stray:None",
+    "js:ADV.nadia.name"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "stray"
+   }
+  },
+  "adv.nadia.ini": {
+   "cat": "person_advisor",
+   "en": "NR",
+   "ar": "NR",
+   "arn": "NR",
+   "fr": "NR",
+   "scope": "target",
+   "archetype": "avatar initials of the advisor (Latin letters in both languages)",
+   "map": "initials of adv.nadia.full: first-name initial + family-name initial, skipping particles such as Al-/El-/de/van (v5 exception: LA for Layla Al-Otaibi)",
+   "count": 2,
+   "keys": [
+    "stray:advisorsList",
+    "stray:executive",
+    "js:ADV.nadia.ini"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "stray"
+   }
+  },
+  "adv.omar": {
+   "cat": "person_advisor",
+   "en": "Omar",
+   "ar": "عمر",
+   "arn": "عمر",
+   "fr": "Omar",
+   "scope": "target",
+   "archetype": "Uptal advisor first name (male offer negotiation specialist); AR copy around it is masculine",
+   "map": "a male first name typical locally for a negotiation specialist (gender fixed by the copy); must match adv.omar.full and adv.omar.ini",
+   "count": 2,
+   "keys": [
+    "apNmOmar"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "adv.omar.full": {
+   "cat": "person_advisor",
+   "en": "Omar Nasser",
+   "ar": "عمر ناصر",
+   "arn": "عمر ناصر",
+   "fr": "Omar Nasser",
+   "scope": "target",
+   "archetype": "Uptal advisor full name (male offer negotiation specialist)",
+   "map": "the same advisor's full name typical locally (first = adv.omar; keep a Dr. title only where the market uses it on professional profiles)",
+   "count": 1,
+   "keys": [
+    "stray:advisorsList",
+    "js:ADV.omar.name",
+    "js:BKARN"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "js"
+   }
+  },
+  "adv.omar.ini": {
+   "cat": "person_advisor",
+   "en": "ON",
+   "ar": "ON",
+   "arn": "ON",
+   "fr": "ON",
+   "scope": "target",
+   "archetype": "avatar initials of the advisor (Latin letters in both languages)",
+   "map": "initials of adv.omar.full: first-name initial + family-name initial, skipping particles such as Al-/El-/de/van (v5 exception: LA for Layla Al-Otaibi)",
+   "count": 1,
+   "keys": [
+    "stray:advisorsList",
+    "js:ADV.omar.ini"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "stray"
+   }
+  },
+  "adv.sara": {
+   "cat": "person_advisor",
+   "en": "Sara",
+   "ar": "سارة",
+   "arn": "سارة",
+   "fr": "Sara",
+   "scope": "target",
+   "archetype": "Uptal advisor first name (female CV and LinkedIn reviewer, senior recruiter); AR copy around it is feminine",
+   "map": "a female first name typical locally for a senior recruiter (gender fixed by the copy); must match adv.sara.full and adv.sara.ini",
+   "count": 2,
+   "keys": [
+    "apNmSara"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "adv.sara.full": {
+   "cat": "person_advisor",
+   "en": "Sara Kanaan",
+   "ar": "سارة كنعان",
+   "arn": "سارة كنعان",
+   "fr": "Sara Kanaan",
+   "scope": "target",
+   "archetype": "Uptal advisor full name (female CV and LinkedIn reviewer, senior recruiter)",
+   "map": "the same advisor's full name typical locally (first = adv.sara; keep a Dr. title only where the market uses it on professional profiles)",
+   "count": 5,
+   "keys": [
+    "ssPast2",
+    "rcSellerSara",
+    "stray:advisorsList",
+    "js:ADV.sara.name",
+    "js:BKARN"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "adv.sara.ini": {
+   "cat": "person_advisor",
+   "en": "SK",
+   "ar": "SK",
+   "arn": "SK",
+   "fr": "SK",
+   "scope": "target",
+   "archetype": "avatar initials of the advisor (Latin letters in both languages)",
+   "map": "initials of adv.sara.full: first-name initial + family-name initial, skipping particles such as Al-/El-/de/van (v5 exception: LA for Layla Al-Otaibi)",
+   "count": 2,
+   "keys": [
+    "stray:advisorsList",
+    "stray:sessions",
+    "js:ADV.sara.ini"
+   ],
+   "src": {
+    "en": "stray",
+    "ar": "stray"
+   }
+  },
+  "cert.acca": {
+   "cat": "certification",
+   "en": "ACCA",
+   "ar": "ACCA",
+   "arn": "ACCA",
+   "fr": "ACCA",
+   "scope": "target",
+   "archetype": "UK-based international chartered-accountant qualification, listed as an alternative",
+   "map": "keep 'ACCA'; if ACCA is the market's own body (cert.socpa = ACCA) use 'CPA' or 'CIMA' instead so the list has no duplicate",
+   "count": 4,
+   "keys": [
+    "swc3Q2",
+    "swh3Q2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "cert.cfa": {
+   "cat": "certification",
+   "en": "CFA",
+   "ar": "CFA",
+   "arn": "CFA",
+   "fr": "CFA",
+   "scope": "target",
+   "archetype": "global investment/finance charter (CFA Institute)",
+   "map": "keep CFA (global)",
+   "count": 14,
+   "keys": [
+    "swc4Q3",
+    "swc4O3",
+    "swc6Q3",
+    "swc7Q3",
+    "swc8Q3",
+    "swc2Q4",
+    "swh1Q3"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "cert.cma": {
+   "cat": "certification",
+   "en": "CMA",
+   "ar": "CMA",
+   "arn": "CMA",
+   "fr": "CMA",
+   "scope": "target",
+   "archetype": "management-accounting certification most requested for FP&A roles (US IMA CMA)",
+   "map": "the management-accounting cert employers ask for locally: 'CMA' in GCC, US, CA, EG, Levant; 'CIMA' in GB, IE, AU and most of Europe/North Africa (FR may use 'DSCG' instead)",
+   "count": 32,
+   "keys": [
+    "swc4Q3",
+    "swc4O3",
+    "swc5Q4",
+    "swc6Q3",
+    "swc7Q3",
+    "swc8Q3",
+    "swc9Q3",
+    "swc10Q3"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "cert.cpa": {
+   "cat": "certification",
+   "en": "CPA",
+   "ar": "CPA",
+   "arn": "CPA",
+   "fr": "CPA",
+   "scope": "target",
+   "archetype": "international audit/accounting qualification listed as an alternative to cert.socpa (\"SOCPA, CPA, or ACCA\")",
+   "map": "an internationally recognised accounting qualification different from cert.socpa and cert.acca in that market: 'CPA' (US CPA) by default; if cert.socpa is already CPA (US/CA) use 'CA'; GB/IE use 'CIMA' only if cert.cma is not CIMA, else 'CPA'",
+   "count": 6,
+   "keys": [
+    "swc3Q2",
+    "swh3Q2",
+    "swh4Q4"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "cert.shrm": {
+   "cat": "certification",
+   "en": "SHRM-SCP",
+   "ar": "SHRM-SCP",
+   "arn": "SHRM-SCP",
+   "fr": "SHRM-SCP",
+   "scope": "target",
+   "archetype": "senior HR certification held by advisor Huda",
+   "map": "the senior HR credential recognised locally: 'SHRM-SCP' (GCC, US, CA, Levant, EG); 'CIPD Level 7' (GB, IE); 'AHRI CAHRI' (AU); EU: 'SHRM-SCP' unless a local one is standard",
+   "count": 6,
+   "keys": [
+    "gwSpec3",
+    "alSpec3",
+    "apHuBio"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "cert.socpa": {
+   "cat": "certification",
+   "en": "SOCPA",
+   "ar": "SOCPA",
+   "arn": "SOCPA",
+   "fr": "SOCPA",
+   "scope": "target",
+   "archetype": "the local professional accountancy body / licence that employers list first ('SOCPA certificate', 'SOCPA membership')",
+   "map": "the market's own accountancy qualification acronym (AE/QA/KW/BH/OM have no strong local licence: use 'ACCA' and then set cert.acca to 'CA'; GB 'ACA (ICAEW)'; IE 'Chartered Accountants Ireland (ACA)'; US 'CPA'; CA 'CPA'; AU 'CA ANZ'; FR 'DEC'; DE 'WP'; NL 'RA'; EG 'ESAA'; MA 'OEC'; JO 'JCPA')",
+   "count": 44,
+   "keys": [
+    "mlDoc1",
+    "swc4Q3",
+    "swc5Q4",
+    "swc6Q3",
+    "swc7Q3",
+    "swc8Q3",
+    "swc9Q3",
+    "swc10Q3"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "cert.socpa.l": {
+   "cat": "certification",
+   "en": "SOCPA",
+   "ar": "الهيئة السعودية للمراجعين والمحاسبين (SOCPA)",
+   "arn": "الهيئة السعودية للمراجعين والمحاسبين (SOCPA)",
+   "fr": "Organisation saoudienne des comptables agréés et professionnels (SOCPA)",
+   "scope": "target",
+   "archetype": "long AR form of the local accounting body with the acronym in brackets (mq1b2, qaQ1b AR 'الهيئة السعودية للمراجعين والمحاسبين (SOCPA)'). v5 EN uses only the acronym there, so en = 'SOCPA'; EN tokenizers use {@cert.socpa}.",
+   "map": "the full body name followed by the acronym in brackets (AR 'معهد المحاسبين القانونيين في إنجلترا وويلز (ICAEW)', 'جمعية المحاسبين والمراجعين المصرية (ESAA)')",
+   "count": 2,
+   "keys": [
+    "mq1b2",
+    "qaQ1b"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "gov.gosi": {
+   "cat": "gov_platform",
+   "en": "GOSI",
+   "ar": "التأمينات الاجتماعية",
+   "arn": "التأمينات الاجتماعية",
+   "fr": "GOSI",
+   "scope": "target",
+   "archetype": "national social-insurance body whose contributory wage ('GOSI base') employers quote; JS only (MSAQ act2 Musaed answer)",
+   "map": "the national social-insurance / pension contribution scheme (AE 'GPSSA' for nationals, else omit; GB 'National Insurance', US 'Social Security', FR 'la Sécurité sociale', DE 'Sozialversicherung', EG 'التأمينات الاجتماعية', JO 'الضمان الاجتماعي')",
+   "count": 2,
+   "keys": [
+    "js:MSAQ act2"
+   ],
+   "src": {
+    "en": "js",
+    "ar": "js"
+   }
+  },
+  "gov.iddoc": {
+   "cat": "legal_regulatory",
+   "en": "National ID or Iqama",
+   "ar": "الهوية الوطنية أو الإقامة",
+   "arn": "بطاقة الهوية الوطنية أو الإقامة",
+   "fr": "carte d'identité nationale ou iqama",
+   "scope": "target",
+   "archetype": "Identity documents an employer's compliance team asks a new hire for: mlDoc2 attachment chip, m4b2 'a copy of your National ID or Iqama' (AR صورة من الهوية الوطنية أو الإقامة).",
+   "map": "citizen ID card or the expat residence permit as named in the target market: 'Emirates ID' (AE), 'QID' (QA), 'Civil ID' (KW), 'CPR card' (BH), 'resident card' (OM), 'passport or share code' (GB), 'passport or driver's licence' (US), 'ID card or residence permit' (EU), 'national ID or residence permit' (EG, JO, MA, TN, DZ)",
+   "count": 4,
+   "keys": [
+    "mlDoc2",
+    "m4b2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "gov.iqama": {
+   "cat": "gov_platform",
+   "en": "Iqama",
+   "ar": "إقامة",
+   "arn": "إقامة",
+   "fr": "iqama",
+   "scope": "target",
+   "archetype": "the foreign worker's residence permit (work-rights options and offer documents); AR base form, v5 also writes الإقامة",
+   "map": "the residence/work permit name for expats (AE 'residence visa'/'إقامة', QA 'QID', KW 'Civil ID', BH 'CPR', OM 'resident card', GB 'BRP/eVisa', US 'work visa (H-1B) / green card', EU 'residence permit'/'titre de séjour')",
+   "count": 12,
+   "keys": [
+    "pfVisa",
+    "pfVisaTrans",
+    "pfVisaNon",
+    "mlDoc2",
+    "m4b2",
+    "qaBO3b"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "gov.natid": {
+   "cat": "gov_platform",
+   "en": "National ID",
+   "ar": "الهوية الوطنية",
+   "arn": "بطاقة الهوية الوطنية",
+   "fr": "carte d'identité nationale",
+   "scope": "target",
+   "archetype": "the national identity card a target-market employer asks for at offer stage ('a copy of your National ID') [merged misc.natid (C): The ID the persona sends: mrd4 'my SOCPA certificate and a copy of my National ID' (AR صورة من الهوية الوطنية), MSAQ act4 / do5 'upload your SOCPA certificate and National ID'.]",
+   "map": "the citizen ID document local employers request (AE 'Emirates ID', QA 'QID', KW 'Civil ID', BH/OM 'ID card', GB 'passport', US 'driver's license or passport', FR 'carte d'identité', EG 'الرقم القومي'/'بطاقة الرقم القومي')",
+   "count": 8,
+   "keys": [
+    "mlDoc2",
+    "m4b2",
+    "mrd4",
+    "MSAQ act4",
+    "MSAQ do5"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "gov.sama": {
+   "cat": "gov_platform",
+   "en": "SAMA",
+   "ar": "ساما",
+   "arn": "ساما",
+   "fr": "SAMA",
+   "scope": "target",
+   "archetype": "central bank and banking supervisor, short name ('SAMA-regulated institution', 'SAMA experience', 'SAMA reporting' keyword chip)",
+   "map": "the national banking supervisor's short name as finance job ads say it (AE 'CBUAE', QA 'QCB', KW 'CBK', BH 'CBB', OM 'CBO', GB 'PRA', US 'the Fed', CA 'OSFI', DE 'BaFin', FR 'ACPR', NL 'DNB', AU 'APRA', EG 'CBE', MA 'Bank Al-Maghrib', JO 'CBJ')",
+   "count": 5,
+   "keys": [
+    "qaLogS",
+    "qaQ2b",
+    "qaW2b",
+    "js:KW chips L13622"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "gov.sama.l": {
+   "cat": "gov_platform",
+   "en": "SAMA",
+   "ar": "البنك المركزي السعودي (ساما)",
+   "arn": "البنك المركزي السعودي (ساما)",
+   "fr": "Banque centrale saoudienne (SAMA)",
+   "scope": "target",
+   "archetype": "long AR form of the banking supervisor with the short name in brackets (qaQ2b AR 'البنك المركزي السعودي (ساما)'). v5 EN uses only 'SAMA' there, so en = 'SAMA'; EN tokenizers use {@gov.sama}.",
+   "map": "the supervisor's full name with acronym (AR 'مصرف الإمارات العربية المتحدة المركزي (CBUAE)', 'هيئة التنظيم الاحترازي (PRA)', 'البنك المركزي المصري')",
+   "count": 1,
+   "keys": [
+    "qaQ2b"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "gov.taxfile": {
+   "cat": "legal_regulatory",
+   "en": "ZATCA zakat and VAT filings",
+   "ar": "إقرارات الزكاة وضريبة القيمة المضافة لدى هيئة الزكاة والضريبة والجمارك",
+   "arn": "إقرارات الزكاة وضريبة القيمة المضافة لدى هيئة الزكاة والضريبة والجمارك",
+   "fr": "les déclarations de zakat et de TVA auprès de la ZATCA",
+   "scope": "target",
+   "archetype": "corporate tax filings a group finance lead owns, named with the tax authority: swh3R3 'Manage the external audit, internal controls, and ZATCA zakat and VAT filings' / AR 'إقرارات الزكاة وضريبة القيمة المضافة لدى هيئة الزكاة والضريبة والجمارك' (also JOBS[] inline). Whole phrase is one slot because word order and the authority's article differ by language and market. TARGET scope (describes the job's market, unlike tax.* which is residence). [absorbs gov.taxes 'zakat and VAT' and gov.zatca 'ZATCA', which occurred only here]",
+   "map": "the corporate tax filings of the target market with the tax authority's short name: 'FTA corporate tax and VAT returns' (AE), 'HMRC corporation tax and VAT returns' (GB), 'IRS and state tax filings' (US), 'Finanzamt corporate tax and VAT returns' (DE), 'ETA corporate tax and VAT returns' (EG); zakat only in SA",
+   "count": 2,
+   "keys": [
+    "swh3R3"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "prog.local": {
+   "cat": "nationalisation",
+   "en": "localization",
+   "ar": "التوطين",
+   "arn": "التوطين",
+   "fr": "localisation",
+   "scope": "target",
+   "archetype": "workforce / industrial localisation initiatives at a manufacturing employer (swh6R3 'cost reduction and localization initiatives'); AR keeps ال (و + التوطين)",
+   "map": "GCC: the local localisation term (AE 'Emiratisation'/'التوطين', QA 'Qatarization'/'التقطير', KW 'Kuwaitization'/'التكويت', BH 'Bahrainization'/'البحرنة', OM 'Omanization'/'التعمين'); markets without one: 'local sourcing' / 'الشراء المحلي' / 'approvisionnement local'",
+   "count": 2,
+   "keys": [
+    "swh6R3"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.applepay": {
+   "cat": "payment",
+   "en": "Apple Pay",
+   "ar": "Apple Pay",
+   "arn": "Apple Pay",
+   "fr": "Apple Pay",
+   "scope": "residence",
+   "archetype": "Device wallet: the only non-card method for top-ups, sessions and add-ons (pmNote, pyPay, cvtPrS 'card or Apple Pay', cvtPayApple, bpPm2, bdToApple 'via Apple Pay.', pmApple, tCkApple 'Apple Pay would open here'). ckApple 'Pay' (button label) stays literal.",
+   "map": "pack pay.wallets[0] display name (Apple Pay; Google Pay where Apple Pay is not offered); where wallets is empty (DZ, IQ, JO, LB, LY, TN) the leading non-card local method from pay.methods (BenefitPay, ZainCash, eFAWATEERcom, Flouci) and the code drops the one-tap wallet button",
+   "count": 30,
+   "keys": [
+    "pmApple",
+    "pmNote",
+    "tCkApple",
+    "pyPay",
+    "bpPm2",
+    "bdToApple",
+    "cvtPrS",
+    "cvtPayApple"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.bnplkyc": {
+   "cat": "payment",
+   "en": "with your mobile number and ID",
+   "ar": "برقم جوالك وهويتك",
+   "arn": "برقم هاتفك المحمول وهويتك",
+   "fr": "avec votre numéro de mobile et votre pièce d'identité",
+   "scope": "residence",
+   "archetype": "What the BNPL app asks to finish: ckBnplNote 'You finish in the {b} app with your mobile number and ID.' and the same checkout HTML note.",
+   "map": "the residence BNPL's sign-up step as a short phrase: Tabby/Tamara 'with your mobile number and ID' (national ID or Iqama / Emirates ID); Klarna / Afterpay 'with your email and mobile number'",
+   "count": 3,
+   "keys": [
+    "ckBnplNote"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.bnpls": {
+   "cat": "payment",
+   "en": "Tabby or Tamara",
+   "ar": "تابي أو تمارا",
+   "arn": "تابي أو تمارا",
+   "fr": "Tabby ou Tamara",
+   "scope": "residence",
+   "archetype": "Both BNPL brands as alternatives: wlSplit4, wlSplit12 'Or pay in 4 with Tabby or Tamara at checkout', ckHint1, tCkBnplOff, checkout HTML ('Split it into 4 payments ... with Tabby or Tamara').",
+   "map": "pack pay.bnpl names joined with 'or' (AR أو, FR ou); a single name when the market has one BNPL",
+   "count": 18,
+   "keys": [
+    "wlSplit4",
+    "wlSplit12",
+    "ckHint1",
+    "tCkBnplOff"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.bnpls.and": {
+   "cat": "payment",
+   "en": "Tabby and Tamara",
+   "ar": "تابي وتمارا",
+   "arn": "تابي وتمارا",
+   "fr": "Tabby et Tamara",
+   "scope": "residence",
+   "archetype": "Both BNPL brands as a subject: pmNote 'Tabby and Tamara pay in 4 cover plan payments only' (AR مع تابي وتمارا), cvtPayNote 'Tabby and Tamara do not cover add-ons' (AR Latin 'Tabby وTamara لا تغطيان': {@pay.bnpls.and|Tabby وTamara}).",
+   "map": "pack pay.bnpl names joined with 'and' (AR و attached, FR et); a single name when there is one BNPL. cvtPayNote AR verb is dual (تغطيان), EN plural (do not): a one-BNPL market needs a v6 variant of cvtPayNote",
+   "count": 4,
+   "keys": [
+    "pmNote",
+    "cvtPayNote"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.cards": {
+   "cat": "payment",
+   "en": "mada, Visa, Mastercard",
+   "ar": "مدى، فيزا، ماستركارد",
+   "arn": "مدى، فيزا، ماستركارد",
+   "fr": "mada, Visa, Mastercard",
+   "scope": "residence",
+   "archetype": "Accepted card brands as a comma list under the Card method at checkout (ckMCardS). Equals pack SA pay.methods[card].sub.",
+   "map": "pack pay.methods[id=card].sub (en/ar/fr)",
+   "count": 4,
+   "keys": [
+    "ckMCardS"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.cards.or": {
+   "cat": "payment",
+   "en": "mada, Visa or Mastercard",
+   "ar": "مدى أو Visa أو Mastercard",
+   "arn": "مدى أو Visa أو Mastercard",
+   "fr": "mada, Visa ou Mastercard",
+   "scope": "residence",
+   "archetype": "The same brands as alternatives in a sentence: card sheets caSub 'mada, Visa or Mastercard.' and bpCsSub. AR keeps Latin Visa/Mastercard here (unlike pay.cards).",
+   "map": "the pay.cards brands joined as '<a>, <b> or <c>' (AR 'أو' between every brand, brand names in Latin as v5 does; FR 'ou')",
+   "count": 10,
+   "keys": [
+    "caSub",
+    "bpCsSub"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.inst": {
+   "cat": "payment",
+   "en": "4",
+   "ar": "4",
+   "arn": "4",
+   "fr": "4",
+   "scope": "residence",
+   "archetype": "Number of BNPL instalments, as a bare number: 'Pay in 4' (ckMSplit, pmBnplH, ckBnplT, ckHint1, tCkBnplOff, wlSplit4/12, pmNote, checkout HTML), 'a new 4-payment plan' ({@pay.inst}-payment in ck2NextB, plnAutoBnpl), 'Your plan is paid in 4' (cvtPayNoCard), AR قسّمها على 4. NEVER the plan term in '4-month plan', 'every 4 months', 'باقة الـ4 أشهر'.",
+   "map": "pack pay.bnpl[0].installments (4 Tabby/Tamara/Afterpay, 3 Klarna Pay in 3); DE Klarna '1' is pay-later, not instalments: hide the pay-in-N strings there",
+   "count": 30,
+   "keys": [
+    "ckMSplit",
+    "pmBnplH",
+    "ckBnplT",
+    "ckHint1",
+    "tCkBnplOff",
+    "ck2NextB",
+    "plnAutoBnpl",
+    "cvtPayNoCard"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.inst.freq": {
+   "cat": "payment",
+   "en": "one a month",
+   "ar": "واحدة كل شهر",
+   "arn": "واحدة كل شهر",
+   "fr": "une par mois",
+   "scope": "residence",
+   "archetype": "BNPL instalment schedule in ck2Bnpl ('..., one a month, 0% interest').",
+   "map": "the residence BNPL schedule: 'one a month' (Tabby, Tamara, Klarna Pay in 3), 'one every 2 weeks' (Afterpay, AU; AR واحدة كل أسبوعين)",
+   "count": 4,
+   "keys": [
+    "ck2Bnpl"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.inst.n": {
+   "cat": "payment",
+   "en": "4 payments",
+   "ar": "4 دفعات",
+   "arn": "4 دفعات",
+   "fr": "4 versements",
+   "scope": "residence",
+   "archetype": "Instalment count with its counted noun: wlSplit4/12 '4 payments of 339 ¤' (AR على 4 دفعات), pmBnplS 'into 4 payments', ckHint1 AR 'التقسيط على 4 دفعات', ck2NextB / plnAutoBnpl AR 'خطة 4 دفعات', cvtPayNoCard AR 'مدفوعة على 4 دفعات'.",
+   "map": "'<pay.inst> payments' with a correct plural (AR 3 دفعات / 4 دفعات; FR 3 versements)",
+   "count": 16,
+   "keys": [
+    "wlSplit4",
+    "wlSplit12",
+    "pmBnplS",
+    "ckHint1",
+    "ck2NextB",
+    "plnAutoBnpl",
+    "cvtPayNoCard",
+    "lensCvtPay"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.inst.rest": {
+   "cat": "payment",
+   "en": "3 payments",
+   "ar": "3 دفعات",
+   "arn": "3 دفعات",
+   "fr": "3 versements",
+   "scope": "residence",
+   "archetype": "The payments after the first one: ck2Bnpl 'Then 3 payments of {inst} ¤, one a month, 0% interest' (AR وبعدها 3 دفعات).",
+   "map": "pay.inst minus 1 with its counted noun: '2 payments' for pay in 3 (AR دفعتين, dual), '3 payments' for pay in 4",
+   "count": 4,
+   "keys": [
+    "ck2Bnpl",
+    "ck2Bnpl inline L13316"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.mada": {
+   "cat": "payment",
+   "en": "mada",
+   "ar": "مدى",
+   "arn": "مدى",
+   "fr": "mada",
+   "scope": "residence",
+   "archetype": "Domestic debit-card scheme, the default saved card: 'mada ending 4421' (plnPayV, bpPm1, sdRcS, rcMeta, rcMetaSara, plan/topup/cards HTML), refunds 'to your mada card' (bdToMada, sdCxPolicy, sdCxDone, tSdCx), 'One tap with the mada or Apple Pay' (pyPay), the brand tile and the unknown-BIN fallback in code (PM L8569, caBrand L8628). AR takes ب (بمدى). Inside the card lists use pay.cards / pay.cards.or, not this id.",
+   "map": "pack pay.localCardBrand display name (KNET, BENEFIT, OmanNet, CB, Bancontact, CIB, e-Dinar); if null, 'Visa' (then pay.visa becomes Mastercard)",
+   "count": 83,
+   "keys": [
+    "plnPayV",
+    "pyPay",
+    "bpPm1",
+    "bdToMada",
+    "sdRcS",
+    "sdCxPolicy",
+    "sdCxDone",
+    "tSdCx"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.tabby": {
+   "cat": "payment",
+   "en": "Tabby",
+   "ar": "تابي",
+   "arn": "تابي",
+   "fr": "Tabby",
+   "scope": "residence",
+   "archetype": "BNPL provider #1 for plan payments (pay in 4): checkout tile and 'Pay in 4 with Tabby', 'Continue with Tabby', 'You finish in the Tabby app...' (checkout HTML), BNPL_NAME map (L11147, L13363), lensCheckout 'nobody wonders where Tabby went'. Separate slot from co.tabby (the employer, registry-A). In sentences that name both BNPLs use pay.bnpls / pay.bnpls.and.",
+   "map": "pack pay.bnpl[0].name (Tabby, Tamara, Afterpay, Klarna); when bnpl is empty the code hides every BNPL tile and string",
+   "count": 24,
+   "keys": [
+    "lensCheckout",
+    "checkout tile L5138",
+    "checkout .bnote",
+    "BNPL_NAME L11147",
+    "BNPL_NAME L13363",
+    "cards .tx b"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.tamara": {
+   "cat": "payment",
+   "en": "Tamara",
+   "ar": "تمارا",
+   "arn": "تمارا",
+   "fr": "Tamara",
+   "scope": "residence",
+   "archetype": "BNPL provider #2: its own checkout tile (L5139), cards-screen wallet row (L5332), BNPL_NAME map. In sentences only as part of pay.bnpls / pay.bnpls.and.",
+   "map": "pack pay.bnpl[1].name; when the market has one BNPL or none, the code hides this tile",
+   "count": 8,
+   "keys": [
+    "checkout tile L5139",
+    "cards wallet L5332",
+    "BNPL_NAME L11147"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "pay.visa": {
+   "cat": "payment",
+   "en": "Visa",
+   "ar": "Visa",
+   "arn": "Visa",
+   "fr": "Visa",
+   "scope": "residence",
+   "archetype": "International scheme of the second saved card: 'Visa ending 8832' (bpPmVisa, bdToVisa, AR Latin 'Visa تنتهي بـ8832'), 'Visa ending 4242' (cards HTML). Not the brand lists (pay.cards).",
+   "map": "an international network different from the pay.mada value: Visa, or Mastercard where pay.mada resolved to Visa",
+   "count": 10,
+   "keys": [
+    "bpPmVisa",
+    "bdToVisa",
+    "cards .tx b (Visa ending 4242)"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "tax.label": {
+   "cat": "tax",
+   "en": "VAT included",
+   "ar": "شامل ضريبة القيمة المضافة",
+   "arn": "شامل ضريبة القيمة المضافة",
+   "fr": "TVA incluse",
+   "scope": "residence",
+   "archetype": "Short tax-display label at checkout: ckVat 'VAT included · Cancel anytime, no commitment', ckVat2 'VAT included · Cancel anytime before your next renewal'. KSA prices are VAT-inclusive (15%).",
+   "map": "pack tax.label ('GST included' AU, 'Sales tax included' JO, 'Plus applicable sales tax' US, 'Plus applicable taxes' CA, 'No VAT' KW, 'All taxes included' IQ/LY)",
+   "count": 8,
+   "keys": [
+    "ckVat",
+    "ckVat2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "tax.prices": {
+   "cat": "tax",
+   "en": "Prices include 15% VAT",
+   "ar": "الأسعار تشمل ضريبة القيمة المضافة 15٪",
+   "arn": "الأسعار تشمل ضريبة القيمة المضافة بنسبة 15٪",
+   "fr": "Les prix incluent la TVA de 15 %",
+   "scope": "residence",
+   "archetype": "One-sentence tax disclosure (the final period stays outside the token): bpVat, rcVat, pyS1b. AR has two spellings: rcVat/pyS1b 'الأسعار تشمل ... 15٪' (registered) and bpVat 'الأسعار شاملة ضريبة القيمة المضافة 15%' ({@tax.prices|الأسعار شاملة ضريبة القيمة المضافة 15%}).",
+   "map": "built from pack tax: incl + rate > 0 -> 'Prices include 20% VAT' / 'Prices include 10% GST'; incl = false -> 'Prices exclude sales tax, added at checkout' (US, CA); rate 0 -> 'No VAT applies' (KW, QA) or 'All taxes included' (IQ, LY)",
+   "count": 12,
+   "keys": [
+    "bpVat",
+    "rcVat",
+    "pyS1b"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "tax.row": {
+   "cat": "tax",
+   "en": "VAT 15%",
+   "ar": "ضريبة القيمة المضافة 15%",
+   "arn": "ضريبة القيمة المضافة 15%",
+   "fr": "TVA 15 %",
+   "scope": "residence",
+   "archetype": "Tax row label in the checkout summary (ck2Vat, with ck2Incl 'Included' as its value; #ckSum VAT row HTML L13341).",
+   "map": "tax name + rate from pack tax ('VAT 20%', 'GST 10%', 'VAT 5%'); US/CA 'Estimated tax' (depends on address); the code hides the row where rate = 0",
+   "count": 4,
+   "keys": [
+    "ck2Vat",
+    "#ckSum row L13341"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "cur.word": {
+   "cat": "currency",
+   "en": "riyal",
+   "ar": "ريال",
+   "arn": "ريال",
+   "fr": "riyal",
+   "scope": "residence",
+   "archetype": "Everyday singular name of the residence currency in a customer testimonial: apKhR1 'Worth every riyal.' (AR يستاهل كل ريال). The ISO code and the glyph are built-ins ({@$code}, {@$c}); salary-label currency is misc.salcur (target).",
+   "map": "the residence currency's everyday singular word: dirham, dinar, pound (GBP and EGP), euro, dollar, franc, zloty, krona; AR درهم، دينار، جنيه، يورو، دولار",
+   "count": 2,
+   "keys": [
+    "apKhR1"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "legal.norem": {
+   "cat": "legal_regulatory",
+   "en": "no reminder",
+   "ar": "بدون تذكير",
+   "arn": "دون تذكير",
+   "fr": "sans rappel",
+   "scope": "residence",
+   "archetype": "Auto-renewal disclosure clause: plnAutoS 'Charged automatically at each renewal, no reminder.' and djPr2b 'Charged automatically each month, no reminder.' Implements founder rule R10 (no renewal notices) where the law allows it.",
+   "map": "R10 wording wherever residence law does not require a renewal reminder; where it does (check pack legal.renewal and the market's LEGAL-SPEC research: e.g. US state auto-renewal laws, EU/UK subscription and tacit-renewal rules), the minimum lawful promise, e.g. 'with a reminder before each renewal'",
+   "count": 10,
+   "keys": [
+    "plnAutoS",
+    "djPr2b"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "legal.pdpl": {
+   "cat": "legal_regulatory",
+   "en": "PDPL",
+   "ar": "نظام حماية البيانات",
+   "arn": "نظام حماية البيانات الشخصية",
+   "fr": "PDPL",
+   "scope": "residence",
+   "archetype": "Short name of the data-protection law the user's data is handled under: acDownloadS 'A copy of everything, under PDPL' (AR حسب نظام حماية البيانات). KSA PDPL (Royal Decree M/19), enforced by SDAIA.",
+   "map": "short name of the residence market's personal-data law (pack legal.law): 'UK GDPR', 'GDPR', 'the Privacy Act' (AU), 'PIPEDA' (CA), 'CCPA' (US), 'Law 09-08' (MA), 'the PDPL' (AE, BH, OM, JO), 'the PDPPL' (QA); AR قانون حماية البيانات الشخصية / اللائحة العامة لحماية البيانات; where there is no data law (IQ, LY) use 'our Privacy Policy' / سياسة الخصوصية",
+   "count": 4,
+   "keys": [
+    "acDownloadS"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "legal.seller": {
+   "cat": "legal_regulatory",
+   "en": "Uptal Information Technology Co, Riyadh. VAT 300012345600003",
+   "ar": "شركة أبتال لتقنية المعلومات، الرياض. الرقم الضريبي 300012345600003",
+   "arn": "شركة أبتال لتقنية المعلومات، الرياض. الرقم الضريبي 300012345600003",
+   "fr": "Uptal Information Technology Co, Riyad. TVA 300012345600003",
+   "scope": "residence",
+   "archetype": "Merchant-of-record line on session receipts, legal name + registered city + 15-digit VAT number: rcSeller, rcSellerSara, receipt HTML #rcSellerL. The 'Riyadh' here is the seller's seat, not p.city or city.riyadh.",
+   "map": "per legal/LEGAL-SPEC.md the KSA entity is merchant of record in every market, so the name and seat stay; only the tax part changes to Uptal's own registration for that residence market if one exists (UK VAT no., EU non-Union OSS no., AU GST, CA GST/HST, UAE TRN), otherwise drop the '. VAT ...' part. Never invent a registration number",
+   "count": 9,
+   "keys": [
+    "rcSeller",
+    "rcSellerSara",
+    "#rcSellerL L7163"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "res.tz": {
+   "cat": "timezone",
+   "en": "Riyadh time",
+   "ar": "توقيت الرياض",
+   "arn": "توقيت الرياض",
+   "fr": "heure de Riyad",
+   "scope": "residence",
+   "archetype": "time-zone label for advisor sessions and booking slots, shown in the viewer's local time: bsSubPre 'Riyadh time. Sessions with', sdRiyadh ', Riyadh time.', bookSlot / sessionDetail HTML, ICS export (bkIcs, code). AR is written بتوقيت الرياض: tokenize ب{@res.tz}. Residence scope: the persona lives in the residence market (one persona per market), so the residence pack names the persona's zone; multi-zone markets (US, CA, AU) use the persona city's zone. [merged p.tz (C)]",
+   "map": "the residence market's usual time label (AE 'UAE time'/'توقيت الإمارات', GB 'UK time', US 'Eastern Time (ET)', FR 'heure de Paris', EG 'توقيت القاهرة'); INTL: 'your local time'. Packs should also carry the IANA zone for the .ics export",
+   "count": 10,
+   "keys": [
+    "bsSubPre",
+    "sdRiyadh",
+    "bookSlot L6983",
+    "sessionDetail L7093",
+    "bkIcs L10492"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "cal.wk1": {
+   "cat": "calendar_culture",
+   "en": "Sunday",
+   "ar": "الأحد",
+   "arn": "الأحد",
+   "fr": "dimanche",
+   "scope": "target",
+   "archetype": "First working day after the weekend (KSA week runs Sunday to Thursday): interview slot 'Sunday 11:00' (mlS3, m1b2), document deadlines 'before Sunday' (mlDue4, m4b2, mrd4, MSAQ act4), MSAQ car2 'the dashboard the CEO opens on Sunday morning'. 'Thursday' interviews and 'Wednesday evening' prep stay literal: those days are working days in every market. Day-name labels (alDay*, bsD*, bsDF*, rsD*, wd0-6, exDay*F) are not this id.",
+   "map": "the first working day of the target market's week: Sunday where pack workweek = sun-thu (SA, KW, QA, BH, OM, EG, JO, IQ, LY, DZ), Monday where mon-fri (AE, MA, TN, LB and all Western markets)",
+   "count": 14,
+   "keys": [
+    "mlS3",
+    "m1b2",
+    "mlDue4",
+    "m4b2",
+    "mrd4",
+    "MSAQ act4",
+    "MSAQ car2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "lang.both": {
+   "cat": "language_norm",
+   "en": "Arabic and English",
+   "ar": "العربية والإنجليزية",
+   "arn": "العربية والإنجليزية",
+   "fr": "arabe et anglais",
+   "scope": "target",
+   "archetype": "The working-language pair employers ask for and advisors offer: qaBO2c, job requirements swc1Q4 / swc4Q4 / swc10Q4 'Strong Arabic and English communication' (AR بالعربية والإنجليزية = ب{@lang.both}), hubResp 'Arabic and English' (AR colloquial 'عربي وإنجليزي': {@lang.both|عربي وإنجليزي}), CV skills line (buildCV L9382), advisor languages (ADV.langs).",
+   "map": "'<lang2> and English' (CA 'English and French'); English-only markets 'English'",
+   "count": 20,
+   "keys": [
+    "swc4Q4",
+    "swc10Q4",
+    "swc1Q4",
+    "hubResp",
+    "qaBO2c",
+    "buildCV L9382",
+    "ADV.langs L10285"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "lang.forms": {
+   "cat": "language_norm",
+   "en": "English",
+   "ar": "الإنجليزي",
+   "arn": "الإنجليزية",
+   "fr": "anglais",
+   "scope": "target",
+   "archetype": "Language most employer application forms are in: qaFormEn 'Employer forms are in English.' (AR بالإنجليزي = ب{@lang.forms}), qaTxtPh AR 'جملتين أو ثلاث بالإنجليزي'. The motivation draft qaD2c is English in both dictionaries for this reason (expand it in this language).",
+   "map": "the language most application forms use in the target market: English (GCC, GB, IE, US, AU, NL, SE), French (FR, BE, MA, TN, DZ), German (DE, CH), Spanish (ES), Italian (IT), Polish or English (PL), Arabic or English (EG, JO, IQ, LY)",
+   "count": 4,
+   "keys": [
+    "qaFormEn",
+    "qaTxtPh"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "lang.hello": {
+   "cat": "language_norm",
+   "en": "Marhaba",
+   "ar": "مرحباً",
+   "arn": "مرحباً",
+   "fr": "Marhaba",
+   "scope": "target",
+   "archetype": "Local-language hello an advisor opens with: chHiOther 'Marhaba. Ask me anything before you book.' (AR مرحباً.). Advisors are target-market people.",
+   "map": "the warm hello in the target market's language: Marhaba (Arab markets, AR مرحباً), Bonjour (FR, BE, MA, TN, DZ), Hallo (DE, NL), Hola (ES), Ciao (IT), Hej (SE), Cześć (PL), Grüezi (CH), Hi (US, GB, IE, AU, CA)",
+   "count": 3,
+   "keys": [
+    "chHiOther"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "lang.ivw": {
+   "cat": "language_norm",
+   "en": "English or العربية",
+   "ar": "العربي أو الإنجليزي",
+   "arn": "العربية أو الإنجليزية",
+   "fr": "anglais ou arabe",
+   "scope": "target",
+   "archetype": "Practice-interview answer languages: stShape '5 questions, about 15 minutes. Answer in English or العربية.' (EN shows the Arabic autonym); AR 'جاوب بالعربي أو الإنجليزي.' = ب{@lang.ivw}.",
+   "map": "EN 'English or <lang2 autonym>' (Deutsch, français, Nederlands, العربية); AR '<lang2 colloquial> أو الإنجليزي' (الفرنسي أو الإنجليزي); FR 'anglais ou <langue>'; English-only markets 'English' / الإنجليزي / anglais",
+   "count": 4,
+   "keys": [
+    "stShape"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "lang.l2": {
+   "cat": "language_norm",
+   "en": "Arabic",
+   "ar": "العربية",
+   "arn": "العربية",
+   "fr": "arabe",
+   "scope": "target",
+   "archetype": "The market's working language besides English, as a language name: CV language option cvtLangAr, working-language option qaBO2a, bilingual CV 'English and Arabic versions' (cvtF5, cvtLangBothS, cvtLangBothV = 'English and {@lang.l2}'). AR takes ب (بالعربية).",
+   "map": "pack lang2 (Arabic, French, German, Dutch...); English-only markets (lang2 null: US, GB, IE, AU) -> 'English', and the code hides the bilingual-CV and second-language options there",
+   "count": 16,
+   "keys": [
+    "cvtLangAr",
+    "qaBO2a",
+    "cvtF5",
+    "cvtLangBothS",
+    "cvtLangBothV"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "lang.l2.adjf": {
+   "cat": "language_norm",
+   "en": "Arabic",
+   "ar": "عربية",
+   "arn": "عربية",
+   "fr": "arabe",
+   "scope": "target",
+   "archetype": "Feminine indefinite adjective form of lang.l2, only in cvtLangArV 'Arabic version' / AR 'نسخة عربية'.",
+   "map": "AR feminine adjective of the pack lang2 (فرنسية، ألمانية، إنجليزية); EN/FR the language adjective",
+   "count": 2,
+   "keys": [
+    "cvtLangArV"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "phone.cc": {
+   "cat": "phone",
+   "en": "+966",
+   "ar": "+966",
+   "arn": "+966",
+   "fr": "+966",
+   "scope": "residence",
+   "archetype": "international dialling code of the residence market; code-only in v5 (HM_PH phone-detector regexes)",
+   "map": "pack.phone.cc (e.g. +971, +44, +1, +33, +20)",
+   "count": 0,
+   "keys": [
+    "js:HM_PH L14319-14325"
+   ],
+   "src": {
+    "en": "js",
+    "ar": "js"
+   }
+  },
+  "misc.cvtpl": {
+   "cat": "calendar_culture",
+   "en": "Gulf",
+   "ar": "خليجي",
+   "arn": "خليجي",
+   "fr": "Golfe",
+   "scope": "target",
+   "archetype": "name of the regional CV-convention template in the CV Tailoring picker (cvtTplGulf 'Gulf' / خليجي); the template itself (photo + Arabic name row, L13631-13645) is code. [absorbs reg.dem, whose only use was this key]",
+   "map": "the target market's own CV convention: 'Gulf' (GCC), 'Europass' (EU), 'US resume' (US, CA), 'UK CV' (GB, IE), 'Lebenslauf' (DE, CH), 'Bilingual' (EG, Levant, Maghreb: FR or EN + AR)",
+   "count": 4,
+   "keys": [
+    "cvtTplGulf",
+    "CVT tpl tiles L13643"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "misc.cvtpl.s": {
+   "cat": "calendar_culture",
+   "en": "Photo, bilingual",
+   "ar": "بصورة، وبلغتين",
+   "arn": "بصورة، وبلغتين",
+   "fr": "Photo, bilingue",
+   "scope": "target",
+   "archetype": "One-line description of misc.cvtpl (cvtTplGulfS).",
+   "map": "what defines the local convention: 'Photo, bilingual' (GCC), 'No photo, one page' (US, CA), 'Standard EU format' (Europass), 'Photo, tabular' (DE, CH), 'No photo, two pages' (GB, IE), 'French or English plus Arabic' (Maghreb)",
+   "count": 4,
+   "keys": [
+    "cvtTplGulfS"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "misc.gaap": {
+   "cat": "legal_regulatory",
+   "en": "IFRS",
+   "ar": "IFRS",
+   "arn": "IFRS",
+   "fr": "IFRS",
+   "scope": "target",
+   "archetype": "The financial-reporting framework named in the persona's CV and answers ('IFRS reporting and budgeting on SAP') and in job requirements ('under IFRS', 'IFRS knowledge'). Tokenize the bare word only: 'IFRS 9', 'IFRS 17', 'IFRS 17 Essentials' (course) stay literal. One target-scoped id covers persona and job lines because no roster persona lives in the US and targets elsewhere, or the reverse.",
+   "map": "'US GAAP' when the target market is the US; 'IFRS' everywhere else",
+   "count": 175,
+   "keys": [
+    "pfBioText",
+    "pfEngS",
+    "msaKnowList",
+    "msaMemItems",
+    "swc5W1s",
+    "swc6Sum",
+    "swc6W1",
+    "swc6W1s"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "misc.lablaw": {
+   "cat": "legal_regulatory",
+   "en": "Saudi labour law",
+   "ar": "نظام العمل السعودي",
+   "arn": "نظام العمل السعودي",
+   "fr": "le droit du travail saoudien",
+   "scope": "target",
+   "archetype": "The national labour code Musaed answers questions on: msaIntro 'Ask me about your search, salaries, Saudi labour law, ...'. Kept in misc.* (TARGET scope) on purpose: the labour law that matters is where the job is, not where the user pays; legal.* resolves to residence.",
+   "map": "'<target demonym> labour law' in local wording: 'UAE labour law' (AR قانون العمل الإماراتي), 'UK employment law', 'US employment law', 'German labour law', 'French labour law' (FR le Code du travail); AR uses قانون everywhere except KSA (نظام)",
+   "count": 2,
+   "keys": [
+    "msaIntro"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "misc.lablaw.s": {
+   "cat": "legal_regulatory",
+   "en": "the labour system",
+   "ar": "نظام العمل",
+   "arn": "قانون العمل",
+   "fr": "le droit du travail",
+   "scope": "target",
+   "archetype": "Short generic form in the MSAQ law answers: note 'General guidance on the labour system, not legal advice' (AR إرشادات عامة عن نظام العمل). law3 says 'the Saudi system' / 'النظام السعودي': {@misc.lablaw.s|the Saudi system}.",
+   "map": "short generic name of the target market's labour law: 'employment law', 'labour law'; AR قانون العمل; FR le droit du travail",
+   "count": 6,
+   "keys": [
+    "MSAQ law2 note",
+    "MSAQ law3"
+   ],
+   "src": {
+    "en": "js",
+    "ar": "dict"
+   }
+  },
+  "misc.photohint": {
+   "cat": "calendar_culture",
+   "en": "Some employers in Saudi ask for one.",
+   "ar": "بعض جهات العمل في السعودية تطلبها.",
+   "arn": "بعض جهات العمل في السعودية تطلبها.",
+   "fr": "Certains employeurs en Arabie saoudite en demandent une.",
+   "scope": "target",
+   "archetype": "CV-photo norm sentence on the photo step: phHint2 'Some employers in Saudi ask for one. You can add it any time.' (also photoPaint L9293). The claim itself changes by market, so the whole sentence is the slot.",
+   "map": "from pack sensitive.photo: 'optional' -> 'Some employers in <country> ask for one.'; 'common' -> 'Most employers in <country> expect one.'; 'avoid' -> the photo step is hidden by code (photos are not used on applications there) and this id is unused",
+   "count": 8,
+   "keys": [
+    "phHint2"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "misc.salcur": {
+   "cat": "currency",
+   "en": "SAR",
+   "ar": "ريال",
+   "arn": "ريال",
+   "fr": "SAR",
+   "scope": "target",
+   "archetype": "TARGET-market currency in salary labels with no amount: pfSalary 'Salary, SAR a month' and pfSalaryU 'Expected salary, SAR a month' (AR الراتب، ريال بالشهر). Not {@$code}: that is the residence (price) currency.",
+   "map": "target market currency: ISO code in EN/FR (AED, GBP, EUR, USD, EGP), the currency word in AR (درهم، جنيه إسترليني، يورو، دولار، جنيه)",
+   "count": 6,
+   "keys": [
+    "pfSalaryU",
+    "pfSalary"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "misc.salper": {
+   "cat": "salary_period",
+   "en": "monthly",
+   "ar": "شهري",
+   "arn": "شهري",
+   "fr": "mensuel",
+   "scope": "target",
+   "archetype": "Adjective for the target salary period where {@per} cannot be used: qaQ2a 'What is your expected monthly salary?' (AR ما الراتب الشهري المتوقع؟ = الراتب ال{@misc.salper}), MSAQ sal2/sal3 'the full monthly package'.",
+   "map": "follows pack sal.per like {@per}: 'monthly' / 'annual'; AR شهري / سنوي (base form, the tokenizer adds ال); FR mensuel / annuel",
+   "count": 6,
+   "keys": [
+    "qaQ2a",
+    "MSAQ sal2",
+    "MSAQ sal3"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  },
+  "misc.salper.c": {
+   "cat": "salary_period",
+   "en": "Monthly",
+   "ar": "الراتب الشهري",
+   "arn": "الراتب الشهري",
+   "fr": "Salaire mensuel",
+   "scope": "target",
+   "archetype": "Pay-row label on the offer card: mlOfferPay EN 'Monthly' / AR 'الراتب الشهري'.",
+   "map": "'Monthly' / 'Annual'; AR الراتب الشهري / الراتب السنوي; FR Salaire mensuel / Salaire annuel (pack sal.per)",
+   "count": 2,
+   "keys": [
+    "mlOfferPay"
+   ],
+   "src": {
+    "en": "dict",
+    "ar": "dict"
+   }
+  }
+ },
+ "notes": [
+  "[CHECK] MERGE of registry-A (co.*), registry-B (ctry/reg/city/ppl/adv/cert/uni/gov/prog/res/phone) and registry-C (p/pay/tax/cur/legal/cal/lang/misc). No literal id collisions. Renamed: p.ini -> p.initials, misc.iddoc -> gov.iddoc, misc.taxfile -> gov.taxfile, tax.incl -> tax.label. Merged (dropped id -> kept id, keys unioned, count = max): p.tz -> res.tz, phone.loc -> p.phone, misc.natid -> gov.natid, gov.taxes -> gov.taxfile, gov.zatca -> gov.taxfile, reg.dem -> misc.cvtpl, uni.ksu -> p.uni. Old ids were rewritten in every note and archetype/map text below; tokenizers must use only ids present in entities.",
+  "[CHECK] src FIELD (added): src.en / src.ar tell where the KSA literal occurs in v5 with word boundaries (Arabic: optional و/ب/ل/ك/ف and ال prefixes, ال->لل contraction allowed): 'dict' = v5 dictionary values (tokenize in tok-*.json), 'stray' = literal HTML text in data/v5-dump.json stray[] (needs an HTML patch), 'js' = only in v5.html inline JS (tokobj.json or a code patch; dictionary tokenizers cannot reach it). JS-only literals: co.sabic (en+ar), adv.omar/huda/khalid/faisal.full ar (BKARN map), p.uni ar (CV_AR.edu), gov.gosi (MSAQ act2), phone.cc (HM_PH), p.li, p.loc, misc.lablaw.s en (MSAQ law notes).",
+  "[CHECK] PHANTOMS FIXED (value did not occur in v5): ctry.full en 'the Kingdom of Saudi Arabia' -> 'Saudi Arabia' (qaBQ3 EN counterpart); reg.gcc ar 'دول مجلس التعاون الخليجي' -> 'الخليج' (apNdBio AR counterpart; formal form kept in arn); adv.nadia.full ar 'د. نادية الراشد' -> 'Dr. Nadia Al-Rashid' (v5 AR shows the Latin name; Arabic kept in arn, adding it to BKARN is a v6-only change verify.js must allow); cert.socpa.l en -> 'SOCPA' and gov.sama.l en -> 'SAMA' (v5 EN uses the short form where AR uses the long one); p.loc ar 'الرياض، السعودية' -> 'Riyadh, Saudi Arabia' (buildCV is always an English document). After the fixes every entity's en and ar occur in v5 (dict, stray or js). Nothing was dropped as a phantom.",
+  "[CHECK] FORMS THAT LOOK LIKE DUPLICATES BUT ARE KEPT ON PURPOSE (different slot or scope): co.tabby (employer, target) vs pay.tabby (BNPL, residence); city.riyadh (target) vs p.city (persona) vs res.tz; cert.socpa (target job requirement) vs p.cert (persona's own); ctry.n / ctry.s (same AR السعودية, different EN); reg.gcc / reg.gulf (same KSA AR الخليج, different EN; packs give them different values, e.g. EU vs Europe); co.pif / co.pif.n (EN short vs long); co.gigas / co.giga.cap (same AR); misc.salcur (target salary currency) vs cur.word (residence currency word); gov.iddoc (phrase 'National ID or Iqama') vs gov.natid + gov.iqama (standalone); adv.sara (advisor Sara Kanaan) vs ppl.ref (referred friend Sara); misc.cvtpl 'Gulf' (CV template) vs reg.gulf 'the Gulf' (region).",
+  "[CHECK] PERSONA FIELDS: personas.json f-fields for non-SA personas currently hold only first, last, full, initials, email, phone, title, employer, employer2, degree, bio. engine.js ent() falls back to the TARGET pack and then to PACKS.SA for a missing p.* field, so p.city, p.loc, p.uni, p.cert, p.file, p.ref, p.li, p.notice would leak Saudi values (Riyadh, King Saud University, SOCPA, uptal.com/r/noura) for every other persona. tools/make_personas.py must emit all 19 p.* ids for every persona. Also p.phone must be the locally typed national form (no spaces, no +cc) to match the hmSimBlk demo; personas.json currently stores '+971 50 123 4567' style.",
+  "[CHECK] NOT IN v5 COPY, so no registry id (needed only if v6 adds copy): KSA (only 3 hits, in the HM_EMP_STOP stop-word regex, code), Qiwa, Absher, Saudization / Nitaqat, STC Pay, Vision 2030, Ramadan. The SA pack already carries Qiwa/GOSI under govPlatforms and 'Saudization (Nitaqat)' under nationalisation for the new v6 onboarding copy; prog.local ('localization' / التوطين, swh6R3) is the only nationalisation surface in v5.",
+  "[CHECK] INVENTORY ITEMS NOT TOKENIZED BY DESIGN (seen in data/inventory.json, no id): date / time / number formats and Arabic month names (engine formatting), billing day '27th' and demo dates (product constants), Thursday/Wednesday interview days (working days everywhere), Musaed (product name), LinkedIn / WhatsApp (global brands; WhatsApp is not the default channel in US/CA/some EU markets, a product decision), housing/transport allowance perks (employer-bound, card copy), end-of-service gratuity / Eid holidays / probation (inside the Saudi labour-law answers law1-law3, sal3: gate to SA targets, see [C] LAW CONTENT), 90-day data retention and 24-hour session cancellation (Uptal policy constants; the legal workstream decides per market). CODE: the speech-recognition locale 'en-US' / 'ar-SA' is hard-coded and should follow the market (ar-AE, ar-EG, fr-FR ...).",
+  "[A] COUNT METHOD: count = dictionary EN + AR hits + stray HTML hits + 2 x the estimated inline-JS hits (MSAQ answers, MAIL[], JOBS[], PIQ, SUG/DREAM/AR_E/LOGO/INIT maps, cvtailor SNB sample, seedA/seedB, sentCtxFor). co.tabby counts the employer only. About 20 of the 131 'Tabby' hits in v5.html are the BNPL payment method and belong to pay.tabby: ckHint1, cvtPayNote, pmNote, tCkBnplOff, wlSplit4, wlSplit12, the checkout/cards HTML strings ('Pay in 4 with Tabby', 'Continue with Tabby', 'You finish in the Tabby app...') and BNPL_NAME. Never tokenize those keys with co.tabby.",
+  "[A] AMOUNTS THAT ARE NEITHER PRICE NOR MONTHLY SALARY (company facts inside the job-card About sentences): swc1About 'more than 40,000 employees across the Gulf' (Almarai headcount); swc6About 'more than 500 branches' plus 'largest Islamic bank in the world by assets'; swc8About 'more than 15 million shoppers across the Gulf'; swc5About 'more than 300 square kilometers'; swc7About 'planned investment of more than 500 billion dollars' (a USD figure: do NOT use {@$:} or {@sal:}); swh2About 'more than 70 destinations' plus the fleet models 'A320 family' and 'A330neo'; swh5About 'four continents'; swc9About 'one of Saudi Arabia's three main telecom operators'; swh3About 'tens of thousands of merchants'. SUGGESTED TREATMENT: do not tokenize the numbers. Make each of the 17 About keys (swc1-10About, swh1-7About) a whole-sentence per-market slot, e.g. {@co.almarai.about}, whose KSA value is the exact v5 sentence and whose pack value is a true one-line fact about the employer picked for that id (pack employers[].about {en,ar,fr}). Fallback if no slot: tokenize only the names and keep the claims generic ('one of the largest dairy and food companies') with the figures removed in non-KSA packs. Other numbers near employers are UI/demo values to keep as they are: cvtPrevRowS '92% match'; drPushP 'posted 09:02 ... applied at 09:08 ... applicant number 4'; mq1b1 '02:41', '9 of the 12 questions'. msaKnowList 'Offer from Tabby, 33,000' and mrd2 '33,000 ¤ a month' are monthly salaries and take {@sal:33000}.",
+  "[A] CARD/THREAD COUPLING: each swcN/swhN job card (Co, City, Title, Sum, Role, R1-4, Q1-4, O1-3, About) and each mail thread (mNs, mNb*, mNsn, mNsr, MAIL[].from) belongs to exactly one co.* id. The card city must come from the pack employer's city field and must not be swapped separately through city.*: swc3City Dhahran (Aramco), swc7City Tabuk (NEOM), swh3City Makkah (Salla), swh5City Jeddah (Saudia), swh6City King Abdullah Economic City (Lucid), aplist row 6 SNB/Jeddah, mq1b1/mq1b2/qaCityRak Ras Al Khair (Maaden). Site-bound perks follow the employer too: swc3O1 'Relocation support to the Eastern Province', swc7O1 'NEOM community housing', swh6O1 'Relocation and housing support in King Abdullah Economic City', and Maaden's relocation with a housing allowance.",
+  "[A] SENDER DOMAINS: MAIL[] senders are KSA-specific (careers@rewaa.com, people@tabby.ai, talent@stc.com.sa, recruitment@almarai.com, no-reply@aramco.com, no-reply@jahez.net, no-reply@qiddiya.com, hr@alrajhibank.com.sa, talent@neom.com, no-reply@mobily.com.sa, careers@bupa.com.sa, plus the literal careers@rewaa.com at v5.html 7406). The 'dom' field on those entities holds the KSA domain. Packs should give each mapped employer a domain, or the engine should build local-part@<pack domain>. The extra fields 'logo' (v5 co-xx CSS class), 'init' (INIT monogram) and 'sector' (pack sector vocabulary) are there to drive LOGO/INIT/AR_E generation and slot picking.",
+  "[A] ARABIC HOMOGRAPHS: tokenize only inside the listed company keys. Never replace these words globally: جاهز (Jahez, but also 'ready': 34 non-company dict hits), سلة ('basket'), نون (the letter), نعناع ('mint'), التعاونية ('cooperative'), تداول ('trading'; replace only after مدرج/مدرجة في), معادن ('metals'), ناس inside طيران ناس ('people'), السعودية (co.saudia in swh5Co/swh5Role, identical to the country short name ctry.s), الرياض inside بنك الرياض (part of co.riyadbank, not city.riyadh), السعودي inside البنك الأهلي السعودي (part of co.snb, not ctry.dem), تابي inside كتابي/كتابية ('written'), and سابك inside حسابك ('your account': 13 dict hits, none of them SABIC).",
+  "[A] SURFACE VARIANTS HANDLED BY THE ESCAPE HATCH (KSA literal, normal value elsewhere): Arabic Latin-script Tabby in m2s, mlAfterAccept, msaKnowList, msaMemItems and the inline MSAQ/override strings -> {@co.tabby|Tabby}; Arabic 'بـ NEOM' in m9b1 -> {@co.neom|NEOM}; Arabic Latin PIF in drPushP -> {@co.pif|PIF}; short صندوق الاستثمارات in alSpec6 -> {@co.pif|صندوق الاستثمارات}; aprCoSnb البنك الأهلي -> {@co.snb|البنك الأهلي}; swh5About الخطوط السعودية -> {@co.saudia|الخطوط السعودية}; alSpec6 ومشاريع عملاقة -> و{@co.gigas|مشاريع عملاقة}; inline EN Ma'aden (SUG.employers, LOGO, AR_E keys) -> {@co.maaden|Ma'aden}. EN Saudia's (swh5Role) -> {@co.saudia}'s.",
+  "[A] ARABIC ل+ال CONTRACTION: apFaS1 AR 'استراتيجية التقديم للمشاريع العملاقة' cannot be written ل{@co.gigas} because that renders لالمشاريع. Options: (a) add an id co.gigas.l {ar:'للمشاريع العملاقة'} and have packs supply the ل-form; (b) use {@co.gigas|للمشاريع العملاقة} and accept that other markets drop the ل (ungrammatical); (c) give apFaS1 a v6 newkey outside KSA. Recommendation: (a). No other co.* surface hits this in the dictionary; co.almarai/co.qiddiya/co.tawuniya only appear after إلى/في/لدى/مع.",
+  "[A] qaD2c: the AR value is deliberately English (employer forms are in English) and contains 'Riyad Bank'. If {@co.riyadbank} goes into the tok-gulf string, the KSA expansion gives بنك الرياض and fails verify.js. Expand qaD2c with lang='en' whatever the UI language (keep the AR copy equal to the tokenized EN string), or use {@co.riyadbank|Riyad Bank}, though that puts the Arabic local bank name into English text in other markets. qaD2c also carries Riyadh, 'eight years', SAP and IFRS.",
+  "[A] DISTINCTNESS: within one market every co.* id must resolve to a different real employer, because the 12-row pipeline list (aplist: Rewaa, stc, Nana, Tabby, Aramco, SNB, Jahez, Almarai, Maaden, noon, Bupa Arabia, Mobily), the 10-card swipe deck, DREAM (co.pif, co.aramco, co.neom, co.stc) and SUG (co.sabic, co.maaden, co.riyadbank, co.snb, co.almarai, co.mobily, co.bupa, co.tawuniya) show them side by side. That means 4 banks (co.snb, co.riyadbank, co.alrajhi, co.alinma), 2 telecoms, 2 insurers, 2 airlines, 3 delivery/e-commerce apps (co.jahez, co.nana, co.noon), 2 tech scale-ups (co.rewaa, co.salla) plus a fintech (co.tabby), and 2 mega-project developers (co.neom, co.qiddiya). Thin markets (LY, IQ, LB, DZ) may fill a slot from another sector rather than repeat an employer. The SA core pack lacks nana, noon, flynas, lucid and alinma; its 'tadawul' employer is 'Saudi Tadawul Group' (the operator as an employer), while the copy uses 'Tadawul' (the exchange name, co.tadawul).",
+  "[A] INLINE MAPS TO REBUILD FROM REGISTRY + PACK (not tokenizable strings): DREAM DEF.employers ['PIF','Aramco','NEOM','stc'] -> [co.pif, co.aramco, co.neom, co.stc]; SUG.employers ['SABIC',\"Ma'aden\",'Riyad Bank','SNB','Almarai','Mobily','Bupa Arabia','Tawuniya'] -> [co.sabic, co.maaden, co.riyadbank, co.snb, co.almarai, co.mobily, co.bupa, co.tawuniya]; AR_E (EN->AR employer map), LOGO and INIT maps; JOBS[] logo codes; aplist data-company and co-xx classes; sentCtxFor() fallbacks 'stc'/'Rewaa'; seedB co 'Alinma Bank' logo 'hmal'; cvtailor SNB object {co:'SNB', coAr:'البنك الأهلي السعودي', logo:'sn'}; QA.apps q1 Maaden / q2 Riyad Bank; HM_EMP_STOP stoplist (Riyadh|Jeddah|Dammam|Saudi|KSA), which must list the target market's city and country words. The employer label() helper translates only for lang==='ar' via AR_E and needs an fr path.",
+  "[A] SCOPE NOTE (co.pif inside advisor copy): the 'ex-PIF' credential (alSpec6, gwSpec6, apFaBio 'Ex-PIF talent leader') and 'NEOM-scale programs' / 'NEOM offer' (apFaBio, apFaR2) sit in adv.* advisor bios. They resolve against the TARGET market like the rest of co.*, so an advisor's past employer changes with the market. That is intended because advisors are presented as local.",
+  "[A] OUT OF PARTITION, seen but not registered here (for the merger): SAMA in qaQ2b, qaW2b and qaLogS (AR ساما / البنك المركزي السعودي (ساما)) plus the KW chip 'SAMA reporting' -> suggest gov.sama {en:'SAMA', ar:'ساما', map:'the market's central bank / banking-supervisor short name'}; SOCPA, with the full Arabic body name الهيئة السعودية للمراجعين والمحاسبين in mq1b2/qaQ1b -> cert.*; ZATCA (هيئة الزكاة والضريبة in swh3R3) -> gov.*/tax.*; 'Uptal Information Technology Co' (rcSeller, rcSellerSara) -> legal.* (residence seller entity); Acme Financial / Acme Capital -> p.employer / p.employer2 (partition C); 'GCC banks' (apNdBio) -> reg.*; 'the United States' in swh6About (Lucid's home country) -> ctry/fact, goes with the About slot; Tabby/Tamara/mada/Apple Pay -> pay.*; LinkedIn, WhatsApp, Google Meet, SAP, Oracle, Power BI, Excel are global products, not market employers (WhatsApp may need misc.*). Generic employer-type chips Government / Private / Multinationals / Startups stay untokenized; only Semi-government (co.semigov) is market-specific.",
+  "[A] LOW-VALUE IDS: co.skyteam, co.airbus and co.nasdaq exist only as facts inside swh5About, swh2About and swh6O3. If the About sentences become per-market slots (note 2), co.skyteam and co.airbus can be dropped; co.nasdaq stays for swh6O3.",
+  "[B] count = occurrences in the v5 dictionary EN + AR (plus stray HTML text for advisor full names/initials, and a fixed JS count where the entity is JS-only). keys = up to 8 dictionary keys; 'stray:<screen>' = literal HTML text; 'js:<symbol>' = hard-coded in JS (not tokenizable by dictionary tokenizers).",
+  "[B] Scope choices: res.tz is RESIDENCE on purpose (session times are shown in the viewer's local time; cross-market personas X-EG-GCC, X-JO-AE, X-IN-GCC, X-MA-FR live elsewhere than they target). gov.taxfile (was gov.taxes)/gov.natid/gov.iqama are TARGET on purpose (they describe the employer's country), so they are not under tax./legal. (residence). Possible overlap with partition ids like legal.iqama / legal.national_id / tax.* : dedupe in favour of these target-scope gov.* ids.",
+  "[B] Tricky (AR): 'السعودية' is 4 different things. Country noun -> {@ctry.n}. Feminine adjective after a noun (اللجان السعودية، مدينة سعودية، فرق الموارد البشرية السعودية) -> ال{@ctry.demf} / {@ctry.demf}. Saudia airline (swh5Co, 'الخطوط السعودية' swh5About, 'وحدات أعمال السعودية' swh5Role) -> co.* (other partition), never ctry. Inside proper names (الهيئة السعودية للمراجعين = SOCPA, البنك المركزي السعودي = SAMA, البنك الأهلي السعودي = SNB in cvtBaRole/cvtPrevRowS) -> part of cert./gov./co. ids, never ctry.",
+  "[B] Tricky (AR): 'الرياض' inside 'بنك الرياض' (Riyad Bank: swh1Co, swh1About, qaCoRb, mq1b4, qaLogS, qaW2a, qaQ2c) is co.*, not city.riyadh; 'والرياضة' (sports, swc5About) is a plain word. 'المدينة' alone = 'the city' (pfCity, cAddBtn, tCityAdded...) never city.medina. 'الخبر' in mlAfterConfirm = 'the news', not Al Khobar. 'جاهز'/'وجده'/'أسماء'/'يزيد' also appear as common words (mgNote*, lensAdvisorsList).",
+  "[B] Tricky (AR orthography): ل + a value starting with ال contracts to لل (v5: 'للمنطقة الشرقية' swc3O1, 'للمملكة' swh5About). 'ل{@city.eastprov}' would expand to 'لالمنطقة' and fail verify. Recommend MKT.expand collapse 'لال' -> 'لل' at a token boundary (and tokenizers write ل{@id}); otherwise use the escape hatch {@city.eastprov|للمنطقة الشرقية} and accept the bare value elsewhere. Same for 'لليلى' (rpA3) which is fine (ل + ليلى, no ال).",
+  "[B] Tricky (AR agreement): Arabic demonyms agree in gender and definiteness with the noun, not the persona: use ctry.dem (m) / ctry.demf (f) and attach ال literally (ال{@ctry.dem} works for إماراتي، بريطاني، مصري). Multi-word values (gov.natid 'الهوية الوطنية', prog.local 'التوطين', city.eastprov) already carry their ال: never prefix ال to them.",
+  "[B] Tricky (EN): 'Saudia' (airline) contains 'Saudi'; regexes must use \\bSaudi\\b(?!a). EN uses one adjective form: every EN adjective 'Saudi' -> {@ctry.dem} (ctry.demf exists for AR/FR only). EN noun 'Saudi' (phHint2 'in Saudi', wr2s 'across Saudi and the Gulf', djSugE 'in Saudi') -> {@ctry.s}. EN possessive: {@ctry.n}'s ('the UK's' works).",
+  "[B] Tricky (cross-language): the same key often uses different forms per language: swc9About/swh1About/swh4About/swh5About EN 'Saudi Arabia' vs AR 'المملكة' (EN {@ctry.n}, AR {@ctry.k}); cAllHint/djSugT EN adjective 'Saudi' vs AR noun 'السعودية' (EN {@ctry.dem}, AR {@ctry.n}); qaBQ3 EN 'Saudi Arabia' vs AR 'المملكة العربية السعودية' ({@ctry.full}); apNdBio EN 'GCC banks' vs AR 'بنوك الخليج' (EN {@reg.gcc}, AR {@reg.gulf}); pfVisaGcc EN 'GCC national' vs AR 'مواطن خليجي' ({@reg.natl} both). Tokenize each language independently.",
+  "[B] Irregular spellings -> escape hatch: swh3City/swh3About/swh3O3 'Makkah' -> {@city.mecca|Makkah} (cMecca uses 'Mecca'); swh6Role 'KAEC' -> {@city.kaec|KAEC}; AR qaBQ3 could alternatively be {@ctry.n|المملكة العربية السعودية} if ctry.full is not wanted.",
+  "[B] Persona city vs market city: these 'Riyadh' mentions are the persona's own work city and should be {@p.city} (persona partition), not {@city.riyadh}, because cross-market personas live in another city than they target: pfBioText (first mention), msaKnowList, msaMemItems ('Financial Analyst in Riyadh'), wr1s, swc3W1s, swc4W1s, swc7W1s, swc10W1s, hmDA1, hmAB1, qaD2c, and JS buildCV ('Riyadh, Saudi Arabia', 'Riyadh business units'). Search/targeting mentions (pfBioText 'role in Riyadh, Jeddah, or remote', pr2s, swSg1s, nt5s, cvrRaiseS, hrHiP, py1, jpAnchor, qaBO5a, city chips) stay {@city.*}. p.uni (was uni.ksu) likewise = the persona's university ({@p.uni} if defined).",
+  "[B] Not city.riyadh: rcSeller/rcSellerSara 'Uptal Information Technology Co, Riyadh' is Uptal's legal seat + Saudi 15-digit VAT number 300012345600003 -> needs a residence-scope legal entity id (legal.seller or similar: entity name, seat city, tax-ID label and number per billing entity), other partition.",
+  "[B] Job-card cities are employer-bound: swc*City / swh*City and 'headquartered in X' in *About are the pack employer's HQ city. Mapping city.jeddah = cities[1] makes 'Saudia ... headquartered in Jeddah' wrong for markets whose airline is HQ'd elsewhere (GB: BA in London). Recommend the job-card/employer partition binds these to the employer (e.g. {@co.saudia.city}) or the pack employer list sets city ids consistent with these archetypes (Dhahran = energy HQ, Makkah = e-commerce HQ, KAEC = manufacturing plant, Ras Al Khair = mining site, Tabuk = giga-project).",
+  "[B] Lists that should be generated, not tokenized: pfCo* (country picker: 8 hard-coded countries, SA default) and pfNat* (nationality picker; AR labels are feminine for the female persona, e.g. pfNatSA 'سعودية', pfNatGCC 'خليجية', pfNatEG 'مصرية'; tokens cannot nest inside {@g:..}, so a male persona cannot get 'سعودي'). Build both from base.json markets + pack.dem/arf with the persona gender. Same for the city chips cRiyadh..cAbha (= pack.cities) and suggestions cSugTabuk..cSugJubail (need a pack 'moreCities' list of 6), and qaBO5a-d (current base Riyadh/Jeddah/Dammam/Outside Saudi Arabia).",
+  "[B] Work-rights option sets pfVisa*, qaBO3a-c are KSA taxonomy (Saudi national / Premium residency / Iqama transferable / not transferable / GCC national / needs visa). ctry.natl, reg.natl and gov.iqama keep KSA expansion exact, but for other markets the option list should come from pack.rights.opts. pfVisaPrem 'Premium residency'/'إقامة مميزة' is a Saudi-only programme: no registry id, replace via rights.opts.",
+  "[B] ckBnplNote 'with your mobile number and ID' / 'برقم جوالك وهويتك' is BNPL KYC (payment, residence) -> pay.* partition, not gov.natid.",
+  "[B] Not ids (brand/product constants per GLOSSARY): Musaed / مساعد (AI assistant), Uptal. 'the region' / 'المنطقة' (swc1About, swc4About, swc8Sum, swc8About) is generic and can stay literal. 'Remote' / 'عن بعد' is not a market entity. 'KSA' appears only in JS (HM_EMP_STOP), so no ctry.ksa id; NEOM and Qiddiya are employers/giga-projects (co.*), not cities.",
+  "[B] Advisor languages 'AR · EN' / 'AR' (ADV.*.langs, stray bookType/advisor) must follow the market languages (FR markets 'FR · EN', DE 'DE · EN') -> lang.* partition. Advisor reply-time and slot strings ('Wed 19:00', 'Sun 17:00') and the BKSL canon assume Sun-Thu -> cal.* partition.",
+  "[B] Code notes (JS): window.ADV (L10284-10306) and BKARN (L10464, no Nadia entry) hard-code advisor names/initials: read adv.*.full / adv.*.ini via MKT.ent. HM_EMP_STOP (L14331) stop-words 'Riyadh|Jeddah|Dammam|Saudi|KSA' must come from the target pack (city.*, ctry.dem). HM_PH (L14319-14325) only knows +966/05x shapes: a US 10-digit number without + or leading 0 (2025550123) or a 7700 900 123 style number would slip through, so build the regex from phone.cc + national pattern per residence. bkIcs (L10491) hard-codes UTC+3 (hh-3): needs the residence IANA zone/offset next to res.tz. SNB.city / sentCtxFor() / cities fallback (L11764) default to Riyadh / 'All of Saudi Arabia'.",
+  "[B] Amounts in partition-B strings that are neither product prices nor monthly salaries: jpAnchor 'A human coach in Riyadh runs about 400 ¤' is a third-party market price compared with our 149 ¤ session -> {@$:400} (residence price conversion keeps the ratio honest). Employer facts inside *About blurbs: swc7About 'more than 500 billion dollars' (NEOM investment, USD), swc5About 'more than 300 square kilometers', swc6About 'more than 500 branches', swc1About 'more than 40,000 employees across the Gulf', swc8About 'more than 15 million shoppers across the Gulf', swh2About 'more than 70 destinations', swc10About 'millions of members' -> keep literal inside per-employer pack copy (they are facts about that employer, not convertible). Advisor stats (apBio 12 years, apHuBio 10 years, apKhBio/apNdBio 15 years, apOmBio eight years, apSaBio 20,000 CVs, ratings 4.7-5.0 with counts 34-203, apNdCnt 34 engagements) and testimonial percentages (apOmR1 18%, apNdR1 40%, rfReward 10% off) are market-neutral: keep literal. rcSeller VAT number 300012345600003 -> legal/tax id (residence). msaKnowList 'Offer from Tabby, 33,000' and 'Salary floor 26,000' have no currency and are monthly salaries -> {@saln:33000} / {@saln:26000} (and the period follows the target).",
+  "[B] French: ctry.n/ctry.s/ctry.k carry the article (l'Arabie saoudite, le Royaume) because FR needs it mid-sentence; FR prepositions vary by country gender/number (en Arabie saoudite, au Qatar, aux Émirats, à Bahreïn), so FR copy should use {@ctry.in} rather than 'en {@ctry.n}'. FR elision/contraction after de/à (de l'Arabie saoudite, du Royaume-Uni, des Émirats) is not covered by any id: FR writers should rephrase around it or the packs need ctry.de ('d'Arabie saoudite', 'du Royaume-Uni') — suggested optional id. FR plural demonyms (saoudiens/saoudiennes) also have no id. Dr title: FR writes 'Dr' without a period (adv.nadia.full fr).",
+  "[B] Gendered people: every ppl.* and adv.* id has a fixed gender because surrounding AR (and EN she/he) agrees with it (e.g. m1sr 'أخصائية الاستقطاب' for Danah, apHuBio 'She helps you'). Market packs must keep each id's gender. Testimonial reviewer names are paired with job titles in one string (\"Reem, Financial Analyst\" / \"ريم، محللة مالية\"): tokenize only the name ({@ppl.rv.reem}, Financial Analyst). Similar-looking ids are different people: ppl.danah (recruiter 'Danah Al-Sulaiman') vs ppl.rv.dana (reviewer 'Dana', same AR 'دانة'); ppl.ghadah vs ppl.rv.ghada (same AR 'غادة'); ppl.meshal vs ppl.rv.mishal (same AR 'مشعل'); ppl.ref 'Sara' (referred friend) vs adv.sara 'Sara' (advisor Sara Kanaan, same AR 'سارة').",
+  "[B] Name collisions inside other entities: 'Abdullah' (ppl.rv.abdullah, apRn2 only) also occurs in 'King Abdullah Economic City' (city.kaec); 'Riyad' (Riyad Bank) is not 'Riyadh'; 'Dr.' also prefixes 'Dr. Sulaiman Al Habib' (co.*, swh7Co). Tokenize names only in the listed keys.",
+  "[B] Demonym phrases kept as {@ctry.dem} + literal: msaIntro 'Saudi labour law' / 'نظام العمل السعودي', rtT1 'Knew the Saudi market', epR2/apR2/chT1 'Saudi panels', apHuBio 'Saudi HR teams', djSugT 'the Saudi finance ladder'. They read fine for most markets ('British labour law', 'the Emirati market'); if the legal partition defines a target-scope labour-law name id, msaIntro should use that instead (US 'US labor law', FR 'le Code du travail', EG 'قانون العمل المصري').",
+  "[B] Pack alignment: SA.core.json people[] (10 names) does not cover the 29 people ids here (7 recruiters, 14 reviewers, 1 referral friend, 7 advisors) and lists 'Faisal Al-Qahtani' while v5 has advisor 'Faisal Al-Harbi' (adv.faisal.full keeps the v5 value). Packs need ~30 gendered names, or the market packs map ids explicitly. SA.core.json phone.ex '+966 55 123 4567' is international format; p.phone (was phone.loc) is the national typed form '0551234567' (a different id on purpose).",
+  "[C] COUNT METHOD (same as registry-A): count = dictionary EN + AR hits + stray HTML hits + 2 x the estimated inline-JS hits (MSAQ answers, MAIL[], JOBS[], cvtailor CV / CV_AR, buildCV, BNPL_NAME, PM tiles, ADV, HM_* regexes). Ids whose literal is shared with other ids (p.city 'Riyadh', p.title 'Financial Analyst', pay.tabby 'Tabby', pay.visa 'Visa', cal.wk1 'Sunday', pay.inst '4') carry hand counts over the listed keys only. keys[] mixes dictionary keys with HTML/JS locations written as 'name Lnnnn' (line in src/v5.html) where the literal is not in the dictionaries.",
+  "[C] SCOPE DECISIONS. (1) Persona facts are p.* even when the KSA value equals a target entity: p.city vs city.riyadh, p.uni vs uni.ksu (merged into p.uni by the checker), p.cert vs cert.socpa, res.tz (was p.tz) (the persona's local time). They diverge for X-* personas (X-EG-GCC lives in Cairo, studied in Egypt, targets Riyadh). Done by the checker: uni.ksu only covered the CV lines and was merged into p.uni. (2) Things about the JOB's market are TARGET even when they sound legal or fiscal, so they live in misc.* and not in legal.* / tax.* / cur.* (which resolve to residence): misc.lablaw, misc.lablaw.s, gov.iddoc (was misc.iddoc), gov.natid (was misc.natid), gov.taxfile (was misc.taxfile), misc.gaap, misc.salcur. (3) Things about the purchase are RESIDENCE: pay.*, tax.*, cur.word, legal.pdpl, legal.seller, legal.norem.",
+  "[C] SALARY PERIOD. Use the built-ins, not ids: '{@sal:33000} {@per}' (m2b1, mrd2, MSAQ act2/sal1/sal2/sal3 'a month'), qaNumUnit AR '¤ شهرياً' -> {@per}, AR 'بالشهر' after a salary -> {@per|بالشهر} (pfSalary, pfSalaryU, djUnit). Registered only what {@per}/{@perw}/{@pers} cannot say: misc.salper (adjective 'monthly' / AR شهري, qaQ2a, MSAQ 'full monthly package') and misc.salper.c (offer-card label mlOfferPay 'Monthly' / 'الراتب الشهري'). DO NOT tokenize Uptal's billing periods with {@per}: '399 ¤ a month', 'per month' (gwMo), '¤ / mo' (plnMo*), 'billed monthly', 'every 4 months', 'renews monthly', AR 'بالشهر' / 'شهرياً' after a plan, course or add-on price (ckBill*, plnSub*, mgNote*, cvtMo, cvtOfCta, djPlnSub, hFreeQCta, wlLine*) are product terms, identical in every market.",
+  "[C] MISSING BUILT-IN (engine): salary units with no amount need the TARGET currency, but {@$c} / {@$code} are residence. djUnit and qaNumUnit '¤ a month' and the AR 'ريال' in pfSalary/pfSalaryU are target. Recommend adding {@salc} (target symbol, KSA ¤) and {@salcode} (target ISO code, AR currency word) to js/engine.js next to {@per}; until then misc.salcur carries the code/word form. Code-filled salary placeholders (qaSalTo '{a} to {b} ¤', acsSetFloor 'From {floor} ¤', djHomeLine, acsR1S, jsSal) must be filled with MKT.salary(), not sarHTML (which converts at the residence PRICE rate).",
+  "[C] AMOUNTS THAT ARE NEITHER A PRODUCT PRICE NOR A MONTHLY SALARY, with treatment: (a) annualised salary gaps in MSAQ act2 '84,000 ¤ more a year' (7,000 x 12) and sal2 / sal2 upsell_reason '36,000 ¤ a year' (3,000 x 12): add a built-in {@saly:84000} (SAR per year, converted at target level and always shown per year) or drop the clause where the target already quotes per year, since {@sal:7000} then reads as an annual figure; (b) MSAQ law1 end-of-service amounts 143,000 ¤ / 95,333 ¤ / 47,667 ¤ and law2 'about 867 ¤ a day' are outputs of the Saudi Labour Law formula on a 26,000 salary: not convertible, see the LAW CONTENT note; (c) MSAQ sal3 '30,000 ¤ basic with 25% housing and 10% transport lands around 40,500 ¤ a month' and 'housing commonly 25% of basic': monthly amounts can be {@sal:}, but the 25% / 10% allowance structure is Saudi-specific, rewrite per market or gate to SA; (d) py1 / jpAnchor 'A human coach in Riyadh runs about 400 ¤' is a local market price anchor, not an Uptal price: {@$:400} converts at the residence product rate, an acceptable proxy, or give packs a misc value; (e) 'thousands of riyals a year' (MSAQ sal3) is a non-numeric annual reference: part of the sal3 rewrite; (f) VAT 15% lives inside tax.prices / tax.row, never as a number token; (g) plnAnchor4 'about 1.13 ¤ per tailored application' is a derived unit price with decimals: {@$:1.13} would charm-round it, compute it in code; (h) notice periods (60 days) are p.notice, probation 90/180 days and non-compete 2 years are law content.",
+  "[C] NOT REGISTERED ON PURPOSE (persona constants): every roster persona has 8 years (all packs persona.years = 8), so '8 years', 'eight years', 'ثماني سنوات', 'بخبرة 8 سنوات' stay literal; same for the 40-person function, 'six business units', close cut from 9 to 5 days, 'team of 3 analysts', promotion to 'Senior Financial Analyst'. Add p.years (digits) and p.years.w (words) only if a persona ever differs. ERP 'SAP' is not tokenized (it is also a job requirement everywhere); the IQ pack persona.tools 'Oracle, ...' should add SAP to stay coherent with the copy. Target-cities phrase ('Riyadh, Jeddah, or remote', 'Riyadh, Jeddah and Remote', pr2s, swSg1s) has no id: compose it with {@city.riyadh} / {@city.jeddah} (target #1 and #2 cities), which is what the persona selected. Honorific: no id, write 'Dear {@g:Mr.|Ms.} {@p.last},' and AR '{@g:الأستاذ|الأستاذة} {@p.full} {@g:المحترم|المحترمة}،' (mlGreet). Persona nationality has no copy surface: pfNatSA / pfVisaSaudi / qaBO3a are option lists rebuilt from pack.rights and roster nat in code.",
+  "[C] ESCAPE-HATCH LIST for KSA-only variants in this partition: wr1s AR {@p.title|محلل مالي}; cvrD1s AR {@p.employer|أكمي فاينانشال}; buildCV L9383 'BSc Finance' {@p.degree|BSc Finance} (or fix v5 to BSc Accounting, which CV.edu uses); cvtPayNote AR {@pay.bnpls.and|Tabby وTamara}; bpVat AR {@tax.prices|الأسعار شاملة ضريبة القيمة المضافة 15%}; hubResp AR {@lang.both|عربي وإنجليزي}; MSAQ law3 {@misc.lablaw.s|the Saudi system} / {@misc.lablaw.s|النظام السعودي}. Arabic prefixes that are plain concatenation: ب{@res.tz}, ب{@p.city}, ل{@p.full}, ب{@pay.mada}, ب{@lang.both}, ب{@lang.forms}, ب{@lang.ivw}, ال{@misc.salper}.",
+  "[C] BNPL STRUCTURE (residence). Packs differ in count and schedule: SA/AE/KW Tabby+Tamara pay in 4 monthly, AU Afterpay 4 fortnightly, GB/IE/ES/FR/IT/NL Klarna pay in 3, DE Klarna '1' (pay later, not instalments), many markets none. Ids pay.inst / pay.inst.n / pay.inst.rest / pay.inst.freq handle 3 vs 4 and the schedule. Still code: wlSplit4 '4 payments of 339 ¤' and wlSplit12 '837 ¤' hard-code t4/4 and t12/4; in pay-in-3 markets they must be t/3, so turn them into {inst} placeholders filled by code like ck2Bnpl. Markets with bnpl = [] must hide pmBnplH/S, ckMSplit, ckBnpl*, ck2DueB, ck2Bnpl, ck2NextB, plnAutoBnpl, sdPaidBnplS, cvtPayNoCard, cvtPayNote, ckHint1, tCkBnplOff, wlSplit4/12, the BNPL half of pmNote and the checkout tiles. Never tokenize the plan TERM ('4-month plan', 'every 4 months', 'باقة الـ4 أشهر') with pay.inst.",
+  "[C] LEGAL FLAGS for the multi-market legal work (LEGAL-SPEC.md). (1) legal.seller: v5 receipts say 'Uptal Information Technology Co / شركة أبتال لتقنية المعلومات' with VAT 300012345600003, while LEGAL-SPEC names the merchant of record 'Uptal (شركة الخبرات الصاعدة لتقنية المعلومات)' and requires the merchant identity string to stay intact; the receipt string and the number look like placeholders, so confirm the exact legal name and the real ZATCA VAT number before any market ships. (2) legal.norem carries founder rule R10 ('no reminder'); packs whose legal research finds a mandatory renewal reminder must give the minimum lawful wording instead, and the product must then send the reminder. (3) legal.pdpl: IQ and LY have no general data-protection law, so acDownloadS should read 'under our Privacy Policy' there rather than naming a law that does not exist. (4) SDAIA, the e-commerce law and consumer-protection law do not appear in v5 app copy: no ids; they belong in the Terms / Privacy / Refund documents and country addenda, not the registry. (5) The app's advisor-session copy promises 'Full refund to your original payment method within 5 business days' and free cancellation up to 24 hours (pyS2as, pyS3as, bpPolicy, sdCxPolicy): keep it in line with the Refund Policy core (R2 no refund in any form applies to subscriptions; check that session refunds are carved out explicitly) and with each addendum.",
+  "[C] LAW CONTENT (MSAQ law1, law2, law3 and the sal3 benefits list) is Saudi Labour Law advice: end-of-service formula and amounts, 60-day notice and pay in lieu, experience certificate, probation 90 extendable to 180 days with Eid holidays excluded, non-compete limits, housing 25% of basic, GOSI base, school fees. Tokens cannot localise it (only misc.lablaw.s, p.notice, {@sal:} and p.city appear inside). To protect Uptal, show law1-law3 only when the primary target is SA until per-market answers reviewed by counsel exist (target pack slot), and keep the 'General guidance ..., not legal advice' note on every law answer. No cal.eid id: 'Eid holidays' / 'إجازتا العيدين' occurs only inside law3. No Ramadan, Hijri, National Day or Founding Day appears anywhere in v5.",
+  "[C] CALENDAR. Only cal.wk1 (first working day) is a token. Thursday interviews, 'Wednesday evening', 'lift the pause on Friday, the day after Rewaa' stay literal because those days are working days in every market. Code, not tokens: Sunday-first week strips and initials (wd0-wd6, ح ن ث ر خ ج س), booking strips with FRI/SAT disabled (bsD*, rsFri, rsSat), advisor slot lists with day names (apSlot1-3, ADV.slots L10287-10296, exDay*F, BKSL), all driven by pack workweek. The 27th billing/renewal date is the demo subscription anniversary, not a payday: no token. Date order (US month-day), 12-hour clock for US/CA/AU, Arabic month names (Levant أيلول / كانون, Morocco شتنبر / دجنبر, Algeria/Tunisia جويلية / أوت) are formatting work in the date helpers and the neutral-Arabic dictionary, not registry ids.",
+  "[C] LANGUAGE. lang.* are TARGET scope (the job market's language). For English-only targets (lang2 null) the code must hide the bilingual-CV options (cvtF5, cvtLangAr, cvtLangArV, cvtLangBoth*), the Gulf/bilingual template and the 'Arabic' working-language chip, and lang.both / lang.ivw resolve to 'English'. pfEng 'English level' and the qaBQ2 option set (qaBO2a-c) are built in code from the persona's native language and pack lang2 (50-onboarding.js already does this). Speech locales are hard-coded to 'ar-SA' / 'en-US' (startRecog L14621, synth L14673): derive them from the UI variant and residence (ar-AE, ar-EG, ar-MA, fr-FR, en-GB). Not tokens: filler words (um / يعني / وايش) follow the UI language; Gulf words like جوال are a register task for the neutral-Arabic translators; 'السلام عليكم،' in the persona's AR mails reads fine across Arab markets; WhatsApp and LinkedIn are Uptal channels, kept as they are (LinkedIn AR spelling is inconsistent: لينكدإن vs لنكدان, pick one).",
+  "[C] INLINE CODE TO REBUILD FROM p.* / pay.* (tokens cannot reach it): HM_NAME_EN regex (L14301) and HM_RX.nameAr (L14314) from p.first / p.last; HM_PH phone regexes (L14319-14325, +966 / 05x) from the residence and target phone formats; ACCT_EMAIL (L9491) and the PV.email fallback (L13192) = p.email; the cvtailor CV / CV_AR objects (L13604-13611: name, nameAr, head, lines, skills, edu) and buildCV (L9366-9383) from p.full, p.title, p.city, p.loc, p.email, p.li, p.degree, p.uni, p.cert and misc.gaap; coverLetter() signature; copyBtn link (L8140) = p.ref; BNPL_NAME (L11147, L13363) and the checkout tiles (L5138-5139) from pack pay.bnpl; PM brand tiles and the caBrand unknown-BIN fallback (L8569-8628) from pay.mada / pack brands; the checkout '.cur' span 'SAR' (L5131) = {@$code}; the '.brand mada' CSS class follows the local scheme.",
+  "[C] OVERLAPS FOR THE MERGER: co.tabby (registry-A, employer) vs pay.tabby (this file, BNPL) are different slots, keys listed in both files; gov.taxfile (was misc.taxfile) embeds ZATCA (done by the checker: gov.zatca and gov.taxes only covered swh3R3 and were merged into gov.taxfile); misc.photohint and misc.lablaw embed the country word (ctry.s / ctry.dem), kept as whole slots because the claim itself changes by market; misc.gaap ('IFRS') should be the only IFRS id; cert.socpa (target) vs p.cert (persona); 'Riyadh' inside legal.seller and inside bank names (co.riyadbank) is never p.city or city.riyadh."
+ ]
+}
