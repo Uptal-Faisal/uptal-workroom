@@ -54,7 +54,7 @@ var MKT = (function(){
   function price(sar, m){
     m = m || S.res; if (isSA(m)) return sar;
     var b = (BASE.markets[m.code] || {}).price || m.price || {};
-    var map = {399:b.p1, 339:b.p4, 279:b.p12, 1356:b.t4, 3348:b.t12};
+    var map = {399:b.p1, 339:b.p4, 279:b.p12, 1356:b.t4, 3348:b.t12, 837:Math.round(b.t12 / 4)};
     if (map[sar] != null) return map[sar];
     if (m.priceMap && m.priceMap[sar] != null) return m.priceMap[sar];
     return charm(sar * (b.p1 || 399) / 399);
@@ -123,11 +123,17 @@ var MKT = (function(){
     while (out.indexOf('{@') >= 0 && guard++ < 3) out = out.replace(RX, function(_, b){ return resolve(b, l); });
     return out;
   }
+  function keyLang(k, l){
+    if (k === 'ar' || k === 'arn' || /_arn?$/.test(k)) return 'ar';
+    if (k === 'fr' || /_fr$/.test(k)) return 'fr';
+    if (k === 'en' || k === 'en2' || /_en$/.test(k)) return 'en';
+    return l;
+  }
   function expandDeep(v, l){
     if (typeof v === 'string') return expand(v, l);
     if (Array.isArray(v)) return v.map(function(x){ return expandDeep(x, l); });
     if (v && typeof v === 'object'){
-      var o = {}; for (var k in v) if (Object.prototype.hasOwnProperty.call(v, k)) o[k] = expandDeep(v[k], /_ar$/.test(k) || k === 'ar' ? 'ar' : /_fr$/.test(k) || k === 'fr' ? 'fr' : /_en$/.test(k) || k === 'en' ? 'en' : l);
+      var o = {}; for (var k in v) if (Object.prototype.hasOwnProperty.call(v, k)) o[k] = expandDeep(v[k], keyLang(k, l));
       return o;
     }
     return v;

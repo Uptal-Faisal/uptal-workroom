@@ -13,8 +13,17 @@ Exit code 1 on any failure; prints a compact report.
 import json, os, re, sys
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+import glob
 REG = json.load(open(os.path.join(HERE, 'markets', 'registry.json'), encoding='utf-8'))
-ENT = REG.get('entities', REG)
+ENT = dict(REG.get('entities', REG))
+# ids proposed by tokenizers (markets/registry-proposals/*.json: {"entities": {id: {...}}}) count as known
+for _fp in sorted(glob.glob(os.path.join(HERE, 'markets', 'registry-proposals', '*.json'))):
+    try:
+        _d = json.load(open(_fp, encoding='utf-8'))
+        for _k, _v in (_d.get('entities', _d)).items():
+            ENT.setdefault(_k, _v)
+    except Exception as _e:
+        print('bad proposals file', _fp, _e)
 OPS = {'g', '$', '$n', '$c', '$code', 'sal', 'saln', 'salk', 'per', 'perw', 'pers'}
 TOKRX = re.compile(r'\{@([^{}]+)\}')
 

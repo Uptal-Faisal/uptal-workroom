@@ -75,7 +75,7 @@ Researched 2026-10-12. Some recruiter and GOV.UK pages could not be opened direc
   - real estate: Landsec
   - exchange: LSEG
   - mining: Rio Tinto
-  - industrial: JLR (Coventry, under Birmingham/West Midlands)
+  - industrial: JLR (the company's corporate name since its 2023 rebrand from Jaguar Land Rover; Tata group; Coventry HQ, under Birmingham/West Midlands). The Arabic string keeps the long form جاكوار لاند روفر, which is how Arabic media still name it.
   - government/public body: Bank of England
 
   The UK has Islamic banks (Al Rayan, Gatehouse), but they are small and not relevant to mainstream FP&A hiring, so none is included. Logo colours are approximate brand colours, not official hex values.
@@ -84,3 +84,7 @@ Researched 2026-10-12. Some recruiter and GOV.UK pages could not be opened direc
 - **Job boards.** LinkedIn, Indeed, Reed, Totaljobs and CV-Library are the main UK generalist boards. eFinancialCareers is the finance specialist. `govPlatforms` is empty: DWP "Find a job" and the share-code service exist, but they are not part of a typical finance job search for a UK citizen.
 - **Certifications and universities.** ACCA, CIMA (CGMA), ICAEW ACA and CFA are the standard UK finance qualifications; CIMA is especially common in FP&A. Universities: LSE (which offers a BSc Accounting and Finance), Warwick (WBS) and Manchester (Alliance MBS).
 - **Persona.** Sophie Carter, female, British, London, as in the roster. Her phone number is in the Ofcom drama range (07700 900xxx), so it is not a real number. Her employer, "Kestrel Vale Group" with its subsidiary "Kestrel Vale Foods", is fictional; a web search found no company with that name. Her bio mentions FRS 102 because UK subsidiaries usually report under FRS 102 while listed groups use UK-adopted IFRS. The bio says "hybrid" rather than "remote", which matches UK job ads.
+
+## Fact-check pass (2026-10-12)
+- Web search and fetch were unavailable during this pass, so nothing here was re-checked against live pages. Changes were limited to things known with confidence: JLR's current corporate name; French copy for the Klarna line ("sans intérêts" to match "interest-free", since Klarna UK may charge late fees); "RGPD britannique (UK GDPR)" in the French privacy line; "Paramètres" to match the other packs; and "équipe finance" in the French bio.
+- Still unverified: Stripe's note that off-session (renewal) Klarna charges are Pay in Full only after 15 Jul 2026; whether Klarna's UK partner guidelines need extra wording next to "interest-free" under the FCA regime; the SOC 2422 going rate (about £45,800); and the spring-2027 start for the DMCC subscription rules.

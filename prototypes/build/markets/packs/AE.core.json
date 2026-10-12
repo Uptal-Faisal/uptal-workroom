@@ -189,7 +189,7 @@
    "archetype": "telecom #1 (group HQ)",
    "city": "abudhabi",
    "logo": {
-    "bg": "#111111",
+    "bg": "#E00800",
     "fg": "#FFFFFF",
     "mono": "e&"
    }
@@ -642,9 +642,9 @@
     "ar": "أحتاج جهة عمل تكفل تأشيرتي",
     "fr": "J'ai besoin qu'un employeur parraine mon visa",
     "sub": {
-     "en": "You are outside the UAE or on a visit visa.",
-     "ar": "أنت برّا الإمارات أو على تأشيرة زيارة.",
-     "fr": "Vous êtes hors des Émirats ou avec un visa de visite."
+     "en": "You are outside the UAE, or on a visit or job-seeker visa.",
+     "ar": "أنت برّا الإمارات، أو على تأشيرة زيارة أو تأشيرة بحث عن عمل.",
+     "fr": "Vous êtes hors des Émirats, ou avec un visa de visite ou de recherche d'emploi."
     }
    }
   ],
@@ -685,7 +685,7 @@
   "dob": "ask",
   "nationality": "ask",
   "marital": "none",
-  "notes": "Photo: common on CVs emailed to recruiters and on regional boards (Bayt, GulfTalent), but UAE CV guides advise leaving it off ATS uploads (Workday, LinkedIn Easy Apply); we offer it and never require it. Gender, date of birth and nationality are standard fields on UAE application forms and regional boards; nationality also drives visa handling and Emiratisation, and recruiters expect visa status on the CV. Marital status: sources conflict and it is not needed, so we do not ask. Decree-Law 33/2021 bans discrimination on sex, nationality, religion, etc., while treating Emiratisation measures as lawful, so we never filter on gender or age, only on work rights and Emirati-only postings."
+  "notes": "Photo: common on CVs emailed to recruiters and on regional boards (Bayt, GulfTalent), but UAE CV guides advise leaving it off ATS uploads (Workday, LinkedIn Easy Apply); we offer it and never require it. Gender, date of birth and nationality are standard fields on UAE application forms and regional boards; nationality also drives visa handling and Emiratisation, and recruiters expect visa status on the CV. Marital status: sources conflict and it is not needed, so we do not ask. Decree-Law 33/2021 (Art. 4) bans discrimination on race, colour, sex, religion, national or social origin or disability, while treating Emiratisation measures as lawful, so we never filter on gender or age, only on work rights and Emirati-only postings."
  },
  "legal": {
   "law": "UAE PDPL (Federal Decree-Law No. 45 of 2021); DIFC DP Law 2020 and ADGM DP Regulations 2021 apply in those free zones",

@@ -1,0 +1,268 @@
+{
+ "code": "OM",
+ "flag": "🇴🇲",
+ "name": {"en": "Oman", "ar": "عُمان", "fr": "Oman"},
+ "short": {"en": "Oman", "ar": "عُمان", "fr": "Oman"},
+ "in": {"en": "in Oman", "ar": "في عُمان", "fr": "à Oman"},
+ "dem": {"en": "Omani", "ar": "عُماني", "arf": "عُمانية", "fr": "omanais", "frf": "omanaise"},
+ "nationals": {"en": "Omani nationals", "ar": "المواطنون العُمانيون", "fr": "ressortissants omanais"},
+ "region": "gcc",
+ "workweek": "sun-thu",
+ "cities": [
+  {
+   "id": "muscat", "en": "Muscat", "ar": "مسقط", "fr": "Mascate",
+   "metro": {
+    "en": "Muscat covers Muscat Governorate: Ruwi, Qurum, Al Khuwair, Madinat Sultan Qaboos, Ghala, Bausher, Al Mawaleh and Seeb.",
+    "ar": "مسقط تشمل محافظة مسقط: روي والقرم والخوير ومدينة السلطان قابوس وغلا وبوشر والموالح والسيب.",
+    "fr": "Mascate couvre le gouvernorat de Mascate : Ruwi, Qurum, Al-Khuwair, Madinat Sultan Qaboos, Ghala, Bawshar, Al-Mawaleh et Seeb."
+   }
+  },
+  {
+   "id": "sohar", "en": "Sohar", "ar": "صحار", "fr": "Sohar",
+   "metro": {
+    "en": "Sohar covers Sohar city, Sohar Port and Freezone, and nearby Liwa and Saham.",
+    "ar": "صحار تشمل مدينة صحار وميناء صحار والمنطقة الحرة ولوى وصحم.",
+    "fr": "Sohar couvre la ville de Sohar, le port et la zone franche de Sohar, ainsi que Liwa et Saham."
+   }
+  },
+  {
+   "id": "salalah", "en": "Salalah", "ar": "صلالة", "fr": "Salalah",
+   "metro": {
+    "en": "Salalah covers Salalah city, Salalah Port, the Salalah Free Zone and Raysut.",
+    "ar": "صلالة تشمل مدينة صلالة وميناء صلالة والمنطقة الحرة بصلالة وريسوت.",
+    "fr": "Salalah couvre la ville de Salalah, le port de Salalah, la zone franche de Salalah et Raysut."
+   }
+  },
+  {
+   "id": "duqm", "en": "Duqm", "ar": "الدقم", "fr": "Duqm",
+   "metro": {
+    "en": "Duqm covers the Special Economic Zone at Duqm, with its port and refinery.",
+    "ar": "الدقم تشمل المنطقة الاقتصادية الخاصة بالدقم والميناء والمصفاة.",
+    "fr": "Duqm couvre la zone économique spéciale de Duqm, avec son port et sa raffinerie."
+   }
+  },
+  {
+   "id": "nizwa", "en": "Nizwa", "ar": "نزوى", "fr": "Nizwa",
+   "metro": {
+    "en": "Nizwa covers Nizwa city and nearby Bahla, Izki and Manah in Ad Dakhiliyah.",
+    "ar": "نزوى تشمل مدينة نزوى وبهلا وإزكي ومنح في محافظة الداخلية.",
+    "fr": "Nizwa couvre la ville de Nizwa et, à proximité, Bahla, Izki et Manah, dans le gouvernorat d'Ad-Dakhiliya."
+   }
+  },
+  {
+   "id": "sur", "en": "Sur", "ar": "صور", "fr": "Sour",
+   "metro": {
+    "en": "Sur covers Sur city and the Qalhat LNG complex in South Ash Sharqiyah.",
+    "ar": "صور تشمل مدينة صور ومجمع الغاز الطبيعي المسال في قلهات بمحافظة جنوب الشرقية.",
+    "fr": "Sour couvre la ville de Sour et le complexe GNL de Qalhat, dans le gouvernorat d'Ach-Charqiya Sud."
+   }
+  }
+ ],
+ "employers": [
+  {"id": "oq", "en": "OQ", "ar": "أوكيو", "fr": "OQ", "sector": "energy", "archetype": "national energy champion (integrated oil, gas and chemicals)", "city": "muscat", "logo": {"bg": "#4A2C8A", "fg": "#FFFFFF", "mono": "OQ"}},
+  {"id": "pdo", "en": "Petroleum Development Oman", "ar": "شركة تنمية نفط عُمان", "fr": "Petroleum Development Oman", "sector": "energy", "archetype": "largest oil and gas producer (state majority)", "city": "muscat", "logo": {"bg": "#B31B1B", "fg": "#FFFFFF", "mono": "PDO"}},
+  {"id": "oq8", "en": "OQ8", "ar": "أوكيو8", "fr": "OQ8", "sector": "energy", "archetype": "refinery joint venture (Duqm)", "city": "duqm", "logo": {"bg": "#2E3192", "fg": "#FFFFFF", "mono": "OQ8"}},
+  {"id": "bankmuscat", "en": "Bank Muscat", "ar": "بنك مسقط", "fr": "Bank Muscat", "sector": "bank", "archetype": "largest bank", "city": "muscat", "logo": {"bg": "#0B3C7D", "fg": "#FFFFFF", "mono": "BM"}},
+  {"id": "soharintl", "en": "Sohar International", "ar": "صحار الدولي", "fr": "Sohar International", "sector": "bank", "archetype": "major commercial bank (merged with HSBC Oman)", "city": "muscat", "logo": {"bg": "#0A2240", "fg": "#C9A227", "mono": "SI"}},
+  {"id": "bankdhofar", "en": "Bank Dhofar", "ar": "بنك ظفار", "fr": "Bank Dhofar", "sector": "bank", "archetype": "major commercial bank", "city": "muscat", "logo": {"bg": "#0057A8", "fg": "#FFFFFF", "mono": "BD"}},
+  {"id": "banknizwa", "en": "Bank Nizwa", "ar": "بنك نزوى", "fr": "Bank Nizwa", "sector": "bank", "archetype": "Islamic bank", "city": "muscat", "logo": {"bg": "#6D2077", "fg": "#FFFFFF", "mono": "BN"}},
+  {"id": "omantel", "en": "Omantel", "ar": "عمانتل", "fr": "Omantel", "sector": "telecom", "archetype": "telecom #1 (national operator)", "city": "muscat", "logo": {"bg": "#0080C6", "fg": "#FFFFFF", "mono": "OT"}},
+  {"id": "ooredoo", "en": "Ooredoo Oman", "ar": "أوريدو عُمان", "fr": "Ooredoo Oman", "sector": "telecom", "archetype": "telecom #2", "city": "muscat", "logo": {"bg": "#ED1C24", "fg": "#FFFFFF", "mono": "O"}},
+  {"id": "oia", "en": "Oman Investment Authority", "ar": "جهاز الاستثمار العُماني", "fr": "Oman Investment Authority", "sector": "sovereign", "archetype": "sovereign wealth fund", "city": "muscat", "logo": {"bg": "#1C3F60", "fg": "#FFFFFF", "mono": "OIA"}},
+  {"id": "pwc", "en": "PwC Oman", "ar": "PwC عُمان", "fr": "PwC Oman", "sector": "consulting", "archetype": "big-4 firm", "city": "muscat", "logo": {"bg": "#D04A02", "fg": "#FFFFFF", "mono": "PwC"}},
+  {"id": "khimji", "en": "Khimji Ramdas", "ar": "خيمجي رامداس", "fr": "Khimji Ramdas", "sector": "fmcg", "archetype": "FMCG distribution and retail conglomerate", "city": "muscat", "logo": {"bg": "#00539F", "fg": "#FFFFFF", "mono": "KR"}},
+  {"id": "lulu", "en": "Lulu Hypermarket", "ar": "لولو هايبرماركت", "fr": "Lulu Hypermarket", "sector": "retail", "archetype": "largest hypermarket chain", "city": "muscat", "logo": {"bg": "#00843D", "fg": "#FFFFFF", "mono": "LU"}},
+  {"id": "omanair", "en": "Oman Air", "ar": "الطيران العُماني", "fr": "Oman Air", "sector": "airline", "archetype": "national airline", "city": "muscat", "logo": {"bg": "#006A71", "fg": "#CBA35C", "mono": "WY"}},
+  {"id": "badralsamaa", "en": "Badr Al Samaa Hospitals", "ar": "مستشفيات بدر السماء", "fr": "Hôpitaux Badr Al Samaa", "sector": "healthcare", "archetype": "private hospital group", "city": "muscat", "logo": {"bg": "#0F6CB6", "fg": "#FFFFFF", "mono": "BS"}},
+  {"id": "dhofarinsurance", "en": "Dhofar Insurance", "ar": "ظفار للتأمين", "fr": "Dhofar Insurance", "sector": "insurance", "archetype": "insurer", "city": "muscat", "logo": {"bg": "#00599C", "fg": "#FFFFFF", "mono": "DI"}},
+  {"id": "omandatapark", "en": "Oman Data Park", "ar": "عُمان داتا بارك", "fr": "Oman Data Park", "sector": "tech", "archetype": "cloud and data-centre provider (Omantel group)", "city": "muscat", "logo": {"bg": "#00A3E0", "fg": "#FFFFFF", "mono": "ODP"}},
+  {"id": "thawani", "en": "Thawani", "ar": "ثواني", "fr": "Thawani", "sector": "fintech", "archetype": "payments fintech", "city": "muscat", "logo": {"bg": "#1B9C85", "fg": "#FFFFFF", "mono": "T"}},
+  {"id": "talabat", "en": "talabat", "ar": "طلبات", "fr": "talabat", "sector": "ecommerce", "archetype": "food-delivery app", "city": "muscat", "logo": {"bg": "#FF5A00", "fg": "#FFFFFF", "mono": "t"}},
+  {"id": "omran", "en": "Omran Group", "ar": "مجموعة عمران", "fr": "Omran Group", "sector": "realestate", "archetype": "tourism and integrated-community developer (state-owned)", "city": "muscat", "logo": {"bg": "#8C1D40", "fg": "#FFFFFF", "mono": "OG"}},
+  {"id": "msx", "en": "Muscat Stock Exchange", "ar": "بورصة مسقط", "fr": "Bourse de Mascate", "sector": "exchange", "archetype": "stock exchange", "city": "muscat", "logo": {"bg": "#00467F", "fg": "#FFFFFF", "mono": "MSX"}},
+  {"id": "soharaluminium", "en": "Sohar Aluminium", "ar": "صحار للألمنيوم", "fr": "Sohar Aluminium", "sector": "industrial", "archetype": "industrial (aluminium smelter)", "city": "sohar", "logo": {"bg": "#5E6A71", "fg": "#FFFFFF", "mono": "SA"}},
+  {"id": "cbo", "en": "Central Bank of Oman", "ar": "البنك المركزي العُماني", "fr": "Banque centrale d'Oman", "sector": "government", "archetype": "central bank (regulator)", "city": "muscat", "logo": {"bg": "#8C6D3F", "fg": "#FFFFFF", "mono": "CBO"}},
+  {"id": "asyad", "en": "Asyad Group", "ar": "مجموعة أسياد", "fr": "Asyad Group", "sector": "logistics", "archetype": "state logistics group (ports, shipping, rail)", "city": "muscat", "logo": {"bg": "#1D1D5E", "fg": "#FFFFFF", "mono": "AS"}}
+ ],
+ "sectorsCovered": {
+  "energy": ["oq", "pdo", "oq8"],
+  "largestBanks": ["bankmuscat", "soharintl", "bankdhofar"],
+  "islamicBank": ["banknizwa"],
+  "telecom1": ["omantel"],
+  "telecom2": ["ooredoo"],
+  "sovereign": ["oia"],
+  "big4": ["pwc"],
+  "fmcg": ["khimji"],
+  "retailer": ["lulu"],
+  "airline": ["omanair"],
+  "hospitalGroup": ["badralsamaa"],
+  "insurer": ["dhofarinsurance"],
+  "techScaleup": ["omandatapark"],
+  "fintech": ["thawani"],
+  "deliveryApp": ["talabat"],
+  "realEstate": ["omran"],
+  "stockExchange": ["msx"],
+  "industrial": ["soharaluminium"],
+  "government": ["cbo", "asyad"]
+ },
+ "sal": {
+  "per": "month",
+  "f": 0.06,
+  "basis": "Omani pay is quoted monthly in OMR and is tax-free today (a 5% personal income tax on income above OMR 42,000 a year starts in 2028, Royal Decree 56/2025, as I recall; it would not touch this band). Estimate, not checked against a 2026 salary guide in this run (web search budget used up, page fetches blocked): Senior Financial Analyst / FP&A, ~8 yrs, Muscat, about OMR 1,200-1,800 a month total package for expats; Omani nationals at banks, OQ/PDO and state-owned groups about OMR 1,500-2,300. f = 0.06 maps Noura's 26,000 SAR to OMR 1,560 (Salim's current pay) and the v5 band 34-41k SAR to OMR 2,040-2,460, the upper part of the Omani-national range. At the currency rate alone (1 SAR = ~0.1025 OMR, both pegged to the USD) f would be 0.1025; Muscat pays well below Riyadh for this role, so f is lower. Keep f within 0.05-0.07 when a guide is checked."
+ },
+ "tax": {
+  "incl": true,
+  "rate": 5,
+  "label": {"en": "VAT included", "ar": "شامل ضريبة القيمة المضافة", "fr": "TVA incluse"}
+ },
+ "pay": {
+  "wallets": ["apple"],
+  "methods": [
+   {
+    "id": "card",
+    "label": {"en": "Card", "ar": "بطاقة", "fr": "Carte"},
+    "sub": {"en": "Visa, Mastercard", "ar": "Visa أو Mastercard", "fr": "Visa, Mastercard"},
+    "brands": ["visa", "mc"]
+   },
+   {
+    "id": "omannet",
+    "label": {"en": "OmanNet", "ar": "عُمان نت", "fr": "OmanNet"},
+    "sub": {"en": "Pay with your Omani bank debit card", "ar": "ادفع ببطاقة الخصم من بنكك العُماني", "fr": "Payez avec la carte de débit de votre banque omanaise"},
+    "brands": ["omannet"],
+    "recurring": false
+   }
+  ],
+  "bnpl": [],
+  "localCardBrand": "OmanNet"
+ },
+ "phone": {"cc": "+968", "ex": "+968 9123 4567"},
+ "rights": {
+  "q": {"en": "Your right to work in Oman", "ar": "أهليتك للعمل في عُمان", "fr": "Votre droit de travailler à Oman"},
+  "opts": [
+   {
+    "en": "Omani or GCC national", "ar": "مواطن عُماني أو خليجي", "fr": "Ressortissant omanais ou du CCG",
+    "sub": {"en": "No visa or sponsor needed", "ar": "ما تحتاج تأشيرة ولا كفيل", "fr": "Aucun visa ni parrainage nécessaire"}
+   },
+   {
+    "en": "Work visa through my employer", "ar": "تأشيرة عمل عن طريق جهة عملي", "fr": "Visa de travail via mon employeur",
+    "sub": {
+     "en": "You can move to a new employer when your contract ends or after proper notice, with no NOC. The new employer transfers your work permit.",
+     "ar": "تقدر تنتقل لجهة عمل جديدة لما ينتهي عقدك أو بعد الإشعار، بدون شهادة عدم ممانعة، وجهة العمل الجديدة تنقل تصريح عملك عليها.",
+     "fr": "Vous pouvez rejoindre un nouvel employeur à la fin de votre contrat ou après un préavis en bonne et due forme, sans NOC. Le nouvel employeur reprend votre permis de travail."
+    }
+   },
+   {
+    "en": "Family-sponsored residence", "ar": "إقامة على كفالة العائلة", "fr": "Résidence parrainée par la famille",
+    "sub": {
+     "en": "Sponsored by a spouse or parent. To take a job, your employer needs to arrange your work permit and visa.",
+     "ar": "على كفالة الزوج أو أحد الوالدين، وعشان تشتغل لازم جهة العمل ترتّب لك تصريح العمل والتأشيرة.",
+     "fr": "Parrainée par votre conjoint ou un parent. Pour prendre un emploi, votre employeur doit obtenir votre permis de travail et votre visa."
+    }
+   },
+   {
+    "en": "I need an employer to sponsor my work visa", "ar": "أحتاج جهة عمل تكفل تأشيرة عملي", "fr": "J'ai besoin qu'un employeur parraine mon visa de travail",
+    "sub": {"en": "You are outside Oman or on a visit visa.", "ar": "أنت برّا عُمان أو على تأشيرة زيارة.", "fr": "Vous êtes hors d'Oman ou avec un visa de visite."}
+   }
+  ],
+  "autoFor": ["OM", "SA", "AE", "QA", "KW", "BH"],
+  "autoText": {
+   "en": "Omani and GCC nationals can work in Oman without visa sponsorship.",
+   "ar": "مواطنو عُمان ودول الخليج يقدرون يشتغلون في عُمان بدون كفالة تأشيرة.",
+   "fr": "Les ressortissants omanais et du CCG peuvent travailler à Oman sans parrainage de visa."
+  },
+  "rule": {
+   "en": "We skip roles reserved for Omanis, including job titles closed to expatriates, unless you are Omani. If you need a new work visa, we also skip roles that only take candidates already in Oman.",
+   "ar": "نتخطّى الوظائف المخصّصة للعمانيين، ومنها المهن المقصورة عليهم، إلا إذا كنت عُماني الجنسية. وإذا تحتاج تأشيرة عمل جديدة، نتخطّى بعد الوظائف اللي تطلب مرشحين داخل عُمان.",
+   "fr": "Nous écartons les postes réservés aux Omanais, y compris les métiers fermés aux expatriés, si vous n'avez pas la nationalité omanaise. Si vous avez besoin d'un nouveau visa de travail, nous écartons aussi les offres réservées aux candidats déjà à Oman."
+  }
+ },
+ "nationalisation": {
+  "name": {"en": "Omanisation", "ar": "التعمين", "fr": "Omanisation"},
+  "desc": {
+   "en": "Private employers must keep a minimum share of Omani staff, set by sector and highest in banking, and Ministry of Labour decisions reserve a list of job titles for Omanis only. We only apply to roles marked Omanis only if you are Omani.",
+   "ar": "الشركات الخاصة لازم تحافظ على نسبة محددة من الموظفين العمانيين حسب القطاع، وأعلاها في البنوك، وقرارات وزارة العمل تقصر قائمة من المهن على العمانيين فقط. وما نقدّم على الوظائف المخصصة للعمانيين إلا إذا كنت عُماني الجنسية.",
+   "fr": "Les employeurs privés doivent maintenir une part minimale de salariés omanais, fixée par secteur et la plus élevée dans la banque, et des décisions du ministère du Travail réservent une liste de métiers aux seuls Omanais. Nous ne postulons aux offres réservées aux Omanais que si vous avez la nationalité omanaise."
+  }
+ },
+ "sensitive": {
+  "photo": "optional",
+  "gender": "ask",
+  "dob": "ask",
+  "nationality": "ask",
+  "marital": "none",
+  "notes": "Photo: common on Omani and Gulf CVs emailed to recruiters, but not needed on ATS portals; we offer it, never require it, and only send it where a form asks. Gender, date of birth and nationality are standard fields on Omani employer portals (OQ, PDO, banks, Oman Air) and on Bayt and GulfTalent profiles. Nationality also drives Omanisation (Omani-only adverts and job titles closed to expatriates) and work-permit handling. Marital status appears on some Omani CVs and on government forms but is not needed for matching, so we do not ask (conservative; Oman's PDPL, Royal Decree 6/2022, expects data minimisation and treats health, religion and similar data as sensitive). The civil number or resident card number is collected by employers at offer stage, never by us. We never filter on gender or age, only on work rights and Omani-only postings. From general knowledge; not re-verified in this run."
+ },
+ "legal": {
+  "law": "Oman Personal Data Protection Law (Royal Decree No. 6/2022) and its Executive Regulations (Ministerial Decision No. 34/2024); consumer terms under the Consumer Protection Law (Royal Decree No. 66/2014)",
+  "privacy": {
+   "en": "Your data is protected under Oman's Personal Data Protection Law (Royal Decree 6/2022). We never share it without your consent.",
+   "ar": "بياناتك محمية بموجب قانون حماية البيانات الشخصية في عُمان، وما نشاركها بدون موافقتك.",
+   "fr": "Vos données sont protégées par la loi omanaise sur la protection des données personnelles (décret royal 6/2022). Nous ne les partageons jamais sans votre accord."
+  },
+  "renewal": {
+   "en": "Plans paid by card or Apple Pay renew automatically at the same price; with OmanNet you renew by paying again. Cancel anytime before the renewal date and you are not charged again.",
+   "ar": "الباقات المدفوعة بالبطاقة أو Apple Pay تتجدد تلقائياً بنفس السعر، ومع عُمان نت تجدّد بدفعة جديدة. ألغِ في أي وقت قبل تاريخ التجديد وما ينخصم منك شي مرة ثانية.",
+   "fr": "Les abonnements payés par carte ou Apple Pay se renouvellent automatiquement au même prix ; avec OmanNet, vous renouvelez en payant à nouveau. Résiliez à tout moment avant la date de renouvellement et vous ne serez plus prélevé."
+  }
+ },
+ "boards": ["LinkedIn", "Bayt", "GulfTalent", "Naukrigulf", "Indeed"],
+ "lang2": {"en": "Arabic", "ar": "العربية", "fr": "arabe"},
+ "certs": [
+  {"id": "acca", "en": "ACCA", "ar": "ACCA", "fr": "ACCA"},
+  {"id": "cma", "en": "CMA", "ar": "CMA", "fr": "CMA"},
+  {"id": "cpa", "en": "CPA", "ar": "CPA", "fr": "CPA"},
+  {"id": "cfa", "en": "CFA", "ar": "CFA", "fr": "CFA"}
+ ],
+ "unis": [
+  {"id": "squ", "en": "Sultan Qaboos University", "ar": "جامعة السلطان قابوس", "fr": "Université Sultan Qaboos"},
+  {"id": "cbfs", "en": "College of Banking and Financial Studies", "ar": "كلية الدراسات المصرفية والمالية", "fr": "Collège des études bancaires et financières"},
+  {"id": "soharuni", "en": "Sohar University", "ar": "جامعة صحار", "fr": "Université de Sohar"}
+ ],
+ "govPlatforms": [
+  {"id": "mol", "en": "Ministry of Labour", "ar": "وزارة العمل", "fr": "ministère du Travail",
+   "use": {"en": "Work permits, job transfers and Omanisation, and job-seeker registration for Omanis", "ar": "تصاريح العمل ونقل الخدمات والتعمين، وتسجيل الباحثين عن عمل من العمانيين", "fr": "Permis de travail, changements d'employeur et omanisation, et inscription des demandeurs d'emploi omanais"}},
+  {"id": "spf", "en": "Social Protection Fund", "ar": "صندوق الحماية الاجتماعية", "fr": "Fonds de protection sociale",
+   "use": {"en": "Omanis' official employment and salary record", "ar": "سجل العمانيين الرسمي للعمل والراتب", "fr": "Historique officiel d'emploi et de salaire des Omanais"}},
+  {"id": "rop", "en": "Royal Oman Police", "ar": "شرطة عُمان السلطانية", "fr": "Police royale d'Oman",
+   "use": {"en": "Residence cards and visas", "ar": "بطاقات الإقامة والتأشيرات", "fr": "Cartes de résident et visas"}}
+ ],
+ "persona": {
+  "first": "Salim",
+  "last": "Al-Busaidi",
+  "gender": "m",
+  "nat": "OM",
+  "city": "muscat",
+  "ar": {"first": "سالم", "last": "البوسعيدي"},
+  "email": "salim.albusaidi@email.com",
+  "phone": "+968 9123 4567",
+  "title": {"en": "Financial Analyst", "ar": "محلل مالي", "fr": "Analyste financier"},
+  "years": 8,
+  "employer": {"en": "Daymaniyat Holding", "ar": "الديمانيات القابضة", "fr": "Daymaniyat Holding"},
+  "employer2": {"en": "Daymaniyat Logistics", "ar": "الديمانيات للخدمات اللوجستية", "fr": "Daymaniyat Logistics"},
+  "degree": {"en": "BSc Accounting", "ar": "بكالوريوس محاسبة", "fr": "Licence en comptabilité"},
+  "uni": "squ",
+  "cert": "acca",
+  "tools": "SAP, Excel, Power BI",
+  "bio": {
+   "en": "Financial Analyst with 8 years in Muscat. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I set up the group's VAT reporting when Oman introduced VAT in 2021. I am looking for a Senior Financial Analyst or FP&A role in Muscat, Sohar, or remote.",
+   "ar": "محلل مالي بخبرة 8 سنوات في مسقط. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات اللي قلّصت وقت التقارير بالثلث، وأسّست تقارير ضريبة القيمة المضافة للمجموعة لما طبّقت عُمان الضريبة في 2021. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في مسقط أو صحار أو عن بُعد.",
+   "fr": "Analyste financier avec 8 ans d'expérience à Mascate. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et j'ai monté le reporting TVA du groupe lors de l'introduction de la TVA à Oman en 2021. Je recherche un poste d'analyste financier senior ou en FP&A à Mascate, à Sohar ou en télétravail."
+  }
+ },
+ "people": [
+  {"first": "Aisha", "last": "Al-Balushi", "gender": "f", "ar": {"first": "عائشة", "last": "البلوشي"}},
+  {"first": "Khalid", "last": "Al-Harthy", "gender": "m", "ar": {"first": "خالد", "last": "الحارثي"}},
+  {"first": "Maryam", "last": "Al-Hinai", "gender": "f", "ar": {"first": "مريم", "last": "الهنائي"}},
+  {"first": "Ahmed", "last": "Al-Rawahi", "gender": "m", "ar": {"first": "أحمد", "last": "الرواحي"}},
+  {"first": "Fatma", "last": "Al-Riyami", "gender": "f", "ar": {"first": "فاطمة", "last": "الريامي"}},
+  {"first": "Said", "last": "Al-Maamari", "gender": "m", "ar": {"first": "سعيد", "last": "المعمري"}},
+  {"first": "Muna", "last": "Al-Lawati", "gender": "f", "ar": {"first": "منى", "last": "اللواتي"}},
+  {"first": "Hamed", "last": "Al-Saadi", "gender": "m", "ar": {"first": "حامد", "last": "السعدي"}},
+  {"first": "Priya", "last": "Menon", "gender": "f", "ar": {"first": "بريا", "last": "مينون"}},
+  {"first": "Tariq", "last": "Al-Kindi", "gender": "m", "ar": {"first": "طارق", "last": "الكندي"}}
+ ],
+ "culture": {
+  "notes": "Work week Sunday to Thursday (Friday-Saturday weekend since 2013); copy should use Sun-Thu days for interviews and deadlines. Salaries are quoted monthly in OMR (3 decimals, 1,000 baisa), tax-free for now, and paid monthly through the Wage Protection System; offers usually split basic pay and allowances (housing, transport). A 5% personal income tax on income above OMR 42,000 a year is due from 2028, so copy must not promise 'tax-free' beyond 2027. Notice: the Labour Law (Royal Decree 53/2023) sets at least 30 days' notice for monthly-paid staff unless the contract says more; 30 days is the safe default, and senior finance contracts often say 60-90. Since 2021 expats no longer need an NOC to change employers once a contract has ended or been ended correctly. Muslim staff work shorter hours in Ramadan (about 6 a day). CVs: 2 pages, English (Arabic for government and some state-owned roles), with a personal block: nationality ('Omani national' up front), visa or residence status for expats, often date of birth and a photo. Cover letters are rarely required; portals ask screening questions instead. Many bank, energy and state-owned finance roles are Omani-only or Omani-preferred, and some job titles are closed to expatriates by Ministry of Labour decision. English is the working language in banks, oil and gas and listed groups; Arabic matters in government. From general knowledge; see OM.sources.md for what still needs verifying."
+ },
+ "noticeDays": 30
+}

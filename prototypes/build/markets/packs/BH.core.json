@@ -1,0 +1,930 @@
+{
+ "code": "BH",
+ "flag": "🇧🇭",
+ "name": {
+  "en": "Bahrain",
+  "ar": "البحرين",
+  "fr": "Bahreïn"
+ },
+ "short": {
+  "en": "Bahrain",
+  "ar": "البحرين",
+  "fr": "Bahreïn"
+ },
+ "in": {
+  "en": "in Bahrain",
+  "ar": "في البحرين",
+  "fr": "à Bahreïn"
+ },
+ "dem": {
+  "en": "Bahraini",
+  "ar": "بحريني",
+  "arf": "بحرينية",
+  "fr": "bahreïnien",
+  "frf": "bahreïnienne"
+ },
+ "nationals": {
+  "en": "Bahraini nationals",
+  "ar": "المواطنون البحرينيون",
+  "fr": "ressortissants bahreïniens"
+ },
+ "region": "gcc",
+ "workweek": "sun-thu",
+ "cities": [
+  {
+   "id": "manama",
+   "en": "Manama",
+   "ar": "المنامة",
+   "fr": "Manama",
+   "metro": {
+    "en": "Manama covers Bahrain Financial Harbour, Bahrain Bay, the Diplomatic Area, Seef, Sanabis and Juffair.",
+    "ar": "المنامة تشمل مرفأ البحرين المالي، وخليج البحرين، والمنطقة الدبلوماسية، والسيف، والسنابس، والجفير.",
+    "fr": "Manama couvre le Bahrain Financial Harbour, Bahrain Bay, le quartier diplomatique, Seef, Sanabis et Juffair."
+   }
+  },
+  {
+   "id": "muharraq",
+   "en": "Muharraq",
+   "ar": "المحرق",
+   "fr": "Muharraq",
+   "metro": {
+    "en": "Muharraq covers Bahrain International Airport, Arad, Busaiteen, Hidd and Diyar Al Muharraq.",
+    "ar": "المحرق تشمل مطار البحرين الدولي، وعراد، والبسيتين، والحد، وديار المحرق.",
+    "fr": "Muharraq couvre l'aéroport international de Bahreïn, Arad, Busaiteen, Hidd et Diyar Al Muharraq."
+   }
+  },
+  {
+   "id": "sitra",
+   "en": "Sitra",
+   "ar": "سترة",
+   "fr": "Sitra",
+   "metro": {
+    "en": "Sitra covers the Bapco refinery, GPIC, the Sitra industrial area and Ma'ameer.",
+    "ar": "سترة تشمل مصفاة بابكو، وجيبك، والمنطقة الصناعية في سترة، والمعامير.",
+    "fr": "Sitra couvre la raffinerie de Bapco, GPIC, la zone industrielle de Sitra et Ma'ameer."
+   }
+  },
+  {
+   "id": "awali",
+   "en": "Awali",
+   "ar": "عوالي",
+   "fr": "Awali",
+   "metro": {
+    "en": "Awali, near Riffa, is the oil town built around Bapco and the Bahrain Field.",
+    "ar": "عوالي، قرب الرفاع، مدينة النفط اللي انبنت حول بابكو وحقل البحرين.",
+    "fr": "Awali, près de Riffa, est la ville pétrolière bâtie autour de Bapco et du champ pétrolier de Bahreïn."
+   }
+  },
+  {
+   "id": "askar",
+   "en": "Askar",
+   "ar": "عسكر",
+   "fr": "Askar",
+   "metro": {
+    "en": "Askar, on the east coast south of Sitra, is home to the Alba aluminium smelter.",
+    "ar": "عسكر، على الساحل الشرقي جنوب سترة، فيها مصهر ألبا للألمنيوم.",
+    "fr": "Askar, sur la côte est au sud de Sitra, accueille la fonderie d'aluminium d'Alba."
+   }
+  },
+  {
+   "id": "riffa",
+   "en": "Riffa",
+   "ar": "الرفاع",
+   "fr": "Riffa",
+   "metro": {
+    "en": "Riffa covers East Riffa, West Riffa and Riffa Views.",
+    "ar": "الرفاع تشمل الرفاع الشرقي، والرفاع الغربي، ورفاع فيوز.",
+    "fr": "Riffa couvre Riffa Est, Riffa Ouest et Riffa Views."
+   }
+  },
+  {
+   "id": "isatown",
+   "en": "Isa Town",
+   "ar": "مدينة عيسى",
+   "fr": "Isa Town",
+   "metro": {
+    "en": "Isa Town covers the city, Bahrain Polytechnic and nearby Tubli and Salmabad.",
+    "ar": "مدينة عيسى تشمل المدينة، وبوليتكنك البحرين، وتوبلي وسلماباد القريبة.",
+    "fr": "Isa Town couvre la ville, Bahrain Polytechnic et les quartiers voisins de Tubli et Salmabad."
+   }
+  }
+ ],
+ "employers": [
+  {
+   "id": "bapco",
+   "en": "Bapco Energies",
+   "ar": "بابكو للطاقة",
+   "fr": "Bapco Energies",
+   "sector": "energy",
+   "archetype": "national energy champion (oil, gas and refining)",
+   "city": "awali",
+   "logo": {
+    "bg": "#00205B",
+    "fg": "#FFFFFF",
+    "mono": "BE"
+   }
+  },
+  {
+   "id": "alba",
+   "en": "Alba",
+   "ar": "ألبا",
+   "fr": "Alba",
+   "sector": "industrial",
+   "archetype": "aluminium smelter (one of the world's largest)",
+   "city": "askar",
+   "logo": {
+    "bg": "#0057A8",
+    "fg": "#FFFFFF",
+    "mono": "A"
+   }
+  },
+  {
+   "id": "nbb",
+   "en": "National Bank of Bahrain",
+   "ar": "بنك البحرين الوطني",
+   "fr": "National Bank of Bahrain",
+   "sector": "bank",
+   "archetype": "major retail bank (majority owner of Bahrain Islamic Bank)",
+   "city": "manama",
+   "logo": {
+    "bg": "#C8102E",
+    "fg": "#FFFFFF",
+    "mono": "NBB"
+   }
+  },
+  {
+   "id": "bbk",
+   "en": "BBK",
+   "ar": "بنك البحرين والكويت",
+   "fr": "BBK",
+   "sector": "bank",
+   "archetype": "major commercial bank (owns CrediMax)",
+   "city": "manama",
+   "logo": {
+    "bg": "#00447C",
+    "fg": "#FFFFFF",
+    "mono": "BBK"
+   }
+  },
+  {
+   "id": "bankabc",
+   "en": "Bank ABC",
+   "ar": "بنك ABC",
+   "fr": "Bank ABC",
+   "sector": "bank",
+   "archetype": "international wholesale bank (group HQ)",
+   "city": "manama",
+   "logo": {
+    "bg": "#E4002B",
+    "fg": "#FFFFFF",
+    "mono": "ABC"
+   }
+  },
+  {
+   "id": "bisb",
+   "en": "Bahrain Islamic Bank",
+   "ar": "بنك البحرين الإسلامي",
+   "fr": "Bahrain Islamic Bank",
+   "sector": "bank",
+   "archetype": "Islamic bank (NBB group)",
+   "city": "manama",
+   "logo": {
+    "bg": "#00843D",
+    "fg": "#FFFFFF",
+    "mono": "BisB"
+   }
+  },
+  {
+   "id": "alsalam",
+   "en": "Al Salam Bank",
+   "ar": "مصرف السلام",
+   "fr": "Al Salam Bank",
+   "sector": "bank",
+   "archetype": "major Islamic bank",
+   "city": "manama",
+   "logo": {
+    "bg": "#5B2C83",
+    "fg": "#FFFFFF",
+    "mono": "ASB"
+   }
+  },
+  {
+   "id": "investcorp",
+   "en": "Investcorp",
+   "ar": "إنفستكورب",
+   "fr": "Investcorp",
+   "sector": "investment",
+   "archetype": "alternative investment firm (founded in Bahrain)",
+   "city": "manama",
+   "logo": {
+    "bg": "#00263E",
+    "fg": "#FFFFFF",
+    "mono": "IC"
+   }
+  },
+  {
+   "id": "batelco",
+   "en": "Batelco",
+   "ar": "بتلكو",
+   "fr": "Batelco",
+   "sector": "telecom",
+   "archetype": "telecom #1 (Beyon group)",
+   "city": "manama",
+   "logo": {
+    "bg": "#E30613",
+    "fg": "#FFFFFF",
+    "mono": "B"
+   }
+  },
+  {
+   "id": "stc",
+   "en": "stc Bahrain",
+   "ar": "stc البحرين",
+   "fr": "stc Bahrain",
+   "sector": "telecom",
+   "archetype": "telecom #2",
+   "city": "manama",
+   "logo": {
+    "bg": "#4F008C",
+    "fg": "#FFFFFF",
+    "mono": "stc"
+   }
+  },
+  {
+   "id": "mumtalakat",
+   "en": "Mumtalakat",
+   "ar": "ممتلكات البحرين القابضة",
+   "fr": "Mumtalakat",
+   "sector": "sovereign",
+   "archetype": "sovereign wealth fund",
+   "city": "manama",
+   "logo": {
+    "bg": "#0F4C5C",
+    "fg": "#FFFFFF",
+    "mono": "M"
+   }
+  },
+  {
+   "id": "kpmg",
+   "en": "KPMG Fakhro",
+   "ar": "كي بي إم جي فخرو",
+   "fr": "KPMG Fakhro",
+   "sector": "consulting",
+   "archetype": "big-4 firm",
+   "city": "manama",
+   "logo": {
+    "bg": "#00338D",
+    "fg": "#FFFFFF",
+    "mono": "KPMG"
+   }
+  },
+  {
+   "id": "bmmi",
+   "en": "BMMI",
+   "ar": "بي إم إم آي",
+   "fr": "BMMI",
+   "sector": "fmcg",
+   "archetype": "food and consumer-goods distributor (Alosra supermarkets)",
+   "city": "manama",
+   "logo": {
+    "bg": "#003F87",
+    "fg": "#FFFFFF",
+    "mono": "BMMI"
+   }
+  },
+  {
+   "id": "jawad",
+   "en": "Jawad Business Group",
+   "ar": "مجموعة جواد",
+   "fr": "Jawad Business Group",
+   "sector": "retail",
+   "archetype": "retail and franchise group",
+   "city": "manama",
+   "logo": {
+    "bg": "#B5121B",
+    "fg": "#FFFFFF",
+    "mono": "J"
+   }
+  },
+  {
+   "id": "gulfair",
+   "en": "Gulf Air",
+   "ar": "طيران الخليج",
+   "fr": "Gulf Air",
+   "sector": "airline",
+   "archetype": "national airline",
+   "city": "muharraq",
+   "logo": {
+    "bg": "#6D1A36",
+    "fg": "#D4AF37",
+    "mono": "GF"
+   }
+  },
+  {
+   "id": "amh",
+   "en": "American Mission Hospital",
+   "ar": "مستشفى الإرسالية الأمريكية",
+   "fr": "American Mission Hospital",
+   "sector": "healthcare",
+   "archetype": "private hospital group",
+   "city": "manama",
+   "logo": {
+    "bg": "#005EB8",
+    "fg": "#FFFFFF",
+    "mono": "AMH"
+   }
+  },
+  {
+   "id": "solidarity",
+   "en": "Solidarity Bahrain",
+   "ar": "سوليدرتي البحرين",
+   "fr": "Solidarity Bahrain",
+   "sector": "insurance",
+   "archetype": "takaful insurer",
+   "city": "manama",
+   "logo": {
+    "bg": "#00A0AF",
+    "fg": "#FFFFFF",
+    "mono": "S"
+   }
+  },
+  {
+   "id": "calo",
+   "en": "Calo",
+   "ar": "كالو",
+   "fr": "Calo",
+   "sector": "tech",
+   "archetype": "tech scale-up (meal-plan app, founded in Bahrain)",
+   "city": "manama",
+   "logo": {
+    "bg": "#1E9E5A",
+    "fg": "#FFFFFF",
+    "mono": "C"
+   }
+  },
+  {
+   "id": "benefit",
+   "en": "BENEFIT",
+   "ar": "بنفت",
+   "fr": "BENEFIT",
+   "sector": "fintech",
+   "archetype": "national e-payments company (BenefitPay)",
+   "city": "manama",
+   "logo": {
+    "bg": "#D71920",
+    "fg": "#FFFFFF",
+    "mono": "BF"
+   }
+  },
+  {
+   "id": "talabat",
+   "en": "talabat",
+   "ar": "طلبات",
+   "fr": "talabat",
+   "sector": "ecommerce",
+   "archetype": "food-delivery app",
+   "city": "manama",
+   "logo": {
+    "bg": "#FF5A00",
+    "fg": "#FFFFFF",
+    "mono": "t"
+   }
+  },
+  {
+   "id": "diyar",
+   "en": "Diyar Al Muharraq",
+   "ar": "ديار المحرق",
+   "fr": "Diyar Al Muharraq",
+   "sector": "realestate",
+   "archetype": "master developer (Diyar Al Muharraq islands)",
+   "city": "muharraq",
+   "logo": {
+    "bg": "#1D4E89",
+    "fg": "#FFFFFF",
+    "mono": "DM"
+   }
+  },
+  {
+   "id": "bahrainbourse",
+   "en": "Bahrain Bourse",
+   "ar": "بورصة البحرين",
+   "fr": "Bahrain Bourse",
+   "sector": "exchange",
+   "archetype": "stock exchange",
+   "city": "manama",
+   "logo": {
+    "bg": "#8A1538",
+    "fg": "#FFFFFF",
+    "mono": "BHB"
+   }
+  },
+  {
+   "id": "cbb",
+   "en": "Central Bank of Bahrain",
+   "ar": "مصرف البحرين المركزي",
+   "fr": "Banque centrale de Bahreïn",
+   "sector": "government",
+   "archetype": "central bank and financial regulator",
+   "city": "manama",
+   "logo": {
+    "bg": "#7A1E2C",
+    "fg": "#FFFFFF",
+    "mono": "CBB"
+   }
+  },
+  {
+   "id": "edb",
+   "en": "Bahrain Economic Development Board",
+   "ar": "مجلس التنمية الاقتصادية",
+   "fr": "Bahrain Economic Development Board",
+   "sector": "government",
+   "archetype": "government investment promotion agency",
+   "city": "manama",
+   "logo": {
+    "bg": "#CE1126",
+    "fg": "#FFFFFF",
+    "mono": "EDB"
+   }
+  }
+ ],
+ "sectorsCovered": {
+  "energy": [
+   "bapco"
+  ],
+  "largestBanks": [
+   "nbb",
+   "bbk",
+   "bankabc"
+  ],
+  "islamicBank": [
+   "bisb",
+   "alsalam"
+  ],
+  "telecom1": [
+   "batelco"
+  ],
+  "telecom2": [
+   "stc"
+  ],
+  "sovereign": [
+   "mumtalakat"
+  ],
+  "big4": [
+   "kpmg"
+  ],
+  "fmcg": [
+   "bmmi"
+  ],
+  "retailer": [
+   "jawad"
+  ],
+  "airline": [
+   "gulfair"
+  ],
+  "hospitalGroup": [
+   "amh"
+  ],
+  "insurer": [
+   "solidarity"
+  ],
+  "techScaleup": [
+   "calo"
+  ],
+  "fintech": [
+   "benefit"
+  ],
+  "deliveryApp": [
+   "talabat"
+  ],
+  "realEstate": [
+   "diyar"
+  ],
+  "stockExchange": [
+   "bahrainbourse"
+  ],
+  "industrial": [
+   "alba"
+  ],
+  "government": [
+   "cbb",
+   "edb"
+  ],
+  "extra": [
+   "investcorp"
+  ]
+ },
+ "sal": {
+  "per": "month",
+  "f": 0.05,
+  "basis": "Bahrain pay is quoted monthly in BHD, tax-free (no personal income tax; Bahrainis pay social-insurance contributions through SIO), as a package (basic + housing and transport allowances). Estimate from general knowledge, not checked against a 2026 salary guide in this run (web search budget used up, page fetches failed): Senior Financial Analyst / Senior FP&A, ~8 yrs, Manama, about BHD 1,100-1,600 a month for expats at banks and large groups, and about BHD 1,300-2,000 for Bahraini nationals at banks, Bapco Energies, Alba, Mumtalakat companies and the CBB. f = 0.05 maps Noura's 26,000 SAR to BHD 1,300 (Fatema's current pay) and the v5 band 34-41k SAR to BHD 1,700-2,050, the upper part of the Bahraini-national range, the same reading as the v5 KSA band. At the exchange rate alone (1 BHD = ~9.97 SAR, both USD-pegged) f would be 0.10; Bahrain pays much less than Riyadh's top employers for this role, so f is half that. Plausible range for f: 0.04-0.06."
+ },
+ "tax": {
+  "incl": true,
+  "rate": 10,
+  "label": {
+   "en": "VAT included",
+   "ar": "شامل ضريبة القيمة المضافة",
+   "fr": "TVA incluse"
+  }
+ },
+ "pay": {
+  "wallets": [
+   "apple"
+  ],
+  "methods": [
+   {
+    "id": "benefitpay",
+    "label": {
+     "en": "BenefitPay",
+     "ar": "بنفت باي",
+     "fr": "BenefitPay"
+    },
+    "sub": {
+     "en": "Pay in the BenefitPay app or with your BENEFIT debit card",
+     "ar": "ادفع من تطبيق بنفت باي أو ببطاقة بنفت من بنكك",
+     "fr": "Payez dans l'application BenefitPay ou avec votre carte de débit BENEFIT"
+    },
+    "brands": [
+     "benefit"
+    ],
+    "recurring": false
+   },
+   {
+    "id": "card",
+    "label": {
+     "en": "Card",
+     "ar": "بطاقة",
+     "fr": "Carte"
+    },
+    "sub": {
+     "en": "Visa, Mastercard, Amex",
+     "ar": "Visa أو Mastercard أو Amex",
+     "fr": "Visa, Mastercard, Amex"
+    },
+    "brands": [
+     "visa",
+     "mc",
+     "amex"
+    ]
+   }
+  ],
+  "bnpl": [],
+  "localCardBrand": "BENEFIT"
+ },
+ "phone": {
+  "cc": "+973",
+  "ex": "+973 3612 3456"
+ },
+ "rights": {
+  "q": {
+   "en": "Your right to work in Bahrain",
+   "ar": "أهليتك للعمل في البحرين",
+   "fr": "Votre droit de travailler à Bahreïn"
+  },
+  "opts": [
+   {
+    "en": "Bahraini or GCC national",
+    "ar": "مواطن بحريني أو خليجي",
+    "fr": "Ressortissant bahreïnien ou du CCG",
+    "sub": {
+     "en": "No visa or sponsor needed",
+     "ar": "ما تحتاج تأشيرة ولا كفيل",
+     "fr": "Aucun visa ni parrainage nécessaire"
+    }
+   },
+   {
+    "en": "Work permit through my employer",
+    "ar": "تصريح عمل عن طريق جهة عملي",
+    "fr": "Permis de travail via mon employeur",
+    "sub": {
+     "en": "Your new employer applies for a new work permit through LMRA. Moving in your first year can need your current employer's consent.",
+     "ar": "جهة العمل الجديدة تطلّع لك تصريح عمل جديد عن طريق هيئة تنظيم سوق العمل، والانتقال في أول سنة ممكن يحتاج موافقة جهة عملك الحالية.",
+     "fr": "Votre nouvel employeur demande un nouveau permis de travail auprès de la LMRA. Un changement pendant votre première année peut nécessiter l'accord de votre employeur actuel."
+    }
+   },
+   {
+    "en": "Family-sponsored residence",
+    "ar": "إقامة على كفالة العائلة",
+    "fr": "Résidence parrainée par la famille",
+    "sub": {
+     "en": "Sponsored by a spouse or parent. Your employer gets you a work permit from LMRA.",
+     "ar": "على كفالة الزوج أو أحد الوالدين. جهة العمل تطلّع لك تصريح عمل من هيئة تنظيم سوق العمل.",
+     "fr": "Parrainée par votre conjoint ou un parent. Votre employeur obtient pour vous un permis de travail auprès de la LMRA."
+    }
+   },
+   {
+    "en": "Golden Residency",
+    "ar": "الإقامة الذهبية",
+    "fr": "Golden Residency",
+    "sub": {
+     "en": "10-year renewable residence, not tied to an employer.",
+     "ar": "إقامة 10 سنوات قابلة للتجديد، وما ترتبط بجهة عمل.",
+     "fr": "Résidence de 10 ans renouvelable, non liée à un employeur."
+    }
+   },
+   {
+    "en": "I need an employer to sponsor my work visa",
+    "ar": "أحتاج جهة عمل تكفل تأشيرة عملي",
+    "fr": "J'ai besoin qu'un employeur parraine mon visa de travail",
+    "sub": {
+     "en": "You are outside Bahrain or on a visit visa.",
+     "ar": "أنت برّا البحرين أو على تأشيرة زيارة.",
+     "fr": "Vous êtes hors de Bahreïn ou avec un visa de visite."
+    }
+   }
+  ],
+  "autoFor": [
+   "BH",
+   "SA",
+   "AE",
+   "QA",
+   "KW",
+   "OM"
+  ],
+  "autoText": {
+   "en": "Bahraini and GCC nationals can work in Bahrain without visa sponsorship.",
+   "ar": "مواطنو البحرين ودول الخليج يقدرون يشتغلون في البحرين بدون كفالة تأشيرة.",
+   "fr": "Les ressortissants bahreïniens et du CCG peuvent travailler à Bahreïn sans parrainage de visa."
+  },
+  "rule": {
+   "en": "We skip Bahraini-only roles unless you are Bahraini. If you need a new work visa, we also skip roles that only take candidates already in Bahrain.",
+   "ar": "نتخطّى الوظائف المخصّصة للبحرينيين إلا إذا كانت جنسيتك بحرينية. وإذا تحتاج تأشيرة عمل جديدة، نتخطّى بعد الوظائف اللي تطلب مرشحين موجودين في البحرين.",
+   "fr": "Nous écartons les postes réservés aux Bahreïniens si vous n'avez pas cette nationalité. Si vous avez besoin d'un nouveau visa de travail, nous écartons aussi les offres réservées aux candidats déjà présents à Bahreïn."
+  }
+ },
+ "nationalisation": {
+  "name": {
+   "en": "Bahrainization",
+   "ar": "البحرنة",
+   "fr": "Bahreïnisation"
+  },
+  "desc": {
+   "en": "Private employers must keep a share of Bahraini staff that LMRA sets by sector and company size, and Tamkeen subsidises Bahraini salaries in the private sector. Government jobs go to Bahrainis first. We only apply to roles marked Bahrainis only if you are Bahraini.",
+   "ar": "الشركات الخاصة لازم تحافظ على نسبة بحرنة تحددها هيئة تنظيم سوق العمل حسب القطاع وحجم الشركة، وتمكين يدعم رواتب البحرينيين في القطاع الخاص. والوظائف الحكومية الأولوية فيها للبحرينيين. وما نقدّم على الوظائف المخصصة للبحرينيين إلا إذا كانت جنسيتك بحرينية.",
+   "fr": "Les employeurs privés doivent maintenir une part de salariés bahreïniens fixée par la LMRA selon le secteur et la taille de l'entreprise, et Tamkeen subventionne les salaires des Bahreïniens dans le secteur privé. Les emplois publics vont en priorité aux Bahreïniens. Nous ne postulons aux offres réservées aux Bahreïniens que si vous avez la nationalité bahreïnienne."
+  }
+ },
+ "sensitive": {
+  "photo": "optional",
+  "gender": "ask",
+  "dob": "ask",
+  "nationality": "ask",
+  "marital": "none",
+  "notes": "Photo: common on Bahraini and Gulf CVs emailed to recruiters and on Bayt/GulfTalent profiles, but not needed for ATS uploads; we offer it, never require it, and only send it where a form asks. Gender, date of birth and nationality are standard fields on Bahraini employer portals (banks, Bapco Energies, Alba, Gulf Air) and on Bayt and GulfTalent profiles. Nationality also drives Bahrainization ('Bahrainis only' adverts, Tamkeen-supported roles), LMRA work-permit handling and government hiring. Marital status appears on some Gulf CVs and on government forms but is not needed for matching, so we do not ask (conservative, PDPL data minimisation). We never ask for the CPR (national ID) number; employers collect it at offer stage. Labour Law 36/2012 bans wage discrimination on grounds such as sex, origin, language and religion, so we never filter on gender or age, only on work rights and Bahraini-only postings. From general knowledge; not re-verified in this run."
+ },
+ "legal": {
+  "law": "Bahrain PDPL (Law No. 30 of 2018 on the Protection of Personal Data, in force since 1 August 2019), overseen by the Personal Data Protection Authority; consumer terms under Consumer Protection Law No. 35 of 2012",
+  "privacy": {
+   "en": "Your data is protected under Bahrain's Personal Data Protection Law (Law No. 30 of 2018). We never share it without your consent.",
+   "ar": "بياناتك محمية بموجب قانون حماية البيانات الشخصية في البحرين، وما نشاركها بدون موافقتك.",
+   "fr": "Vos données sont protégées par la loi bahreïnienne sur la protection des données personnelles (loi n° 30 de 2018). Nous ne les partageons jamais sans votre accord."
+  },
+  "renewal": {
+   "en": "Plans paid by card or Apple Pay renew automatically at the same price; with BenefitPay you renew by paying again. Cancel anytime before the renewal date and you are not charged again.",
+   "ar": "الباقات المدفوعة بالبطاقة أو Apple Pay تتجدد تلقائياً بنفس السعر، ومع بنفت باي تجدّد بدفعة جديدة. ألغِ في أي وقت قبل تاريخ التجديد وما ينخصم منك شي مرة ثانية.",
+   "fr": "Les abonnements payés par carte ou Apple Pay se renouvellent automatiquement au même prix ; avec BenefitPay, vous renouvelez en payant à nouveau. Résiliez à tout moment avant la date de renouvellement et vous ne serez plus prélevé."
+  }
+ },
+ "boards": [
+  "LinkedIn",
+  "Bayt",
+  "GulfTalent",
+  "Naukrigulf",
+  "Indeed"
+ ],
+ "lang2": {
+  "en": "Arabic",
+  "ar": "العربية",
+  "fr": "arabe"
+ },
+ "certs": [
+  {
+   "id": "acca",
+   "en": "ACCA",
+   "ar": "ACCA",
+   "fr": "ACCA"
+  },
+  {
+   "id": "cma",
+   "en": "CMA",
+   "ar": "CMA",
+   "fr": "CMA"
+  },
+  {
+   "id": "cfa",
+   "en": "CFA",
+   "ar": "CFA",
+   "fr": "CFA"
+  },
+  {
+   "id": "cpa",
+   "en": "CPA",
+   "ar": "CPA",
+   "fr": "CPA"
+  }
+ ],
+ "unis": [
+  {
+   "id": "uob",
+   "en": "University of Bahrain",
+   "ar": "جامعة البحرين",
+   "fr": "Université de Bahreïn"
+  },
+  {
+   "id": "ahlia",
+   "en": "Ahlia University",
+   "ar": "الجامعة الأهلية",
+   "fr": "Université Ahlia"
+  },
+  {
+   "id": "polytechnic",
+   "en": "Bahrain Polytechnic",
+   "ar": "بوليتكنك البحرين",
+   "fr": "Bahrain Polytechnic"
+  }
+ ],
+ "govPlatforms": [
+  {
+   "id": "lmra",
+   "en": "LMRA",
+   "ar": "هيئة تنظيم سوق العمل",
+   "fr": "LMRA",
+   "use": {
+    "en": "Work permits and employer changes for expats",
+    "ar": "تصاريح العمل وتغيير جهة العمل للوافدين",
+    "fr": "Permis de travail et changements d'employeur des expatriés"
+   }
+  },
+  {
+   "id": "mol",
+   "en": "Ministry of Labour",
+   "ar": "وزارة العمل",
+   "fr": "ministère du Travail",
+   "use": {
+    "en": "National employment service for Bahraini job seekers",
+    "ar": "خدمة التوظيف الوطنية للبحرينيين الباحثين عن عمل",
+    "fr": "Service national de l'emploi pour les demandeurs d'emploi bahreïniens"
+   }
+  },
+  {
+   "id": "tamkeen",
+   "en": "Tamkeen",
+   "ar": "تمكين",
+   "fr": "Tamkeen",
+   "use": {
+    "en": "Wage support and training for Bahrainis in the private sector",
+    "ar": "دعم الأجور والتدريب للبحرينيين في القطاع الخاص",
+    "fr": "Aide salariale et formation pour les Bahreïniens du secteur privé"
+   }
+  },
+  {
+   "id": "sio",
+   "en": "SIO",
+   "ar": "الهيئة العامة للتأمين الاجتماعي",
+   "fr": "SIO",
+   "use": {
+    "en": "Your official employment and salary record",
+    "ar": "سجلك الرسمي للعمل والأجر",
+    "fr": "Votre historique officiel d'emploi et de salaire"
+   }
+  }
+ ],
+ "persona": {
+  "first": "Fatema",
+  "last": "Al-Sayed",
+  "gender": "f",
+  "nat": "BH",
+  "city": "manama",
+  "ar": {
+   "first": "فاطمة",
+   "last": "السيد"
+  },
+  "email": "fatema.alsayed@email.com",
+  "phone": "+973 3612 3456",
+  "title": {
+   "en": "Financial Analyst",
+   "ar": "محللة مالية",
+   "fr": "Analyste financière"
+  },
+  "years": 8,
+  "employer": {
+   "en": "Hayrat Holding",
+   "ar": "هيرات القابضة",
+   "fr": "Hayrat Holding"
+  },
+  "employer2": {
+   "en": "Hayrat Properties",
+   "ar": "هيرات العقارية",
+   "fr": "Hayrat Properties"
+  },
+  "degree": {
+   "en": "BSc Accounting",
+   "ar": "بكالوريوس محاسبة",
+   "fr": "Licence en comptabilité"
+  },
+  "uni": "uob",
+  "cert": "acca",
+  "tools": "SAP, Excel, Power BI",
+  "bio": {
+   "en": "Financial Analyst with 8 years in Manama. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I ran our VAT returns through Bahrain's move to 10%. I am looking for a Senior Financial Analyst or FP&A role in Manama, Muharraq, or remote.",
+   "ar": "محللة مالية بخبرة 8 سنوات في المنامة. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات اللي قلّصت وقت التقارير بالثلث، وأدرت إقرارات ضريبة القيمة المضافة لما ارتفعت النسبة في البحرين إلى 10%. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في المنامة أو المحرق أو عن بُعد.",
+   "fr": "Analyste financière avec 8 ans d'expérience à Manama. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre délai de reporting, et j'ai géré nos déclarations de TVA lors du passage du taux à 10 % à Bahreïn. Je recherche un poste d'analyste financière senior ou en FP&A à Manama, à Muharraq ou en télétravail."
+  }
+ },
+ "people": [
+  {
+   "first": "Noor",
+   "last": "Al-Mahmood",
+   "gender": "f",
+   "ar": {
+    "first": "نور",
+    "last": "المحمود"
+   }
+  },
+  {
+   "first": "Ali",
+   "last": "Al-Aradi",
+   "gender": "m",
+   "ar": {
+    "first": "علي",
+    "last": "العرادي"
+   }
+  },
+  {
+   "first": "Zahra",
+   "last": "Al-Jishi",
+   "gender": "f",
+   "ar": {
+    "first": "زهراء",
+    "last": "الجشي"
+   }
+  },
+  {
+   "first": "Khalid",
+   "last": "Al-Dosari",
+   "gender": "m",
+   "ar": {
+    "first": "خالد",
+    "last": "الدوسري"
+   }
+  },
+  {
+   "first": "Huda",
+   "last": "Janahi",
+   "gender": "f",
+   "ar": {
+    "first": "هدى",
+    "last": "جناحي"
+   }
+  },
+  {
+   "first": "Ahmed",
+   "last": "Bucheeri",
+   "gender": "m",
+   "ar": {
+    "first": "أحمد",
+    "last": "بوجيري"
+   }
+  },
+  {
+   "first": "Layla",
+   "last": "Al-Qassab",
+   "gender": "f",
+   "ar": {
+    "first": "ليلى",
+    "last": "القصاب"
+   }
+  },
+  {
+   "first": "Hasan",
+   "last": "Al-Alawi",
+   "gender": "m",
+   "ar": {
+    "first": "حسن",
+    "last": "العلوي"
+   }
+  },
+  {
+   "first": "Priya",
+   "last": "Menon",
+   "gender": "f",
+   "ar": {
+    "first": "بريا",
+    "last": "مينون"
+   }
+  },
+  {
+   "first": "Thomas",
+   "last": "Reid",
+   "gender": "m",
+   "ar": {
+    "first": "توماس",
+    "last": "ريد"
+   }
+  }
+ ],
+ "culture": {
+  "notes": "Work week Sun-Thu (Friday-Saturday weekend since 2006); government offices work roughly 7:00-14:15 and many private firms 8:00-17:00, so interviews and deadlines in copy should use Sun-Thu days. Salaries are quoted monthly, tax-free, as a package (basic + housing and transport allowances) and paid monthly through the Wage Protection System; Bahrainis contribute to the state pension through SIO. Notice under Labour Law 36/2012: at least 30 days for indefinite contracts; senior finance contracts often say 1-3 months, so copy should not promise an immediate start. Expats change jobs through LMRA; a move in the first year can need the current employer's consent. CVs: 2 pages, English (an Arabic version helps for government and semi-government roles), with a personal block (nationality, CPR or visa status, often date of birth and photo). Cover letters are rarely required; portals ask screening questions instead. During Ramadan, working hours are cut to 6 a day (36 a week) for Muslim staff. English is the working language in banks and the financial sector; Arabic matters for government and Bahraini-facing roles. Banking is one of the most Bahrainized sectors, and many finance roles are Bahraini-preferred. Recruiters and hiring managers are a mix of Bahrainis and expats (Indian, Arab, Filipino, British)."
+ },
+ "noticeDays": 30
+}

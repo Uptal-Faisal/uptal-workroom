@@ -16,8 +16,10 @@ Taken unchanged from `markets/base.json`: MAD, `p1` 299 / `p4` 254 / `p12` 209. 
   - https://challenge.ma/bank-of-africa-lance-google-pay-pour-les-utilisateurs-de-cartes-au-maroc-290205/
 - **Card first (Visa, Mastercard).** Moroccan bank cards are Visa or Mastercard. The CMI (Centre Monétique Interbancaire) is the interbank processor, not a card
   brand, so `localCardBrand` is `null`. The CMI's acquiring monopoly ended in 2024 and Bank Al-Maghrib capped interchange in 2024 and 2026, but no domestic card scheme
-  has been launched. Amex is left out because few Moroccan cards are Amex. The card sub-line says "online payments enabled" because Moroccan cardholders often have to
-  switch on e-commerce or international online payments in their bank app first.
+  has been launched. Amex is left out because few Moroccan cards are Amex. The card sub-line says "with international online payments switched on" because Moroccan cardholders often have to
+  switch on e-commerce or international online payments in their bank app first, and a non-Moroccan merchant is an international payment for the card
+  (fact-check 2026-10-12: reworded from "(online payments enabled)", which read as a status, not an instruction; if Uptal ever acquires through a
+  Moroccan acquirer such as the CMI, "international" can be dropped).
   - https://fnh.ma/article/actualite-economique/bank-al-maghrib-plafonne-les-frais-dinterchange-des-paiements-par-carte
   - https://telquel.ma/instant-t/2026/07/10/paiement-electronique-bank-al-maghrib-baisse-les-frais-dinterchange-a-05_1998527/
 - **PayPal second.** Moroccans can hold PayPal accounts and pay with them. Cash Plus (Sept 2025) and Attijariwafa (Nov 2024) now handle withdrawals into dirhams.
@@ -125,3 +127,14 @@ Logo colours are approximate brand colours and monograms are invented.
 - Persona: Youssef El Amrani, male, Moroccan, Casablanca, as in roster.json. The employer "Arganis Group" is fictional: a search found no Moroccan company with that exact name.
   Moroccan GAAP is referred to as CGNC (Code Général de Normalisation Comptable). Sage is added to the tools because it is ubiquitous in Moroccan finance teams.
 - Phone format: +212, with mobiles as 6XX XX XX XX.
+
+## Fact-check pass (2026-10-12)
+Web search budget was used up and direct fetches failed (DNS), so this pass is a knowledge and consistency review, not a live re-verification.
+- Checked against known law: Labour Code art. 9 (situation conjugale is a listed discrimination ground), art. 516 (contract visa from the ministry in charge of
+  employment), decree 2-04-469 (cadre notice 1/2/3 months), Statut général de la fonction publique (Moroccan nationality for public posts), Law 09-08 / CNDP,
+  standard VAT 20 % with TTC price display. No change needed.
+- Arabic fixes: Bank of Africa spelled بنك إفريقيا (Moroccan spelling); option 3 label now parallels option 1 (أحمل الجنسية ...); the contract-visa sub-lines
+  now say the employer obtains the visa (الحصول على التأشيرة على عقدك) instead of saying the employer endorses the contract itself; "وظائف الوظيفة العمومية"
+  changed to "مناصب الوظيفة العمومية" (removes the repetition).
+- Still not re-verified live: the 11 June 2026 start date for VAT on foreign digital services, the Google Pay launch dates, the Algerian/Tunisian/Senegalese
+  ANAPEC exemption, the Marjane HQ city, and the 22,000 MAD salary midpoint.

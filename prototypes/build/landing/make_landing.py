@@ -27,8 +27,10 @@ Any mismatch raises BuildError and exits non-zero. Stdlib only.
 """
 import html
 import json
+import os
 import re
 import sys
+import tempfile
 from html.parser import HTMLParser
 
 
@@ -129,11 +131,47 @@ SLOTS = {
         'en': ('<span class="eyebrow">Loved by job seekers</span>', '<span class="eyebrow">{}</span>'),
         'ar': ('<span class="eyebrow">مناسب لجميع الباحثين عن عمل</span>', '<span class="eyebrow">{}</span>'),
     },
+    'testi_h2': {
+        'en': ('<h2>People are landing interviews, hands-free.</h2>', '<h2>{}</h2>'),
+        'ar': ('<h2>تجاوز أنظمة ال ATS وجهز نفسك للمقابلات.</h2>', '<h2>{}</h2>'),
+    },
     'testi_trust': {
         'en': ('<p>Trusted by <b>1,542+</b> candidates across Saudi Arabia.</p>', '<p>{}</p>'),
         'ar': ('<p>موثوق من <b>أكثر من 1,542</b> مرشّح في كل أنحاء السعودية.</p>', '<p>{}</p>'),
     },
 }
+
+# The hero live card's "Live Data" flag. Not a plain slot: the generator only
+# lets it say "live" when every figure in the card comes from a stat marked
+# placeholder:false. Otherwise it renders text.<lang>.live_flag_sample in the
+# placeholder style and stops the green "live" pulse.
+LIVE_FLAG = {
+    'en': '<div class="live-flag"><span class="dot"></span>Live Data</div>',
+    'ar': '<div class="live-flag"><span class="dot"></span>بيانات مباشرة</div>',
+}
+LIVE_CARD_SLOTS = ('live_big', 'live_unit', 'live_today', 'live_sub')
+TEXT_KEYS_EXTRA = ('live_flag', 'live_flag_sample')
+
+# Country-neutral copy fixes to the KSA source (spelling in the inherited
+# Arabic copy). Applied to every country; each must match exactly once.
+SOURCE_FIXES = [
+    ('ar', '<p class="hx2-sub">سجل وانشئ حساب جديد.', '<p class="hx2-sub">سجّل وأنشئ حساب جديد.'),
+    ('ar', '<div class="hx2-tt"> سجل وانشئ حسابك ', '<div class="hx2-tt"> سجّل وأنشئ حسابك '),
+    ('ar', 'على بريدك الالكتروني </div>', 'على بريدك الإلكتروني </div>'),
+    ('ar', 'فتجتاز الفرز وأنظمة ال ATS وتصل', 'فتجتاز الفرز وأنظمة الـATS وتصل'),
+]
+
+# Footer legal links in the KSA source. pack.links.<key> (optional) replaces
+# the href in both trees; without it the KSA page is linked (and the
+# placeholders file says so).
+LEGAL_LINKS = {
+    'privacy': 'https://uptal.com/privacy-policy',
+    'terms': 'https://uptal.com/terms-and-conditions',
+    'refund': 'https://uptal.com/refund-policy',
+}
+
+# Monogram tile font size by length (tile is 42-46px square).
+MONO_SIZES = {1: '18px', 2: '16px', 3: '13.5px', 4: '11.5px', 5: '10.5px'}
 
 # Document-level anchors (head + script).
 HEAD_TITLE = '<title>Uptal Auto-Apply · Apply to Jobs Automatically in Saudi Arabia</title>'
@@ -167,7 +205,7 @@ SOURCE_TERMS_AR = ['السعودية', 'السعودي', 'المملكة', 'ال
 
 PACK_KEYS_REQUIRED = ['country', 'title', 'meta_description', 'app_link', 'flag_svg', 'placeholder_tooltip',
                       'stats', 'text', 'sector_tags', 'targeting', 'tailoring', 'employers', 'faq']
-PACK_KEYS_OPTIONAL = ['pack_version', 'review_notes']
+PACK_KEYS_OPTIONAL = ['pack_version', 'review_notes', 'links']
 LANGS = ('en', 'ar')
 
 EXTRA_CSS = r"""
@@ -178,6 +216,10 @@ EXTRA_CSS = r"""
   text-decoration:underline dashed #f5a623;text-decoration-thickness:2px;text-underline-offset:.22em;
   text-decoration-skip-ink:none;cursor:help;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 .aa-landing .mkt-flag svg{width:100%;height:100%;display:block}
+/* hero card flag while its figures are placeholders: amber, no "live" pulse */
+.aa-landing .live-flag.is-ph{color:#f5a623}
+.aa-landing .live-flag.is-ph .dot{animation:none;background:#f5a623;box-shadow:none}
+.aa-landing .live-flag.is-ph .ph{background:rgba(245,166,35,.16)}
 
 /* "Where we apply": typeset wordmarks in place of logo images, grayscale like a logo band */
 .aa-landing .tb-logo .wm{display:flex;flex-direction:column;align-items:center;justify-content:center;max-width:100%;
@@ -198,7 +240,7 @@ EXTRA_CSS = r"""
 }
 
 /* tailoring card: monogram tiles in place of employer logo images */
-.aa-landing .jt-g.mono-tile{background:#fff;color:#0e1426;font-family:"Geist","Inter",sans-serif;font-size:16px;
+.aa-landing .jt-g.mono-tile{background:#fff;color:#0e1426;font-family:"Geist","Inter",sans-serif;font-size:var(--mf,16px);
   font-weight:800;letter-spacing:-.02em;line-height:1;box-shadow:0 10px 22px -12px rgba(0,0,0,.55),inset 0 0 0 1px rgba(14,20,38,.08)}
 """
 
@@ -285,12 +327,28 @@ def load_pack(path):
         fail('pack is missing required key(s): %s' % ', '.join(missing))
     if unknown:
         fail('pack has unknown key(s): %s (typo? see README.md)' % ', '.join(unknown))
+    c = pack['country']
+    if not isinstance(c, dict) or not isinstance(c.get('code'), str) or not re.fullmatch(r'[A-Z]{2}', c['code']):
+        fail('pack.country.code must be an ISO 3166 alpha-2 code in capitals, e.g. "AE"')
+    if not isinstance(c.get('name'), dict) or not all(isinstance(c['name'].get(l), str) and c['name'][l].strip()
+                                                      for l in LANGS):
+        fail('pack.country.name must be {"en": ..., "ar": ...} with non-empty strings')
+    for k in ('text', 'stats', 'title', 'placeholder_tooltip', 'faq', 'sector_tags', 'targeting', 'tailoring',
+              'employers'):
+        if not isinstance(pack[k], dict):
+            fail('pack.%s must be an object' % k)
+    if not isinstance(pack['meta_description'], str) or not pack['meta_description'].strip():
+        fail('pack.meta_description must be a non-empty string')
+    for k in ('app_link', 'flag_svg'):
+        if not isinstance(pack[k], str):
+            fail('pack.%s must be a string' % k)
     for lang in LANGS:
         t = pack['text'].get(lang)
         if not isinstance(t, dict):
             fail('pack.text.%s must be an object' % lang)
-        miss = sorted(set(SLOTS) - set(t))
-        extra = sorted(set(t) - set(SLOTS))
+        slots = set(SLOTS) | set(TEXT_KEYS_EXTRA)
+        miss = sorted(slots - set(t))
+        extra = sorted(set(t) - slots)
         if miss:
             fail('pack.text.%s is missing slot(s): %s' % (lang, ', '.join(miss)))
         if extra:
@@ -298,9 +356,30 @@ def load_pack(path):
         for k in ('title', 'placeholder_tooltip'):
             if not isinstance(pack[k].get(lang), str):
                 fail('pack.%s.%s must be a string' % (k, lang))
-        if not pack['faq'].get(lang):
+        faq = pack['faq'].get(lang)
+        if not isinstance(faq, list) or not faq:
             fail('pack.faq.%s must be a non-empty list' % lang)
+        for i, item in enumerate(faq):
+            if not isinstance(item, dict) or not isinstance(item.get('q'), str) or not isinstance(item.get('a'), str):
+                fail('pack.faq.%s[%d] must be {"q": ..., "a": ...}' % (lang, i))
+        if not isinstance(pack['sector_tags'].get(lang), list) or not pack['sector_tags'][lang]:
+            fail('pack.sector_tags.%s must be a non-empty list' % lang)
+        for g in ('cities', 'company_types'):
+            if not isinstance(pack['targeting'].get(g), dict) or not pack['targeting'][g].get(lang):
+                fail('pack.targeting.%s.%s must be a non-empty list' % (g, lang))
+        for where, items in (('sector_tags.' + lang, pack['sector_tags'][lang]),
+                             ('targeting.cities.' + lang, pack['targeting']['cities'][lang]),
+                             ('targeting.company_types.' + lang, pack['targeting']['company_types'][lang])):
+            if not all(isinstance(t, dict) and isinstance(t.get('label'), str) for t in items):
+                fail('pack.%s: every item must be {"label": ..., "on"?: true}' % where)
+        note = pack['employers'].get('note')
+        if not isinstance(note, dict) or not isinstance(note.get(lang), str):
+            fail('pack.employers.note.%s must be a string' % lang)
     for k, st in pack['stats'].items():
+        if not isinstance(st, dict):
+            fail('pack.stats.%s must be an object' % k)
+        if not isinstance(st.get('placeholder'), bool):
+            fail('pack.stats.%s.placeholder must be true or false (say explicitly whether the figure is real)' % k)
         for lang in LANGS:
             if not isinstance(st.get(lang), str) or not st[lang]:
                 fail('pack.stats.%s.%s must be a non-empty string' % (k, lang))
@@ -313,8 +392,42 @@ def load_pack(path):
     if not pack['flag_svg'].lstrip().startswith('<svg') or 'href' in pack['flag_svg'] or '<script' in pack['flag_svg']:
         fail('pack.flag_svg must be a self-contained inline <svg> (no href, no script)')
     rows = pack['employers'].get('rows')
-    if not rows or not all(isinstance(r, list) and r for r in rows):
+    if not isinstance(rows, list) or not rows or not all(isinstance(r, list) and r for r in rows):
         fail('pack.employers.rows must be a list of non-empty lists')
+    for i, row in enumerate(rows):
+        for e in row:
+            if not isinstance(e, dict) or not isinstance(e.get('name'), str):
+                fail('pack.employers.rows[%d]: every item needs a "name" string' % i)
+            lab = e.get('label')
+            if lab is not None and not (isinstance(lab, str) or
+                                        (isinstance(lab, dict) and all(isinstance(lab.get(l), str) and lab[l]
+                                                                       for l in LANGS))):
+                fail('pack.employers.rows[%d] %r: label must be a string or {"en": ..., "ar": ...}' % (i, e['name']))
+    trows = pack['tailoring'].get('rows')
+    if not isinstance(trows, list) or len(trows) != 2:
+        fail('pack.tailoring.rows must be a list of exactly 2 example roles')
+    for i, r in enumerate(trows):
+        for k in ('mono', 'title', 'sub', 'keywords', 'fit'):
+            if k not in r:
+                fail('pack.tailoring.rows[%d] is missing "%s"' % (i, k))
+        n = len(text_of(r['mono']))
+        if n not in MONO_SIZES:
+            fail('pack.tailoring.rows[%d].mono must be 1-%d characters, got %r' % (i, max(MONO_SIZES), r['mono']))
+    if not isinstance(pack['tailoring'].get('more_monos'), list):
+        fail('pack.tailoring.more_monos must be a list')
+    notes = pack.get('review_notes', [])
+    if not isinstance(notes, list) or not all(isinstance(n, dict) and isinstance(n.get('item'), str)
+                                              and isinstance(n.get('note'), str) for n in notes):
+        fail('pack.review_notes must be a list of {"item": ..., "note": ...}')
+    links = pack.get('links', {})
+    if not isinstance(links, dict):
+        fail('pack.links must be an object')
+    bad = sorted(set(links) - set(LEGAL_LINKS))
+    if bad:
+        fail('pack.links has unknown key(s): %s (allowed: %s)' % (', '.join(bad), ', '.join(sorted(LEGAL_LINKS))))
+    for k, v in links.items():
+        if not isinstance(v, str) or not re.fullmatch(r'https://[A-Za-z0-9.-]+(?:/[A-Za-z0-9._~%/-]*)?(?:#[A-Za-z0-9_-]*)?', v):
+            fail('pack.links.%s must be a plain https:// URL, got %r' % (k, v))
     return pack
 
 
@@ -361,7 +474,10 @@ def build_trust_rows(pack, lang, X):
             if style not in ('title', 'caps', 'lower'):
                 fail('%s: style must be title|caps|lower, got %r' % (where, style))
             sub = e.get('sub')
-            label = e.get('label') or (text_of(name) + (' ' + text_of(sub) if sub else ''))
+            label = e.get('label')
+            if isinstance(label, dict):
+                label = label[lang]
+            label = label or (text_of(name) + (' ' + text_of(sub) if sub else ''))
             s = float(e.get('s', 1.0))
             if not 0.5 <= s <= 2.0:
                 fail('%s: s must be between 0.5 and 2.0' % where)
@@ -390,11 +506,12 @@ def build_tailor_rows(pack, lang, X):
         if not 0 <= fit <= 100:
             fail(where + ': fit must be 0-100')
         kws = ''.join('<span class="kwc">%s</span>' % check_fragment(k, where + '.keywords') for k in r['keywords'])
+        mono = check_fragment(r['mono'], where + '.mono')
         rows.append(
-            '<div class="jr-g"><div class="jt-g mono-tile" aria-hidden="true">%s</div><div class="jr-main">'
+            '<div class="jr-g"><div class="jt-g mono-tile" style="--mf:%s" aria-hidden="true">%s</div><div class="jr-main">'
             '<div class="jr-title"> %s </div><div class="jr-sub"> %s </div><div class="kw">%s</div></div>'
             '<div class="fring" style="--p: %d;"><span class="fring-num">%d%%</span></div></div>'
-            % (check_fragment(r['mono'], where + '.mono'), X(r['title'][lang], lang, where + '.title'),
+            % (MONO_SIZES[len(text_of(mono))], mono, X(r['title'][lang], lang, where + '.title'),
                X(r['sub'][lang], lang, where + '.sub'), kws, fit, fit))
     return ''.join(rows)
 
@@ -432,17 +549,53 @@ def build_faq(pack, lang, X, chevron):
     return ''.join(out)
 
 
+def live_card_tokens(pack, lang):
+    toks = []
+    for k in LIVE_CARD_SLOTS:
+        toks += re.findall(r'\{\{\s*([A-Za-z0-9_]+)\s*\}\}', pack['text'][lang][k])
+    return toks
+
+
+def live_card_is_sample(pack, lang):
+    """True unless every figure in the live card is a stat with placeholder:false.
+    A card with no {{stat}} at all is treated as sample: the generator cannot vouch for it."""
+    toks = live_card_tokens(pack, lang)
+    return not toks or any(pack['stats'].get(k, {}).get('placeholder') is not False for k in toks)
+
+
 # --------------------------------------------------------------------------
 # tree transform
 # --------------------------------------------------------------------------
 def transform_tree(tree, lang, pack, X):
     w = '[%s tree]' % lang
 
+    # 0. country-neutral spelling fixes to the inherited source copy
+    for fl, old, new in SOURCE_FIXES:
+        if fl == lang:
+            tree = replace_once(tree, old, new, '%s source fix' % w)
+
     # 1. exact-string slots
     for key, per_lang in SLOTS.items():
         src, tpl = per_lang[lang]
         tree = replace_once(tree, src, tpl.format(X(pack['text'][lang][key], lang, 'text.%s.%s' % (lang, key))),
                             '%s slot "%s"' % (w, key))
+
+    # 1b. hero live-card flag: "live" only when the card's figures are real
+    t = pack['text'][lang]
+    if live_card_is_sample(pack, lang):
+        flag = ('<div class="live-flag is-ph"><span class="dot"></span><span class="ph" data-ph="live_flag" '
+                'title="%s">%s</span></div>' % (attr(pack['placeholder_tooltip'][lang]),
+                                                 X(t['live_flag_sample'], lang, 'text.%s.live_flag_sample' % lang)))
+    else:
+        flag = '<div class="live-flag"><span class="dot"></span>%s</div>' % X(t['live_flag'], lang,
+                                                                              'text.%s.live_flag' % lang)
+    tree = replace_once(tree, LIVE_FLAG[lang], flag, '%s live-card flag' % w)
+
+    # 1c. footer legal links
+    for key, ksa_url in LEGAL_LINKS.items():
+        url = pack.get('links', {}).get(key, ksa_url)
+        tree = replace_once(tree, '<a href="%s" rel="noopener" target="_blank">' % ksa_url,
+                            '<a href="%s" rel="noopener" target="_blank">' % attr(url), '%s footer link %s' % (w, key))
 
     # 2. flag image -> inline flag
     tree = sub_count(r'<span class="mkt-flag"><img [^>]*/></span>',
@@ -637,24 +790,50 @@ def build(source_path, pack_path, out_path, placeholders_md=None):
     if problems:
         fail('verification failed:\n  - ' + '\n  - '.join(problems))
 
-    with open(out_path, 'w', encoding='utf-8') as f:
-        f.write(out)
+    md_text = placeholders_markdown(pack, X, out_path) if placeholders_md else None
 
-    if placeholders_md:
-        write_placeholders_md(pack, X, out_path, placeholders_md)
+    # write only after every check has passed (temp file + rename, so a failed
+    # build never leaves a half-written page behind)
+    write_atomic(out_path, out)
+    if md_text is not None:
+        write_atomic(placeholders_md, md_text)
 
     n_ph = len(re.findall(r'class="ph"', out))
-    print('make_landing: wrote %s (%.2f MB) for %s' % (out_path, len(out.encode('utf-8')) / 1e6, pack['country']['code']))
+    c = pack['country']
+    print('make_landing: wrote %s (%.2f MB) for %s (%s)'
+          % (out_path, len(out.encode('utf-8')) / 1e6, c['name']['en'], c['code']))
     print('  slots replaced: %d per tree; FAQ items: %d; employer wordmarks: %d; placeholder marks: %d; fonts kept: %d'
           % (len(SLOTS), len(pack['faq']['en']), sum(len(r) for r in pack['employers']['rows']), n_ph, font_count))
+    print('  live-card flag: %s' % ('sample (placeholder figures)' if live_card_is_sample(pack, 'en') else 'live'))
+    print('  legal links: %s' % ', '.join('%s=%s' % (k, 'pack' if k in pack.get('links', {}) else 'KSA default')
+                                         for k in LEGAL_LINKS))
     print('  app hand-off: %s (AR: %s)' % (link, link_ar))
+    if md_text is not None:
+        print('  placeholders list: %s' % placeholders_md)
     return out
 
 
-def write_placeholders_md(pack, X, out_path, md_path):
-    code = pack['country']['code']
-    L = ['# Placeholder values on the %s landing page' % code, '',
-         'Generated by `make_landing.py` from `packs/%s.json` for `%s`.' % (code.lower(), out_path.split('/')[-1]),
+def write_atomic(path, text):
+    d = os.path.dirname(os.path.abspath(path))
+    fd, tmp = tempfile.mkstemp(prefix='.make_landing.', dir=d)
+    try:
+        with os.fdopen(fd, 'w', encoding='utf-8') as f:
+            f.write(text)
+        os.chmod(tmp, 0o644)
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
+
+
+def placeholders_markdown(pack, X, out_path):
+    c = pack['country']
+    code = c['code']
+    L = ['# Placeholder values on the %s (%s) landing page' % (c['name']['en'], code), '',
+         'Generated by `make_landing.py` from `packs/%s.json` for `%s`.' % (code.lower(), os.path.basename(out_path)),
          'Every value below renders on the page in the amber placeholder style (class `ph`, dashed underline, '
          'tooltip "%s"). To ship a real figure, set the value in `stats` and change `"placeholder": true` to '
          '`false`, then rebuild.' % pack['placeholder_tooltip']['en'], '',
@@ -665,16 +844,30 @@ def write_placeholders_md(pack, X, out_path, md_path):
         uses = ' / '.join('%s ×%d' % (lang.upper(), X.used.get((key, lang), 0)) for lang in LANGS)
         L.append('| `%s` | %s | %s | %s (%s) | %s |' % (key, st['en'], st['ar'], st.get('where', ''), uses,
                                                        st.get('replace_with', '')))
-    notes = pack.get('review_notes') or []
+    sample = [l for l in LANGS if live_card_is_sample(pack, l)]
+    if sample:
+        toks = sorted(set(live_card_tokens(pack, 'en') + live_card_tokens(pack, 'ar')))
+        L.append('| `live_flag` (automatic) | %s | %s | Hero live card, flag above the figures (%s) | Nothing to edit. '
+                 'The flag shows this amber label, with the green "live" pulse switched off, while any live-card '
+                 'figure (%s) is a placeholder. It switches back to "%s" / "%s" by itself once those stats are '
+                 '`"placeholder": false`. |'
+                 % (text_of(pack['text']['en']['live_flag_sample']), text_of(pack['text']['ar']['live_flag_sample']),
+                    ' / '.join(l.upper() + ' ×1' for l in sample), ', '.join('`%s`' % t for t in toks) or 'none',
+                    text_of(pack['text']['en']['live_flag']), text_of(pack['text']['ar']['live_flag'])))
+    notes = list(pack.get('review_notes') or [])
+    defaults = [k for k in LEGAL_LINKS if k not in pack.get('links', {})]
+    if defaults:
+        notes.append({'item': 'Footer legal links (automatic check)',
+                      'note': 'This pack sets no `links.%s`, so the footer still points to the KSA page%s: %s.'
+                              % ('`/`links.'.join(defaults), 's' if len(defaults) > 1 else '',
+                                 ', '.join(LEGAL_LINKS[k] for k in defaults))})
     if notes:
         L += ['', '## Other content to confirm before launch', '',
               'These are not marked on the page, but they are stand-ins or judgement calls that need a real answer.', '']
         for n in notes:
             L.append('- **%s**: %s' % (n['item'], n['note']))
     L.append('')
-    with open(md_path, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(L))
-    print('  placeholders list: %s' % md_path)
+    return '\n'.join(L)
 
 
 def main(argv):
@@ -694,6 +887,11 @@ def main(argv):
         build(args[0], args[1], args[2], md)
     except BuildError as e:
         print('make_landing: ERROR: %s' % e, file=sys.stderr)
+        return 1
+    except (KeyError, TypeError, ValueError, AttributeError, IndexError) as e:
+        # a pack shape the up-front checks did not anticipate; nothing has been written
+        print('make_landing: ERROR: malformed pack (%s: %s); nothing was written' % (type(e).__name__, e),
+              file=sys.stderr)
         return 1
     return 0
 

@@ -1,0 +1,113 @@
+/* ==== v6 onboarding (50-onboarding): where, rights, tune, tailored profile, generalised checkout ==== */
+/* footer meta above a CTA ("2 countries + remote selected", "1 country left to answer") */
+.ob6meta{text-align:center;font-size:12px;font-weight:700;color:var(--muted);margin:0 0 9px;min-height:0}
+.ob6meta:empty{display:none}
+
+/* where: residence card */
+.ob6based .ob6basedrow{display:flex;align-items:center;gap:12px;margin-top:12px}
+.ob6flagbig{font-size:28px;line-height:1;flex:none}
+.ob6basedrow b{display:block;font-size:15px;font-weight:800;color:var(--ink);line-height:1.25}
+.ob6basedrow span{display:block;font-size:11.5px;color:var(--muted);font-weight:600;margin-top:2px}
+.ob6chg{margin-inline-start:auto;flex:none;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font-size:12px;font-weight:800;color:var(--persian);cursor:pointer;font-family:inherit}
+.ob6chg:active{transform:scale(.97)}
+.setcard .allhint.ob6hint{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.ob6hint .ob6cur{flex:none;font-size:10px;font-weight:800;color:var(--persian);background:#EEF0FF;border-radius:999px;padding:2px 8px;letter-spacing:.03em}
+.setcard-ic.ob6flagic{background:var(--wash);font-size:18px;line-height:1}
+.ob6flag{font-size:14px;line-height:1}
+.setcard .chip.ob6cchip{gap:7px}
+.ob6here{font-size:9.5px;font-weight:800;color:var(--green-d);background:var(--green-t);padding:2px 7px;border-radius:999px;letter-spacing:.02em}
+.ob6cc .setcard-ht{flex:1 1 auto}
+.ob6cc .allchip .sw-lab{white-space:normal;text-align:end;max-width:170px;line-height:1.25}
+.ob6remote{display:flex;align-items:center;gap:12px}
+.ob6remote .ob6rtx{flex:1;min-width:0}
+.ob6remote b{font-size:14px}
+
+/* sheets */
+.sheet.ob6sheet{max-height:86%;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.ob6sheet .srow{gap:10px}
+.ob6sheet .srow .grow{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.ob6sheet .srow .ob6sub{font-size:11px;font-weight:600;color:var(--muted)}
+.ob6sheet .srow .ob6cur{font-size:10.5px;font-weight:800;color:var(--muted);letter-spacing:.03em}
+.ob6sheet .srow.on{color:var(--persian)}
+.ob6sheet .srow.on .ob6cur{color:var(--persian)}
+.ob6reg .srow .ti-chevron-down{transition:transform .18s;color:var(--muted)}
+.ob6reg.open .srow .ti-chevron-down{transform:rotate(180deg)}
+.ob6reg .ob6regbody{display:none;margin:0;padding:10px 0 14px;border-bottom:1px solid var(--line2)}
+.ob6reg.open .ob6regbody{display:flex}
+.ob6sheet .chip{cursor:pointer}
+.ob6sheet .chip .x{display:none}
+.ob6sheet .chip.on .x{display:inline}
+.ob6sheet .chip.addchip{border-style:dashed;color:var(--persian);font-weight:800;background:transparent}
+
+/* rights */
+.ob6auto{display:flex;align-items:center;gap:10px;margin-top:12px;padding:11px 12px;border-radius:12px;background:var(--green-t);color:#0a5c36;font-size:12.5px;font-weight:700;line-height:1.45}
+.ob6auto i{font-size:18px;color:var(--green-d);flex:none}
+.ob6auto .grow{flex:1;min-width:0}
+.ob6lnk{border:0;background:transparent;color:var(--green-d);font:inherit;font-size:12px;font-weight:800;text-decoration:underline;cursor:pointer;flex:none;padding:4px}
+.ob6lnk.ob6lnkb{display:block;margin-top:8px;padding:6px 0;color:var(--persian)}
+.ob6q{font-size:13px;font-weight:800;color:var(--ink);margin-top:13px;line-height:1.35}
+.ob6opts{margin-top:2px}
+.ob6opt{display:flex;align-items:flex-start;gap:12px;border:1.5px solid var(--line);border-radius:14px;padding:12px 13px;margin-top:8px;font-size:13px;font-weight:700;color:var(--ink);cursor:pointer;background:#fff;line-height:1.35;transition:border-color .14s,background .14s}
+.ob6opt .rc{width:20px;height:20px;border-radius:50%;border:2px solid var(--line);flex:none;margin-top:0}
+.ob6opt.on{border-color:var(--persian);background:#F5F6FF;color:var(--persian)}
+.ob6opt.on .rc{border-color:var(--persian);background:var(--persian);box-shadow:inset 0 0 0 3px #fff}
+.ob6opt .od{display:block;font-size:11.5px;font-weight:600;color:var(--muted);margin-top:3px;line-height:1.45}
+.ob6opt:active{transform:scale(.99)}
+.ob6note{display:flex;gap:8px;align-items:flex-start;margin-top:12px;font-size:11.5px;line-height:1.5;color:var(--slate);font-weight:600;background:var(--wash);border-radius:12px;padding:10px 12px}
+.ob6note i{font-size:15px;color:var(--persian);flex:none;margin-top:1px}
+.ob6note b{color:var(--ink);font-weight:800}
+.ob6warn{margin-top:14px}
+.setcard.ob6rt .chipgrid{margin-top:8px}
+
+/* profile */
+.ob6ro{pointer-events:none}
+.ob6lvrow .ob6lvl{font-size:12px;font-weight:700;margin:14px 0 7px}
+.ob6salin input{padding-inline-end:104px}
+.ob6salin .noticeunit{font-size:12px;max-width:96px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* tune: focus order */
+.ob6fosub{font-size:12px;line-height:1.5;margin-top:11px}
+.ob6rank{display:flex;align-items:center;gap:11px;padding:11px 0;border-bottom:1px solid var(--line2)}
+.ob6rank:last-of-type{border-bottom:0}
+.ob6rank .num{flex:0 0 28px;height:28px;border-radius:999px;background:#EEF0FF;color:var(--persian);font-size:12.5px;font-weight:800;display:grid;place-items:center}
+.ob6rank.first .num{background:var(--persian);color:#fff}
+.ob6rank .ob6rf{font-size:18px;line-height:1;flex:none}
+.ob6rank .tx{flex:1;min-width:0}
+.ob6rank .tx b{display:block;font-size:13.5px;font-weight:800;color:var(--ink);line-height:1.3}
+.ob6rank .tx span{display:block;font-size:11.5px;color:var(--muted);font-weight:600;margin-top:1px}
+.ob6rank .tx .ob6top{display:inline-block;margin-top:5px;font-size:9.5px;font-weight:800;color:var(--green-d);background:var(--green-t);padding:2px 7px;border-radius:999px}
+.ob6mvs{display:flex;flex-direction:column;gap:5px;flex:none}
+.ob6mv{width:34px;height:28px;border-radius:9px;border:1px solid var(--line);background:#fff;color:var(--slate);font-size:10px;cursor:pointer;display:grid;place-items:center;font-family:inherit}
+.ob6mv:disabled{opacity:.35;cursor:default}
+
+/* wall + live: employer monograms from the target market pack */
+.colog.ob6lg{background-image:none!important;display:grid;place-items:center;flex:none;font:800 12px/1 Inter,system-ui,sans-serif;letter-spacing:-.02em;text-align:center;overflow:hidden}
+.colog.ob6lg.sm{font-size:9px}
+
+/* checkout: marks for brands without artwork, more than three method tiles, Google Pay, tax line */
+.brand.ob6br{font:800 8px/1 Inter,system-ui,sans-serif;letter-spacing:.02em;padding:0 4px;white-space:nowrap;direction:ltr}
+.brand.ob6gp{color:#3C4043;background:#fff}
+.brand.ob6gp b{color:#4285F4;font-weight:900}
+.paytile.ob6pt{display:grid;place-items:center;font:800 8.5px/1 Inter,system-ui,sans-serif;letter-spacing:-.02em;background-image:none;direction:ltr;overflow:hidden}
+.paytile.ob6pt.md{font-size:11px}
+.pmt .mk .paytile.ob6pt{font-size:9px}
+.paymeth.ob6pm{flex-wrap:wrap}
+.paymeth.ob6pm .pmt{flex:1 1 0;min-width:0}
+.paymeth.ob6pm.ob6pm4 .pmt{flex:1 1 calc(50% - 8px)}
+.paymeth.ob6pm .pmt b{text-align:center}
+.applepay.ob6gpay{background:#000;color:#fff}
+.applepay .ob6g{font:900 19px/1 Inter,system-ui,sans-serif;color:#fff}
+.ob6redir .bh .paytile{width:32px;height:32px;border-radius:9px}
+.ob6plustax{display:block;font-size:10.5px;font-weight:700;color:var(--muted);text-align:end;margin-top:2px}
+.cks-next.ob6legal{margin-top:6px}
+#ckBnplBtn .paytile.ob6pt{width:22px;height:22px;border-radius:6px}
+
+/* desktop: the new screens use the onboarding corridor's split column */
+@container stage (min-width:700px){
+  .app.split .scr[data-scr=where],.app.split .scr[data-scr=rights],.app.split .scr[data-scr=tune]{--colw:640px}
+  .scr[data-scr=where] .body,.scr[data-scr=rights] .body,.scr[data-scr=tune] .body,.scr[data-scr=aboutYou] .body{padding-top:32px;padding-bottom:20px}
+  .scr[data-scr=where] .cta,.scr[data-scr=rights] .cta,.scr[data-scr=tune] .cta{padding-top:10px}
+  .scr[data-scr=where] .setup,.scr[data-scr=rights] .setup,.scr[data-scr=tune] .setup,.scr[data-scr=aboutYou] .setup,.scr[data-scr=autopilot] .setup{padding-top:10px}
+  .scr[data-scr=where] .cta .ob6meta,.scr[data-scr=rights] .cta .ob6meta{max-width:480px;margin-inline:auto}
+  .paymeth.ob6pm.ob6pm4 .pmt{flex:1 1 0}
+}

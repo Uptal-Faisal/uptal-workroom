@@ -1,0 +1,22 @@
+export const meta = {
+  name: 'tokenize-dict',
+  description: 'Tokenize v5 dictionary chunks (EN + Gulf AR) and write neutral Arabic + French, then review each chunk',
+  phases: [{ title: 'Tokenize' }, { title: 'Review' }],
+}
+const B = '/home/user/uptal-workroom/prototypes/build'
+const RULES = `Read fully before starting: ${B}/DESIGN.md (token grammar incl. {@g:male|female}, {@$:N}, {@sal:N}, {@salk:A-B}, {@per}, the {@id|literal} KSA escape hatch, scopes), ${B}/i18n/GLOSSARY.md (voices, gender rules, product terms), and the token registry ${B}/markets/registry.json (entities: id -> exact KSA en/ar values + archetype). Context: Uptal Auto-Apply v5 is a Saudi-only app; v6 serves ~28 markets with a persona each. Every dictionary string must read correctly for ANY market and persona once tokens are expanded, and must expand back EXACTLY to the v5 string for the Saudi persona Noura (female).`
+const TASK = (nn) => `Chunk file: ${B}/data/chunks/dict-${nn}.json (key -> {en, ar}; ar is v5 Gulf Arabic).
+Write ${B}/i18n/parts/tok-${nn}.json: { key: { "en": ..., "gulf": ..., "neutral": ..., "fr": ... } } for EVERY key in the chunk.
+- en: the English with every market-specific literal replaced by a token (registry ids; product prices "399 ¤" -> {@$:399}; monthly salaries "26,000 ¤" -> {@sal:26000}; "SAR a month" style units -> {@$code} / {@$c} with {@per}/{@perw}; gendered he/she/his/her about the persona -> {@g:..|..}). Omit "en" if nothing changes.
+- gulf: same for the v5 Arabic. Add {@g:masc|fem} wherever the form depends on the user's/persona's gender (v5 is inconsistent: sometimes masculine-generic, sometimes feminine for Noura; keep v5's form as one alternative so KSA still verifies). Omit "gulf" only if nothing changes.
+- neutral: the same message in neutral formal-leaning Arabic (no Gulf dialect), same tokens, gender tokens where needed. ALWAYS present.
+- fr: French (vouvoiement), same tokens, gender tokens for adjectives/participles agreeing with the user/persona. ALWAYS present. Keep existing non-market placeholders like {n} {s} {p} {e} exactly.
+Hard rules: never change meaning; keep HTML entities/markup and placeholders intact; numbers that are not prices/salaries stay as they are (French writes them 1 240 in prose); lens-name prefixes (Smart Defaults., Peak-End...) stay English; product names per glossary. If a market-specific concept has no registry id, ADD one to ${B}/markets/registry-proposals/${nn}.json as {"entities": {id: {cat, en, ar, arn, fr, scope, archetype, map}}} with exact KSA values (check the id is not already in registry.json). Prefer generic tokens over KSA trivia: e.g. a sentence about Saudization should become {@prog.name}-based wording only if registry has it; otherwise propose the id.
+Then run: cd ${B} && python3 -I tools/verify_chunk.py i18n/parts/tok-${nn}.json  and fix until it reports 0 problems (warnings are ok if intentional). Return: counts (keys, en tokenized, gulf tokenized, gender tokens used), proposed ids, anything doubtful.`
+const REVIEW = { type: 'object', properties: { fixed: { type: 'integer' }, issues: { type: 'array', items: { type: 'string' } } }, required: ['fixed', 'issues'] }
+const res = await pipeline(args.chunks,
+  (nn) => agent(`${RULES}\n\n${TASK(nn)}`, { label: `tok-${nn}`, phase: 'Tokenize' }),
+  (summary, nn) => agent(`${RULES}\n\nYou are the REVIEWER for chunk ${nn}. Files: ${B}/data/chunks/dict-${nn}.json (v5 originals) and ${B}/i18n/parts/tok-${nn}.json (tokenized output). Tokenizer report:\n${summary}\n\nCheck every key: (1) no market literal left untokenized in en/gulf/neutral/fr (Saudi places, companies, people, currency, SAR, riyal, VAT 15%, Iqama, mada, +966...); (2) tokens chosen are semantically right (a job city vs the persona's own city; product price vs salary; {@ctry.s} vs {@ctry.n}); (3) French is natural, vouvoiement, correct gender tokens, glossary terms; (4) neutral Arabic is formal-leaning with no Gulf words, gender tokens where needed; (5) sentences still read well when expanded for a man in London paid yearly in GBP and for a woman in Cairo paid monthly in EGP. Fix problems directly in the part file, then re-run cd ${B} && python3 -I tools/verify_chunk.py i18n/parts/tok-${nn}.json until 0 problems. Return what you fixed.`,
+    { label: `rev-${nn}`, phase: 'Review', schema: REVIEW }).then(r => ({ nn, summary, review: r })),
+)
+return res.filter(Boolean)

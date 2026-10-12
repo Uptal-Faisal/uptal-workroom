@@ -1,0 +1,659 @@
+{
+ "entities": {
+  "co.rewaa": {
+   "cat": "employer",
+   "en": "Rewaa",
+   "ar": "رِوّاء",
+   "arn": "رِوّاء",
+   "fr": "Rewaa",
+   "scope": "target",
+   "archetype": "Hero interviewing employer: a local high-growth retail-tech SaaS scale-up in the primary city. Head of Finance interview Thursday 10:00, recruiter mail m1, practice-interview target (PIQ), MSAQ answers. The most frequent employer in the app.",
+   "map": "a well-known local tech/SaaS scale-up (pack sector=tech) headquartered in the market's primary city, credible for a Head of Finance hire; must differ from co.tabby, co.salla and co.jahez picks",
+   "sector": "tech",
+   "count": 188,
+   "keys": [
+    "mlCoRw",
+    "hNeedT",
+    "pkWinS",
+    "recRole",
+    "m1sr",
+    "chM1",
+    "bsWarn",
+    "chAttJd"
+   ],
+   "logo": "rw",
+   "dom": "rewaa.com"
+  },
+  "co.tabby": {
+   "cat": "employer",
+   "en": "Tabby",
+   "ar": "تابي",
+   "arn": "تابي",
+   "fr": "Tabby",
+   "scope": "target",
+   "archetype": "Employer that made the job offer (Finance Manager, fully remote, 33,000 a month): regional BNPL fintech headquartered in the primary city. Separate slot from pay.tabby (the BNPL payment method in checkout/plan copy). v5 Arabic writes this employer as Latin 'Tabby' in m2s, mlAfterAccept, msaKnowList, msaMemItems (use {@co.tabby|Tabby}) and as تابي in swc8Co, swc8About, m2sr.",
+   "map": "the market's best-known fintech scale-up (pack sector=fintech) that plausibly hires remote FP&A; independent of the residence BNPL brand; must differ from co.rewaa",
+   "sector": "fintech",
+   "count": 215,
+   "keys": [
+    "swc8Co",
+    "swc8About",
+    "m2s",
+    "m2sr",
+    "mlAfterAccept",
+    "msaKnowList",
+    "msaMemItems"
+   ],
+   "logo": "tb",
+   "dom": "tabby.ai"
+  },
+  "co.stc": {
+   "cat": "employer",
+   "en": "stc",
+   "ar": "stc",
+   "arn": "stc",
+   "fr": "stc",
+   "scope": "target",
+   "archetype": "National #1 telecom group (state-linked, listed). Its recruiter viewed the application (hNudge), FP&A Lead / Financial Planning Analyst card swc4, dream-employer list (PIF, Aramco, NEOM, stc), sentCtxFor() fallback.",
+   "map": "telecom #1 in the pack (largest operator by revenue/subscribers, usually the incumbent)",
+   "sector": "telecom",
+   "count": 113,
+   "keys": [
+    "swc4Co",
+    "swc4About",
+    "hNudge",
+    "mlAfterReply",
+    "m3sr",
+    "nt3s",
+    "as3s",
+    "uhF1s"
+   ],
+   "logo": "st",
+   "dom": "stc.com.sa"
+  },
+  "co.mobily": {
+   "cat": "employer",
+   "en": "Mobily",
+   "ar": "موبايلي",
+   "arn": "موبايلي",
+   "fr": "Mobily",
+   "scope": "target",
+   "archetype": "National #2 telecom operator (listed). Application-received auto-mail m10, Financial Analyst card swc9, suggested-employer list.",
+   "map": "telecom #2 in the pack (main challenger to the co.stc pick)",
+   "sector": "telecom",
+   "count": 33,
+   "keys": [
+    "swc9Co",
+    "swc9About",
+    "m10s",
+    "m10b1",
+    "m10b2",
+    "m10sn"
+   ],
+   "logo": "mo",
+   "dom": "mobily.com.sa"
+  },
+  "co.aramco": {
+   "cat": "employer",
+   "en": "Aramco",
+   "ar": "أرامكو",
+   "arn": "أرامكو",
+   "fr": "Aramco",
+   "scope": "target",
+   "archetype": "National energy champion (HQ Dhahran). Senior Financial Analyst card swc3 with relocation to the Eastern Province, numerical-reasoning assessment mail m5, dream-employer list.",
+   "map": "the national energy/oil & gas champion (pack sector=energy, rank 1); if the market has none, its largest resources or industrial employer",
+   "sector": "energy",
+   "count": 46,
+   "keys": [
+    "swc3Co",
+    "swc3About",
+    "m5sn",
+    "uhF2s"
+   ],
+   "logo": "ar",
+   "dom": "aramco.com"
+  },
+  "co.almarai": {
+   "cat": "employer",
+   "en": "Almarai",
+   "ar": "المراعي",
+   "arn": "المراعي",
+   "fr": "Almarai",
+   "scope": "target",
+   "archetype": "Largest regional food and dairy (FMCG) company. FP&A card swc1, documents mail m4, suggested-employer list. The ال is part of the name.",
+   "map": "the largest national FMCG / food & beverage company (pack sector=fmcg)",
+   "sector": "fmcg",
+   "count": 41,
+   "keys": [
+    "swc1Co",
+    "swc1About",
+    "m4sr",
+    "mlAfterDocs"
+   ],
+   "logo": "am",
+   "dom": "almarai.com"
+  },
+  "co.bupa": {
+   "cat": "employer",
+   "en": "Bupa Arabia",
+   "ar": "بوبا العربية",
+   "arn": "بوبا العربية",
+   "fr": "Bupa Arabia",
+   "scope": "target",
+   "archetype": "Largest health insurer (local arm of a global brand, listed). Budgeting Analyst card swc10, in-person interview at its capital-city office (m11b1, mlConf11).",
+   "map": "the largest health insurer (pack sector=insurance, health-focused); else the largest insurer not used for co.tawuniya",
+   "sector": "insurance",
+   "count": 31,
+   "keys": [
+    "swc10Co",
+    "swc10About",
+    "m11b1",
+    "m11sr",
+    "mlConf11"
+   ],
+   "logo": "bu",
+   "dom": "bupa.com.sa"
+  },
+  "co.tawuniya": {
+   "cat": "employer",
+   "en": "Tawuniya",
+   "ar": "التعاونية",
+   "arn": "التعاونية",
+   "fr": "Tawuniya",
+   "scope": "target",
+   "archetype": "Large listed multi-line insurer (health, motor, property). Swipe-history card swh4, suggested-employer list.",
+   "map": "a large multi-line insurer (pack sector=insurance), different from the co.bupa pick",
+   "sector": "insurance",
+   "count": 10,
+   "keys": [
+    "swh4Co",
+    "swh4About"
+   ],
+   "logo": "tw"
+  },
+  "co.maaden": {
+   "cat": "employer",
+   "en": "Maaden",
+   "ar": "معادن",
+   "arn": "معادن",
+   "fr": "Maaden",
+   "scope": "target",
+   "archetype": "State-owned mining and metals major with a remote industrial-city site (Ras Al Khair). Employer form that paused on 3 screening questions (relocation with housing allowance, SOCPA membership, conflict of interest). Dict spells it Maaden; inline SUG/LOGO/AR_E maps spell it Ma'aden (use {@co.maaden|Ma'aden} there).",
+   "map": "the national mining/metals/resources champion (pack sector=mining); else the largest industrial employer with a remote plant site",
+   "sector": "mining",
+   "count": 40,
+   "keys": [
+    "qaCoMd",
+    "aprCoMaaden",
+    "mq1s",
+    "mq1b1",
+    "mq1b2",
+    "qaLogS",
+    "qaQ1c",
+    "qaW1b"
+   ],
+   "logo": "md"
+  },
+  "co.riyadbank": {
+   "cat": "employer",
+   "en": "Riyad Bank",
+   "ar": "بنك الرياض",
+   "arn": "بنك الرياض",
+   "fr": "Riyad Bank",
+   "scope": "target",
+   "archetype": "Major listed bank headquartered in the capital. Second employer form (expected salary, SAMA experience, motivation; QA.apps q2), swipe-history card swh1 (Credit Analyst). Arabic name contains the city الرياض: tokenize the whole name, never the city inside it.",
+   "map": "a top-3 national bank (pack sector=bank) not used for co.snb, co.alrajhi or co.alinma",
+   "sector": "bank",
+   "count": 25,
+   "keys": [
+    "qaCoRb",
+    "qaQ2c",
+    "qaW2a",
+    "qaLogS",
+    "qaD2c",
+    "mq1b4",
+    "swh1Co",
+    "swh1About"
+   ],
+   "logo": "rb"
+  },
+  "co.snb": {
+   "cat": "employer",
+   "en": "SNB",
+   "ar": "البنك الأهلي السعودي",
+   "arn": "البنك الأهلي السعودي",
+   "fr": "SNB",
+   "scope": "target",
+   "archetype": "Largest bank by assets. Drives the CV Tailoring sample (Senior Financial Analyst at SNB, Riyadh, 92% match) and a pipeline row (Treasury Analyst, Jeddah). aprCoSnb uses the short Arabic form البنك الأهلي (use {@co.snb|البنك الأهلي}); the full form contains السعودي, which must not be tokenized as ctry.dem.",
+   "map": "the largest bank by assets (pack sector=bank, rank 1), its usual short name or acronym",
+   "sector": "bank",
+   "count": 34,
+   "keys": [
+    "cvtBaRole",
+    "cvtPrevRowS",
+    "aprCoSnb"
+   ],
+   "logo": "sn"
+  },
+  "co.alrajhi": {
+   "cat": "employer",
+   "en": "Al Rajhi Bank",
+   "ar": "مصرف الراجحي",
+   "arn": "مصرف الراجحي",
+   "fr": "Al Rajhi Bank",
+   "scope": "target",
+   "archetype": "Largest Islamic bank (world #1 by assets). Card swc6 (Performance Management), recruiter m8.",
+   "map": "the largest Islamic bank (pack sector=islamic-bank); where Islamic banking is marginal, a top-3 retail bank not used for co.snb or co.riyadbank (and drop 'Islamic' from swc6About)",
+   "sector": "islamic-bank",
+   "count": 12,
+   "keys": [
+    "swc6Co",
+    "swc6About",
+    "m8sr"
+   ],
+   "logo": "rj",
+   "dom": "alrajhibank.com.sa"
+  },
+  "co.alinma": {
+   "cat": "employer",
+   "en": "Alinma Bank",
+   "ar": "مصرف الإنماء",
+   "arn": "مصرف الإنماء",
+   "fr": "Alinma Bank",
+   "scope": "target",
+   "archetype": "Employer in the hiring-team demo thread (seedB: Senior Financial Analyst, Riyadh, recruiter wrote 3 weeks ago). Mid-size Islamic bank.",
+   "map": "a mid-size national bank (pack sector=bank or islamic-bank) not used by any other co.* bank id",
+   "sector": "bank",
+   "count": 4,
+   "keys": [
+    "hmCoB"
+   ],
+   "logo": "hmal"
+  },
+  "co.jahez": {
+   "cat": "employer",
+   "en": "Jahez",
+   "ar": "جاهز",
+   "arn": "جاهز",
+   "fr": "Jahez",
+   "scope": "target",
+   "archetype": "Listed local food-delivery tech company. FP&A Lead card swc2, auto-reply mails m6. Arabic جاهز is also the everyday word 'ready' (39 dict hits): tokenize only the listed company keys.",
+   "map": "the #1 local food-delivery / quick-commerce app (pack sector=delivery or ecommerce)",
+   "sector": "delivery",
+   "count": 28,
+   "keys": [
+    "swc2Co",
+    "swc2About",
+    "m6b1",
+    "m6b2",
+    "m6sn"
+   ],
+   "logo": "ja",
+   "dom": "jahez.net"
+  },
+  "co.nana": {
+   "cat": "employer",
+   "en": "Nana",
+   "ar": "نعناع",
+   "arn": "نعناع",
+   "fr": "Nana",
+   "scope": "target",
+   "archetype": "Online grocery delivery app. Pipeline row 3 (Finance Manager) and MSAQ answers ('screening at stc and at Nana'). Arabic نعناع also means 'mint'.",
+   "map": "a local online grocery / quick-commerce app (pack sector=delivery or ecommerce), different from the co.jahez and co.noon picks",
+   "sector": "delivery",
+   "count": 32,
+   "keys": [
+    "aprCoNana"
+   ],
+   "logo": "na"
+  },
+  "co.noon": {
+   "cat": "employer",
+   "en": "noon",
+   "ar": "نون",
+   "arn": "نون",
+   "fr": "noon",
+   "scope": "target",
+   "archetype": "Regional e-commerce marketplace. Pipeline row 10 (Finance Business Partner). Lower-case brand. Arabic نون is also the letter name.",
+   "map": "the leading e-commerce marketplace (pack sector=ecommerce or retail), different from the co.jahez and co.nana picks",
+   "sector": "ecommerce",
+   "count": 10,
+   "keys": [
+    "aprCoNoon"
+   ],
+   "logo": "nn"
+  },
+  "co.salla": {
+   "cat": "employer",
+   "en": "Salla",
+   "ar": "سلة",
+   "arn": "سلة",
+   "fr": "Salla",
+   "scope": "target",
+   "archetype": "E-commerce enabling platform headquartered in Makkah (not the capital). Swipe-history card swh3 (Financial Controller). Arabic سلة also means 'basket'.",
+   "map": "a local e-commerce platform / marketplace-tech scale-up (pack sector=tech or ecommerce), ideally headquartered outside the primary city; different from co.rewaa",
+   "sector": "tech",
+   "count": 4,
+   "keys": [
+    "swh3Co",
+    "swh3About"
+   ],
+   "logo": "sl"
+  },
+  "co.qiddiya": {
+   "cat": "employer",
+   "en": "Qiddiya",
+   "ar": "القدية",
+   "arn": "القدية",
+   "fr": "Qiddiya",
+   "scope": "target",
+   "archetype": "PIF-owned giga-project (entertainment, sports and culture city at the edge of the capital). Project Finance Analyst card swc5, auto-mail m7, Auto-Apply learning note (agLearn). ال is part of the name.",
+   "map": "a flagship state-backed mega-project / real-estate developer (pack sector=realestate) different from the co.neom pick; else the largest real-estate developer",
+   "sector": "realestate",
+   "count": 18,
+   "keys": [
+    "swc5Co",
+    "swc5About",
+    "m7sn",
+    "m7b2",
+    "agLearn"
+   ],
+   "logo": "qd",
+   "dom": "qiddiya.com"
+  },
+  "co.neom": {
+   "cat": "employer",
+   "en": "NEOM",
+   "ar": "نيوم",
+   "arn": "نيوم",
+   "fr": "NEOM",
+   "scope": "target",
+   "archetype": "Flagship giga-project and dream employer (rejection mail m9, card swc7 in Tabuk, advisor bio 'NEOM-scale programs', advisor review 'NEOM offer'). v5 Arabic m9b1 keeps Latin NEOM (use {@co.neom|NEOM}).",
+   "map": "the market's most prestigious state-backed mega-project or flagship development (pack sector=realestate or public-investment); if none, the most sought-after large employer for senior finance in the pack",
+   "sector": "realestate",
+   "count": 33,
+   "keys": [
+    "swc7Co",
+    "swc7About",
+    "swc7O1",
+    "m9b1",
+    "m9sr",
+    "apFaBio",
+    "apFaR2"
+   ],
+   "logo": "ne",
+   "init": "NM",
+   "dom": "neom.com"
+  },
+  "co.pif": {
+   "cat": "employer",
+   "en": "PIF",
+   "ar": "صندوق الاستثمارات العامة",
+   "arn": "صندوق الاستثمارات العامة",
+   "fr": "PIF",
+   "scope": "target",
+   "archetype": "Sovereign wealth fund, short form (acronym in EN). Dream employer #1 (VP Finance push), advisor credential 'ex-PIF', 'PIF-owned giga-project'. Arabic has no acronym: full name in most keys, short صندوق الاستثمارات in alSpec6 and Latin PIF in drPushP (use {@co.pif|...} escape hatch for both).",
+   "map": "the market's sovereign wealth / national public investment fund (pack sector=sovereign or public-investment) in its usual short form or acronym (e.g. ADIA/Mubadala, QIA, KIA, NWF, Bpifrance, CDG); else the largest state investment or public pension body",
+   "sector": "sovereign",
+   "count": 27,
+   "keys": [
+    "drPushP",
+    "alSpec6",
+    "gwSpec6",
+    "apFaBio",
+    "swc5About"
+   ],
+   "init": "PIF"
+  },
+  "co.pif.n": {
+   "cat": "employer",
+   "en": "Public Investment Fund",
+   "ar": "صندوق الاستثمارات العامة",
+   "arn": "صندوق الاستثمارات العامة",
+   "fr": "Fonds public d'investissement",
+   "scope": "target",
+   "archetype": "Sovereign wealth fund, full name (backer of NEOM, majority owner of Lucid).",
+   "map": "full official name of the co.pif pick",
+   "sector": "sovereign",
+   "count": 4,
+   "keys": [
+    "swc7About",
+    "swh6About"
+   ]
+  },
+  "co.sabic": {
+   "cat": "employer",
+   "en": "SABIC",
+   "ar": "سابك",
+   "arn": "سابك",
+   "fr": "SABIC",
+   "scope": "target",
+   "archetype": "Petrochemicals / industrial major. Appears only in the inline suggested-employer list (SUG.employers, AR_E, INIT 'SB'), not in the dictionary. Inline only: SUG.employers, AR_E, INIT.",
+   "map": "the largest chemicals / manufacturing / industrial employer (pack sector=industrial), not the co.aramco or co.maaden pick",
+   "sector": "industrial",
+   "count": 6,
+   "keys": [],
+   "init": "SB"
+  },
+  "co.saudia": {
+   "cat": "employer",
+   "en": "Saudia",
+   "ar": "السعودية",
+   "arn": "السعودية",
+   "fr": "Saudia",
+   "scope": "target",
+   "archetype": "National flag-carrier airline (HQ Jeddah, SkyTeam member). Swipe-history card swh5. Arabic brand السعودية is identical to the country short name: tokenize only swh5Co/swh5Role, never ctry.s there; swh5About uses the long form الخطوط السعودية (use {@co.saudia|الخطوط السعودية}).",
+   "map": "the national flag-carrier airline (pack sector=airline, flag carrier)",
+   "sector": "airline",
+   "count": 6,
+   "keys": [
+    "swh5Co",
+    "swh5Role",
+    "swh5About"
+   ],
+   "logo": "sa"
+  },
+  "co.flynas": {
+   "cat": "employer",
+   "en": "flynas",
+   "ar": "طيران ناس",
+   "arn": "طيران ناس",
+   "fr": "flynas",
+   "scope": "target",
+   "archetype": "Listed local low-cost airline (all-Airbus fleet). Swipe-history card swh2 (FP&A Analyst). Lower-case brand.",
+   "map": "the leading local low-cost airline (pack sector=airline, LCC); if none, the second-largest airline",
+   "sector": "airline",
+   "count": 4,
+   "keys": [
+    "swh2Co",
+    "swh2About"
+   ],
+   "logo": "fn"
+  },
+  "co.lucid": {
+   "cat": "employer",
+   "en": "Lucid",
+   "ar": "لوسيد",
+   "arn": "لوسيد",
+   "fr": "Lucid",
+   "scope": "target",
+   "archetype": "Foreign (US) electric-vehicle maker, majority-owned by PIF, with its first assembly plant outside the US in King Abdullah Economic City. Swipe-history card swh6 (Cost Analyst, Manufacturing).",
+   "map": "a foreign-headquartered manufacturer with a major local plant (pack sector=industrial), ideally state co-invested; different from co.sabic",
+   "sector": "industrial",
+   "count": 4,
+   "keys": [
+    "swh6Co",
+    "swh6About"
+   ],
+   "logo": "lu"
+  },
+  "co.habib": {
+   "cat": "employer",
+   "en": "Dr. Sulaiman Al Habib",
+   "ar": "د. سليمان الحبيب",
+   "arn": "د. سليمان الحبيب",
+   "fr": "Dr Sulaiman Al Habib",
+   "scope": "target",
+   "archetype": "Largest private hospital group (listed). Swipe-history card swh7 (Budget Analyst).",
+   "map": "the largest private hospital / healthcare group (pack sector=healthcare)",
+   "sector": "healthcare",
+   "count": 4,
+   "keys": [
+    "swh7Co",
+    "swh7About"
+   ],
+   "logo": "hb"
+  },
+  "co.tadawul": {
+   "cat": "employer",
+   "en": "Tadawul",
+   "ar": "تداول",
+   "arn": "تداول",
+   "fr": "Tadawul",
+   "scope": "target",
+   "archetype": "National stock exchange, as used in 'listed on Tadawul' / مدرجة في تداول inside 7 employer About sentences. Arabic تداول is also 'trading': tokenize only after مدرج/مدرجة في.",
+   "map": "the national stock exchange's short name as used in 'listed on X' (e.g. ADX or DFM, QSE, Boursa Kuwait, LSE, NYSE/Nasdaq, Euronext Paris, Bourse de Casablanca, EGX); must be where the mapped employers are actually listed",
+   "sector": "exchange",
+   "count": 14,
+   "keys": [
+    "swc4About",
+    "swc9About",
+    "swc10About",
+    "swh1About",
+    "swh2About",
+    "swh4About",
+    "swh7About"
+   ]
+  },
+  "co.nasdaq": {
+   "cat": "employer",
+   "en": "Nasdaq",
+   "ar": "ناسداك",
+   "arn": "ناسداك",
+   "fr": "Nasdaq",
+   "scope": "target",
+   "archetype": "Foreign stock exchange where co.lucid is listed ('Restricted stock units in a Nasdaq-listed company', swh6O3).",
+   "map": "the exchange where the co.lucid pick is listed; keep Nasdaq when that pick is US-listed",
+   "sector": "exchange",
+   "count": 2,
+   "keys": [
+    "swh6O3"
+   ]
+  },
+  "co.skyteam": {
+   "cat": "employer",
+   "en": "SkyTeam",
+   "ar": "سكاي تيم",
+   "arn": "سكاي تيم",
+   "fr": "SkyTeam",
+   "scope": "target",
+   "archetype": "Global airline alliance named in the co.saudia About sentence (swh5About). Company fact, not a hiring employer.",
+   "map": "the global airline alliance of the co.saudia pick (SkyTeam, Star Alliance or oneworld); if that carrier is in none, swh5About needs a per-market rewrite",
+   "count": 2,
+   "keys": [
+    "swh5About"
+   ]
+  },
+  "co.airbus": {
+   "cat": "employer",
+   "en": "Airbus",
+   "ar": "إيرباص",
+   "arn": "إيرباص",
+   "fr": "Airbus",
+   "scope": "target",
+   "archetype": "Aircraft maker named in the co.flynas About sentence (all-Airbus fleet of A320 family and A330neo). Company fact, not a hiring employer.",
+   "map": "the manufacturer of the co.flynas pick's fleet (Airbus or Boeing); the A320/A330neo model names in swh2About must be checked with it",
+   "count": 2,
+   "keys": [
+    "swh2About"
+   ]
+  },
+  "co.giga": {
+   "cat": "employer_type",
+   "en": "giga-project",
+   "ar": "مشروع عملاق",
+   "arn": "مشروع عملاق",
+   "fr": "giga-projet",
+   "scope": "target",
+   "archetype": "Employer-type phrase, singular or attributive ('a giga-project', 'giga-project finance roles', 'Government and giga-project track'). KSA-specific term for PIF-backed mega developments.",
+   "map": "the local term for flagship state-backed mega-projects (e.g. 'mega-project', 'major infrastructure project', FR 'grand projet'); where none exist, the closest prestige category such as 'major public project'",
+   "sector": "realestate",
+   "count": 25,
+   "keys": [
+    "swc5About",
+    "swc7About",
+    "swc5Sum",
+    "agLearn",
+    "advS6",
+    "hubS6",
+    "alSpec6",
+    "gwSpec6"
+   ]
+  },
+  "co.gigas": {
+   "cat": "employer_type",
+   "en": "giga-projects",
+   "ar": "المشاريع العملاقة",
+   "arn": "المشاريع العملاقة",
+   "fr": "giga-projets",
+   "scope": "target",
+   "archetype": "Employer-type phrase, plural. Arabic is the definite noun+adjective phrase (ال on both words, so it cannot be split off as a prefix). Indefinite ومشاريع عملاقة in alSpec6 → {@co.gigas|مشاريع عملاقة}; ل-contracted للمشاريع العملاقة in apFaS1 cannot be written ل{@co.gigas} (see notes).",
+   "map": "plural of the co.giga term (definite form in Arabic, e.g. المشاريع الكبرى)",
+   "count": 13,
+   "keys": [
+    "apBio",
+    "epBio",
+    "apNdBio",
+    "advS6",
+    "hubS6",
+    "agLearn",
+    "apFaBio",
+    "apFaS1"
+   ]
+  },
+  "co.giga.cap": {
+   "cat": "employer_type",
+   "en": "Giga-project",
+   "ar": "المشاريع العملاقة",
+   "arn": "المشاريع العملاقة",
+   "fr": "Giga-projet",
+   "scope": "target",
+   "archetype": "Sentence-initial capitalised form of co.giga (advisor service title apFaS1 'Giga-project application strategy'). English-only variant; the Arabic side of apFaS1 uses co.gigas.",
+   "map": "co.giga term with an initial capital",
+   "count": 1,
+   "keys": [
+    "apFaS1"
+   ]
+  },
+  "co.semigov": {
+   "cat": "employer_type",
+   "en": "Semi-government",
+   "ar": "شبه حكومي",
+   "arn": "شبه حكومي",
+   "fr": "Parapublic",
+   "scope": "target",
+   "archetype": "Employer-type filter chip (tSemi, ytSemi; also in the inline employer-type lists next to Government / Private / Multinationals / Startups, which stay generic).",
+   "map": "the local label for state-owned or government-linked companies (e.g. AE/QA 'Semi-government', GB 'Public corporations', US 'Public authorities', FR 'Entreprises publiques', MA/TN/DZ 'Établissements publics')",
+   "count": 8,
+   "keys": [
+    "tSemi",
+    "ytSemi"
+   ]
+  }
+ },
+ "notes": [
+  "COUNT METHOD: count = dictionary EN + AR hits + stray HTML hits + 2 x the estimated inline-JS hits (MSAQ answers, MAIL[], JOBS[], PIQ, SUG/DREAM/AR_E/LOGO/INIT maps, cvtailor SNB sample, seedA/seedB, sentCtxFor). co.tabby counts the employer only. About 20 of the 131 'Tabby' hits in v5.html are the BNPL payment method and belong to pay.tabby: ckHint1, cvtPayNote, pmNote, tCkBnplOff, wlSplit4, wlSplit12, the checkout/cards HTML strings ('Pay in 4 with Tabby', 'Continue with Tabby', 'You finish in the Tabby app...') and BNPL_NAME. Never tokenize those keys with co.tabby.",
+  "AMOUNTS THAT ARE NEITHER PRICE NOR MONTHLY SALARY (company facts inside the job-card About sentences): swc1About 'more than 40,000 employees across the Gulf' (Almarai headcount); swc6About 'more than 500 branches' plus 'largest Islamic bank in the world by assets'; swc8About 'more than 15 million shoppers across the Gulf'; swc5About 'more than 300 square kilometers'; swc7About 'planned investment of more than 500 billion dollars' (a USD figure: do NOT use {@$:} or {@sal:}); swh2About 'more than 70 destinations' plus the fleet models 'A320 family' and 'A330neo'; swh5About 'four continents'; swc9About 'one of Saudi Arabia's three main telecom operators'; swh3About 'tens of thousands of merchants'. SUGGESTED TREATMENT: do not tokenize the numbers. Make each of the 17 About keys (swc1-10About, swh1-7About) a whole-sentence per-market slot, e.g. {@co.almarai.about}, whose KSA value is the exact v5 sentence and whose pack value is a true one-line fact about the employer picked for that id (pack employers[].about {en,ar,fr}). Fallback if no slot: tokenize only the names and keep the claims generic ('one of the largest dairy and food companies') with the figures removed in non-KSA packs. Other numbers near employers are UI/demo values to keep as they are: cvtPrevRowS '92% match'; drPushP 'posted 09:02 ... applied at 09:08 ... applicant number 4'; mq1b1 '02:41', '9 of the 12 questions'. msaKnowList 'Offer from Tabby, 33,000' and mrd2 '33,000 ¤ a month' are monthly salaries and take {@sal:33000}.",
+  "CARD/THREAD COUPLING: each swcN/swhN job card (Co, City, Title, Sum, Role, R1-4, Q1-4, O1-3, About) and each mail thread (mNs, mNb*, mNsn, mNsr, MAIL[].from) belongs to exactly one co.* id. The card city must come from the pack employer's city field and must not be swapped separately through city.*: swc3City Dhahran (Aramco), swc7City Tabuk (NEOM), swh3City Makkah (Salla), swh5City Jeddah (Saudia), swh6City King Abdullah Economic City (Lucid), aplist row 6 SNB/Jeddah, mq1b1/mq1b2/qaCityRak Ras Al Khair (Maaden). Site-bound perks follow the employer too: swc3O1 'Relocation support to the Eastern Province', swc7O1 'NEOM community housing', swh6O1 'Relocation and housing support in King Abdullah Economic City', and Maaden's relocation with a housing allowance.",
+  "SENDER DOMAINS: MAIL[] senders are KSA-specific (careers@rewaa.com, people@tabby.ai, talent@stc.com.sa, recruitment@almarai.com, no-reply@aramco.com, no-reply@jahez.net, no-reply@qiddiya.com, hr@alrajhibank.com.sa, talent@neom.com, no-reply@mobily.com.sa, careers@bupa.com.sa, plus the literal careers@rewaa.com at v5.html 7406). The 'dom' field on those entities holds the KSA domain. Packs should give each mapped employer a domain, or the engine should build local-part@<pack domain>. The extra fields 'logo' (v5 co-xx CSS class), 'init' (INIT monogram) and 'sector' (pack sector vocabulary) are there to drive LOGO/INIT/AR_E generation and slot picking.",
+  "ARABIC HOMOGRAPHS: tokenize only inside the listed company keys. Never replace these words globally: جاهز (Jahez, but also 'ready': 34 non-company dict hits), سلة ('basket'), نون (the letter), نعناع ('mint'), التعاونية ('cooperative'), تداول ('trading'; replace only after مدرج/مدرجة في), معادن ('metals'), ناس inside طيران ناس ('people'), السعودية (co.saudia in swh5Co/swh5Role, identical to the country short name ctry.s), الرياض inside بنك الرياض (part of co.riyadbank, not city.riyadh), السعودي inside البنك الأهلي السعودي (part of co.snb, not ctry.dem), تابي inside كتابي/كتابية ('written'), and سابك inside حسابك ('your account': 13 dict hits, none of them SABIC).",
+  "SURFACE VARIANTS HANDLED BY THE ESCAPE HATCH (KSA literal, normal value elsewhere): Arabic Latin-script Tabby in m2s, mlAfterAccept, msaKnowList, msaMemItems and the inline MSAQ/override strings -> {@co.tabby|Tabby}; Arabic 'بـ NEOM' in m9b1 -> {@co.neom|NEOM}; Arabic Latin PIF in drPushP -> {@co.pif|PIF}; short صندوق الاستثمارات in alSpec6 -> {@co.pif|صندوق الاستثمارات}; aprCoSnb البنك الأهلي -> {@co.snb|البنك الأهلي}; swh5About الخطوط السعودية -> {@co.saudia|الخطوط السعودية}; alSpec6 ومشاريع عملاقة -> و{@co.gigas|مشاريع عملاقة}; inline EN Ma'aden (SUG.employers, LOGO, AR_E keys) -> {@co.maaden|Ma'aden}. EN Saudia's (swh5Role) -> {@co.saudia}'s.",
+  "ARABIC ل+ال CONTRACTION: apFaS1 AR 'استراتيجية التقديم للمشاريع العملاقة' cannot be written ل{@co.gigas} because that renders لالمشاريع. Options: (a) add an id co.gigas.l {ar:'للمشاريع العملاقة'} and have packs supply the ل-form; (b) use {@co.gigas|للمشاريع العملاقة} and accept that other markets drop the ل (ungrammatical); (c) give apFaS1 a v6 newkey outside KSA. Recommendation: (a). No other co.* surface hits this in the dictionary; co.almarai/co.qiddiya/co.tawuniya only appear after إلى/في/لدى/مع.",
+  "qaD2c: the AR value is deliberately English (employer forms are in English) and contains 'Riyad Bank'. If {@co.riyadbank} goes into the tok-gulf string, the KSA expansion gives بنك الرياض and fails verify.js. Expand qaD2c with lang='en' whatever the UI language (keep the AR copy equal to the tokenized EN string), or use {@co.riyadbank|Riyad Bank}, though that puts the Arabic local bank name into English text in other markets. qaD2c also carries Riyadh, 'eight years', SAP and IFRS.",
+  "DISTINCTNESS: within one market every co.* id must resolve to a different real employer, because the 12-row pipeline list (aplist: Rewaa, stc, Nana, Tabby, Aramco, SNB, Jahez, Almarai, Maaden, noon, Bupa Arabia, Mobily), the 10-card swipe deck, DREAM (co.pif, co.aramco, co.neom, co.stc) and SUG (co.sabic, co.maaden, co.riyadbank, co.snb, co.almarai, co.mobily, co.bupa, co.tawuniya) show them side by side. That means 4 banks (co.snb, co.riyadbank, co.alrajhi, co.alinma), 2 telecoms, 2 insurers, 2 airlines, 3 delivery/e-commerce apps (co.jahez, co.nana, co.noon), 2 tech scale-ups (co.rewaa, co.salla) plus a fintech (co.tabby), and 2 mega-project developers (co.neom, co.qiddiya). Thin markets (LY, IQ, LB, DZ) may fill a slot from another sector rather than repeat an employer. The SA core pack lacks nana, noon, flynas, lucid and alinma; its 'tadawul' employer is 'Saudi Tadawul Group' (the operator as an employer), while the copy uses 'Tadawul' (the exchange name, co.tadawul).",
+  "INLINE MAPS TO REBUILD FROM REGISTRY + PACK (not tokenizable strings): DREAM DEF.employers ['PIF','Aramco','NEOM','stc'] -> [co.pif, co.aramco, co.neom, co.stc]; SUG.employers ['SABIC',\"Ma'aden\",'Riyad Bank','SNB','Almarai','Mobily','Bupa Arabia','Tawuniya'] -> [co.sabic, co.maaden, co.riyadbank, co.snb, co.almarai, co.mobily, co.bupa, co.tawuniya]; AR_E (EN->AR employer map), LOGO and INIT maps; JOBS[] logo codes; aplist data-company and co-xx classes; sentCtxFor() fallbacks 'stc'/'Rewaa'; seedB co 'Alinma Bank' logo 'hmal'; cvtailor SNB object {co:'SNB', coAr:'البنك الأهلي السعودي', logo:'sn'}; QA.apps q1 Maaden / q2 Riyad Bank; HM_EMP_STOP stoplist (Riyadh|Jeddah|Dammam|Saudi|KSA), which must list the target market's city and country words. The employer label() helper translates only for lang==='ar' via AR_E and needs an fr path.",
+  "SCOPE NOTE (co.pif inside advisor copy): the 'ex-PIF' credential (alSpec6, gwSpec6, apFaBio 'Ex-PIF talent leader') and 'NEOM-scale programs' / 'NEOM offer' (apFaBio, apFaR2) sit in adv.* advisor bios. They resolve against the TARGET market like the rest of co.*, so an advisor's past employer changes with the market. That is intended because advisors are presented as local.",
+  "OUT OF PARTITION, seen but not registered here (for the merger): SAMA in qaQ2b, qaW2b and qaLogS (AR ساما / البنك المركزي السعودي (ساما)) plus the KW chip 'SAMA reporting' -> suggest gov.sama {en:'SAMA', ar:'ساما', map:'the market's central bank / banking-supervisor short name'}; SOCPA, with the full Arabic body name الهيئة السعودية للمراجعين والمحاسبين in mq1b2/qaQ1b -> cert.*; ZATCA (هيئة الزكاة والضريبة in swh3R3) -> gov.*/tax.*; 'Uptal Information Technology Co' (rcSeller, rcSellerSara) -> legal.* (residence seller entity); Acme Financial / Acme Capital -> p.employer / p.employer2 (partition C); 'GCC banks' (apNdBio) -> reg.*; 'the United States' in swh6About (Lucid's home country) -> ctry/fact, goes with the About slot; Tabby/Tamara/mada/Apple Pay -> pay.*; LinkedIn, WhatsApp, Google Meet, SAP, Oracle, Power BI, Excel are global products, not market employers (WhatsApp may need misc.*). Generic employer-type chips Government / Private / Multinationals / Startups stay untokenized; only Semi-government (co.semigov) is market-specific.",
+  "LOW-VALUE IDS: co.skyteam, co.airbus and co.nasdaq exist only as facts inside swh5About, swh2About and swh6O3. If the About sentences become per-market slots (note 2), co.skyteam and co.airbus can be dropped; co.nasdaq stays for swh6O3."
+ ]
+}

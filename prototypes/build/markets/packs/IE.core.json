@@ -1,0 +1,179 @@
+{
+ "code": "IE",
+ "flag": "🇮🇪",
+ "name": {"en": "Ireland", "ar": "أيرلندا", "fr": "Irlande"},
+ "short": {"en": "Ireland", "ar": "أيرلندا", "fr": "l'Irlande"},
+ "in": {"en": "in Ireland", "ar": "في أيرلندا", "fr": "en Irlande"},
+ "dem": {"en": "Irish", "ar": "أيرلندي", "arf": "أيرلندية", "fr": "irlandais", "frf": "irlandaise"},
+ "nationals": {"en": "Irish citizens", "ar": "المواطنون الأيرلنديون", "fr": "citoyens irlandais"},
+ "region": "uk",
+ "workweek": "mon-fri",
+ "cities": [
+  {"id": "dublin", "en": "Dublin", "ar": "دبلن", "fr": "Dublin",
+   "metro": {"en": "Dublin covers County Dublin and commuter towns in Kildare, Meath and Wicklow, such as Naas, Maynooth and Bray.", "ar": "تشمل دبلن مقاطعة دبلن والبلدات القريبة التي يتنقل منها الموظفون يومياً في كيلدير وميث وويكلو، مثل ناس وماينوث وبراي.", "fr": "Dublin comprend le comté de Dublin et les villes de la grande banlieue dans les comtés de Kildare, Meath et Wicklow, comme Naas, Maynooth et Bray."}},
+  {"id": "cork", "en": "Cork", "ar": "كورك", "fr": "Cork",
+   "metro": {"en": "Cork covers the city and nearby business hubs such as Little Island, Ballincollig and Carrigtwohill.", "ar": "تشمل كورك المدينة ومراكز الأعمال القريبة منها، مثل ليتل آيلاند وبالينكوليغ وكاريغتوهيل.", "fr": "Cork comprend la ville et les pôles d'affaires voisins, comme Little Island, Ballincollig et Carrigtwohill."}},
+  {"id": "limerick", "en": "Limerick", "ar": "ليمريك", "fr": "Limerick",
+   "metro": {"en": "Limerick covers the city and the Shannon area in County Clare.", "ar": "تشمل ليمريك المدينة ومنطقة شانون في مقاطعة كلير.", "fr": "Limerick comprend la ville et la zone de Shannon, dans le comté de Clare."}},
+  {"id": "galway", "en": "Galway", "ar": "غالواي", "fr": "Galway",
+   "metro": {"en": "Galway covers the city and its business parks, including Parkmore and Ballybrit.", "ar": "تشمل غالواي المدينة ومجمّعات الأعمال فيها، ومنها باركمور وباليبريت.", "fr": "Galway comprend la ville et ses parcs d'activités, dont Parkmore et Ballybrit."}},
+  {"id": "kilkenny", "en": "Kilkenny", "ar": "كيلكيني", "fr": "Kilkenny",
+   "metro": {"en": "Kilkenny covers the city and County Kilkenny.", "ar": "تشمل كيلكيني المدينة ومقاطعة كيلكيني.", "fr": "Kilkenny comprend la ville et le comté de Kilkenny."}},
+  {"id": "waterford", "en": "Waterford", "ar": "ووترفورد", "fr": "Waterford",
+   "metro": {"en": "Waterford covers the city and nearby towns such as Tramore and Dungarvan.", "ar": "تشمل ووترفورد المدينة والبلدات القريبة منها، مثل ترامور ودونغارفان.", "fr": "Waterford comprend la ville et les villes voisines, comme Tramore et Dungarvan."}},
+  {"id": "athlone", "en": "Athlone", "ar": "أثلون", "fr": "Athlone",
+   "metro": {"en": "Athlone covers the town and the Midlands, including Mullingar and Tullamore.", "ar": "تشمل أثلون المدينة ومنطقة الميدلاندز، بما فيها مولينغار وتولامور.", "fr": "Athlone comprend la ville et les Midlands, dont Mullingar et Tullamore."}}
+ ],
+ "employers": [
+  {"id": "aib", "en": "AIB", "ar": "إيه آي بي", "fr": "AIB", "sector": "bank", "archetype": "pillar bank (Allied Irish Banks), Dublin HQ", "city": "dublin",
+   "logo": {"bg": "#6E2C8C", "fg": "#FFFFFF", "mono": "AIB"}},
+  {"id": "boi", "en": "Bank of Ireland", "ar": "بنك أيرلندا", "fr": "Bank of Ireland", "sector": "bank", "archetype": "pillar bank, Dublin HQ", "city": "dublin",
+   "logo": {"bg": "#0018A8", "fg": "#FFFFFF", "mono": "BOI"}},
+  {"id": "ptsb", "en": "PTSB", "ar": "بي تي إس بي", "fr": "PTSB", "sector": "bank", "archetype": "third retail bank (formerly permanent tsb), Dublin HQ", "city": "dublin",
+   "logo": {"bg": "#00857C", "fg": "#FFFFFF", "mono": "PTSB"}},
+  {"id": "esb", "en": "ESB", "ar": "إي إس بي", "fr": "ESB", "sector": "energy", "archetype": "state-owned electricity company (national energy champion)", "city": "dublin",
+   "logo": {"bg": "#003DA5", "fg": "#FFFFFF", "mono": "ESB"}},
+  {"id": "eir", "en": "eir", "ar": "إير", "fr": "eir", "sector": "telecom", "archetype": "telecoms #1, incumbent fixed and mobile operator", "city": "dublin",
+   "logo": {"bg": "#520A6E", "fg": "#FFFFFF", "mono": "eir"}},
+  {"id": "vodafone", "en": "Vodafone Ireland", "ar": "فودافون أيرلندا", "fr": "Vodafone Irlande", "sector": "telecom", "archetype": "telecoms #2, largest mobile operator", "city": "dublin",
+   "logo": {"bg": "#E60000", "fg": "#FFFFFF", "mono": "V"}},
+  {"id": "ntma", "en": "NTMA", "ar": "الوكالة الوطنية لإدارة الخزانة (NTMA)", "fr": "NTMA", "sector": "public-investment", "archetype": "state treasury agency, runs the Ireland Strategic Investment Fund (ISIF)", "city": "dublin",
+   "logo": {"bg": "#004B5A", "fg": "#FFFFFF", "mono": "NTMA"}},
+  {"id": "pwc", "en": "PwC Ireland", "ar": "بي دبليو سي أيرلندا", "fr": "PwC Irlande", "sector": "professional-services", "archetype": "big-4 firm", "city": "dublin",
+   "logo": {"bg": "#D04A02", "fg": "#FFFFFF", "mono": "PwC"}},
+  {"id": "glanbia", "en": "Glanbia", "ar": "غلانبيا", "fr": "Glanbia", "sector": "fmcg", "archetype": "nutrition and consumer brands group, Kilkenny HQ", "city": "kilkenny",
+   "logo": {"bg": "#00843D", "fg": "#FFFFFF", "mono": "G"}},
+  {"id": "musgrave", "en": "Musgrave", "ar": "مسغريف", "fr": "Musgrave", "sector": "retail", "archetype": "food retail and wholesale group (SuperValu, Centra), Cork HQ", "city": "cork",
+   "logo": {"bg": "#1D3F72", "fg": "#FFFFFF", "mono": "M"}},
+  {"id": "ryanair", "en": "Ryanair", "ar": "رايان إير", "fr": "Ryanair", "sector": "airline", "archetype": "Europe's largest airline group, Swords (Dublin) HQ", "city": "dublin",
+   "logo": {"bg": "#073590", "fg": "#F1C933", "mono": "R"}},
+  {"id": "bonsecours", "en": "Bon Secours Health System", "ar": "بون سيكور للرعاية الصحية", "fr": "Bon Secours Health System", "sector": "healthcare", "archetype": "largest private hospital group (Cork, Dublin, Galway, Limerick, Tralee)", "city": "cork",
+   "logo": {"bg": "#005EB8", "fg": "#FFFFFF", "mono": "BS"}},
+  {"id": "irishlife", "en": "Irish Life", "ar": "آيرش لايف", "fr": "Irish Life", "sector": "insurance", "archetype": "leading life, pensions and health insurer (Great-West Lifeco)", "city": "dublin",
+   "logo": {"bg": "#00A3AD", "fg": "#FFFFFF", "mono": "IL"}},
+  {"id": "workhuman", "en": "Workhuman", "ar": "ووركهيومن", "fr": "Workhuman", "sector": "tech", "archetype": "HR-tech scale-up, Dublin HQ", "city": "dublin",
+   "logo": {"bg": "#E8532B", "fg": "#FFFFFF", "mono": "WH"}},
+  {"id": "stripe", "en": "Stripe", "ar": "سترايب", "fr": "Stripe", "sector": "fintech", "archetype": "Irish-founded payments fintech, Dublin co-HQ", "city": "dublin",
+   "logo": {"bg": "#635BFF", "fg": "#FFFFFF", "mono": "S"}},
+  {"id": "flipdish", "en": "Flipdish", "ar": "فليب ديش", "fr": "Flipdish", "sector": "delivery", "archetype": "online food-ordering and delivery platform, Dublin HQ", "city": "dublin",
+   "logo": {"bg": "#0B1F3A", "fg": "#FFFFFF", "mono": "FD"}},
+  {"id": "cairn", "en": "Cairn Homes", "ar": "كيرن هومز", "fr": "Cairn Homes", "sector": "real-estate", "archetype": "major listed homebuilder", "city": "dublin",
+   "logo": {"bg": "#00205B", "fg": "#FFFFFF", "mono": "CH"}},
+  {"id": "euronext", "en": "Euronext Dublin", "ar": "يورونكست دبلن", "fr": "Euronext Dublin", "sector": "exchange", "archetype": "Irish stock exchange (Euronext group)", "city": "dublin",
+   "logo": {"bg": "#00685E", "fg": "#FFFFFF", "mono": "EN"}},
+  {"id": "crh", "en": "CRH", "ar": "سي آر إتش", "fr": "CRH", "sector": "industrial", "archetype": "building materials and quarrying group, Irish-incorporated (NYSE-listed)", "city": "dublin",
+   "logo": {"bg": "#002F6C", "fg": "#FFFFFF", "mono": "CRH"}},
+  {"id": "cbi", "en": "Central Bank of Ireland", "ar": "البنك المركزي الأيرلندي", "fr": "Banque centrale d'Irlande", "sector": "government", "archetype": "central bank and financial regulator (public body)", "city": "dublin",
+   "logo": {"bg": "#003B49", "fg": "#FFFFFF", "mono": "CBI"}},
+  {"id": "aercap", "en": "AerCap", "ar": "إيركاب", "fr": "AerCap", "sector": "leasing", "archetype": "world's largest aircraft lessor, Dublin HQ", "city": "dublin",
+   "logo": {"bg": "#0B2265", "fg": "#FFFFFF", "mono": "AER"}},
+  {"id": "apple", "en": "Apple", "ar": "آبل", "fr": "Apple", "sector": "tech", "archetype": "European operations campus (Hollyhill)", "city": "cork",
+   "logo": {"bg": "#000000", "fg": "#FFFFFF", "mono": "A"}},
+  {"id": "medtronic", "en": "Medtronic", "ar": "مدترونيك", "fr": "Medtronic", "sector": "healthcare", "archetype": "medical-device maker, Irish-domiciled, major Galway campus", "city": "galway",
+   "logo": {"bg": "#004B87", "fg": "#FFFFFF", "mono": "MDT"}},
+  {"id": "adi", "en": "Analog Devices", "ar": "أنالوج ديفايسز", "fr": "Analog Devices", "sector": "tech", "archetype": "semiconductor maker, EMEA HQ in Limerick", "city": "limerick",
+   "logo": {"bg": "#0067B9", "fg": "#FFFFFF", "mono": "ADI"}}
+ ],
+ "sal": {"per": "year", "f": 0.2308,
+  "basis": "Senior Financial Analyst / FP&A, 8 yrs, Dublin, base salary (bonus excluded). Irish recruiter salary guides for 2025-26 (Morgan McKinley, Hays, Robert Half, Barden, Lincoln Recruitment) put a Dublin Senior Financial Analyst or Senior FP&A Analyst in industry at roughly EUR 65k-80k base, with FP&A Manager at about EUR 85k-100k+. These ranges come from prior knowledge, because live checks were not possible in this run (medium confidence). Chosen current base is about EUR 72k a year (EUR 6,000 a month); f = 6,000 / 26,000 = 0.2308. Noura's 34,000 SAR expectation maps to about EUR 7,850 a month (about EUR 94k a year), the top of the senior range and the entry point for FP&A Lead or Manager roles, which suits a qualified analyst with 8 years' experience."},
+ "tax": {"incl": true, "rate": 23, "label": {"en": "VAT included", "ar": "شامل ضريبة القيمة المضافة", "fr": "TVA incluse"}},
+ "pay": {
+  "wallets": ["apple", "google"],
+  "methods": [
+   {"id": "card", "label": {"en": "Card", "ar": "بطاقة", "fr": "Carte"}, "sub": {"en": "Visa, Mastercard, Amex (debit or credit)", "ar": "فيزا، ماستركارد، أمريكان إكسبريس (خصم أو ائتمان)", "fr": "Visa, Mastercard, Amex (débit ou crédit)"}, "brands": ["visa", "mc", "amex"]},
+   {"id": "paypal", "label": {"en": "PayPal", "ar": "PayPal", "fr": "PayPal"}, "sub": {"en": "Pay with your PayPal account", "ar": "ادفع من حسابك في PayPal", "fr": "Payez avec votre compte PayPal"}}
+  ],
+  "bnpl": [
+   {"id": "klarna", "name": "Klarna", "installments": 3, "sub": {"en": "Pay in 3, interest-free. Renewals are charged in full.", "ar": "ادفع على 3 دفعات بلا فوائد. يُحصَّل التجديد كاملاً.", "fr": "Payez en 3 fois sans frais. Les renouvellements sont prélevés en une fois."}}
+  ],
+  "localCardBrand": null
+ },
+ "phone": {"cc": "+353", "ex": "+353 87 123 4567"},
+ "rights": {
+  "q": {"en": "Your right to work in Ireland", "ar": "حقك في العمل في أيرلندا", "fr": "Votre droit de travailler en Irlande"},
+  "opts": [
+   {"en": "Irish or British citizen", "ar": "الجنسية الأيرلندية أو البريطانية", "fr": "Citoyenneté irlandaise ou britannique",
+    "sub": {"en": "No permit needed (Common Travel Area)", "ar": "لا حاجة إلى تصريح (منطقة السفر المشتركة)", "fr": "Aucun permis nécessaire (zone de voyage commune)"}},
+   {"en": "EU/EEA or Swiss citizen", "ar": "جنسية دولة في الاتحاد الأوروبي أو المنطقة الاقتصادية الأوروبية أو سويسرا", "fr": "Ressortissant de l'UE, de l'EEE ou de Suisse",
+    "sub": {"en": "No employment permit needed", "ar": "لا حاجة إلى تصريح عمل", "fr": "Aucun permis de travail nécessaire"}},
+   {"en": "Stamp 4 or another unrestricted permission", "ar": "إذن إقامة Stamp 4 أو إذن آخر يتيح العمل دون قيود", "fr": "Stamp 4 ou autre autorisation sans restriction",
+    "sub": {"en": "Stamp 4, 4 EUFam, 5 or 6, or temporary protection: you can work for any employer", "ar": "مثل Stamp 4 أو 4 EUFam أو 5 أو 6، أو الحماية المؤقتة: يمكنك العمل لدى أي جهة عمل", "fr": "Stamp 4, 4 EUFam, 5 ou 6, ou protection temporaire : vous pouvez travailler pour n'importe quel employeur"}},
+   {"en": "Stamp 1G", "ar": "إذن إقامة Stamp 1G", "fr": "Stamp 1G",
+    "sub": {"en": "Graduate Programme, or spouse/partner of a Critical Skills permit holder: no permit needed while it lasts", "ar": "برنامج الخريجين، أو الزوج أو الشريك لحامل تصريح المهارات الحرجة: لا حاجة إلى تصريح طوال مدة صلاحيته", "fr": "Programme pour diplômés, ou conjoint ou partenaire d'un titulaire de permis Critical Skills : aucun permis nécessaire pendant sa validité"}},
+   {"en": "Critical Skills or General Employment Permit", "ar": "تصريح عمل المهارات الحرجة أو تصريح العمل العام", "fr": "Permis Critical Skills ou General Employment Permit",
+    "sub": {"en": "A new employer needs a new permit for you", "ar": "الانتقال إلى جهة عمل جديدة يتطلب تصريحاً جديداً", "fr": "Changer d'employeur nécessite un nouveau permis"}},
+   {"en": "I need an employment permit", "ar": "أحتاج إلى تصريح عمل", "fr": "J'ai besoin d'un permis de travail",
+    "sub": {"en": "Called sponsorship in job ads: a Critical Skills or General permit based on an Irish job offer", "ar": "يُسمّى «الرعاية» في إعلانات الوظائف: تصريح المهارات الحرجة أو التصريح العام بناءً على عرض عمل في أيرلندا", "fr": "Appelé « parrainage » dans les offres : permis Critical Skills ou General, sur la base d'une offre d'emploi en Irlande"}}
+  ],
+  "autoFor": ["IE", "GB", "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "CH"],
+  "autoText": {"en": "Irish, British, EU/EEA and Swiss citizens can work in Ireland without an employment permit.", "ar": "يحق لمواطني أيرلندا والمملكة المتحدة ودول الاتحاد الأوروبي والمنطقة الاقتصادية الأوروبية وسويسرا العمل في أيرلندا دون تصريح عمل.", "fr": "Les citoyens irlandais, britanniques, de l'UE, de l'EEE et de Suisse peuvent travailler en Irlande sans permis de travail."},
+  "rule": {"en": "If you need a permit, we skip Irish jobs that say they can't sponsor or that pay below the permit salary minimum.", "ar": "إذا كنت بحاجة إلى تصريح عمل، نتجاوز الوظائف في أيرلندا التي تذكر أنها لا تقدّم الرعاية أو التي يقل راتبها عن الحد الأدنى المطلوب للتصريح.", "fr": "Si vous avez besoin d'un permis, nous écartons les offres en Irlande qui excluent tout parrainage ou dont le salaire est inférieur au minimum exigé pour le permis."}
+ },
+ "nationalisation": {
+  "name": {"en": "EEA hiring priority", "ar": "أولوية توظيف مواطني المنطقة الاقتصادية الأوروبية", "fr": "Priorité à l'embauche des ressortissants de l'EEE"},
+  "desc": {
+   "en": "An employer can hire someone on an employment permit only if at least half of its staff are EEA nationals, and General Employment Permit roles must first be advertised to EEA jobseekers for 28 days. Critical Skills roles skip the advertising step. None of this applies if you don't need a permit.",
+   "ar": "لا يمكن لجهة العمل توظيف شخص بتصريح عمل إلا إذا كان نصف موظفيها على الأقل من مواطني المنطقة الاقتصادية الأوروبية، ويجب أولاً الإعلان عن وظائف تصريح العمل العام للباحثين عن عمل من المنطقة الاقتصادية الأوروبية لمدة 28 يوماً. أما وظائف المهارات الحرجة فلا تحتاج إلى هذا الإعلان. ولا ينطبق أي من ذلك إذا لم تكن بحاجة إلى تصريح.",
+   "fr": "Un employeur ne peut recruter une personne avec un permis de travail que si au moins la moitié de ses salariés sont ressortissants de l'EEE, et les postes relevant du General Employment Permit doivent d'abord être proposés aux candidats de l'EEE pendant 28 jours. Les postes Critical Skills sont dispensés de cette publication. Rien de cela ne s'applique si vous n'avez pas besoin de permis."
+  }
+ },
+ "sensitive": {
+  "photo": "avoid",
+  "gender": "none",
+  "dob": "none",
+  "nationality": "none",
+  "marital": "none",
+  "notes": "Irish CVs and application forms leave out photo, date of birth, marital or family status and nationality. The Employment Equality Acts 1998-2015 ban discrimination on nine grounds (gender, civil status, family status, sexual orientation, religion, age, disability, race including nationality, and membership of the Traveller community), and candidates can take claims to the Workplace Relations Commission, so asking is risky. Forms do routinely ask whether you need an employment permit or sponsorship, and non-EEA candidates often list their stamp (e.g. Stamp 4); the rights card covers that, not a nationality field. Public-sector forms (publicjobs.ie) ask about EEA eligibility, which the rights card also covers. US multinationals in Ireland sometimes show voluntary diversity questions; these are optional, so we do not ask. If the product later wants to fill them, 'eeo' is the closest mode."
+ },
+ "legal": {
+  "law": "GDPR + Data Protection Act 2018 (Ireland)",
+  "privacy": {"en": "Your data is protected under the GDPR and Ireland's Data Protection Act 2018, overseen by the Data Protection Commission, and you can download or delete it any time.", "ar": "بياناتك محمية بموجب اللائحة العامة لحماية البيانات (GDPR) وقانون حماية البيانات الأيرلندي لعام 2018، تحت إشراف لجنة حماية البيانات، ويمكنك تنزيلها أو حذفها في أي وقت.", "fr": "Vos données sont protégées par le RGPD et la loi irlandaise de 2018 sur la protection des données (Data Protection Act 2018), sous le contrôle de la Data Protection Commission, et vous pouvez les télécharger ou les supprimer à tout moment."},
+  "renewal": {"en": "Renews automatically at the end of each plan until you cancel, which you can do any time in Settings. Under EU and Irish consumer law you can withdraw within 14 days of buying for a refund, minus any service already provided.", "ar": "يتجدد اشتراكك تلقائياً عند نهاية كل خطة حتى تلغيه، ويمكنك الإلغاء في أي وقت من الإعدادات. وبموجب قانون حماية المستهلك الأوروبي والأيرلندي، يحق لك الانسحاب خلال 14 يوماً من الشراء واسترداد المبلغ بعد خصم قيمة ما قُدِّم من الخدمة.", "fr": "Renouvellement automatique à la fin de chaque formule jusqu'à résiliation, possible à tout moment depuis les Réglages. Selon le droit européen et irlandais de la consommation, vous pouvez vous rétracter sous 14 jours après l'achat et être remboursé, déduction faite du service déjà fourni."}
+ },
+ "boards": ["LinkedIn", "IrishJobs.ie", "Indeed", "Jobs.ie", "eFinancialCareers", "publicjobs.ie"],
+ "lang2": null,
+ "certs": [
+  {"id": "aca", "en": "ACA (Chartered Accountants Ireland)", "ar": "ACA (المحاسبون القانونيون في أيرلندا)", "fr": "ACA (Chartered Accountants Ireland)"},
+  {"id": "acca", "en": "ACCA", "ar": "ACCA", "fr": "ACCA"},
+  {"id": "cima", "en": "CIMA (CGMA)", "ar": "CIMA (CGMA)", "fr": "CIMA (CGMA)"},
+  {"id": "cpa", "en": "CPA Ireland", "ar": "CPA Ireland", "fr": "CPA Ireland"}
+ ],
+ "unis": [
+  {"id": "ucd", "en": "University College Dublin", "ar": "كلية دبلن الجامعية", "fr": "University College Dublin (UCD)"},
+  {"id": "tcd", "en": "Trinity College Dublin", "ar": "كلية ترينيتي دبلن", "fr": "Trinity College Dublin"},
+  {"id": "dcu", "en": "Dublin City University", "ar": "جامعة مدينة دبلن", "fr": "Dublin City University (DCU)"}
+ ],
+ "govPlatforms": [],
+ "persona": {
+  "first": "Ciarán", "last": "Byrne", "gender": "m", "nat": "IE", "city": "dublin",
+  "email": "ciaran.byrne@email.com", "phone": "+353 87 123 4567",
+  "title": {"en": "Financial Analyst", "ar": "محلل مالي", "fr": "Analyste financier"},
+  "years": 8,
+  "employer": {"en": "Tolka Ridge Group", "ar": "مجموعة تولكا ريدج", "fr": "Tolka Ridge Group"},
+  "employer2": {"en": "Tolka Ridge Logistics", "ar": "تولكا ريدج للخدمات اللوجستية", "fr": "Tolka Ridge Logistics"},
+  "degree": {"en": "Bachelor of Commerce (BComm)", "ar": "بكالوريوس التجارة (BComm)", "fr": "Licence en commerce (Bachelor of Commerce, BComm)"},
+  "uni": "ucd", "cert": "aca",
+  "tools": "SAP, Excel, Power BI",
+  "bio": {
+   "en": "Financial Analyst with 8 years in Dublin. I lead IFRS and FRS 102 reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I am looking for a Senior Financial Analyst or FP&A role in Dublin, on-site or hybrid.",
+   "ar": "محلل مالي بخبرة 8 سنوات في دبلن. أقود إعداد التقارير وفق المعايير الدولية IFRS والمعيار المحاسبي FRS 102 المعتمد في أيرلندا، وإعداد الموازنات على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي خفّضت وقت إعداد التقارير بمقدار الثلث، وأبحث عن دور محلل مالي أول أو في التخطيط والتحليل المالي (FP&A) في دبلن، حضورياً أو بنظام العمل الهجين.",
+   "fr": "Analyste financier avec 8 ans d'expérience à Dublin. Je pilote le reporting IFRS et FRS 102 (normes irlandaises) et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je recherche un poste d'analyste financier senior ou en FP&A à Dublin, sur site ou en hybride."
+  }
+ },
+ "people": [
+  {"first": "Aoife", "last": "Murphy", "gender": "f"},
+  {"first": "Seán", "last": "Kelly", "gender": "m"},
+  {"first": "Niamh", "last": "O'Sullivan", "gender": "f"},
+  {"first": "Darragh", "last": "O'Brien", "gender": "m"},
+  {"first": "Siobhán", "last": "Ryan", "gender": "f"},
+  {"first": "Eoin", "last": "McCarthy", "gender": "m"},
+  {"first": "Gráinne", "last": "Doyle", "gender": "f"},
+  {"first": "Cian", "last": "Fitzgerald", "gender": "m"},
+  {"first": "Orla", "last": "Kennedy", "gender": "f"},
+  {"first": "Tomasz", "last": "Kowalski", "gender": "m"}
+ ],
+ "culture": {
+  "notes": "Work week Mon-Fri, a standard 39 hours; hybrid (2-3 office days) is the norm for Dublin finance roles, and the Work Life Balance and Miscellaneous Provisions Act 2023 gives a right to request remote work. Salaries are quoted gross per year, often 'plus bonus, pension and health insurance'; auto-enrolment pensions (My Future Fund) started on 1 Jan 2026. Professional roles are usually paid monthly. Notice is contractual: typically 1 month for analysts and 1-3 months for managers (the statutory minimum for an employee who resigns is only 1 week after 13 weeks' service), and recruiters ask for it up front. CVs: 2 A4 pages, reverse-chronological, short profile at the top, no photo, date of birth or marital status; non-EEA candidates usually state their stamp or permit status on the CV. Cover letters are optional on most ATS and LinkedIn applications, but public-sector roles (publicjobs.ie) use competency-based application forms. Qualification status ('ACA/ACCA/CIMA qualified', 'newly qualified' or 'part-qualified') is a standard screening question, and US multinationals often ask for US GAAP and SOX experience. Specialist agencies (Morgan McKinley, Hays, Robert Half, Barden, Lincoln Recruitment, Sigmar) fill a large share of FP&A roles. New starters need a PPS number for payroll."
+ },
+ "noticeDays": 30
+}

@@ -67,7 +67,7 @@
    "logo": {"bg": "#001EFF", "fg": "#FFFFFF", "mono": "LSEG"}},
   {"id": "riotinto", "en": "Rio Tinto", "ar": "ريو تينتو", "fr": "Rio Tinto", "sector": "mining", "archetype": "mining major HQ", "city": "london",
    "logo": {"bg": "#E60D2E", "fg": "#FFFFFF", "mono": "RT"}},
-  {"id": "jlr", "en": "Jaguar Land Rover", "ar": "جاكوار لاند روفر", "fr": "Jaguar Land Rover", "sector": "industrial", "archetype": "car maker (Tata Motors), Coventry HQ", "city": "birmingham",
+  {"id": "jlr", "en": "JLR", "ar": "جاكوار لاند روفر", "fr": "JLR", "sector": "industrial", "archetype": "car maker (formerly Jaguar Land Rover, Tata group), Coventry HQ", "city": "birmingham",
    "logo": {"bg": "#1A1A1A", "fg": "#FFFFFF", "mono": "JLR"}},
   {"id": "nwf", "en": "National Wealth Fund", "ar": "صندوق الثروة الوطني", "fr": "National Wealth Fund", "sector": "public-investment", "archetype": "state-owned public investment body, Leeds HQ", "city": "leeds",
    "logo": {"bg": "#00594F", "fg": "#FFFFFF", "mono": "NWF"}},
@@ -86,7 +86,7 @@
    {"id": "paypal", "label": {"en": "PayPal", "ar": "PayPal", "fr": "PayPal"}, "sub": {"en": "Pay with your PayPal account", "ar": "ادفع من حسابك في PayPal", "fr": "Payez avec votre compte PayPal"}}
   ],
   "bnpl": [
-   {"id": "klarna", "name": "Klarna", "installments": 3, "sub": {"en": "Pay in 3, interest-free. Renewals are charged in full.", "ar": "ادفع على 3 دفعات بلا فوائد. يُحصَّل التجديد كاملاً.", "fr": "Payez en 3 fois sans frais. Les renouvellements sont prélevés en une fois."}}
+   {"id": "klarna", "name": "Klarna", "installments": 3, "sub": {"en": "Pay in 3, interest-free. Renewals are charged in full.", "ar": "ادفع على 3 دفعات بلا فوائد. يُحصَّل التجديد كاملاً.", "fr": "Payez en 3 fois sans intérêts. Les renouvellements sont prélevés en une fois."}}
   ],
   "localCardBrand": null
  },
@@ -120,8 +120,8 @@
  },
  "legal": {
   "law": "UK GDPR + Data Protection Act 2018",
-  "privacy": {"en": "Your data is protected under UK GDPR and the Data Protection Act 2018, and you can download or delete it any time.", "ar": "بياناتك محمية بموجب اللائحة العامة لحماية البيانات في المملكة المتحدة (UK GDPR) وقانون حماية البيانات لعام 2018، ويمكنك تنزيلها أو حذفها في أي وقت.", "fr": "Vos données sont protégées par le UK GDPR et le Data Protection Act 2018, et vous pouvez les télécharger ou les supprimer à tout moment."},
-  "renewal": {"en": "Renews automatically until you cancel, which you can do any time in Settings. Under UK consumer law you can cancel within 14 days of buying for a refund, minus any service already provided.", "ar": "يتجدد الاشتراك تلقائياً حتى تلغيه، ويمكنك الإلغاء في أي وقت من الإعدادات. وبموجب قانون حماية المستهلك في المملكة المتحدة، يحق لك الإلغاء خلال 14 يوماً من الشراء واسترداد المبلغ بعد خصم قيمة ما قُدِّم من الخدمة.", "fr": "Renouvellement automatique jusqu'à résiliation, possible à tout moment depuis les Réglages. Selon le droit britannique de la consommation, vous pouvez annuler sous 14 jours après l'achat et être remboursé, déduction faite du service déjà fourni."}
+  "privacy": {"en": "Your data is protected under UK GDPR and the Data Protection Act 2018, and you can download or delete it any time.", "ar": "بياناتك محمية بموجب اللائحة العامة لحماية البيانات في المملكة المتحدة (UK GDPR) وقانون حماية البيانات لعام 2018، ويمكنك تنزيلها أو حذفها في أي وقت.", "fr": "Vos données sont protégées par le RGPD britannique (UK GDPR) et le Data Protection Act 2018, et vous pouvez les télécharger ou les supprimer à tout moment."},
+  "renewal": {"en": "Renews automatically until you cancel, which you can do any time in Settings. Under UK consumer law you can cancel within 14 days of buying for a refund, minus any service already provided.", "ar": "يتجدد الاشتراك تلقائياً حتى تلغيه، ويمكنك الإلغاء في أي وقت من الإعدادات. وبموجب قانون حماية المستهلك في المملكة المتحدة، يحق لك الإلغاء خلال 14 يوماً من الشراء واسترداد المبلغ بعد خصم قيمة ما قُدِّم من الخدمة.", "fr": "Renouvellement automatique jusqu'à résiliation, possible à tout moment depuis les Paramètres. Selon le droit britannique de la consommation, vous pouvez annuler sous 14 jours après l'achat et être remboursé, déduction faite du service déjà fourni."}
  },
  "boards": ["LinkedIn", "Indeed", "Reed", "Totaljobs", "CV-Library", "eFinancialCareers"],
  "lang2": null,
@@ -150,7 +150,7 @@
   "bio": {
    "en": "Financial Analyst with 8 years in London. I lead IFRS and FRS 102 reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I am looking for a Senior Financial Analyst or FP&A role in London or hybrid.",
    "ar": "محللة مالية بخبرة 8 سنوات في لندن. أقود إعداد التقارير وفق المعايير الدولية IFRS والمعيار البريطاني FRS 102 وإعداد الموازنات على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي خفّضت وقت إعداد التقارير بمقدار الثلث، وأبحث عن دور محللة مالية أولى أو في التخطيط والتحليل المالي (FP&A) في لندن أو بنظام العمل الهجين.",
-   "fr": "Analyste financière avec 8 ans d'expérience à Londres. Je pilote le reporting IFRS et FRS 102 et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je recherche un poste d'analyste financière senior ou en FP&A à Londres ou en hybride."
+   "fr": "Analyste financière avec 8 ans d'expérience à Londres. Je pilote le reporting IFRS et FRS 102 et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une équipe finance de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je recherche un poste d'analyste financière senior ou en FP&A à Londres ou en hybride."
   }
  },
  "people": [

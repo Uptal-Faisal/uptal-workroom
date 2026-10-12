@@ -1,0 +1,11 @@
+export const meta = {
+  name: 'code-sweep',
+  description: 'Sweep v5 markup and JS line ranges so every visible string, money value and inline structure follows market + language',
+  phases: [{ title: 'Sweep' }],
+}
+const B = '/home/user/uptal-workroom/prototypes/build'
+const SRC = '/home/user/uptal-workroom/prototypes/src/v5.html'
+const SCR = '/tmp/claude-0/-home-user-uptal-workroom/6ab62c15-85ac-5672-9c3c-c0e707cd596b/scratchpad'
+const RULES = `Read fully first: ${B}/SWEEP-SPEC.md (your task + ownership rules), ${B}/DESIGN.md (tokens, MKT API), ${B}/js/engine.js, ${B}/i18n/GLOSSARY.md, ${B}/markets/registry.json (token ids with exact KSA values). Inventory notes from an earlier scan (code_notes with line numbers, useful leads): ${B}/data/inventory.json. Source: ${SRC} (1.9MB; read with offset/limit; for very long lines use python/sed/cut). The dictionary (T.en/T.ar values) is being tokenized by other agents — do not touch dictionary literal blocks (const T={...} and Object.assign(T.en|T.ar,{...}) contents).`
+const res = await pipeline(args.ranges, (r) => agent(`${RULES}\n\nYou are SWEEPER ${r.nn}. Your range: ${SRC} lines ${r.from}-${r.to}. ${r.note || ''}\nDeliverables exactly as SWEEP-SPEC: ${B}/patches/30-sweep-${r.nn}.json, ${B}/js/40-sweep-${r.nn}.js, ${B}/i18n/newkeys-parts/sweep-${r.nn}.json, and ${B}/i18n/tokobj-parts/<NAME>.json for structures defined in your range. If you need a registry id that does not exist, add it to ${B}/markets/registry-proposals/sweep-${r.nn}.json as {"entities": {id: {cat, en, ar, arn, fr, scope, archetype, map}}}.\nVerify with your own build: cd ${B} && python3 -I tools/make_personas.py && python3 -I build.py --out ${SCR}/sw-${r.nn}.html (if the build fails because of ANOTHER agent's patch file, report it and test with only yours by temporarily copying build.py logic in a scratch script — never edit or delete other agents' files). Then Playwright: personas SA, GB, AE, EG x en/ar/fr, go() every screen in your range, zero page errors, SA en/ar visually unchanged. Return: patches count, keys added, structures registered, deferred items (owned by onboarding), doubts.`, { label: `sweep-${r.nn}`, phase: 'Sweep' }))
+return res.filter(Boolean)

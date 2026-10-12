@@ -24,12 +24,39 @@
   "group": "gcc",
   "city": "Dubai",
   "arv": "gulf",
-  "label": " Ahmed Mansour · Dubai",
+  "label": "🇦🇪 Ahmed Mansour · Dubai",
   "f": {
    "first": "Ahmed",
    "last": "Mansour",
    "full": "Ahmed Mansour",
-   "initials": "AM"
+   "initials": "AM",
+   "email": "ahmed.mansour@email.com",
+   "phone": "+971 50 123 4567",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Durrah Holding",
+    "ar": "درة القابضة",
+    "fr": "Durrah Holding"
+   },
+   "employer2": {
+    "en": "Durrah Logistics",
+    "ar": "درة للخدمات اللوجستية",
+    "fr": "Durrah Logistics"
+   },
+   "degree": {
+    "en": "BSBA in Accounting",
+    "ar": "بكالوريوس إدارة الأعمال، تخصص محاسبة",
+    "fr": "Licence en administration des affaires, spécialité comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Dubai. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and got the group ready for UAE Corporate Tax. I am looking for a Senior Financial Analyst or FP&A role in Dubai, Abu Dhabi, or remote.",
+    "ar": "محلل مالي بخبرة 8 سنوات في دبي. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات التي قلّصت وقت التقارير بالثلث، وجهّزت المجموعة لضريبة الشركات في الإمارات. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في دبي أو أبوظبي أو عن بُعد.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Dubaï. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et préparé le groupe à l'impôt sur les sociétés émirien. Je recherche un poste d'analyste financier senior ou en FP&A à Dubaï, à Abou Dhabi ou en télétravail."
+   }
   }
  },
  {
@@ -43,12 +70,39 @@
   "group": "gcc",
   "city": "Doha",
   "arv": "gulf",
-  "label": " Maryam Al-Kuwari · Doha",
+  "label": "🇶🇦 Maryam Al-Kuwari · Doha",
   "f": {
    "first": "Maryam",
    "last": "Al-Kuwari",
    "full": "Maryam Al-Kuwari",
-   "initials": "MK"
+   "initials": "MK",
+   "email": "maryam.alkuwari@email.com",
+   "phone": "+974 5512 3456",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Zekreet Holding",
+    "ar": "زكريت القابضة",
+    "fr": "Zekreet Holding"
+   },
+   "employer2": {
+    "en": "Zekreet Trading",
+    "ar": "زكريت للتجارة",
+    "fr": "Zekreet Trading"
+   },
+   "degree": {
+    "en": "BSc Accounting",
+    "ar": "بكالوريوس محاسبة",
+    "fr": "Licence en comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Doha. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I present our results to the board in Arabic and English. I am looking for a Senior Financial Analyst or FP&A role in Doha, Lusail, or remote.",
+    "ar": "محللة مالية بخبرة 8 سنوات في الدوحة. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات التي قلّصت وقت التقارير بالثلث، وأعرض نتائجنا على مجلس الإدارة بالعربية والإنجليزية. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في الدوحة أو لوسيل أو عن بُعد.",
+    "fr": "Analyste financière avec 8 ans d'expérience à Doha. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre délai de reporting, et je présente nos résultats au conseil d'administration en arabe et en anglais. Je recherche un poste d'analyste financière senior ou en FP&A à Doha, à Lusail ou en télétravail."
+   }
   }
  },
  {
@@ -62,12 +116,39 @@
   "group": "gcc",
   "city": "Kuwait City",
   "arv": "gulf",
-  "label": " Abdullah Al-Mutawa · Kuwait City",
+  "label": "🇰🇼 Abdullah Al-Mutawa · Kuwait City",
   "f": {
    "first": "Abdullah",
    "last": "Al-Mutawa",
    "full": "Abdullah Al-Mutawa",
-   "initials": "AM"
+   "initials": "AM",
+   "email": "abdullah.almutawa@email.com",
+   "phone": "+965 9012 3456",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Sadu Holding",
+    "ar": "السدو القابضة",
+    "fr": "Sadu Holding"
+   },
+   "employer2": {
+    "en": "Sadu Real Estate",
+    "ar": "السدو العقارية",
+    "fr": "Sadu Real Estate"
+   },
+   "degree": {
+    "en": "BSc Accounting",
+    "ar": "بكالوريوس محاسبة",
+    "fr": "Licence en comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Kuwait City. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I prepare the group's quarterly disclosures for Boursa Kuwait. I am looking for a Senior Financial Analyst or FP&A role in Kuwait City, Ahmadi, or remote.",
+    "ar": "محلل مالي بخبرة 8 سنوات في الكويت. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات اللي قلّصت وقت التقارير بالثلث، وأجهّز الإفصاحات الربعية للمجموعة لبورصة الكويت. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في مدينة الكويت أو الأحمدي أو عن بُعد.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Koweït. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je prépare les publications trimestrielles du groupe pour Boursa Kuwait. Je recherche un poste d'analyste financier senior ou en FP&A à Koweït, à Al-Ahmadi ou en télétravail."
+   }
   }
  },
  {
@@ -81,12 +162,39 @@
   "group": "gcc",
   "city": "Manama",
   "arv": "gulf",
-  "label": " Fatema Al-Sayed · Manama",
+  "label": "🇧🇭 Fatema Al-Sayed · Manama",
   "f": {
    "first": "Fatema",
    "last": "Al-Sayed",
    "full": "Fatema Al-Sayed",
-   "initials": "FS"
+   "initials": "FS",
+   "email": "fatema.alsayed@email.com",
+   "phone": "+973 3612 3456",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Hayrat Holding",
+    "ar": "هيرات القابضة",
+    "fr": "Hayrat Holding"
+   },
+   "employer2": {
+    "en": "Hayrat Properties",
+    "ar": "هيرات العقارية",
+    "fr": "Hayrat Properties"
+   },
+   "degree": {
+    "en": "BSc Accounting",
+    "ar": "بكالوريوس محاسبة",
+    "fr": "Licence en comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Manama. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I ran our VAT returns through Bahrain's move to 10%. I am looking for a Senior Financial Analyst or FP&A role in Manama, Muharraq, or remote.",
+    "ar": "محللة مالية بخبرة 8 سنوات في المنامة. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات اللي قلّصت وقت التقارير بالثلث، وأدرت إقرارات ضريبة القيمة المضافة لما ارتفعت النسبة في البحرين إلى 10%. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في المنامة أو المحرق أو عن بُعد.",
+    "fr": "Analyste financière avec 8 ans d'expérience à Manama. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre délai de reporting, et j'ai géré nos déclarations de TVA lors du passage du taux à 10 % à Bahreïn. Je recherche un poste d'analyste financière senior ou en FP&A à Manama, à Muharraq ou en télétravail."
+   }
   }
  },
  {
@@ -100,12 +208,39 @@
   "group": "gcc",
   "city": "Muscat",
   "arv": "gulf",
-  "label": " Salim Al-Busaidi · Muscat",
+  "label": "🇴🇲 Salim Al-Busaidi · Muscat",
   "f": {
    "first": "Salim",
    "last": "Al-Busaidi",
    "full": "Salim Al-Busaidi",
-   "initials": "SB"
+   "initials": "SB",
+   "email": "salim.albusaidi@email.com",
+   "phone": "+968 9123 4567",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Daymaniyat Holding",
+    "ar": "الديمانيات القابضة",
+    "fr": "Daymaniyat Holding"
+   },
+   "employer2": {
+    "en": "Daymaniyat Logistics",
+    "ar": "الديمانيات للخدمات اللوجستية",
+    "fr": "Daymaniyat Logistics"
+   },
+   "degree": {
+    "en": "BSc Accounting",
+    "ar": "بكالوريوس محاسبة",
+    "fr": "Licence en comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Muscat. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I set up the group's VAT reporting when Oman introduced VAT in 2021. I am looking for a Senior Financial Analyst or FP&A role in Muscat, Sohar, or remote.",
+    "ar": "محلل مالي بخبرة 8 سنوات في مسقط. أقود تقارير IFRS والموازنة على SAP عبر وحدات الأعمال، وأملك الإقفال الشهري لإدارة من 40 موظفاً. بنيت التوقعات المتحركة وتحليل الانحرافات اللي قلّصت وقت التقارير بالثلث، وأسّست تقارير ضريبة القيمة المضافة للمجموعة لما طبّقت عُمان الضريبة في 2021. أبحث عن وظيفة محلل مالي أول أو تخطيط وتحليل مالي في مسقط أو صحار أو عن بُعد.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Mascate. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et j'ai monté le reporting TVA du groupe lors de l'introduction de la TVA à Oman en 2021. Je recherche un poste d'analyste financier senior ou en FP&A à Mascate, à Sohar ou en télétravail."
+   }
   }
  },
  {
@@ -119,12 +254,39 @@
   "group": "na",
   "city": "New York",
   "arv": "neutral",
-  "label": " Jessica Morales · New York",
+  "label": "🇺🇸 Jessica Morales · New York",
   "f": {
    "first": "Jessica",
    "last": "Morales",
    "full": "Jessica Morales",
-   "initials": "JM"
+   "initials": "JM",
+   "email": "jessica.morales@email.com",
+   "phone": "+1 212 555 0147",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Acme Financial",
+    "ar": "أكمي فاينانشال",
+    "fr": "Acme Financial"
+   },
+   "employer2": {
+    "en": "Acme Capital",
+    "ar": "أكمي كابيتال",
+    "fr": "Acme Capital"
+   },
+   "degree": {
+    "en": "BBA in Accountancy",
+    "ar": "بكالوريوس إدارة الأعمال في المحاسبة",
+    "fr": "BBA en comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in New York. I lead US GAAP reporting and budgeting on SAP across business units, own the monthly close for a 40-person function, and built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in New York, Boston, or remote.",
+    "ar": "محللة مالية بخبرة 8 سنوات في نيويورك. أقود إعداد التقارير وفق US GAAP والموازنة على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً، وبنيت التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي في نيويورك أو بوسطن أو عن بُعد.",
+    "fr": "Analyste financière avec 8 ans d'expérience à New York. Je pilote le reporting US GAAP et le budget sur SAP pour plusieurs business units, je suis responsable de la clôture mensuelle d'une équipe de 40 personnes, et j'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting. Je recherche un poste d'analyste financière senior ou en FP&A à New York, à Boston ou en télétravail."
+   }
   }
  },
  {
@@ -138,12 +300,39 @@
   "group": "na",
   "city": "Toronto",
   "arv": "neutral",
-  "label": " Arjun Mehta · Toronto",
+  "label": "🇨🇦 Arjun Mehta · Toronto",
   "f": {
    "first": "Arjun",
    "last": "Mehta",
    "full": "Arjun Mehta",
-   "initials": "AM"
+   "initials": "AM",
+   "email": "arjun.mehta@email.com",
+   "phone": "+1 416 555 0147",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Northmere Holdings",
+    "ar": "نورثمير القابضة",
+    "fr": "Northmere Holdings"
+   },
+   "employer2": {
+    "en": "Northmere Logistics",
+    "ar": "نورثمير للخدمات اللوجستية",
+    "fr": "Northmere Logistique"
+   },
+   "degree": {
+    "en": "Bachelor of Accounting and Financial Management (BAFM)",
+    "ar": "بكالوريوس المحاسبة والإدارة المالية (BAFM)",
+    "fr": "Licence en comptabilité et gestion financière (BAFM)"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Toronto. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I am looking for a Senior Financial Analyst or FP&A role in Toronto or hybrid across the GTA.",
+    "ar": "محلل مالي بخبرة 8 سنوات في تورونتو. أقود إعداد التقارير وفق المعايير الدولية IFRS وإعداد الموازنات على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي خفّضت وقت إعداد التقارير بمقدار الثلث، وأبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي (FP&A) في تورونتو أو بنظام العمل الهجين في منطقة تورونتو الكبرى.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Toronto. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je recherche un poste d'analyste financier senior ou en FP&A à Toronto ou en hybride dans le Grand Toronto."
+   }
   }
  },
  {
@@ -188,7 +377,7 @@
    "bio": {
     "en": "Financial Analyst with 8 years in London. I lead IFRS and FRS 102 reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I am looking for a Senior Financial Analyst or FP&A role in London or hybrid.",
     "ar": "محللة مالية بخبرة 8 سنوات في لندن. أقود إعداد التقارير وفق المعايير الدولية IFRS والمعيار البريطاني FRS 102 وإعداد الموازنات على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي خفّضت وقت إعداد التقارير بمقدار الثلث، وأبحث عن دور محللة مالية أولى أو في التخطيط والتحليل المالي (FP&A) في لندن أو بنظام العمل الهجين.",
-    "fr": "Analyste financière avec 8 ans d'expérience à Londres. Je pilote le reporting IFRS et FRS 102 et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je recherche un poste d'analyste financière senior ou en FP&A à Londres ou en hybride."
+    "fr": "Analyste financière avec 8 ans d'expérience à Londres. Je pilote le reporting IFRS et FRS 102 et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une équipe finance de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je recherche un poste d'analyste financière senior ou en FP&A à Londres ou en hybride."
    }
   }
  },
@@ -203,12 +392,39 @@
   "group": "uk",
   "city": "Dublin",
   "arv": "neutral",
-  "label": " Ciarán Byrne · Dublin",
+  "label": "🇮🇪 Ciarán Byrne · Dublin",
   "f": {
    "first": "Ciarán",
    "last": "Byrne",
    "full": "Ciarán Byrne",
-   "initials": "CB"
+   "initials": "CB",
+   "email": "ciaran.byrne@email.com",
+   "phone": "+353 87 123 4567",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Tolka Ridge Group",
+    "ar": "مجموعة تولكا ريدج",
+    "fr": "Tolka Ridge Group"
+   },
+   "employer2": {
+    "en": "Tolka Ridge Logistics",
+    "ar": "تولكا ريدج للخدمات اللوجستية",
+    "fr": "Tolka Ridge Logistics"
+   },
+   "degree": {
+    "en": "Bachelor of Commerce (BComm)",
+    "ar": "بكالوريوس التجارة (BComm)",
+    "fr": "Licence en commerce (Bachelor of Commerce, BComm)"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Dublin. I lead IFRS and FRS 102 reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I am looking for a Senior Financial Analyst or FP&A role in Dublin, on-site or hybrid.",
+    "ar": "محلل مالي بخبرة 8 سنوات في دبلن. أقود إعداد التقارير وفق المعايير الدولية IFRS والمعيار المحاسبي FRS 102 المعتمد في أيرلندا، وإعداد الموازنات على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي خفّضت وقت إعداد التقارير بمقدار الثلث، وأبحث عن دور محلل مالي أول أو في التخطيط والتحليل المالي (FP&A) في دبلن، حضورياً أو بنظام العمل الهجين.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Dublin. Je pilote le reporting IFRS et FRS 102 (normes irlandaises) et le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je recherche un poste d'analyste financier senior ou en FP&A à Dublin, sur site ou en hybride."
+   }
   }
  },
  {
@@ -222,12 +438,39 @@
   "group": "eu",
   "city": "Frankfurt",
   "arv": "neutral",
-  "label": " Lena Hoffmann · Frankfurt",
+  "label": "🇩🇪 Lena Hoffmann · Frankfurt",
   "f": {
    "first": "Lena",
    "last": "Hoffmann",
    "full": "Lena Hoffmann",
-   "initials": "LH"
+   "initials": "LH",
+   "email": "lena.hoffmann@email.com",
+   "phone": "+49 151 2345 6789",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Mainbrücke Group",
+    "ar": "مجموعة ماينبروكه",
+    "fr": "Groupe Mainbrücke"
+   },
+   "employer2": {
+    "en": "Mainbrücke Logistics",
+    "ar": "ماينبروكه للخدمات اللوجستية",
+    "fr": "Mainbrücke Logistique"
+   },
+   "degree": {
+    "en": "BSc Business Administration",
+    "ar": "بكالوريوس في إدارة الأعمال (B.Sc. BWL)",
+    "fr": "Bachelor en gestion d'entreprise (B.Sc. BWL)"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Frankfurt. I lead HGB and IFRS reporting, budgeting and rolling forecasts on SAP S/4HANA across business units, and own the monthly close for a 40-person finance team. My Power BI dashboards feed every quarterly business review, and I work in German and English.",
+    "ar": "محللة مالية بخبرة 8 سنوات في فرانكفورت. أقود إعداد التقارير وفق قانون التجارة الألماني (HGB) والمعايير الدولية (IFRS)، والموازنات والتوقعات المتجددة على SAP S/4HANA عبر وحدات الأعمال، وأتولى الإقفال الشهري لفريق مالي من 40 شخصًا. تُعتمد لوحات Power BI التي أعدّها في كل مراجعة ربع سنوية للأعمال، وأعمل باللغتين الألمانية والإنجليزية.",
+    "fr": "Analyste financière forte de 8 ans d'expérience à Francfort. Je pilote le reporting HGB et IFRS, le budget et les prévisions glissantes sous SAP S/4HANA pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une équipe finance de 40 personnes. Mes tableaux de bord Power BI alimentent chaque revue trimestrielle, et je travaille en allemand et en anglais."
+   }
   }
  },
  {
@@ -241,12 +484,39 @@
   "group": "eu",
   "city": "Paris",
   "arv": "neutral",
-  "label": " Julien Moreau · Paris",
+  "label": "🇫🇷 Julien Moreau · Paris",
   "f": {
    "first": "Julien",
    "last": "Moreau",
    "full": "Julien Moreau",
-   "initials": "JM"
+   "initials": "JM",
+   "email": "julien.moreau@email.com",
+   "phone": "+33 6 39 98 12 34",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Acme France",
+    "ar": "أكمي فرنسا",
+    "fr": "Acme France"
+   },
+   "employer2": {
+    "en": "Acme Capital France",
+    "ar": "أكمي كابيتال فرنسا",
+    "fr": "Acme Capital France"
+   },
+   "degree": {
+    "en": "Master's in Corporate Finance and Management Control",
+    "ar": "ماجستير في مالية الشركات ومراقبة التسيير",
+    "fr": "Master Finance d'entreprise et contrôle de gestion"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Paris. I lead IFRS and French GAAP reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in Paris, La Défense or hybrid.",
+    "ar": "محلل مالي بخبرة 8 سنوات في باريس. أقود إعداد التقارير وفق معايير IFRS والمعايير المحاسبية الفرنسية، وإعداد الموازنات على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي في باريس أو لا ديفانس أو بنظام العمل الهجين.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Paris. Je pilote le reporting IFRS et en normes françaises ainsi que le budget sur SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une direction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting. Je recherche un poste d'analyste financier senior ou en FP&A à Paris, à La Défense ou en hybride."
+   }
   }
  },
  {
@@ -260,12 +530,39 @@
   "group": "eu",
   "city": "Amsterdam",
   "arv": "neutral",
-  "label": " Sanne de Vries · Amsterdam",
+  "label": "🇳🇱 Sanne de Vries · Amsterdam",
   "f": {
    "first": "Sanne",
    "last": "de Vries",
    "full": "Sanne de Vries",
-   "initials": "SV"
+   "initials": "SV",
+   "email": "sanne.devries@email.com",
+   "phone": "+31 6 1234 5678",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Amstelkade Group",
+    "ar": "مجموعة أمستلكاده",
+    "fr": "Groupe Amstelkade"
+   },
+   "employer2": {
+    "en": "Amstelkade Logistics",
+    "ar": "أمستلكاده للخدمات اللوجستية",
+    "fr": "Amstelkade Logistique"
+   },
+   "degree": {
+    "en": "MSc Accountancy & Control",
+    "ar": "ماجستير في المحاسبة والرقابة المالية (MSc Accountancy & Control)",
+    "fr": "Master en comptabilité et contrôle (MSc Accountancy & Control)"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Amsterdam. I lead IFRS and Dutch GAAP reporting, budgeting and forecasting on SAP across business units, and own the monthly close for a 40-person finance team. My Power BI dashboards feed every quarterly business review, and I work in Dutch and English.",
+    "ar": "محللة مالية بخبرة 8 سنوات في أمستردام. أقود إعداد التقارير وفق المعايير الدولية (IFRS) والمعايير الهولندية (Dutch GAAP)، والموازنات والتوقعات على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لفريق مالي من 40 شخصًا. تُعتمد لوحات Power BI التي أعدّها في كل مراجعة ربع سنوية للأعمال، وأعمل باللغتين الهولندية والإنجليزية.",
+    "fr": "Analyste financière forte de 8 ans d'expérience à Amsterdam. Je pilote le reporting IFRS et Dutch GAAP, le budget et les prévisions sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une équipe finance de 40 personnes. Mes tableaux de bord Power BI alimentent chaque revue trimestrielle, et je travaille en néerlandais et en anglais."
+   }
   }
  },
  {
@@ -279,12 +576,39 @@
   "group": "eu",
   "city": "Brussels",
   "arv": "neutral",
-  "label": " Thomas Peeters · Brussels",
+  "label": "🇧🇪 Thomas Peeters · Brussels",
   "f": {
    "first": "Thomas",
    "last": "Peeters",
    "full": "Thomas Peeters",
-   "initials": "TP"
+   "initials": "TP",
+   "email": "thomas.peeters@email.com",
+   "phone": "+32 470 12 34 56",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Acme Benelux",
+    "ar": "أكمي بنلوكس",
+    "fr": "Acme Benelux"
+   },
+   "employer2": {
+    "en": "Acme Capital Belgium",
+    "ar": "أكمي كابيتال بلجيكا",
+    "fr": "Acme Capital Belgique"
+   },
+   "degree": {
+    "en": "Master in Business Economics (Finance)",
+    "ar": "ماجستير في اقتصاد الأعمال (تخصص مالية)",
+    "fr": "Master en sciences économiques appliquées (finance)"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Brussels. I lead IFRS and Belgian GAAP reporting and budgeting on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I work in Dutch, French and English, and I am looking for a Senior Financial Analyst or FP&A role in Brussels, Antwerp, or hybrid.",
+    "ar": "محلل مالي بخبرة 8 سنوات في بروكسل. أقود إعداد التقارير وفق معايير IFRS والمعايير المحاسبية البلجيكية، وإعداد الموازنات على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أعمل بالهولندية والفرنسية والإنجليزية، وأبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي في بروكسل أو أنتويرب أو بنظام العمل الهجين.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Bruxelles. Je pilote le reporting IFRS et en normes comptables belges ainsi que le budget sur SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une direction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting. Je travaille en néerlandais, en français et en anglais, et je recherche un poste de Senior Financial Analyst ou en FP&A à Bruxelles, à Anvers ou en mode hybride."
+   }
   }
  },
  {
@@ -298,12 +622,39 @@
   "group": "eu",
   "city": "Madrid",
   "arv": "neutral",
-  "label": " Lucía Fernández · Madrid",
+  "label": "🇪🇸 Lucía Fernández · Madrid",
   "f": {
    "first": "Lucía",
    "last": "Fernández",
    "full": "Lucía Fernández",
-   "initials": "LF"
+   "initials": "LF",
+   "email": "lucia.fernandez@email.com",
+   "phone": "+34 612 345 678",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Grupo Navacerrada",
+    "ar": "مجموعة نافاسيرادا",
+    "fr": "Groupe Navacerrada"
+   },
+   "employer2": {
+    "en": "Navacerrada Logistics",
+    "ar": "نافاسيرادا للخدمات اللوجستية",
+    "fr": "Navacerrada Logistique"
+   },
+   "degree": {
+    "en": "Bachelor's in Business Administration (ADE)",
+    "ar": "بكالوريوس في إدارة الأعمال (ADE)",
+    "fr": "Licence en administration et direction des entreprises (ADE)"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Madrid. I lead IFRS and Spanish GAAP (PGC) reporting, budgeting and forecasting on SAP across business units, and own the monthly close for a 40-person finance team. My rolling forecasts and Power BI dashboards feed every quarterly business review, and I work in Spanish and English.",
+    "ar": "محللة مالية بخبرة 8 سنوات في مدريد. أقود إعداد التقارير وفق المعايير الدولية (IFRS) والمخطط المحاسبي العام الإسباني (PGC)، وإعداد الموازنات والتوقعات على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لفريق مالي من 40 شخصًا. تُعتمد توقعاتي المتجددة ولوحات Power BI التي أعدّها في كل مراجعة ربع سنوية للأعمال، وأعمل باللغتين الإسبانية والإنجليزية.",
+    "fr": "Analyste financière forte de 8 ans d'expérience à Madrid. Je pilote le reporting IFRS et selon le plan comptable espagnol (PGC), le budget et les prévisions sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une équipe finance de 40 personnes. Mes prévisions glissantes et mes tableaux de bord Power BI alimentent chaque revue trimestrielle, et je travaille en espagnol et en anglais."
+   }
   }
  },
  {
@@ -317,12 +668,39 @@
   "group": "eu",
   "city": "Milan",
   "arv": "neutral",
-  "label": " Marco Bianchi · Milan",
+  "label": "🇮🇹 Marco Bianchi · Milan",
   "f": {
    "first": "Marco",
    "last": "Bianchi",
    "full": "Marco Bianchi",
-   "initials": "MB"
+   "initials": "MB",
+   "email": "marco.bianchi@email.com",
+   "phone": "+39 347 123 4567",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Acme Italia",
+    "ar": "أكمي إيطاليا",
+    "fr": "Acme Italia"
+   },
+   "employer2": {
+    "en": "Acme Servizi Finanziari",
+    "ar": "أكمي للخدمات المالية",
+    "fr": "Acme Servizi Finanziari"
+   },
+   "degree": {
+    "en": "MSc in Accounting, Financial Management and Control",
+    "ar": "ماجستير في المحاسبة والإدارة المالية والرقابة",
+    "fr": "Master en comptabilité, gestion financière et contrôle"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Milan. I lead IFRS and Italian GAAP (OIC) reporting and budgeting on SAP and CCH Tagetik across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I work in Italian and English, and I am looking for a Senior Financial Analyst or FP&A role in Milan, Turin or hybrid.",
+    "ar": "محلل مالي بخبرة 8 سنوات في ميلانو. أقود إعداد التقارير وفق معايير IFRS والمعايير المحاسبية الإيطالية (OIC)، وإعداد الموازنات على SAP وCCH Tagetik عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أعمل بالإيطالية والإنجليزية، وأبحث عن وظيفة محلل مالي أول أو في التخطيط والتحليل المالي في ميلانو أو تورينو أو بنظام العمل الهجين.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Milan. Je pilote le reporting en normes IFRS et en normes comptables italiennes (OIC) ainsi que le budget sur SAP et CCH Tagetik pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une direction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting. Je travaille en italien et en anglais, et je recherche un poste de Senior Financial Analyst ou en FP&A à Milan, à Turin ou en mode hybride."
+   }
   }
  },
  {
@@ -336,12 +714,39 @@
   "group": "eu",
   "city": "Warsaw",
   "arv": "neutral",
-  "label": " Katarzyna Nowak · Warsaw",
+  "label": "🇵🇱 Katarzyna Nowak · Warsaw",
   "f": {
    "first": "Katarzyna",
    "last": "Nowak",
    "full": "Katarzyna Nowak",
-   "initials": "KN"
+   "initials": "KN",
+   "email": "katarzyna.nowak@email.com",
+   "phone": "+48 512 345 678",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Powiśle Group",
+    "ar": "مجموعة بوفيشله",
+    "fr": "Groupe Powiśle"
+   },
+   "employer2": {
+    "en": "Powiśle Logistics",
+    "ar": "بوفيشله للخدمات اللوجستية",
+    "fr": "Powiśle Logistique"
+   },
+   "degree": {
+    "en": "MSc Finance and Accounting",
+    "ar": "ماجستير في المالية والمحاسبة",
+    "fr": "Master en finance et comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Warsaw. I lead IFRS and Polish GAAP reporting, budgeting and forecasting on SAP across business units, and own the monthly close for a 40-person finance team. My Power BI dashboards feed every quarterly business review, and I work in Polish and English.",
+    "ar": "محللة مالية بخبرة 8 سنوات في وارسو. أقود إعداد التقارير وفق المعايير الدولية (IFRS) والمعايير المحاسبية البولندية، والموازنات والتوقعات على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لفريق مالي من 40 شخصًا. تُعتمد لوحات Power BI التي أعدّها في كل مراجعة ربع سنوية للأعمال، وأعمل باللغتين البولندية والإنجليزية.",
+    "fr": "Analyste financière forte de 8 ans d'expérience à Varsovie. Je pilote le reporting IFRS et en normes comptables polonaises, le budget et les prévisions sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une équipe finance de 40 personnes. Mes tableaux de bord Power BI alimentent chaque revue trimestrielle, et je travaille en polonais et en anglais."
+   }
   }
  },
  {
@@ -355,12 +760,39 @@
   "group": "eu",
   "city": "Stockholm",
   "arv": "neutral",
-  "label": " Erik Lindqvist · Stockholm",
+  "label": "🇸🇪 Erik Lindqvist · Stockholm",
   "f": {
    "first": "Erik",
    "last": "Lindqvist",
    "full": "Erik Lindqvist",
-   "initials": "EL"
+   "initials": "EL",
+   "email": "erik.lindqvist@email.com",
+   "phone": "+46 70 174 06 50",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Strömkaj Group",
+    "ar": "مجموعة ستروم كاي",
+    "fr": "Groupe Strömkaj"
+   },
+   "employer2": {
+    "en": "Strömkaj Logistics",
+    "ar": "ستروم كاي للخدمات اللوجستية",
+    "fr": "Strömkaj Logistique"
+   },
+   "degree": {
+    "en": "MSc Business and Economics (Civilekonom)",
+    "ar": "ماجستير في الاقتصاد وإدارة الأعمال (Civilekonom)",
+    "fr": "Master en économie et gestion (Civilekonom)"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Stockholm. I lead IFRS and K3 (Swedish GAAP) reporting, budgeting and forecasting on SAP across business units, and own the monthly close for a 40-person finance team. My Power BI dashboards feed every quarterly business review, and I work in Swedish and English.",
+    "ar": "محلل مالي بخبرة 8 سنوات في ستوكهولم. أقود إعداد التقارير وفق المعايير الدولية (IFRS) والمعايير السويدية (K3)، والموازنات والتوقعات على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لفريق مالي من 40 شخصًا. تُعتمد لوحات Power BI التي أعدّها في كل مراجعة ربع سنوية للأعمال، وأعمل باللغتين السويدية والإنجليزية.",
+    "fr": "Analyste financier fort de 8 ans d'expérience à Stockholm. Je pilote le reporting IFRS et K3 (normes comptables suédoises), le budget et les prévisions sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une équipe finance de 40 personnes. Mes tableaux de bord Power BI alimentent chaque revue trimestrielle, et je travaille en suédois et en anglais."
+   }
   }
  },
  {
@@ -393,12 +825,39 @@
   "group": "au",
   "city": "Sydney",
   "arv": "neutral",
-  "label": " James Nguyen · Sydney",
+  "label": "🇦🇺 James Nguyen · Sydney",
   "f": {
    "first": "James",
    "last": "Nguyen",
    "full": "James Nguyen",
-   "initials": "JN"
+   "initials": "JN",
+   "email": "james.nguyen@email.com",
+   "phone": "+61 491 570 156",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Southerly Reach Group",
+    "ar": "مجموعة ساذرلي ريتش",
+    "fr": "Southerly Reach Group"
+   },
+   "employer2": {
+    "en": "Southerly Reach Logistics",
+    "ar": "ساذرلي ريتش للخدمات اللوجستية",
+    "fr": "Southerly Reach Logistics"
+   },
+   "degree": {
+    "en": "Bachelor of Commerce (Accounting and Finance)",
+    "ar": "بكالوريوس التجارة (المحاسبة والمالية)",
+    "fr": "Licence (Bachelor of Commerce) en comptabilité et finance"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Sydney. I lead AASB (IFRS) reporting and the July-June budget cycle on SAP across business units and own the monthly close for a 40-person function. I built the rolling forecasts and variance analysis that cut our reporting time by a third, and I am looking for a Senior Financial Analyst or FP&A role in Sydney or hybrid.",
+    "ar": "محلل مالي بخبرة 8 سنوات في سيدني. أقود إعداد التقارير وفق المعايير المحاسبية الأسترالية (AASB) المتوافقة مع IFRS ودورة الموازنة للسنة المالية من يوليو إلى يونيو على نظام SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة تضم 40 موظفاً. بنيتُ التوقعات المتجددة وتحليل الانحرافات التي خفّضت وقت إعداد التقارير بمقدار الثلث، وأبحث عن دور محلل مالي أول أو في التخطيط والتحليل المالي (FP&A) في سيدني أو بنظام العمل الهجين.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Sydney. Je pilote le reporting AASB (IFRS) et le cycle budgétaire de l'exercice juillet-juin sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting, et je recherche un poste d'analyste financier senior ou en FP&A à Sydney ou en hybride."
+   }
   }
  },
  {
@@ -431,12 +890,39 @@
   "group": "naf",
   "city": "Casablanca",
   "arv": "neutral",
-  "label": " Youssef El Amrani · Casablanca",
+  "label": "🇲🇦 Youssef El Amrani · Casablanca",
   "f": {
    "first": "Youssef",
    "last": "El Amrani",
    "full": "Youssef El Amrani",
-   "initials": "YA"
+   "initials": "YA",
+   "email": "youssef.elamrani@email.com",
+   "phone": "+212 6 12 34 56 78",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Arganis Group",
+    "ar": "مجموعة أرغانيس",
+    "fr": "Groupe Arganis"
+   },
+   "employer2": {
+    "en": "Arganis Distribution",
+    "ar": "أرغانيس للتوزيع",
+    "fr": "Arganis Distribution"
+   },
+   "degree": {
+    "en": "Master's in Finance and Accounting",
+    "ar": "ماستر في المالية والمحاسبة",
+    "fr": "Master Finance et Comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Casablanca. I lead IFRS and Moroccan GAAP (CGNC) reporting and budgeting on SAP across business units and own the monthly close for a 40-person finance function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in Casablanca, Rabat or remote.",
+    "ar": "محلل مالي بخبرة 8 سنوات في الدار البيضاء. أقود إعداد التقارير المالية وفق المعايير الدولية (IFRS) والمدونة العامة للتطبيع المحاسبي (CGNC) وإعداد الميزانيات على نظام SAP لعدة وحدات أعمال، وأتولى الإقفال الشهري لفريق مالي من 40 شخصًا. بنيتُ نماذج التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أبحث عن منصب محلل مالي أول أو في التخطيط والتحليل المالي (FP&A) في الدار البيضاء أو الرباط أو عن بُعد.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Casablanca. Je pilote le reporting IFRS et CGNC ainsi que le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction finance de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting. Je recherche un poste d'analyste financier senior ou en FP&A à Casablanca, à Rabat ou en télétravail."
+   }
   }
  },
  {
@@ -450,12 +936,39 @@
   "group": "naf",
   "city": "Tunis",
   "arv": "neutral",
-  "label": " Amira Ben Salah · Tunis",
+  "label": "🇹🇳 Amira Ben Salah · Tunis",
   "f": {
    "first": "Amira",
    "last": "Ben Salah",
    "full": "Amira Ben Salah",
-   "initials": "AS"
+   "initials": "AS",
+   "email": "amira.bensalah@email.com",
+   "phone": "+216 20 123 456",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Medjerda Group",
+    "ar": "مجموعة مجردة",
+    "fr": "Groupe Medjerda"
+   },
+   "employer2": {
+    "en": "Medjerda Distribution",
+    "ar": "مجردة للتوزيع",
+    "fr": "Medjerda Distribution"
+   },
+   "degree": {
+    "en": "Master's in Finance",
+    "ar": "ماجستير في المالية",
+    "fr": "Mastère en finance"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Tunis. I lead budgeting and IFRS group reporting on SAP across business units, alongside statutory accounts under Tunisian standards, and own the monthly close for a 25-person finance function. I build Power BI dashboards that help management steer margins and cash.",
+    "ar": "محللة مالية بخبرة 8 سنوات في تونس. أقود إعداد الميزانيات والتقارير المجمّعة وفق المعايير الدولية IFRS على SAP عبر وحدات الأعمال، إلى جانب القوائم المالية وفق المعايير المحاسبية التونسية، وأتولى الإقفال الشهري لإدارة مالية تضم 25 شخصاً. أبني لوحات Power BI تساعد الإدارة على متابعة الهوامش والسيولة.",
+    "fr": "Analyste financière avec 8 ans d'expérience à Tunis. Je pilote le budget et le reporting groupe IFRS sous SAP pour plusieurs business units, en parallèle des comptes sociaux selon les normes comptables tunisiennes, et je suis responsable de la clôture mensuelle d'une fonction finance de 25 personnes. Je conçois des tableaux de bord Power BI qui aident la direction à piloter les marges et la trésorerie."
+   }
   }
  },
  {
@@ -469,12 +982,39 @@
   "group": "naf",
   "city": "Algiers",
   "arv": "neutral",
-  "label": " Karim Benali · Algiers",
+  "label": "🇩🇿 Karim Benali · Algiers",
   "f": {
    "first": "Karim",
    "last": "Benali",
    "full": "Karim Benali",
-   "initials": "KB"
+   "initials": "KB",
+   "email": "karim.benali@email.com",
+   "phone": "+213 555 12 34 56",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Hodnis Group",
+    "ar": "مجموعة هودنيس",
+    "fr": "Groupe Hodnis"
+   },
+   "employer2": {
+    "en": "Hodnis Distribution",
+    "ar": "هودنيس للتوزيع",
+    "fr": "Hodnis Distribution"
+   },
+   "degree": {
+    "en": "Master's in Finance and Accounting",
+    "ar": "ماستر في المالية والمحاسبة",
+    "fr": "Master Finance et Comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Algiers. I lead SCF and IFRS reporting and budgeting on SAP across business units and own the monthly close for a 40-person finance function. I built the rolling forecasts and variance analysis that cut our reporting time by a third. I am looking for a Senior Financial Analyst or FP&A role in Algiers, Oran or remote.",
+    "ar": "محلل مالي بخبرة 8 سنوات في الجزائر العاصمة. أقود إعداد التقارير المالية وفق النظام المحاسبي المالي (SCF) والمعايير الدولية (IFRS) وإعداد الميزانيات على نظام SAP لعدة وحدات أعمال، وأتولى الإقفال الشهري لفريق مالي من 40 شخصًا. بنيتُ نماذج التوقعات المتجددة وتحليل الانحرافات التي قلّصت وقت إعداد التقارير بمقدار الثلث. أبحث عن منصب محلل مالي أول أو في التخطيط والتحليل المالي (FP&A) في الجزائر العاصمة أو وهران أو عن بُعد.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Alger. Je pilote le reporting SCF et IFRS ainsi que le budget sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction finance de 40 personnes. J'ai mis en place les prévisions glissantes et l'analyse des écarts qui ont réduit d'un tiers notre temps de reporting. Je recherche un poste d'analyste financier senior ou en FP&A à Alger, à Oran ou en télétravail."
+   }
   }
  },
  {
@@ -488,12 +1028,39 @@
   "group": "naf",
   "city": "Tripoli",
   "arv": "neutral",
-  "label": " Huda El-Mabrouk · Tripoli",
+  "label": "🇱🇾 Huda El-Mabrouk · Tripoli",
   "f": {
    "first": "Huda",
    "last": "El-Mabrouk",
    "full": "Huda El-Mabrouk",
-   "initials": "HM"
+   "initials": "HM",
+   "email": "huda.elmabrouk@email.com",
+   "phone": "+218 91 123 4567",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Lebda Group",
+    "ar": "مجموعة لبدة",
+    "fr": "Groupe Lebda"
+   },
+   "employer2": {
+    "en": "Lebda Trading",
+    "ar": "لبدة للتجارة",
+    "fr": "Lebda Trading"
+   },
+   "degree": {
+    "en": "BSc Accounting",
+    "ar": "بكالوريوس في المحاسبة",
+    "fr": "Licence en comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Tripoli. I lead budgeting and IFRS reporting on SAP across business units, alongside local statutory accounts, and own the monthly close for a 30-person finance function. I build Power BI dashboards that help management track costs, cash and foreign-currency exposure.",
+    "ar": "محللة مالية بخبرة 8 سنوات في طرابلس. أقود إعداد الميزانيات والتقارير المالية وفق المعايير الدولية IFRS على نظام SAP عبر وحدات الأعمال، إلى جانب القوائم المالية النظامية المحلية، وأتولى الإقفال الشهري لإدارة مالية تضم 30 موظفاً. أبني لوحات Power BI تساعد الإدارة على متابعة التكاليف والسيولة والتعرّض لمخاطر العملات الأجنبية.",
+    "fr": "Analyste financière avec 8 ans d'expérience à Tripoli. Je pilote le budget et le reporting IFRS sous SAP pour plusieurs business units, en parallèle des comptes statutaires locaux, et je suis responsable de la clôture mensuelle d'une fonction finance de 30 personnes. Je conçois des tableaux de bord Power BI qui aident la direction à suivre les coûts, la trésorerie et l'exposition au risque de change."
+   }
   }
  },
  {
@@ -507,12 +1074,39 @@
   "group": "lev",
   "city": "Amman",
   "arv": "neutral",
-  "label": " Khaled Haddad · Amman",
+  "label": "🇯🇴 Khaled Haddad · Amman",
   "f": {
    "first": "Khaled",
    "last": "Haddad",
    "full": "Khaled Haddad",
-   "initials": "KH"
+   "initials": "KH",
+   "email": "khaled.haddad@email.com",
+   "phone": "+962 79 123 4567",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Zahran Holding Group",
+    "ar": "مجموعة زهران القابضة",
+    "fr": "Groupe Zahran Holding"
+   },
+   "employer2": {
+    "en": "Zahran Trading",
+    "ar": "زهران للتجارة",
+    "fr": "Zahran Trading"
+   },
+   "degree": {
+    "en": "BSc Accounting",
+    "ar": "بكالوريوس في المحاسبة",
+    "fr": "Licence en comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Amman. I lead IFRS reporting and budgeting on SAP across business units and own the monthly close for a 20-person finance function. I build Power BI dashboards that help management track margins, costs and cash.",
+    "ar": "محلل مالي بخبرة 8 سنوات في عمّان. أقود إعداد التقارير المالية وفق المعايير الدولية IFRS والموازنات على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة مالية تضم 20 شخصاً. أبني لوحات Power BI تساعد الإدارة على متابعة الهوامش والتكاليف والسيولة.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Amman. Je pilote le reporting IFRS et le budget sous SAP pour plusieurs business units et je suis responsable de la clôture mensuelle d'une fonction finance de 20 personnes. Je conçois des tableaux de bord Power BI qui aident la direction à suivre les marges, les coûts et la trésorerie."
+   }
   }
  },
  {
@@ -526,12 +1120,39 @@
   "group": "lev",
   "city": "Beirut",
   "arv": "neutral",
-  "label": " Nour Khoury · Beirut",
+  "label": "🇱🇧 Nour Khoury · Beirut",
   "f": {
    "first": "Nour",
    "last": "Khoury",
    "full": "Nour Khoury",
-   "initials": "NK"
+   "initials": "NK",
+   "email": "nour.khoury@email.com",
+   "phone": "+961 71 123 456",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محللة مالية",
+    "fr": "Analyste financière"
+   },
+   "employer": {
+    "en": "Afqa Group",
+    "ar": "مجموعة أفقا",
+    "fr": "Groupe Afqa"
+   },
+   "employer2": {
+    "en": "Afqa Distribution",
+    "ar": "أفقا للتوزيع",
+    "fr": "Afqa Distribution"
+   },
+   "degree": {
+    "en": "BBA in Finance",
+    "ar": "بكالوريوس في إدارة الأعمال، اختصاص مالية",
+    "fr": "Licence en gestion (BBA), option finance"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Beirut. I lead IFRS reporting, including IAS 29 hyperinflation adjustments, and USD/LBP budgeting on SAP across business units, and I own the monthly close for a 20-person finance function. I build Power BI dashboards that help management steer margins and cash.",
+    "ar": "محللة مالية بخبرة 8 سنوات في بيروت. أقود إعداد التقارير المالية وفق المعايير الدولية IFRS، بما فيها تعديلات التضخم المفرط وفق المعيار IAS 29، وإعداد الموازنات بالدولار والليرة على SAP عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة مالية تضم 20 شخصاً. أبني لوحات Power BI تساعد الإدارة على متابعة الهوامش والسيولة.",
+    "fr": "Analyste financière avec 8 ans d'expérience à Beyrouth. Je pilote le reporting IFRS, y compris les retraitements d'hyperinflation selon IAS 29, ainsi que les budgets en dollars et en livres sous SAP pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction finance de 20 personnes. Je conçois des tableaux de bord Power BI qui aident la direction à piloter les marges et la trésorerie."
+   }
   }
  },
  {
@@ -545,12 +1166,39 @@
   "group": "lev",
   "city": "Baghdad",
   "arv": "neutral",
-  "label": " Ali Al-Jubouri · Baghdad",
+  "label": "🇮🇶 Ali Al-Jubouri · Baghdad",
   "f": {
    "first": "Ali",
    "last": "Al-Jubouri",
    "full": "Ali Al-Jubouri",
-   "initials": "AJ"
+   "initials": "AJ",
+   "email": "ali.aljubouri@email.com",
+   "phone": "+964 790 123 4567",
+   "title": {
+    "en": "Financial Analyst",
+    "ar": "محلل مالي",
+    "fr": "Analyste financier"
+   },
+   "employer": {
+    "en": "Jadriya Holding Group",
+    "ar": "مجموعة الجادرية القابضة",
+    "fr": "Groupe Jadriya Holding"
+   },
+   "employer2": {
+    "en": "Jadriya Trading",
+    "ar": "الجادرية للتجارة",
+    "fr": "Jadriya Trading"
+   },
+   "degree": {
+    "en": "BSc Accounting",
+    "ar": "بكالوريوس في المحاسبة",
+    "fr": "Licence en comptabilité"
+   },
+   "bio": {
+    "en": "Financial Analyst with 8 years in Baghdad. I lead IFRS and Unified Accounting System reporting and budgeting on Oracle across business units and own the monthly close for a 25-person finance function. I build Power BI dashboards that help management track margins, costs and cash in dinars and dollars.",
+    "ar": "محلل مالي بخبرة 8 سنوات في بغداد. أقود إعداد التقارير المالية وفق المعايير الدولية IFRS والنظام المحاسبي الموحد، وإعداد الموازنات على Oracle عبر وحدات الأعمال، وأتولى الإقفال الشهري لإدارة مالية تضم 25 شخصاً. أبني لوحات Power BI تساعد الإدارة على متابعة الهوامش والتكاليف والسيولة بالدينار والدولار.",
+    "fr": "Analyste financier avec 8 ans d'expérience à Bagdad. Je pilote le reporting en IFRS et selon le système comptable unifié irakien ainsi que le budget sous Oracle pour plusieurs business units, et je suis responsable de la clôture mensuelle d'une fonction finance de 25 personnes. Je conçois des tableaux de bord Power BI qui aident la direction à suivre les marges, les coûts et la trésorerie en dinars et en dollars."
+   }
   }
  },
  {
@@ -565,7 +1213,7 @@
   "group": "x",
   "city": "Cairo",
   "arv": "neutral",
-  "label": "🌐→🇸🇦 Hassan Mahmoud · Cairo",
+  "label": "🌐→🇸🇦🇦🇪 Hassan Mahmoud · Cairo",
   "f": {
    "first": "Hassan",
    "last": "Mahmoud",
@@ -585,7 +1233,7 @@
   "group": "x",
   "city": "Bengaluru",
   "arv": "neutral",
-  "label": "🌐→ Priya Nair · Bengaluru",
+  "label": "🌐→🇦🇪🇶🇦 Priya Nair · Bengaluru",
   "f": {
    "first": "Priya",
    "last": "Nair",
@@ -605,7 +1253,7 @@
   "group": "x",
   "city": "Dubai",
   "arv": "gulf",
-  "label": "🌐→🇸🇦 Rami Saleh · Dubai",
+  "label": "🇦🇪→🇦🇪🇸🇦 Rami Saleh · Dubai",
   "f": {
    "first": "Rami",
    "last": "Saleh",
@@ -625,7 +1273,7 @@
   "group": "x",
   "city": "Casablanca",
   "arv": "neutral",
-  "label": "🌐→ Salma Idrissi · Casablanca",
+  "label": "🇲🇦→🇫🇷🇧🇪 Salma Idrissi · Casablanca",
   "f": {
    "first": "Salma",
    "last": "Idrissi",

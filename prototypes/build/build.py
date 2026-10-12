@@ -83,9 +83,26 @@ def main():
         pk['price'] = b.get('price', pk.get('price'))
         packs[code] = pk
     personas = load(os.path.join(HERE, 'markets', 'personas.json'), [])
-    tok = {L: load(os.path.join(HERE, 'i18n', f'tok-{L}.json'), {}) for L in ('en', 'gulf', 'neutral', 'fr')}
-    tokobj = load(os.path.join(HERE, 'i18n', 'tokobj.json'), {})
-    newkeys = {L: load(os.path.join(HERE, 'i18n', f'newkeys-{L}.json'), {}) for L in ('en', 'gulf', 'neutral', 'fr')}
+    LANGS = ('en', 'gulf', 'neutral', 'fr')
+    I18N = os.path.join(HERE, 'i18n')
+    # tokenized dictionary: whole-language files + per-chunk parts {key: {en, gulf, neutral, fr}}
+    tok = {L: load(os.path.join(I18N, f'tok-{L}.json'), {}) for L in LANGS}
+    for fp in sorted(glob.glob(os.path.join(I18N, 'parts', 'tok-*.json'))):
+        for k, v in load(fp, {}).items():
+            for L in LANGS:
+                if isinstance(v, dict) and v.get(L) is not None:
+                    tok[L][k] = v[L]
+    # inline {en,ar} structures: tokobj.json + tokobj-parts/NAME.json ({NAME: structure})
+    tokobj = load(os.path.join(I18N, 'tokobj.json'), {})
+    for fp in sorted(glob.glob(os.path.join(I18N, 'tokobj-parts', '*.json'))):
+        tokobj.update(load(fp, {}))
+    # v6-only keys: newkeys-L.json + newkeys-parts/*.json ({key: {en, gulf, neutral, fr}})
+    newkeys = {L: load(os.path.join(I18N, f'newkeys-{L}.json'), {}) for L in LANGS}
+    for fp in sorted(glob.glob(os.path.join(I18N, 'newkeys-parts', '*.json'))):
+        for k, v in load(fp, {}).items():
+            for L in LANGS:
+                if isinstance(v, dict) and v.get(L) is not None:
+                    newkeys[L][k] = v[L]
 
     data = ('<script>/* ==== v6 market data ==== */\n'
             f'window.MARKET_BASE={js_json(base)};\n'

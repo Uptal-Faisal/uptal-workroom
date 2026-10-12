@@ -177,3 +177,19 @@ and picks "Residence visa through my employer".
   Place names follow local spelling: أبوظبي as one word, as UAE government usage writes it, and رأس الخيمة.
 - French uses vouvoiement. Place names: Dubaï, Abou Dhabi (the common press form; the official toponymy form is
   "Abou Dabi"), Charjah, Ras el Khaïmah, Al-Aïn, Fujaïrah. Company names stay in their original form.
+
+## Fact-check pass (2026-10-12)
+Web search and page fetches were unavailable for this pass (search budget used up, proxy blocks fetches), so
+claims were checked against prior knowledge (to mid-2026) only. Changes:
+- `rights.opts[5].sub` now names the UAE job-seeker visa (ICP, 60/90/120 days) next to the visit visa: both
+  groups need an employer to sponsor them.
+- `sensitive.notes`: Decree-Law 33/2021 Art. 4 lists race, colour, sex, religion, national or social origin
+  and disability ("national origin", not "nationality").
+- e& logo background set to e& red (`#E00800`) instead of black; still approximate.
+Confirmed from prior knowledge, no change: VAT 5% with tax-inclusive consumer prices; MOHRE's 12 permit types
+(UAE/GCC national, Golden Visa holder and family-sponsored permits exist); Green Visa (5 yrs, AED 15k,
+bachelor's, skill level 1-3); Emiratisation 2% a year for 50+ staff to 10% by end-2026, contribution rising by
+AED 1,000 a month each year to AED 10,000 in 2026; notice 30-90 days; Ramadan hours minus 2; Mon-Fri week;
+employer names current (Sukoon, e&, talabat, PureHealth). Not verifiable here (post-mid-2026): Jaywan issuance
+and gateway dates, the July 2026 Emiratisation report, JobXDubai July 2026 figures. City order after Sharjah
+(RAK, Al Ain, Ajman, Fujairah) is a judgement call, not measured.
